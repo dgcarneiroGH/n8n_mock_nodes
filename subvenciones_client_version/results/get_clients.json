@@ -1,0 +1,26 @@
+[
+  {
+    "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+    "name": "María Casado",
+    "url": "https://www.notion.so/Mar-a-Casado-33d83f947b2c80bead7dc75118378e6b",
+    "property_provincia": "Madrid",
+    "property_tipo_beneficiario": ["Asociación", "Autónomo"],
+    "property_sectores": ["Música", "Juventud"],
+    "property_correo_electr_nico": "dgcarneiro93@gmail.com",
+    "property_subvenciones_encontradas": [],
+    "property_ccaa": "Madrid",
+    "property_nombre": "María Casado"
+  },
+  {
+    "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+    "name": "Diego Carneiro",
+    "url": "https://www.notion.so/Diego-Carneiro-34183f947b2c80daa7eedf8b5b7a40e5",
+    "property_provincia": "Pontevedra",
+    "property_tipo_beneficiario": ["Autónomo"],
+    "property_sectores": ["Tecnología", "Sostenibilidad"],
+    "property_correo_electr_nico": "dgcarneiro93@gmail.com",
+    "property_subvenciones_encontradas": [],
+    "property_ccaa": "Galicia",
+    "property_nombre": "Diego Carneiro"
+  }
+]
