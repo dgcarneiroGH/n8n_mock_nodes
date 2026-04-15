@@ -18,7 +18,7 @@ const clientes = filterRegiones;
 const forbiddenWords = {
   "musica": ["deporte", "deportes", "circo", "teatro", "teatrales", "circenses", "danza", "traduccion", "deportivas"],
   "juventud": ["asuntos sociales", "periodismo", "videojuego", "podcast", "eso", "primaria", "alumnado"],
-  "tecnologia": ["obra civil", "mantenimiento ferroviario", "infraestructuras viarias", "maquinaria pesada"],
+  "tecnologia": ["obra civil", "mantenimiento ferroviario", "infraestructuras viarias", "maquinaria pesada","infraestructuras","infraestructura","empleados/as publicos/as","centros tecnologicos"],
   "sostenibilidad": ["inia", "biodiversidad", "residuos"]
 };
 
