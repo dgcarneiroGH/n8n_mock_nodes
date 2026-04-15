@@ -9,9 +9,9 @@ try {
   process.exit(1);
 }
 
-// Emula el comportamiento de n8n: extrae la propiedad 'json' si existe, si no, asume que es el objeto directo
-const organizations = organizationsRaw.map(item => item.json ? item.json : item);
-const clients = clientsRaw.map(item => item.json ? item.json : item);
+// Sustituye esto por la injección de datos real en N8N. Ej:$input.all().map(item => item.json)
+const organizations = organizationsRaw;
+const clients = clientsRaw;
 
 // --- INICIO DE LA LÓGICA DEL NODO ---
 
@@ -104,6 +104,7 @@ for (const client of clients) {
 
 // --- FIN DE LA LÓGICA DEL NODO ---
 
+//Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync('./results/filter_organismos.json', JSON.stringify(processedClients, null, 2), 'utf8');
   console.log("✅ ¡Éxito! El archivo resultado.json se ha creado o actualizado correctamente en tu carpeta.");
