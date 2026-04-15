@@ -63,7 +63,8 @@ for (let i = 0; i < clientes.length; i++) {
     descripcion: grant.descripcion,
     fechaRecepcion: grant.fechaRecepcion,
     organo: grant.nivel3,
-    enlace_oficial: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grant.numeroConvocatoria}`
+    url_html: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grant.numeroConvocatoria}`,
+    url_api:`https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grant.numeroConvocatoria}&vpd=GE`
   }));
 
   processedClients.push({
