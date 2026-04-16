@@ -28,3 +28,14 @@ Asegúrate de tener la siguiente estructura antes de ejecutar el script:
 3. Sustituye la lectura/escritura de archivos por el uso de los datos que recibe el nodo y devuelve como resultado.
 
 Así puedes desarrollar, depurar y validar la lógica de forma rápida y segura antes de integrarla en tu flujo de n8n.
+
+## ▶️ Ejecución del flujo completo
+
+Para ejecutar todos los scripts en orden y generar todos los archivos de resultados automáticamente, utiliza el script `run_all.js`:
+
+```bash
+cd subvenciones_client_version
+node run_all.js
+```
+
+Esto ejecutará todos los pasos en orden (01, 02, 03, 04, 05 etc.) y detendrá el proceso si ocurre algún error.

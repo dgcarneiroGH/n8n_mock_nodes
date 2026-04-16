@@ -95,7 +95,8 @@ for (const client of clients) {
       client:{
         id: client.id,
         name: client.property_nombre,
-        sectors: client.property_sectores
+        sectors: client.property_sectores,
+        beneficiary_type: client.property_tipo_beneficiario
       },
       organizations: uniqueOrgs,
       organizations_api_ids: apiIds    

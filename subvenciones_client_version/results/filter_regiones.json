@@ -6,6 +6,10 @@
       "sectors": [
         "Música",
         "Juventud"
+      ],
+      "beneficiary_type": [
+        "Asociación",
+        "Autónomo"
       ]
     },
     "organizations": [
@@ -497,6 +501,9 @@
       "sectors": [
         "Tecnología",
         "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "Autónomo"
       ]
     },
     "organizations": [

@@ -6,6 +6,10 @@
       "Música",
       "Juventud"
     ],
+    "beneficiary_type": [
+      "Asociación",
+      "Autónomo"
+    ],
     "subvenciones": [
       {
         "numeroConvocatoria": "897944",
@@ -111,6 +115,9 @@
     "sectors": [
       "Tecnología",
       "Sostenibilidad"
+    ],
+    "beneficiary_type": [
+      "Autónomo"
     ],
     "subvenciones": [
       {

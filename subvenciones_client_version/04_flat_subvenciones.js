@@ -24,7 +24,8 @@ const results = clientes.flatMap(client =>
     client:{
       id: client.id,
       name: client.name,
-      sectors: client.sectors
+      sectors: client.sectors,
+      beneficiary_type: client.beneficiary_type
     }
   }))
 );
