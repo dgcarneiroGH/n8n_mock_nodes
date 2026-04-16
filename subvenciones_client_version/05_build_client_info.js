@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-let getSubvencionesDataRaw, flatSubvencionesRaw;
+let loopSubvencionesRaw, flatSubvencionesRaw;
 try {
-  getSubvencionesDataRaw = JSON.parse(fs.readFileSync('./results/loop_subvenciones.json', 'utf8'));
+  loopSubvencionesRaw = JSON.parse(fs.readFileSync('./results/loop_subvenciones.json', 'utf8'));
   flatSubvencionesRaw = JSON.parse(fs.readFileSync('./results/flat_subvenciones.json', 'utf8'));
 } catch (error) {
   console.error("Error loading JSON files.", error.message);
@@ -10,21 +10,25 @@ try {
 }
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
-const getSubvencionesData = getSubvencionesDataRaw;
+const loopSubvenciones = loopSubvencionesRaw;
 const flatSubvenciones = flatSubvencionesRaw;
 
 //#region Node Logic
-
-
-// Map each grant ID to an array of all announcement URLs, only if announcements is not empty
 function getGrantUrlsMap(grantData) {
   return Object.fromEntries(
     grantData
       .filter(e => e.codigoBDNS && Array.isArray(e.anuncios) && e.anuncios.length > 0)
-      .map(e => [
-        String(e.codigoBDNS),
-        e.anuncios.map(a => a.url).filter(Boolean)
-      ])
+      .map(e => {
+        // Sort anuncios by datPublicacion ascending (oldest first)
+        const sortedAnuncios = [...e.anuncios].sort((a, b) => {
+          if (!a.datPublicacion || !b.datPublicacion) return 0;
+          return a.datPublicacion.localeCompare(b.datPublicacion);
+        });
+        return [
+          String(e.codigoBDNS),
+          sortedAnuncios.map(a => a.url).filter(Boolean)
+        ];
+      })
   );
 }
 
@@ -52,7 +56,7 @@ function getGrantPureTextUrlsMap(urlsMap) {
 }
 
 
-const urlsMap = getGrantUrlsMap(getSubvencionesData);
+const urlsMap = getGrantUrlsMap(loopSubvenciones);
 const pureTextUrlsMap = getGrantPureTextUrlsMap(urlsMap);
 
 const result = flatSubvenciones
