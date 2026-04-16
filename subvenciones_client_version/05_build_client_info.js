@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let getSubvencionesDataRaw, flatSubvencionesRaw;
 try {
-  getSubvencionesDataRaw = JSON.parse(fs.readFileSync('./results/get_subvenciones_data.json', 'utf8'));
+  getSubvencionesDataRaw = JSON.parse(fs.readFileSync('./results/loop_subvenciones.json', 'utf8'));
   flatSubvencionesRaw = JSON.parse(fs.readFileSync('./results/flat_subvenciones.json', 'utf8'));
 } catch (error) {
   console.error("Error loading JSON files.", error.message);
@@ -14,19 +14,58 @@ const getSubvencionesData = getSubvencionesDataRaw;
 const flatSubvenciones = flatSubvencionesRaw;
 
 //#region Node Logic
-// Map each grant ID to the last announcement URL, only if anuncios is not empty
-const urlMap = Object.fromEntries(
-  getSubvencionesData
-    .filter(e => e.codigoBDNS && Array.isArray(e.anuncios) && e.anuncios.length > 0)
-    .map(e => [String(e.codigoBDNS), e.anuncios[e.anuncios.length - 1].url])
-);
 
-// Only include grants whose convocatoria has anuncios (i.e., is in urlMap)
+
+// Map each grant ID to an array of all announcement URLs, only if announcements is not empty
+function getGrantUrlsMap(grantData) {
+  return Object.fromEntries(
+    grantData
+      .filter(e => e.codigoBDNS && Array.isArray(e.anuncios) && e.anuncios.length > 0)
+      .map(e => [
+        String(e.codigoBDNS),
+        e.anuncios.map(a => a.url).filter(Boolean)
+      ])
+  );
+}
+
+
+function extractBoePureTextUrl(url) {
+  if (!url) return null;
+  const boeIdMatch = url.match(/c=(BOE-[A-Z]-\d{4}-\d+)/);
+  if (boeIdMatch) {
+    const boeId = boeIdMatch[1];
+    return `https://www.boe.es/diario_boe/txt.php?id=${boeId}`;
+  }
+  return null;
+}
+
+
+// Map each grant ID to an array of all pure text BOE URLs
+function getGrantPureTextUrlsMap(urlsMap) {
+  const result = {};
+  for (const [code, urls] of Object.entries(urlsMap)) {
+    result[code] = Array.isArray(urls)
+      ? urls.map(extractBoePureTextUrl).filter(Boolean)
+      : [];
+  }
+  return result;
+}
+
+
+const urlsMap = getGrantUrlsMap(getSubvencionesData);
+const pureTextUrlsMap = getGrantPureTextUrlsMap(urlsMap);
+
 const result = flatSubvenciones
-  .filter(item => urlMap.hasOwnProperty(String(item.numeroConvocatoria)))
+  .filter(item => pureTextUrlsMap.hasOwnProperty(String(item.numeroConvocatoria)))
   .map(item => ({
-    ...item,
-    url_boe: urlMap[String(item.numeroConvocatoria)]
+    grant: {
+      id: item.numeroConvocatoria,
+      title: item.descripcion_oficial,
+      reception_date: item.fechaRecepcion,
+      agency: item.organo,
+      boe_urls: pureTextUrlsMap[String(item.numeroConvocatoria)]
+    },
+    client: item.client
   }));
 //#endregion
 
