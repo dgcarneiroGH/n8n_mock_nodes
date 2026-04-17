@@ -1,0 +1,14 @@
+[
+  {
+    "json": {
+      "url_nager": "https://date.nager.at/api/v3/PublicHolidays/2026/ES",
+      "year": 2026
+    }
+  },
+  {
+    "json": {
+      "url_nager": "https://date.nager.at/api/v3/PublicHolidays/2027/ES",
+      "year": 2027
+    }
+  }
+]
