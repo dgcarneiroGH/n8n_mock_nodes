@@ -1,53 +1,71 @@
-const fs = require('fs');
+const fs = require("fs");
 
 let loopBoeRaw, clientInfoRaw;
 try {
-  loopBoeRaw = JSON.parse(fs.readFileSync('./results/loop_boe.json', 'utf8'));
-  clientInfoRaw = JSON.parse(fs.readFileSync('./results/build_client_info.json', 'utf8'));
+  loopBoeRaw = JSON.parse(fs.readFileSync("./results/loop_boe.json", "utf8"));
+  clientInfoRaw = JSON.parse(
+    fs.readFileSync("./results/build_client_info.json", "utf8"),
+  );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
   process.exit(1);
 }
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
-const loopBoe = loopBoeRaw.map(item => item.json ? item.json : item);
-const clientInfo = clientInfoRaw.map(item => item.json ? item.json : item);
-
-
+const loopBoe = loopBoeRaw.map((item) => (item.json ? item.json : item));
+const clientInfo = clientInfoRaw.map((item) => (item.json ? item.json : item));
 
 //#region Node Logic
-// Primero, agrupamos las subvenciones por cliente
 const grantsByClientId = {};
+
 clientInfo.forEach(({ grant, client }) => {
-  const grantId = grant.id;
-  const boeText = (loopBoe.find(
-    entry => typeof entry.texto_boe === 'string' && entry.texto_boe.includes(grantId)
-  ) || {}).texto_boe || null;
+  const grantCode = grant.code;
+  const boeText =
+    (
+      loopBoe.find(
+        (entry) =>
+          typeof entry.texto_boe === "string" &&
+          entry.texto_boe.includes(grantCode),
+      ) || {}
+    ).texto_boe || null;
 
   if (!grantsByClientId[client.id]) {
     grantsByClientId[client.id] = {
-      ...client,
-      grants: []
+      client: {
+        id: client.id,
+        name: client.name,
+      },
+      grants: [],
     };
   }
   grantsByClientId[client.id].grants.push({
-    id: grant.id,
+    code: grant.code,
     title: grant.title,
-    reception_date: grant.reception_date,
     agency: grant.agency,
-    boe_text: boeText
+    url: grant.portal_url,
+    dates: {
+      publicationDate: grant.publication_date,
+      startDate: grant.calculated_start_date,
+      endDate: grant.calculated_end_date,
+    },
+    boeText: boeText,
   });
 });
 
-// Si hay clientes sin subvenciones, los añadimos con grants: []
+// Add clients without grants
 const allClientIds = new Set(clientInfo.map(({ client }) => client.id));
-Object.values(grantsByClientId).forEach(clientObj => allClientIds.delete(clientObj.id));
-// Si hay algún cliente sin subvenciones, añadirlo
+Object.values(grantsByClientId).forEach((clientObj) => {
+  allClientIds.delete(clientObj.client.id);
+});
+
 clientInfo.forEach(({ client }) => {
   if (!grantsByClientId[client.id]) {
     grantsByClientId[client.id] = {
-      ...client,
-      grants: []
+      client: {
+        id: client.id,
+        name: client.name,
+      },
+      grants: [],
     };
   }
 });
@@ -56,8 +74,14 @@ const mergedResults = Object.values(grantsByClientId);
 //#endregion
 
 try {
-  fs.writeFileSync('./results/merge_final_data.json', JSON.stringify(mergedResults, null, 2), 'utf8');
-  console.log("✅ ¡Éxito! Cruce completado. Revisa results/merged_final_data.json");
+  fs.writeFileSync(
+    "./results/merge_final_data.json",
+    JSON.stringify(mergedResults, null, 2),
+    "utf8",
+  );
+  console.log(
+    "✅ ¡Éxito! Cruce completado. Revisa results/merged_final_data.json",
+  );
 } catch (err) {
   console.error("❌ Error al guardar el archivo:", err.message);
 }
