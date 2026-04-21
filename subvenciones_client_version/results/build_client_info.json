@@ -1,36 +1,16 @@
 [
   {
     "grant": {
-      "id": "897944",
-      "title": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan las Ayudas Injuve para la Creación Joven, año 2026-2027",
-      "reception_date": "2026-04-09",
-      "agency": "INSTITUTO DE LA JUVENTUD",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-11220"
-      ]
-    },
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "897213",
+      "code": "897213",
       "title": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
-      "reception_date": "2026-04-07",
       "agency": "INSTITUTO DE LA JUVENTUD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897213",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10920"
-      ]
+      ],
+      "publication_date": "2026-04-07",
+      "calculated_start_date": "2026-04-10",
+      "calculated_end_date": "2026-05-08"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -41,19 +21,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "894813",
+      "code": "894813",
       "title": "Resolución de 18 de marzo de 2026 de la Secretaría de Estado de Cultura, por la que se convocan ayudas a la música y la lírica, correspondientes al año 2026",
-      "reception_date": "2026-03-24",
       "agency": "DIRECCIÓN GENERAL DE ARTES ESCÉNICAS Y MÚSICA",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894813",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-9398"
-      ]
+      ],
+      "publication_date": "2026-03-24",
+      "calculated_start_date": "2026-03-25",
+      "calculated_end_date": "2026-04-14"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -64,20 +47,23 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "883452",
+      "code": "883452",
       "title": "Resolución de 29 de diciembre de 2025 de la Subsecretaría de Cultura, por la que se convocan las ayudas a salas de música en directo correspondientes al año 2026",
-      "reception_date": "2026-01-26",
       "agency": "SUBSECRETARÍA DE CULTURA",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/883452",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-2272",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-3101"
-      ]
+      ],
+      "publication_date": "2026-01-26",
+      "calculated_start_date": "2026-01-27",
+      "calculated_end_date": "2026-02-16"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -88,42 +74,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "855209",
-      "title": "Resolución de 22 de agosto de 2025 de la Subsecretaría de Cultura por la que se convocan las becas Formarte, de formación y especialización en materias culturales para el año 2026-2027.",
-      "reception_date": "2025-09-05",
-      "agency": "SUBSECRETARÍA DE CULTURA",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-32236"
-      ]
-    },
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "843167",
+      "code": "843167",
       "title": "Resolución de 25 de junio de 2025 del Instituto Nacional de las Artes Escénicas y de la Música por la que se convocan las ayudas de concesión directa para entidades del ámbito de las artes escénicas y la música afectadas por la DANA",
-      "reception_date": "2025-06-30",
       "agency": "INSTITUTO NACIONAL DE LAS ARTES ESCÉNICAS Y DE LA MÚSICA",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/843167",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-25048"
-      ]
+      ],
+      "publication_date": "2025-06-30",
+      "calculated_start_date": "2025-07-01",
+      "calculated_end_date": "2025-07-09"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -134,19 +100,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "842745",
+      "code": "842745",
       "title": "RESOLUCIÓN DE 27 DE JUNIO DE 2025 DEL INSTITUTO DE LA JUVENTUD, POR LA QUE SE CONVOCA LA CONCESIÓN DE AYUDAS PARA LA REALIZACIÓN DE ACTIVIDADES FINANCIADAS POR LA COMISIÓN EUROPEA EN EL CAPÍTULO DE JUVENTUD DEL PROGRAMA «ERASMUS+» DURANTE 2025",
-      "reception_date": "2025-06-27",
       "agency": "INSTITUTO DE LA JUVENTUD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/842745",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-25049"
-      ]
+      ],
+      "publication_date": "2025-06-27",
+      "calculated_start_date": "2025-02-12",
+      "calculated_end_date": "2025-10-01"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -157,19 +126,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "840137",
+      "code": "840137",
       "title": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas para la realización de actividades financiadas por la Comisión Europea del Programa «Cuerpo Europeo de Solidaridad», para 2025",
-      "reception_date": "2025-06-13",
       "agency": "INSTITUTO DE LA JUVENTUD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/840137",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-22776"
-      ]
+      ],
+      "publication_date": "2025-06-13",
+      "calculated_start_date": "2025-02-20",
+      "calculated_end_date": "2025-10-01"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -180,19 +152,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "828125",
+      "code": "828125",
       "title": "Resolución del Instituto de la Juventud, por la que se convoca la concesión de subvenciones para el mantenimiento y funcionamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal, 25",
-      "reception_date": "2025-04-22",
       "agency": "INSTITUTO DE LA JUVENTUD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/828125",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-15065"
-      ]
+      ],
+      "publication_date": "2025-04-22",
+      "calculated_start_date": "2025-04-28",
+      "calculated_end_date": "2025-05-28"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -203,42 +178,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "823936",
-      "title": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan las Ayudas Injuve para la Creación Joven, año 2025-2026",
-      "reception_date": "2025-03-31",
-      "agency": "INSTITUTO DE LA JUVENTUD",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-12969"
-      ]
-    },
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "819650",
+      "code": "819650",
       "title": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2025",
-      "reception_date": "2025-03-11",
       "agency": "INSTITUTO DE LA JUVENTUD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/819650",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-9144"
-      ]
+      ],
+      "publication_date": "2025-03-11",
+      "calculated_start_date": "2025-03-14",
+      "calculated_end_date": "2025-04-10"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
@@ -249,19 +204,22 @@
       ],
       "beneficiary_type": [
         "Asociación",
-        "Autónomo"
+        "PYME"
       ]
     }
   },
   {
     "grant": {
-      "id": "896999",
+      "code": "896999",
       "title": "Resolución de 6 de abril de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas Neotec",
-      "reception_date": "2026-04-06",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896999",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10827"
-      ]
+      ],
+      "publication_date": "2026-04-06",
+      "calculated_start_date": "2026-04-14",
+      "calculated_end_date": "2026-05-14"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -271,19 +229,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "893025",
+      "code": "893025",
       "title": "Resolución de 13 de marzo de 2026 de la Dirección General del CDTI de concesión directa de ayudas del año 2026 a proyectos de I+D seleccionados en los Programas internacionales Eurostars 3, Asociaciones Cofinanciadas.",
-      "reception_date": "2026-03-13",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893025",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-8297"
-      ]
+      ],
+      "publication_date": "2026-03-13",
+      "calculated_start_date": "2026-03-18",
+      "calculated_end_date": "2026-07-17"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -293,42 +255,24 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "890566",
-      "title": "Resolución de la Secretaría de Estado de Ciencia, Innovación y Universidades de 21 de febrero de 2026, por la que se convocan ayudas para la cofinanciación en 2027 de agentes locales de innovación en ayuntamientos de ciudades miembros de la Red Innpulso.",
-      "reception_date": "2026-03-02",
-      "agency": "SECRETARÍA GENERAL DE INNOVACIÓN",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-6631"
-      ]
-    },
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "874651",
+      "code": "874651",
       "title": "Resolución de 10 de diciembre de 2025 de la Presidencia del CDTI E.P.E., por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a Ecosistemas de Innovación y Transferencia.",
-      "reception_date": "2025-12-12",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874651",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-46176",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-7477"
-      ]
+      ],
+      "publication_date": "2025-12-12",
+      "calculated_start_date": "2025-12-17",
+      "calculated_end_date": "2026-03-11"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -338,19 +282,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "865483",
+      "code": "865483",
       "title": "Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos).",
-      "reception_date": "2025-10-29",
       "agency": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865483",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-39644"
-      ]
+      ],
+      "publication_date": "2025-10-29",
+      "calculated_start_date": "2025-10-30",
+      "calculated_end_date": "2026-03-31"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -360,19 +308,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "850341",
+      "code": "850341",
       "title": "Resolución de 5 de agosto de 2025 de la Presidencia del CDTI, por la que se aprueba la convocatoria para 2025 de ayudas destinadas a Acciones de Dinamización de la Innovación para municipios integrados en el área de influencia del Espacio Natural Doñana",
-      "reception_date": "2025-08-05",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/850341",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-28813"
-      ]
+      ],
+      "publication_date": "2025-08-05",
+      "calculated_start_date": "2025-08-28",
+      "calculated_end_date": "2025-09-30"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -382,19 +334,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "849340",
+      "code": "849340",
       "title": "Resolución de 29 de julio de 2025 de la Presidencia del CDTI por la que se aprueba la convocatoria 2025 del procedimiento de concesión de ayudas destinadas a Proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL)",
-      "reception_date": "2025-07-30",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/849340",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-28587"
-      ]
+      ],
+      "publication_date": "2025-07-30",
+      "calculated_start_date": "2025-08-26",
+      "calculated_end_date": "2025-09-26"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -404,19 +360,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "848058",
+      "code": "848058",
       "title": "Resolución de la EPE Red.es para la que se convocan las ayudas 2025 destinadas a proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales y su integración en las cadenas de valor",
-      "reception_date": "2025-07-23",
       "agency": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/848058",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-27766"
-      ]
+      ],
+      "publication_date": "2025-07-23",
+      "calculated_start_date": "2025-07-24",
+      "calculated_end_date": "2025-09-30"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -426,19 +386,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "841185",
+      "code": "841185",
       "title": "Resolución de 18 de junio de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de investigación y desarrollo seleccionados en las convocatorias competitivas internacionales del programa EuroHPC",
-      "reception_date": "2025-06-19",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/841185",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-23167"
-      ]
+      ],
+      "publication_date": "2025-06-19",
+      "calculated_start_date": "2025-06-26",
+      "calculated_end_date": "2025-07-04"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -448,19 +412,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "839514",
+      "code": "839514",
       "title": "Resolución de 11 de junio de 2025, del Consejo de Administración de E.P.E. Instituto para la Diversificación y Ahorro de la Energía (IDAE), M.P. por la que se aprueba la primera convocatoria de ayudas al impulso de la economía circular de bienes de equipo",
-      "reception_date": "2025-06-12",
       "agency": "INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/839514",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-24527"
-      ]
+      ],
+      "publication_date": "2025-06-12",
+      "calculated_start_date": "2025-07-08",
+      "calculated_end_date": "2025-09-16"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -470,42 +438,24 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "839103",
-      "title": "Resolución de 23 de junio de 2025 de la Secretaría de Estado de Agricultura y Alimentación, por la que se convocan subvenciones destinadas a entidades de mujeres rurales de ámbito nacional para el ejercicio 2025.",
-      "reception_date": "2025-06-11",
-      "agency": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-23947"
-      ]
-    },
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "834244",
+      "code": "834244",
       "title": "Resolución de 22 de mayo de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a proyectos de I+D Misiones Ciencia e Innovación.",
-      "reception_date": "2025-05-21",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/834244",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-19035",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-31062"
-      ]
+      ],
+      "publication_date": "2025-05-21",
+      "calculated_start_date": "2025-05-29",
+      "calculated_end_date": "2025-07-01"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -515,20 +465,24 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "829858",
+      "code": "829858",
       "title": "Resolución de 30 de abril de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas Neotec",
-      "reception_date": "2025-04-30",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/829858",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-16139",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-31063"
-      ]
+      ],
+      "publication_date": "2025-04-30",
+      "calculated_start_date": "2025-05-12",
+      "calculated_end_date": "2025-06-12"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -538,22 +492,26 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "825543",
+      "code": "825543",
       "title": "Resolución de 4 de abril de 2025 de la Presidencia del CDTI E.P.E. por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas destinadas a las actuaciones Consorcios Regionales (INNTERCONECTA-STEP), cofinanciada FEDER",
-      "reception_date": "2025-04-07",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/825543",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-13129",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-17378",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-6844",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-7607"
-      ]
+      ],
+      "publication_date": "2025-04-07",
+      "calculated_start_date": "2025-04-11",
+      "calculated_end_date": "2025-05-21"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -563,20 +521,24 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "824808",
+      "code": "824808",
       "title": "Resolución de 3 de abril de 2025 de la Dirección General del CDTI, E.P.E., de concesión directa de ayudas a los proyectos españoles que hayan obtenido Sello de Excelencia en las convocatorias del Acelerador-Consejo Europeo de Innovación.",
-      "reception_date": "2025-04-03",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/824808",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-13362",
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-16535"
-      ]
+      ],
+      "publication_date": "2025-04-03",
+      "calculated_start_date": "2025-04-09",
+      "calculated_end_date": "2025-05-13"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -586,64 +548,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "824133",
-      "title": "Resolución de 27 de marzo, por la que se convocan para el ejercicio 2025, las subvenciones destinadas al programa Cultiva, relativo a estancias formativas de jóvenes agricultores en explotaciones modelo",
-      "reception_date": "2025-04-01",
-      "agency": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-12098",
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-26327"
-      ]
-    },
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "822704",
-      "title": "Resolución de la Secretaría de Estado de Ciencia, Innovación y Universidades, por la que se convocan ayudas destinadas a la cofinanciación de agentes locales de innovación en ciudades de la Red Innpulso.",
-      "reception_date": "2025-03-25",
-      "agency": "SECRETARÍA GENERAL DE INNOVACIÓN",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-11631"
-      ]
-    },
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "821006",
+      "code": "821006",
       "title": "Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025",
-      "reception_date": "2025-03-18",
       "agency": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/821006",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-17352"
-      ]
+      ],
+      "publication_date": "2025-03-18",
+      "calculated_start_date": "2025-05-14",
+      "calculated_end_date": "2025-06-03"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -653,19 +574,23 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   },
   {
     "grant": {
-      "id": "817056",
+      "code": "817056",
       "title": "Resolución de 25 de febrero de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de I+D seleccionados en los programas Eurostars-3 y Asociaciones Cofinanciadas",
-      "reception_date": "2025-02-26",
       "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/817056",
       "boe_urls": [
         "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-7106"
-      ]
+      ],
+      "publication_date": "2025-02-26",
+      "calculated_start_date": "2025-03-07",
+      "calculated_end_date": "2025-03-21"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -675,29 +600,8 @@
         "Sostenibilidad"
       ],
       "beneficiary_type": [
-        "Autónomo"
-      ]
-    }
-  },
-  {
-    "grant": {
-      "id": "815528",
-      "title": "Resolución de la entidad pública empresarial Red.es por la que se convocan las Ayudas 2025 para la creación de la red de Oficinas Acelera PYME",
-      "reception_date": "2025-02-18",
-      "agency": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-      "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-6510"
-      ]
-    },
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "Autónomo"
+        "PYME",
+        "Particular"
       ]
     }
   }

@@ -369,6 +369,14 @@
     "sectoresProductos": [],
     "documentos": [
       {
+        "id": 1436422,
+        "descripcion": "Resolución de corrección de errores de la convocatoria de ayudas a la música y la lírica 2026",
+        "nombreFic": "report_Correccion de errores música y lírica.pdf",
+        "long": 150240,
+        "datMod": "2026-04-16",
+        "datPublicacion": "2026-04-16"
+      },
+      {
         "id": 1422451,
         "descripcion": "Documento de la convocatoria en español",
         "nombreFic": "report_DGAEM_Ayudas_a_la_musica_y_la_lirica_2026.pdf",
@@ -3221,18 +3229,18 @@
         "datPublicacion": "2026-01-08"
       },
       {
-        "id": 1313895,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "Convocatoria Misiones 2025_22 mayo firmada.pdf",
-        "long": 478051,
-        "datMod": "2025-08-28",
-        "datPublicacion": "2025-08-28"
-      },
-      {
         "id": 1313896,
         "descripcion": "Resolución de ampliación de crédito_Misiones y Neotec 2025.pdf",
         "nombreFic": "Resolución de ampliación de crédito_Misiones y Neotec 2025.pdf",
         "long": 210147,
+        "datMod": "2025-08-28",
+        "datPublicacion": "2025-08-28"
+      },
+      {
+        "id": 1313895,
+        "descripcion": "Texto en castellano de la convocatoria",
+        "nombreFic": "Convocatoria Misiones 2025_22 mayo firmada.pdf",
+        "long": 478051,
         "datMod": "2025-08-28",
         "datPublicacion": "2025-08-28"
       }

@@ -18,13 +18,10 @@ const loopSubvenciones = loopSubvencionesRaw;
 const filterSubvenciones = filterSubvencionesRaw;
 
 //#region Node Logic
-
-// Simple mapping from beneficiary_type to grantBeneficiaryTypes
 const synonymMap = {
   "Asociación": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
   "ONG": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
   "PYME": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA",
-  "Autónomo": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA",
   "Particular": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
   "Empresa": "GRAN EMPRESA",
 };
@@ -48,9 +45,10 @@ for (const client of filterSubvenciones) {
     const grantBeneficiaryTypes = (match.tiposBeneficiarios || []).map(
       (t) => t.descripcion,
     );
-    const hasMatch = grantBeneficiaryTypes.some((type) =>
-      validTypes.includes(type),
-    );
+    const noInfo = grantBeneficiaryTypes.includes("SIN INFORMACION ESPECIFICA");
+
+    const hasMatch =
+      noInfo || grantBeneficiaryTypes.some((type) => validTypes.includes(type));
     if (hasMatch) {
       accepted.push({
         codigoBDNS: grant.numeroConvocatoria,

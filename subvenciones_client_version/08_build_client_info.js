@@ -1,9 +1,22 @@
-const fs = require('fs');
+const fs = require("fs");
 
-let loopSubvencionesRaw, flatSubvencionesRaw;
+let loopSubvencionesRaw,
+  flatSubvencionesRaw,
+  filterBenefactorsRaw,
+  formatAgentResponseToJSONRaw;
 try {
-  loopSubvencionesRaw = JSON.parse(fs.readFileSync('./results/loop_subvenciones.json', 'utf8'));
-  flatSubvencionesRaw = JSON.parse(fs.readFileSync('./results/flat_subvenciones.json', 'utf8'));
+  loopSubvencionesRaw = JSON.parse(
+    fs.readFileSync("./results/loop_subvenciones.json", "utf8"),
+  );
+  flatSubvencionesRaw = JSON.parse(
+    fs.readFileSync("./results/flat_subvenciones.json", "utf8"),
+  );
+  filterBenefactorsRaw = JSON.parse(
+    fs.readFileSync("./results/filter_benefactors.json", "utf8"),
+  );
+  formatAgentResponseToJSONRaw = JSON.parse(
+    fs.readFileSync("./results/format_agent_response_to_json.json", "utf8"),
+  );
 } catch (error) {
   console.error("Error loading JSON files.", error.message);
   process.exit(1);
@@ -12,13 +25,18 @@ try {
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
 const loopSubvenciones = loopSubvencionesRaw;
 const flatSubvenciones = flatSubvencionesRaw;
+const filterBenefactors = filterBenefactorsRaw;
+const formatAgentResponseToJSON = formatAgentResponseToJSONRaw;
 
 //#region Node Logic
 function getGrantUrlsMap(grantData) {
   return Object.fromEntries(
     grantData
-      .filter(e => e.codigoBDNS && Array.isArray(e.anuncios) && e.anuncios.length > 0)
-      .map(e => {
+      .filter(
+        (e) =>
+          e.codigoBDNS && Array.isArray(e.anuncios) && e.anuncios.length > 0,
+      )
+      .map((e) => {
         // Sort anuncios by datPublicacion ascending (oldest first)
         const sortedAnuncios = [...e.anuncios].sort((a, b) => {
           if (!a.datPublicacion || !b.datPublicacion) return 0;
@@ -26,12 +44,11 @@ function getGrantUrlsMap(grantData) {
         });
         return [
           String(e.codigoBDNS),
-          sortedAnuncios.map(a => a.url).filter(Boolean)
+          sortedAnuncios.map((a) => a.url).filter(Boolean),
         ];
-      })
+      }),
   );
 }
-
 
 function extractBoePureTextUrl(url) {
   if (!url) return null;
@@ -42,7 +59,6 @@ function extractBoePureTextUrl(url) {
   }
   return null;
 }
-
 
 // Map each grant ID to an array of all pure text BOE URLs
 function getGrantPureTextUrlsMap(urlsMap) {
@@ -55,28 +71,57 @@ function getGrantPureTextUrlsMap(urlsMap) {
   return result;
 }
 
-
 const urlsMap = getGrantUrlsMap(loopSubvenciones);
 const pureTextUrlsMap = getGrantPureTextUrlsMap(urlsMap);
 
+// Only include grants whose numeroConvocatoria is in filterBenefactors.accepted
+const acceptedCodes = new Set(
+  filterBenefactors.accepted.map((g) => g.codigoBDNS),
+);
+
+// Build a map from code to agent response for quick lookup
+const agentResponseMap = {};
+for (const entry of formatAgentResponseToJSON) {
+  if (entry && entry.code) {
+    agentResponseMap[String(entry.code)] = entry;
+  }
+}
+
 const result = flatSubvenciones
-  .filter(item => pureTextUrlsMap.hasOwnProperty(String(item.numeroConvocatoria)))
-  .map(item => ({
-    grant: {
-      id: item.numeroConvocatoria,
-      title: item.descripcion_oficial,
-      reception_date: item.fechaRecepcion,
-      agency: item.organo,
-      boe_urls: pureTextUrlsMap[String(item.numeroConvocatoria)]
-    },
-    client: item.client
-  }));
+  .filter(
+    (item) =>
+      acceptedCodes.has(String(item.numeroConvocatoria)) &&
+      pureTextUrlsMap.hasOwnProperty(String(item.numeroConvocatoria)),
+  )
+  .map((item) => {
+    const code = String(item.numeroConvocatoria);
+    const agentData = agentResponseMap[code] || {};
+    return {
+      grant: {
+        code: item.numeroConvocatoria,
+        title: item.descripcion_oficial,
+        agency: item.organo,
+        portal_url: item.url_html,
+        boe_urls: pureTextUrlsMap[code],
+        publication_date: agentData.publication_date || null,
+        calculated_start_date: agentData.calculated_start_date || null,
+        calculated_end_date: agentData.calculated_end_date || null,
+      },
+      client: item.client,
+    };
+  });
 //#endregion
 
 //Sustituye esto por el return de datos correspondiente
 try {
-  fs.writeFileSync('./results/build_client_info.json', JSON.stringify(result, null, 2), 'utf8');
-  console.log("✅ Association complete. Check results/final_client_subsidies.json");
+  fs.writeFileSync(
+    "./results/build_client_info.json",
+    JSON.stringify(result, null, 2),
+    "utf8",
+  );
+  console.log(
+    "✅ Association complete. Check results/final_client_subsidies.json",
+  );
 } catch (err) {
   console.error("❌ Error saving file:", err.message);
 }
