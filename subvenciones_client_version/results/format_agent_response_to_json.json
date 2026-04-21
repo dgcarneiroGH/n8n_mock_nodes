@@ -3,7 +3,7 @@
     "code": "897944",
     "publication_date": "2026-04-09",
     "calculated_start_date": "2026-04-10",
-    "calculated_end_date": "2026-05-11"
+    "calculated_end_date": "2026-05-08"
   },
   {
     "code": "897213",
@@ -15,19 +15,19 @@
     "code": "894813",
     "publication_date": "2026-03-24",
     "calculated_start_date": "2026-03-25",
-    "calculated_end_date": "2026-04-15"
+    "calculated_end_date": "2026-04-14"
   },
   {
     "code": "883452",
     "publication_date": "2026-01-26",
     "calculated_start_date": "2026-01-27",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-02-16"
   },
   {
     "code": "855209",
     "publication_date": "2025-09-05",
     "calculated_start_date": "2025-09-08",
-    "calculated_end_date": "2025-09-29"
+    "calculated_end_date": "2025-09-26"
   },
   {
     "code": "846752",
@@ -39,7 +39,7 @@
     "code": "843167",
     "publication_date": "2025-06-30",
     "calculated_start_date": "2025-07-01",
-    "calculated_end_date": "2025-07-10"
+    "calculated_end_date": "2025-07-09"
   },
   {
     "code": "842745",
@@ -93,7 +93,7 @@
     "code": "890566",
     "publication_date": "2026-03-02",
     "calculated_start_date": "2026-03-03",
-    "calculated_end_date": "2026-03-24"
+    "calculated_end_date": "2026-03-23"
   },
   {
     "code": "874651",
@@ -105,31 +105,31 @@
     "code": "865483",
     "publication_date": "2025-10-29",
     "calculated_start_date": "2025-10-30",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-03-31"
   },
   {
     "code": "865474",
     "publication_date": "2025-10-29",
     "calculated_start_date": "2025-10-30",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-03-31"
   },
   {
     "code": "865470",
     "publication_date": "2025-10-29",
     "calculated_start_date": "2025-10-30",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-03-31"
   },
   {
     "code": "865464",
     "publication_date": "2025-10-29",
     "calculated_start_date": "2025-10-30",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-03-31"
   },
   {
     "code": "865457",
     "publication_date": "2025-10-29",
     "calculated_start_date": "2025-10-30",
-    "calculated_end_date": null
+    "calculated_end_date": "2026-03-31"
   },
   {
     "code": "850341",
@@ -147,7 +147,7 @@
     "code": "848058",
     "publication_date": "2025-07-23",
     "calculated_start_date": "2025-07-24",
-    "calculated_end_date": null
+    "calculated_end_date": "2025-09-30"
   },
   {
     "code": "841185",
@@ -207,7 +207,7 @@
     "code": "823917",
     "publication_date": "2025-03-31",
     "calculated_start_date": "2025-04-01",
-    "calculated_end_date": "2025-04-15"
+    "calculated_end_date": "2025-04-14"
   },
   {
     "code": "822704",
@@ -231,7 +231,7 @@
     "code": "815528",
     "publication_date": "2025-02-18",
     "calculated_start_date": "2025-02-19",
-    "calculated_end_date": null
+    "calculated_end_date": "2025-03-20"
   },
   {
     "code": "810608",
@@ -244,5 +244,10 @@
     "publication_date": "2025-01-23",
     "calculated_start_date": "2024-01-01",
     "calculated_end_date": "2024-12-31"
+  },
+  {
+    "error": "Failed to parse JSON",
+    "original_text": "[{\"code\":\"999999\",\"publication_date\":\"2026-12-31\",\"calculated_start_date\":\"2027-01-01\",\"calculated_end_date\":\"2027-01-31\"}, {MALFORMED_JSON}]",
+    "details": "Expected property name or '}' in JSON at position 125 (line 1 column 126)"
   }
 ]

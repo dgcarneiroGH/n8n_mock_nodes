@@ -1,0 +1,332 @@
+{
+  "grants_to_process": [
+    {
+      "bdnsCode": "897944",
+      "receptionDate": "2026-04-09",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "Al día siguiente de la publicación del Extracto en el BOE",
+      "endText": "20 días hábiles a partir del día siguiente a la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "897213",
+      "receptionDate": "2026-04-07",
+      "applicationStartDate": "2026-04-10",
+      "applicationEndDate": "2026-05-08",
+      "startText": "Al día siguiente de su publicación en el BOE",
+      "endText": "Pasados 20 días hábiles a partir del día siguiente de su publicación en el BOE"
+    },
+    {
+      "bdnsCode": "894813",
+      "receptionDate": "2026-03-24",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "A partir del día siguiente al de la publicación del extracto en el BOE",
+      "endText": "15 días hábiles desde el inicio del plazo de solicitud"
+    },
+    {
+      "bdnsCode": "883452",
+      "receptionDate": "2026-01-26",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "Desde el día siguiente de la publicación del extracto de la convocatoria en BOE",
+      "endText": "Quince días hábiles desde el día siguiente de la publicación de la convocatoria en BOE"
+    },
+    {
+      "bdnsCode": "855209",
+      "receptionDate": "2025-09-05",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "A partir del día hábil siguiente a la publicación del extracto de la convocatoria en el BOE.",
+      "endText": "A los 15 días hábiles siguientes, finalizando el plazo a las 23.59 horas del último día."
+    },
+    {
+      "bdnsCode": "846752",
+      "receptionDate": "2025-07-17",
+      "applicationStartDate": "2025-07-18",
+      "applicationEndDate": "2025-08-01",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "843167",
+      "receptionDate": "2025-06-30",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "A partir del día siguiente al de la publicación del extracto en el BOE",
+      "endText": "7 días hábiles desde el inicio del plazo de solicitud "
+    },
+    {
+      "bdnsCode": "842745",
+      "receptionDate": "2025-06-27",
+      "applicationStartDate": "2025-02-12",
+      "applicationEndDate": "2025-10-01",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "840137",
+      "receptionDate": "2025-06-13",
+      "applicationStartDate": "2025-02-20",
+      "applicationEndDate": "2025-10-01",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "828125",
+      "receptionDate": "2025-04-22",
+      "applicationStartDate": "2025-04-28",
+      "applicationEndDate": "2025-05-28",
+      "startText": "El día siguiente a la publicación del extracto en el BOE",
+      "endText": "Veinte días hábiles desde el siguiente a la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "823936",
+      "receptionDate": "2025-03-31",
+      "applicationStartDate": "2025-04-09",
+      "applicationEndDate": "2025-05-12",
+      "startText": "Al día siguiente de la publicación del Extracto en el BOE",
+      "endText": "20 días hábiles a partir del día siguiente a la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "819650",
+      "receptionDate": "2025-03-11",
+      "applicationStartDate": "2025-03-14",
+      "applicationEndDate": "2025-04-10",
+      "startText": "Al día siguiente de su publicación en el BOE",
+      "endText": "Pasados 20 días hábiles a partir del día siguiente de su publicación en el BOE"
+    },
+    {
+      "bdnsCode": "896999",
+      "receptionDate": "2026-04-06",
+      "applicationStartDate": "2026-04-14",
+      "applicationEndDate": "2026-05-14",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "893795",
+      "receptionDate": "2026-03-18",
+      "applicationStartDate": "2025-01-01",
+      "applicationEndDate": "2025-12-31",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "893025",
+      "receptionDate": "2026-03-13",
+      "applicationStartDate": "2026-03-18",
+      "applicationEndDate": "2026-07-17",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "890566",
+      "receptionDate": "2026-03-02",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "dia siguiente a publicación",
+      "endText": "15 dias hábiles desde el siguiente a publicación"
+    },
+    {
+      "bdnsCode": "874651",
+      "receptionDate": "2025-12-12",
+      "applicationStartDate": "2025-12-17",
+      "applicationEndDate": "2026-03-11",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "865483",
+      "receptionDate": "2025-10-29",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "11:00 h del primer día laborable tras la publicación del extracto de la convocatoria en BOE",
+      "endText": "31 de marzo de 2026 a las 11:00 horas, o cuando se agote el crédito presupuestario"
+    },
+    {
+      "bdnsCode": "865474",
+      "receptionDate": "2025-10-29",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "11:00 h del primer día laborable tras la publicación del extracto de la convocatoria en BOE",
+      "endText": "31 de marzo de 2026 a las 11:00 horas, o cuando se agote el crédito presupuestario"
+    },
+    {
+      "bdnsCode": "865470",
+      "receptionDate": "2025-10-29",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "11:00 h del primer día laborable tras la publicación del extracto de la convocatoria en BOE",
+      "endText": "31 de marzo de 2026 a las 11:00 horas, o cuando se agote el crédito presupuestario"
+    },
+    {
+      "bdnsCode": "865464",
+      "receptionDate": "2025-10-29",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "11:00 h del primer día laborable tras la publicación del extracto de la convocatoria en BOE",
+      "endText": "31 de marzo de 2026 a las 11:00 horas, o cuando se agote el crédito presupuestario"
+    },
+    {
+      "bdnsCode": "865457",
+      "receptionDate": "2025-10-29",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "A las 11:00 horas del primer día laborable siguiente al de la publicación del extracto de la Convoca",
+      "endText": "31 de marzo de 2026 a las 11:00 horas, o cuando se agote el crédito presupuestario"
+    },
+    {
+      "bdnsCode": "850341",
+      "receptionDate": "2025-08-05",
+      "applicationStartDate": "2025-08-28",
+      "applicationEndDate": "2025-09-30",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "849340",
+      "receptionDate": "2025-07-30",
+      "applicationStartDate": "2025-08-26",
+      "applicationEndDate": "2025-09-26",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "848058",
+      "receptionDate": "2025-07-23",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "al día siguiente a la publicación del extracto de la convocatoria en el BOE",
+      "endText": "30 de septiembre de 2025 a las 12:00 horas"
+    },
+    {
+      "bdnsCode": "841185",
+      "receptionDate": "2025-06-19",
+      "applicationStartDate": "2025-06-26",
+      "applicationEndDate": "2025-07-04",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "839514",
+      "receptionDate": "2025-06-12",
+      "applicationStartDate": "2025-07-08",
+      "applicationEndDate": "2025-09-16",
+      "startText": "Desde las 12:00 horas del mediodía (hora peninsular) del martes 8 de julio de 2025",
+      "endText": "Hasta 12:00 horas del mediodía (hora peninsular) del martes 16 de septiembre de 2025"
+    },
+    {
+      "bdnsCode": "839103",
+      "receptionDate": "2025-06-11",
+      "applicationStartDate": "2025-06-26",
+      "applicationEndDate": "2025-07-23",
+      "startText": "El día siguiente al de la publicación del extracto en el BOE",
+      "endText": "20 días hábiles contados a partir del día siguiente al de la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "834244",
+      "receptionDate": "2025-05-21",
+      "applicationStartDate": "2025-05-29",
+      "applicationEndDate": "2025-07-01",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "831641",
+      "receptionDate": "2025-05-09",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "22/05/2025",
+      "endText": "23/06/2025"
+    },
+    {
+      "bdnsCode": "829858",
+      "receptionDate": "2025-04-30",
+      "applicationStartDate": "2025-05-12",
+      "applicationEndDate": "2025-06-12",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "825543",
+      "receptionDate": "2025-04-07",
+      "applicationStartDate": "2025-04-11",
+      "applicationEndDate": "2025-05-21",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "824808",
+      "receptionDate": "2025-04-03",
+      "applicationStartDate": "2025-04-09",
+      "applicationEndDate": "2025-05-13",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "824133",
+      "receptionDate": "2025-04-01",
+      "applicationStartDate": "2025-04-03",
+      "applicationEndDate": "2025-04-16",
+      "startText": "El día siguiente al de la publicación del extracto en el BOE",
+      "endText": "10 días hábiles contados a partir del día siguiente al de la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "823917",
+      "receptionDate": "2025-03-31",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "El día siguiente al de la publicación del extracto en el BOE",
+      "endText": "10 días hábiles contados a partir del día siguiente al de la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "822704",
+      "receptionDate": "2025-03-25",
+      "applicationStartDate": "2025-03-31",
+      "applicationEndDate": "2025-04-22",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "821006",
+      "receptionDate": "2025-03-18",
+      "applicationStartDate": "2025-05-14",
+      "applicationEndDate": "2025-06-03",
+      "startText": "El día siguiente al de la publicación del extracto en el BOE",
+      "endText": "15 días hábiles contados a partir del día siguiente al de la publicación del extracto en el BOE"
+    },
+    {
+      "bdnsCode": "817056",
+      "receptionDate": "2025-02-26",
+      "applicationStartDate": "2025-03-07",
+      "applicationEndDate": "2025-03-21",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "815528",
+      "receptionDate": "2025-02-18",
+      "applicationStartDate": null,
+      "applicationEndDate": null,
+      "startText": "al día siguiente a la publicación del extracto de la convocatoria en el BOE",
+      "endText": "treinta días naturales, desde el día siguiente al de la publicación del extracto en BOE"
+    },
+    {
+      "bdnsCode": "810608",
+      "receptionDate": "2025-01-23",
+      "applicationStartDate": "2024-01-01",
+      "applicationEndDate": "2024-12-31",
+      "startText": null,
+      "endText": null
+    },
+    {
+      "bdnsCode": "810602",
+      "receptionDate": "2025-01-23",
+      "applicationStartDate": "2024-01-01",
+      "applicationEndDate": "2024-12-31",
+      "startText": null,
+      "endText": null
+    }
+  ]
+}
