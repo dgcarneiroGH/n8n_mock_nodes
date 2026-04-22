@@ -1,0 +1,232 @@
+[
+  {
+    "grants": [
+      {
+        "code": "897213",
+        "description": "Ayuda de 20.000€ destinada a los diez primeros seleccionados para apoyar y facilitar la consolidación de proyectos de empresa innovadores y viables liderados por jóvenes de hasta 35 años con empresas ya constituidas.",
+        "requirements": [
+          "Personas físicas o jurídicas con nacionalidad española o residencia legal en España.",
+          "No superar la edad de 35 años en la fecha límite de presentación (aplicable a personas físicas y al representante legal en caso de personas jurídicas).",
+          "En caso de persona jurídica, el capital social debe pertenecer mayoritariamente (51%) a jóvenes que no superen los 35 años.",
+          "La empresa debe tener una antigüedad máxima de tres años y mínima de uno en la fecha límite de presentación.",
+          "El domicilio social y la actividad principal deben estar en territorio español.",
+          "Aportar carácter innovador en el proyecto."
+        ]
+      },
+      {
+        "code": "894813",
+        "description": "Ayudas a la música y la lírica para preservar y difundir el patrimonio musical y lírico dentro y fuera de España mediante giras, festivales, residencias artísticas, temporadas líricas y encargos de composición.",
+        "requirements": [
+          "Personas físicas o jurídicas, públicas o privadas.",
+          "Tener establecimiento permanente en la UE o EEE.",
+          "No ser residente en paraísos fiscales.",
+          "Personas, entidades y agrupaciones indicadas en el artículo 2.2 de la Orden CUL/2912/2010."
+        ]
+      },
+      {
+        "code": "883452",
+        "description": "Ayudas para financiar inversiones de mejora en instalaciones y equipamiento, promoción de la digitalización y el uso de nuevas tecnologías en salas de música en directo de pequeño y mediano formato.",
+        "requirements": [
+          "Personas jurídicas con ánimo de lucro (nacionalidad española, UE o EEE con residencia fiscal en España) o personas físicas inscritas en RETA.",
+          "Tener la condición de pequeña empresa o microempresa.",
+          "El recinto debe tener un aforo máximo de 3.000 personas.",
+          "Tener una antigüedad mínima de 3 años y un número mínimo de días de programación.",
+          "Ostentar la titularidad de la gestión de la sala al menos hasta el 31 de diciembre de 2028.",
+          "No ser Administración Pública, ente público, entidad sin ánimo de lucro, AIE, CB, UTE ni empresa adjudicataria de servicios en espacios públicos.",
+          "No incurrir en prohibiciones del artículo 13 de la Ley General de Subvenciones ni prácticas o políticas discriminatorias."
+        ]
+      },
+      {
+        "code": "843167",
+        "description": "Ayudas de concesión directa de hasta 25.000 euros para apoyar la recuperación de entidades del ámbito de las artes escénicas y la música afectadas por la DANA, sufragando gastos realizados entre octubre de 2024 y diciembre de 2025.",
+        "requirements": [
+          "Personas físicas o jurídicas privadas del ámbito de las artes escénicas y de la música.",
+          "Su actividad principal debe figurar en los códigos CNAE 5920, 9001, 9002, 9003 o 9004 antes del Real Decreto-ley 8/2024.",
+          "La actividad debe haberse visto afectada como consecuencia de la DANA.",
+          "Haber sufrido daños materiales en sus bienes inmuebles en localidades del anexo del Real Decreto-Ley 6/2024."
+        ]
+      },
+      {
+        "code": "842745",
+        "description": "Subvenciones del programa Erasmus+ (capítulo Juventud) para financiar proyectos de movilidad y cooperación que promuevan la ciudadanía activa, inclusión, entendimiento mutuo y participación juvenil en Europa.",
+        "requirements": [
+          "Registro previo de los solicitantes según el procedimiento de la Guía del Programa.",
+          "Presentación de solicitud electrónica mediante formularios específicos en la web de la Agencia Nacional.",
+          "Cumplir los requisitos de admisibilidad y valoración específicos para cada Acción según la Guía del Programa Erasmus+."
+        ]
+      },
+      {
+        "code": "840137",
+        "description": "Ayudas del programa Cuerpo Europeo de Solidaridad para incentivar proyectos de voluntariado y proyectos solidarios que fomenten la cohesión, democracia y la inclusión social en Europa.",
+        "requirements": [
+          "Registro previo según el procedimiento establecido en la guía del programa.",
+          "Presentación de solicitud electrónica mediante formularios específicos en el sitio web de la Agencia Nacional Española.",
+          "Para proyectos de voluntariado, las organizaciones deben estar acreditadas con el Sello de Calidad.",
+          "Cumplir los requisitos generales y específicos de elegibilidad, exclusión y selección de la guía del programa."
+        ]
+      },
+      {
+        "code": "828125",
+        "description": "Subvenciones de ámbito estatal para fomentar el movimiento asociativo juvenil, contribuyendo a los gastos de mantenimiento y funcionamiento de las sedes e infraestructuras centrales de las organizaciones juveniles.",
+        "requirements": [
+          "Ser entidad u organización no gubernamental legalmente constituida e inscrita (asociación juvenil, sección juvenil o entidad prestadora de servicios a la juventud).",
+          "Tener ámbito de actuación estatal según estatutos.",
+          "Acreditar tener sede abierta y en funcionamiento en varias Comunidades Autónomas.",
+          "Carecer de fines de lucro.",
+          "Estar al corriente en obligaciones tributarias y de la Seguridad Social.",
+          "Haber justificado correctamente subvenciones anteriores del Instituto de la Juventud.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones (art. 13 LGS)."
+        ]
+      },
+      {
+        "code": "819650",
+        "description": "Ayuda de 20.000€ a los diez primeros seleccionados para facilitar la consolidación de proyectos empresariales innovadores y viables liderados por jóvenes con empresas constituidas de entre uno y tres años de antigüedad.",
+        "requirements": [
+          "Jóvenes de nacionalidad española o residentes legales, ya sean personas físicas o jurídicas.",
+          "En personas físicas o representantes legales de personas jurídicas, no superar los 35 años.",
+          "Para personas jurídicas, el 51% del capital social debe pertenecer a jóvenes menores de 35 años.",
+          "Empresa ya constituida con antigüedad máxima de tres años y mínima de uno a la fecha límite de presentación.",
+          "Domicilio social y actividad principal en España.",
+          "Aportar carácter innovador al proyecto."
+        ]
+      }
+    ]
+  },
+  {
+    "grants": [
+      {
+        "code": "896999",
+        "description": "Ayudas Neotec para la puesta en marcha de nuevos proyectos empresariales de empresas innovadoras que requieran el uso de tecnologías desarrolladas a partir de la investigación.",
+        "requirements": [
+          "Sociedades mercantiles consideradas pequeñas empresas",
+          "Cumplir requisitos de empresa innovadora",
+          "Estar válidamente constituidas, con personalidad jurídica propia y domicilio fiscal en España"
+        ]
+      },
+      {
+        "code": "893025",
+        "description": "Concesión directa de ayudas a proyectos de I+D aprobados en las convocatorias internacionales Eurostars-3 (CoD9 y CoD10) y Asociaciones Cofinanciadas.",
+        "requirements": [
+          "Empresas que desarrollen proyectos de I+D en España",
+          "Haber sido seleccionados en las convocatorias internacionales especificadas de Eurostars-3 y Asociaciones Cofinanciadas"
+        ]
+      },
+      {
+        "code": "874651",
+        "description": "Ayudas destinadas a Ecosistemas de Innovación y Transferencia para financiar diagnósticos, hojas de ruta tecnológicas, formación y actividades de cooperación.",
+        "requirements": [
+          "Agrupaciones de 4 a 8 personas jurídicas",
+          "Contar al menos con un organismo de investigación o transferencia y una empresa/asociación representativa",
+          "Sociedades mercantiles no pueden superar el 30% del presupuesto",
+          "Cada integrante debe asumir entre un 10% y un 70% del presupuesto elegible"
+        ]
+      },
+      {
+        "code": "865483",
+        "description": "Ayudas para la transformación digital en sectores estratégicos fomentando la adaptación e incorporación de participantes a espacios de datos (Kit Espacios de Datos).",
+        "requirements": [
+          "Entidades públicas, privadas o Administraciones Públicas con personalidad jurídica propia y domicilio fiscal en la UE",
+          "Acreditar incorporación efectiva a un espacio de datos elegible",
+          "Las entidades privadas deben tener actividad económica y antigüedad mínima de 6 meses",
+          "No ser UTE, autónomos ni entidades sin personalidad jurídica"
+        ]
+      },
+      {
+        "code": "850341",
+        "description": "Ayudas para acciones de dinamización de la innovación orientadas a diagnósticos y acciones innovadoras en el área de influencia del Espacio Natural Doñana.",
+        "requirements": [
+          "Agrupaciones de 2 a 6 personas jurídicas (al menos dos autónomas entre sí)",
+          "Válidamente constituidas, con domicilio fiscal y desarrollo de actividad en España",
+          "Las sociedades mercantiles participantes no pueden superar el 30% del presupuesto elegible"
+        ]
+      },
+      {
+        "code": "849340",
+        "description": "Ayudas para proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL) realizados por una única entidad beneficiaria en CCAA específicas.",
+        "requirements": [
+          "Pymes, empresas de mediana capitalización o grandes empresas (si se ubican en Canarias)",
+          "Domicilio fiscal en España",
+          "No estar en crisis, ni tener deudas por reintegro, con cuentas anuales de 2024 depositadas",
+          "Presupuesto mínimo elegible de 175.000 euros"
+        ]
+      },
+      {
+        "code": "848058",
+        "description": "Financiación de proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales para su integración en cadenas de valor.",
+        "requirements": [
+          "Empresas válidamente constituidas según normativa",
+          "No ser entidades públicas, sin ánimo de lucro, UTEs ni agrupaciones sin personalidad jurídica",
+          "Proyectos con presupuesto entre 400.000 y 5.000.000 euros"
+        ]
+      },
+      {
+        "code": "841185",
+        "description": "Concesión directa de ayudas a proyectos de I+D internacionales consorciados seleccionados en convocatorias del programa EuroHPC.",
+        "requirements": [
+          "Empresas que desarrollen proyectos de I+D seleccionados por la empresa común EuroHPC (en concreto OPENCHIP SOFTWARE TECHNOLOGIES SL)"
+        ]
+      },
+      {
+        "code": "839514",
+        "description": "Ayudas para inversiones en instalaciones de reciclaje, reutilización e innovación en ecodiseño de bienes de equipo para energías renovables (Programa RENOCICLA).",
+        "requirements": [
+          "Personas jurídicas privadas legalmente constituidas en la UE",
+          "No ser agrupaciones sin personalidad jurídica",
+          "Inversión mínima de 1.000.000 euros (Programa 1) o 250.000 euros (Programa 2)"
+        ]
+      },
+      {
+        "code": "834244",
+        "description": "Ayudas para proyectos Misiones Ciencia e Innovación de I+D en cooperación para resolver desafíos transversales y estratégicos de la sociedad.",
+        "requirements": [
+          "Agrupación de 3 a 6 empresas (mínimo 1 PYME, al menos dos autónomas entre sí)",
+          "Presupuesto de 3,5 a 15 millones de euros (mínimo 175.000 euros por empresa)",
+          "Subcontratar al menos un 15% a organismos de investigación",
+          "Mínimo 40% del presupuesto en investigación industrial"
+        ]
+      },
+      {
+        "code": "829858",
+        "description": "Ayudas Neotec para nuevos proyectos empresariales de empresas innovadoras basados en el desarrollo de tecnología propia (incluyendo áreas de uso dual).",
+        "requirements": [
+          "Sociedades mercantiles pequeñas empresas",
+          "Cumplir requisitos de empresa innovadora",
+          "Estar válidamente constituidas, con residencia fiscal en España y personalidad jurídica propia"
+        ]
+      },
+      {
+        "code": "825543",
+        "description": "Ayudas Consorcios Regionales INNTERCONECTA-STEP para proyectos plurianuales de I+D en cooperación desarrollados en varias CCAA.",
+        "requirements": [
+          "Agrupación de 2 a 6 empresas (al menos 1 PYME y dos autónomas entre sí)",
+          "Actividades desarrolladas en al menos dos CCAA o Ciudades Autónomas de las especificadas",
+          "Presupuesto elegible entre 1.000.000 y 4.000.000 euros",
+          "Subcontratar al menos el 10% a organismos de investigación"
+        ]
+      },
+      {
+        "code": "824808",
+        "description": "Concesión directa de ayudas a proyectos de empresas españolas que hayan obtenido el Sello de Excelencia del Acelerador del EIC.",
+        "requirements": [
+          "Pymes válidamente constituidas en el momento de solicitud con domicilio fiscal en España",
+          "Haber obtenido el Sello de Excelencia en las convocatorias 2023 o 2024 del EIC Accelerator"
+        ]
+      },
+      {
+        "code": "821006",
+        "description": "Subvenciones por concesión directa destinadas a contribuir al pago de las cuotas de la Seguridad Social de explotaciones agrarias de titularidad compartida.",
+        "requirements": [
+          "Explotaciones agrarias de titularidad compartida",
+          "Inscritas de alta en el Registro del Ministerio con un mes de antelación a la convocatoria"
+        ]
+      },
+      {
+        "code": "817056",
+        "description": "Concesión directa de ayudas a proyectos de investigación y desarrollo seleccionados en convocatorias internacionales de Eurostars-3 y Asociaciones Cofinanciadas.",
+        "requirements": [
+          "Empresas que desarrollen en España proyectos de I+D seleccionados en las convocatorias (7ª u 8ª de Eurostars-3 o las de Asociaciones Cofinanciadas especificadas)"
+        ]
+      }
+    ]
+  }
+]
