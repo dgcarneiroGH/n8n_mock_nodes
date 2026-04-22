@@ -1,0 +1,14 @@
+[
+  {
+    "client": "María Casado",
+    "grant_code": "897213",
+    "grant_title": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
+    "missing_fields": "boeText, dates.publicationDate"
+  },
+  {
+    "client": "Diego Carneiro",
+    "grant_code": "821006",
+    "grant_title": "Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025",
+    "missing_fields": "dates.endDate"
+  }
+]
