@@ -1,0 +1,17 @@
+[
+  {
+    "id": "34a83f94-7b2c-8050-98e9-c2241c7e2b11",
+    "name": "TEst",
+    "url": "https://www.notion.so/TEst-34a83f947b2c805098e9c2241c7e2b11",
+    "property_descripci_n": "",
+    "property_requisitos": "",
+    "property_c_digo_bdns": "897213",
+    "property_clientes": ["33d83f94-7b2c-80be-ad7d-c75118378e6b"],
+    "property_agencia": "",
+    "property_fecha_fin_de_plazo": null,
+    "property_fecha_de_inicio_de_solicitudes": null,
+    "property_fecha_de_publicaci_n": null,
+    "property_url": null,
+    "property_t_tulo": "TEst"
+  }
+]
