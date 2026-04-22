@@ -2,8 +2,15 @@
   {
     "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
     "name": "María Casado",
-    "sectors": ["Música", "Juventud"],
-    "beneficiary_type": ["Asociación", "PYME"],
+    "email": "dgcarneiro93@gmail.com",
+    "sectors": [
+      "Música",
+      "Juventud"
+    ],
+    "beneficiary_type": [
+      "Asociación",
+      "PYME"
+    ],
     "subvenciones": [
       {
         "numeroConvocatoria": "897944",
@@ -106,8 +113,15 @@
   {
     "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
     "name": "Diego Carneiro",
-    "sectors": ["Tecnología", "Sostenibilidad"],
-    "beneficiary_type": ["PYME", "Particular"],
+    "email": "dgcarneiro93@gmail.com",
+    "sectors": [
+      "Tecnología",
+      "Sostenibilidad"
+    ],
+    "beneficiary_type": [
+      "PYME",
+      "Particular"
+    ],
     "subvenciones": [
       {
         "numeroConvocatoria": "896999",

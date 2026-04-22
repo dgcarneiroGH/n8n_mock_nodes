@@ -34,6 +34,7 @@ clientInfo.forEach(({ grant, client }) => {
       client: {
         id: client.id,
         name: client.name,
+        email: client.email,
       },
       grants: [],
     };
@@ -64,6 +65,7 @@ clientInfo.forEach(({ client }) => {
       client: {
         id: client.id,
         name: client.name,
+        email: client.email,
       },
       grants: [],
     };
