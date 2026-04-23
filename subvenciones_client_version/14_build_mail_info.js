@@ -23,7 +23,6 @@ const filterAndFormatGrants = filterAndFormatGrantsRaw;
 const clientInfoMap = {};
 for (const client of getClients) {
   clientInfoMap[String(client.id)] = {
-    id: String(client.id),
     name: client.name || client.property_nombre || null,
     email: client.property_correo_electr_nico || null,
   };

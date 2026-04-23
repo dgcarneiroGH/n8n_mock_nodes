@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tus Subvenciones | Nomacoda</title>
+    <style>
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        border-collapse: collapse;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: Inter, Arial, sans-serif;
+        color: #0f3254;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .header {
+        padding: 30px 20px;
+        text-align: center;
+        border-bottom: 2px solid #115f51;
+      }
+      .header-title {
+        font-family: Inter, Arial, sans-serif;
+        color: #ffa726;
+        margin: 0;
+        font-size: 24px;
+      }
+      .header-desc {
+        color: #a0bbd8;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+      .greeting {
+        padding: 30px 20px 10px 20px;
+        font-size: 16px;
+        color: #0f3254;
+      }
+      .footer {
+        text-align: center;
+        padding: 30px 20px;
+        font-size: 12px;
+        color: #a0bbd8;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <table
+            class="container"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="100%"
+          >
+            <tr>
+              <td class="header">
+                <h1 class="header-title">Monitor de Subvenciones</h1>
+                <p class="header-desc">// Nomacoda Workflows</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="greeting">
+                Hola <strong>${client.name}</strong>,<br /><br />
+                Hemos detectado nuevas convocatorias de subvenciones que encajan
+                con tu perfil. Aquí tienes los detalles:
+              </td>
+            </tr>
+            ${tarjetasHTML}
+            <tr>
+              <td class="footer">
+                Este es un correo automático generado por Nomacoda.<br />
+                Si tienes dudas sobre alguna convocatoria, responde a este
+                correo.
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
