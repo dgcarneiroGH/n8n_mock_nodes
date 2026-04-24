@@ -1,2006 +1,430 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tus Subvenciones | Nomacoda</title>
-    <style>
+    <title>Nuevas Subvenciones | Nomacoda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
       body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-      table, td { border-collapse: collapse; }
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        font-family: Inter, Arial, sans-serif;
-        color: #0f3254;
-        background: radial-gradient(circle, #0f3254 0%, #f6f8fa 100%);
-      }
-      .container { width: 100%; max-width: 800px; margin: 0 auto; }
-      .grant-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 24px 20px;
-        margin: 0;
-        align-items: stretch;
-      }
-      .grant-card {
-        background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-        border: 1px solid #ffa726;
-        border-radius: 8px;
-        padding: 20px;
-        min-height: 320px;
-        box-sizing: border-box;
-        margin: 0;
-        box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-      }
-      @media only screen and (max-width: 600px) {
-        .grant-grid {
-          grid-template-columns: 1fr;
-          gap: 20px 0;
-        }
-      }
-      .grant-agency {
-        font-size: 12px;
-        color: #29b6f6;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-      }
-      .grant-title {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        color: #f0f4f8;
-        margin-top: 0;
-        margin-bottom: 10px;
-        line-height: 1.3;
-      }
-      .grant-dates {
-        font-size: 14px;
-        color: #ffa726;
-        margin-bottom: 15px;
-        font-family: Inter, Arial, sans-serif;
-      }
-      .grant-desc {
-        font-size: 14px;
-        color: #a0bbd8;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
-      .grant-req-box {
-        background-color: #081b2e;
-        padding: 15px;
-        border-radius: 6px;
-        margin-bottom: 20px;
-      }
-      .grant-req-title {
-        font-size: 13px;
-        color: #f0f4f8;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 10px;
-      }
-      .grant-req-list {
-        margin: 0;
-        padding-left: 20px;
-        font-size: 13px;
-        color: #a0bbd8;
-      }
-      .grant-link {
-        display: inline-block;
-        background-color: #ffa726;
-        color: #0a2540;
-        font-family: Inter, Arial, sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 6px;
-        text-align: center;
-        max-width: 250px;
-        margin-top: auto;
-      }
-      .greeting {
-        padding: 30px 20px 10px 20px;
-        font-size: 16px;
-        color: #0f3254;
-        text-align: center;
-      }
-      .footer {
-        text-align: center;
-        padding: 30px 20px;
-        font-size: 12px;
-        color: #0f3254;
-      }
-      .header { padding: 30px 20px; text-align: center; border-bottom: 2px solid #115f51; }
-      .header-title { font-family: Inter, Arial, sans-serif; color: #ffa726; margin: 0; font-size: 24px; }
-      .header-desc { color: #a0bbd8; font-size: 14px; margin-top: 5px; margin-bottom: 0; }
-      .greeting { padding: 30px 20px 10px 20px; font-size: 16px; color: #0f3254; }
-      .greeting strong { color: #ffa726; }
-      .footer { text-align: center; padding: 30px 20px; font-size: 12px; color: #0f3254; }
+      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; }
+      img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h1 class="header-title">Monitor de Subvenciones</h1>
-        <p class="header-desc">// Nomacoda Workflows</p>
-      </div>
-      <div class="greeting">
-        Hola <strong>Diego Carneiro</strong>,<br /><br />
-        Hemos detectado nuevas convocatorias de subvenciones que encajan con tu perfil.<br />
-        Aquí tienes los detalles:
-      </div>
-      <div class="grant-grid">
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 25 de febrero de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de I+D seleccionados en los programas Eurostars-3 y Asociaciones Cofinanciadas
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 07/03/2025 | ⏳ Fin: 21/03/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Concesión directa de ayudas a proyectos de investigación y desarrollo seleccionados en convocatorias internacionales de Eurostars-3 y Asociaciones Cofinanciadas.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Empresas que desarrollen en España proyectos de I+D seleccionados en las convocatorias (7ª u 8ª de Eurostars-3 o las de Asociaciones Cofinanciadas especificadas)</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/817056'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+  <body style="margin: 0; padding: 0; background-color: transparent;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent;">
+      <tr>
+        <td align="center" style="padding: 40px 15px;">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px;">
+            <tr>
+              <td align="center" style="padding-bottom: 40px;">
+                <div style="display: inline-block; background-color: #ffa726; border: 3px solid #0f3254; border-radius: 12px; padding: 15px 30px; box-shadow: 4px 4px 0px #0f3254;">
+                  <h1 style="font-family: 'Space Grotesk', Arial, sans-serif; color: #0f3254; margin: 0; font-size: 22px; text-transform: uppercase; letter-spacing: 2px;">
+                    NUEVAS SUBVENCIONES DISPONIBLES
+                  </h1>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size: 16px; line-height: 1.6; padding-bottom: 30px; font-family: 'Inter', Arial, sans-serif; color: #0f3254;">
+                <strong>Diego Carneiro</strong>, he mapeado el terreno. <br>
+                Estas son las convocatorias clave que he encontrado para tu proyecto:
+              </td>
+            </tr>
+            
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 25 de febrero de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de I+D seleccionados en los programas Eurostars-3 y Asociaciones Cofinanciadas</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 07/03/2025 &nbsp;&nbsp; 🛑 FIN: 21/03/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Concesión directa de ayudas a proyectos de investigación y desarrollo seleccionados en convocatorias internacionales de Eurostars-3 y Asociaciones Cofinanciadas.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Empresas que desarrollen en España proyectos de I+D seleccionados en las convocatorias (7ª u 8ª de Eurostars-3 o las de Asociaciones Cofinanciadas especificadas)</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/817056" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 14/05/2025 | ⏳ Fin: No definido
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Subvenciones por concesión directa destinadas a contribuir al pago de las cuotas de la Seguridad Social de explotaciones agrarias de titularidad compartida.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Explotaciones agrarias de titularidad compartida</li><li style='margin-bottom:5px'>Inscritas de alta en el Registro del Ministerio con un mes de antelación a la convocatoria</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/821006'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 14/05/2025 &nbsp;&nbsp; 🛑 FIN: No definido</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Subvenciones por concesión directa destinadas a contribuir al pago de las cuotas de la Seguridad Social de explotaciones agrarias de titularidad compartida.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Explotaciones agrarias de titularidad compartida</li><li style='margin-bottom:5px;'>Inscritas de alta en el Registro del Ministerio con un mes de antelación a la convocatoria</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/821006" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 3 de abril de 2025 de la Dirección General del CDTI, E.P.E., de concesión directa de ayudas a los proyectos españoles que hayan obtenido Sello de Excelencia en las convocatorias del Acelerador-Consejo Europeo de Innovación.
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 09/04/2025 | ⏳ Fin: 13/05/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Concesión directa de ayudas a proyectos de empresas españolas que hayan obtenido el Sello de Excelencia del Acelerador del EIC.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Pymes válidamente constituidas en el momento de solicitud con domicilio fiscal en España</li><li style='margin-bottom:5px'>Haber obtenido el Sello de Excelencia en las convocatorias 2023 o 2024 del EIC Accelerator</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/824808'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 3 de abril de 2025 de la Dirección General del CDTI, E.P.E., de concesión directa de ayudas a los proyectos españoles que hayan obtenido Sello de Excelencia en las convocatorias del Acelerador-Consejo Europeo de Innovación.</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 09/04/2025 &nbsp;&nbsp; 🛑 FIN: 13/05/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Concesión directa de ayudas a proyectos de empresas españolas que hayan obtenido el Sello de Excelencia del Acelerador del EIC.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Pymes válidamente constituidas en el momento de solicitud con domicilio fiscal en España</li><li style='margin-bottom:5px;'>Haber obtenido el Sello de Excelencia en las convocatorias 2023 o 2024 del EIC Accelerator</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/824808" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 4 de abril de 2025 de la Presidencia del CDTI E.P.E. por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas destinadas a las actuaciones Consorcios Regionales (INNTERCONECTA-STEP), cofinanciada FEDER
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 11/04/2025 | ⏳ Fin: 21/05/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas Consorcios Regionales INNTERCONECTA-STEP para proyectos plurianuales de I+D en cooperación desarrollados en varias CCAA.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Agrupación de 2 a 6 empresas (al menos 1 PYME y dos autónomas entre sí)</li><li style='margin-bottom:5px'>Actividades desarrolladas en al menos dos CCAA o Ciudades Autónomas de las especificadas</li><li style='margin-bottom:5px'>Presupuesto elegible entre 1.000.000 y 4.000.000 euros</li><li style='margin-bottom:5px'>Subcontratar al menos el 10% a organismos de investigación</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/825543'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 4 de abril de 2025 de la Presidencia del CDTI E.P.E. por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas destinadas a las actuaciones Consorcios Regionales (INNTERCONECTA-STEP), cofinanciada FEDER</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 11/04/2025 &nbsp;&nbsp; 🛑 FIN: 21/05/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas Consorcios Regionales INNTERCONECTA-STEP para proyectos plurianuales de I+D en cooperación desarrollados en varias CCAA.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Agrupación de 2 a 6 empresas (al menos 1 PYME y dos autónomas entre sí)</li><li style='margin-bottom:5px;'>Actividades desarrolladas en al menos dos CCAA o Ciudades Autónomas de las especificadas</li><li style='margin-bottom:5px;'>Presupuesto elegible entre 1.000.000 y 4.000.000 euros</li><li style='margin-bottom:5px;'>Subcontratar al menos el 10% a organismos de investigación</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/825543" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 30 de abril de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas Neotec
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 12/05/2025 | ⏳ Fin: 12/06/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas Neotec para nuevos proyectos empresariales de empresas innovadoras basados en el desarrollo de tecnología propia (incluyendo áreas de uso dual).
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Sociedades mercantiles pequeñas empresas</li><li style='margin-bottom:5px'>Cumplir requisitos de empresa innovadora</li><li style='margin-bottom:5px'>Estar válidamente constituidas, con residencia fiscal en España y personalidad jurídica propia</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/829858'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 30 de abril de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas Neotec</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 12/05/2025 &nbsp;&nbsp; 🛑 FIN: 12/06/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas Neotec para nuevos proyectos empresariales de empresas innovadoras basados en el desarrollo de tecnología propia (incluyendo áreas de uso dual).</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Sociedades mercantiles pequeñas empresas</li><li style='margin-bottom:5px;'>Cumplir requisitos de empresa innovadora</li><li style='margin-bottom:5px;'>Estar válidamente constituidas, con residencia fiscal en España y personalidad jurídica propia</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/829858" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 22 de mayo de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a proyectos de I+D Misiones Ciencia e Innovación.
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 29/05/2025 | ⏳ Fin: 01/07/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas para proyectos Misiones Ciencia e Innovación de I+D en cooperación para resolver desafíos transversales y estratégicos de la sociedad.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Agrupación de 3 a 6 empresas (mínimo 1 PYME, al menos dos autónomas entre sí)</li><li style='margin-bottom:5px'>Presupuesto de 3,5 a 15 millones de euros (mínimo 175.000 euros por empresa)</li><li style='margin-bottom:5px'>Subcontratar al menos un 15% a organismos de investigación</li><li style='margin-bottom:5px'>Mínimo 40% del presupuesto en investigación industrial</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/834244'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 22 de mayo de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a proyectos de I+D Misiones Ciencia e Innovación.</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 29/05/2025 &nbsp;&nbsp; 🛑 FIN: 01/07/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas para proyectos Misiones Ciencia e Innovación de I+D en cooperación para resolver desafíos transversales y estratégicos de la sociedad.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Agrupación de 3 a 6 empresas (mínimo 1 PYME, al menos dos autónomas entre sí)</li><li style='margin-bottom:5px;'>Presupuesto de 3,5 a 15 millones de euros (mínimo 175.000 euros por empresa)</li><li style='margin-bottom:5px;'>Subcontratar al menos un 15% a organismos de investigación</li><li style='margin-bottom:5px;'>Mínimo 40% del presupuesto en investigación industrial</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/834244" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 11 de junio de 2025, del Consejo de Administración de E.P.E. Instituto para la Diversificación y Ahorro de la Energía (IDAE), M.P. por la que se aprueba la primera convocatoria de ayudas al impulso de la economía circular de bienes de equipo
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 08/07/2025 | ⏳ Fin: 16/09/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas para inversiones en instalaciones de reciclaje, reutilización e innovación en ecodiseño de bienes de equipo para energías renovables (Programa RENOCICLA).
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Personas jurídicas privadas legalmente constituidas en la UE</li><li style='margin-bottom:5px'>No ser agrupaciones sin personalidad jurídica</li><li style='margin-bottom:5px'>Inversión mínima de 1.000.000 euros (Programa 1) o 250.000 euros (Programa 2)</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/839514'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 11 de junio de 2025, del Consejo de Administración de E.P.E. Instituto para la Diversificación y Ahorro de la Energía (IDAE), M.P. por la que se aprueba la primera convocatoria de ayudas al impulso de la economía circular de bienes de equipo</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 08/07/2025 &nbsp;&nbsp; 🛑 FIN: 16/09/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas para inversiones en instalaciones de reciclaje, reutilización e innovación en ecodiseño de bienes de equipo para energías renovables (Programa RENOCICLA).</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Personas jurídicas privadas legalmente constituidas en la UE</li><li style='margin-bottom:5px;'>No ser agrupaciones sin personalidad jurídica</li><li style='margin-bottom:5px;'>Inversión mínima de 1.000.000 euros (Programa 1) o 250.000 euros (Programa 2)</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/839514" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 18 de junio de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de investigación y desarrollo seleccionados en las convocatorias competitivas internacionales del programa EuroHPC
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 26/06/2025 | ⏳ Fin: 04/07/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Concesión directa de ayudas a proyectos de I+D internacionales consorciados seleccionados en convocatorias del programa EuroHPC.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Empresas que desarrollen proyectos de I+D seleccionados por la empresa común EuroHPC (en concreto OPENCHIP SOFTWARE TECHNOLOGIES SL)</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/841185'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 18 de junio de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de investigación y desarrollo seleccionados en las convocatorias competitivas internacionales del programa EuroHPC</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 26/06/2025 &nbsp;&nbsp; 🛑 FIN: 04/07/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Concesión directa de ayudas a proyectos de I+D internacionales consorciados seleccionados en convocatorias del programa EuroHPC.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Empresas que desarrollen proyectos de I+D seleccionados por la empresa común EuroHPC (en concreto OPENCHIP SOFTWARE TECHNOLOGIES SL)</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/841185" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          ENTIDAD PÚBLICA EMPRESARIAL RED.ES
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de la EPE Red.es para la que se convocan las ayudas 2025 destinadas a proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales y su integración en las cadenas de valor
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 24/07/2025 | ⏳ Fin: 30/09/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Financiación de proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales para su integración en cadenas de valor.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Empresas válidamente constituidas según normativa</li><li style='margin-bottom:5px'>No ser entidades públicas, sin ánimo de lucro, UTEs ni agrupaciones sin personalidad jurídica</li><li style='margin-bottom:5px'>Proyectos con presupuesto entre 400.000 y 5.000.000 euros</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/848058'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            ENTIDAD PÚBLICA EMPRESARIAL RED.ES
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de la EPE Red.es para la que se convocan las ayudas 2025 destinadas a proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales y su integración en las cadenas de valor</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 24/07/2025 &nbsp;&nbsp; 🛑 FIN: 30/09/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Financiación de proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales para su integración en cadenas de valor.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Empresas válidamente constituidas según normativa</li><li style='margin-bottom:5px;'>No ser entidades públicas, sin ánimo de lucro, UTEs ni agrupaciones sin personalidad jurídica</li><li style='margin-bottom:5px;'>Proyectos con presupuesto entre 400.000 y 5.000.000 euros</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/848058" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 29 de julio de 2025 de la Presidencia del CDTI por la que se aprueba la convocatoria 2025 del procedimiento de concesión de ayudas destinadas a Proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL)
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 26/08/2025 | ⏳ Fin: 26/09/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas para proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL) realizados por una única entidad beneficiaria en CCAA específicas.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Pymes, empresas de mediana capitalización o grandes empresas (si se ubican en Canarias)</li><li style='margin-bottom:5px'>Domicilio fiscal en España</li><li style='margin-bottom:5px'>No estar en crisis, ni tener deudas por reintegro, con cuentas anuales de 2024 depositadas</li><li style='margin-bottom:5px'>Presupuesto mínimo elegible de 175.000 euros</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/849340'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 29 de julio de 2025 de la Presidencia del CDTI por la que se aprueba la convocatoria 2025 del procedimiento de concesión de ayudas destinadas a Proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL)</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 26/08/2025 &nbsp;&nbsp; 🛑 FIN: 26/09/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas para proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL) realizados por una única entidad beneficiaria en CCAA específicas.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Pymes, empresas de mediana capitalización o grandes empresas (si se ubican en Canarias)</li><li style='margin-bottom:5px;'>Domicilio fiscal en España</li><li style='margin-bottom:5px;'>No estar en crisis, ni tener deudas por reintegro, con cuentas anuales de 2024 depositadas</li><li style='margin-bottom:5px;'>Presupuesto mínimo elegible de 175.000 euros</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/849340" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 5 de agosto de 2025 de la Presidencia del CDTI, por la que se aprueba la convocatoria para 2025 de ayudas destinadas a Acciones de Dinamización de la Innovación para municipios integrados en el área de influencia del Espacio Natural Doñana
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 28/08/2025 | ⏳ Fin: 30/09/2025
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas para acciones de dinamización de la innovación orientadas a diagnósticos y acciones innovadoras en el área de influencia del Espacio Natural Doñana.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Agrupaciones de 2 a 6 personas jurídicas (al menos dos autónomas entre sí)</li><li style='margin-bottom:5px'>Válidamente constituidas, con domicilio fiscal y desarrollo de actividad en España</li><li style='margin-bottom:5px'>Las sociedades mercantiles participantes no pueden superar el 30% del presupuesto elegible</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/850341'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 5 de agosto de 2025 de la Presidencia del CDTI, por la que se aprueba la convocatoria para 2025 de ayudas destinadas a Acciones de Dinamización de la Innovación para municipios integrados en el área de influencia del Espacio Natural Doñana</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 28/08/2025 &nbsp;&nbsp; 🛑 FIN: 30/09/2025</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas para acciones de dinamización de la innovación orientadas a diagnósticos y acciones innovadoras en el área de influencia del Espacio Natural Doñana.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Agrupaciones de 2 a 6 personas jurídicas (al menos dos autónomas entre sí)</li><li style='margin-bottom:5px;'>Válidamente constituidas, con domicilio fiscal y desarrollo de actividad en España</li><li style='margin-bottom:5px;'>Las sociedades mercantiles participantes no pueden superar el 30% del presupuesto elegible</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/850341" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          ENTIDAD PÚBLICA EMPRESARIAL RED.ES
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos).
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 30/10/2025 | ⏳ Fin: 31/03/2026
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas para la transformación digital en sectores estratégicos fomentando la adaptación e incorporación de participantes a espacios de datos (Kit Espacios de Datos).
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Entidades públicas, privadas o Administraciones Públicas con personalidad jurídica propia y domicilio fiscal en la UE</li><li style='margin-bottom:5px'>Acreditar incorporación efectiva a un espacio de datos elegible</li><li style='margin-bottom:5px'>Las entidades privadas deben tener actividad económica y antigüedad mínima de 6 meses</li><li style='margin-bottom:5px'>No ser UTE, autónomos ni entidades sin personalidad jurídica</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865483'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            ENTIDAD PÚBLICA EMPRESARIAL RED.ES
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos).</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 30/10/2025 &nbsp;&nbsp; 🛑 FIN: 31/03/2026</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas para la transformación digital en sectores estratégicos fomentando la adaptación e incorporación de participantes a espacios de datos (Kit Espacios de Datos).</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Entidades públicas, privadas o Administraciones Públicas con personalidad jurídica propia y domicilio fiscal en la UE</li><li style='margin-bottom:5px;'>Acreditar incorporación efectiva a un espacio de datos elegible</li><li style='margin-bottom:5px;'>Las entidades privadas deben tener actividad económica y antigüedad mínima de 6 meses</li><li style='margin-bottom:5px;'>No ser UTE, autónomos ni entidades sin personalidad jurídica</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865483" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 10 de diciembre de 2025 de la Presidencia del CDTI E.P.E., por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a Ecosistemas de Innovación y Transferencia.
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 17/12/2025 | ⏳ Fin: 11/03/2026
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas destinadas a Ecosistemas de Innovación y Transferencia para financiar diagnósticos, hojas de ruta tecnológicas, formación y actividades de cooperación.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Agrupaciones de 4 a 8 personas jurídicas</li><li style='margin-bottom:5px'>Contar al menos con un organismo de investigación o transferencia y una empresa/asociación representativa</li><li style='margin-bottom:5px'>Sociedades mercantiles no pueden superar el 30% del presupuesto</li><li style='margin-bottom:5px'>Cada integrante debe asumir entre un 10% y un 70% del presupuesto elegible</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874651'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 10 de diciembre de 2025 de la Presidencia del CDTI E.P.E., por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a Ecosistemas de Innovación y Transferencia.</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 17/12/2025 &nbsp;&nbsp; 🛑 FIN: 11/03/2026</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas destinadas a Ecosistemas de Innovación y Transferencia para financiar diagnósticos, hojas de ruta tecnológicas, formación y actividades de cooperación.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Agrupaciones de 4 a 8 personas jurídicas</li><li style='margin-bottom:5px;'>Contar al menos con un organismo de investigación o transferencia y una empresa/asociación representativa</li><li style='margin-bottom:5px;'>Sociedades mercantiles no pueden superar el 30% del presupuesto</li><li style='margin-bottom:5px;'>Cada integrante debe asumir entre un 10% y un 70% del presupuesto elegible</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874651" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 13 de marzo de 2026 de la Dirección General del CDTI de concesión directa de ayudas del año 2026 a proyectos de I+D seleccionados en los Programas internacionales Eurostars 3, Asociaciones Cofinanciadas.
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 18/03/2026 | ⏳ Fin: 17/07/2026
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Concesión directa de ayudas a proyectos de I+D aprobados en las convocatorias internacionales Eurostars-3 (CoD9 y CoD10) y Asociaciones Cofinanciadas.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Empresas que desarrollen proyectos de I+D en España</li><li style='margin-bottom:5px'>Haber sido seleccionados en las convocatorias internacionales especificadas de Eurostars-3 y Asociaciones Cofinanciadas</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893025'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 13 de marzo de 2026 de la Dirección General del CDTI de concesión directa de ayudas del año 2026 a proyectos de I+D seleccionados en los Programas internacionales Eurostars 3, Asociaciones Cofinanciadas.</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 18/03/2026 &nbsp;&nbsp; 🛑 FIN: 17/07/2026</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Concesión directa de ayudas a proyectos de I+D aprobados en las convocatorias internacionales Eurostars-3 (CoD9 y CoD10) y Asociaciones Cofinanciadas.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Empresas que desarrollen proyectos de I+D en España</li><li style='margin-bottom:5px;'>Haber sido seleccionados en las convocatorias internacionales especificadas de Eurostars-3 y Asociaciones Cofinanciadas</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893025" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
   
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          Resolución de 6 de abril de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas Neotec
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: 14/04/2026 | ⏳ Fin: 14/05/2026
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          Ayudas Neotec para la puesta en marcha de nuevos proyectos empresariales de empresas innovadoras que requieran el uso de tecnologías desarrolladas a partir de la investigación.
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            <li style='margin-bottom:5px'>Sociedades mercantiles consideradas pequeñas empresas</li><li style='margin-bottom:5px'>Cumplir requisitos de empresa innovadora</li><li style='margin-bottom:5px'>Estar válidamente constituidas, con personalidad jurídica propia y domicilio fiscal en España</li>
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896999'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
-  </div>
-      <div class="footer">
-        Este es un correo automático generado por Nomacoda.<br />
-        Si tienes dudas sobre alguna convocatoria, responde a este correo.
-      </div>
-    </div>
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">Resolución de 6 de abril de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas Neotec</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: 14/04/2026 &nbsp;&nbsp; 🛑 FIN: 14/05/2026</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">Ayudas Neotec para la puesta en marcha de nuevos proyectos empresariales de empresas innovadoras que requieran el uso de tecnologías desarrolladas a partir de la investigación.</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                <li style='margin-bottom:5px;'>Sociedades mercantiles consideradas pequeñas empresas</li><li style='margin-bottom:5px;'>Cumplir requisitos de empresa innovadora</li><li style='margin-bottom:5px;'>Estar válidamente constituidas, con personalidad jurídica propia y domicilio fiscal en España</li>
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896999" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
+  
+          </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

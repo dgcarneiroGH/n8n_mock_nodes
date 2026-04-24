@@ -2,373 +2,170 @@ const fs = require("fs");
 
 // ============================================================================
 // BLOQUE 1: SIMULADOR DEL ENTORNO N8N (NO COPIAR EN N8N)
-// Aquí metemos tus datos y creamos el objeto $input que n8n usa nativamente.
 // ============================================================================
 let buildMailInfoRaw;
 try {
+  // Intenta leer tu archivo local con los datos reales
   buildMailInfoRaw = JSON.parse(
     fs.readFileSync("./results/build_mail_info.json", "utf8"),
   );
+  console.log("✅ Datos cargados desde ./results/build_mail_info.json");
 } catch (error) {
-  console.error("Error leyendo los archivos JSON.", error.message);
-  process.exit(1);
+  console.log(
+    "⚠️ No se encontró el archivo JSON. Usando datos de prueba por defecto.",
+  );
+  // Datos de respaldo para que el entorno local siempre funcione
+  buildMailInfoRaw = [
+    {
+      "client": {
+        "id": "123",
+        "name": "María Casado",
+        "email": "test@test.com",
+      },
+      "grants": [
+        {
+          "code": "897213",
+          "title": "Resolución de prueba para entorno local",
+          "agency": "INSTITUTO DE PRUEBAS",
+          "url": "https://boe.es",
+          "dates": { "startDate": "2026-04-10", "endDate": "2026-05-08" },
+          "description":
+            "Esta es una subvención simulada para que puedas ver el diseño.",
+          "requirements": ["Requisito 1", "Requisito 2"],
+        },
+      ],
+    },
+  ];
 }
 
-const datosPrueba = buildMailInfoRaw;
-
-// Simulamos la función de n8n que devuelve el array de items envueltos en "json"
+// Simulamos la entrada de n8n
 const $input = {
-  all: () => datosPrueba.map((item) => ({ json: item })),
+  all: () => buildMailInfoRaw.map((item) => ({ json: item })),
 };
 
 // ============================================================================
 // BLOQUE 2: CÓDIGO N8N REAL (CÓPIA DESDE AQUÍ HASTA EL FINAL DEL BLOQUE)
-// Asegúrate de que el Mode del nodo Code está en "Run Once for All Items"
 // ============================================================================
-// ================= FUNCIONES AUXILIARES DE GENERACIÓN HTML =================
-
-function formatDateDMY(dateStr) {
-  if (!dateStr) return "No definido";
-  const d = new Date(dateStr);
-  if (isNaN(d)) return dateStr;
-  const day = String(d.getDate()).padStart(2, "0");
-  const month = String(d.getMonth() + 1).padStart(2, "0");
-  const year = d.getFullYear();
-  return `${day}/${month}/${year}`;
-}
-
-function renderGrantRequirements(requirements) {
-  if (!requirements || requirements.length === 0) {
-    return "<li>No se han especificado requisitos concretos.</li>";
-  }
-  return requirements
-    .map((req) => `<li style='margin-bottom:5px'>${req}</li>`)
-    .join("");
-}
-
-function renderGrantCard(grant) {
-  return `
-    <td style="vertical-align: top; width: 50%; padding: 12px 10px 18px 10px; height: 100%;">
-      <div
-        style="
-          background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-          border: 1px solid #ffa726;
-          border-radius: 8px;
-          padding: 20px;
-          min-height: 320px;
-          height: 100%;
-          box-sizing: border-box;
-          margin: 0;
-          box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div
-          style="
-            font-size: 12px;
-            color: #29b6f6;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-          "
-        >
-          ${grant.agency || "Agencia no especificada"}
-        </div>
-        <h2
-          style="
-            font-family: Inter, Arial, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            color: #f0f4f8;
-            margin-top: 0;
-            margin-bottom: 10px;
-            line-height: 1.3;
-          "
-        >
-          ${grant.title || "Título no disponible"}
-        </h2>
-        <div
-          style="
-            font-size: 14px;
-            color: #ffa726;
-            margin-bottom: 15px;
-            font-family: Inter, Arial, sans-serif;
-          "
-        >
-          📅 Inicio: ${formatDateDMY(grant.startDate || grant.dates?.startDate)} | ⏳ Fin: ${formatDateDMY(grant.endDate || grant.dates?.endDate)}
-        </div>
-        <p
-          style="
-            font-size: 14px;
-            color: #a0bbd8;
-            line-height: 1.5;
-            margin-bottom: 20px;
-          "
-        >
-          ${grant.description || "Sin descripción disponible."}
-        </p>
-        <div
-          style="
-            background-color: #081b2e;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-          "
-        >
-          <p
-            style="
-              font-size: 13px;
-              color: #f0f4f8;
-              font-weight: bold;
-              text-transform: uppercase;
-              margin-top: 0;
-              margin-bottom: 10px;
-            "
-          >
-            Requisitos Clave:
-          </p>
-          <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #a0bbd8">
-            ${renderGrantRequirements(grant.requirements)}
-          </ul>
-        </div>
-        <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
-          <a
-            href='${grant.url || "#"}'
-            target="_blank"
-            style="
-              display: inline-block;
-              background-color: #ffa726;
-              color: #0a2540;
-              font-family: Inter, Arial, sans-serif;
-              font-size: 15px;
-              font-weight: 700;
-              text-decoration: none;
-              padding: 12px 25px;
-              border-radius: 6px;
-              text-align: center;
-              max-width: 250px;
-            "
-          >Ver Convocatoria Oficial</a>
-          <a
-            href="#"
-            style="
-              color: #d9534f;
-              font-size: 15px;
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              cursor: pointer;
-              text-decoration: none;
-            "
-            onClick="return false;"
-          >
-            <span style="font-size:1.1em;vertical-align:middle;">&#9888;&#65039;</span> No me interesa
-          </a>
-        </div>
-      </div>
-    </td>
-  `;
-}
-
-function renderGrantGrid(grants) {
-  let html = '<div class="grant-grid">';
-  for (let i = 0; i < grants.length; i++) {
-    html += renderGrantCard(grants[i]);
-  }
-  html += "</div>";
-  return html;
-}
-
 function codigoN8n() {
+  // Función para formatear fecha a DD/MM/YYYY
+  const formatDate = (d) => {
+    if (!d) return "No definido";
+    const date = new Date(d);
+    if (isNaN(date)) return d;
+    return `${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${date.getFullYear()}`;
+  };
+
+  // Renderiza una subvención
+  const grantHTML = (g) => `
+    <tr><td style="padding-bottom:35px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
+        <tr><td style="padding:20px 25px 0 25px;">
+          <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
+            ${g.agency || "Agencia no especificada"}
+          </span>
+        </td></tr>
+        <tr><td style="padding:15px 25px 25px 25px;">
+          <h2 style="font-family:'Space Grotesk',Arial,sans-serif; color:#0f3254; font-size:20px; line-height:1.3; margin:0 0 10px 0;">${g.title || "Título no disponible"}</h2>
+          <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:14px; color:#115f51; font-weight:700; margin:0 0 15px 0;">▶ INICIO: ${formatDate(g.startDate || g.dates?.startDate)} &nbsp;&nbsp; 🛑 FIN: ${formatDate(g.endDate || g.dates?.endDate)}</p>
+          <p style="font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:1.6; color:#24292e; margin:0 0 20px 0;">${g.description || "Sin descripción disponible."}</p>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:rgba(41,182,246,0.1); border:2px dashed #0f3254; border-radius:12px; margin-bottom:25px;">
+            <tr><td style="padding:15px;">
+              <p style="font-family:'Space Grotesk',Arial,sans-serif; font-size:13px; color:#0f3254; font-weight:700; margin:0 0 10px 0;">REQUISITOS:</p>
+              <ul style="margin:0; padding-left:20px; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:1.5; color:#24292e;">
+                ${g.requirements && g.requirements.length ? g.requirements.map((r) => `<li style='margin-bottom:5px;'>${r}</li>`).join("") : '<li style="margin-bottom:5px;">No se han especificado requisitos concretos.</li>'}
+              </ul>
+            </td></tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+            <a href="${g.url || "#"}" target="_blank" style="display:inline-block; background-color:#ffa726; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-size:15px; font-weight:700; text-decoration:none; padding:12px 25px; border-radius:6px; margin-bottom:10px; border:2px solid #0f3254;">Ver Convocatoria Oficial</a>
+          </td></tr></table>
+        </td></tr>
+      </table>
+    </td></tr>
+  `;
+
+  // Procesa los datos y genera el HTML
   return $input
     .all()
     .filter((item) => (item.json.grants || []).length > 0)
     .map((item) => {
-      const client = item.json.client;
-      const grants = item.json.grants;
-
-      const tarjetasHTML = renderGrantGrid(grants);
-
+      const c = item.json.client;
+      const grantsHTML = item.json.grants.map(grantHTML).join("");
       const htmlContent = `<!doctype html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tus Subvenciones | Nomacoda</title>
-    <style>
+    <title>Nuevas Subvenciones | Nomacoda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
       body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-      table, td { border-collapse: collapse; }
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        font-family: Inter, Arial, sans-serif;
-        color: #0f3254;
-        background: radial-gradient(circle, #0f3254 0%, #f6f8fa 100%);
-      }
-      .container { width: 100%; max-width: 800px; margin: 0 auto; }
-      .grant-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 24px 20px;
-        margin: 0;
-        align-items: stretch;
-      }
-      .grant-card {
-        background: linear-gradient(135deg, #0f3254 0%, #115f51 100%);
-        border: 1px solid #ffa726;
-        border-radius: 8px;
-        padding: 20px;
-        min-height: 320px;
-        box-sizing: border-box;
-        margin: 0;
-        box-shadow: 0 2px 8px 0 rgba(15,50,84,0.07);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-      }
-      @media only screen and (max-width: 600px) {
-        .grant-grid {
-          grid-template-columns: 1fr;
-          gap: 20px 0;
-        }
-      }
-      .grant-agency {
-        font-size: 12px;
-        color: #29b6f6;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-      }
-      .grant-title {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        color: #f0f4f8;
-        margin-top: 0;
-        margin-bottom: 10px;
-        line-height: 1.3;
-      }
-      .grant-dates {
-        font-size: 14px;
-        color: #ffa726;
-        margin-bottom: 15px;
-        font-family: Inter, Arial, sans-serif;
-      }
-      .grant-desc {
-        font-size: 14px;
-        color: #a0bbd8;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
-      .grant-req-box {
-        background-color: #081b2e;
-        padding: 15px;
-        border-radius: 6px;
-        margin-bottom: 20px;
-      }
-      .grant-req-title {
-        font-size: 13px;
-        color: #f0f4f8;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 10px;
-      }
-      .grant-req-list {
-        margin: 0;
-        padding-left: 20px;
-        font-size: 13px;
-        color: #a0bbd8;
-      }
-      .grant-link {
-        display: inline-block;
-        background-color: #ffa726;
-        color: #0a2540;
-        font-family: Inter, Arial, sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 6px;
-        text-align: center;
-        max-width: 250px;
-        margin-top: auto;
-      }
-      .greeting {
-        padding: 30px 20px 10px 20px;
-        font-size: 16px;
-        color: #0f3254;
-        text-align: center;
-      }
-      .footer {
-        text-align: center;
-        padding: 30px 20px;
-        font-size: 12px;
-        color: #0f3254;
-      }
-      .header { padding: 30px 20px; text-align: center; border-bottom: 2px solid #115f51; }
-      .header-title { font-family: Inter, Arial, sans-serif; color: #ffa726; margin: 0; font-size: 24px; }
-      .header-desc { color: #a0bbd8; font-size: 14px; margin-top: 5px; margin-bottom: 0; }
-      .greeting { padding: 30px 20px 10px 20px; font-size: 16px; color: #0f3254; }
-      .greeting strong { color: #ffa726; }
-      .footer { text-align: center; padding: 30px 20px; font-size: 12px; color: #0f3254; }
+      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; }
+      img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h1 class="header-title">Monitor de Subvenciones</h1>
-        <p class="header-desc">// Nomacoda Workflows</p>
-      </div>
-      <div class="greeting">
-        Hola <strong>${client.name}</strong>,<br /><br />
-        Hemos detectado nuevas convocatorias de subvenciones que encajan con tu perfil.<br />
-        Aquí tienes los detalles:
-      </div>
-      ${tarjetasHTML}
-      <div class="footer">
-        Este es un correo automático generado por Nomacoda.<br />
-        Si tienes dudas sobre alguna convocatoria, responde a este correo.
-      </div>
-    </div>
+  <body style="margin: 0; padding: 0; background-color: transparent;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent;">
+      <tr>
+        <td align="center" style="padding: 40px 15px;">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px;">
+            <tr>
+              <td align="center" style="padding-bottom: 40px;">
+                <div style="display: inline-block; background-color: #ffa726; border: 3px solid #0f3254; border-radius: 12px; padding: 15px 30px; box-shadow: 4px 4px 0px #0f3254;">
+                  <h1 style="font-family: 'Space Grotesk', Arial, sans-serif; color: #0f3254; margin: 0; font-size: 22px; text-transform: uppercase; letter-spacing: 2px;">
+                    NUEVAS SUBVENCIONES DISPONIBLES
+                  </h1>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size: 16px; line-height: 1.6; padding-bottom: 30px; font-family: 'Inter', Arial, sans-serif; color: #0f3254;">
+                <strong>${c.name}</strong>, he mapeado el terreno. <br>
+                Estas son las convocatorias clave que he encontrado para tu proyecto:
+              </td>
+            </tr>
+            ${grantsHTML}
+          </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>`;
-
-      // Formato estricto para n8n: devolver siempre { json: { datos } }
       return {
-        emailTo: client.email,
-        clientName: client.name,
-        htmlContent: htmlContent,
+        json: {
+          emailTo: c.email,
+          clientName: c.name,
+          htmlContent,
+        },
       };
     });
 }
 // ============================================================================
-// FIN DEL BLOQUE 2 (HASTA AQUÍ COPIAS EN N8N)
-// En n8n, simplemente quita la línea "function codigoN8n() {" del principio
-// y la llave de cierre "}" del final, o copia solo lo de dentro de la función.
+// FIN DEL BLOQUE 2
+// (AL COPIAR A N8N, IGNORA "function codigoN8n() {" Y LA LLAVE FINAL "}")
 // ============================================================================
 
 // ============================================================================
-// BLOQUE 3: EJECUCIÓN Y GENERACIÓN DEL HTML (NO COPIAR)
+// BLOQUE 3: EJECUCIÓN Y GENERACIÓN DEL HTML (NO COPIAR EN N8N)
 // ============================================================================
 const itemsFinales = codigoN8n();
 
 if (itemsFinales.length > 0) {
-  // Extraemos el HTML del primer cliente (María Casado) para la prueba local
-  const htmlParaTest = itemsFinales[0].htmlContent;
+  // En tu entorno local el JSON devuelve { json: { htmlContent, emailTo } }
+  const htmlParaTest = itemsFinales[0].json.htmlContent;
 
+  // Guardamos en la misma carpeta para evitar errores de rutas si "templates/" no existe
   fs.writeFileSync("templates/grant-mail.html", htmlParaTest, "utf8");
-  console.log("\x1b[32m%s\x1b[0m", '✅ Archivo "grant-mail.html" generado.');
-  console.log(`📤 Simulación: Se enviaría a ${itemsFinales[0].emailTo}`);
+  console.log(
+    "\x1b[32m%s\x1b[0m",
+    '✅ Archivo "grant-mail.html" generado. Ábrelo en tu navegador.',
+  );
+  console.log(
+    `📤 Simulación: Se enviaría un correo a ${itemsFinales[0].json.emailTo}`,
+  );
 } else {
   console.log(
     "\x1b[33m%s\x1b[0m",
-    "⚠️ Ningún cliente pasó el filtro (sin subvenciones).",
+    "⚠️ Ningún cliente pasó el filtro (el array de subvenciones estaba vacío).",
   );
 }
