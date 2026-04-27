@@ -25,7 +25,7 @@ try {
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
 const loopSubvenciones = loopSubvencionesRaw;
 const flatSubvenciones = flatSubvencionesRaw;
-const filterBenefactors = filterBenefactorsRaw;
+const filterBenefactors = filterBenefactorsRaw[0];
 const formatAgentResponseToJSON = formatAgentResponseToJSONRaw;
 
 //#region Node Logic
@@ -50,24 +50,13 @@ function getGrantUrlsMap(grantData) {
   );
 }
 
-function extractBoePureTextUrl(url) {
-  if (!url) return null;
-  const boeIdMatch = url.match(/c=(BOE-[A-Z]-\d{4}-\d+)/);
-  if (boeIdMatch) {
-    const boeId = boeIdMatch[1];
-    return `https://www.boe.es/diario_boe/txt.php?id=${boeId}`;
-  }
-  return null;
-}
-
-// Map each grant ID to an array of all pure text BOE URLs
+// Map each grant ID to an array of all URLs
 function getGrantPureTextUrlsMap(urlsMap) {
   const result = {};
   for (const [code, urls] of Object.entries(urlsMap)) {
-    result[code] = Array.isArray(urls)
-      ? urls.map(extractBoePureTextUrl).filter(Boolean)
-      : [];
+    result[code] = urls;
   }
+
   return result;
 }
 

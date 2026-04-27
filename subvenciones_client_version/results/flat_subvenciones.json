@@ -1,5 +1,140 @@
 [
   {
+    "numeroConvocatoria": "901148",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos de atencióm al publico de la Fundació Joan Miró",
+    "fechaRecepcion": "2026-04-23",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/901148",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=901148&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "901131",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos capital del Consorci del Gran Teatre del Liceu",
+    "fechaRecepcion": "2026-04-23",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/901131",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=901131&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "901127",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes del Consorci del Turó de la Seu Vella de Lleida",
+    "fechaRecepcion": "2026-04-23",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/901127",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=901127&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "900554",
+    "descripcion_oficial": "Ayudas 2026 a Artistas Visuales s/ Resolución de 30 de marzo de 2026 que la convoca",
+    "fechaRecepcion": "2026-04-22",
+    "organo": "SECRETARÍA GENERAL DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900554",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=900554&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "900033",
+    "descripcion_oficial": "RESOLUCION  SUBVENCION NOMINATIVA EN PRESUPUESTO ASOCIACION AMEFYQ. PARA OLIMPIADA DE QUIMICA 2026",
+    "fechaRecepcion": "2026-04-20",
+    "organo": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900033",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=900033&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "899567",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes de la Fundació Pau Casals",
+    "fechaRecepcion": "2026-04-17",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899567",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=899567&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "899565",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes del Consorci Mercat de les Flors",
+    "fechaRecepcion": "2026-04-17",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899565",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=899565&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "899558",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes del Consorci Museu de Ciències Naturals de Barcelona",
+    "fechaRecepcion": "2026-04-17",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899558",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=899558&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "898826",
+    "descripcion_oficial": "Resolución nº 2026000385 de 14/04/2025 de la Consejería de Cultura, Patrimonio Cultural y Del Mayor, por la que se convoca el CONCURSO DE CRUCES DE MAYO 2026",
+    "fechaRecepcion": "2026-04-14",
+    "organo": "CONSEJERÍA DE CULTURA, PATRIMONIO CULTURAL Y DEL MAYOR",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898826",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=898826&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
     "numeroConvocatoria": "897944",
     "descripcion_oficial": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan las Ayudas Injuve para la Creación Joven, año 2026-2027",
     "fechaRecepcion": "2026-04-09",
@@ -9,36 +144,129 @@
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
-    "numeroConvocatoria": "897213",
-    "descripcion_oficial": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
-    "fechaRecepcion": "2026-04-07",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897213",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897213&vpd=GE",
+    "numeroConvocatoria": "897679",
+    "descripcion_oficial": "Resolución de 9 de Abril de 2026, de la S.G. de Familias, Igualdad, Violencia de Género y Diversidad, Convocatoria 2026 de subvenciones destinadas a formación, estudios y publicaciones en materia de violencia de género - Línea 2 Estudios y Publicaciones",
+    "fechaRecepcion": "2026-04-08",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897679",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897679&vpd=GE",
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "897678",
+    "descripcion_oficial": "Resolución de 9 de Abril de 2026, de la S.G. de Familias, Igualdad, Violencia de Género y Diversidad, Convocatoria 2026 de subvenciones destinadas a formación, estudios y publicaciones en materia de violencia de género - Línea 1 Formación",
+    "fechaRecepcion": "2026-04-08",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897678",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897678&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "897465",
+    "descripcion_oficial": "Premios 2026 a los mejores guiones cinematográficos para películas de largometraje realizados en Extremadura, según resolución de 20 de marzo de 2026 que convoca",
+    "fechaRecepcion": "2026-04-08",
+    "organo": "SECRETARÍA GENERAL DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897465",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897465&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "897162",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes de la Fundació Teatre Lliure - Teatre Públic de Barcelona",
+    "fechaRecepcion": "2026-04-07",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897162",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897162&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "897157",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes de la Fundació Gran Teatre del Liceu",
+    "fechaRecepcion": "2026-04-07",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897157",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897157&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "895677",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes de l'Institut Ramon Muntaner. Fundació Privada dels Centres d'Estudi de Parla Catalana",
+    "fechaRecepcion": "2026-03-27",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/895677",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=895677&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "895673",
+    "descripcion_oficial": "Resolución de concesión de una subvención directa para los gastos corrientes de la Fundació Guillem Viladot \"Lo Pardal\"",
+    "fechaRecepcion": "2026-03-27",
+    "organo": "DEPARTAMENT DE CULTURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/895673",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=895673&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "895391",
+    "descripcion_oficial": "RESOLUCIÓN del 25 de marzo de 2026, del director general del Institut Valencià de Cultura, por la cual se convocan subvenciones a la escritura de guion y al desarrollo y preparación de proyectos de obras audiovisuales del Institut Valencià de Cultura para",
+    "fechaRecepcion": "2026-03-26",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/895391",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=895391&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
@@ -51,15 +279,294 @@
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894528",
+    "descripcion_oficial": "RESOLUCIÓN del director general del Institut Valencià de Cultura por la que se convocan subvenciones destinadas al fomento de actividades musicales para 2026",
+    "fechaRecepcion": "2026-03-23",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894528",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894528&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894524",
+    "descripcion_oficial": "RESOLUCIÓN del director general del Institut Valencià de Cultura por la que se convocan subvenciones destinadas al fomento de actividades musicales para 2026.",
+    "fechaRecepcion": "2026-03-23",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894524",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894524&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894456",
+    "descripcion_oficial": "RESOLUCIÓN DE LA DIRECCIÓN GENERAL DE PERSONAS CONDISCAPACIDAD, POR LA QUE SE ACUERDA LA CONCESIÓN DE UNA SUBVENCIÓN NOMINATIVA A LA FUNDACIÓN PÚBLICA ANDALUZA PARA LA INTEGRACIÓN SOCIAL DE LAS PERSONAS CON ENFERMEDAD MENTAL",
+    "fechaRecepcion": "2026-03-20",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894456",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894456&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894455",
+    "descripcion_oficial": "RESOLUCIÓN DE LA DIRECCIÓN GENERAL DE PERSONAS CONDISCAPACIDAD, POR LA QUE SE ACUERDA LA CONCESIÓN DE UNA SUBVENCIÓN NOMINATIVA AL COMITÉ DE ENTIDADES DE REPRESENTANTES DE PERSONAS CON DISCAPACIDAD DE ANDALUCÍA CERMI-ANDALUCÍA.",
+    "fechaRecepcion": "2026-03-20",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894455",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894455&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894454",
+    "descripcion_oficial": "RESOLUCIÓN DE LA DIRECCIÓN GENERAL DE PERSONAS CON DISCAPACIDAD, POR LA QUE SE ACUERDA LA CONCESIÓN DE UNA SUBVENCIÓN NOMINATIVAA LA FUNDACIÓN ANDALUZA ACCESIBILIDAD Y PERSONAS SORDAS.",
+    "fechaRecepcion": "2026-03-20",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894454",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894454&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894177",
+    "descripcion_oficial": "Resolución de 17-03-26 por la que se concede subvención a Fundación Deportiva Municipal de Avilés para URMD 2026",
+    "fechaRecepcion": "2026-03-19",
+    "organo": "CONSEJERÍA DE CULTURA, POLÍTICA LINGÜÍSTICA Y TURISMO",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894177",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894177&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "892335",
+    "descripcion_oficial": "Resolución nº 2026000299 de 10/03/2026 de la Consejería de Cultura, Patrimonio Cultural y Del Mayor, por la que se convoca el CONCURSO “EL CINE EN TU BOLSILLO” DE LA XVIII SEMANA DE CINE DE MELILLA.",
+    "fechaRecepcion": "2026-03-11",
+    "organo": "CONSEJERÍA DE CULTURA, PATRIMONIO CULTURAL Y DEL MAYOR",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/892335",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=892335&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "892334",
+    "descripcion_oficial": "Resolución nº 2026000298 de 10/03/2026 de la Consejería de Cultura, Patrimonio Cultural y Del Mayor, por la que se convoca el XIX PREMIO DE CORTOMETRAJES “MANUEL CARMONA MIR” DE LA XVIII SEMANA DE CINE DE MELILLA.",
+    "fechaRecepcion": "2026-03-11",
+    "organo": "CONSEJERÍA DE CULTURA, PATRIMONIO CULTURAL Y DEL MAYOR",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/892334",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=892334&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "890900",
+    "descripcion_oficial": "RESOLUCIÓN de 4 de marzo de 2026, del Director general del Institut Valencià de Cultura, por la que se convocan los premios de la 41ª edición del Festival Internacional de Cine de València - Cinema Jove 2026.",
+    "fechaRecepcion": "2026-03-04",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890900",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=890900&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "890673",
+    "descripcion_oficial": "Resolución de la Consejera de Inclusión Social, Juventud, Familias e Igualdad por la que se convocan subvenciones en régimen de concurrencia competitiva para el funcionamiento de Centros de Información Juvenil en el año 2026.",
+    "fechaRecepcion": "2026-03-03",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890673",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=890673&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "890106",
+    "descripcion_oficial": "Resolución de la Consejera de Inclusión Social, Juventud, Familias e Igualdad, por la que se convocan subvenciones a asociaciones de mujeres y otras organizaciones sin ánimo de lucro para el fomento de la igualdad, en el año 2026.",
+    "fechaRecepcion": "2026-02-27",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890106",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=890106&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889503",
+    "descripcion_oficial": "Resolución de la Consejera de Inclusión Social, Juventud, Familias e Igualdad, por la que se convocan subvenciones a municipios y mancomunidades de la Comunidad Autónoma de Cantabria, para impulsar la implantación de planes estratégicos de igualdad.",
+    "fechaRecepcion": "2026-02-25",
+    "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889503",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889503&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889357",
+    "descripcion_oficial": "Resolución 23 de febrero de 2026, por la que se convocan subvenciones a personas jóvenes andaluzas o residentes en Andalucía,para poner en funcionamiento proyectos empresariales en Andalucía (PROGRAMA INNOVACTIVA) para el ejercicio 2026 - Mínimi 717/2014",
+    "fechaRecepcion": "2026-02-24",
+    "organo": "INSTITUTO ANDALUZ DE LA JUVENTUD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889357",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889357&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889356",
+    "descripcion_oficial": "Resolución 23 de febrero de 2026, por la que se convocan subvenciones a personas jóvenes andaluzas o residentes en Andalucía,para poner en funcionamiento proyectos empresariales en Andalucía (PROGRAMA INNOVACTIVA)para el ejercicio 2026 - Mínimi 1408/2013",
+    "fechaRecepcion": "2026-02-24",
+    "organo": "INSTITUTO ANDALUZ DE LA JUVENTUD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889356",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889356&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889355",
+    "descripcion_oficial": "Resolución 23 de febrero de 2026, por la que se convocan subvenciones a personas jóvenes andaluzas o residentes en Andalucía,para poner en funcionamiento proyectos empresariales en Andalucía (PROGRAMA INNOVACTIVA)para el ejercicio 2026 - Mínimis 2831/2023",
+    "fechaRecepcion": "2026-02-24",
+    "organo": "INSTITUTO ANDALUZ DE LA JUVENTUD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889355",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889355&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889346",
+    "descripcion_oficial": "Resolución de 24 de febrero de 2026, del I.A.J., subv. a asoc. juveniles, federac. de asociaciones juveniles, secc. juveniles de otras entidades y grupos corresp. juveniles,para realización de actuaciones en materia de juventud, ejercicio 2026",
+    "fechaRecepcion": "2026-02-24",
+    "organo": "INSTITUTO ANDALUZ DE LA JUVENTUD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889346",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889346&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889334",
+    "descripcion_oficial": "Resolución de 23 de Febrero de 2026,de la D.G.del Instituto And.de la Juventud, por la que se convocan subvenciones en rég.de conc.comp.,a Entid.Locales Andaluzas,para la realización de actuaciones en materia de juventud en el ejercicio 2026",
+    "fechaRecepcion": "2026-02-24",
+    "organo": "INSTITUTO ANDALUZ DE LA JUVENTUD",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889334",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889334&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "889068",
+    "descripcion_oficial": "RESOLUCIÓN de 23 de febrero de 2026, del director general del Institut Valencià de Cultura, por la que se convocan subvenciones para la producción de obras audiovisuales en la Comunidad Valenciana, para las anualidades de 2026, 2027 y 2028",
+    "fechaRecepcion": "2026-02-23",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889068",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=889068&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
+    }
+  },
+  {
+    "numeroConvocatoria": "887344",
+    "descripcion_oficial": "RESOLUCIÓN de la dirección general del Institut Valencià de Cultura por la que se convocan subvenciones destinadas a la adquisición de instrumentos musicales, durante los meses de diciembre de 2025 a noviembre de 2026",
+    "fechaRecepcion": "2026-02-16",
+    "organo": "INSTITUT VALENCIÀ DE CULTURA (IVC)",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887344",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=887344&vpd=GE",
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
@@ -72,204 +579,324 @@
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
-    "numeroConvocatoria": "855209",
-    "descripcion_oficial": "Resolución de 22 de agosto de 2025 de la Subsecretaría de Cultura por la que se convocan las becas Formarte, de formación y especialización en materias culturales para el año 2026-2027.",
-    "fechaRecepcion": "2025-09-05",
-    "organo": "SUBSECRETARÍA DE CULTURA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/855209",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=855209&vpd=GE",
+    "numeroConvocatoria": "882225",
+    "descripcion_oficial": "Ayudas 2026, de la Línea III, a grupos de jóvenes no asociados destinadas al fomento de la participación juvenil, según Resolución de fecha 18/12/2025 que las convoca",
+    "fechaRecepcion": "2026-01-19",
+    "organo": "INSTITUTO DE LA JUVENTUD DE EXTREMADURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882225",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=882225&vpd=GE",
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
-    "numeroConvocatoria": "846752",
-    "descripcion_oficial": "Resolución del Instituto de la Juventud, por la que se concede una subvención directa a la asociación Be Wild Be Proud para la realización de la Ruta al Exilio, de conformidad con lo establecido en el Real Decreto 637 /2025, de 15 de julio por el que se r",
-    "fechaRecepcion": "2025-07-17",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/846752",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=846752&vpd=GE",
+    "numeroConvocatoria": "882224",
+    "descripcion_oficial": "Ayudas 2026, de la Línea II, a entidades prestadoras de servicios a la juventud destinadas al fomento de la participación juvenil, según Resolución de fecha 18/12/2025 que las convoca",
+    "fechaRecepcion": "2026-01-19",
+    "organo": "INSTITUTO DE LA JUVENTUD DE EXTREMADURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882224",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=882224&vpd=GE",
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
-    "numeroConvocatoria": "843167",
-    "descripcion_oficial": "Resolución de 25 de junio de 2025 del Instituto Nacional de las Artes Escénicas y de la Música por la que se convocan las ayudas de concesión directa para entidades del ámbito de las artes escénicas y la música afectadas por la DANA",
-    "fechaRecepcion": "2025-06-30",
-    "organo": "INSTITUTO NACIONAL DE LAS ARTES ESCÉNICAS Y DE LA MÚSICA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/843167",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=843167&vpd=GE",
+    "numeroConvocatoria": "882223",
+    "descripcion_oficial": "Ayudas 2026, de la Línea I, a asociaciones juveniles y entidades asimiladas a las mismas destinadas al fomento de la participación juvenil, según Resolución de 18/12/2025 que las convoca",
+    "fechaRecepcion": "2026-01-19",
+    "organo": "INSTITUTO DE LA JUVENTUD DE EXTREMADURA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882223",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=882223&vpd=GE",
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": ["Música", "Juventud"],
+      "beneficiary_type": ["Asociación", "PYME"]
     }
   },
   {
-    "numeroConvocatoria": "842745",
-    "descripcion_oficial": "RESOLUCIÓN DE 27 DE JUNIO DE 2025 DEL INSTITUTO DE LA JUVENTUD, POR LA QUE SE CONVOCA LA CONCESIÓN DE AYUDAS PARA LA REALIZACIÓN DE ACTIVIDADES FINANCIADAS POR LA COMISIÓN EUROPEA EN EL CAPÍTULO DE JUVENTUD DEL PROGRAMA «ERASMUS+» DURANTE 2025",
-    "fechaRecepcion": "2025-06-27",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/842745",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=842745&vpd=GE",
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "840137",
-    "descripcion_oficial": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas para la realización de actividades financiadas por la Comisión Europea del Programa «Cuerpo Europeo de Solidaridad», para 2025",
-    "fechaRecepcion": "2025-06-13",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/840137",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=840137&vpd=GE",
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "828125",
-    "descripcion_oficial": "Resolución del Instituto de la Juventud, por la que se convoca la concesión de subvenciones para el mantenimiento y funcionamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal, 25",
-    "fechaRecepcion": "2025-04-22",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/828125",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=828125&vpd=GE",
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "823936",
-    "descripcion_oficial": "Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan las Ayudas Injuve para la Creación Joven, año 2025-2026",
-    "fechaRecepcion": "2025-03-31",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/823936",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=823936&vpd=GE",
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "819650",
-    "descripcion_oficial": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2025",
-    "fechaRecepcion": "2025-03-11",
-    "organo": "INSTITUTO DE LA JUVENTUD",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/819650",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=819650&vpd=GE",
-    "client": {
-      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-      "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Música",
-        "Juventud"
-      ],
-      "beneficiary_type": [
-        "Asociación",
-        "PYME"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "896999",
-    "descripcion_oficial": "Resolución de 6 de abril de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas Neotec",
-    "fechaRecepcion": "2026-04-06",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896999",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=896999&vpd=GE",
+    "numeroConvocatoria": "901008",
+    "descripcion_oficial": "RESOLUCIÓN de __ de abril de 2026, de la Consellera de Industria, Turismo, Innovación y Comercio, por la que se aprueba la convocatoria, por el procedimiento de concurrencia no competitiva, para la concesión de subvenciones para las PYMES 2026.",
+    "fechaRecepcion": "2026-04-23",
+    "organo": "SECRETARÍA AUTONÓMICA DE INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/901008",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=901008&vpd=GE",
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "900847",
+    "descripcion_oficial": "Resolución 11E/2026 de 20 de abril, del Director General de Comercio y Consumo, por la que se aprueba la convocatoria de subvenciones para la promoción de empresas artesanas de Navarra 2026.",
+    "fechaRecepcion": "2026-04-22",
+    "organo": "DEPARTAMENTO DE INDUSTRIA Y DE TRANSICION ECOLOGICA Y DIGITAL EMPRESARIAL",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900847",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=900847&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "900618",
+    "descripcion_oficial": "Resolución de la Conselleria de Sanidad, por la que se convocan subvenciones destinadas a financiar acciones en materia de recursos humanos para impulsar la investigación sanitaria, biomédica y de salud pública para el ejercicio 2026.",
+    "fechaRecepcion": "2026-04-22",
+    "organo": "SECRETARÍA AUTONÓMICA DE EFICIENCIA Y TECNOLOGÍA SANITARIA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900618",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=900618&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "900146",
+    "descripcion_oficial": "RESOLUCIÓN DE 17/4/2026 DE LA AGENCIA DE CIENCIA COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN ASTURIANA QUE APRUEBA LA CONVOCATORIA DE CONCESIÓN DE SUBVENCIONES DIRIGIDAS A ORGANIZACIONES CLUSTERS DEL PRINCIPADO DE ASTURIAS PARA EL AÑO 2026",
+    "fechaRecepcion": "2026-04-20",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900146",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=900146&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "898964",
+    "descripcion_oficial": "Resolución  Viceconsejería de Medio Ambiente,  convocatoria 2026 de  ayudas ejecución de tratamientos selvícolas, contenidas en el marco PAC 2023-2027 .FEADER                 \nAyudas de Estado en base al Reglamento 2022/2472.",
+    "fechaRecepcion": "2026-04-15",
+    "organo": "VICECONSEJERÍA DE MEDIO AMBIENTE",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898964",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=898964&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "898931",
+    "descripcion_oficial": "Resolución de  Viceconsejería Medio Ambiente para convocatoria 2026 ayudas ejecución tratamientos selvícolas, contenidas en el plan estratégico PAC                     \n( No ayudas de Estado .)",
+    "fechaRecepcion": "2026-04-15",
+    "organo": "VICECONSEJERÍA DE MEDIO AMBIENTE",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898931",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=898931&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "898875",
+    "descripcion_oficial": "RESOLUCIÓN DE 13/4/2026 LA AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN \nASTURIANA QUE APRUEBA LA CONVOCATORIA DE CONCESIÓN DE \nSUBVENCIONES PARA LA EJECUCIÓN DE PLANES DE ACTUACION PARA CENTROS DE \nI+D+i EMPRESARIALES EJERCICIO 2026",
+    "fechaRecepcion": "2026-04-14",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898875",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=898875&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "898112",
+    "descripcion_oficial": "RESOLUCIÓN DE 13 DE ABRIL DE 2026 DE LA DIRECCIÓN GENERAL DE PLANIFICACIÓN DE LA INVESTIGACIÓN POR LA QUE SE CONVOCAN PARA 2026 SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA COMPETITIVA, DESTINADAS A FINANCIAR EL DESARROLLO DE PROYECTOS DE INVESTIGACIÓN APLICAD",
+    "fechaRecepcion": "2026-04-10",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898112",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=898112&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "897024",
+    "descripcion_oficial": "Resolución de 31/03/2026 de la Agencia de Ciencia, Competitividad Empresarial e Innovación Asturiana, que aprueba la convocatoria única para la realización de proyectos de I+D+i en red por parte de OPIS en colaboración con entidades año 2026",
+    "fechaRecepcion": "2026-04-06",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897024",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897024&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "896593",
+    "descripcion_oficial": "Resolucion de 31 de marzo de la Agencia Digital de Andalucía por la que se convocan subvención mantenimiento puntos vuela inclusion digital",
+    "fechaRecepcion": "2026-04-01",
+    "organo": "AGENCIA DIGITAL DE ANDALUCÍA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896593",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=896593&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "896215",
+    "descripcion_oficial": "Resolución de 27/03/2026 de la Agencia Sekuens, de convocatoria de subvenciones a inversiones en proyectos tractores de impulso a PYMES, para la diversificación económica en Asturias cofinanciables por el FTJ, ejercicio 2026.",
+    "fechaRecepcion": "2026-03-30",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896215",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=896215&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894738",
+    "descripcion_oficial": "RESOLUCIÓN DE 20/03/2026 DE LA AGENCIA DE CIENCIA COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN ASTURIANA DE CONVOCATORIA DE AYUDAS PARA APOYAR LA PROMOCIÓN INTERNACIONAL Y DIVESRIFICACIÓN DE LOS MERCADOS DE PYMES DEL PRINCIPADO DE ASTURIAS 2026",
+    "fechaRecepcion": "2026-03-23",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894738",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894738&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894735",
+    "descripcion_oficial": "Resolución de 20/03/2026 de la Agencia de Ciencia, Competitividad Empresarial e Innovación que aprueba Convocatoria de Subvenciones a empresas del Principado de Asturias, Programa de Ayudas a la Transformación Digital 2026 cofinanciables por el FTJ",
+    "fechaRecepcion": "2026-03-23",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894735",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894735&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894614",
+    "descripcion_oficial": "Resolución del conseller de Sanidad por la que se convocan subvenciones destinadas a financiar los programas de ayuda y autoayuda relacionados con la mejora de la calidad de vida de los/las pacientes de la Comunitat Valenciana para el año 2026.",
+    "fechaRecepcion": "2026-03-23",
+    "organo": "SECRETARÍA AUTONÓMICA DE EFICIENCIA Y TECNOLOGÍA SANITARIA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894614",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894614&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894180",
+    "descripcion_oficial": "RESOLUCIÓN DE 12/03/2026 DE LA AGENCIA DE CIENCIA COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN ASTURIANA DE CONVOCATORIA DE SUBVENCIONES PARA EMPRESAS DEL PRINCIPADO DE ASTURIAS MODALIDAD DE CHEQUES DE INNOVACIÓN Y DESARROLLO EMPRESARIAL 2026",
+    "fechaRecepcion": "2026-03-19",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894180",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894180&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "894179",
+    "descripcion_oficial": "Resolución de 16/03/2026 de la Agencia de Ciencia, Competitividad Empresarial e Innovación Asturiana que aprueba la convocatoria de subvenciones para el desarrollo y mejora de los Espacios Industriales del Principado de Asturias, año 2026\n",
+    "fechaRecepcion": "2026-03-19",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894179",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=894179&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "893989",
+    "descripcion_oficial": "Resolución de 11/03/2026 de la Agencia que aprueba la convocatoria de subvenciones dirigidas a Centros de Empresas Públicos para sus actividades en el marco del Servicio Único de creación de empresas: Semilleros de Empresas, ejercicio 2026.",
+    "fechaRecepcion": "2026-03-18",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893989",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=893989&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "893988",
+    "descripcion_oficial": "Resolucion de fecha 16/03/2026 de la Agencia de Competitividad Empresarial e Innovación de Principado de Asturias,  por la que aprueba la convocatoria de Difusión de las actividades de  I+D+i 2026",
+    "fechaRecepcion": "2026-03-18",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893988",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=893988&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
@@ -283,35 +910,38 @@
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
-    "numeroConvocatoria": "893025",
-    "descripcion_oficial": "Resolución de 13 de marzo de 2026 de la Dirección General del CDTI de concesión directa de ayudas del año 2026 a proyectos de I+D seleccionados en los Programas internacionales Eurostars 3, Asociaciones Cofinanciadas.",
-    "fechaRecepcion": "2026-03-13",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893025",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=893025&vpd=GE",
+    "numeroConvocatoria": "892587",
+    "descripcion_oficial": "Resolución de 10 de marzo de 2026, convocatoria, en rég. de conc. no competitiva, subvenciones dirigidas a municipios y entidades locales autónomas de And. en situación de brecha digital.",
+    "fechaRecepcion": "2026-03-11",
+    "organo": "AGENCIA DIGITAL DE ANDALUCÍA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/892587",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=892587&vpd=GE",
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "891514",
+    "descripcion_oficial": "Resolución del Consejero de fecha 5 de marzo de 2026 por la que se aprueba la convocatoria de subvenciones destinadas a asociaciones empresariales del sector del transporte de mercancías por carretera de la Comunidad Autónoma de Cantabria.",
+    "fechaRecepcion": "2026-03-06",
+    "organo": "CONSEJERÍA DE FOMENTO, ORDENACIÓN DELTERRITORIO Y MEDIO AMBIENTE",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/891514",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=891514&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
@@ -325,14 +955,338 @@
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "885961",
+    "descripcion_oficial": "Resolución  de 5 de febrero de 2026, por la que se convocan las ayudas destinadas a financiar las actuaciones de los Ayuntamientos en el procedimiento de elaboración de un inventario de Areas Degradadas (FEDER)",
+    "fechaRecepcion": "2026-02-09",
+    "organo": "CONSEJERÍA DE FOMENTO, ORDENACIÓN DELTERRITORIO Y MEDIO AMBIENTE",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885961",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=885961&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "883829",
+    "descripcion_oficial": "Resolución de 30 de marzo de 2026 por la que se convocan las subvenciones, a conceder en régimen de concurrencia competitiva, destinadas a financiar el desarrollo de proyectos de investigación básica o fundamental por los agentes del sistema andaluz del c",
+    "fechaRecepcion": "2026-01-28",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/883829",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=883829&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "883729",
+    "descripcion_oficial": "RESOLUCIÓN DE 5 DE FEBRERO 2026, POR LA QUE SE CONVOCAN PARA EL EJERCICIO  2026, LAS SUBVENCIONES A PROYECTOS DE INVESTIGACIÓN APLICADA Y DESARROLLO EXPERIMENTAL EN EL SENO DE LOS CAMPUS DE EXCELENCIA INTERNA L 3 ORDEN 23.04.24",
+    "fechaRecepcion": "2026-01-28",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/883729",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=883729&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879749",
+    "descripcion_oficial": "Resolución de 30/12/2025 de la Agencia por la que se concede subvención directa a CIS ROBOTICS SMART SOLUTIONS para proyectos I+D+I en cooperación internacional  de la convocatoria internacional JC 2024 de la ERANET M-ERA.NET 3 Programa Horizonte de la EU",
+    "fechaRecepcion": "2026-01-02",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879749",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879749&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879726",
+    "descripcion_oficial": "RESOLUCIÓN DE LA CONSELLERA DE INNOVACIÓN, INDÚSTRIA, COMERCIO Y TURISMO POR LA QUE SE REGULA Y CONCEDE UNA SUBVENCIÓN NOMINATIVA EN RÉGIMEN DE CONCESIÓN DIRECTA A LA FUNDACIÓN ONCE",
+    "fechaRecepcion": "2026-01-02",
+    "organo": "SECRETARÍA AUTONÓMICA DE INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879726",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879726&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879723",
+    "descripcion_oficial": "RESOLUCIÓN DE LA CONSELLERA DE INNOVACIÓN, INDÚSTRIA, COMERCIO Y TURISMO POR LA QUE SE REGULA Y CONCEDE UNA SUBVENCIÓN NOMINATIVA EN RÉGIMEN DE CONCESIÓN DIRECTA A LA FUNDACIÓN ONCE",
+    "fechaRecepcion": "2026-01-02",
+    "organo": "SECRETARÍA AUTONÓMICA DE INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879723",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879723&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879212",
+    "descripcion_oficial": "Resolución de 30/12/2025 de la Agencia por la que se concede subvención directa a METROHM DROPSENS SL  para proyectos I+D+I en cooperación internacional  de la convocatoria internacional JC 2024 de la ERANET M-ERA.NET 3 - Programa Horizonte de la EU",
+    "fechaRecepcion": "2025-12-31",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879212",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879212&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879211",
+    "descripcion_oficial": "Resolución de 30/12/2025 de la Agencia por la que se concede subvención directa a MICRUXFLUIDIC SL para proyectos I+D+I en cooperación internacional  de la convocatoria internacional JC 2024 de la ERANET M-ERA.NET 3 - Programa Horizonte de la EU",
+    "fechaRecepcion": "2025-12-31",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879211",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879211&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879210",
+    "descripcion_oficial": "Resolución de 30/12/2025 de la Agencia por la que se concede subvención directa a ARCELORMITTAL INNOV  para proyectos I+D+I en cooperación internacional  de la convocatoria internacional CETPARTNERSHIP JOINT CALL 2024  - Programa Horizonte de la EU",
+    "fechaRecepcion": "2025-12-31",
+    "organo": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879210",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879210&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "879040",
+    "descripcion_oficial": "Becas curso 2025-26 complementarias para estudiantes ciclos formativos grado superior en centros sostenidos con fondos públicos de Extremadura beneficiarios del “Programa Erasmus+ 2021-2027” s/ Resolución de  26 de diciembre de 2025, que la convoca.",
+    "fechaRecepcion": "2025-12-30",
+    "organo": "DIRECCIÓN GENERAL DE FORMACIÓN PROFESIONAL, INNOVACIÓN E INCLUSIÓN EDUCATIVA",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/879040",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=879040&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877915",
+    "descripcion_oficial": "Resolución de 27 de diciembre de 2025 a Subvenciones de Proyectos de Innovación Empresaria Linea 3 Orden de 10 de febrero de 2025, Reglamento 651/2014",
+    "fechaRecepcion": "2025-12-26",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877915",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877915&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877914",
+    "descripcion_oficial": "Resolución de 27 de diciembre de 2025 a Subvenciones de Proyectos de Innovación Empresaria Linea 3 Orden de 10 de febrero de 2025. No Ayudas de Estado",
+    "fechaRecepcion": "2025-12-26",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877914",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877914&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877908",
+    "descripcion_oficial": "Resolución de 29 de diciembre de 2025 para Subvenciones a proyectos de innovación empresarial en el sector de la aviación sostenible Linea 4 de la Orden de 10 de febrero de 2025. Reglamento 651/2014",
+    "fechaRecepcion": "2025-12-26",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877908",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877908&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877907",
+    "descripcion_oficial": "Resolución de 29 de diciembre de 2025 para Subvenciones a proyectos de innovación empresarial en el sector de la aviación sostenible Linea 4 de la Orden de 10 de febrero de 2025. No ayudas de Estado",
+    "fechaRecepcion": "2025-12-26",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877907",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877907&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877441",
+    "descripcion_oficial": "Subvenciones 2026 a Ayuntamientos y Mancomunidades de menos de 20.000 habitantes para el desarrollo de pueblos inteligentes, según resolución de 15 de diciembre de 2025 que convoca",
+    "fechaRecepcion": "2025-12-23",
+    "organo": "DIRECCIÓN GENERAL DE DIGITALIZACIÓN REGIONAL",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877441",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877441&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877399",
+    "descripcion_oficial": "Ayudas 2025 a pymes para proyectos I+D modalidad I, realizados por empresas No de base tecnologica y No Startup,  s/ Resolución de 16 de diciembre de 2025 que las convoca",
+    "fechaRecepcion": "2025-12-23",
+    "organo": "SECRETARÍA GENERAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877399",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877399&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877398",
+    "descripcion_oficial": "Ayudas 2025 a pymes para proyectos I+D modalidad III, realizados por empresas Startup,  s/ Resolución de 16 de diciembre de 2025 que las convoca",
+    "fechaRecepcion": "2025-12-23",
+    "organo": "SECRETARÍA GENERAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877398",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877398&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877397",
+    "descripcion_oficial": "Ayudas 2025  a pymes para proyectos I+D modalidad II, realizados por empresas de base tecnologica, s/ Resolución de 16 de diciembre de 2025 que las convoca",
+    "fechaRecepcion": "2025-12-23",
+    "organo": "SECRETARÍA GENERAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877397",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877397&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877168",
+    "descripcion_oficial": "Subvenciones 2026 a entidades locales menores de menos de 20.000 habitantes para el desarrollo de pueblos inteligentes, según resolución de 15 de diciembre de 2025 que convoca",
+    "fechaRecepcion": "2025-12-22",
+    "organo": "DIRECCIÓN GENERAL DE DIGITALIZACIÓN REGIONAL",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877168",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877168&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "877159",
+    "descripcion_oficial": "Resolución de 27 de enero de 2026 por la que se convoca la concesión de subv. En concurrencia no competitiva, para proyectos incluidos en el Programa de Incubación Espacial de Andalucía “ESA BIC ANDALUCIA”",
+    "fechaRecepcion": "2025-12-22",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877159",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=877159&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "876110",
+    "descripcion_oficial": "Resolución de 17 de diciembre de 2025 L. 2 Orden de 24 de octubre de 2023 Subvenciones Programa de Formación captación, incorporación y movilidad de recursos humanos de I+D+I de invest SAC",
+    "fechaRecepcion": "2025-12-17",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/876110",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=876110&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
+    }
+  },
+  {
+    "numeroConvocatoria": "876109",
+    "descripcion_oficial": "RESOLUCIÓN DE 17 DE DICIEMBRE DE 2925, Linea 1 Subv. Contr. Predoct. Ags. SAC. Conv 2025",
+    "fechaRecepcion": "2025-12-17",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/876109",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=876109&vpd=GE",
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
@@ -346,518 +1300,38 @@
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
-    "numeroConvocatoria": "865483",
-    "descripcion_oficial": "Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos).",
-    "fechaRecepcion": "2025-10-29",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865483",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=865483&vpd=GE",
+    "numeroConvocatoria": "874081",
+    "descripcion_oficial": "Resolución de 10 de diciembre de 2025 de la DGPI de convocatoria de ayudas a los agentes del conocimiento andaluz para la contratación de jóvenes investigadores y personal técnico de apoyo a la I+D+i, confinanciados por FSE + dentro del marco 21-27",
+    "fechaRecepcion": "2025-12-10",
+    "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874081",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=874081&vpd=GE",
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   },
   {
-    "numeroConvocatoria": "865474",
-    "descripcion_oficial": "Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos). AAPP",
-    "fechaRecepcion": "2025-10-29",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865474",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=865474&vpd=GE",
+    "numeroConvocatoria": "873785",
+    "descripcion_oficial": "Resolución concesión subvención directa al Instituto Valenciano de la Edificación para el fomento de la innovación en el ámbito del urbanismo en el ejercicio 2025",
+    "fechaRecepcion": "2025-12-09",
+    "organo": "SECRETARÍA AUTONÓMICA DE MEDIO AMBIENTE  Y TERRITORIO",
+    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/873785",
+    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=873785&vpd=GE",
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
       "name": "Diego Carneiro",
       "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "865470",
-    "descripcion_oficial": "Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos). Sector SIEG",
-    "fechaRecepcion": "2025-10-29",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865470",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=865470&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "865464",
-    "descripcion_oficial": "Resolución de Red.es por la que se convocan ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos en el marco del PRTR (Kit Espacios de Datos). Sector pesca y agricultura.",
-    "fechaRecepcion": "2025-10-29",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865464",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=865464&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "865457",
-    "descripcion_oficial": "Resolución de la E.P.E Red.es por la que se convocan las ayudas para sectores productivos estratégicos mediante el fomento de la adaptación e incorporación de participantes a espacios de datos, en el marco del PRTR (Kit Espacios de Datos). Sector agrícola",
-    "fechaRecepcion": "2025-10-29",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/865457",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=865457&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "850341",
-    "descripcion_oficial": "Resolución de 5 de agosto de 2025 de la Presidencia del CDTI, por la que se aprueba la convocatoria para 2025 de ayudas destinadas a Acciones de Dinamización de la Innovación para municipios integrados en el área de influencia del Espacio Natural Doñana",
-    "fechaRecepcion": "2025-08-05",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/850341",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=850341&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "849340",
-    "descripcion_oficial": "Resolución de 29 de julio de 2025 de la Presidencia del CDTI por la que se aprueba la convocatoria 2025 del procedimiento de concesión de ayudas destinadas a Proyectos de I+D en cooperación tecnológica internacional (INNOGLOBAL)",
-    "fechaRecepcion": "2025-07-30",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/849340",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=849340&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "848058",
-    "descripcion_oficial": "Resolución de la EPE Red.es para la que se convocan las ayudas 2025 destinadas a proyectos de investigación y desarrollo en inteligencia artificial y otras tecnologías duales y su integración en las cadenas de valor",
-    "fechaRecepcion": "2025-07-23",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/848058",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=848058&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "841185",
-    "descripcion_oficial": "Resolución de 18 de junio de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de investigación y desarrollo seleccionados en las convocatorias competitivas internacionales del programa EuroHPC",
-    "fechaRecepcion": "2025-06-19",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/841185",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=841185&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "839514",
-    "descripcion_oficial": "Resolución de 11 de junio de 2025, del Consejo de Administración de E.P.E. Instituto para la Diversificación y Ahorro de la Energía (IDAE), M.P. por la que se aprueba la primera convocatoria de ayudas al impulso de la economía circular de bienes de equipo",
-    "fechaRecepcion": "2025-06-12",
-    "organo": "INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/839514",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=839514&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "839103",
-    "descripcion_oficial": "Resolución de 23 de junio de 2025 de la Secretaría de Estado de Agricultura y Alimentación, por la que se convocan subvenciones destinadas a entidades de mujeres rurales de ámbito nacional para el ejercicio 2025.",
-    "fechaRecepcion": "2025-06-11",
-    "organo": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/839103",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=839103&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "834244",
-    "descripcion_oficial": "Resolución de 22 de mayo de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 de ayudas destinadas a proyectos de I+D Misiones Ciencia e Innovación.",
-    "fechaRecepcion": "2025-05-21",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/834244",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=834244&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "831641",
-    "descripcion_oficial": "Resolución de 2 de mayo de 2025 por la que se establecen las bases reguladoras para la concesión, en régimen de concurrencia no competitiva, de las subvenciones para la consolidación y la estructuración de unidades de investigación competitivas en los cen",
-    "fechaRecepcion": "2025-05-09",
-    "organo": "AGENCIA GALLEGA DE INNOVACIÓN",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/831641",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=831641&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "829858",
-    "descripcion_oficial": "Resolución de 30 de abril de 2025 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas Neotec",
-    "fechaRecepcion": "2025-04-30",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/829858",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=829858&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "825543",
-    "descripcion_oficial": "Resolución de 4 de abril de 2025 de la Presidencia del CDTI E.P.E. por la que se aprueba la convocatoria para el año 2025 del procedimiento de concesión de ayudas destinadas a las actuaciones Consorcios Regionales (INNTERCONECTA-STEP), cofinanciada FEDER",
-    "fechaRecepcion": "2025-04-07",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/825543",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=825543&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "824808",
-    "descripcion_oficial": "Resolución de 3 de abril de 2025 de la Dirección General del CDTI, E.P.E., de concesión directa de ayudas a los proyectos españoles que hayan obtenido Sello de Excelencia en las convocatorias del Acelerador-Consejo Europeo de Innovación.",
-    "fechaRecepcion": "2025-04-03",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/824808",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=824808&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "824133",
-    "descripcion_oficial": "Resolución de 27 de marzo, por la que se convocan para el ejercicio 2025, las subvenciones destinadas al programa Cultiva, relativo a estancias formativas de jóvenes agricultores en explotaciones modelo",
-    "fechaRecepcion": "2025-04-01",
-    "organo": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/824133",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=824133&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "823917",
-    "descripcion_oficial": "Resolución de 27 de marzo, por la que se convocan para el ejercicio 2025, las subvenciones destinadas al programa Cultiva, relativo a estancias formativas de jóvenes agricultores en explotaciones modelo",
-    "fechaRecepcion": "2025-03-31",
-    "organo": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/823917",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=823917&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "822704",
-    "descripcion_oficial": "Resolución de la Secretaría de Estado de Ciencia, Innovación y Universidades, por la que se convocan ayudas destinadas a la cofinanciación de agentes locales de innovación en ciudades de la Red Innpulso.",
-    "fechaRecepcion": "2025-03-25",
-    "organo": "SECRETARÍA GENERAL DE INNOVACIÓN",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/822704",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=822704&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "821006",
-    "descripcion_oficial": "Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025",
-    "fechaRecepcion": "2025-03-18",
-    "organo": "DIRECCIÓN GENERAL DE DESARROLLO RURAL, INNOVACIÓN Y FORMACIÓN AGROALIMENTARIA",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/821006",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=821006&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "817056",
-    "descripcion_oficial": "Resolución de 25 de febrero de 2025 de la Dirección General del CDTI de concesión directa de ayudas del año 2025 a proyectos de I+D seleccionados en los programas Eurostars-3 y Asociaciones Cofinanciadas",
-    "fechaRecepcion": "2025-02-26",
-    "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/817056",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=817056&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "815528",
-    "descripcion_oficial": "Resolución de la entidad pública empresarial Red.es por la que se convocan las Ayudas 2025 para la creación de la red de Oficinas Acelera PYME",
-    "fechaRecepcion": "2025-02-18",
-    "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/815528",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=815528&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "810608",
-    "descripcion_oficial": "RESOLUCIÓN DE CONCESIÓN DIRECTA A LA FEMP DE SUBVENCIÓN PREVISTA EN EL REAL\nDECRETO 1221/2024, DE 3 DE DICIEMBRE, POR EL QUE SE REGULA LA\nCONCESIÓN DIRECTA DE DETERMINADAS SUBVENCIONES EN EL ÁMBITO DEL\nMEDIO AMBIENTE, PARA EL EJERCICIO PRESUPUESTARIO 2024",
-    "fechaRecepcion": "2025-01-23",
-    "organo": "OFICINA ESPAÑOLA DEL CAMBIO CLIMÁTICO",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/810608",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=810608&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
-    }
-  },
-  {
-    "numeroConvocatoria": "810602",
-    "descripcion_oficial": "RESOLUCIÓN DE CONCESIÓN DIRECTA A LA FEMP DE SUBVENCIÓN PREVISTA EN EL REAL\nDECRETO 1221/2024, DE 3 DE DICIEMBRE, POR EL QUE SE REGULA LA\nCONCESIÓN DIRECTA DE DETERMINADAS SUBVENCIONES EN EL ÁMBITO DEL\nMEDIO AMBIENTE, PARA EL EJERCICIO PRESUPUESTARIO 2024",
-    "fechaRecepcion": "2025-01-23",
-    "organo": "OFICINA ESPAÑOLA DEL CAMBIO CLIMÁTICO",
-    "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/810602",
-    "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=810602&vpd=GE",
-    "client": {
-      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
-      "name": "Diego Carneiro",
-      "email": "dgcarneiro93@gmail.com",
-      "sectors": [
-        "Tecnología",
-        "Sostenibilidad"
-      ],
-      "beneficiary_type": [
-        "PYME",
-        "Particular"
-      ]
+      "sectors": ["Tecnología", "Sostenibilidad"],
+      "beneficiary_type": ["PYME", "Particular"]
     }
   }
 ]

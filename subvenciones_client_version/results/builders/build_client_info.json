@@ -1,21 +1,21 @@
 [
   {
     "grant": {
-      "code": "897213",
-      "title": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
-      "agency": "INSTITUTO DE LA JUVENTUD",
-      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897213",
+      "code": "897679",
+      "title": "Resolución de 9 de Abril de 2026, de la S.G. de Familias, Igualdad, Violencia de Género y Diversidad, Convocatoria 2026 de subvenciones destinadas a formación, estudios y publicaciones en materia de violencia de género - Línea 2 Estudios y Publicaciones",
+      "agency": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897679",
       "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10920"
+        "https://juntadeandalucia.es/boja/2026/73/4"
       ],
-      "publication_date": "2026-04-07",
-      "calculated_start_date": "2026-04-10",
-      "calculated_end_date": "2026-05-08"
+      "publication_date": "2026-04-08",
+      "calculated_start_date": "2026-04-18",
+      "calculated_end_date": "2026-05-11"
     },
     "client": {
       "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
       "name": "María Casado",
-      "email": "dgcarneiro93@gmail.com",
+      "email": "casadoalonso.maria@gmail.com",
       "sectors": [
         "Música",
         "Juventud"
@@ -28,16 +28,43 @@
   },
   {
     "grant": {
-      "code": "896999",
-      "title": "Resolución de 6 de abril de 2026 de la Presidencia del Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (CDTI), por la que se aprueba la convocatoria para el año 2026 del procedimiento de concesión de ayudas Neotec",
-      "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896999",
+      "code": "897678",
+      "title": "Resolución de 9 de Abril de 2026, de la S.G. de Familias, Igualdad, Violencia de Género y Diversidad, Convocatoria 2026 de subvenciones destinadas a formación, estudios y publicaciones en materia de violencia de género - Línea 1 Formación",
+      "agency": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897678",
       "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10827"
+        "https://juntadeandalucia.es/boja/2026/73/4"
       ],
-      "publication_date": "2026-04-06",
-      "calculated_start_date": "2026-04-14",
-      "calculated_end_date": "2026-05-14"
+      "publication_date": "2026-04-08",
+      "calculated_start_date": "2026-04-18",
+      "calculated_end_date": "2026-05-11"
+    },
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado",
+      "email": "casadoalonso.maria@gmail.com",
+      "sectors": [
+        "Música",
+        "Juventud"
+      ],
+      "beneficiary_type": [
+        "Asociación",
+        "PYME"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "898964",
+      "title": "Resolución  Viceconsejería de Medio Ambiente,  convocatoria 2026 de  ayudas ejecución de tratamientos selvícolas, contenidas en el marco PAC 2023-2027 .FEADER                 \nAyudas de Estado en base al Reglamento 2022/2472.",
+      "agency": "VICECONSEJERÍA DE MEDIO AMBIENTE",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898964",
+      "boe_urls": [
+        "https://docm.jccm.es/docm/descargarArchivo.do?ruta=2026/04/17/pdf/2026_2771.pdf&tipo=rutaDocm"
+      ],
+      "publication_date": "2026-04-15",
+      "calculated_start_date": "2026-04-18",
+      "calculated_end_date": "2026-05-18"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -55,16 +82,178 @@
   },
   {
     "grant": {
-      "code": "893025",
-      "title": "Resolución de 13 de marzo de 2026 de la Dirección General del CDTI de concesión directa de ayudas del año 2026 a proyectos de I+D seleccionados en los Programas internacionales Eurostars 3, Asociaciones Cofinanciadas.",
-      "agency": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
-      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893025",
+      "code": "897024",
+      "title": "Resolución de 31/03/2026 de la Agencia de Ciencia, Competitividad Empresarial e Innovación Asturiana, que aprueba la convocatoria única para la realización de proyectos de I+D+i en red por parte de OPIS en colaboración con entidades año 2026",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897024",
       "boe_urls": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-8297"
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02853&p_r_p_dispositionReference=2026-02853&p_r_p_dispositionDate=14%2F04%2F2026"
       ],
-      "publication_date": "2026-03-13",
-      "calculated_start_date": "2026-03-18",
-      "calculated_end_date": "2026-07-17"
+      "publication_date": "2026-04-06",
+      "calculated_start_date": "2026-04-15",
+      "calculated_end_date": "2026-05-18"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "896215",
+      "title": "Resolución de 27/03/2026 de la Agencia Sekuens, de convocatoria de subvenciones a inversiones en proyectos tractores de impulso a PYMES, para la diversificación económica en Asturias cofinanciables por el FTJ, ejercicio 2026.",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896215",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02750&p_r_p_dispositionReference=2026-02750&p_r_p_dispositionDate=09%2F04%2F2026"
+      ],
+      "publication_date": "2026-03-30",
+      "calculated_start_date": "2026-03-31",
+      "calculated_end_date": "2026-05-29"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "894738",
+      "title": "RESOLUCIÓN DE 20/03/2026 DE LA AGENCIA DE CIENCIA COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN ASTURIANA DE CONVOCATORIA DE AYUDAS PARA APOYAR LA PROMOCIÓN INTERNACIONAL Y DIVESRIFICACIÓN DE LOS MERCADOS DE PYMES DEL PRINCIPADO DE ASTURIAS 2026",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894738",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02475&p_r_p_dispositionReference=2026-02475&p_r_p_dispositionDate=31%2F03%2F2026"
+      ],
+      "publication_date": "2026-03-23",
+      "calculated_start_date": "2026-04-01",
+      "calculated_end_date": "2026-06-09"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "894735",
+      "title": "Resolución de 20/03/2026 de la Agencia de Ciencia, Competitividad Empresarial e Innovación que aprueba Convocatoria de Subvenciones a empresas del Principado de Asturias, Programa de Ayudas a la Transformación Digital 2026 cofinanciables por el FTJ",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894735",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02470&p_r_p_dispositionReference=2026-02470&p_r_p_dispositionDate=31%2F03%2F2026"
+      ],
+      "publication_date": "2026-03-23",
+      "calculated_start_date": "2026-03-24",
+      "calculated_end_date": "2026-05-05"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "894180",
+      "title": "RESOLUCIÓN DE 12/03/2026 DE LA AGENCIA DE CIENCIA COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN ASTURIANA DE CONVOCATORIA DE SUBVENCIONES PARA EMPRESAS DEL PRINCIPADO DE ASTURIAS MODALIDAD DE CHEQUES DE INNOVACIÓN Y DESARROLLO EMPRESARIAL 2026",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894180",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02393&p_r_p_dispositionReference=2026-02393&p_r_p_dispositionDate=25%2F03%2F2026"
+      ],
+      "publication_date": "2026-03-19",
+      "calculated_start_date": "2026-03-26",
+      "calculated_end_date": "2026-04-30"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "893989",
+      "title": "Resolución de 11/03/2026 de la Agencia que aprueba la convocatoria de subvenciones dirigidas a Centros de Empresas Públicos para sus actividades en el marco del Servicio Único de creación de empresas: Semilleros de Empresas, ejercicio 2026.",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893989",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02335&p_r_p_dispositionReference=2026-02335&p_r_p_dispositionDate=25%2F03%2F2026"
+      ],
+      "publication_date": "2026-03-18",
+      "calculated_start_date": "2026-03-26",
+      "calculated_end_date": "2026-05-11"
+    },
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro",
+      "email": "dgcarneiro93@gmail.com",
+      "sectors": [
+        "Tecnología",
+        "Sostenibilidad"
+      ],
+      "beneficiary_type": [
+        "PYME",
+        "Particular"
+      ]
+    }
+  },
+  {
+    "grant": {
+      "code": "893988",
+      "title": "Resolucion de fecha 16/03/2026 de la Agencia de Competitividad Empresarial e Innovación de Principado de Asturias,  por la que aprueba la convocatoria de Difusión de las actividades de  I+D+i 2026",
+      "agency": "AGENCIA DE CIENCIA, COMPETITIVIDAD EMPRESARIAL E INNOVACIÓN",
+      "portal_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893988",
+      "boe_urls": [
+        "https://miprincipado.asturias.es/bopa/disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2026-02334&p_r_p_dispositionReference=2026-02334&p_r_p_dispositionDate=25%2F03%2F2026"
+      ],
+      "publication_date": "2026-03-18",
+      "calculated_start_date": "2026-03-26",
+      "calculated_end_date": "2026-05-13"
     },
     "client": {
       "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
