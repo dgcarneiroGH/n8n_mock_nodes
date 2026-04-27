@@ -6,13 +6,13 @@ let loopSubvencionesRaw,
   formatAgentResponseToJSONRaw;
 try {
   loopSubvencionesRaw = JSON.parse(
-    fs.readFileSync("./results/loop_subvenciones.json", "utf8"),
+    fs.readFileSync("./results/loops/loop_subvenciones.json", "utf8"),
   );
   flatSubvencionesRaw = JSON.parse(
     fs.readFileSync("./results/flat_subvenciones.json", "utf8"),
   );
   filterBenefactorsRaw = JSON.parse(
-    fs.readFileSync("./results/filter_benefactors.json", "utf8"),
+    fs.readFileSync("./results/filters/filter_benefactors.json", "utf8"),
   );
   formatAgentResponseToJSONRaw = JSON.parse(
     fs.readFileSync("./results/format_agent_response_to_json.json", "utf8"),
@@ -87,12 +87,23 @@ for (const entry of formatAgentResponseToJSON) {
   }
 }
 
+const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
 const result = flatSubvenciones
-  .filter(
-    (item) =>
-      acceptedCodes.has(String(item.numeroConvocatoria)) &&
-      pureTextUrlsMap.hasOwnProperty(String(item.numeroConvocatoria)),
-  )
+  .filter((item) => {
+    const code = String(item.numeroConvocatoria);
+    if (!acceptedCodes.has(code) || !pureTextUrlsMap.hasOwnProperty(code))
+      return false;
+    const agentData = agentResponseMap[code] || {};
+    // Si existe calculated_end_date y es menor que hoy, descartar
+    if (
+      agentData.calculated_end_date &&
+      agentData.calculated_end_date < today
+    ) {
+      return false;
+    }
+    return true;
+  })
   .map((item) => {
     const code = String(item.numeroConvocatoria);
     const agentData = agentResponseMap[code] || {};
@@ -115,7 +126,7 @@ const result = flatSubvenciones
 //Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync(
-    "./results/build_client_info.json",
+    "./results/builders/build_client_info.json",
     JSON.stringify(result, null, 2),
     "utf8",
   );

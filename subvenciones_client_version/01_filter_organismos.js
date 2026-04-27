@@ -3,10 +3,10 @@ const fs = require("fs");
 let organizationsRaw, clientsRaw;
 try {
   organizationsRaw = JSON.parse(
-    fs.readFileSync("./results/get_organizations.json", "utf8"),
+    fs.readFileSync("./results/getters/get_organizations.json", "utf8"),
   );
   clientsRaw = JSON.parse(
-    fs.readFileSync("./results/get_clients.json", "utf8"),
+    fs.readFileSync("./results/getters/get_clients.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -154,7 +154,7 @@ for (const client of clients) {
 //Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync(
-    "./results/filter_organismos.json",
+    "./results/filters/filter_organismos.json",
     JSON.stringify(processedClients, null, 2),
     "utf8",
   );
