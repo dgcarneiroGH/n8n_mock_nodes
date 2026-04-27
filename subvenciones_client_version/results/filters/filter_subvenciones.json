@@ -21,14 +21,6 @@
         "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897944&vpd=GE"
       },
       {
-        "numeroConvocatoria": "897213",
-        "descripcion": "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
-        "fechaRecepcion": "2026-04-07",
-        "organo": "INSTITUTO DE LA JUVENTUD",
-        "url_html": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897213",
-        "url_api": "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=897213&vpd=GE"
-      },
-      {
         "numeroConvocatoria": "894813",
         "descripcion": "Resolución de 18 de marzo de 2026 de la Secretaría de Estado de Cultura, por la que se convocan ayudas a la música y la lírica, correspondientes al año 2026",
         "fechaRecepcion": "2026-03-24",

@@ -1,9 +1,16 @@
-const fs = require('fs');
+const fs = require("fs");
 
-let subvencionesRaw1, filterRegiones;
+let subvencionesRaw1, filterRegiones, subvencionesNotionRaw;
 try {
-  filterRegiones = JSON.parse(fs.readFileSync('./results/filter_regiones.json', 'utf8'));
-  subvencionesRaw1 = JSON.parse(fs.readFileSync('./results/get_subvenciones.json', 'utf8'));
+  filterRegiones = JSON.parse(
+    fs.readFileSync("./results/filters/filter_regiones.json", "utf8"),
+  );
+  subvencionesRaw1 = JSON.parse(
+    fs.readFileSync("./results/getters/get_subvenciones.json", "utf8"),
+  );
+  subvencionesNotionRaw = JSON.parse(
+    fs.readFileSync("./results/getters/get_subvenciones_notion.json", "utf8"),
+  );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
   process.exit(1);
@@ -12,73 +19,127 @@ try {
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
 const subvencionesRaw = subvencionesRaw1;
 const clientes = filterRegiones;
+const subvencionesGuardadas = subvencionesNotionRaw;
 
 //#region Node Logic
 
 const forbiddenWords = {
-  "musica": ["deporte", "deportes", "circo", "teatro", "teatrales", "circenses", "danza", "traduccion", "deportivas"],
-  "juventud": ["asuntos sociales", "periodismo", "videojuego", "podcast", "eso", "primaria", "alumnado"],
-  "tecnologia": ["obra civil", "mantenimiento ferroviario", "infraestructuras viarias", "maquinaria pesada","infraestructuras","infraestructura","empleados/as publicos/as","centros tecnologicos"],
-  "sostenibilidad": ["inia", "biodiversidad", "residuos"]
+  "musica": [
+    "deporte",
+    "deportes",
+    "circo",
+    "teatro",
+    "teatrales",
+    "circenses",
+    "danza",
+    "traduccion",
+    "deportivas",
+  ],
+  "juventud": [
+    "asuntos sociales",
+    "periodismo",
+    "videojuego",
+    "podcast",
+    "eso",
+    "primaria",
+    "alumnado",
+  ],
+  "tecnologia": [
+    "obra civil",
+    "mantenimiento ferroviario",
+    "infraestructuras viarias",
+    "maquinaria pesada",
+    "infraestructuras",
+    "infraestructura",
+    "empleados/as publicos/as",
+    "centros tecnologicos",
+  ],
+  "sostenibilidad": ["inia", "biodiversidad", "residuos"],
 };
 
 //#region Helpers
-const removeAccents = (str) => str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
+const removeAccents = (str) =>
+  str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
 const isExactMatch = (text, word) => {
   if (!word || word.trim() === "") return false;
-  const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-  return new RegExp(`\\b${escapedWord}\\b`, 'i').test(text);
+  const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+  return new RegExp(`\\b${escapedWord}\\b`, "i").test(text);
 };
 //#endregion
+
+// Obtener IDs de subvenciones guardadas
+const savedCodes = new Set(
+  (subvencionesGuardadas || [])
+    .map((s) => s.property_c_digo_bdns)
+    .filter(Boolean),
+);
 
 let processedClients = [];
 
 for (let i = 0; i < clientes.length; i++) {
   const client = clientes[i].client;
   const response = subvencionesRaw[i];
-  const clientSectors = client.sectors.map(s => removeAccents(s.toLowerCase())) || [];
-  const grants = (response && response.content) ? response.content : [];
+  const clientSectors =
+    client.sectors.map((s) => removeAccents(s.toLowerCase())) || [];
+  const grants = response && response.content ? response.content : [];
 
   // Filter grants
-  const filteredGrants = grants.filter(grant => {
+  const filteredGrants = grants.filter((grant) => {
+    // 1. Filtrado por palabras prohibidas
     const grantDesc = removeAccents(grant.descripcion?.toLowerCase() || "");
     let hasForbiddenWord = false;
     for (const sector of clientSectors) {
       const exclusions = forbiddenWords[sector] || [];
-      const validExclusions = exclusions.filter(excl => {
+      const validExclusions = exclusions.filter((excl) => {
         const exclNorm = removeAccents(excl.toLowerCase());
-        return !clientSectors.some(s => s.includes(exclNorm) || exclNorm.includes(s));
+        return !clientSectors.some(
+          (s) => s.includes(exclNorm) || exclNorm.includes(s),
+        );
       });
-      if (validExclusions.some(word => isExactMatch(grantDesc, removeAccents(word.toLowerCase())))) {
+      if (
+        validExclusions.some((word) =>
+          isExactMatch(grantDesc, removeAccents(word.toLowerCase())),
+        )
+      ) {
         hasForbiddenWord = true;
         break;
       }
     }
-    return !hasForbiddenWord;
+    if (hasForbiddenWord) return false;
+
+    // 2. Filtrado por subvenciones ya guardadas
+    if (savedCodes.has(String(grant.numeroConvocatoria))) return false;
+
+    return true;
   });
 
   // Format output
-  const formattedGrants = filteredGrants.map(grant => ({
+  const formattedGrants = filteredGrants.map((grant) => ({
     numeroConvocatoria: grant.numeroConvocatoria,
     descripcion: grant.descripcion,
     fechaRecepcion: grant.fechaRecepcion,
     organo: grant.nivel3,
     url_html: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grant.numeroConvocatoria}`,
-    url_api:`https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grant.numeroConvocatoria}&vpd=GE`
+    url_api: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grant.numeroConvocatoria}&vpd=GE`,
   }));
 
   processedClients.push({
     ...client,
-    subvenciones: formattedGrants
+    subvenciones: formattedGrants,
   });
 }
-
 //#endregion
 
 //Sustituye esto por el return de datos correspondiente
 try {
-  fs.writeFileSync('./results/filter_subvenciones.json', JSON.stringify(processedClients, null, 2), 'utf8');
-  console.log("✅ ¡Éxito! El archivo resultado.json se ha creado o actualizado correctamente en tu carpeta.");
+  fs.writeFileSync(
+    "./results/filters/filter_subvenciones.json",
+    JSON.stringify(processedClients, null, 2),
+    "utf8",
+  );
+  console.log(
+    "✅ ¡Éxito! El archivo resultado.json se ha creado o actualizado correctamente en tu carpeta.",
+  );
 } catch (err) {
   console.error("❌ Error al guardar el archivo:", err.message);
 }
