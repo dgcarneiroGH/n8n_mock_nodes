@@ -1,0 +1,10 @@
+[
+  {
+    "status": "OK",
+    "clientId": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+    "regions_ids": "25,26,1,521"
+  },
+  {
+    "status": "ERROR: Regions mistmatch"
+  }
+]

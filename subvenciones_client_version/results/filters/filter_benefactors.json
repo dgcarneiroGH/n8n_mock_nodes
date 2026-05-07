@@ -1,3 +1,10 @@
-{
-  "status": "ERROR: Benefactor count mismatch"
-}
+[
+  {
+    "status": "ERROR"
+  },
+  {
+    "status": "OK",
+    "client_id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+    "benefactors_ids": "3,1,5"
+  }
+]
