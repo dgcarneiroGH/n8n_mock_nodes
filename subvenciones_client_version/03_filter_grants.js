@@ -22,7 +22,6 @@ const clientes = getClients;
 const subvencionesGuardadas = subvencionesNotionRaw;
 
 //#region Node Logic
-
 // Build set of Notion codes to filter
 const notionCodes = new Set(
   (subvencionesGuardadas || [])
@@ -30,30 +29,33 @@ const notionCodes = new Set(
     .filter(Boolean),
 );
 
-const flatResults = clientes.flatMap((client, idx) => {
+const results = clientes.map((client, idx) => {
   const grants = (subvenciones[idx] && subvenciones[idx].content) || [];
-  return grants
+  const filteredGrants = grants
     .filter((g) => !notionCodes.has(String(g.numeroConvocatoria)))
     .map((g) => ({
       grantId: g.numeroConvocatoria,
       description: g.descripcion,
       receivedDate: g.fechaRecepcion,
-      organization: g.nivel3,
+      organization: g.nivel3 ?? g.nivel2,
       urlHtml: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${g.numeroConvocatoria}`,
       urlApi: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${g.numeroConvocatoria}&vpd=GE`,
-      client: {
-        id: client.id,
-        name: client.name,
-      },
     }));
+  return {
+    client: {
+      id: client.id,
+      name: client.name,
+    },
+    grants: filteredGrants,
+  };
 });
 //#endregion
 
 //Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync(
-    "./results/filters/filter_and_flat_grants.json",
-    JSON.stringify(flatResults, null, 2),
+    "./results/filters/filter_grants.json",
+    JSON.stringify(results, null, 2),
     "utf8",
   );
   console.log(

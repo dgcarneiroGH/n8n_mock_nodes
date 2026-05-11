@@ -1,9 +1,12 @@
 const fs = require("fs");
 
-let getPurposesRaw, getClientsRaw;
+let getPurposesRaw, filterAndFlatGrantsRaw, getClientsRaw;
 try {
   getPurposesRaw = JSON.parse(
     fs.readFileSync("./results/getters/get_purposes.json", "utf8"),
+  );
+  filterAndFlatGrantsRaw = JSON.parse(
+    fs.readFileSync("./results/filters/filter_and_flat_grants.json", "utf8"),
   );
   getClientsRaw = JSON.parse(
     fs.readFileSync("./results/getters/get_clients.json", "utf8"),
@@ -15,6 +18,7 @@ try {
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
 const getPurposes = getPurposesRaw;
+const filterAndFlatGrants = filterAndFlatGrantsRaw;
 const getClients = getClientsRaw;
 
 //#region Node Logic
@@ -79,7 +83,7 @@ if (getPurposes.length !== EXPECTED_PURPOSES) {
 } else {
   // Check for any invalid purposes in all clients
   let invalidPurpose = null;
-  for (const client of getClients) {
+  for (const client of filterAndFlatGrants) {
     invalidPurpose = findInvalidPurpose(
       getPurposes,
       client.property_finalidades,
