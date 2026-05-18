@@ -40,7 +40,13 @@ const purposeIdToDesc = new Map(
 
 const validLoops = loopSubvenciones.filter((item) => {
   if (!Array.isArray(item.anuncios) || item.anuncios.length === 0) return false;
-  return item.anuncios.some((anouncement) => normalize(anouncement.url) !== "");
+  const orderedAnouncements = item.anuncios.sort((a, b) => {
+    if (!a.datPublicacion || !b.datPublicacion) return 0;
+    return a.datPublicacion.localeCompare(b.datPublicacion);
+  });
+  return orderedAnouncements.some(
+    (anouncement) => normalize(anouncement.texto) !== "",
+  );
 });
 
 const purposeByBdns = new Map();
@@ -96,7 +102,7 @@ const filterAndFormatGrants = (grants, clientPurposes) => {
         description: grant.description,
         organization: grant.organization,
         url: grant.urlHtml,
-        anouncements: loop.anuncios.map((anouncement) => anouncement.url),
+        anouncements: loop.anuncios.map((anouncement) => anouncement.texto),
         dates: {
           receptionDate: loop.fechaRecepcion,
           applicationStartDate: loop.fechaInicioSolicitud,

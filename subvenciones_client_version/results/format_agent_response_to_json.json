@@ -1,32 +1,138 @@
 [
   {
-    "code": "905557",
-    "publication_date": "2026-05-13",
-    "calculated_start_date": "2026-03-27",
-    "calculated_end_date": "2026-06-18"
+    "grants": [
+      {
+        "code": "905557",
+        "description": "Financiar obras de rehabilitación para mejorar la eficiencia energética, con especial atención a la envolvente edificatoria, en edificios residenciales y viviendas unifamiliares de los barrios de Casco Vello, Bouzas y Coia en Vigo.",
+        "requirements": [
+          "Pueden solicitarla propietarios, comunidades de propietarios, cooperativas, empresas arrendatarias o concesionarias, titulares de derechos reales sobre el inmueble e inquilinos autorizados.",
+          "Las actuaciones deben lograr una mejora acreditada de la eficiencia energética con un ahorro mínimo del 30% en consumo de energía primaria no renovable.",
+          "Para optar a ayuda adicional por vulnerabilidad económica, los ingresos de la unidad de convivencia deben ser inferiores a 2,6 veces el IPREM.",
+          "El plazo de presentación finaliza el 18 de junio de 2026 o hasta que se agoten los fondos disponibles."
+        ]
+      }
+    ]
   },
   {
-    "code": "905002",
-    "publication_date": "2026-05-12",
-    "calculated_start_date": "2026-05-13",
-    "calculated_end_date": "2026-06-11"
+    "grants": [
+      {
+        "code": "905002",
+        "description": "Premios destinados a prestigiar la artesanía y reconocer los méritos de profesionales, empresas artesanas e instituciones que destaquen por su creatividad, responsabilidad, innovación y promoción del sector artesano.",
+        "requirements": [
+          "Podrán participar personas físicas o jurídicas que actúen en España dedicadas a la producción artesana.",
+          "Para el Premio al Emprendimiento, la actividad económica en el sector debe tener un recorrido formal inferior a cinco años.",
+          "Para el Premio Promociona Sector Privado, podrán participar personas o entidades privadas en España que hayan contribuido a la promoción de la artesanía.",
+          "Para el Premio Promociona Sector Público, podrán participar entidades u organismos públicos en España que hayan promovido la artesanía.",
+          "El plazo de presentación de solicitudes es de 30 días naturales desde el día siguiente a la publicación en el BOE."
+        ]
+      }
+    ]
   },
   {
-    "code": "904885",
-    "publication_date": "2026-05-12",
-    "calculated_start_date": "2026-05-13",
-    "calculated_end_date": "2026-06-02"
+    "grants": [
+      {
+        "code": "904885",
+        "description": "Subvenciones para ayudar a entidades benéfico-sociales y sin ánimo de lucro estrechamente relacionadas con la Armada, destinadas a apoyar a personal militar retirado, viudos o huérfanos en situación de discapacidad, gran necesidad o con bajos ingresos.",
+        "requirements": [
+          "Ser una entidad estrechamente relacionada con la Armada, de carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Dedicar la subvención a apoyar a personal militar retirado de la Armada, cónyuges viudos o huérfanos en situación de discapacidad, gran necesidad o bajos ingresos.",
+          "Presentar la solicitud en el modelo oficial dentro de los 15 días hábiles siguientes a la publicación del extracto de la convocatoria en el BOE."
+        ]
+      }
+    ]
   },
   {
-    "code": "904868",
-    "publication_date": "2026-05-11",
-    "calculated_start_date": "2026-05-12",
-    "calculated_end_date": "2027-10-01"
+    "grants": [
+      {
+        "code": "904868",
+        "description": "Subvencionar gastos de obras, equipamiento, certificado de eficiencia energética y seguros para la puesta de viviendas vacías en régimen de alquiler a precio tasado.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro, propietaria o usufructuaria de una vivienda.",
+          "Promover y ejecutar en los ejercicios 2026 y 2027 actuaciones para poner la vivienda en alquiler a precio tasado durante 5 años.",
+          "El importe máximo de las obras subvencionables es de 30.000 euros.",
+          "Presentar la solicitud y toda la documentación requerida antes del 01.10.2027."
+        ]
+      }
+    ]
   },
   {
-    "code": "904735",
-    "publication_date": "2026-05-11",
-    "calculated_start_date": "2026-05-12",
-    "calculated_end_date": "2026-06-07"
+    "grants": [
+      {
+        "code": "905549",
+        "description": "Ayudas generales en régimen de concurrencia competitiva para la producción de largometrajes sobre proyecto para el año 2026.",
+        "requirements": [
+          "Ser empresas productoras independientes, o empresas productoras no independientes en coproducción con empresas independientes (incluyendo agrupaciones de interés económico).",
+          "Los proyectos deben estar en disposición de obtener la nacionalidad española y acreditar su carácter cultural.",
+          "No haber presentado la solicitud de calificación por grupos de edad con anterioridad a la fecha de finalización del plazo de presentación de solicitudes.",
+          "Al menos el 50 por cien de los gastos presupuestados del largometraje se deben realizar en España o revertir en equipos y personas con residencia fiscal en España.",
+          "El proyecto deberá incluir, como medidas de accesibilidad universal, el subtitulado accesible y la audiodescripción.",
+          "Incluir una memoria que recoja las acciones implementadas en materia medioambiental y de sostenibilidad y/o un sistema de medición del impacto ambiental y huella de carbono."
+        ]
+      }
+    ]
+  },
+  {
+    "grants": [
+      {
+        "code": "904656",
+        "description": "Financiación de proyectos de cooperación cultural en zonas rurales para favorecer la innovación colaborativa, la creación de alianzas, el desarrollo del ecosistema cultural territorial y la participación ciudadana.",
+        "requirements": [
+          "Estar dirigidas a personas jurídicas privadas (con o sin ánimo de lucro, siendo las de lucro micro o pequeñas empresas) y personas físicas en el RETA, con residencia fiscal en España.",
+          "Los solicitantes deben actuar en agrupación conformada por entidades procedentes de al menos tres comunidades autónomas diferentes.",
+          "Quedan excluidas las Administraciones Públicas, empresas públicas, entes públicos, A.I.E. y U.T.E.",
+          "Los proyectos deben desarrollarse en el medio rural (municipios con menos de 30.000 habitantes y densidad inferior a 100 hab/km2, o cualquier municipio de menos de 5.000 habitantes).",
+          "Los proyectos deben ejecutarse entre el 1 de enero de 2026 y el 30 de junio de 2027.",
+          "La subvención máxima a conceder es de 120.000 euros por agrupación y no podrá superar el 80% del coste total del proyecto."
+        ]
+      }
+    ]
+  },
+  {
+    "grants": [
+      {
+        "code": "904184",
+        "description": "Ayudas destinadas a la realización de inversiones en comercialización y transformación de productos pesqueros y acuícolas en la Comunidad de Madrid, cofinanciadas con el Fondo Europeo Marítimo, de Pesca y Acuicultura (FEMPA).",
+        "requirements": [
+          "Ser entidad jurídica con la consideración de PYME.",
+          "Ejercer la actividad de transformación y/o comercialización de productos pesqueros y acuícolas.",
+          "Tener las instalaciones situadas en la Comunidad de Madrid.",
+          "Asumir la carga financiera y ser responsable final de los gastos subvencionables.",
+          "Las acciones deben centrarse en el fomento de la calidad, eficiencia energética, mejora de seguridad e higiene, economía circular, acuicultura ecológica o innovación en productos/procesos.",
+          "Presentar la solicitud en el plazo de quince días hábiles a partir del día siguiente a la publicación del extracto en el Boletín Oficial de la Comunidad de Madrid."
+        ]
+      }
+    ]
+  },
+  {
+    "grants": [
+      {
+        "code": "903157",
+        "description": "Concesión de premios correspondientes al XXVIII Premio de pintura Pastor Calpena con la finalidad de incentivar la creación en el campo de las artes plásticas.",
+        "requirements": [
+          "Ser artista nacido o residente en España y tener 18 años o más cumplidos a lo largo del año 2026.",
+          "Entregar las obras exclusivamente en el teatro Wagner de Aspe los días 14, 15, 16 o 17 de octubre de 2026 en los horarios establecidos.",
+          "Presentar por registro de entrada o sede electrónica del Ayuntamiento de Aspe una solicitud genérica adjuntando el boletín de inscripción cumplimentado y firmado.",
+          "Cada artista puede presentar una única obra, que deberá ir sin firmar.",
+          "Adjuntar a la obra un sobre con un lema exterior que contenga dos copias del justificante del registro de entrada y dos copias del boletín de inscripción."
+        ]
+      }
+    ]
+  },
+  {
+    "grants": [
+      {
+        "code": "903054",
+        "description": "Ayudas destinadas a la promoción de la fotografía mediante el apoyo a proyectos de creación, comisariado, producción, formación, investigación, conservación, archivo y difusión del patrimonio fotográfico español.",
+        "requirements": [
+          "Podrán ser beneficiarias entidades sin ánimo de lucro (Tipo A) y entidades con ánimo de lucro (Tipo B) que desarrollen proyectos en el ámbito fotográfico.",
+          "Los tipos de ayuda (A y B) son incompatibles entre sí, pudiendo solicitarse solo uno de ellos.",
+          "La actividad subvencionable deberá realizarse entre el 1 de junio de 2026 y, como máximo, el 31 de mayo de 2027.",
+          "Quedan excluidas las entidades del Sector Público, consorcios, mancomunidades y cualquier agrupación o entidad que carezca de personalidad jurídica.",
+          "No concurrir en ninguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, General de Subvenciones.",
+          "El plazo de presentación de solicitudes es de 15 días hábiles a partir del día siguiente a la publicación del extracto en el Boletín Oficial del Estado."
+        ]
+      }
+    ]
   }
 ]
