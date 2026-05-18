@@ -1,12 +1,9 @@
 const fs = require("fs");
 
-let loopSubvencionesRaw;
+let filterGrantsDataRaw;
 try {
-  loopSubvencionesRaw = JSON.parse(
-    fs.readFileSync("./results/loop_subvenciones.json", "utf8"),
-  );
-  filterBenefactorsRaw = JSON.parse(
-    fs.readFileSync("./results/filter_benefactors.json", "utf8"),
+  filterGrantsDataRaw = JSON.parse(
+    fs.readFileSync("./results/filters/filter_grants_data.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -14,15 +11,14 @@ try {
 }
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
-const loopSubvenciones = loopSubvencionesRaw;
-const filterBenefactors = filterBenefactorsRaw;
+const filterGrantsData = filterGrantsDataRaw;
 
 //#region Node Logic
 const acceptedCodes = new Set(
   filterBenefactors.accepted.map((g) => g.codigoBDNS),
 );
 
-const cleanedGrants = loopSubvenciones
+const cleanedGrants = filterGrantsData
   .filter((grant) => acceptedCodes.has(grant.codigoBDNS))
   .map((grant) => ({
     bdnsCode: grant.codigoBDNS,

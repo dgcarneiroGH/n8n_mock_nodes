@@ -1,0 +1,144 @@
+[
+  {
+    "client": {
+      "id": "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
+      "name": "Diego Carneiro"
+    },
+    "grants": [
+      {
+        "code": "905557",
+        "description": "Cuarta convocatoria de concurrencia simple de subvenciones a la rehabilitación de actuaciones incluidas en el programa de ayuda a las actuaciones a nivel de BARRIO del Plan de Recuperación, Transformación y Resiliencia.Ampliación de plazo",
+        "organization": "AYUNTAMIENTO DE VIGO",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905557",
+        "anouncements": [
+          "https://boppo.depo.gal/web/boppo/detalle/-/boppo/2026/05/18/2026039901"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-13",
+          "applicationStartDate": "2026-03-27",
+          "applicationEndDate": "2026-06-18",
+          "startText": null,
+          "endText": null
+        }
+      },
+      {
+        "code": "905002",
+        "description": "Convocatoria Decimonovena Edición de los Premios Nacionales de Artesanía",
+        "organization": "FUNDACIÓN EOI, F.S.P.",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905002",
+        "anouncements": [
+          "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-15497"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-12",
+          "applicationStartDate": null,
+          "applicationEndDate": null,
+          "startText": "Desde el siguiente al de la publicación del extracto de esta convocatoria en el BOE",
+          "endText": "30 días naturales desde el siguiente al de la publicación del extracto de esta convocatoria en BOE"
+        }
+      },
+      {
+        "code": "904885",
+        "description": "Extracto de la Resolución, de 24 de abril de 2026, de la Jefatura de Personal de la Armada, por la que se convocan las subvenciones de ayudas de acción social para organismos sin ánimo de lucro estrechamente relacionadas con la Armada para el 2026.",
+        "organization": "CUARTEL GENERAL DE LA ARMADA",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904885",
+        "anouncements": [
+          "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-15334"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-12",
+          "applicationStartDate": null,
+          "applicationEndDate": null,
+          "startText": "A partir del día siguiente al de la publicación en el BOE.",
+          "endText": "15 días hábiles después de su publicación en BOE."
+        }
+      },
+      {
+        "code": "904868",
+        "description": "CONVOCATORIA DE SUBVENCIONES PARA LA CONCESIÓN DE AYUDAS A VIVIENDAS VACÍAS PARA ALQUILER A PRECIO TASADO EN EL AYUNTAMIENTO DE VIGO PARA 2026-2027",
+        "organization": "AYUNTAMIENTO DE VIGO",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904868",
+        "anouncements": [
+          "https://boppo.depo.gal/web/boppo/detalle/-/boppo/2026/05/14/2026039299"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-11",
+          "applicationStartDate": "2026-05-12",
+          "applicationEndDate": "2027-10-01",
+          "startText": null,
+          "endText": null
+        }
+      },
+      {
+        "code": "904735",
+        "description": "BECAS A LA INVESTIGACIÓN, EN EL MARCO DE LA CÁTEDRA NOVO NORDISK PHARMA DE COAGULOPATÍAS DE LA UNIA",
+        "organization": "UNIVERSIDAD INTERNACIONAL DE ANDALUCÍA",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904735",
+        "anouncements": ["https://www.unia.es/bounia"],
+        "dates": {
+          "receptionDate": "2026-05-11",
+          "applicationStartDate": null,
+          "applicationEndDate": "2026-06-07",
+          "startText": "día siguiente a la fecha de publicación en el BOUNIA",
+          "endText": null
+        }
+      }
+    ]
+  },
+  {
+    "client": {
+      "id": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
+      "name": "María Casado"
+    },
+    "grants": [
+      {
+        "code": "905549",
+        "description": "Resolución de 13 de mayo de 2026 de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales, O.A., por la que se convocan para el año 2026 ayudas generales para la producción de largometrajes sobre proyecto",
+        "organization": "INSTITUTO DE LA CINEMATOGRAFÍA Y DE LAS ARTES AUDIOVISUALES",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905549",
+        "anouncements": [
+          "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-15551"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-13",
+          "applicationStartDate": null,
+          "applicationEndDate": null,
+          "startText": "Día siguiente al de la publicación del extracto de la convocatoria en el BOE (procedimiento 1)",
+          "endText": "Quince días hábiles después (procedimiento 1)"
+        }
+      },
+      {
+        "code": "904656",
+        "description": "Ayudas en concurrencia competitiva para proyectos de cooperación cultural en el medio rural 2026",
+        "organization": "DIRECCIÓN GENERAL DE DERECHOS CULTURALES",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904656",
+        "anouncements": [
+          "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-15261"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-11",
+          "applicationStartDate": null,
+          "applicationEndDate": null,
+          "startText": "Desde el día siguiente de la publicación del extracto de la convocatoria en BOE",
+          "endText": "Veinte días hábiles desde el día siguiente de la publicación del extracto de la convocatoria en BOE"
+        }
+      },
+      {
+        "code": "903054",
+        "description": "Resolución de la Secretaría de Estado de Cultura por la que se convocan las ayudas, en régimen de concurrencia competitiva, para la promoción de la fotografía, correspondientes al año 2026",
+        "organization": "DIRECCIÓN GENERAL DE PATRIMONIO CULTURAL Y BELLAS ARTES",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903054",
+        "anouncements": [
+          "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-14243"
+        ],
+        "dates": {
+          "receptionDate": "2026-05-04",
+          "applicationStartDate": null,
+          "applicationEndDate": null,
+          "startText": "A partir del día siguiente a la publicación en BOE",
+          "endText": "Quince días hábiles a partir de la publicación en BOE"
+        }
+      }
+    ]
+  }
+]

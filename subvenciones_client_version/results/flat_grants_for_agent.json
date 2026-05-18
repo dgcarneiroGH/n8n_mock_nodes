@@ -1,0 +1,66 @@
+[
+  {
+    "code": "905557",
+    "receptionDate": "2026-05-13",
+    "applicationStartDate": "2026-03-27",
+    "applicationEndDate": "2026-06-18",
+    "startText": null,
+    "endText": null
+  },
+  {
+    "code": "905002",
+    "receptionDate": "2026-05-12",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Desde el siguiente al de la publicación del extracto de esta convocatoria en el BOE",
+    "endText": "30 días naturales desde el siguiente al de la publicación del extracto de esta convocatoria en BOE"
+  },
+  {
+    "code": "904885",
+    "receptionDate": "2026-05-12",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "A partir del día siguiente al de la publicación en el BOE.",
+    "endText": "15 días hábiles después de su publicación en BOE."
+  },
+  {
+    "code": "904868",
+    "receptionDate": "2026-05-11",
+    "applicationStartDate": "2026-05-12",
+    "applicationEndDate": "2027-10-01",
+    "startText": null,
+    "endText": null
+  },
+  {
+    "code": "904735",
+    "receptionDate": "2026-05-11",
+    "applicationStartDate": null,
+    "applicationEndDate": "2026-06-07",
+    "startText": "día siguiente a la fecha de publicación en el BOUNIA",
+    "endText": null
+  },
+  {
+    "code": "905549",
+    "receptionDate": "2026-05-13",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Día siguiente al de la publicación del extracto de la convocatoria en el BOE (procedimiento 1)",
+    "endText": "Quince días hábiles después (procedimiento 1)"
+  },
+  {
+    "code": "904656",
+    "receptionDate": "2026-05-11",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Desde el día siguiente de la publicación del extracto de la convocatoria en BOE",
+    "endText": "Veinte días hábiles desde el día siguiente de la publicación del extracto de la convocatoria en BOE"
+  },
+  {
+    "code": "903054",
+    "receptionDate": "2026-05-04",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "A partir del día siguiente a la publicación en BOE",
+    "endText": "Quince días hábiles a partir de la publicación en BOE"
+  }
+]
