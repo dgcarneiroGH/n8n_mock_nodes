@@ -2,7 +2,9 @@ const fs = require("fs");
 
 let getNagerRaw;
 try {
-  getNagerRaw = JSON.parse(fs.readFileSync("./results/get_nager.json", "utf8"));
+  getNagerRaw = JSON.parse(
+    fs.readFileSync("./results/getters/get_nager.json", "utf8"),
+  );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
   process.exit(1);
@@ -19,13 +21,15 @@ const validDates = getNager
   .map((holiday) => holiday.date);
 
 const uniqueDates = [...new Set(validDates)];
+
+const result = { valid_holidays: uniqueDates };
 //#endregion
 
 //Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync(
     "./results/format_nager_dates.json",
-    JSON.stringify(uniqueDates, null, 2),
+    JSON.stringify(result, null, 2),
     "utf8",
   );
   console.log(
