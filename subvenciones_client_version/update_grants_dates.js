@@ -44,12 +44,12 @@ const result = filterGrantsData.map((clientEntry) => ({
 //Sustituye esto por el return de datos correspondiente
 try {
   fs.writeFileSync(
-    "./results/update_grant_dates.json",
+    "./results/update_grants_dates.json",
     JSON.stringify(result, null, 2),
     "utf8",
   );
   console.log(
-    "✅ Association complete. Check results/final_client_subsidies.json",
+    "✅ Association complete. Check /results/update_grants_dates.json",
   );
 } catch (err) {
   console.error("❌ Error saving file:", err.message);

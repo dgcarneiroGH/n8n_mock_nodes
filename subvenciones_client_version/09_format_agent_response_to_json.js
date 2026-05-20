@@ -1,12 +1,15 @@
 const fs = require("fs");
 
-let grantDatesCalculatorAIResponseRaw;
+let grantDatesCalculatorAIResponseRaw, flatGrantsForAgentRaw;
 try {
   grantDatesCalculatorAIResponseRaw = JSON.parse(
     fs.readFileSync(
       "./results/grant_dates_calculator_AI_response.json",
       "utf8",
     ),
+  );
+  flatGrantsForAgentRaw = JSON.parse(
+    fs.readFileSync("./results/flat_grants_for_agent.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -15,40 +18,63 @@ try {
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
 const grantDatesCalculatorAIResponse = grantDatesCalculatorAIResponseRaw;
+const flatGrantsForAgent = flatGrantsForAgentRaw;
 
 //#region Node Logic
 const resultItems = [];
 
-for (const grant of grantDatesCalculatorAIResponse) {
-  const rawText = grant.output || grant.text;
+const textoIA =
+  grantDatesCalculatorAIResponse.output ||
+  grantDatesCalculatorAIResponse.text ||
+  "";
 
-  if (rawText) {
-    try {
-      // Remove markdown formatting if present
-      const cleanText = rawText
-        .replace(/```json/gi, "")
-        .replace(/```/g, "")
-        .trim();
+try {
+  let cleanText = textoIA
+    .replace(/```json/gi, "")
+    .replace(/```/g, "")
+    .trim();
 
-      // Parse the string into a JavaScript object or array
-      const parsedArray = JSON.parse(cleanText);
+  let parsedData;
+  const isJsonLines = !cleanText.startsWith("[") && cleanText.startsWith("{");
 
-      // Split array into individual items for n8n, or add single object
-      if (Array.isArray(parsedArray)) {
-        for (const grantItem of parsedArray) {
-          resultItems.push(grantItem);
-        }
-      } else {
-        resultItems.push(parsedArray);
-      }
-    } catch (error) {
-      // Handle invalid JSON gracefully
-      resultItems.push({
-        error: "Failed to parse JSON",
-        original_text: rawText,
-        details: error.message,
-      });
+  if (isJsonLines) {
+    const lines = cleanText.split("\n").filter((linea) => linea.trim() !== "");
+    parsedData = lines.map((linea) => JSON.parse(linea.trim()));
+  } else {
+    const startArray = cleanText.indexOf("[");
+    const endArray = cleanText.lastIndexOf("]");
+
+    if (startArray !== -1 && endArray !== -1) {
+      cleanText = cleanText.substring(startArray, endArray + 1);
     }
+
+    parsedData = JSON.parse(cleanText);
+  }
+
+  const grants = Array.isArray(parsedData) ? parsedData : [parsedData];
+
+  for (const grant of grants) {
+    const incomplete =
+      grant.calculated_end_date === null ||
+      grant.calculated_start_date === null;
+
+    if (incomplete) {
+      const original = flatGrantsForAgent.find(
+        (item) => item.code === grant.code,
+      );
+
+      if (original) {
+        resultItems.push({ ...original, _route: "smart_agent" });
+      }
+
+      continue;
+    }
+
+    resultItems.push({ ...grant, _route: "success" });
+  }
+} catch (error) {
+  for (const original of flatGrantsForAgent) {
+    resultItems.push({ ...original, _route: "smart_agent" });
   }
 }
 //#endregion

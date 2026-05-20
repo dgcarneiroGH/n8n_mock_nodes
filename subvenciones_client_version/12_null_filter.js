@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-let mergeFinalDataRaw;
+let updateGrantDatesRaw;
 try {
-  mergeFinalDataRaw = JSON.parse(
-    fs.readFileSync("./results/merge_final_data.json", "utf8"),
+  updateGrantDatesRaw = JSON.parse(
+    fs.readFileSync("./results/update_grant_dates.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -11,24 +11,23 @@ try {
 }
 
 // Sustituye esto por la injección de datos real en N8N Ej:$input.all().map(item => item.json)
-const mergeFinalData = mergeFinalDataRaw;
+const updateGrantDates = updateGrantDatesRaw;
 const errorReports = [];
 
 //#region Node Logic
-for (const { client, grants = [] } of mergeFinalData) {
+for (const { client, grants = [] } of updateGrantDates) {
   for (const grant of grants) {
     const missingFields = [];
 
-    // Check top-level grant fields
-    for (const key in grant) {
-      if (grant[key] === null) missingFields.push(key);
+    // Check top-level grant fields (new schema: publicationDate/startDate/endDate)
+    for (const [key, value] of Object.entries(grant)) {
+      if (value === null) missingFields.push(key);
     }
 
-    // Check nested 'dates' fields if present
+    // Backward compatibility: old schema with nested dates object
     if (grant.dates && typeof grant.dates === "object") {
-      for (const dateKey in grant.dates) {
-        if (grant.dates[dateKey] === null)
-          missingFields.push(`dates.${dateKey}`);
+      for (const [dateKey, dateValue] of Object.entries(grant.dates)) {
+        if (dateValue === null) missingFields.push(`dates.${dateKey}`);
       }
     }
 
@@ -37,7 +36,7 @@ for (const { client, grants = [] } of mergeFinalData) {
       errorReports.push({
         client: client.name,
         grant_code: grant.code || "UNKNOWN_CODE",
-        grant_title: grant.title,
+        grant_title: grant.title || grant.description || "UNTITLED_GRANT",
         missing_fields: missingFields.join(", "),
       });
     }
