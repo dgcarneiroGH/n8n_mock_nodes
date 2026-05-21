@@ -1,162 +1,26 @@
 const fs = require("fs");
 
+const RESULT_FILE_ROUTE = "../files/templates";
+const RESULT_FILE_NAME = "build_html.html";
+
+let filterAndFormatRaw;
+try {
+  filterAndFormatRaw = JSON.parse(
+    fs.readFileSync("../files/responses/filter_and_format.json", "utf8"),
+  );
+} catch (error) {
+  console.error("Error leyendo los archivos JSON.", error.message);
+  process.exit(1);
+}
+
 // ============================================================================
 // BLOQUE 1: SIMULADOR DEL ENTORNO N8N (NO COPIAR EN N8N)
 // ============================================================================
-const jobsRaw = [
-  {
-    "id_trabajo": "4212795",
-    "titulo": "Systems Digitisation Consultancy",
-    "empresa": "DT Global",
-    "url": "https://reliefweb.int/node/4212795",
-    "fecha_publicacion": "2026-05-20T04:00:45+00:00",
-  },
-  {
-    "id_trabajo": "4212689",
-    "titulo":
-      "Call for External Collaborator –Framework Design for the Electronic Case Management System (ECMS) for Labour and Occupational Safety and Health (OSH)",
-    "empresa": "International Labour Organization",
-    "url": "https://reliefweb.int/node/4212689",
-    "fecha_publicacion": "2026-05-19T11:02:59+00:00",
-  },
-  {
-    "id_trabajo": "4212441",
-    "titulo": "Head of Programmes, Ukraine",
-    "empresa": "People in Peril",
-    "url": "https://reliefweb.int/node/4212441",
-    "fecha_publicacion": "2026-05-18T11:36:43+00:00",
-  },
-  {
-    "id_trabajo": "4212428",
-    "titulo":
-      "Multisectoral Aid (Health, Nutrition & WASH) for conflict- and climate-affected refugees, IDPs, returnees & host communities in the Sudan Crisis",
-    "empresa": "Humedica",
-    "url": "https://reliefweb.int/node/4212428",
-    "fecha_publicacion": "2026-05-18T11:34:26+00:00",
-  },
-  {
-    "id_trabajo": "4212408",
-    "titulo": "CONSULTANT SERVICES REQUEST FOR A NETWORK GOVERNANCE REVIEW",
-    "empresa": "Action contre la Faim France",
-    "url": "https://reliefweb.int/node/4212408",
-    "fecha_publicacion": "2026-05-18T11:31:30+00:00",
-  },
-  {
-    "id_trabajo": "4212361",
-    "titulo": "Call for Applications: External Evaluation Consultant",
-    "empresa": "EarthRights International",
-    "url": "https://reliefweb.int/node/4212361",
-    "fecha_publicacion": "2026-05-18T11:23:45+00:00",
-  },
-  {
-    "id_trabajo": "4212264",
-    "titulo":
-      "Consultant: SHE SOARS Knowledge & Learning Products Documentation",
-    "empresa": "Center for Reproductive Rights",
-    "url": "https://reliefweb.int/node/4212264",
-    "fecha_publicacion": "2026-05-18T09:50:21+00:00",
-  },
-  {
-    "id_trabajo": "4212215",
-    "titulo":
-      "Research for FCDO Partnership for learning for all in Nigeria Plane II project - Re-Advertized",
-    "empresa": "Plan International",
-    "url": "https://reliefweb.int/node/4212215",
-    "fecha_publicacion": "2026-05-17T23:16:26+00:00",
-  },
-  {
-    "id_trabajo": "4212169",
-    "titulo":
-      "Consultancy services to support the Development of Management Plans and bylaws for Collaboratives Management Areas (CMAs) within North-East Unguja Sea",
-    "empresa": "International Union for Conservation of Nature",
-    "url": "https://reliefweb.int/node/4212169",
-    "fecha_publicacion": "2026-05-17T23:15:44+00:00",
-  },
-  {
-    "id_trabajo": "4212159",
-    "titulo":
-      "Consultancy services to support the Development of Management Plans and bylaws for Collaboratives Fisheries Management Areas (CFMAs) within Mtwara Sea",
-    "empresa": "International Union for Conservation of Nature",
-    "url": "https://reliefweb.int/node/4212159",
-    "fecha_publicacion": "2026-05-17T23:15:27+00:00",
-  },
-  {
-    "id_trabajo": "4212011",
-    "titulo": "Consultant – Website Optimization and Content Migration",
-    "empresa": "The BOMA Project",
-    "url": "https://reliefweb.int/node/4212011",
-    "fecha_publicacion": "2026-05-15T13:00:38+00:00",
-  },
-  {
-    "id_trabajo": "4212029",
-    "titulo": "MCC Data Quality Review Subject Matter Expert (Mid, Senior)",
-    "empresa": "SoCha LLC",
-    "url": "https://reliefweb.int/node/4212029",
-    "fecha_publicacion": "2026-05-14T10:42:49+00:00",
-  },
-  {
-    "id_trabajo": "4211875",
-    "titulo": "Senior Full Stack Developer (Remote Consultancy)",
-    "empresa": "Syria Justice and Accountability Centre",
-    "url": "https://reliefweb.int/node/4211875",
-    "fecha_publicacion": "2026-05-13T13:45:20+00:00",
-  },
-  {
-    "id_trabajo": "4211717",
-    "titulo": "Regional Disaster Risk Financing Specialist CST II",
-    "empresa": "World Food Programme",
-    "url": "https://reliefweb.int/node/4211717",
-    "fecha_publicacion": "2026-05-13T13:25:16+00:00",
-  },
-  {
-    "id_trabajo": "4211799",
-    "titulo":
-      "Third-Party Evaluation – Syria and Türkiye Humanitarian Response",
-    "empresa": "ActionAid",
-    "url": "https://reliefweb.int/node/4211799",
-    "fecha_publicacion": "2026-05-13T08:43:24+00:00",
-  },
-  {
-    "id_trabajo": "4211646",
-    "titulo": "Business Development and Marketing Consultant",
-    "empresa": "Farm Radio International",
-    "url": "https://reliefweb.int/node/4211646",
-    "fecha_publicacion": "2026-05-12T13:28:02+00:00",
-  },
-  {
-    "id_trabajo": "4211605",
-    "titulo":
-      "External Evaluation Consultancy – Palestine Humanitarian Response Programme",
-    "empresa": "SOS Children's Villages International",
-    "url": "https://reliefweb.int/node/4211605",
-    "fecha_publicacion": "2026-05-12T13:25:24+00:00",
-  },
-  {
-    "id_trabajo": "4211579",
-    "titulo": "Regional Consultant Lebanon / Syria (Advisory & Mapping)",
-    "empresa": "Humedica",
-    "url": "https://reliefweb.int/node/4211579",
-    "fecha_publicacion": "2026-05-12T13:24:14+00:00",
-  },
-  {
-    "id_trabajo": "4211559",
-    "titulo": "International Administrative and HR Specialist",
-    "empresa": "Food and Agriculture Organization of the United Nations",
-    "url": "https://reliefweb.int/node/4211559",
-    "fecha_publicacion": "2026-05-12T13:21:53+00:00",
-  },
-  {
-    "id_trabajo": "4211626",
-    "titulo": "Consultant-Instructional Designer LEARN - (4741)",
-    "empresa": "International Medical Corps",
-    "url": "https://reliefweb.int/node/4211626",
-    "fecha_publicacion": "2026-05-12T11:48:46+00:00",
-  },
-];
+const jobs = filterAndFormatRaw;
 
 // Simulamos la entrada de n8n
 const $input = {
-  all: () => jobsRaw.map((item) => ({ json: item })),
+  all: () => jobs.map((item) => ({ json: item })),
 };
 
 // ============================================================================
@@ -269,11 +133,15 @@ if (itemsFinales.length > 0) {
   const htmlParaTest = itemsFinales[0].htmlContent;
 
   if (!fs.existsSync("templates")) fs.mkdirSync("templates");
-  fs.writeFileSync("templates/build_html.html", htmlParaTest, "utf8");
+  fs.writeFileSync(
+    `${RESULT_FILE_ROUTE}/${RESULT_FILE_NAME}`,
+    htmlParaTest,
+    "utf8",
+  );
 
   console.log(
     "\x1b[32m%s\x1b[0m",
-    '✅ Archivo "templates/build_html.html" generado. Ábrelo en tu navegador.',
+    `✅ Archivo "${RESULT_FILE_NAME}" generado. Ábrelo en tu navegador.`,
   );
   console.log(
     `📤 Simulación: Se enviaría un correo a ${itemsFinales[0].emailTo} con ${itemsFinales[0].total_jobs} ofertas.`,
