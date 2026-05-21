@@ -1,6 +1,10 @@
 const fs = require("fs");
 
-let filterGrantsRaw, filterPurposesRaw, getPurposesRaw, loopSubvencionesRaw;
+let filterGrantsRaw,
+  filterPurposesRaw,
+  getPurposesRaw,
+  loopSubvencionesRaw,
+  getSubvencionesNotionRaw;
 try {
   filterGrantsRaw = JSON.parse(
     fs.readFileSync("./results/filters/filter_grants.json", "utf8"),
@@ -14,6 +18,9 @@ try {
   loopSubvencionesRaw = JSON.parse(
     fs.readFileSync("./results/loops/loop_subvenciones.json", "utf8"),
   );
+  getSubvencionesNotionRaw = JSON.parse(
+    fs.readFileSync("./results/getters/get_subvenciones_notion.json", "utf8"),
+  );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
   process.exit(1);
@@ -24,6 +31,7 @@ const filterGrants = filterGrantsRaw;
 const filterPurposes = filterPurposesRaw;
 const getPurposes = getPurposesRaw;
 const loopSubvenciones = loopSubvencionesRaw;
+const getNotionGrants = getSubvencionesNotionRaw;
 
 //#region Node Logic
 const normalize = (value) =>
@@ -38,26 +46,21 @@ const purposeIdToDesc = new Map(
   ]),
 );
 
+// Filter valid loops by ensuring they have non-empty announcements
 const validLoops = loopSubvenciones.filter((item) => {
   if (!Array.isArray(item.anuncios) || item.anuncios.length === 0) return false;
-  const orderedAnouncements = item.anuncios.sort((a, b) => {
-    if (!a.datPublicacion || !b.datPublicacion) return 0;
-    return a.datPublicacion.localeCompare(b.datPublicacion);
-  });
-  return orderedAnouncements.some(
+  return item.anuncios.some(
     (anouncement) => normalize(anouncement.texto) !== "",
   );
 });
 
 const purposeByBdns = new Map();
 const loopByBdns = new Map();
-
 for (const loop of validLoops) {
   const bdns = String(loop.codigoBDNS ?? "");
   if (!bdns) continue;
 
   loopByBdns.set(bdns, loop);
-
   const purpose = normalize(loop.descripcionFinalidad);
   if (purpose) purposeByBdns.set(bdns, purpose);
 }
@@ -76,6 +79,7 @@ const getClientPurposes = (clientId) => {
 
 const getBdnsFromUrl = (urlApi) => urlApi?.match(/numConv=(\d+)/)?.[1] ?? null;
 
+// Check if a grant's purpose matches any of the client's purposes
 const hasPurposeMatch = (grantPurpose, clientPurposes) =>
   clientPurposes.some(
     (clientPurpose) =>
@@ -83,6 +87,23 @@ const hasPurposeMatch = (grantPurpose, clientPurposes) =>
       clientPurpose.includes(grantPurpose),
   );
 
+// Filter grants that are not already in Notion for the specific client
+const filterOutNotionGrants = (grants, clientId) => {
+  return grants.filter((grant) => {
+    const bdns = getBdnsFromUrl(grant.urlApi);
+    if (!bdns) return false;
+
+    const notionGrant = getNotionGrants.find(
+      (notionGrant) =>
+        notionGrant.property_c_digo_bdns === bdns &&
+        notionGrant.property_clientes.includes(clientId),
+    );
+
+    return !notionGrant;
+  });
+};
+
+// Filter and format grants based on client purposes and loop data
 const filterAndFormatGrants = (grants, clientPurposes) => {
   if (!Array.isArray(grants) || clientPurposes.length === 0) return [];
 
@@ -115,14 +136,18 @@ const filterAndFormatGrants = (grants, clientPurposes) => {
     .filter(Boolean);
 };
 
+// Main processing: filter grants for each client and format the results
 const result = filterGrants.map((clientObj) => {
-  const clientPurposes = getClientPurposes(clientObj.client.id);
+  const clientId = clientObj.client.id;
+  const clientPurposes = getClientPurposes(clientId);
   return {
     ...clientObj,
-    grants: filterAndFormatGrants(clientObj.grants, clientPurposes),
+    grants: filterAndFormatGrants(
+      filterOutNotionGrants(clientObj.grants, clientId),
+      clientPurposes,
+    ),
   };
 });
-
 //#endregion
 
 //Sustituye esto por el return de datos correspondiente
