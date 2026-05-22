@@ -22,25 +22,55 @@ const clientes = getClients;
 const subvencionesGuardadas = subvencionesNotionRaw;
 
 //#region Node Logic
-// Build set of Notion codes to filter
-const notionCodes = new Set(
-  (subvencionesGuardadas || [])
-    .map((s) => s.property_c_digo_bdns)
-    .filter(Boolean),
-);
+const toArray = (value) => (Array.isArray(value) ? value : []);
+const toClientGrantKey = (clientId, grantCode) =>
+  `${String(clientId)}::${String(grantCode)}`;
+
+const buildClientGrantPairs = (savedGrants) =>
+  new Set(
+    toArray(savedGrants).flatMap((savedGrant) => {
+      const grantCode = savedGrant.property_c_digo_bdns;
+      const clientIds = toArray(savedGrant.property_clientes);
+
+      if (!grantCode || clientIds.length === 0) return [];
+
+      return clientIds
+        .filter(Boolean)
+        .map((clientId) => toClientGrantKey(clientId, grantCode));
+    }),
+  );
+
+const mapGrantOutput = (grant) => ({
+  grantId: grant.numeroConvocatoria,
+  description: grant.descripcion,
+  receivedDate: grant.fechaRecepcion,
+  organization: grant.nivel3 ?? grant.nivel2,
+  urlHtml: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grant.numeroConvocatoria}`,
+  urlApi: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grant.numeroConvocatoria}&vpd=GE`,
+});
+
+const notionClientGrantPairs = buildClientGrantPairs(subvencionesGuardadas);
+const alignedSubvenciones = toArray(subvenciones);
+if (alignedSubvenciones.length !== clientes.length) {
+  throw new Error(
+    `Error crítico de paridad: Hay ${clientes.length} clientes y ${alignedSubvenciones.length} arrays de subvenciones. Se aborta la ejecución para evitar cruce de datos.`,
+  );
+}
 
 const results = clientes.map((client, idx) => {
-  const grants = (subvenciones[idx] && subvenciones[idx].content) || [];
+  // This guarantees client[idx] only uses subvenciones[idx]
+  const grantsSource = alignedSubvenciones[idx];
+  const grants = toArray(grantsSource?.content);
+  const clientId = String(client.id);
+
   const filteredGrants = grants
-    .filter((g) => !notionCodes.has(String(g.numeroConvocatoria)))
-    .map((g) => ({
-      grantId: g.numeroConvocatoria,
-      description: g.descripcion,
-      receivedDate: g.fechaRecepcion,
-      organization: g.nivel3 ?? g.nivel2,
-      urlHtml: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${g.numeroConvocatoria}`,
-      urlApi: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${g.numeroConvocatoria}&vpd=GE`,
-    }));
+    .filter(
+      (g) =>
+        !notionClientGrantPairs.has(
+          toClientGrantKey(clientId, g.numeroConvocatoria),
+        ),
+    )
+    .map(mapGrantOutput);
   return {
     client: {
       id: client.id,

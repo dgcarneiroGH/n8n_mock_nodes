@@ -1,10 +1,6 @@
 const fs = require("fs");
 
-let filterGrantsRaw,
-  filterPurposesRaw,
-  getPurposesRaw,
-  loopSubvencionesRaw,
-  getSubvencionesNotionRaw;
+let filterGrantsRaw, filterPurposesRaw, getPurposesRaw, loopSubvencionesRaw;
 try {
   filterGrantsRaw = JSON.parse(
     fs.readFileSync("./results/filters/filter_grants.json", "utf8"),
@@ -18,9 +14,6 @@ try {
   loopSubvencionesRaw = JSON.parse(
     fs.readFileSync("./results/loops/loop_subvenciones.json", "utf8"),
   );
-  getSubvencionesNotionRaw = JSON.parse(
-    fs.readFileSync("./results/getters/get_subvenciones_notion.json", "utf8"),
-  );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
   process.exit(1);
@@ -31,7 +24,6 @@ const filterGrants = filterGrantsRaw;
 const filterPurposes = filterPurposesRaw;
 const getPurposes = getPurposesRaw;
 const loopSubvenciones = loopSubvencionesRaw;
-const getNotionGrants = getSubvencionesNotionRaw;
 
 //#region Node Logic
 const normalize = (value) =>
@@ -87,22 +79,6 @@ const hasPurposeMatch = (grantPurpose, clientPurposes) =>
       clientPurpose.includes(grantPurpose),
   );
 
-// Filter grants that are not already in Notion for the specific client
-const filterOutNotionGrants = (grants, clientId) => {
-  return grants.filter((grant) => {
-    const bdns = getBdnsFromUrl(grant.urlApi);
-    if (!bdns) return false;
-
-    const notionGrant = getNotionGrants.find(
-      (notionGrant) =>
-        notionGrant.property_c_digo_bdns === bdns &&
-        notionGrant.property_clientes.includes(clientId),
-    );
-
-    return !notionGrant;
-  });
-};
-
 // Filter and format grants based on client purposes and loop data
 const filterAndFormatGrants = (grants, clientPurposes) => {
   if (!Array.isArray(grants) || clientPurposes.length === 0) return [];
@@ -138,14 +114,10 @@ const filterAndFormatGrants = (grants, clientPurposes) => {
 
 // Main processing: filter grants for each client and format the results
 const result = filterGrants.map((clientObj) => {
-  const clientId = clientObj.client.id;
-  const clientPurposes = getClientPurposes(clientId);
+  const clientPurposes = getClientPurposes(clientObj.client.id);
   return {
     ...clientObj,
-    grants: filterAndFormatGrants(
-      filterOutNotionGrants(clientObj.grants, clientId),
-      clientPurposes,
-    ),
+    grants: filterAndFormatGrants(clientObj.grants, clientPurposes),
   };
 });
 //#endregion
