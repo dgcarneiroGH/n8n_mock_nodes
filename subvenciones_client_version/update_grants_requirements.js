@@ -18,8 +18,14 @@ const updateGrantsDates = updateGrantsDatesRaw;
 const formatAgentResponseToJson = formatAgentResponseToJsonRaw;
 
 //#region Node Logic
+const allFormattedGrants = Array.isArray(formatAgentResponseToJson)
+  ? formatAgentResponseToJson.flatMap((entry) =>
+      Array.isArray(entry.output) ? entry.output : [],
+    )
+  : [];
+
 const formatterByCode = new Map(
-  formatAgentResponseToJson
+  allFormattedGrants
     .filter((grant) => grant?.code)
     .map((grant) => [
       String(grant.code),

@@ -15,7 +15,7 @@
         "nombre": "Ethereum",
         "precio_actual": "1837.36 €",
         "roi": "-33.00%",
-        "tendencia": "BAJISTA",
+        "tendencia": "ALCISTA",
         "media_texto": "(Average: 1901.68 €)",
         "distancia_objetivo": "Faltan 2302.64 € para objetivo (Auto-retiro en 148.71 €)"
       },
@@ -41,7 +41,7 @@
         "moneda": "Dólar",
         "tasa_actual": "Current: 0.8621 €",
         "media_texto": "Average (history): 0.8557 €",
-        "tendencia": "ESTABLE",
+        "tendencia": "BAJISTA",
         "veredicto": "No significant changes"
       },
       {

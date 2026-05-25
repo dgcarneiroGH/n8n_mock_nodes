@@ -3,17 +3,17 @@
     "code": "905557",
     "title": "Cuarta convocatoria de concurrencia simple de subvenciones a la rehabilitación de actuaciones incluidas en el programa de ayuda a las actuaciones a nivel de BARRIO del Plan de Recuperación, Transformación y Resiliencia.Ampliación de plazo",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905557",
-    "publicationDate": "2026-05-13T00:00:00.000Z",
-    "startDate": "2026-03-27T00:00:00.000Z",
-    "endDate": "2026-06-18T00:00:00.000Z",
+    "publicationDate": "2026-05-13",
+    "startDate": "2026-03-27",
+    "endDate": "2026-06-18",
     "organization": "AYUNTAMIENTO DE VIGO",
-    "description": "Ayudas para financiar obras de rehabilitación en edificios residenciales y viviendas unifamiliares en los barrios de Casco Vello, Bouzas y Coia de Vigo, dirigidas a lograr una mejora acreditada de la eficiencia energética.",
+    "description": "Publica la cuarta convocatoria de ayudas para actuaciones de rehabilitación a nivel de barrio en zonas declaradas ERRPs en Vigo (Casco Vello, Bouzas y Coia). Financia obras o actuaciones que mejoren la eficiencia energética, especialmente la envolvente edificatoria.",
     "requirements": [
-      "Ser propietario, comunidad de propietarios, cooperativa, empresa arrendataria/concesionaria, titular de un derecho real o inquilino autorizado del inmueble.",
-      "Las actuaciones deben llevarse a cabo en los Entornos Residenciales de Rehabilitación Programada (ERRP) de Casco Vello, Bouzas y Coia en Vigo.",
-      "Las obras deben conseguir una reducción del consumo de energía primaria no renovable de al menos un 30%.",
-      "Para optar a ayudas adicionales por vulnerabilidad económica, los ingresos de la unidad de convivencia residente deben ser inferiores a 2,6 veces el IPREM.",
-      "El plazo de presentación de solicitudes finaliza el 18 de junio de 2026 o hasta que se agote la financiación disponible."
+      "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+      "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+      "Sociedades cooperativas.",
+      "Empresas arrendatarias o concesionarias del edificio.",
+      "Personas físicas o jurídicas que posean un derecho real sobre el inmueble o inquilinos autorizados por el propietario."
     ],
     "clients": [
       "34183f94-7b2c-80da-a7ee-df8b5b7a40e5"
@@ -23,17 +23,16 @@
     "code": "905002",
     "title": "Convocatoria Decimonovena Edición de los Premios Nacionales de Artesanía",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905002",
-    "publicationDate": "2026-05-12T00:00:00.000Z",
-    "startDate": "2026-05-13T00:00:00.000Z",
-    "endDate": "2026-06-11T00:00:00.000Z",
+    "publicationDate": "2026-05-12",
+    "startDate": "2026-05-13",
+    "endDate": "2026-06-11",
     "organization": "FUNDACIÓN EOI, F.S.P.",
-    "description": "Convocatoria de los Premios Nacionales de Artesanía cuyo objetivo es prestigiar el sector y reconocer el mérito de profesionales, empresas e instituciones que destaquen por su creatividad, innovación, responsabilidad social, adaptación al mercado y promoción de la artesanía.",
+    "description": "Premios Nacionales de Artesanía para prestigiar el sector, reconocer la creatividad, responsabilidad social y medioambiental, adaptación al mercado e innovación. Se otorgan en diferentes modalidades, incluyendo Premio Nacional de Artesanía, Producto, Emprendimiento y Promociona (sector privado y público).",
     "requirements": [
-      "Premio Nacional y Premio Producto: Personas físicas o jurídicas que actúen en España y se dediquen a la producción artesana de objetos según la ley autonómica.",
-      "Premio al Emprendimiento: Personas físicas o jurídicas en España dedicadas a la producción artesana con una actividad formal inferior a cinco años desde la convocatoria.",
-      "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas en España que hayan contribuido de modo significativo a la promoción de la artesanía.",
-      "Premio Promociona Sector Público: Entidades u organismos públicos en España que hayan contribuido de modo significativo a la promoción de la artesanía.",
-      "El plazo de presentación de solicitudes será de 30 días naturales a contar desde el día siguiente al de la publicación del extracto en el BOE."
+      "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas dedicadas a la producción artesana de objetos en España.",
+      "Premio al Emprendimiento: Personas físicas o jurídicas con actividad en artesanía con menos de cinco años de recorrido formal en España.",
+      "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía en España.",
+      "Premio Promociona Sector Público: Entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía en España."
     ],
     "clients": [
       "34183f94-7b2c-80da-a7ee-df8b5b7a40e5"
@@ -43,15 +42,16 @@
     "code": "904885",
     "title": "Extracto de la Resolución, de 24 de abril de 2026, de la Jefatura de Personal de la Armada, por la que se convocan las subvenciones de ayudas de acción social para organismos sin ánimo de lucro estrechamente relacionadas con la Armada para el 2026.",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904885",
-    "publicationDate": "2026-05-12T00:00:00.000Z",
-    "startDate": "2026-05-13T00:00:00.000Z",
-    "endDate": "2026-06-02T00:00:00.000Z",
+    "publicationDate": "2026-05-12",
+    "startDate": "2026-05-13",
+    "endDate": "2026-06-02",
     "organization": "CUARTEL GENERAL DE LA ARMADA",
-    "description": "Subvenciones a entidades sin ánimo de lucro benéfico-sociales para apoyar al personal militar retirado de la Armada, sus cónyuges viudos o huérfanos en situación de discapacidad, gran necesidad o bajos ingresos.",
+    "description": "Ayuda a entidades benéfico-sociales relacionadas con la Armada, sin ánimo de lucro y con fines altruistas. Las subvenciones se destinarán a apoyar al personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus viudos/as y huérfanos, especialmente aquellos en situación de discapacidad, gran necesidad o bajos ingresos.",
     "requirements": [
-      "Ser una entidad estrechamente relacionada con la Armada, de carácter altruista, sin ánimo de lucro y no reivindicativa.",
-      "No desarrollar actividades incompatibles con la neutralidad política impuesta a las Fuerzas Armadas y con los valores democráticos y constitucionales.",
-      "Presentar la solicitud en el modelo oficial junto con la documentación requerida en un plazo de 15 días hábiles tras la publicación del extracto en el BOE."
+      "Entidades estrechamente relacionadas con la Armada.",
+      "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+      "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas y con los valores democráticos y constitucionales.",
+      "Cumplir requisitos de las Bases Reguladoras Primera y Cuarta."
     ],
     "clients": [
       "34183f94-7b2c-80da-a7ee-df8b5b7a40e5"
@@ -61,18 +61,16 @@
     "code": "904868",
     "title": "CONVOCATORIA DE SUBVENCIONES PARA LA CONCESIÓN DE AYUDAS A VIVIENDAS VACÍAS PARA ALQUILER A PRECIO TASADO EN EL AYUNTAMIENTO DE VIGO PARA 2026-2027",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904868",
-    "publicationDate": "2026-05-11T00:00:00.000Z",
-    "startDate": "2026-05-12T00:00:00.000Z",
-    "endDate": "2027-10-01T00:00:00.000Z",
+    "publicationDate": "2026-05-11",
+    "startDate": "2026-05-12",
+    "endDate": "2027-10-01",
     "organization": "AYUNTAMIENTO DE VIGO",
-    "description": "Ayudas destinadas a cubrir gastos de equipamiento, obras, redacción del certificado de eficiencia energética y contratación de seguros para viviendas vacías que se pongan en régimen de alquiler a precio tasado en Vigo.",
+    "description": "Subvenciones para cubrir gastos de equipamiento, obras o certificado de eficiencia energética, así como contratación de seguros para viviendas puestas en régimen de alquiler a precio tasado durante 5 años. Las actuaciones deben haberse promovido y ejecutado en los ejercicios 2026 y 2027.",
     "requirements": [
-      "Ser persona física o entidad sin ánimo de lucro, propietaria o usufructuaria de la vivienda.",
-      "Poner la vivienda en régimen de alquiler a precio tasado durante un mínimo de 5 años.",
-      "Ejecutar o haber ejecutado las actuaciones subvencionables en los ejercicios 2026 y 2027.",
-      "El importe máximo de las obras subvencionables será de 30.000 euros, con una ayuda máxima de 20.200 euros por vivienda.",
-      "Presentar la solicitud y toda la documentación completa antes del 1 de octubre de 2027.",
-      "La concesión se otorgará por riguroso orden de presentación de solicitudes, por concurrencia no competitiva."
+      "Personas físicas o entidades sin ánimo de lucro.",
+      "Ser propietarias o usufructuarias de una vivienda.",
+      "Promover y ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+      "Cumplir los requisitos previstos en las bases reguladoras."
     ],
     "clients": [
       "34183f94-7b2c-80da-a7ee-df8b5b7a40e5",
@@ -83,20 +81,12 @@
     "code": "905549",
     "title": "Resolución de 13 de mayo de 2026 de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales, O.A., por la que se convocan para el año 2026 ayudas generales para la producción de largometrajes sobre proyecto",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905549",
-    "publicationDate": "2026-05-13T00:00:00.000Z",
-    "startDate": "2026-05-14T00:00:00.000Z",
-    "endDate": "2026-06-03T00:00:00.000Z",
+    "publicationDate": "2026-05-13",
+    "startDate": "2026-05-14",
+    "endDate": "2026-06-03",
     "organization": "INSTITUTO DE LA CINEMATOGRAFÍA Y DE LAS ARTES AUDIOVISUALES",
-    "description": "Ayudas generales para la producción de largometrajes sobre proyecto en régimen de concurrencia competitiva para el año 2026.",
-    "requirements": [
-      "Ser empresa productora independiente (incluidas AIE) o empresa productora no independiente en coproducción con empresas independientes.",
-      "En caso de proyectos realizados por varias empresas productoras, deberán constituir una agrupación.",
-      "Los proyectos deben estar en disposición de obtener la nacionalidad española y acreditar su carácter cultural.",
-      "No haber presentado la solicitud de calificación por grupos de edad antes de finalizar el plazo de presentación de solicitudes.",
-      "Realizar al menos el 50% de los gastos presupuestados en España o que reviertan en profesionales o servicios con residencia fiscal en España.",
-      "Incluir medidas de accesibilidad universal (subtitulado accesible y audiodescripción).",
-      "Incluir una memoria de acciones en materia medioambiental y de sostenibilidad y/o un sistema de medición de impacto ambiental y huella de carbono."
-    ],
+    "description": "",
+    "requirements": "",
     "clients": [
       "33d83f94-7b2c-80be-ad7d-c75118378e6b"
     ]
@@ -105,21 +95,12 @@
     "code": "904656",
     "title": "Ayudas en concurrencia competitiva para proyectos de cooperación cultural en el medio rural 2026",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904656",
-    "publicationDate": "2026-05-11T00:00:00.000Z",
-    "startDate": "2026-05-12T00:00:00.000Z",
-    "endDate": "2026-06-08T00:00:00.000Z",
+    "publicationDate": "2026-05-11",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-08",
     "organization": "DIRECCIÓN GENERAL DE DERECHOS CULTURALES",
-    "description": "Financiación para proyectos de cooperación cultural en zonas rurales que favorezcan la innovación colaborativa, la creación de alianzas y el desarrollo del ecosistema cultural territorial mediante agrupaciones.",
-    "requirements": [
-      "Personas jurídicas privadas (con o sin ánimo de lucro) o personas físicas inscritas en el Régimen Especial de Trabajadores Autónomos (RETA), actuando en agrupación colaborativa.",
-      "Los participantes deben tener residencia fiscal en España y estar legalmente constituidos al finalizar el plazo de solicitud.",
-      "Las entidades con ánimo de lucro deben tener la condición de microempresa o pequeña empresa.",
-      "Quedan excluidas las Administraciones Públicas, entidades del sector público, A.I.E. y U.T.E.",
-      "Los proyectos deben desarrollarse entre el 1 de enero de 2026 y el 30 de junio de 2027.",
-      "La cuantía máxima a conceder por agrupación es de 120.000 euros, no pudiendo superar el 80% del coste total del proyecto.",
-      "La agrupación debe estar formada por integrantes procedentes de al menos tres comunidades autónomas diferentes.",
-      "El proyecto debe realizarse en el medio rural (municipios de menos de 30.000 habitantes y densidad inferior a 100 hab/km2, o municipios de menos de 5.000 habitantes)."
-    ],
+    "description": "",
+    "requirements": "",
     "clients": [
       "33d83f94-7b2c-80be-ad7d-c75118378e6b"
     ]
@@ -128,18 +109,12 @@
     "code": "904184",
     "title": "AYUDAS PRODUCTOS PESCA COFINANCIADAS FEMPA 2ª CONVOCATORIA 2026",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904184",
-    "publicationDate": null,
-    "startDate": null,
-    "endDate": null,
+    "publicationDate": "",
+    "startDate": "",
+    "endDate": "",
     "organization": "CONSEJERÍA DE MEDIO AMBIENTE, AGRICULTURA E INTERIOR",
-    "description": "Ayudas destinadas a la realización de inversiones en comercialización y transformación de productos pesqueros y acuícolas en la Comunidad de Madrid, orientadas a la mejora de la calidad, eficiencia energética, economía circular e innovación.",
-    "requirements": [
-      "Ser entidad jurídica que tenga la consideración de PYME.",
-      "Ejercer la actividad de transformación y/o comercialización de productos pesqueros y acuícolas.",
-      "Las instalaciones deben estar situadas en la Comunidad de Madrid.",
-      "Asumir la carga financiera y ser responsable final de los gastos subvencionables.",
-      "Presentar la solicitud en un plazo de 15 días hábiles a partir del día siguiente a la publicación del extracto en el Boletín Oficial de la Comunidad de Madrid."
-    ],
+    "description": "",
+    "requirements": "",
     "clients": [
       "33d83f94-7b2c-80be-ad7d-c75118378e6b"
     ]
@@ -148,17 +123,12 @@
     "code": "903157",
     "title": "Acuerdo de la Junta de Gobierno Local, en sesión celebrada el día 21 de abril de 2026, por el que se aprueba la convocatoria del XXVIII Premio de pintura “Pastor Calpena”.",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903157",
-    "publicationDate": null,
-    "startDate": null,
-    "endDate": null,
+    "publicationDate": "",
+    "startDate": "",
+    "endDate": "",
     "organization": "AYUNTAMIENTO DE ASPE",
-    "description": "Concesión de premios del XXVIII Premio de pintura Pastor Calpena para incentivar la creación en el campo de las artes plásticas.",
-    "requirements": [
-      "Ser persona artista nacida o residente en España con al menos 18 años de edad cumplidos a lo largo de 2026.",
-      "Cada artista puede presentar una única obra, que deberá entregarse sin firmar.",
-      "Presentar la solicitud mediante registro de entrada o sede electrónica adjuntando el boletín de inscripción debidamente cumplimentado y firmado.",
-      "Las obras ganadoras pasarán a ser propiedad del Ayuntamiento de Aspe."
-    ],
+    "description": "",
+    "requirements": "",
     "clients": [
       "33d83f94-7b2c-80be-ad7d-c75118378e6b"
     ]
@@ -167,18 +137,12 @@
     "code": "903054",
     "title": "Resolución de la Secretaría de Estado de Cultura por la que se convocan las ayudas, en régimen de concurrencia competitiva, para la promoción de la fotografía, correspondientes al año 2026",
     "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903054",
-    "publicationDate": "2026-05-04T00:00:00.000Z",
-    "startDate": "2026-05-05T00:00:00.000Z",
-    "endDate": "2026-05-25T00:00:00.000Z",
+    "publicationDate": "2026-05-04",
+    "startDate": "2026-05-05",
+    "endDate": "2026-05-25",
     "organization": "DIRECCIÓN GENERAL DE PATRIMONIO CULTURAL Y BELLAS ARTES",
-    "description": "Ayudas destinadas a la promoción de la fotografía y apoyo al sector fotográfico para impulsar la creación, producción, investigación, conservación y difusión del patrimonio fotográfico español.",
-    "requirements": [
-      "Podrán ser beneficiarias entidades con y sin ánimo de lucro que realicen proyectos en el ámbito fotográfico.",
-      "Cada postulante solo podrá solicitar ayuda para un tipo de proyecto (con o sin ánimo de lucro), al ser incompatibles entre sí.",
-      "La actividad subvencionable deberá llevarse a cabo, como máximo, hasta el 31 de mayo de 2027.",
-      "Quedan excluidas las entidades del Sector Público, consorcios, entidades sin personalidad jurídica y aquellas incursas en las prohibiciones del artículo 13 de la Ley 38/2003 General de Subvenciones.",
-      "El plazo de presentación de solicitudes será de 15 días hábiles a partir del día siguiente a la publicación del extracto en el BOE."
-    ],
+    "description": "",
+    "requirements": "",
     "clients": [
       "33d83f94-7b2c-80be-ad7d-c75118378e6b"
     ]

@@ -1,74 +1,1622 @@
 [
   {
-    "code": "905557",
-    "receptionDate": "2026-05-13",
-    "applicationStartDate": "2026-03-27",
-    "applicationEndDate": "2026-06-18",
-    "startText": null,
-    "endText": null,
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Esta subvención tiene como objetivo fomentar la iluminación de las fachadas de edificios históricos catalogados con protección monumental, integral o estructural en Vigo. Se busca mejorar la estética y preservación del patrimonio arquitectónico mediante la iluminación exterior.",
+        "requirements": [
+          "Ser propietario del inmueble (personas físicas o jurídicas, comunidades de propietarios, mancomunidades, agrupaciones de propietarios o propietarios únicos de edificios de viviendas).",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01 de enero de 2026 y el 15 de octubre de 2027.",
+          "Los edificios deben tener la declaración de edificios catalogados con el grado de protección Monumental, Integral y Estructural."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Esta ayuda busca mejorar la accesibilidad y eliminar barreras arquitectónicas en edificios residenciales colectivos en Vigo. El objetivo es facilitar el acceso y la movilidad dentro de las viviendas, promoviendo la inclusión y la calidad de vida.",
+        "requirements": [
+          "Ser propietario del inmueble (personas físicas o jurídicas, comunidades de propietarios, mancomunidades, agrupaciones de propietarios o propietarios únicos de edificios de viviendas).",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01 de enero de 2026 y el 15 de octubre de 2027.",
+          "Los edificios deben estar ubicados en suelo clasificado como urbano.",
+          "Tener una antigüedad superior a 20 años y una altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "La Campaña de Verán + Verán 2026 busca incentivar las compras locales en Tomiño mediante un sistema de participación para establecimientos y clientes. Los comercios participantes optan a premios por decoración, y los clientes pueden ganar bonos de compra duplicando el valor de sus tickets.",
+        "requirements": [
+          "Ser establecimiento comercial o de servicios del municipio de Tomiño.",
+          "Solicitar la participación cubriendo la instancia en la sede electrónica de tomino.gal o en el registro general del Concello entre el 26 y 29 de mayo.",
+          "Comprometerse a mantener decorados los escaparates con elementos naturales y/o reciclados, predominando colores vivos, desde el 3 de junio al 1 de julio.",
+          "Los clientes deben realizar compras superiores a 20€ entre el 3 y el 22 de junio para participar en el sorteo de bonos.",
+          "Excluye comerciantes de mercados municipales, a distancia, y comercios de primera necesidad como panaderías, carnicerías, pescaderías, farmacias y supermercados de grandes cadenas (sí se admiten pequeñas tiendas de alimentación de ámbito local)."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Estos premios reconocen el trabajo de jóvenes periodistas y comunicadores en el periodismo social. Se busca premiar aquellos trabajos que mejor promuevan valores cívicos, sociales y de igualdad, fomentando así el desarrollo de sus carreras profesionales.",
+        "requirements": [
+          "Ser persona física (individual o colectiva, máximo 3 componentes).",
+          "Ser mayor de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Encontrarse en la situación que fundamente la concesión de los premios.",
+          "Los trabajos deben haber sido publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto de la convocatoria en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Estas subvenciones apoyan la investigación en la prevención y tratamiento de los trastornos del juego. Se financian proyectos sobre detección temprana, impacto individual y social, mecanismos de minimización de consecuencias, relación con videojuegos, características de los juegos de azar y el impacto de género.",
+        "requirements": [
+          "Ser centro público de investigación (universidades públicas, institutos universitarios, entidades sanitarias públicas, otros centros públicos de I+D+I).",
+          "Ser centro privado de investigación (universidades privadas, centros privados de I+D+I, instituciones sanitarias privadas).",
+          "Ser entidad sin fines de lucro que colabore con centros de investigación y no tenga operadores de juego en sus órganos de gobierno.",
+          "Tener la residencia fiscal en España o un establecimiento permanente en territorio español.",
+          "La fecha de inicio del proyecto no puede ser anterior al 1 de enero de 2026 y la fecha de finalización no puede ser posterior al 30 de junio de 2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Esta convocatoria financia actuaciones de rehabilitación a nivel de barrio en zonas declaradas como ERRPs en Vigo (Casco Vello, Bouzas y Coia). El objetivo es mejorar la eficiencia energética de edificios residenciales y viviendas unifamiliares, incluyendo la posible retirada de amianto y ayudas adicionales para vulnerabilidad económica.",
+        "requirements": [
+          "Ser propietario de edificios de viviendas o viviendas unifamiliares.",
+          "Ser comunidad de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Ser sociedad cooperativa.",
+          "Ser empresa arrendataria o concesionaria del edificio.",
+          "Ser persona física o jurídica que posea un derecho real sobre el inmueble que le permita acometer las actuaciones.",
+          "Ser inquilino autorizado por el propietario.",
+          "Las actuaciones deben lograr una mejora acreditada de la eficiencia energética, con especial atención a la envolvente edificatoria.",
+          "El ahorro en consumo de energía primaria no renovable debe ser como mínimo del 30%."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Estas subvenciones buscan preservar las razas autóctonas gallegas (bovinas, ovinas y caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo. Se apoya la cría de animales de razas como Cachena, Caldelá, Frieiresa, Limiá, Vianesa, Oveja Gallega y Cabra Gallega nacidos en la explotación en 2025.",
+        "requirements": [
+          "Ser titular de explotación ganadera en la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de las razas ovinas y caprinas autóctonas (Oveja Gallega y/o Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Pertenecer a agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o cualquier otro tipo de unidad económica o patrimonio separado.",
+          "Cumplir los requisitos establecidos en los apartados 2 y 3 del artículo 13 de la LGS, y en los apartados 2 y 3 del artículo 10 de la LSG.",
+          "No tener pendiente de justificación subvenciones anteriormente otorgadas por la Diputación de Lugo.",
+          "Dar la adecuada publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Los Premios Nacionales de Artesanía buscan prestigiar y reconocer la excelencia en el sector artesanal español. Se premian la creatividad, la innovación, la responsabilidad social y medioambiental, y la contribución a la promoción de la artesanía por parte de profesionales, empresas e instituciones.",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas que actúen en España y cuya actividad esté dedicada a la producción artesana de objetos.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas que actúen en España, cuya actividad económica en el sector de la artesanía tenga un recorrido formal inferior a cinco años desde la fecha de la convocatoria, y esté dedicada a la producción artesana de objetos.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que actúen en España y hayan contribuido significativamente a la promoción de la artesanía.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que actúen en España y hayan contribuido significativamente a la promoción de la artesanía."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Esta ayuda está destinada a entidades benéfico-sociales relacionadas con la Armada. El objetivo es apoyar a personal militar retirado de la Armada, sus cónyuges viudos o huérfanos que se encuentren en situación de discapacidad, gran necesidad o con bajos ingresos.",
+        "requirements": [
+          "Ser entidad estrechamente relacionada con la Armada.",
+          "Acreditar carácter altruista, sin ánimo de lucro, no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política ni con los valores democráticos y constitucionales.",
+          "Los fines de la entidad deben estar estrechamente relacionados con el personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus cónyuges viudos o sus huérfanos.",
+          "Las subvenciones se destinarán a apoyar a aquellos en situación de discapacidad, de gran necesidad o con bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Esta subvención busca cubrir gastos para equipar viviendas, realizar obras, obtener el certificado de eficiencia energética y/o contratar seguros para poner viviendas en régimen de alquiler a precio tasado durante 5 años. El objetivo es fomentar el acceso a la vivienda y asegurar su habitabilidad y seguridad.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro.",
+          "Tener la condición de propietaria o usufructuaria de una vivienda.",
+          "Promover y ejecutar o haber ejecutado en los ejercicios 2026 y 2027 las actuaciones para poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras para conseguir tal condición.",
+          "El importe máximo de las obras subvencionables será de 30.000 euros.",
+          "El ahorro mínimo de eficiencia energética debe ser del 30%.",
+          "Las viviendas con vulnerabilidad económica pueden obtener ayuda adicional."
+        ]
+      },
+      {
+        "code": "904647",
+        "description": "Los VII Premis a l’Ús del Valencià en el Comerç 2026 buscan fomentar el uso del valenciano en el ámbito comercial de Burjassot. Se premiará a comercios, empresas y profesionales que realicen actividades de promoción del valenciano entre julio de 2025 y mayo de 2026.",
+        "requirements": [
+          "Ser empresa, comercio, servicio, industria o profesional legalmente constituido del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+          "Estar al corriente de las obligaciones fiscales con la Agencia Estatal de Administración Tributaria, la Tesorería Territorial de la Seguridad Social y con el Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en ninguna de las prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones de Burjassot."
+        ]
+      }
+    ]
   },
   {
-    "code": "905002",
-    "receptionDate": "2026-05-12",
-    "applicationStartDate": null,
-    "applicationEndDate": null,
-    "startText": "Desde el siguiente al de la publicación del extracto de esta convocatoria en el BOE",
-    "endText": "30 días naturales desde el siguiente al de la publicación del extracto de esta convocatoria en BOE",
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados con el grado de protección Monumental, Integral y Estructural en Vigo. Los fondos se destinarán a la ejecución de estas obras durante los años 2026 y 2027.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico).",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificios catalogados con protección Monumental, Integral y Estructural."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Apoya la mejora de la accesibilidad y la eliminación de barreras arquitectónicas en edificios residenciales colectivos en Vigo con más de 20 años y dos plantas más bajo.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico).",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificios residenciales colectivos en suelo urbano con más de 20 años y altura superior a dos plantas más bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña 'Verán+Verán 2026' en Tomiño que premia los establecimientos comerciales y servicios participantes y a sus clientes, incentivando las compras locales y la decoración de escaparates.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Excluye comerciantes de mercados municipales, a distancia y comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, grandes cadenas de supermercados).",
+          "Comercios locales de alimentación sí son admitidos.",
+          "Compromiso de mantener escaparates decorados desde el 3 de junio hasta el 1 de julio.",
+          "Clientes que realicen compras superiores a 20€ entre el 3 y 22 de junio."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premios para jóvenes periodistas o comunicadores menores de 35 años que destaquen en periodismo social, promoviendo valores cívicos, sociales y de igualdad. Se premiarán trabajos publicados entre mayo de 2025 y la fecha de convocatoria en cuatro modalidades.",
+        "requirements": [
+          "Personas físicas.",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "Menores de 35 años en la fecha de finalización del plazo de presentación.",
+          "Situación que fundamente la concesión de los premios.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones relacionadas con la prevención de trastornos del juego, sus efectos o riesgos asociados. Los proyectos se centrarán en detección temprana, daño individual/familiar/social, mecanismos de minimización, relación con videojuegos, características de los juegos y el impacto de género.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos, entidades sanitarias públicas).",
+          "Centros privados de investigación (universidades privadas, centros de I+D+i privados, instituciones sanitarias privadas).",
+          "Entidades sin fines de lucro con objetivos de investigación o difusión, que colaboren con centros de investigación públicos/privados y no tengan operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Fecha de inicio del proyecto no anterior al 01/01/2026 y finalización no posterior al 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Convocatoria de ayudas para actuaciones de rehabilitación a nivel de barrio en el Casco Vello, Bouzas y Coia de Vigo, destinadas a mejorar la eficiencia energética de edificios de viviendas y viviendas unifamiliares.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas con derecho real sobre el inmueble.",
+          "Inquilinos autorizados por el propietario.",
+          "Mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "Obras o actuaciones en edificios de tipología residencial colectiva o viviendas unifamiliares en zonas declaradas ERRPs en Vigo."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en explotaciones de la provincia de Lugo, que se encuentren en riesgo de erosión genética.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas en la provincia de Lugo.",
+          "Tener hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Tener machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Agrupaciones de personas, comunidades de bienes o unidades económicas sin personalidad jurídica también pueden ser beneficiarias.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo.",
+          "Cumplir requisitos de los artículos 13.2 y 13.3 de la LGS, y 10.2 y 10.3 de la LSG.",
+          "Dar adecuada publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía que reconocen la creatividad, innovación, responsabilidad social y medioambiental de profesionales, empresas e instituciones del sector artesano.",
+        "requirements": [
+          "Personas físicas o jurídicas que actúen en España dedicadas a la producción artesana de objetos (Premio Nacional de Artesanía y Premio Producto).",
+          "Personas físicas o jurídicas con actividad en el sector de la artesanía con menos de 5 años de recorrido formal (Premio al Emprendimiento).",
+          "Personas físicas o jurídicas privadas que hayan contribuido a la promoción de la artesanía (Premio Promociona Sector Privado).",
+          "Entidades u organismos públicos que hayan contribuido a la promoción de la artesanía (Premio Promociona Sector Público)."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas a entidades benéfico-sociales relacionadas con la Armada, sin ánimo de lucro, que apoyen a personal militar retirado de la Armada, sus viudos/as o huérfanos que se encuentren en situación de discapacidad, necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política ni con los valores democráticos y constitucionales.",
+          "Fines relacionados con personal militar retirado de la Armada, cónyuges viudos u huérfanos.",
+          "Destinar las subvenciones a apoyar a personas en situación de discapacidad, gran necesidad o bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para propietarios o usufructuarios de viviendas en Vigo que las pongan en régimen de alquiler a precio tasado durante 5 años. Cubren gastos de equipamiento, obras, certificado energético y seguro de riesgo.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Propietarias o usufructuarias de una vivienda.",
+          "Promover, ejecutar o haber ejecutado actuaciones para poner la vivienda en régimen de alquiler a precio tasado durante 5 años en los ejercicios 2026 y 2027.",
+          "Cumplir requisitos de las bases reguladoras."
+        ]
+      },
+      {
+        "code": "904647",
+        "description": "VII Premis a l’Ús del Valencià en el Comerç 2026 en Burjassot, que premian a comercios y empresas que fomentan el uso del valenciano en sus actividades.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de obligaciones fiscales con la AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegraciones pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incursas en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones del artículo 8 de la Ordenanza General de Subvenciones de Burjassot."
+        ]
+      }
+    ]
   },
   {
-    "code": "904885",
-    "receptionDate": "2026-05-12",
-    "applicationStartDate": null,
-    "applicationEndDate": null,
-    "startText": "A partir del día siguiente al de la publicación en el BOE.",
-    "endText": "15 días hábiles después de su publicación en BOE.",
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Esta subvención tiene como objetivo fomentar la iluminación de fachadas en edificios históricos catalogados con protección monumental, integral o estructural en Vigo. Se dirige a propietarios que promuevan y ejecuten estas actuaciones.",
+        "requirements": [
+          "Ser propietario del inmueble (persona física o jurídica, comunidades de propietarios, mancomunidades, agrupaciones de propietarios).",
+          "Promover y ejecutar las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Esta ayuda busca fomentar la mejora de la accesibilidad y la eliminación de barreras arquitectónicas en edificios residenciales colectivos antiguos en Vigo. Se enfoca en mejorar la calidad de vida de los residentes y cumplir normativas de accesibilidad.",
+        "requirements": [
+          "Ser propietario del inmueble (persona física o jurídica, comunidades, mancomunidades, agrupaciones de propietarios).",
+          "Promover y ejecutar las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones residenciales colectivas existentes en el término municipal de Vigo.",
+          "Ubicadas en suelo clasificado como urbano.",
+          "Antigüedad superior a 20 años.",
+          "Altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Esta campaña busca incentivar las compras de verano en comercios locales de Tomiño. Los establecimientos participantes y sus clientes entran en un sorteo y concurso de decoración de escaparates, premiando la creatividad y el consumo local.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Clientes que realicen compras entre el 3 y el 22 de junio.",
+          "Comercios no excluidos (mercados municipales a distancia, panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas).",
+          "Pequeñas tiendas de alimentación de ámbito local sí son elegibles.",
+          "Los establecimientos deben mantener decorados sus escaparates del 3 de junio al 1 de julio.",
+          "Los clientes deben depositar tickets de compra superiores a 20€.",
+          "Los clientes premiados recibirán un bono de compra."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Estos premios reconocen y apoyan el trabajo de jóvenes periodistas y comunicadores menores de 35 años en el ámbito del periodismo social. Se busca fomentar la difusión de valores cívicos, sociales y de igualdad, premiando trabajos publicados en diversas modalidades.",
+        "requirements": [
+          "Ser persona física.",
+          "Mayor de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad al finalizar el plazo de presentación de solicitudes.",
+          "Encontrarse en la situación que fundamente la concesión de los premios.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación de la convocatoria en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Estas subvenciones están destinadas a financiar proyectos de investigación sobre la prevención, efectos y riesgos de los trastornos del juego. Se priorizan líneas de investigación sobre detección temprana, daño individual y social, mecanismos de minimización, relación con videojuegos, características de los juegos y el impacto de género.",
+        "requirements": [
+          "Ser centro público de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades o instituciones sanitarias públicas, otros centros públicos de I+D+I con personalidad jurídica propia).",
+          "Ser centro privado de investigación (universidades privadas con capacidad demostrada en I+D+i, centros privados de I+D+i con personalidad jurídica propia, instituciones sanitarias privadas vinculadas o concertadas con el SNS que desarrollen I+D+i).",
+          "Ser entidad sin fines de lucro que tenga entre sus objetivos la investigación o difusión de resultados, colabore con centros de investigación y no tenga en sus órganos de gobierno a operadores de juego.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "La fecha de inicio del proyecto no puede ser anterior al 01/01/2026.",
+          "Los proyectos pueden extenderse como máximo hasta el 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Esta convocatoria busca financiar obras de rehabilitación en barrios declarados como Entorno Residencial de Rehabilitación Programada (ERRP) en Vigo (Casco Vello, Bouzas y Coia). El objetivo es mejorar la eficiencia energética de los edificios y viviendas, incluyendo la posible retirada de amianto y ayudas adicionales para vulnerabilidad económica.",
+        "requirements": [
+          "Ser propietario de edificios de viviendas o viviendas unifamiliares.",
+          "Ser comunidad de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Ser sociedad cooperativa.",
+          "Ser empresa arrendataria o concesionaria del edificio.",
+          "Ser persona física o jurídica que posea un derecho real sobre el inmueble.",
+          "Ser inquilino autorizado por el propietario.",
+          "Las actuaciones deben obtener una mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "Ubicación en barrios declarados ERRP en Vigo: Casco Vello, Bouzas y Coia."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Esta subvención tiene como objetivo la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en peligro de extinción en explotaciones de la provincia de Lugo. Se apoya la cría de animales inscritos en libros genealógicos y nacidos en la propia explotación.",
+        "requirements": [
+          "Ser titular de explotaciones ganaderas en la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Pueden acceder agrupaciones de personas, comunidades de bienes o unidades económicas sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo.",
+          "Cumplir los requisitos de los apartados 2 y 3 del artículo 13 de la LGS y los apartados 2 y 3 del artículo 10 de la LSG.",
+          "Dar publicidad al carácter público de la financiación.",
+          "No extinguirse o desaparecer hasta el plazo de prescripción legal las agrupaciones sin personalidad jurídica."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Estos premios buscan prestigiar la artesanía española, reconociendo la creatividad, innovación, responsabilidad social y medioambiental de profesionales, empresas e instituciones del sector. Se otorgan en diversas categorías, incluyendo un premio al emprendimiento y a la promoción del sector privado y público.",
+        "requirements": [
+          "Ser persona física o jurídica actuando en España para el Premio Nacional de Artesanía y Premio Producto.",
+          "Dedicarse a la producción artesana de objetos utilitarios, decorativos o artísticos según la ley autonómica correspondiente.",
+          "Ser persona física o jurídica con actividad en artesanía de menos de cinco años de recorrido formal desde la convocatoria para el Premio al Emprendimiento.",
+          "Ser persona física o jurídica privada que haya contribuido significativamente a la promoción de la artesanía para el Premio Promociona Sector Privado.",
+          "Ser entidad u organismo público que haya contribuido significativamente a la promoción de la artesanía para el Premio Promociona Sector Público."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Esta ayuda social está destinada a entidades benéfico-sociales estrechamente relacionadas con la Armada. El objetivo es apoyar económicamente a personal militar retirado de la Armada, sus viudos/as o huérfanos que se encuentren en situación de discapacidad, gran necesidad o bajos ingresos.",
+        "requirements": [
+          "Ser entidad estrechamente relacionada con la Armada.",
+          "Tener carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Cumplir los requisitos de las Bases Reguladoras Primera y Cuarta.",
+          "Dedicar las subvenciones a apoyar a personal militar retirado de la Armada, sus cónyuges viudos o huérfanos en situación de discapacidad, gran necesidad o bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Esta subvención busca cubrir gastos de equipamiento, obras, certificados de eficiencia energética y seguros para viviendas que se pongan en régimen de alquiler a precio tasado durante 5 años. Se dirige a propietarios o usufructuarios que promuevan y ejecuten estas actuaciones en Vigo.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro.",
+          "Tener la condición de propietaria o usufructuaria de una vivienda.",
+          "Promover y ejecutar (o haber ejecutado en 2026 y 2027) las actuaciones para poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "La vivienda debe estar ubicada en Vigo."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "Estos premios reconocen a comercios de Burjassot que fomentan el uso del valenciano en sus actividades. El objetivo es promover el uso social del valenciano en el ámbito comercial y normalizar su uso oficial en el municipio.",
+        "requirements": [
+          "Ser empresa, comercio, servicio, industria o profesional legalmente constituido del término municipal de Burjassot.",
+          "Haber llevado a cabo actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de las obligaciones fiscales con la AEAT, TGSS y el Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en ninguna prohibición para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones de Burjassot.",
+          "Cumplir las obligaciones establecidas en el artículo 14 de la Ley 38/2003 y art.8 de la Ordenanza General de Subvenciones.",
+          "Dar la adecuada publicidad del carácter público de la financiación.",
+          "Acreditar los resultados referidos en el artículo 6 de la convocatoria durante el período establecido."
+        ]
+      }
+    ]
   },
   {
-    "code": "904868",
-    "receptionDate": "2026-05-11",
-    "applicationStartDate": "2026-05-12",
-    "applicationEndDate": "2027-10-01",
-    "startText": null,
-    "endText": null,
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de las fachadas de edificios históricos catalogados con grado de protección Monumental, Integral y Estructural. Las ayudas se conceden en régimen de concurrencia competitiva y son a fondo perdido.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble.",
+          "Comunidades de propietarios/as, mancomunidades o agrupaciones de comunidades, legalmente constituidas.",
+          "Agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Que promuevan, ejecuten o hayan ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Fomenta la mejora de la accesibilidad y la eliminación de barreras arquitectónicas en edificaciones residenciales colectivas existentes en Vigo con más de 20 años de antigüedad y ubicadas en suelo urbano.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble.",
+          "Comunidades o mancomunidades de personas propietarias legalmente constituidas.",
+          "Agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Que promuevan, ejecuten o hayan ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones ubicadas en suelo clasificado como urbano.",
+          "Con antigüedad superior a 20 años y altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña de verano que busca incentivar las compras locales en Tomiño ofreciendo premios a los establecimientos y bonos de compra a los clientes.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Los clientes que realicen compras entre el 3 y el 22 de junio.",
+          "Excluye comerciantes de mercados municipales o a distancia y comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas).",
+          "Pequeñas tiendas de alimentación de ámbito local sí son admitidas.",
+          "Establecimientos solicitantes se comprometen a mantener decorados sus escaparates con elementos naturales y/o reciclados y colores vivos desde el 3 de junio al 1 de julio."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premios para jóvenes periodistas o comunicadores que hayan contribuido al fomento, defensa y difusión de valores cívicos, sociales y de igualdad, premiando trabajos publicados entre mayo de 2025 y la fecha de publicación de la convocatoria.",
+        "requirements": [
+          "Personas físicas (individual o colectivamente con máximo 3 componentes).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "Menores de 35 años en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones relacionadas con la prevención de los trastornos del juego, sus efectos o riesgos asociados, en diversas líneas de investigación.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos universitarios, entidades sanitarias públicas, otros centros públicos de I+D+I).",
+          "Centros privados de investigación (universidades privadas con capacidad en I+D+i, centros privados de I+D+i, instituciones sanitarias privadas).",
+          "Entidades sin fines de lucro que colaboren con centros de investigación y no tengan operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Proyectos a iniciar como máximo el 01/01/2026 y finalizar como máximo el 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Financian obras de mejora de la eficiencia energética en edificios de viviendas y viviendas unifamiliares en Vigo (Casco Vello, Bouzas y Coia), con especial atención a la envolvente edificatoria.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o de viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas con derecho real sobre el inmueble para acometer actuaciones.",
+          "Inquilinos autorizados por el propietario."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas de la provincia de Lugo.",
+          "Que cuenten con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá y Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Que cuenten con machos o hembras de las razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o cualquier otro tipo de unidad económica o patrimonio separado sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía que buscan prestigiar el sector, reconocer la creatividad, innovación y responsabilidad social y medioambiental de profesionales y empresas, así como la labor de instituciones promotoras.",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas que actúen en España dedicadas a la producción artesana.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas con actividad artesana formalizada con menos de cinco años desde la convocatoria.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía en España.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que actúen en España y hayan contribuido significativamente a la promoción de la artesanía."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas a entidades de carácter benéfico social estrechamente relacionadas con la Armada, cuyos fines estén relacionados con el personal militar retirado y sus familias, para apoyar a aquellos en situación de discapacidad, necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política y los valores democráticos y constitucionales.",
+          "Fines relacionados con el personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus cónyuges viudos o sus huérfanos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para cubrir gastos de equipamiento, obras, certificados de eficiencia energética y seguros para viviendas puestas en régimen de alquiler a precio tasado durante 5 años, en Vigo.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Propietarias o usufructuarias de una vivienda.",
+          "Promuevan, ejecuten o hayan ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Que cumplan los requisitos para poner la vivienda en régimen de alquiler a precio tasado durante 5 años."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "VII Premis a l’Ús del Valencià en el Comerç 2026 del Ayuntamiento de Burjassot, que premian a comercios que fomentan el uso del valenciano.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+          "Estar al corriente de obligaciones fiscales con AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones de Burjassot."
+        ]
+      }
+    ]
   },
   {
-    "code": "904735",
-    "receptionDate": "2026-05-11",
-    "applicationStartDate": null,
-    "applicationEndDate": "2026-06-07",
-    "startText": "día siguiente a la fecha de publicación en el BOUNIA",
-    "endText": null,
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de las fachadas de edificios históricos catalogados con grado de protección Monumental, Integral y Estructural en Vigo.",
+        "requirements": [
+          "Ser propietario del inmueble.",
+          "Ser persona física o jurídica.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Promueve la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificaciones residenciales colectivas en Vigo con más de 20 años de antigüedad.",
+        "requirements": [
+          "Ser propietario del inmueble.",
+          "Ser persona física o jurídica.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificación ubicada en suelo urbano.",
+          "Antigüedad superior a 20 años.",
+          "Altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña para incentivar las compras de verano en Tomiño, ofreciendo premios a los establecimientos y bonos de compra a los clientes.",
+        "requirements": [
+          "Ser establecimiento comercial o de servicios del municipio de Tomiño.",
+          "Los clientes deben realizar compras entre el 3 y el 22 de junio.",
+          "Excluye comerciantes en mercados municipales o a distancia y comercios de primera necesidad como panaderías, carnicerías, pescaderías, farmacias y supermercados de grandes cadenas.",
+          "Los establecimientos deben mantener sus escaparates decorados con elementos naturales y/o reciclados y colores vivos desde el 3 de junio al 1 de julio.",
+          "Los clientes deben depositar tickets de compra superiores a 20€."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Reconoce el trabajo de jóvenes periodistas o comunicadores en periodismo social, premiando trabajos publicados entre mayo de 2025 y la fecha de publicación de la convocatoria.",
+        "requirements": [
+          "Ser persona física.",
+          "Ser mayor de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto en el BOE.",
+          "Ser español o extranjero con residencia legal en España."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones relacionadas con la prevención, efectos y riesgos de los trastornos del juego.",
+        "requirements": [
+          "Ser centro público de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades sanitarias públicas, otros centros públicos de I+D+I).",
+          "Ser centro privado de investigación (universidades privadas, centros privados de I+D+I, instituciones sanitarias privadas).",
+          "Ser entidad sin fines de lucro con objetivos de investigación o difusión, que colabore con centros de investigación y no tenga operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Los proyectos deben iniciarse como máximo el 1 de enero de 2026 y extenderse hasta el 30 de junio de 2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Financian obras de mejora de la eficiencia energética, con especial atención a la envolvente, en edificios residenciales y viviendas unifamiliares en zonas declaradas de rehabilitación integral en Vigo.",
+        "requirements": [
+          "Ser propietario de edificios de viviendas o viviendas unifamiliares.",
+          "Ser comunidad de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Ser sociedad cooperativa.",
+          "Ser empresa arrendataria o concesionaria del edificio.",
+          "Ser persona física o jurídica que posea un derecho real sobre el inmueble que le permita acometer las actuaciones.",
+          "Ser inquilino autorizado por el propietario.",
+          "Las obras deben mejorar acreditadamente la eficiencia energética, con un ahorro mínimo del 30%.",
+          "Viviendas con vulnerabilidad económica pueden obtener ayuda adicional."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Apoyo a la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en peligro de extinción en explotaciones de la provincia de Lugo.",
+        "requirements": [
+          "Ser titular de explotaciones ganaderas en la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá y Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o unidades económicas sin personalidad jurídica también pueden ser beneficiarias.",
+          "No tener pendiente de justificación subvenciones anteriores otorgadas por la Diputación de Lugo."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Reconocen la excelencia y creatividad en el sector de la artesanía, premiando la trayectoria, el producto, el emprendimiento y la promoción del sector.",
+        "requirements": [
+          "Ser persona física o jurídica dedicada a la producción artesana.",
+          "Actuar en España.",
+          "Para el Premio al Emprendimiento, la actividad económica debe tener un recorrido formal inferior a cinco años.",
+          "Para el Premio Promociona Sector Privado, haber contribuido significativamente a la promoción de la artesanía.",
+          "Para el Premio Promociona Sector Público, ser entidad u organismo público que haya contribuido significativamente a la promoción de la artesanía."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas a entidades benéfico-sociales relacionadas con la Armada para apoyar a personal militar retirado, viudas, huérfanos en situación de discapacidad, necesidad o bajos ingresos.",
+        "requirements": [
+          "Ser entidad estrechamente relacionada con la Armada.",
+          "Acreditar carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas.",
+          "Fines relacionados con personal militar retirado de la Armada y Cuerpos Comunes, sus cónyuges viudos o huérfanos.",
+          "Destinar las subvenciones a apoyar a personas en situación de discapacidad, gran necesidad o bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Ayudas para cubrir gastos de equipamiento, obras, certificado de eficiencia energética o seguro de riesgo para viviendas puestas en régimen de alquiler a precio tasado durante 5 años.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro.",
+          "Tener la condición de propietaria o usufructuaria de una vivienda.",
+          "Promover y ejecutar o haber ejecutado actuaciones en los ejercicios 2026 y 2027.",
+          "Poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "La cuantía máxima de las obras subvencionables es de 30.000 euros.",
+          "Subvención municipal del 80% del importe real y efectivo de la obra, equipamiento y honorarios (hasta 12.800€) para obras hasta 16.000€.",
+          "Ayuntamiento financiará el 30% de los gastos subvencionables (hasta 4.200€) para obras entre 16.000€ y 30.000€.",
+          "Subvención máxima municipal de 17.000€ para obras de 30.000€.",
+          "Máximo de 3.000€ para subvencionar contrato de seguros de impago y multirriesgo durante 5 años.",
+          "Ayuda de hasta 200€ para certificado de eficiencia energética si no se dispone."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "Premian a comercios del término municipal de Burjassot que fomentan el uso del valenciano en sus actividades entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+        "requirements": [
+          "Ser empresa, comercio, servicio, industria o profesional legalmente constituido del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+          "Estar al corriente de las obligaciones fiscales con la Agencia Estatal de Administración Tributaria, la Tesorería General de la Seguridad Social y el Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en ninguna de las prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones."
+        ]
+      }
+    ]
   },
   {
-    "code": "905549",
-    "receptionDate": "2026-05-13",
-    "applicationStartDate": null,
-    "applicationEndDate": null,
-    "startText": "Día siguiente al de la publicación del extracto de la convocatoria en el BOE (procedimiento 1)",
-    "endText": "Quince días hábiles después (procedimiento 1)",
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados con protección Monumental, Integral y Estructural en Vigo.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble.",
+          "Comunidades de propietarios/as, mancomunidades o agrupaciones de comunidades.",
+          "Agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Promueve la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificaciones residenciales colectivas en Vigo con más de 20 años de antigüedad.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble.",
+          "Comunidades o mancomunidades de personas propietarias legalmente constituidas.",
+          "Agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones ubicadas en suelo clasificado como urbano.",
+          "Edificaciones con antigüedad superior a 20 años.",
+          "Edificaciones con altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña 'Verán+Verán 2026' en Tomiño que premia las compras de verano en establecimientos locales y la decoración de escaparates.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Clientes que realicen compras entre el 3 y el 22 de junio.",
+          "Establecimientos no pueden desarrollar actividad en mercados municipales o a distancia.",
+          "Excluye comercios de primera necesidad (panaderías, carnicerías, etc.) salvo pequeñas tiendas de alimentación locales.",
+          "Establecimientos deben mantener escaparates decorados del 3 de junio al 1 de julio."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premia a jóvenes periodistas (menores de 35 años) por trabajos que fomenten valores cívicos, sociales y de igualdad, publicados entre mayo de 2025 y la fecha de convocatoria.",
+        "requirements": [
+          "Personas físicas, individual o colectivamente (máx. 3 componentes).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para investigación sobre prevención, efectos y riesgos de los trastornos del juego, abarcando detección temprana, daño individual/familiar/social, y relación con videojuegos.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos universitarios, entidades sanitarias públicas, otros centros públicos de I+D+I).",
+          "Centros privados de investigación (universidades privadas, centros privados de I+D+I, instituciones sanitarias privadas).",
+          "Entidades sin fines de lucro con objetivos de investigación o difusión, colaborando con centros de investigación y sin operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Cuarta convocatoria del Programa de ayudas a la rehabilitación a nivel de barrio en Vigo (Casco Vello, Bouzas, Coia) para mejorar la eficiencia energética de edificios residenciales y viviendas unifamiliares.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas con derecho real sobre el inmueble.",
+          "Inquilinos autorizados por el propietario."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas, caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas en la provincia de Lugo.",
+          "Explotaciones con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en Libro Genealógico.",
+          "Explotaciones con machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en Libro Genealógico.",
+          "Agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o unidades económicas sin personalidad jurídica.",
+          "Cumplir requisitos de los apartados 2 y 3 del artículo 13 de la LGS y apartados 2 y 3 del artículo 10 de la LSG.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía para reconocer la creatividad, innovación y contribución al sector artesano en España, con dotación económica y trofeo.",
+        "requirements": [
+          "Personas físicas o jurídicas que actúen en España y cuya actividad esté dedicada a la producción artesana.",
+          "Para Premio al Emprendimiento: actividad formal inferior a cinco años desde la fecha de la convocatoria.",
+          "Para Premio Promociona Sector Privado: personas físicas o jurídicas privadas que hayan contribuido a la promoción de la artesanía.",
+          "Para Premio Promociona Sector Público: entidades u organismos públicos que hayan contribuido a la promoción de la artesanía."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas a entidades benéfico-sociales relacionadas con la Armada que apoyen a personal militar retirado, cónyuges viudos u huérfanos en situación de discapacidad, necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para propietarios o usufructuarios de viviendas en Vigo que las ofrezcan en alquiler a precio tasado durante 5 años, cubriendo gastos de equipamiento, obras, certificado energético y/o seguro.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Propietarias o usufructuarias de una vivienda.",
+          "Promover y ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Cumplir los requisitos de las bases reguladoras."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "VII Premis a l’Ús del Valencià en el Comerç 2026 en Burjassot, que premian a comercios que fomentan el uso del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de las obligaciones fiscales con la AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones."
+        ]
+      }
+    ]
   },
   {
-    "code": "904656",
-    "receptionDate": "2026-05-11",
-    "applicationStartDate": null,
-    "applicationEndDate": null,
-    "startText": "Desde el día siguiente de la publicación del extracto de la convocatoria en BOE",
-    "endText": "Veinte días hábiles desde el día siguiente de la publicación del extracto de la convocatoria en BOE",
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados en el municipio de Vigo. Las actuaciones deben realizarse entre el 1 de enero de 2026 y el 15 de octubre de 2027.",
+        "requirements": [
+          "Ser propietario/a del inmueble (persona física o jurídica, comunidad de propietarios, mancomunidad, agrupación de propietarios o propietario único).",
+          "Promover y ejecutar (o haber ejecutado) las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Las actuaciones deben ser sobre edificios catalogados con declaración de Monumental, Integral o Estructural.",
+          "Se permite la concurrencia con otras subvenciones."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Promueve la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificaciones residenciales colectivas antiguas en Vigo. Las obras se deben haber ejecutado entre el 1 de enero de 2026 y el 15 de octubre de 2027.",
+        "requirements": [
+          "Ser propietario/a del inmueble (persona física o jurídica, comunidad de propietarios, mancomunidad, agrupación de propietarios o propietario único).",
+          "Promover y ejecutar (o haber ejecutado) las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Las edificaciones deben estar ubicadas en suelo clasificado como urbano, tener una antigüedad superior a 20 años y una altura superior a dos plantas más el bajo.",
+          "Se permite la concurrencia con otras subvenciones."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña de dinamización comercial en Tomiño que busca incentivar las compras locales. Los establecimientos participantes decorarán sus escaparates y los clientes podrán ganar bonos de compra.",
+        "requirements": [
+          "Ser establecimiento comercial o de servicios del municipio de Tomiño.",
+          "Los establecimientos deben solicitar la participación entre el 26 y 29 de mayo.",
+          "Los establecimientos deben mantener decorados sus escaparates desde el 3 de junio hasta el 1 de julio.",
+          "Se excluyen comerciantes en mercados municipales o a distancia, y comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas). Se incluyen pequeñas tiendas de alimentación locales.",
+          "Los clientes deben realizar compras superiores a 20€ para participar en el sorteo de bonos."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premia a jóvenes periodistas (hasta 35 años) por trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación de la convocatoria, que fomenten valores cívicos, sociales y de igualdad. Se divide en cuatro modalidades: periodismo escrito, fotoperiodismo, audiovisual y radiofónico.",
+        "requirements": [
+          "Ser persona física.",
+          "Ser mayor de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Los trabajos deben haber sido publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto en el BOE.",
+          "Los trabajos deben presentarse en castellano o en cualquiera de las lenguas oficiales del Estado español, acompañados de traducción si es necesario."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Financia proyectos de investigación sobre la prevención, efectos y riesgos de los trastornos del juego. Los proyectos deben iniciarse como máximo el 1 de enero de 2026 y finalizar el 30 de junio de 2027.",
+        "requirements": [
+          "Ser centro público de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades/instituciones sanitarias públicas, otros centros públicos de I+D+I).",
+          "Ser centro privado de investigación (universidades privadas, centros privados de I+D+i, instituciones sanitarias privadas).",
+          "Ser entidad sin fines de lucro que colabore con centros de investigación y tenga entre sus objetivos la investigación o difusión de resultados.",
+          "La residencia fiscal debe estar en España o disponer de establecimiento permanente en territorio español.",
+          "No formar parte de los órganos de gobierno operadores de juego.",
+          "Los proyectos a financiar deben estar en alguna de las líneas de investigación definidas.",
+          "La fecha de inicio del proyecto no puede ser anterior al 1 de enero de 2026 y la fecha de fin no puede ser posterior al 30 de junio de 2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Publica la cuarta convocatoria de ayudas para la rehabilitación de barrios en Vigo (Casco Vello, Bouzas, Coia), con el objetivo de mejorar la eficiencia energética de edificios residenciales y viviendas unifamiliares.",
+        "requirements": [
+          "Ser propietario de edificios de viviendas o viviendas unifamiliares.",
+          "Ser comunidad de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Ser sociedad cooperativa.",
+          "Ser empresa arrendataria o concesionaria del edificio.",
+          "Ser persona física o jurídica que posea un derecho real sobre el inmueble o inquilino autorizado por el propietario.",
+          "Las actuaciones deben obtener una mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "El plazo de presentación se amplía hasta el 18 de junio de 2026 o hasta agotar financiación."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciona la preservación de razas autóctonas gallegas (bovinas, ovinas, caprinas) en peligro de erosión genética en explotaciones de la provincia de Lugo. El objetivo es mantener la diversidad genética del ganado local.",
+        "requirements": [
+          "Ser titular de explotación ganadera en la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de las razas ovinas y/o caprinas gallegas, nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "También podrán acceder agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes u otras unidades económicas sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores otorgadas por la Diputación de Lugo.",
+          "Cumplir los requisitos establecidos en los apartados 2 y 3 del artículo 13 de la LGS y en los apartados 2 y 3 del artículo 10 de la LSG.",
+          "Dar publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía que buscan prestigiar el sector, reconocer la creatividad, innovación y responsabilidad social/ambiental de profesionales y empresas. Se otorgan en las modalidades de Premio Nacional de Artesanía, Premio Producto, Premio al Emprendimiento y Premios Promociona (Sector Privado y Público).",
+        "requirements": [
+          "Ser persona física o jurídica que actúe en España y cuya actividad esté dedicada a la producción artesana de objetos (utilitarios, decorativos o artísticos).",
+          "Para el Premio al Emprendimiento, la actividad económica debe tener un recorrido formal inferior a cinco años desde la fecha de la convocatoria.",
+          "Para el Premio Promociona Sector Privado, se reconocerá a personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Para el Premio Promociona Sector Público, se reconocerá a entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayuda a entidades benéfico-sociales relacionadas con la Armada para apoyar a personal militar retirado, sus viudos/as o huérfanos, que se encuentren en situación de discapacidad, necesidad o bajos ingresos.",
+        "requirements": [
+          "Ser entidad estrechamente relacionada con la Armada.",
+          "Acreditar carácter altruista, sin ánimo de lucro, no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Cumplir los requisitos de las Bases Reguladoras Primera y Cuarta.",
+          "Destinar las subvenciones a apoyar a personas en situación de discapacidad, gran necesidad o con bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para propietarios o usufructuarios de viviendas que las pongan en régimen de alquiler a precio tasado durante 5 años. Cubre gastos de equipamiento, obras, certificado de eficiencia energética y seguro de riesgo o multirriesgo.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro.",
+          "Tener la condición de propietaria o usufructuaria de una vivienda.",
+          "Promover y ejecutar (o haber ejecutado) las actuaciones en los ejercicios 2026 y 2027.",
+          "Poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "La solicitud y documentación completa deben presentarse por riguroso orden de presentación."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria a regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "VII Premios a l’Ús del Valencià en el Comerç de Burjassot. Reconoce a comercios que fomentan el uso del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+        "requirements": [
+          "Ser empresa, comercio, servicio, industria o profesional legalmente constituido del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de las obligaciones fiscales con la Agencia Tributaria, la Seguridad Social y el Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones.",
+          "Cumplir las obligaciones del artículo 14 de la Ley 38/2003 y art. 8 de la Ordenanza General.",
+          "Dar la adecuada publicidad del carácter público de la financiación.",
+          "Acreditar los resultados referidos en el artículo 6 de la convocatoria."
+        ]
+      }
+    ]
   },
   {
-    "code": "903054",
-    "receptionDate": "2026-05-04",
-    "applicationStartDate": null,
-    "applicationEndDate": null,
-    "startText": "A partir del día siguiente a la publicación en BOE",
-    "endText": "Quince días hábiles a partir de la publicación en BOE",
-    "_route": "agente_listo"
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados con protección monumental, integral o estructural en Vigo. Las ayudas se conceden en régimen de concurrencia competitiva y son a fondo perdido.",
+        "requirements": [
+          "Ser propietario/a del inmueble (personas físicas, comunidades de propietarios, mancomunidades, agrupaciones, etc.).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Los edificios deben tener la declaración de catalogados con grado de protección Monumental, Integral y Estructural.",
+          "Se requiere licencia municipal de obras y/o comunicación previa de obras, junto con la documentación técnica preceptiva."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Subvenciona la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificaciones residenciales colectivas existentes en el municipio de Vigo. Se priorizan edificios con antigüedad superior a 20 años y altura superior a dos plantas más bajo.",
+        "requirements": [
+          "Ser propietario/a del inmueble (personas físicas, comunidades de propietarios, mancomunidades, agrupaciones, etc.).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones residenciales colectivas en suelo clasificado como urbano.",
+          "Antigüedad superior a 20 años y altura superior a dos plantas más el bajo.",
+          "Se requiere licencia municipal de obras y/o comunicación previa de obras, junto con la documentación técnica preceptiva."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña 'Verán+Verán 2026' en Tomiño, que premia a establecimientos comerciales y a sus clientes. Los comercios participan decorando sus escaparates y los clientes participan depositando tickets de compra para ganar bonos.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Comercios que deseen participar deben solicitarlo entre el 26 y 29 de mayo.",
+          "Se comprometen a mantener decorados sus escaparates con elementos naturales y/o reciclados, predominando colores vivos, desde el 3 de junio al 1 de julio.",
+          "Quedan excluidos comerciantes de mercados municipales, a distancia y comercios de primera necesidad (panaderías, carnicerías, farmacias, supermercados de grandes cadenas), pero se incluyen pequeñas tiendas de alimentación local.",
+          "Los clientes que realicen compras superiores a 20€ entre el 3 y el 22 de junio pueden participar depositando su ticket de compra (con Nombre, Apellidos, DNI y teléfono)."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premios para jóvenes periodistas o comunicadores que destaquen en periodismo social, fomentando valores cívicos, sociales y de igualdad. Se premiarán trabajos publicados entre mayo de 2025 y la fecha de publicación de la convocatoria.",
+        "requirements": [
+          "Personas físicas (individualmente o en grupos de hasta 3).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Haber publicado trabajos entre el 10/05/2025 y la fecha de publicación de la convocatoria en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones sobre la prevención de los trastornos del juego, sus efectos y riesgos asociados. Los proyectos deben iniciarse como máximo el 1 de enero de 2026 y extenderse hasta el 30 de junio de 2027.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos, centros sanitarios públicos, otros centros públicos de I+D+I con personalidad jurídica propia).",
+          "Centros privados de investigación (universidades privadas con capacidad demostrada en I+D+i, centros privados de I+D+i con personalidad jurídica propia, instituciones sanitarias privadas vinculadas o concertadas con el SNS que desarrollen I+D+i).",
+          "Entidades sin fines de lucro que colaboren con centros de investigación públicos o privados mediante convenio y no tengan operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "La fecha de inicio del proyecto no puede ser anterior al 01/01/2026 y pueden extenderse como máximo hasta el 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Convocatoria de ayudas para actuaciones de rehabilitación a nivel de barrio en zonas declaradas ERRPs en Vigo (Casco Vello, Bouzas y Coia). Se financian obras para mejorar la eficiencia energética, especialmente en la envolvente, y la posible retirada de amianto.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas que posean un derecho real sobre el inmueble para acometer las actuaciones.",
+          "Inquilinos autorizados por el propietario.",
+          "Las obras deben conseguir una mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "Los edificios deben estar en las zonas ERRPs declaradas en Vigo: Casco Vello, Bouzas y Coia.",
+          "Las viviendas consideradas con vulnerabilidad económica pueden obtener ayuda adicional."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo. Se otorgan ayudas por animal elegible.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas de la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá y Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de las razas Oveja Gallega y/o Cabra Gallega, nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Agrupaciones de personas, comunidades de bienes o unidades económicas sin personalidad jurídica también pueden ser beneficiarias.",
+          "No tener pendiente de justificación subvenciones anteriores otorgadas por la Diputación de Lugo.",
+          "Cumplir los requisitos establecidos en los apartados 2 y 3 del artículo 13 de la LGS, y en los apartados 2 y 3 del artículo 10 de la LSG.",
+          "Dar publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía para reconocer la creatividad, innovación y contribución al sector artesano. Se otorgan premios a la artesanía, producto, emprendimiento y a la promoción sectorial (privado y público).",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas que actúen en España y cuya actividad esté dedicada a la producción artesana.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas con actividad en el sector de la artesanía con un recorrido formal inferior a cinco años desde la fecha de la convocatoria.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Las actividades deben estar dedicadas a la producción artesana de objetos utilitarios, decorativos o artísticos, de acuerdo con la definición de artesanía de la ley autonómica correspondiente.",
+          "El plazo de presentación es de 30 días naturales a partir del día siguiente a la publicación en el BOE."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas a entidades benéfico-sociales relacionadas con la Armada, sin ánimo de lucro, para apoyar a personal militar retirado, viudos/as e huérfanos que se encuentren en situación de discapacidad, gran necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Acreditar carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Los fines de la entidad deben estar estrechamente relacionados con el personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus cónyuges viudos o sus huérfanos.",
+          "Las subvenciones se destinarán a apoyar a aquellos en situación de discapacidad, gran necesidad o bajos ingresos.",
+          "Las solicitudes deben presentarse en el modelo oficial y acompañarse de la documentación exigida.",
+          "Las solicitudes deben tener entrada en la Dirección de Asistencia al Personal de la Armada (DIASPER) dentro de los 15 días hábiles siguientes a la publicación del extracto en el BOE."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Ayudas para equipar, realizar obras, redactar certificados de eficiencia energética o contratar seguros para viviendas puestas en régimen de alquiler a precio tasado durante 5 años en Vigo. Se busca cubrir parte de los gastos asociados a la puesta en alquiler.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Ser propietarias o usufructuarias de una vivienda.",
+          "Promover, ejecutar o haber ejecutado actuaciones para poner la vivienda en régimen de alquiler a precio tasado durante 5 años en los ejercicios 2026 y 2027.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "El plazo de presentación de solicitudes es desde el día siguiente a la publicación del extracto en el BOP de Pontevedra hasta el 01/10/2027.",
+          "La concesión será por orden riguroso de presentación de la solicitud y documentación completa."
+        ]
+      },
+      {
+        "code": "904647",
+        "description": "VII Premios al Uso del Valenciano en el Comercio de Burjassot para el ejercicio 2026. Se otorgan 8 premios económicos a comercios que fomenten el uso del valenciano en sus actividades entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de las obligaciones fiscales con la Agencia Tributaria, Seguridad Social y el Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en ninguna prohibición para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones de Burjassot.",
+          "Las solicitudes se presentarán entre el 1 y el 15 de junio de 2026."
+        ]
+      }
+    ]
+  },
+  {
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de las fachadas de edificios históricos catalogados con el grado de protección Monumental, Integral y Estructural en Vigo.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico, comunidades de propietarios, mancomunidades, agrupaciones de propietarios).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Las actuaciones deben ser en edificios históricos declarados con protección Monumental, Integral y Estructural.",
+          "Se requiere licencia municipal de obras y/o comunicación previa de obras, junto con la documentación técnica preceptiva."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Promueve la mejora de la accesibilidad y la eliminación de barreras arquitectónicas en edificaciones residenciales colectivas existentes en Vigo con más de 20 años de antigüedad y más de dos plantas más bajo.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico, comunidades, mancomunidades, agrupaciones de propietarios).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones residenciales colectivas existentes en el término municipal de Vigo.",
+          "Edificios ubicados en suelo clasificado como urbano.",
+          "Edificios con antigüedad superior a 20 años.",
+          "Edificios con una altura superior a dos plantas más el bajo.",
+          "Se requiere licencia municipal de obras y/o comunicación previa de obras, junto con la documentación técnica preceptiva."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña de verano que incentiva las compras en establecimientos locales de Tomiño ofreciendo a los clientes la posibilidad de ganar bonos de compra por el doble del valor de su ticket.",
+        "requirements": [
+          "Ser establecimiento comercial o de servicios del municipio de Tomiño.",
+          "Los clientes deben realizar compras entre el 3 y el 22 de junio.",
+          "Quedan excluidos comercios en mercados municipales, a distancia y de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas).",
+          "Se admiten pequeñas tiendas de alimentación de ámbito local.",
+          "Los establecimientos deben mantener decorados sus escaparates con elementos naturales y/o reciclados, con predominio de colores vivos, desde el 3 de junio al 1 de julio.",
+          "Los clientes que realicen compras superiores a 20€ deben depositar su ticket con Nombre, Apellidos, DNI y teléfono.",
+          "El importe máximo del bono de compra por persona es de 100€."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Reconoce el trabajo de jóvenes periodistas o comunicadores menores de 35 años en el ámbito del periodismo social, premiando aquellos trabajos que fomenten valores cívicos, sociales y de igualdad.",
+        "requirements": [
+          "Ser persona física.",
+          "Edad máxima de 35 años en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Ser de nacionalidad española o extranjero con residencia legal en España.",
+          "No superar los 35 años de edad.",
+          "Encontrarse en la situación que fundamente la concesión de los premios.",
+          "Los trabajos deben haber sido publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto de la convocatoria en el BOE.",
+          "Se pueden presentar de forma individual o colectiva (máximo 3 componentes)."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Financia investigaciones relacionadas con la prevención, efectos o riesgos de los trastornos del juego, abarcando diversas líneas de investigación como detección temprana, daño individual y familiar, o la relación con videojuegos.",
+        "requirements": [
+          "Ser centro público de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades o instituciones sanitarias públicas, otros centros públicos de I+D+I).",
+          "Ser centro privado de investigación (universidades privadas, centros privados de I+D+i, instituciones sanitarias privadas vinculadas o concertadas con el SNS).",
+          "Ser entidad sin fines de lucro que colabore con centros de investigación públicos o privados mediante convenio y no tenga operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Los proyectos deben iniciarse como máximo el 01/01/2026 y extenderse hasta el 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Ayudas para la rehabilitación a nivel de barrio en Vigo (Casco Vello, Bouzas y Coia) destinadas a mejorar la eficiencia energética de edificios y viviendas, con especial atención a la envolvente edificatoria.",
+        "requirements": [
+          "Ser propietario de edificios de viviendas o viviendas unifamiliares.",
+          "Ser comunidad de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Ser sociedad cooperativa.",
+          "Ser empresa arrendataria o concesionaria del edificio.",
+          "Ser persona física o jurídica que posea un derecho real sobre el inmueble.",
+          "Ser inquilino autorizado por el propietario.",
+          "Las actuaciones deben obtener una mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "Los edificios deben ser de tipología residencial colectiva o viviendas unifamiliares.",
+          "Las viviendas consideradas con vulnerabilidad económica pueden obtener ayuda adicional."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Apoya la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en peligro de erosión genética en explotaciones de la provincia de Lugo.",
+        "requirements": [
+          "Ser titular de explotación ganadera en la provincia de Lugo.",
+          "Contar con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Contar con machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Se admiten agrupaciones de personas, comunidades de bienes u otras unidades económicas sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores otorgadas por la Diputación de Lugo.",
+          "Cumplir los requisitos establecidos en los artículos 13.2 y 3 de la LGS y 10.2 y 3 de la LSG.",
+          "Dar publicidad del carácter público de la financiación.",
+          "No ser beneficiario de otras subvenciones para la misma finalidad."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Prestigian la artesanía reconociendo la creatividad, innovación y contribución al sector de profesionales, empresas e instituciones a través de premios económicos y trofeos.",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas que actúen en España y cuya actividad esté dedicada a la producción artesana.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas cuya actividad económica en el sector de la artesanía tenga un recorrido formal inferior a cinco años desde la fecha de la convocatoria.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Actividad dedicada a la producción artesana de objetos utilitarios, decorativos o artísticos.",
+          "Las entidades deben actuar en España."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Apoya a entidades benéfico-sociales estrechamente relacionadas con la Armada, que no tengan ánimo de lucro, para ayudar a personal militar retirado, viudas, huérfanos, personas con discapacidad, en situación de necesidad o con bajos ingresos.",
+        "requirements": [
+          "Ser entidad estrechamente relacionada con la Armada.",
+          "Cumplir requisitos de las Bases Reguladora Primera y Cuarta.",
+          "Acreditar carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Los fines deben estar relacionados con el personal militar retirado de la Armada y Cuerpos Comunes, sus cónyuges viudos o huérfanos.",
+          "Las subvenciones se destinarán a apoyar a personas en situación de discapacidad, gran necesidad o bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Ayudas para cubrir gastos de equipamiento, obras, certificado de eficiencia energética o contratación de seguros para viviendas que se pongan en régimen de alquiler a precio tasado durante 5 años.",
+        "requirements": [
+          "Ser persona física o entidad sin ánimo de lucro.",
+          "Tener la condición de propietaria o usufructuaria de una vivienda.",
+          "Promover, ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Las viviendas deben ponerse en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "La cuantía máxima de las obras subvencionables es de 30.000 euros.",
+          "La cuantía máxima de las subvenciones será de 20.200 euros por vivienda.",
+          "Posibilidad de ayuda adicional para seguros de impago y multirriesgo (máximo 3.000 euros).",
+          "Posibilidad de ayuda para certificado de eficiencia energética (hasta 200 euros)."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "Premia a comercios del municipio de Burjassot que fomenten el uso del valenciano en sus actividades, promoviendo así la normalización lingüística en el ámbito comercial.",
+        "requirements": [
+          "Ser empresa, comercio, servicio, industria o profesional legalmente constituido del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de las obligaciones fiscales con la AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art.8 de la Ordenanza General de Subvenciones del Ayuntamiento de Burjassot.",
+          "Dar la adecuada publicidad del carácter público de la financiación."
+        ]
+      }
+    ]
+  },
+  {
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados con grado de protección Monumental, Integral y Estructural en Vigo. Los fondos se destinarán a la ejecución de estas actuaciones entre 2026 y 2027.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble (comunidades de propietarios, mancomunidades, agrupaciones, etc.)",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01 de enero de 2026 y el 15 de octubre de 2027.",
+          "Edificios históricos catalogados con protección Monumental, Integral y Estructural."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Subvenciones para la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificios residenciales colectivos en Vigo. Los edificios deben tener una antigüedad superior a 20 años y estar en suelo urbano.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble (comunidades, mancomunidades, agrupaciones, propietarios únicos)",
+          "Promover, ejecutar o haber ejecutado las actuaciones entre el 01 de enero de 2026 y el 15 de octubre de 2027.",
+          "Edificios residenciales colectivos existentes en el término municipal de Vigo.",
+          "Ubicadas en suelo clasificado como urbano.",
+          "Antigüedad superior a 20 años.",
+          "Altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña 'Verán+Verán 2026' en Tomiño, que busca incentivar las compras locales ofreciendo doble valor en las compras y premios a los escaparates más creativos. La campaña se desarrollará en junio de 2026.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Clientes que realicen compras en los establecimientos participantes entre el 3 y el 22 de junio de 2026.",
+          "Excluidos comerciantes de mercados municipales o a distancia y comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas). Se admiten pequeñas tiendas de alimentación de ámbito local.",
+          "Establecimientos deben mantener decorados sus escaparates con elementos naturales y/o reciclados, con colores vivos, desde el 3 de junio al 1 de julio de 2026.",
+          "Clientes que realicen compras superiores a 20€ para participar en el sorteo."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premios para jóvenes periodistas o comunicadores que destaquen en el periodismo social, reconociendo su contribución a la difusión de valores cívicos, sociales y de igualdad. Se premian trabajos publicados entre mayo de 2025 y la fecha de convocatoria.",
+        "requirements": [
+          "Personas físicas (individual o colectivamente, máx. 3 componentes).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto de la convocatoria en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones relacionadas con la prevención de los trastornos de juego, sus efectos o riesgos asociados. Los proyectos se centrarán en la detección temprana, el daño individual/familiar/social, mecanismos de minimización y la relación con videojuegos.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos universitarios, entidades sanitarias públicas, otros centros públicos de I+D+I).",
+          "Centros privados de investigación (universidades privadas, centros privados de I+D+I, instituciones sanitarias privadas).",
+          "Entidades sin fines de lucro con objetivos de investigación o difusión de resultados, que colaboren con centros de investigación y no tengan operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Fecha de inicio del proyecto no anterior al 1 de enero de 2026.",
+          "Duración máxima del proyecto hasta el 30 de junio de 2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Publica la cuarta convocatoria de ayudas para actuaciones de rehabilitación a nivel de barrio en zonas declaradas como ERRPs en Vigo (Casco Vello, Bouzas y Coia). Las ayudas financiarán obras para mejorar la eficiencia energética, especialmente en la envolvente de edificios.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas con derecho real sobre el inmueble para acometer las actuaciones.",
+          "Inquilinos autorizados por el propietario.",
+          "Mejora acreditada de la eficiencia energética (mínimo 30%)."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en explotaciones de la provincia de Lugo, en riesgo de erosión genética. Se enfoca en animales nacidos en 2025 e inscritos en el Libro Genealógico correspondiente.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas de la provincia de Lugo.",
+          "Explotaciones con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá y Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Explotaciones con machos o hembras de razas ovinas (Oveja Gallega) y/o caprinas (Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o unidades económicas sin personalidad jurídica que cumplan los requisitos.",
+          "Cumplir requisitos de los apartados 2 y 3 del artículo 13 de la LGS y apartados 2 y 3 del artículo 10 de la LSG.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo.",
+          "No estar incursas en ninguna prohibición para ser beneficiario."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía que buscan prestigiar el sector, reconocer la creatividad, innovación y responsabilidad social/medioambiental de profesionales y empresas, y destacar la labor de quienes promueven la artesanía.",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas con actividad dedicada a la producción artesana en España.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas con actividad en el sector de la artesanía con menos de cinco años de recorrido formal desde la convocatoria en España.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía en España.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía en España."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas de acción social destinadas a entidades benéfico-sociales estrechamente relacionadas con la Armada. Los fondos se utilizarán para apoyar a personal militar retirado de la Armada, sus cónyuges viudos o huérfanos en situación de discapacidad, gran necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro, no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas ni con los valores democráticos y constitucionales.",
+          "Cumplir los requisitos de las Bases Reguladoras Primera y Cuarta."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para propietarios o usufructuarios de viviendas que las pongan en régimen de alquiler a precio tasado durante 5 años. Las ayudas cubrirán gastos de equipamiento, obras, certificado de eficiencia energética y/o seguro de riesgo.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Condición de propietarias o usufructuarias de una vivienda.",
+          "Promover, ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria a regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "VII Premis a l’Ús del Valencià en el Comerç 2026 del Ayuntamiento de Burjassot. Se otorgan premios a comercios que fomenten el uso del valenciano en sus actividades entre julio de 2025 y mayo de 2026.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+          "Estar al corriente de obligaciones fiscales con AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones (artículo 13 de la Ley 38/2003).",
+          "Cumplir condiciones del art. 8 de la Ordenanza General de Subvenciones de Burjassot."
+        ]
+      }
+    ]
+  },
+  {
+    "output": [
+      {
+        "code": "906667",
+        "description": "Subvenciones destinadas a fomentar la iluminación de fachadas en edificios históricos catalogados con grado de protección Monumental, Integral y Estructural. Se busca mejorar la estética y visibilidad de estos inmuebles.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico).",
+          "Comunidades de propietarios, mancomunidades, agrupaciones de comunidades, agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Ayudas para la mejora de la accesibilidad y eliminación de barreras arquitectónicas en edificios residenciales colectivos antiguos en el municipio de Vigo. El objetivo es facilitar el acceso y la movilidad dentro de estas edificaciones.",
+        "requirements": [
+          "Ser propietario del inmueble (físico o jurídico).",
+          "Comunidades, mancomunidades de personas propietarias, agrupaciones de personas propietarias o personas propietarias únicas de edificios de viviendas.",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027.",
+          "Edificaciones ubicadas en suelo clasificado como urbano.",
+          "Antigüedad superior a 20 años.",
+          "Altura superior a dos plantas más el bajo."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña 'Verán+Verán 2026' en Tomiño, que busca incentivar las compras locales ofreciendo doble recompensa tanto a establecimientos como a clientes. Incluye premios a la decoración de escaparates.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Clientes que realicen compras en dichos establecimientos entre el 3 y el 22 de junio de 2026.",
+          "Los establecimientos deben mantener sus escaparates decorados con elementos naturales y/o reciclados y colores vivos del 3 de junio al 1 de julio de 2026.",
+          "Exclusión de comerciantes en mercados municipales o a distancia.",
+          "Exclusión de comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas).",
+          "Se admiten pequeñas tiendas de alimentación de ámbito local.",
+          "Los clientes deben depositar tickets de compra superiores a 20€.",
+          "Los clientes deben proporcionar nombre, DNI y teléfono en el reverso del ticket."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Premios para jóvenes periodistas o comunicadores que hayan destacado en el periodismo social. Se busca reconocer y fomentar su carrera profesional, premiando trabajos publicados entre mayo de 2025 y la fecha de convocatoria.",
+        "requirements": [
+          "Personas físicas (individual o colectiva, máx. 3 componentes).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes.",
+          "Estar en la situación que fundamente la concesión de los premios.",
+          "Trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación del extracto en el BOE."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones sobre la prevención, efectos y riesgos de los trastornos del juego. Se financian proyectos en diversas líneas de investigación relacionadas con el juego y los videojuegos.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades/instituciones sanitarias públicas, otros centros públicos de I+D+i).",
+          "Centros privados de investigación (universidades privadas con capacidad demostrada en I+D+i, centros privados de I+D+i, instituciones sanitarias privadas con actividades de I+D+i).",
+          "Entidades sin fines de lucro con objetivos de investigación o difusión, que colaboren formalmente con centros de investigación y cuyos órganos de gobierno no incluyan operadores de juego.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español.",
+          "Fecha de inicio del proyecto no anterior al 01/01/2026 y finalización no posterior al 30/06/2027."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Cuarta convocatoria de ayudas para la rehabilitación a nivel de barrio en zonas declaradas ERRPs en Vigo (Casco Vello, Bouzas y Coia). Se financian obras para mejorar la eficiencia energética, especialmente la envolvente, en edificios residenciales y viviendas unifamiliares.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas con derecho real sobre el inmueble.",
+          "Inquilinos autorizados por el propietario.",
+          "Mejora acreditada de la eficiencia energética (mínimo 30%).",
+          "Viviendas consideradas con vulnerabilidad económica pueden acceder a ayuda adicional."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo. Se busca mantener la diversidad genética del ganado autóctono.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas de la provincia de Lugo.",
+          "Disponer de hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá y Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Disponer de machos o hembras de razas ovinas y caprinas autóctonas (Oveja Gallega, Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Se admiten agrupaciones de personas, comunidades de bienes o unidades económicas sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo.",
+          "Cumplir requisitos de los artículos 13.2 y 3 de la LGS y 10.2 y 3 de la LSG.",
+          "Someterse a las obligaciones de los artículos 14 y 11 de la LGS y LSG.",
+          "Dar publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía para reconocer la excelencia, creatividad e innovación en el sector artesano. Se premian tanto a artesanos como a entidades que promuevan la artesanía.",
+        "requirements": [
+          "Personas físicas o jurídicas dedicadas a la producción artesana de objetos.",
+          "Actividad desarrollada en España.",
+          "Para el Premio al Emprendimiento: actividad con menos de cinco años de recorrido formal desde la convocatoria.",
+          "Para el Premio Promociona Sector Privado: personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Para el Premio Promociona Sector Público: entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía.",
+          "Actividad acorde con la definición de artesanía de la ley de la comunidad autónoma correspondiente."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayudas de acción social para entidades relacionadas con la Armada, que apoyen a personal militar retirado, sus viudos/as o huérfanos. Se destinan a quienes se encuentren en situación de discapacidad, gran necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política ni con los valores democráticos y constitucionales.",
+          "Fines relacionados con personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus cónyuges viudos o sus huérfanos.",
+          "Destinar las subvenciones a apoyar a personas en situación de discapacidad, gran necesidad o con bajos ingresos."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para propietarios o usufructuarios de viviendas que las pongan en régimen de alquiler a precio tasado durante 5 años. Cubren gastos de equipamiento, obras, certificados de eficiencia energética y seguros.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Ser propietarias o usufructuarias de una vivienda.",
+          "Promover y ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Poner la vivienda en régimen de alquiler a precio tasado durante 5 años.",
+          "Cumplir los requisitos previstos en las bases reguladoras.",
+          "Las obras o equipamiento no superarán los 30.000 euros.",
+          "El certificado de eficiencia energética es obligatorio."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria a regularizar.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "VII Premis a l’Ús del Valencià en el Comerç 2026 en Burjassot. Ayudas económicas para comercios que fomenten el uso del valenciano en sus actividades, promoviendo su uso social en el ámbito comercial.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 01/07/2025 y el 31/05/2026.",
+          "Estar al corriente de obligaciones fiscales con AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones (art. 13 Ley 38/2003).",
+          "Cumplir condiciones del art. 8 de la Ordenanza General de Subvenciones de Burjassot.",
+          "Cumplir obligaciones del art. 14 Ley 38/2003 y art. 8 Ordenanza General de Subvenciones.",
+          "Dar publicidad del carácter público de la financiación."
+        ]
+      }
+    ]
+  },
+  {
+    "output": [
+      {
+        "code": "906667",
+        "description": "Fomenta la iluminación de fachadas de edificios históricos catalogados con protección monumental, integral o estructural. Las ayudas son a fondo perdido y se convocan en régimen de concurrencia competitiva.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble (comunidades de propietarios, mancomunidades, agrupaciones o propietarias únicas de edificios de viviendas).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906666",
+        "description": "Busca mejorar la accesibilidad y eliminar barreras arquitectónicas en edificaciones residenciales colectivas existentes en Vigo. Las obras deben realizarse en edificios con antigüedad superior a 20 años y altura de más de dos plantas más bajo.",
+        "requirements": [
+          "Personas físicas o jurídicas propietarias del inmueble (comunidades, mancomunidades, agrupaciones o propietarias únicas de edificios de viviendas).",
+          "Promover y ejecutar o haber ejecutado las actuaciones entre el 01/01/2026 y el 15/10/2027."
+        ]
+      },
+      {
+        "code": "906508",
+        "description": "Campaña para incentivar las compras en establecimientos de Tomiño durante el verano. Los clientes participan depositando tickets de compra para ganar bonos del doble del valor del ticket, con un máximo de 100€ por bono.",
+        "requirements": [
+          "Establecimientos comerciales o de servicios del municipio de Tomiño.",
+          "Clientes que realicen compras entre el 3 y el 22 de junio.",
+          "Excluye comerciantes de mercados municipales a distancia y comercios de primera necesidad (panaderías, carnicerías, pescaderías, farmacias, supermercados de grandes cadenas).",
+          "Se admiten pequeñas tiendas de alimentación de ámbito local.",
+          "Los establecimientos deben mantener decorados sus escaparates con elementos naturales y/o reciclados y colores vivos desde el 3 de junio al 1 de julio."
+        ]
+      },
+      {
+        "code": "906197",
+        "description": "Reconoce el trabajo de jóvenes periodistas en periodismo social, premiando la contribución a valores cívicos, sociales y de igualdad. Se premiarán trabajos publicados entre el 10 de mayo de 2025 y la fecha de publicación de la convocatoria en el BOE.",
+        "requirements": [
+          "Personas físicas (individual o colectivamente, máximo 3 componentes).",
+          "Mayores de edad.",
+          "Nacionalidad española o residencia legal en España.",
+          "No superar los 35 años de edad en la fecha de finalización del plazo de presentación de solicitudes."
+        ]
+      },
+      {
+        "code": "906158",
+        "description": "Subvenciones para el desarrollo de investigaciones relacionadas con la prevención de los trastornos del juego, sus efectos o riesgos asociados. Se financian proyectos en diversas líneas de investigación y deben iniciarse como máximo el 1 de enero de 2026 y extenderse hasta el 30 de junio de 2027.",
+        "requirements": [
+          "Centros públicos de investigación (universidades públicas, institutos universitarios, centros adscritos, entidades o instituciones sanitarias públicas, otros centros públicos de I+D+I).",
+          "Centros privados de investigación (universidades privadas inscritas, centros privados de I+D+I, instituciones sanitarias privadas vinculadas o concertadas con el SNS).",
+          "Entidades sin fines de lucro que tengan entre sus objetivos la investigación o difusión de resultados, colaboren con centros de investigación y no tengan operadores de juego en sus órganos de gobierno.",
+          "Residencia fiscal en España o establecimiento permanente en territorio español."
+        ]
+      },
+      {
+        "code": "905557",
+        "description": "Publica la cuarta convocatoria de ayudas para actuaciones de rehabilitación a nivel de barrio en zonas declaradas ERRPs en Vigo (Casco Vello, Bouzas y Coia). Financia obras o actuaciones que mejoren la eficiencia energética, especialmente la envolvente edificatoria.",
+        "requirements": [
+          "Propietarios de edificios de viviendas o viviendas unifamiliares.",
+          "Comunidades de propietarios de edificios de viviendas en régimen de propiedad horizontal.",
+          "Sociedades cooperativas.",
+          "Empresas arrendatarias o concesionarias del edificio.",
+          "Personas físicas o jurídicas que posean un derecho real sobre el inmueble o inquilinos autorizados por el propietario."
+        ]
+      },
+      {
+        "code": "905114",
+        "description": "Subvenciones para la preservación de razas autóctonas gallegas (bovinas, ovinas y caprinas) en riesgo de erosión genética en explotaciones de la provincia de Lugo. Se apoya la cría de animales de razas específicas nacidos en la explotación en 2025.",
+        "requirements": [
+          "Titulares de explotaciones ganaderas de la provincia de Lugo.",
+          "Que cuenten con hembras de razas bovinas autóctonas (Cachena, Caldelá, Frieiresa, Limiá, Vianesa) nacidas en la explotación en 2025 e inscritas en el Libro Genealógico.",
+          "Que cuenten con machos o hembras de razas ovinas y/o caprinas autóctonas (Oveja Gallega, Cabra Gallega) nacidos en la explotación en 2025 e inscritos en el Libro Genealógico.",
+          "Agrupaciones de personas, físicas o jurídicas, públicas o privadas, comunidades de bienes o unidades económicas o patrimonio separado sin personalidad jurídica.",
+          "No tener pendiente de justificación subvenciones anteriores de la Diputación de Lugo.",
+          "Cumplir requisitos de los artículos 13 y 10 de la LGS y 14 y 11 de la LSG.",
+          "Dar adecuada publicidad del carácter público de la financiación."
+        ]
+      },
+      {
+        "code": "905002",
+        "description": "Premios Nacionales de Artesanía para prestigiar el sector, reconocer la creatividad, responsabilidad social y medioambiental, adaptación al mercado e innovación. Se otorgan en diferentes modalidades, incluyendo Premio Nacional de Artesanía, Producto, Emprendimiento y Promociona (sector privado y público).",
+        "requirements": [
+          "Premio Nacional de Artesanía y Premio Producto: Personas físicas o jurídicas dedicadas a la producción artesana de objetos en España.",
+          "Premio al Emprendimiento: Personas físicas o jurídicas con actividad en artesanía con menos de cinco años de recorrido formal en España.",
+          "Premio Promociona Sector Privado: Personas físicas o jurídicas privadas que hayan contribuido significativamente a la promoción de la artesanía en España.",
+          "Premio Promociona Sector Público: Entidades u organismos públicos que hayan contribuido significativamente a la promoción de la artesanía en España."
+        ]
+      },
+      {
+        "code": "904885",
+        "description": "Ayuda a entidades benéfico-sociales relacionadas con la Armada, sin ánimo de lucro y con fines altruistas. Las subvenciones se destinarán a apoyar al personal militar retirado de la Armada y Cuerpos Comunes adscritos a su acción social, sus viudos/as y huérfanos, especialmente aquellos en situación de discapacidad, gran necesidad o bajos ingresos.",
+        "requirements": [
+          "Entidades estrechamente relacionadas con la Armada.",
+          "Carácter altruista, sin ánimo de lucro y no reivindicativo.",
+          "No desarrollar actividades incompatibles con la neutralidad política de las Fuerzas Armadas y con los valores democráticos y constitucionales.",
+          "Cumplir requisitos de las Bases Reguladoras Primera y Cuarta."
+        ]
+      },
+      {
+        "code": "904868",
+        "description": "Subvenciones para cubrir gastos de equipamiento, obras o certificado de eficiencia energética, así como contratación de seguros para viviendas puestas en régimen de alquiler a precio tasado durante 5 años. Las actuaciones deben haberse promovido y ejecutado en los ejercicios 2026 y 2027.",
+        "requirements": [
+          "Personas físicas o entidades sin ánimo de lucro.",
+          "Ser propietarias o usufructuarias de una vivienda.",
+          "Promover y ejecutar o haber ejecutado las actuaciones en los ejercicios 2026 y 2027.",
+          "Cumplir los requisitos previstos en las bases reguladoras."
+        ]
+      },
+      {
+        "code": "904735",
+        "description": "Convocatoria para regularizar la situación.",
+        "requirements": []
+      },
+      {
+        "code": "904647",
+        "description": "Premio a comercios del término municipal de Burjassot que fomenten el uso del valenciano en sus actividades entre el 1 de julio de 2025 y el 31 de mayo de 2026. Se otorgan 8 premios con dotación económica.",
+        "requirements": [
+          "Empresas, comercios, servicios, industrias y profesionales legalmente constituidos del término municipal de Burjassot.",
+          "Haber realizado actividades de fomento del valenciano entre el 1 de julio de 2025 y el 31 de mayo de 2026.",
+          "Estar al corriente de las obligaciones fiscales con la AEAT, TGSS y Ayuntamiento de Burjassot.",
+          "No tener reintegros pendientes de subvenciones de ejercicios anteriores.",
+          "No estar incurso en prohibiciones para obtener la condición de beneficiario de subvenciones.",
+          "Cumplir las condiciones establecidas en el art. 8 de la Ordenanza General de Subvenciones."
+        ]
+      }
+    ]
   }
 ]
