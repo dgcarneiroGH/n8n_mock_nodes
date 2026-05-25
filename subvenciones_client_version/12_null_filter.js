@@ -38,6 +38,7 @@ for (const { client, grants = [] } of updateGrantDates) {
         grant_code: grant.code || "UNKNOWN_CODE",
         grant_title: grant.title || grant.description || "UNTITLED_GRANT",
         missing_fields: missingFields.join(", "),
+        url: grant.url,
       });
     }
   }

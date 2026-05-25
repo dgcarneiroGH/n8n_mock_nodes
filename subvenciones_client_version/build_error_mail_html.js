@@ -1,6 +1,7 @@
 // ========================
 // FUNCIONES REUTILIZABLES (válidas para N8N y Node.js)
 // ========================
+//#region Node Logic
 function buildErrorMail(items) {
   return items
     .filter((item) => (item.errorsDetected || []).length > 0)
@@ -46,6 +47,34 @@ function renderErrorCard(err) {
                   </td>
                 </tr>
               </table>
+              ${
+                err.url
+                  ? `<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center">
+                    <a
+                      href="${err.url}"
+                      target="_blank"
+                      style="
+                        display: inline-block;
+                        background-color: #ffa726;
+                        color: #0f3254;
+                        font-family: 'Space Grotesk', Arial, sans-serif;
+                        font-size: 15px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        padding: 12px 25px;
+                        border-radius: 6px;
+                        margin-bottom: 10px;
+                        border: 2px solid #0f3254;
+                      "
+                      >Ver Convocatoria Oficial</a
+                    >
+                  </td>
+                </tr>
+              </table>`
+                  : ""
+              }
             </td>
           </tr>
         </table>
@@ -111,8 +140,9 @@ function getHtml(errorsHTML) {
 // Copia SOLO esta línea en tu nodo Code de n8n (modo: Run Once for All Items)
 // --------------------------------------------------
 if (typeof $input !== "undefined") {
-  return buildErrorMail($input.all().map((item) => item.json || item));
+  return buildErrorMail($input.all().map((item) => item.json));
 }
+//#endregion
 // --------------------------------------------------
 // FIN DEL BLOQUE PARA N8N
 // ========================
@@ -129,20 +159,24 @@ if (
   // Datos de ejemplo
   const buildAlertInfoRaw = [
     {
-      errorsDetected: [
+      "errorsDetected": [
         {
-          client: "María Casado",
-          grant_code: "897213",
-          grant_title:
-            "Resolución del organismo autónomo Instituto de la Juventud, por la que se convoca el Certamen Nacional de Jóvenes Emprendedores para el año 2026.",
-          missing_fields: "boeText, dates.publicationDate",
+          "client": "Diego Carneiro",
+          "grant_code": "904231",
+          "grant_title":
+            "CONVOCATORIA DE AYUDAS PARA LA NATALIDAD EN EL AYUNTAMIENTO DE BOQUEIXÓN 2026.",
+          "missing_fields": "startDate",
+          "url":
+            "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904231",
         },
         {
-          client: "Diego Carneiro",
-          grant_code: "821006",
-          grant_title:
-            "Resolución de 7 de mayo de 2025, de la Secretaria de Estado de Agricultura y Alimentación, por la que se convocan subvenciones por concesión directa a las explotaciones agrarias de titularidad compartida, para el ejercicio 2025",
-          missing_fields: "dates.endDate",
+          "client": "Diego Carneiro",
+          "grant_code": "885612",
+          "grant_title":
+            "CONVOCATORIA PARA LA CONCESIÓN E SUBVENCIONES EN MATERIA DE FOMENTO DE LA NATALIDAD AÑO 2025",
+          "missing_fields": "startDate",
+          "url":
+            "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885612",
         },
       ],
     },

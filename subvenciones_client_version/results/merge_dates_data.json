@@ -1,0 +1,1369 @@
+[
+  {
+    "code": "906508",
+    "publication_date": "2026-05-19",
+    "calculated_start_date": "2026-05-26",
+    "calculated_end_date": "2026-05-29"
+  },
+  {
+    "code": "906197",
+    "publication_date": "2026-05-18",
+    "calculated_start_date": "2026-05-20",
+    "calculated_end_date": "2026-06-16"
+  },
+  {
+    "code": "905557",
+    "publication_date": "2026-05-13",
+    "calculated_start_date": "2026-03-27",
+    "calculated_end_date": "2026-06-18"
+  },
+  {
+    "code": "905251",
+    "publication_date": "2026-05-13",
+    "calculated_start_date": "2026-03-09",
+    "calculated_end_date": "2026-03-10"
+  },
+  {
+    "code": "904868",
+    "publication_date": "2026-05-11",
+    "calculated_start_date": "2026-05-12",
+    "calculated_end_date": "2027-10-01"
+  },
+  {
+    "code": "904647",
+    "publication_date": "2026-05-11",
+    "calculated_start_date": "2026-06-01",
+    "calculated_end_date": "2026-06-15"
+  },
+  {
+    "code": "903153",
+    "publication_date": "2026-05-04",
+    "calculated_start_date": "2026-05-12",
+    "calculated_end_date": "2026-06-12"
+  },
+  {
+    "code": "902920",
+    "publication_date": "2026-04-30",
+    "calculated_start_date": "2026-05-07",
+    "calculated_end_date": "2026-06-05"
+  },
+  {
+    "code": "902730",
+    "publication_date": "2026-04-30",
+    "calculated_start_date": "2026-05-06",
+    "calculated_end_date": "2026-10-01"
+  },
+  {
+    "code": "902008",
+    "publication_date": "2026-04-28",
+    "calculated_start_date": "2026-04-30",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "901883",
+    "publication_date": "2026-04-27",
+    "calculated_start_date": "2026-04-30",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "901811",
+    "publication_date": "2026-04-27",
+    "calculated_start_date": "2026-04-30",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "901456",
+    "publication_date": "2026-04-24",
+    "calculated_start_date": "2026-04-28",
+    "calculated_end_date": "2026-05-12"
+  },
+  {
+    "code": "901388",
+    "publication_date": "2026-04-24",
+    "calculated_start_date": "2026-05-04",
+    "calculated_end_date": "2026-05-15"
+  },
+  {
+    "code": "900773",
+    "publication_date": "2026-04-22",
+    "calculated_start_date": "2025-12-01",
+    "calculated_end_date": "2026-12-31"
+  },
+  {
+    "code": "900486",
+    "publication_date": "2026-04-21",
+    "calculated_start_date": "2026-05-14",
+    "calculated_end_date": "2026-06-07"
+  },
+  {
+    "code": "898927",
+    "publication_date": "2026-04-15",
+    "calculated_start_date": "2026-04-01",
+    "calculated_end_date": "2026-04-27"
+  },
+  {
+    "code": "898006",
+    "publication_date": "2026-04-10",
+    "calculated_start_date": "2026-04-22",
+    "calculated_end_date": "2026-05-11"
+  },
+  {
+    "code": "897990",
+    "publication_date": "2026-04-09",
+    "calculated_start_date": "2026-03-27",
+    "calculated_end_date": "2026-05-15"
+  },
+  {
+    "code": "897213",
+    "publication_date": "2026-04-07",
+    "calculated_start_date": "2026-04-10",
+    "calculated_end_date": "2026-05-08"
+  },
+  {
+    "code": "896999",
+    "publication_date": "2026-04-06",
+    "calculated_start_date": "2026-04-14",
+    "calculated_end_date": "2026-05-14"
+  },
+  {
+    "code": "896424",
+    "publication_date": "2026-03-31",
+    "calculated_start_date": "2026-09-01",
+    "calculated_end_date": "2026-09-15"
+  },
+  {
+    "code": "894928",
+    "publication_date": "2026-03-24",
+    "calculated_start_date": "2026-04-06",
+    "calculated_end_date": "2026-04-17"
+  },
+  {
+    "code": "894764",
+    "publication_date": "2026-03-24",
+    "calculated_start_date": "2026-03-13",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "894123",
+    "publication_date": "2026-03-19",
+    "calculated_start_date": "2026-04-07",
+    "calculated_end_date": "2026-05-21"
+  },
+  {
+    "code": "894047",
+    "publication_date": "2026-03-19",
+    "calculated_start_date": "2026-03-21",
+    "calculated_end_date": "2026-04-04"
+  },
+  {
+    "code": "893970",
+    "publication_date": "2026-03-18",
+    "calculated_start_date": "2026-03-26",
+    "calculated_end_date": "2026-04-27"
+  },
+  {
+    "code": "893701",
+    "publication_date": "2026-03-17",
+    "calculated_start_date": "2026-05-09",
+    "calculated_end_date": "2026-06-20"
+  },
+  {
+    "code": "893396",
+    "publication_date": "2026-03-16",
+    "calculated_start_date": "2026-03-24",
+    "calculated_end_date": "2026-03-30"
+  },
+  {
+    "code": "893025",
+    "publication_date": "2026-03-13",
+    "calculated_start_date": "2026-03-18",
+    "calculated_end_date": "2026-07-17"
+  },
+  {
+    "code": "891964",
+    "publication_date": "2026-03-09",
+    "calculated_start_date": "2026-03-23",
+    "calculated_end_date": "2026-03-31"
+  },
+  {
+    "code": "891867",
+    "publication_date": "2026-03-09",
+    "calculated_start_date": "2026-03-13",
+    "calculated_end_date": "2026-04-13"
+  },
+  {
+    "code": "891247",
+    "publication_date": "2026-03-05",
+    "calculated_start_date": "2026-03-15",
+    "calculated_end_date": "2026-04-03"
+  },
+  {
+    "code": "891136",
+    "publication_date": "2026-03-04",
+    "calculated_start_date": "2026-03-09",
+    "calculated_end_date": "2026-03-23"
+  },
+  {
+    "code": "890975",
+    "publication_date": "2026-03-04",
+    "calculated_start_date": "2026-03-17",
+    "calculated_end_date": "2026-05-31"
+  },
+  {
+    "code": "890716",
+    "publication_date": "2026-03-03",
+    "calculated_start_date": "2026-03-16",
+    "calculated_end_date": "2026-04-28"
+  },
+  {
+    "code": "889867",
+    "publication_date": "2026-02-26",
+    "calculated_start_date": "2026-02-28",
+    "calculated_end_date": "2026-03-27"
+  },
+  {
+    "code": "889652",
+    "publication_date": "2026-02-25",
+    "calculated_start_date": "2026-03-09",
+    "calculated_end_date": "2026-06-03"
+  },
+  {
+    "code": "889650",
+    "publication_date": "2026-02-25",
+    "calculated_start_date": "2026-03-09",
+    "calculated_end_date": "2026-06-03"
+  },
+  {
+    "code": "889363",
+    "publication_date": "2026-02-24",
+    "calculated_start_date": "2026-03-03",
+    "calculated_end_date": "2026-09-15"
+  },
+  {
+    "code": "889243",
+    "publication_date": "2026-02-24",
+    "calculated_start_date": "2026-02-28",
+    "calculated_end_date": "2026-03-27"
+  },
+  {
+    "code": "887940",
+    "publication_date": "2026-02-18",
+    "calculated_start_date": "2026-02-23",
+    "calculated_end_date": "2026-11-30"
+  },
+  {
+    "code": "887576",
+    "publication_date": "2026-02-17",
+    "calculated_start_date": "2026-02-19",
+    "calculated_end_date": "2026-02-26"
+  },
+  {
+    "code": "887236",
+    "publication_date": "2026-02-13",
+    "calculated_start_date": "2026-02-19",
+    "calculated_end_date": "2026-03-18"
+  },
+  {
+    "code": "886939",
+    "publication_date": "2026-02-12",
+    "calculated_start_date": "2026-03-02",
+    "calculated_end_date": "2026-09-16"
+  },
+  {
+    "code": "885622",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-03-02"
+  },
+  {
+    "code": "885619",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-03-02"
+  },
+  {
+    "code": "885618",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-03-02"
+  },
+  {
+    "code": "885616",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "885614",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "885613",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-17",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "885428",
+    "publication_date": "2026-02-05",
+    "calculated_start_date": "2026-02-07",
+    "calculated_end_date": "2026-05-15"
+  },
+  {
+    "code": "885379",
+    "publication_date": "2026-02-05",
+    "calculated_start_date": "2026-02-13",
+    "calculated_end_date": "2026-04-30"
+  },
+  {
+    "code": "884868",
+    "publication_date": "2026-02-03",
+    "calculated_start_date": "2026-02-02",
+    "calculated_end_date": "2026-05-31"
+  },
+  {
+    "code": "884608",
+    "publication_date": "2026-02-02",
+    "calculated_start_date": "2026-01-01",
+    "calculated_end_date": "2027-03-31"
+  },
+  {
+    "code": "884395",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-03",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884390",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-03",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884384",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-03",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884357",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-03-01",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884246",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-11",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884244",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-11",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "884243",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-02-11",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "883744",
+    "publication_date": "2026-01-28",
+    "calculated_start_date": "2026-02-03",
+    "calculated_end_date": "2026-04-06"
+  },
+  {
+    "code": "883728",
+    "publication_date": "2026-01-28",
+    "calculated_start_date": "2026-02-03",
+    "calculated_end_date": "2026-04-06"
+  },
+  {
+    "code": "882496",
+    "publication_date": "2026-01-20",
+    "calculated_start_date": "2026-01-30",
+    "calculated_end_date": "2026-12-01"
+  },
+  {
+    "code": "882450",
+    "publication_date": "2026-01-20",
+    "calculated_start_date": "2026-01-26",
+    "calculated_end_date": "2026-02-27"
+  },
+  {
+    "code": "880747",
+    "publication_date": "2026-01-10",
+    "calculated_start_date": "2026-01-17",
+    "calculated_end_date": "2026-02-17"
+  },
+  {
+    "code": "880742",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-26",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880741",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-26",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880726",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-28",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880725",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-28",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880724",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-28",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880582",
+    "publication_date": "2026-01-09",
+    "calculated_start_date": "2026-01-21",
+    "calculated_end_date": "2026-09-01"
+  },
+  {
+    "code": "880424",
+    "publication_date": "2026-01-08",
+    "calculated_start_date": "2026-01-26",
+    "calculated_end_date": "2026-09-30"
+  },
+  {
+    "code": "880406",
+    "publication_date": "2026-01-08",
+    "calculated_start_date": "2026-01-20",
+    "calculated_end_date": "2026-03-30"
+  },
+  {
+    "code": "879694",
+    "publication_date": "2026-01-02",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-16"
+  },
+  {
+    "code": "879115",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-13"
+  },
+  {
+    "code": "879113",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-14"
+  },
+  {
+    "code": "878803",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-16"
+  },
+  {
+    "code": "878726",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-12",
+    "calculated_end_date": "2026-02-12"
+  },
+  {
+    "code": "878695",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-12",
+    "calculated_end_date": "2026-02-12"
+  },
+  {
+    "code": "878634",
+    "publication_date": "2025-12-30",
+    "calculated_start_date": "2026-01-08",
+    "calculated_end_date": "2026-12-01"
+  },
+  {
+    "code": "878312",
+    "publication_date": "2025-12-29",
+    "calculated_start_date": "2026-01-14",
+    "calculated_end_date": "2026-12-01"
+  },
+  {
+    "code": "878183",
+    "publication_date": "2025-12-29",
+    "calculated_start_date": "2026-02-16",
+    "calculated_end_date": "2026-03-16"
+  },
+  {
+    "code": "874651",
+    "publication_date": "2025-12-12",
+    "calculated_start_date": "2025-12-17",
+    "calculated_end_date": "2026-03-11"
+  },
+  {
+    "code": "873283",
+    "publication_date": "2025-12-05",
+    "calculated_start_date": "2025-12-12",
+    "calculated_end_date": "2025-12-26"
+  },
+  {
+    "code": "872630",
+    "publication_date": "2025-12-03",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-05"
+  },
+  {
+    "code": "871890",
+    "publication_date": "2025-12-01",
+    "calculated_start_date": "2025-12-15",
+    "calculated_end_date": "2026-03-02"
+  },
+  {
+    "code": "871368",
+    "publication_date": "2025-11-27",
+    "calculated_start_date": "2025-11-04",
+    "calculated_end_date": "2025-11-18"
+  },
+  {
+    "code": "871366",
+    "publication_date": "2025-11-27",
+    "calculated_start_date": "2025-11-04",
+    "calculated_end_date": "2025-11-18"
+  },
+  {
+    "code": "871215",
+    "publication_date": "2025-11-26",
+    "calculated_start_date": "2025-12-12",
+    "calculated_end_date": "2026-01-12"
+  },
+  {
+    "code": "870466",
+    "publication_date": "2025-11-24",
+    "calculated_start_date": "2025-11-27",
+    "calculated_end_date": "2026-02-17"
+  },
+  {
+    "code": "869487",
+    "publication_date": "2025-11-18",
+    "calculated_start_date": "2025-12-01",
+    "calculated_end_date": "2026-01-01"
+  },
+  {
+    "code": "907065",
+    "publication_date": "2026-05-21",
+    "calculated_start_date": "2026-05-22",
+    "calculated_end_date": "2026-06-11",
+    "_route": "success"
+  },
+  {
+    "code": "905114",
+    "publication_date": "2026-05-12",
+    "calculated_start_date": "2026-05-13",
+    "calculated_end_date": "2026-05-26",
+    "_route": "success"
+  },
+  {
+    "code": "905002",
+    "publication_date": "2026-05-12",
+    "calculated_start_date": "2026-05-13",
+    "calculated_end_date": "2026-06-11",
+    "_route": "success"
+  },
+  {
+    "code": "904885",
+    "publication_date": "2026-05-12",
+    "calculated_start_date": "2026-05-13",
+    "calculated_end_date": "2026-06-02",
+    "_route": "success"
+  },
+  {
+    "code": "903067",
+    "publication_date": "2026-05-04",
+    "calculated_start_date": "2026-05-05",
+    "calculated_end_date": "2026-05-18",
+    "_route": "success"
+  },
+  {
+    "code": "903044",
+    "publication_date": "2026-05-04",
+    "calculated_start_date": "2026-05-04",
+    "calculated_end_date": "2026-05-14",
+    "_route": "success"
+  },
+  {
+    "code": "902929",
+    "publication_date": "2026-04-30",
+    "calculated_start_date": "2026-05-01",
+    "calculated_end_date": "2026-05-28",
+    "_route": "success"
+  },
+  {
+    "code": "902500",
+    "publication_date": "2026-04-29",
+    "calculated_start_date": "2026-04-30",
+    "calculated_end_date": "2026-08-31",
+    "_route": "success"
+  },
+  {
+    "code": "901583",
+    "publication_date": "2026-04-24",
+    "calculated_start_date": "2026-04-25",
+    "calculated_end_date": "2026-05-08",
+    "_route": "success"
+  },
+  {
+    "code": "899444",
+    "publication_date": "2026-04-16",
+    "calculated_start_date": "2026-04-17",
+    "calculated_end_date": "2026-05-15",
+    "_route": "success"
+  },
+  {
+    "code": "899346",
+    "publication_date": "2026-04-16",
+    "calculated_start_date": "2026-04-17",
+    "calculated_end_date": "2026-05-06",
+    "_route": "success"
+  },
+  {
+    "code": "899047",
+    "publication_date": "2026-04-15",
+    "calculated_start_date": "2026-04-16",
+    "calculated_end_date": "2026-04-29",
+    "_route": "success"
+  },
+  {
+    "code": "898790",
+    "publication_date": "2026-04-14",
+    "calculated_start_date": "2026-05-06",
+    "calculated_end_date": "2026-05-06",
+    "_route": "success"
+  },
+  {
+    "code": "898623",
+    "publication_date": "2026-04-14",
+    "calculated_start_date": "2026-04-15",
+    "calculated_end_date": "2026-09-11",
+    "_route": "success"
+  },
+  {
+    "code": "897672",
+    "publication_date": "2026-04-08",
+    "calculated_start_date": "2026-09-01",
+    "calculated_end_date": "2026-09-15",
+    "_route": "success"
+  },
+  {
+    "code": "897669",
+    "publication_date": "2026-04-08",
+    "calculated_start_date": "2026-09-01",
+    "calculated_end_date": "2026-09-15",
+    "_route": "success"
+  },
+  {
+    "code": "897666",
+    "publication_date": "2026-04-08",
+    "calculated_start_date": "2026-09-01",
+    "calculated_end_date": "2026-09-21",
+    "_route": "success"
+  },
+  {
+    "code": "897464",
+    "publication_date": "2026-04-08",
+    "calculated_start_date": "2026-04-17",
+    "calculated_end_date": "2026-04-27",
+    "_route": "success"
+  },
+  {
+    "code": "897302",
+    "publication_date": "2026-04-07",
+    "calculated_start_date": "2026-04-08",
+    "calculated_end_date": "2026-04-21",
+    "_route": "success"
+  },
+  {
+    "code": "896239",
+    "publication_date": "2026-03-30",
+    "calculated_start_date": "2026-03-31",
+    "calculated_end_date": "2026-04-20",
+    "_route": "success"
+  },
+  {
+    "code": "896238",
+    "publication_date": "2026-03-30",
+    "calculated_start_date": "2026-03-31",
+    "calculated_end_date": "2026-04-20",
+    "_route": "success"
+  },
+  {
+    "code": "895920",
+    "publication_date": "2026-03-27",
+    "calculated_start_date": "2026-03-28",
+    "calculated_end_date": "2026-04-17",
+    "_route": "success"
+  },
+  {
+    "code": "894589",
+    "publication_date": "2026-03-23",
+    "calculated_start_date": "2026-03-24",
+    "calculated_end_date": "2026-04-06",
+    "_route": "success"
+  },
+  {
+    "code": "894431",
+    "publication_date": "2026-03-20",
+    "calculated_start_date": "2026-03-21",
+    "calculated_end_date": "2026-04-03",
+    "_route": "success"
+  },
+  {
+    "code": "894119",
+    "publication_date": "2026-03-19",
+    "calculated_start_date": "2026-03-20",
+    "calculated_end_date": "2026-04-16",
+    "_route": "success"
+  },
+  {
+    "code": "894036",
+    "publication_date": "2026-03-19",
+    "calculated_start_date": "2026-03-20",
+    "calculated_end_date": "2026-04-09",
+    "_route": "success"
+  },
+  {
+    "code": "891269",
+    "publication_date": "2026-03-05",
+    "calculated_start_date": "2026-03-13",
+    "calculated_end_date": "2026-10-31",
+    "_route": "success"
+  },
+  {
+    "code": "890549",
+    "publication_date": "2026-03-02",
+    "calculated_start_date": "2026-03-03",
+    "calculated_end_date": "2026-03-23",
+    "_route": "success"
+  },
+  {
+    "code": "890543",
+    "publication_date": "2026-03-02",
+    "calculated_start_date": "2026-03-09",
+    "calculated_end_date": "2026-06-30",
+    "_route": "success"
+  },
+  {
+    "code": "889460",
+    "publication_date": "2026-02-24",
+    "calculated_start_date": "2026-02-25",
+    "calculated_end_date": "2026-03-16",
+    "_route": "success"
+  },
+  {
+    "code": "888205",
+    "publication_date": "2026-02-19",
+    "calculated_start_date": "2026-02-20",
+    "calculated_end_date": "2025-03-16",
+    "_route": "success"
+  },
+  {
+    "code": "885756",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": "2026-02-07",
+    "calculated_end_date": "2026-03-20",
+    "_route": "success"
+  },
+  {
+    "code": "885612",
+    "publication_date": "2026-02-06",
+    "calculated_start_date": null,
+    "calculated_end_date": "2026-03-06",
+    "_route": "success"
+  },
+  {
+    "code": "883380",
+    "publication_date": "2026-01-26",
+    "calculated_start_date": "2026-01-27",
+    "calculated_end_date": "2026-02-13",
+    "_route": "success"
+  },
+  {
+    "code": "882660",
+    "publication_date": "2026-01-21",
+    "calculated_start_date": "2026-01-22",
+    "calculated_end_date": "2026-01-30",
+    "_route": "success"
+  },
+  {
+    "code": "879705",
+    "publication_date": "2026-01-02",
+    "calculated_start_date": "2026-01-14",
+    "calculated_end_date": "2026-09-16",
+    "_route": "success"
+  },
+  {
+    "code": "879702",
+    "publication_date": "2026-01-02",
+    "calculated_start_date": "2026-01-14",
+    "calculated_end_date": "2026-09-16",
+    "_route": "success"
+  },
+  {
+    "code": "877007",
+    "publication_date": "2025-12-22",
+    "calculated_start_date": "2025-12-23",
+    "calculated_end_date": "2026-02-02",
+    "_route": "success"
+  },
+  {
+    "code": "875959",
+    "publication_date": "2025-12-17",
+    "calculated_start_date": "2025-12-19",
+    "calculated_end_date": "2026-02-19",
+    "_route": "success"
+  },
+  {
+    "code": "875841",
+    "publication_date": "2025-12-17",
+    "calculated_start_date": "2025-12-18",
+    "calculated_end_date": "2025-12-29",
+    "_route": "success"
+  },
+  {
+    "code": "873956",
+    "publication_date": "2025-12-10",
+    "calculated_start_date": "2025-12-11",
+    "calculated_end_date": "2025-12-24",
+    "_route": "success"
+  },
+  {
+    "code": "872650",
+    "publication_date": "2025-12-03",
+    "calculated_start_date": "2025-12-16",
+    "calculated_end_date": "2026-01-04",
+    "_route": "success"
+  },
+  {
+    "code": "872034",
+    "publication_date": "2025-12-01",
+    "calculated_start_date": "2025-12-02",
+    "calculated_end_date": "2025-12-08",
+    "_route": "success"
+  },
+  {
+    "code": "872024",
+    "publication_date": "2025-12-01",
+    "calculated_start_date": "2025-12-02",
+    "calculated_end_date": "2025-12-08",
+    "_route": "success"
+  },
+  {
+    "code": "870073",
+    "publication_date": "2025-11-20",
+    "calculated_start_date": "2025-11-21",
+    "calculated_end_date": "2025-12-12",
+    "_route": "success"
+  },
+  {
+    "code": "869938",
+    "publication_date": "2025-11-20",
+    "calculated_start_date": "2025-11-21",
+    "calculated_end_date": "2025-12-04",
+    "_route": "success"
+  },
+  {
+    "code": "869622",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-12-09",
+    "calculated_end_date": "2025-12-16",
+    "_route": "success"
+  },
+  {
+    "code": "906921",
+    "receptionDate": "2026-05-20",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el BOE",
+    "endText": "Un mes desde el día siguiente a la publicación del extracto en el BOE"
+  },
+  {
+    "code": "906667",
+    "receptionDate": "2026-05-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Publicación do extracto da convocatoria no Boletín Oficial da Provincia de Pontevedra.",
+    "endText": "Tres meses dende a publicación do extracto da convocatoria no  Boletín Oficial da Provincia de Ponte"
+  },
+  {
+    "code": "906666",
+    "receptionDate": "2026-05-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Publicación do extracto da convocatoria no Boletín Oficial da Provincia de Pontevedra.",
+    "endText": "Tres meses dende a publicación do extracto da convocatoria no  Boletín Oficial da Provincia de Ponte"
+  },
+  {
+    "code": "906158",
+    "receptionDate": "2026-05-18",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Día siguiente a la publicación del extracto de la convocatoria en el BOE",
+    "endText": "Un mes después del día siguiente a la publicación del extracto en BOE"
+  },
+  {
+    "code": "904735",
+    "publication_date": "2026-05-11",
+    "calculated_start_date": "2026-05-12",
+    "calculated_end_date": "2026-06-07"
+  },
+  {
+    "code": "904369",
+    "publication_date": "2026-05-08",
+    "calculated_start_date": "2026-05-09",
+    "calculated_end_date": "2026-06-14"
+  },
+  {
+    "code": "904231",
+    "publication_date": "2026-05-07",
+    "calculated_start_date": null,
+    "calculated_end_date": "2027-01-16"
+  },
+  {
+    "code": "902390",
+    "publication_date": "2026-04-29",
+    "calculated_start_date": "2026-04-30",
+    "calculated_end_date": "2026-05-08"
+  },
+  {
+    "code": "901984",
+    "publication_date": "2026-04-27",
+    "calculated_start_date": "2026-04-28",
+    "calculated_end_date": "2026-07-17"
+  },
+  {
+    "code": "901657",
+    "receptionDate": "2026-04-27",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Día siguiente al de la publicación del extracto en el BOE",
+    "endText": "Un mes a partir del día siguiente al de la publicación del extracto en el BOE"
+  },
+  {
+    "code": "901519",
+    "publication_date": "2026-04-24",
+    "calculated_start_date": "2026-05-01",
+    "calculated_end_date": "2026-07-31"
+  },
+  {
+    "code": "900909",
+    "receptionDate": "2026-04-23",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "A partir del día siguiente de la publicación del extracto en el BOE",
+    "endText": "Un mes desde el inicio de solicitud"
+  },
+  {
+    "code": "898986",
+    "receptionDate": "2026-04-15",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Al día siguiente de la publicación del Extracto",
+    "endText": "Un mes desde la publicación"
+  },
+  {
+    "code": "895688",
+    "receptionDate": "2026-03-27",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Día siguiente al de la publicación del extracto",
+    "endText": "Un mes desde la fecha de inicio"
+  },
+  {
+    "code": "894954",
+    "receptionDate": "2026-03-24",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "A PARTIR DEL DÍA SIGUIENTE A LA FECHA DE PUBLICACIÓN EN EL BOPPO",
+    "endText": "UN MES DESDE LA FECHA DE INICIO DE PRESENTACIÓN DE SOLICITUDES "
+  },
+  {
+    "code": "894807",
+    "receptionDate": "2026-03-24",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Al día siguiente de su publicación en el DOG",
+    "endText": "Un mes a partir del día siguiente al de su publicación en el DOG"
+  },
+  {
+    "code": "894785",
+    "receptionDate": "2026-03-24",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Un mes a partir del día siguiente al de la publicación del extracto de la convocatoria en el BOP",
+    "endText": "Un mes después de la publicación del extracto de la convocatoria en el BOP"
+  },
+  {
+    "code": "894416",
+    "receptionDate": "2026-03-20",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Al día siguiente de su publicación en el BOE",
+    "endText": "Un mes desde su publicación en el BOE"
+  },
+  {
+    "code": "894055",
+    "receptionDate": "2026-03-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado.",
+    "endText": "Un mes, a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "894040",
+    "receptionDate": "2026-03-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado.",
+    "endText": "Un mes, a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "894029",
+    "receptionDate": "2026-03-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado.",
+    "endText": "Un mes, a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "894019",
+    "receptionDate": "2026-03-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado.",
+    "endText": "Un mes, a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "894014",
+    "receptionDate": "2026-03-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el Boletín Oficial del Estado.",
+    "endText": "Un mes, a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "893843",
+    "publication_date": "2026-03-18",
+    "calculated_start_date": "2026-03-19",
+    "calculated_end_date": "2026-05-13"
+  },
+  {
+    "code": "892609",
+    "publication_date": "2026-03-11",
+    "calculated_start_date": "2026-03-12",
+    "calculated_end_date": "2026-10-26"
+  },
+  {
+    "code": "892036",
+    "receptionDate": "2026-03-10",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Desde el día siguiente al de la fecha de publicación del extracto de la convocatoria en el BOE.",
+    "endText": "Un mes."
+  },
+  {
+    "code": "891582",
+    "receptionDate": "2026-03-06",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "publicación en BOP",
+    "endText": "1 mes desde la publicación en el BOP"
+  },
+  {
+    "code": "890407",
+    "publication_date": "2026-03-02",
+    "calculated_start_date": "2026-03-03",
+    "calculated_end_date": "2026-05-08"
+  },
+  {
+    "code": "889706",
+    "publication_date": "2026-02-25",
+    "calculated_start_date": "2026-02-26",
+    "calculated_end_date": "2026-03-15"
+  },
+  {
+    "code": "888005",
+    "publication_date": "2026-02-18",
+    "calculated_start_date": "2026-02-25",
+    "calculated_end_date": "2026-11-30"
+  },
+  {
+    "code": "887984",
+    "publication_date": "2026-02-18",
+    "calculated_start_date": "2026-02-25",
+    "calculated_end_date": "2026-11-30"
+  },
+  {
+    "code": "887978",
+    "publication_date": "2026-02-18",
+    "calculated_start_date": "2026-02-25",
+    "calculated_end_date": "2026-11-30"
+  },
+  {
+    "code": "887970",
+    "publication_date": "2026-02-18",
+    "calculated_start_date": "2026-02-25",
+    "calculated_end_date": "2026-11-30"
+  },
+  {
+    "code": "886600",
+    "publication_date": "2026-02-11",
+    "calculated_start_date": "2026-02-12",
+    "calculated_end_date": "2026-02-21"
+  },
+  {
+    "code": "885727",
+    "receptionDate": "2026-02-06",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Al día siguiente de su publicación en el BOE",
+    "endText": "Un mes desde su publicación en el BOE"
+  },
+  {
+    "code": "884982",
+    "receptionDate": "2026-02-04",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Desde el día siguiente al de la fecha de publicación del extracto de la convocatoria en el BOE.",
+    "endText": "Establecido para cada Ficha Descriptiva."
+  },
+  {
+    "code": "884430",
+    "publication_date": "2026-01-30",
+    "calculated_start_date": "2026-01-31",
+    "calculated_end_date": "2026-02-15"
+  },
+  {
+    "code": "884382",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884380",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884379",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884375",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884374",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884373",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884371",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884369",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884367",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884364",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884362",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884361",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884359",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "884358",
+    "receptionDate": "2026-01-30",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "FEBRERO 2026",
+    "endText": "SEPTIEMBRE 2026"
+  },
+  {
+    "code": "883746",
+    "publication_date": "2026-01-28",
+    "calculated_start_date": "2026-01-29",
+    "calculated_end_date": "2026-02-26"
+  },
+  {
+    "code": "881806",
+    "publication_date": "2026-01-15",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-11"
+  },
+  {
+    "code": "881801",
+    "publication_date": "2026-01-15",
+    "calculated_start_date": "2026-01-16",
+    "calculated_end_date": "2026-02-04"
+  },
+  {
+    "code": "880926",
+    "publication_date": "2026-01-12",
+    "calculated_start_date": "2026-01-13",
+    "calculated_end_date": "2026-06-12"
+  },
+  {
+    "code": "878152",
+    "receptionDate": "2025-12-29",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente al de la publicación del extracto de la convocatoria en el BOE",
+    "endText": "Tres meses, a contar desde la fecha de inicio"
+  },
+  {
+    "code": "873371",
+    "receptionDate": "2025-12-05",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "El día siguiente a la publicación del extracto de la convocatoria en el BOE",
+    "endText": "Dos meses a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOE"
+  },
+  {
+    "code": "873119",
+    "publication_date": "2025-12-04",
+    "calculated_start_date": "2025-12-05",
+    "calculated_end_date": "2025-12-31"
+  },
+  {
+    "code": "872578",
+    "receptionDate": "2025-12-03",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "Día siguiente al de la publicación del extracto de la convocatoria en el BOE",
+    "endText": "El plazo de presentación de las candidaturas será de tres meses."
+  },
+  {
+    "code": "871767",
+    "publication_date": "2025-11-28",
+    "calculated_start_date": "2025-11-29",
+    "calculated_end_date": "2025-12-15"
+  },
+  {
+    "code": "871629",
+    "publication_date": "2025-11-28",
+    "calculated_start_date": "2025-11-29",
+    "calculated_end_date": "2026-01-20"
+  },
+  {
+    "code": "869766",
+    "receptionDate": "2025-11-19",
+    "applicationStartDate": null,
+    "applicationEndDate": null,
+    "startText": "10 días tras publicación en BOPZ",
+    "endText": "pendiente"
+  },
+  {
+    "code": "869702",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-11-20",
+    "calculated_end_date": "2026-01-31"
+  },
+  {
+    "code": "869676",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-11-20",
+    "calculated_end_date": "2026-01-31"
+  },
+  {
+    "code": "869664",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-11-20",
+    "calculated_end_date": "2026-01-31"
+  },
+  {
+    "code": "869601",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-11-20",
+    "calculated_end_date": "2026-01-31"
+  },
+  {
+    "code": "869587",
+    "publication_date": "2025-11-19",
+    "calculated_start_date": "2025-11-20",
+    "calculated_end_date": "2026-01-31"
+  }
+]

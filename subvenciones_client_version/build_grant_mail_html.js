@@ -26,7 +26,7 @@ try {
         {
           "code": "897213",
           "title": "Resolución de prueba para entorno local",
-          "agency": "INSTITUTO DE PRUEBAS",
+          "organization": "INSTITUTO DE PRUEBAS",
           "url": "https://boe.es",
           "dates": { "startDate": "2026-04-10", "endDate": "2026-05-08" },
           "description":
@@ -61,7 +61,7 @@ function codigoN8n() {
       <table border="0" width="100%" style="background-color:transparent; border:3px solid #0f3254; border-bottom:8px solid #0f3254; border-radius:16px;">
         <tr><td style="padding:20px 25px 0 25px;">
           <span style="display:inline-block; background-color:#29b6f6; color:#0f3254; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:11px; padding:5px 12px; border-radius:20px; border:2px solid #0f3254; text-transform:uppercase;">
-            ${g.agency || "Agencia no especificada"}
+            ${g.organization || "Organización no especificada"}
           </span>
         </td></tr>
         <tr><td style="padding:15px 25px 25px 25px;">
