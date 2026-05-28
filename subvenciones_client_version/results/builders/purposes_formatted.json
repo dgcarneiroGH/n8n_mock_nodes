@@ -1,0 +1,107 @@
+[
+  {
+    "id": "8",
+    "description": "ACCESO A LA VIVIENDA Y FOMENTO DE LA EDIFICACIÓN",
+    "slug": "acceso-a-la-vivienda-y-fomento-de-la-edificacion"
+  },
+  {
+    "id": "12",
+    "description": "AGRICULTURA, PESCA Y ALIMENTACIÓN",
+    "slug": "agricultura-pesca-y-alimentacion"
+  },
+  {
+    "id": "14",
+    "description": "COMERCIO, TURISMO Y PYMES",
+    "slug": "comercio-turismo-y-pymes"
+  },
+  {
+    "id": "20",
+    "description": "COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO Y CULTURAL",
+    "slug": "cooperacion-internacional-para-el-desarrollo-y-cultural"
+  },
+  {
+    "id": "11",
+    "description": "CULTURA",
+    "slug": "cultura"
+  },
+  {
+    "id": "2",
+    "description": "DEFENSA",
+    "slug": "defensa"
+  },
+  {
+    "id": "7",
+    "description": "DESEMPLEO",
+    "slug": "desempleo"
+  },
+  {
+    "id": "10",
+    "description": "EDUCACIÓN",
+    "slug": "educacion"
+  },
+  {
+    "id": "6",
+    "description": "FOMENTO DEL EMPLEO",
+    "slug": "fomento-del-empleo"
+  },
+  {
+    "id": "13",
+    "description": "INDUSTRIA Y ENERGÍA",
+    "slug": "industria-y-energia"
+  },
+  {
+    "id": "21",
+    "description": "INFORMACIÓN NO DISPONIBLE",
+    "slug": "informacion-no-disponible"
+  },
+  {
+    "id": "16",
+    "description": "INFRAESTRUCTURAS",
+    "slug": "infraestructuras"
+  },
+  {
+    "id": "17",
+    "description": "INVESTIGACIÓN, DESARROLLO E INNOVACIÓN",
+    "slug": "investigacion-desarrollo-e-innovacion"
+  },
+  {
+    "id": "1",
+    "description": "JUSTICIA",
+    "slug": "justicia"
+  },
+  {
+    "id": "18",
+    "description": "OTRAS ACTUACIONES DE CARÁCTER ECONÓMICO",
+    "slug": "otras-actuaciones-de-caracter-economico"
+  },
+  {
+    "id": "4",
+    "description": "OTRAS PRESTACIONES ECONÓMICAS",
+    "slug": "otras-prestaciones-economicas"
+  },
+  {
+    "id": "9",
+    "description": "SANIDAD",
+    "slug": "sanidad"
+  },
+  {
+    "id": "3",
+    "description": "SEGURIDAD CIUDADANA E INSTITUCIONES PENITENCIARIAS",
+    "slug": "seguridad-ciudadana-e-instituciones-penitenciarias"
+  },
+  {
+    "id": "5",
+    "description": "SERVICIOS SOCIALES Y PROMOCIÓN SOCIAL",
+    "slug": "servicios-sociales-y-promocion-social"
+  },
+  {
+    "id": "19",
+    "description": "SIN INFORMACION ESPECIFICA",
+    "slug": "sin-informacion-especifica"
+  },
+  {
+    "id": "15",
+    "description": "SUBVENCIONES AL TRANSPORTE",
+    "slug": "subvenciones-al-transporte"
+  }
+]

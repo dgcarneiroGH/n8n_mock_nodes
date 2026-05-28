@@ -40,9 +40,6 @@ for (const benefactor of benefactors) {
         benefactor_id: benefactor.id,
         region_id: region.id,
         purpose_id: purpose.id,
-        benefactor_description: benefactor.descripcion,
-        region_description: region.descripcion,
-        purpose_description: purpose.descripcion,
       });
     }
   }

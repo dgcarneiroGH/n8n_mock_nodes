@@ -1,0 +1,1814 @@
+[
+  {
+    "id": "1",
+    "description": "ES - ESPAÑA ",
+    "slug": "espana",
+    "type": "pais"
+  },
+  {
+    "id": "2",
+    "description": "ES1 - NOROESTE",
+    "slug": "noroeste",
+    "type": "region"
+  },
+  {
+    "id": "3",
+    "description": "ES11 - GALICIA",
+    "slug": "galicia",
+    "type": "ccaa"
+  },
+  {
+    "id": "4",
+    "description": "ES111 - A Coruña",
+    "slug": "a-coruna",
+    "type": "provincia"
+  },
+  {
+    "id": "5",
+    "description": "ES112 - Lugo",
+    "slug": "lugo",
+    "type": "provincia"
+  },
+  {
+    "id": "6",
+    "description": "ES113 - Ourense",
+    "slug": "ourense",
+    "type": "provincia"
+  },
+  {
+    "id": "7",
+    "description": "ES114 - Pontevedra",
+    "slug": "pontevedra",
+    "type": "provincia"
+  },
+  {
+    "id": "8",
+    "description": "ES12 - PRINCIPADO DE ASTURIAS",
+    "slug": "principado-de-asturias",
+    "type": "ccaa"
+  },
+  {
+    "id": "9",
+    "description": "ES120 - Asturias",
+    "slug": "asturias",
+    "type": "provincia"
+  },
+  {
+    "id": "10",
+    "description": "ES13 - CANTABRIA",
+    "slug": "cantabria",
+    "type": "ccaa"
+  },
+  {
+    "id": "11",
+    "description": "ES130 - Cantabria",
+    "slug": "cantabria",
+    "type": "provincia"
+  },
+  {
+    "id": "12",
+    "description": "ES2 - NORESTE",
+    "slug": "noreste",
+    "type": "region"
+  },
+  {
+    "id": "13",
+    "description": "ES21 - PAIS VASCO",
+    "slug": "pais-vasco",
+    "type": "ccaa"
+  },
+  {
+    "id": "14",
+    "description": "ES211 - Araba/Álava",
+    "slug": "araba-alava",
+    "type": "provincia"
+  },
+  {
+    "id": "15",
+    "description": "ES212 - Gipuzkoa",
+    "slug": "gipuzkoa",
+    "type": "provincia"
+  },
+  {
+    "id": "16",
+    "description": "ES213 - Bizkaia",
+    "slug": "bizkaia",
+    "type": "provincia"
+  },
+  {
+    "id": "17",
+    "description": "ES22 - COMUNIDAD FORAL DE NAVARRA",
+    "slug": "comunidad-foral-de-navarra",
+    "type": "ccaa"
+  },
+  {
+    "id": "18",
+    "description": "ES220 - Navarra",
+    "slug": "navarra",
+    "type": "provincia"
+  },
+  {
+    "id": "19",
+    "description": "ES23 - LA RIOJA",
+    "slug": "la-rioja",
+    "type": "ccaa"
+  },
+  {
+    "id": "20",
+    "description": "ES230 - La Rioja",
+    "slug": "la-rioja",
+    "type": "provincia"
+  },
+  {
+    "id": "21",
+    "description": "ES24 - ARAGON",
+    "slug": "aragon",
+    "type": "ccaa"
+  },
+  {
+    "id": "22",
+    "description": "ES241 - Huesca",
+    "slug": "huesca",
+    "type": "provincia"
+  },
+  {
+    "id": "23",
+    "description": "ES242 - Teruel",
+    "slug": "teruel",
+    "type": "provincia"
+  },
+  {
+    "id": "24",
+    "description": "ES243 - Zaragoza",
+    "slug": "zaragoza",
+    "type": "provincia"
+  },
+  {
+    "id": "25",
+    "description": "ES3 - COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "region"
+  },
+  {
+    "id": "26",
+    "description": "ES30 - COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "ccaa"
+  },
+  {
+    "id": "27",
+    "description": "ES300 - Madrid",
+    "slug": "madrid",
+    "type": "provincia"
+  },
+  {
+    "id": "28",
+    "description": "ES4 - CENTRO (ES)",
+    "slug": "centro-es",
+    "type": "region"
+  },
+  {
+    "id": "29",
+    "description": "ES41 - CASTILLA Y LEON",
+    "slug": "castilla-y-leon",
+    "type": "ccaa"
+  },
+  {
+    "id": "30",
+    "description": "ES411 - Ávila",
+    "slug": "avila",
+    "type": "provincia"
+  },
+  {
+    "id": "31",
+    "description": "ES412 - Burgos",
+    "slug": "burgos",
+    "type": "provincia"
+  },
+  {
+    "id": "32",
+    "description": "ES413 - León",
+    "slug": "leon",
+    "type": "provincia"
+  },
+  {
+    "id": "33",
+    "description": "ES414 - Palencia",
+    "slug": "palencia",
+    "type": "provincia"
+  },
+  {
+    "id": "34",
+    "description": "ES415 - Salamanca",
+    "slug": "salamanca",
+    "type": "provincia"
+  },
+  {
+    "id": "35",
+    "description": "ES416 - Segovia",
+    "slug": "segovia",
+    "type": "provincia"
+  },
+  {
+    "id": "36",
+    "description": "ES417 - Soria",
+    "slug": "soria",
+    "type": "provincia"
+  },
+  {
+    "id": "37",
+    "description": "ES418 - Valladolid",
+    "slug": "valladolid",
+    "type": "provincia"
+  },
+  {
+    "id": "38",
+    "description": "ES419 - Zamora",
+    "slug": "zamora",
+    "type": "provincia"
+  },
+  {
+    "id": "39",
+    "description": "ES42 - CASTILLA LA MANCHA",
+    "slug": "castilla-la-mancha",
+    "type": "ccaa"
+  },
+  {
+    "id": "40",
+    "description": "ES421 - Albacete",
+    "slug": "albacete",
+    "type": "provincia"
+  },
+  {
+    "id": "41",
+    "description": "ES422 - Ciudad Real",
+    "slug": "ciudad-real",
+    "type": "provincia"
+  },
+  {
+    "id": "42",
+    "description": "ES423 - Cuenca",
+    "slug": "cuenca",
+    "type": "provincia"
+  },
+  {
+    "id": "43",
+    "description": "ES424 - Guadalajara",
+    "slug": "guadalajara",
+    "type": "provincia"
+  },
+  {
+    "id": "44",
+    "description": "ES425 - Toledo",
+    "slug": "toledo",
+    "type": "provincia"
+  },
+  {
+    "id": "45",
+    "description": "ES43 - EXTREMADURA",
+    "slug": "extremadura",
+    "type": "ccaa"
+  },
+  {
+    "id": "46",
+    "description": "ES431 - Badajoz",
+    "slug": "badajoz",
+    "type": "provincia"
+  },
+  {
+    "id": "47",
+    "description": "ES432 - Cáceres",
+    "slug": "caceres",
+    "type": "provincia"
+  },
+  {
+    "id": "48",
+    "description": "ES5 - ESTE",
+    "slug": "este",
+    "type": "region"
+  },
+  {
+    "id": "49",
+    "description": "ES51 - CATALUÑA",
+    "slug": "cataluna",
+    "type": "ccaa"
+  },
+  {
+    "id": "50",
+    "description": "ES511 - Barcelona",
+    "slug": "barcelona",
+    "type": "provincia"
+  },
+  {
+    "id": "51",
+    "description": "ES512 - Girona",
+    "slug": "girona",
+    "type": "provincia"
+  },
+  {
+    "id": "52",
+    "description": "ES513 - Lleida",
+    "slug": "lleida",
+    "type": "provincia"
+  },
+  {
+    "id": "53",
+    "description": "ES514 - Tarragona",
+    "slug": "tarragona",
+    "type": "provincia"
+  },
+  {
+    "id": "54",
+    "description": "ES52 - COMUNIDAD VALENCIANA",
+    "slug": "comunidad-valenciana",
+    "type": "ccaa"
+  },
+  {
+    "id": "55",
+    "description": "ES521 - Alicante / Alacant",
+    "slug": "alicante-alacant",
+    "type": "provincia"
+  },
+  {
+    "id": "56",
+    "description": "ES522 - Castellón / Castelló",
+    "slug": "castellon-castello",
+    "type": "provincia"
+  },
+  {
+    "id": "57",
+    "description": "ES523 - Valencia / València",
+    "slug": "valencia-valencia",
+    "type": "provincia"
+  },
+  {
+    "id": "58",
+    "description": "ES53 - ILLES BALEARS",
+    "slug": "illes-balears",
+    "type": "ccaa"
+  },
+  {
+    "id": "59",
+    "description": "ES531 - Eivissa y Formentera",
+    "slug": "eivissa-y-formentera",
+    "type": "provincia"
+  },
+  {
+    "id": "60",
+    "description": "ES532 - Mallorca",
+    "slug": "mallorca",
+    "type": "provincia"
+  },
+  {
+    "id": "61",
+    "description": "ES533 - Menorca",
+    "slug": "menorca",
+    "type": "provincia"
+  },
+  {
+    "id": "62",
+    "description": "ES6 - SUR",
+    "slug": "sur",
+    "type": "region"
+  },
+  {
+    "id": "63",
+    "description": "ES61 - ANDALUCIA",
+    "slug": "andalucia",
+    "type": "ccaa"
+  },
+  {
+    "id": "64",
+    "description": "ES611 - Almería",
+    "slug": "almeria",
+    "type": "provincia"
+  },
+  {
+    "id": "65",
+    "description": "ES612 - Cádiz",
+    "slug": "cadiz",
+    "type": "provincia"
+  },
+  {
+    "id": "66",
+    "description": "ES613 - Córdoba",
+    "slug": "cordoba",
+    "type": "provincia"
+  },
+  {
+    "id": "67",
+    "description": "ES614 - Granada",
+    "slug": "granada",
+    "type": "provincia"
+  },
+  {
+    "id": "68",
+    "description": "ES615 - Huelva",
+    "slug": "huelva",
+    "type": "provincia"
+  },
+  {
+    "id": "69",
+    "description": "ES616 - Jaén",
+    "slug": "jaen",
+    "type": "provincia"
+  },
+  {
+    "id": "70",
+    "description": "ES617 - Málaga",
+    "slug": "malaga",
+    "type": "provincia"
+  },
+  {
+    "id": "71",
+    "description": "ES618 - Sevilla",
+    "slug": "sevilla",
+    "type": "provincia"
+  },
+  {
+    "id": "72",
+    "description": "ES62 - REGION DE MURCIA",
+    "slug": "region-de-murcia",
+    "type": "ccaa"
+  },
+  {
+    "id": "73",
+    "description": "ES620 - Murcia",
+    "slug": "murcia",
+    "type": "provincia"
+  },
+  {
+    "id": "74",
+    "description": "ES63 - CIUDAD AUTONOMA DE CEUTA",
+    "slug": "ciudad-autonoma-de-ceuta",
+    "type": "ccaa"
+  },
+  {
+    "id": "75",
+    "description": "ES630 - Ceuta",
+    "slug": "ceuta",
+    "type": "provincia"
+  },
+  {
+    "id": "76",
+    "description": "ES64 - CIUDAD AUTONOMA DE MELILLA",
+    "slug": "ciudad-autonoma-de-melilla",
+    "type": "ccaa"
+  },
+  {
+    "id": "77",
+    "description": "ES640 - Melilla",
+    "slug": "melilla",
+    "type": "provincia"
+  },
+  {
+    "id": "78",
+    "description": "ES7 - CANARIAS",
+    "slug": "canarias",
+    "type": "region"
+  },
+  {
+    "id": "79",
+    "description": "ES70 - CANARIAS",
+    "slug": "canarias",
+    "type": "ccaa"
+  },
+  {
+    "id": "80",
+    "description": "ES703 - El Hierro",
+    "slug": "el-hierro",
+    "type": "provincia"
+  },
+  {
+    "id": "81",
+    "description": "ES704 - Fuerteventura",
+    "slug": "fuerteventura",
+    "type": "provincia"
+  },
+  {
+    "id": "82",
+    "description": "ES705 - Gran Canaria",
+    "slug": "gran-canaria",
+    "type": "provincia"
+  },
+  {
+    "id": "83",
+    "description": "ES706 - La Gomera",
+    "slug": "la-gomera",
+    "type": "provincia"
+  },
+  {
+    "id": "84",
+    "description": "ES707 - La Palma",
+    "slug": "la-palma",
+    "type": "provincia"
+  },
+  {
+    "id": "85",
+    "description": "ES708 - Lanzarote",
+    "slug": "lanzarote",
+    "type": "provincia"
+  },
+  {
+    "id": "86",
+    "description": "ES709 - Tenerife",
+    "slug": "tenerife",
+    "type": "provincia"
+  },
+  {
+    "id": "87",
+    "description": "ESZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "90",
+    "description": "BE - BELGIQUE-BELGIË ",
+    "slug": "belgique-belgie",
+    "type": "pais"
+  },
+  {
+    "id": "91",
+    "description": "BE1 - RÉGION DE BRUXELLES-CAPITALE / BRUSSELS HOOFDSTEDELIJK GEWEST",
+    "slug": "region-de-bruxelles-capitale-brussels-hoofdstedelijk-gewest",
+    "type": "region"
+  },
+  {
+    "id": "107",
+    "description": "BG - BULGARIA",
+    "slug": "bulgaria",
+    "type": "pais"
+  },
+  {
+    "id": "118",
+    "description": "CZ - CESKÁ REPUBLIKA",
+    "slug": "ceska-republika",
+    "type": "pais"
+  },
+  {
+    "id": "119",
+    "description": "CZ0 - CESKÁ REPUBLIKA",
+    "slug": "ceska-republika",
+    "type": "region"
+  },
+  {
+    "id": "130",
+    "description": "DK - DANMARK",
+    "slug": "danmark",
+    "type": "pais"
+  },
+  {
+    "id": "137",
+    "description": "DKZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "139",
+    "description": "DE - DEUTSCHLAND ",
+    "slug": "deutschland",
+    "type": "pais"
+  },
+  {
+    "id": "140",
+    "description": "DE1 - BADEN-WÜRTTEMBERG",
+    "slug": "baden-wurttemberg",
+    "type": "region"
+  },
+  {
+    "id": "145",
+    "description": "DE2 - BAYERN",
+    "slug": "bayern",
+    "type": "region"
+  },
+  {
+    "id": "153",
+    "description": "DE3 - BERLIN",
+    "slug": "berlin",
+    "type": "region"
+  },
+  {
+    "id": "155",
+    "description": "DE4 - BRANDENBURG",
+    "slug": "brandenburg",
+    "type": "region"
+  },
+  {
+    "id": "159",
+    "description": "DE6 - HAMBURG",
+    "slug": "hamburg",
+    "type": "region"
+  },
+  {
+    "id": "172",
+    "description": "DEA - NORDRHEIN-WESTFALEN",
+    "slug": "nordrhein-westfalen",
+    "type": "pais"
+  },
+  {
+    "id": "196",
+    "description": "EE - EESTI",
+    "slug": "eesti",
+    "type": "pais"
+  },
+  {
+    "id": "201",
+    "description": "IE - IRELAND",
+    "slug": "ireland",
+    "type": "pais"
+  },
+  {
+    "id": "207",
+    "description": "EL - ELLADA",
+    "slug": "ellada",
+    "type": "pais"
+  },
+  {
+    "id": "225",
+    "description": "ELZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "227",
+    "description": "FR - FRANCE",
+    "slug": "france",
+    "type": "pais"
+  },
+  {
+    "id": "228",
+    "description": "FR1 - ÎLE DE FRANCE",
+    "slug": "ile-de-france",
+    "type": "region"
+  },
+  {
+    "id": "247",
+    "description": "FR6 - SUD-OUEST",
+    "slug": "sud-ouest",
+    "type": "region"
+  },
+  {
+    "id": "251",
+    "description": "FR7 - CENTRE-EST",
+    "slug": "centre-est",
+    "type": "region"
+  },
+  {
+    "id": "254",
+    "description": "FR8 - MÉDITERRANÉE",
+    "slug": "mediterranee",
+    "type": "region"
+  },
+  {
+    "id": "266",
+    "description": "HR - HRVATSKA",
+    "slug": "hrvatska",
+    "type": "pais"
+  },
+  {
+    "id": "270",
+    "description": "HRZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "272",
+    "description": "IT - ITALIA ",
+    "slug": "italia",
+    "type": "pais"
+  },
+  {
+    "id": "273",
+    "description": "ITC - NORD-OVEST",
+    "slug": "nord-ovest",
+    "type": "pais"
+  },
+  {
+    "id": "294",
+    "description": "ITI - CENTRO (IT)",
+    "slug": "centro-it",
+    "type": "pais"
+  },
+  {
+    "id": "301",
+    "description": "CY - KÝPROS",
+    "slug": "kypros",
+    "type": "pais"
+  },
+  {
+    "id": "306",
+    "description": "LV - LATVIJA",
+    "slug": "latvija",
+    "type": "pais"
+  },
+  {
+    "id": "311",
+    "description": "LT - LIETUVA",
+    "slug": "lietuva",
+    "type": "pais"
+  },
+  {
+    "id": "312",
+    "description": "LT0 - LIETUVA",
+    "slug": "lietuva",
+    "type": "region"
+  },
+  {
+    "id": "316",
+    "description": "LU - LUXEMBOURG",
+    "slug": "luxembourg",
+    "type": "pais"
+  },
+  {
+    "id": "319",
+    "description": "LUZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "321",
+    "description": "HU - MAGYARORSZÁG",
+    "slug": "magyarorszag",
+    "type": "pais"
+  },
+  {
+    "id": "334",
+    "description": "MT - MALTA",
+    "slug": "malta",
+    "type": "pais"
+  },
+  {
+    "id": "339",
+    "description": "NL - NEDERLAND ",
+    "slug": "nederland",
+    "type": "pais"
+  },
+  {
+    "id": "358",
+    "description": "AT - ÖSTERREICH",
+    "slug": "osterreich",
+    "type": "pais"
+  },
+  {
+    "id": "366",
+    "description": "AT3 - WESTÖSTERREICH",
+    "slug": "westosterreich",
+    "type": "region"
+  },
+  {
+    "id": "371",
+    "description": "ATZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "373",
+    "description": "PL - POLSKA",
+    "slug": "polska",
+    "type": "pais"
+  },
+  {
+    "id": "374",
+    "description": "PL1 - REGION CENTRALNY",
+    "slug": "region-centralny",
+    "type": "region"
+  },
+  {
+    "id": "398",
+    "description": "PT - PORTUGAL",
+    "slug": "portugal",
+    "type": "pais"
+  },
+  {
+    "id": "399",
+    "description": "PT1 - CONTINENTE",
+    "slug": "continente",
+    "type": "region"
+  },
+  {
+    "id": "411",
+    "description": "RO - ROMÂNIA",
+    "slug": "romania",
+    "type": "pais"
+  },
+  {
+    "id": "426",
+    "description": "SI - SLOVENIJA",
+    "slug": "slovenija",
+    "type": "pais"
+  },
+  {
+    "id": "432",
+    "description": "SK - SLOVENSKO",
+    "slug": "slovensko",
+    "type": "pais"
+  },
+  {
+    "id": "440",
+    "description": "FI - SUOMI / FINLAND",
+    "slug": "suomi-finland",
+    "type": "pais"
+  },
+  {
+    "id": "448",
+    "description": "FIZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "450",
+    "description": "SE - SVERIGE",
+    "slug": "sverige",
+    "type": "pais"
+  },
+  {
+    "id": "462",
+    "description": "SEZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "464",
+    "description": "UK - UNITED KINGDOM",
+    "slug": "united-kingdom",
+    "type": "pais"
+  },
+  {
+    "id": "465",
+    "description": "UKC - NORTH EAST (ENGLAND)",
+    "slug": "north-east-england",
+    "type": "pais"
+  },
+  {
+    "id": "468",
+    "description": "UKD - NORTH WEST (ENGLAND)",
+    "slug": "north-west-england",
+    "type": "pais"
+  },
+  {
+    "id": "479",
+    "description": "UKF - EAST MIDLANDS (ENGLAND)",
+    "slug": "east-midlands-england",
+    "type": "pais"
+  },
+  {
+    "id": "483",
+    "description": "UKG - WEST MIDLANDS (ENGLAND)",
+    "slug": "west-midlands-england",
+    "type": "pais"
+  },
+  {
+    "id": "487",
+    "description": "UKH - EAST OF ENGLAND",
+    "slug": "east-of-england",
+    "type": "pais"
+  },
+  {
+    "id": "491",
+    "description": "UKI - LONDON",
+    "slug": "london",
+    "type": "pais"
+  },
+  {
+    "id": "497",
+    "description": "UKJ - SOUTH EAST (ENGLAND)",
+    "slug": "south-east-england",
+    "type": "pais"
+  },
+  {
+    "id": "502",
+    "description": "UKK - SOUTH WEST (ENGLAND)",
+    "slug": "south-west-england",
+    "type": "pais"
+  },
+  {
+    "id": "510",
+    "description": "UKM - SCOTLAND",
+    "slug": "scotland",
+    "type": "pais"
+  },
+  {
+    "id": "517",
+    "description": "UKZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "520",
+    "description": "XXX - Regiones o países no europeos, no contemplados en NUTS",
+    "slug": "regiones-o-paises-no-europeos-no-contemplados-en-nuts",
+    "type": "pais"
+  },
+  {
+    "id": "521",
+    "description": "XXXX - TODO EL MUNDO",
+    "slug": "todo-el-mundo",
+    "type": "pais"
+  },
+  {
+    "id": "1",
+    "description": "ES - ESPAÑA ",
+    "slug": "espana",
+    "type": "pais"
+  },
+  {
+    "id": "2",
+    "description": "ES1 - NOROESTE",
+    "slug": "noroeste",
+    "type": "region"
+  },
+  {
+    "id": "3",
+    "description": "ES11 - GALICIA",
+    "slug": "galicia",
+    "type": "ccaa"
+  },
+  {
+    "id": "4",
+    "description": "ES111 - A Coruña",
+    "slug": "a-coruna",
+    "type": "provincia"
+  },
+  {
+    "id": "5",
+    "description": "ES112 - Lugo",
+    "slug": "lugo",
+    "type": "provincia"
+  },
+  {
+    "id": "6",
+    "description": "ES113 - Ourense",
+    "slug": "ourense",
+    "type": "provincia"
+  },
+  {
+    "id": "7",
+    "description": "ES114 - Pontevedra",
+    "slug": "pontevedra",
+    "type": "provincia"
+  },
+  {
+    "id": "8",
+    "description": "ES12 - PRINCIPADO DE ASTURIAS",
+    "slug": "principado-de-asturias",
+    "type": "ccaa"
+  },
+  {
+    "id": "9",
+    "description": "ES120 - Asturias",
+    "slug": "asturias",
+    "type": "provincia"
+  },
+  {
+    "id": "10",
+    "description": "ES13 - CANTABRIA",
+    "slug": "cantabria",
+    "type": "ccaa"
+  },
+  {
+    "id": "11",
+    "description": "ES130 - Cantabria",
+    "slug": "cantabria",
+    "type": "provincia"
+  },
+  {
+    "id": "12",
+    "description": "ES2 - NORESTE",
+    "slug": "noreste",
+    "type": "region"
+  },
+  {
+    "id": "13",
+    "description": "ES21 - PAIS VASCO",
+    "slug": "pais-vasco",
+    "type": "ccaa"
+  },
+  {
+    "id": "14",
+    "description": "ES211 - Araba/Álava",
+    "slug": "araba-alava",
+    "type": "provincia"
+  },
+  {
+    "id": "15",
+    "description": "ES212 - Gipuzkoa",
+    "slug": "gipuzkoa",
+    "type": "provincia"
+  },
+  {
+    "id": "16",
+    "description": "ES213 - Bizkaia",
+    "slug": "bizkaia",
+    "type": "provincia"
+  },
+  {
+    "id": "17",
+    "description": "ES22 - COMUNIDAD FORAL DE NAVARRA",
+    "slug": "comunidad-foral-de-navarra",
+    "type": "ccaa"
+  },
+  {
+    "id": "18",
+    "description": "ES220 - Navarra",
+    "slug": "navarra",
+    "type": "provincia"
+  },
+  {
+    "id": "19",
+    "description": "ES23 - LA RIOJA",
+    "slug": "la-rioja",
+    "type": "ccaa"
+  },
+  {
+    "id": "20",
+    "description": "ES230 - La Rioja",
+    "slug": "la-rioja",
+    "type": "provincia"
+  },
+  {
+    "id": "21",
+    "description": "ES24 - ARAGON",
+    "slug": "aragon",
+    "type": "ccaa"
+  },
+  {
+    "id": "22",
+    "description": "ES241 - Huesca",
+    "slug": "huesca",
+    "type": "provincia"
+  },
+  {
+    "id": "23",
+    "description": "ES242 - Teruel",
+    "slug": "teruel",
+    "type": "provincia"
+  },
+  {
+    "id": "24",
+    "description": "ES243 - Zaragoza",
+    "slug": "zaragoza",
+    "type": "provincia"
+  },
+  {
+    "id": "25",
+    "description": "ES3 - COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "region"
+  },
+  {
+    "id": "26",
+    "description": "ES30 - COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "ccaa"
+  },
+  {
+    "id": "27",
+    "description": "ES300 - Madrid",
+    "slug": "madrid",
+    "type": "provincia"
+  },
+  {
+    "id": "28",
+    "description": "ES4 - CENTRO (ES)",
+    "slug": "centro-es",
+    "type": "region"
+  },
+  {
+    "id": "29",
+    "description": "ES41 - CASTILLA Y LEON",
+    "slug": "castilla-y-leon",
+    "type": "ccaa"
+  },
+  {
+    "id": "30",
+    "description": "ES411 - Ávila",
+    "slug": "avila",
+    "type": "provincia"
+  },
+  {
+    "id": "31",
+    "description": "ES412 - Burgos",
+    "slug": "burgos",
+    "type": "provincia"
+  },
+  {
+    "id": "32",
+    "description": "ES413 - León",
+    "slug": "leon",
+    "type": "provincia"
+  },
+  {
+    "id": "33",
+    "description": "ES414 - Palencia",
+    "slug": "palencia",
+    "type": "provincia"
+  },
+  {
+    "id": "34",
+    "description": "ES415 - Salamanca",
+    "slug": "salamanca",
+    "type": "provincia"
+  },
+  {
+    "id": "35",
+    "description": "ES416 - Segovia",
+    "slug": "segovia",
+    "type": "provincia"
+  },
+  {
+    "id": "36",
+    "description": "ES417 - Soria",
+    "slug": "soria",
+    "type": "provincia"
+  },
+  {
+    "id": "37",
+    "description": "ES418 - Valladolid",
+    "slug": "valladolid",
+    "type": "provincia"
+  },
+  {
+    "id": "38",
+    "description": "ES419 - Zamora",
+    "slug": "zamora",
+    "type": "provincia"
+  },
+  {
+    "id": "39",
+    "description": "ES42 - CASTILLA LA MANCHA",
+    "slug": "castilla-la-mancha",
+    "type": "ccaa"
+  },
+  {
+    "id": "40",
+    "description": "ES421 - Albacete",
+    "slug": "albacete",
+    "type": "provincia"
+  },
+  {
+    "id": "41",
+    "description": "ES422 - Ciudad Real",
+    "slug": "ciudad-real",
+    "type": "provincia"
+  },
+  {
+    "id": "42",
+    "description": "ES423 - Cuenca",
+    "slug": "cuenca",
+    "type": "provincia"
+  },
+  {
+    "id": "43",
+    "description": "ES424 - Guadalajara",
+    "slug": "guadalajara",
+    "type": "provincia"
+  },
+  {
+    "id": "44",
+    "description": "ES425 - Toledo",
+    "slug": "toledo",
+    "type": "provincia"
+  },
+  {
+    "id": "45",
+    "description": "ES43 - EXTREMADURA",
+    "slug": "extremadura",
+    "type": "ccaa"
+  },
+  {
+    "id": "46",
+    "description": "ES431 - Badajoz",
+    "slug": "badajoz",
+    "type": "provincia"
+  },
+  {
+    "id": "47",
+    "description": "ES432 - Cáceres",
+    "slug": "caceres",
+    "type": "provincia"
+  },
+  {
+    "id": "48",
+    "description": "ES5 - ESTE",
+    "slug": "este",
+    "type": "region"
+  },
+  {
+    "id": "49",
+    "description": "ES51 - CATALUÑA",
+    "slug": "cataluna",
+    "type": "ccaa"
+  },
+  {
+    "id": "50",
+    "description": "ES511 - Barcelona",
+    "slug": "barcelona",
+    "type": "provincia"
+  },
+  {
+    "id": "51",
+    "description": "ES512 - Girona",
+    "slug": "girona",
+    "type": "provincia"
+  },
+  {
+    "id": "52",
+    "description": "ES513 - Lleida",
+    "slug": "lleida",
+    "type": "provincia"
+  },
+  {
+    "id": "53",
+    "description": "ES514 - Tarragona",
+    "slug": "tarragona",
+    "type": "provincia"
+  },
+  {
+    "id": "54",
+    "description": "ES52 - COMUNIDAD VALENCIANA",
+    "slug": "comunidad-valenciana",
+    "type": "ccaa"
+  },
+  {
+    "id": "55",
+    "description": "ES521 - Alicante / Alacant",
+    "slug": "alicante-alacant",
+    "type": "provincia"
+  },
+  {
+    "id": "56",
+    "description": "ES522 - Castellón / Castelló",
+    "slug": "castellon-castello",
+    "type": "provincia"
+  },
+  {
+    "id": "57",
+    "description": "ES523 - Valencia / València",
+    "slug": "valencia-valencia",
+    "type": "provincia"
+  },
+  {
+    "id": "58",
+    "description": "ES53 - ILLES BALEARS",
+    "slug": "illes-balears",
+    "type": "ccaa"
+  },
+  {
+    "id": "59",
+    "description": "ES531 - Eivissa y Formentera",
+    "slug": "eivissa-y-formentera",
+    "type": "provincia"
+  },
+  {
+    "id": "60",
+    "description": "ES532 - Mallorca",
+    "slug": "mallorca",
+    "type": "provincia"
+  },
+  {
+    "id": "61",
+    "description": "ES533 - Menorca",
+    "slug": "menorca",
+    "type": "provincia"
+  },
+  {
+    "id": "62",
+    "description": "ES6 - SUR",
+    "slug": "sur",
+    "type": "region"
+  },
+  {
+    "id": "63",
+    "description": "ES61 - ANDALUCIA",
+    "slug": "andalucia",
+    "type": "ccaa"
+  },
+  {
+    "id": "64",
+    "description": "ES611 - Almería",
+    "slug": "almeria",
+    "type": "provincia"
+  },
+  {
+    "id": "65",
+    "description": "ES612 - Cádiz",
+    "slug": "cadiz",
+    "type": "provincia"
+  },
+  {
+    "id": "66",
+    "description": "ES613 - Córdoba",
+    "slug": "cordoba",
+    "type": "provincia"
+  },
+  {
+    "id": "67",
+    "description": "ES614 - Granada",
+    "slug": "granada",
+    "type": "provincia"
+  },
+  {
+    "id": "68",
+    "description": "ES615 - Huelva",
+    "slug": "huelva",
+    "type": "provincia"
+  },
+  {
+    "id": "69",
+    "description": "ES616 - Jaén",
+    "slug": "jaen",
+    "type": "provincia"
+  },
+  {
+    "id": "70",
+    "description": "ES617 - Málaga",
+    "slug": "malaga",
+    "type": "provincia"
+  },
+  {
+    "id": "71",
+    "description": "ES618 - Sevilla",
+    "slug": "sevilla",
+    "type": "provincia"
+  },
+  {
+    "id": "72",
+    "description": "ES62 - REGION DE MURCIA",
+    "slug": "region-de-murcia",
+    "type": "ccaa"
+  },
+  {
+    "id": "73",
+    "description": "ES620 - Murcia",
+    "slug": "murcia",
+    "type": "provincia"
+  },
+  {
+    "id": "74",
+    "description": "ES63 - CIUDAD AUTONOMA DE CEUTA",
+    "slug": "ciudad-autonoma-de-ceuta",
+    "type": "ccaa"
+  },
+  {
+    "id": "75",
+    "description": "ES630 - Ceuta",
+    "slug": "ceuta",
+    "type": "provincia"
+  },
+  {
+    "id": "76",
+    "description": "ES64 - CIUDAD AUTONOMA DE MELILLA",
+    "slug": "ciudad-autonoma-de-melilla",
+    "type": "ccaa"
+  },
+  {
+    "id": "77",
+    "description": "ES640 - Melilla",
+    "slug": "melilla",
+    "type": "provincia"
+  },
+  {
+    "id": "78",
+    "description": "ES7 - CANARIAS",
+    "slug": "canarias",
+    "type": "region"
+  },
+  {
+    "id": "79",
+    "description": "ES70 - CANARIAS",
+    "slug": "canarias",
+    "type": "ccaa"
+  },
+  {
+    "id": "80",
+    "description": "ES703 - El Hierro",
+    "slug": "el-hierro",
+    "type": "provincia"
+  },
+  {
+    "id": "81",
+    "description": "ES704 - Fuerteventura",
+    "slug": "fuerteventura",
+    "type": "provincia"
+  },
+  {
+    "id": "82",
+    "description": "ES705 - Gran Canaria",
+    "slug": "gran-canaria",
+    "type": "provincia"
+  },
+  {
+    "id": "83",
+    "description": "ES706 - La Gomera",
+    "slug": "la-gomera",
+    "type": "provincia"
+  },
+  {
+    "id": "84",
+    "description": "ES707 - La Palma",
+    "slug": "la-palma",
+    "type": "provincia"
+  },
+  {
+    "id": "85",
+    "description": "ES708 - Lanzarote",
+    "slug": "lanzarote",
+    "type": "provincia"
+  },
+  {
+    "id": "86",
+    "description": "ES709 - Tenerife",
+    "slug": "tenerife",
+    "type": "provincia"
+  },
+  {
+    "id": "87",
+    "description": "ESZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "90",
+    "description": "BE - BELGIQUE-BELGIË ",
+    "slug": "belgique-belgie",
+    "type": "pais"
+  },
+  {
+    "id": "91",
+    "description": "BE1 - RÉGION DE BRUXELLES-CAPITALE / BRUSSELS HOOFDSTEDELIJK GEWEST",
+    "slug": "region-de-bruxelles-capitale-brussels-hoofdstedelijk-gewest",
+    "type": "region"
+  },
+  {
+    "id": "107",
+    "description": "BG - BULGARIA",
+    "slug": "bulgaria",
+    "type": "pais"
+  },
+  {
+    "id": "118",
+    "description": "CZ - CESKÁ REPUBLIKA",
+    "slug": "ceska-republika",
+    "type": "pais"
+  },
+  {
+    "id": "119",
+    "description": "CZ0 - CESKÁ REPUBLIKA",
+    "slug": "ceska-republika",
+    "type": "region"
+  },
+  {
+    "id": "130",
+    "description": "DK - DANMARK",
+    "slug": "danmark",
+    "type": "pais"
+  },
+  {
+    "id": "137",
+    "description": "DKZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "139",
+    "description": "DE - DEUTSCHLAND ",
+    "slug": "deutschland",
+    "type": "pais"
+  },
+  {
+    "id": "140",
+    "description": "DE1 - BADEN-WÜRTTEMBERG",
+    "slug": "baden-wurttemberg",
+    "type": "region"
+  },
+  {
+    "id": "145",
+    "description": "DE2 - BAYERN",
+    "slug": "bayern",
+    "type": "region"
+  },
+  {
+    "id": "153",
+    "description": "DE3 - BERLIN",
+    "slug": "berlin",
+    "type": "region"
+  },
+  {
+    "id": "155",
+    "description": "DE4 - BRANDENBURG",
+    "slug": "brandenburg",
+    "type": "region"
+  },
+  {
+    "id": "159",
+    "description": "DE6 - HAMBURG",
+    "slug": "hamburg",
+    "type": "region"
+  },
+  {
+    "id": "172",
+    "description": "DEA - NORDRHEIN-WESTFALEN",
+    "slug": "nordrhein-westfalen",
+    "type": "pais"
+  },
+  {
+    "id": "196",
+    "description": "EE - EESTI",
+    "slug": "eesti",
+    "type": "pais"
+  },
+  {
+    "id": "201",
+    "description": "IE - IRELAND",
+    "slug": "ireland",
+    "type": "pais"
+  },
+  {
+    "id": "207",
+    "description": "EL - ELLADA",
+    "slug": "ellada",
+    "type": "pais"
+  },
+  {
+    "id": "225",
+    "description": "ELZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "227",
+    "description": "FR - FRANCE",
+    "slug": "france",
+    "type": "pais"
+  },
+  {
+    "id": "228",
+    "description": "FR1 - ÎLE DE FRANCE",
+    "slug": "ile-de-france",
+    "type": "region"
+  },
+  {
+    "id": "247",
+    "description": "FR6 - SUD-OUEST",
+    "slug": "sud-ouest",
+    "type": "region"
+  },
+  {
+    "id": "251",
+    "description": "FR7 - CENTRE-EST",
+    "slug": "centre-est",
+    "type": "region"
+  },
+  {
+    "id": "254",
+    "description": "FR8 - MÉDITERRANÉE",
+    "slug": "mediterranee",
+    "type": "region"
+  },
+  {
+    "id": "266",
+    "description": "HR - HRVATSKA",
+    "slug": "hrvatska",
+    "type": "pais"
+  },
+  {
+    "id": "270",
+    "description": "HRZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "272",
+    "description": "IT - ITALIA ",
+    "slug": "italia",
+    "type": "pais"
+  },
+  {
+    "id": "273",
+    "description": "ITC - NORD-OVEST",
+    "slug": "nord-ovest",
+    "type": "pais"
+  },
+  {
+    "id": "294",
+    "description": "ITI - CENTRO (IT)",
+    "slug": "centro-it",
+    "type": "pais"
+  },
+  {
+    "id": "301",
+    "description": "CY - KÝPROS",
+    "slug": "kypros",
+    "type": "pais"
+  },
+  {
+    "id": "306",
+    "description": "LV - LATVIJA",
+    "slug": "latvija",
+    "type": "pais"
+  },
+  {
+    "id": "311",
+    "description": "LT - LIETUVA",
+    "slug": "lietuva",
+    "type": "pais"
+  },
+  {
+    "id": "312",
+    "description": "LT0 - LIETUVA",
+    "slug": "lietuva",
+    "type": "region"
+  },
+  {
+    "id": "316",
+    "description": "LU - LUXEMBOURG",
+    "slug": "luxembourg",
+    "type": "pais"
+  },
+  {
+    "id": "319",
+    "description": "LUZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "321",
+    "description": "HU - MAGYARORSZÁG",
+    "slug": "magyarorszag",
+    "type": "pais"
+  },
+  {
+    "id": "334",
+    "description": "MT - MALTA",
+    "slug": "malta",
+    "type": "pais"
+  },
+  {
+    "id": "339",
+    "description": "NL - NEDERLAND ",
+    "slug": "nederland",
+    "type": "pais"
+  },
+  {
+    "id": "358",
+    "description": "AT - ÖSTERREICH",
+    "slug": "osterreich",
+    "type": "pais"
+  },
+  {
+    "id": "366",
+    "description": "AT3 - WESTÖSTERREICH",
+    "slug": "westosterreich",
+    "type": "region"
+  },
+  {
+    "id": "371",
+    "description": "ATZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "373",
+    "description": "PL - POLSKA",
+    "slug": "polska",
+    "type": "pais"
+  },
+  {
+    "id": "374",
+    "description": "PL1 - REGION CENTRALNY",
+    "slug": "region-centralny",
+    "type": "region"
+  },
+  {
+    "id": "398",
+    "description": "PT - PORTUGAL",
+    "slug": "portugal",
+    "type": "pais"
+  },
+  {
+    "id": "399",
+    "description": "PT1 - CONTINENTE",
+    "slug": "continente",
+    "type": "region"
+  },
+  {
+    "id": "411",
+    "description": "RO - ROMÂNIA",
+    "slug": "romania",
+    "type": "pais"
+  },
+  {
+    "id": "426",
+    "description": "SI - SLOVENIJA",
+    "slug": "slovenija",
+    "type": "pais"
+  },
+  {
+    "id": "432",
+    "description": "SK - SLOVENSKO",
+    "slug": "slovensko",
+    "type": "pais"
+  },
+  {
+    "id": "440",
+    "description": "FI - SUOMI / FINLAND",
+    "slug": "suomi-finland",
+    "type": "pais"
+  },
+  {
+    "id": "448",
+    "description": "FIZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "450",
+    "description": "SE - SVERIGE",
+    "slug": "sverige",
+    "type": "pais"
+  },
+  {
+    "id": "462",
+    "description": "SEZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "464",
+    "description": "UK - UNITED KINGDOM",
+    "slug": "united-kingdom",
+    "type": "pais"
+  },
+  {
+    "id": "465",
+    "description": "UKC - NORTH EAST (ENGLAND)",
+    "slug": "north-east-england",
+    "type": "pais"
+  },
+  {
+    "id": "468",
+    "description": "UKD - NORTH WEST (ENGLAND)",
+    "slug": "north-west-england",
+    "type": "pais"
+  },
+  {
+    "id": "479",
+    "description": "UKF - EAST MIDLANDS (ENGLAND)",
+    "slug": "east-midlands-england",
+    "type": "pais"
+  },
+  {
+    "id": "483",
+    "description": "UKG - WEST MIDLANDS (ENGLAND)",
+    "slug": "west-midlands-england",
+    "type": "pais"
+  },
+  {
+    "id": "487",
+    "description": "UKH - EAST OF ENGLAND",
+    "slug": "east-of-england",
+    "type": "pais"
+  },
+  {
+    "id": "491",
+    "description": "UKI - LONDON",
+    "slug": "london",
+    "type": "pais"
+  },
+  {
+    "id": "497",
+    "description": "UKJ - SOUTH EAST (ENGLAND)",
+    "slug": "south-east-england",
+    "type": "pais"
+  },
+  {
+    "id": "502",
+    "description": "UKK - SOUTH WEST (ENGLAND)",
+    "slug": "south-west-england",
+    "type": "pais"
+  },
+  {
+    "id": "510",
+    "description": "UKM - SCOTLAND",
+    "slug": "scotland",
+    "type": "pais"
+  },
+  {
+    "id": "517",
+    "description": "UKZ - EXTRA-REGIO NUTS 1",
+    "slug": "extra-regio-nuts-1",
+    "type": "pais"
+  },
+  {
+    "id": "520",
+    "description": "XXX - Regiones o países no europeos, no contemplados en NUTS",
+    "slug": "regiones-o-paises-no-europeos-no-contemplados-en-nuts",
+    "type": "pais"
+  },
+  {
+    "id": "521",
+    "description": "XXXX - TODO EL MUNDO",
+    "slug": "todo-el-mundo",
+    "type": "pais"
+  }
+]

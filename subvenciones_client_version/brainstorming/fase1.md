@@ -59,7 +59,6 @@ Cada beneficiario tiene:
 - `id` (Number)
 - `descripcion` (Text)
 - `slug` (Text, URL-safe)
-- `active` (Checkbox) — si incluir en combinaciones diarias
 
 ### Tabla: Regiones
 Sincronizada desde `GET /api/regiones`
@@ -85,9 +84,9 @@ Ejemplos:
 ## Flujo de esta fase
 
 ### Paso 1: Crear las 4 tablas en Notion
-1. **Beneficiarios** (campos: id, descripcion, slug, active)
-2. **Regiones** (campos: id, nombre, slug, tipo, active)
-3. **Finalidades** (campos: id, descripcion, slug, active)
+1. **Beneficiarios** (campos: id, descripcion, slug)
+2. **Regiones** (campos: id, nombre, slug, tipo)
+3. **Finalidades** (campos: id, descripcion, slug)
 4. **Query History** (estructura descrita arriba)
 
 ### Paso 2: Sincronizar catálogos desde las APIs

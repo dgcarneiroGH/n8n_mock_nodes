@@ -1,0 +1,27 @@
+[
+  {
+    "id": 3,
+    "description": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA",
+    "slug": "pyme-y-personas-fisicas-que-desarrollan-actividad-economica"
+  },
+  {
+    "id": 4,
+    "description": "GRAN EMPRESA",
+    "slug": "gran-empresa"
+  },
+  {
+    "id": 2,
+    "description": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
+    "slug": "personas-juridicas-que-no-desarrollan-actividad-economica"
+  },
+  {
+    "id": 1,
+    "description": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
+    "slug": "personas-fisicas-que-no-desarrollan-actividad-economica"
+  },
+  {
+    "id": 5,
+    "description": "SIN INFORMACION ESPECIFICA",
+    "slug": "sin-informacion-especifica"
+  }
+]
