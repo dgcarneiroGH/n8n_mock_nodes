@@ -12,12 +12,18 @@ Obtener subvenciones usando las combinaciones prioritarias de Fase 1 (Query Hist
 
 ### Paso 1: Leer combinaciones prioritarias de Query History
 Cada día, n8n:
-1. Lee Query History ordenado por `priority_score` DESC
-2. Selecciona las TOP 15-20 combos para procesar hoy
-3. Para cada combo, ejecuta:
+1. Lee Query History filtrando solo `status = active`
+2. Ordena las activas por `priority_score` DESC
+3. Selecciona las TOP 15-20 combos activas para procesar hoy
+4. Para cada combo, ejecuta:
    ```
    GET /api/grants?beneficiario_id=X&región_id=Y&finalidad_id=Z
    ```
+
+**Regla de eficiencia (filtro duro):**
+- `low_volume` y `no_results` NO pasan a Fase 2.
+- `pending` NO pasa a Fase 2 (se resuelve en Fase 1 al recalcular estado).
+- El umbral de `active` es configurable en el nodo de Query History (`MIN_RESULTS_FOR_ACTIVE`, por defecto 10).
 
 ### Paso 2: Almacenar subvenciones en Notion
 Crear/actualizar registros en la tabla `Subvenciones` con:
@@ -307,7 +313,7 @@ general (fallback)
 Combo: 3_15_4 (PYME + Galicia + Cultura)
 Status: active
 Last checked: 2026-05-26
-Count results: 8 subvenciones
+Count results: 12 subvenciones
 ```
 
 **2. Tags estructurales obligatorios**
@@ -430,9 +436,11 @@ Revisor manual debe:
 ```
 [Inicio diario 8:00 AM - después de Fase 1]
     ↓
-[Leer Query History] → Ordenar por priority_score DESC
+[Leer Query History] → Filtrar status = active
+  ↓
+[Ordenar activas por priority_score DESC]
     ↓
-[Seleccionar TOP 15-20 combos]
+[Seleccionar TOP 15-20 combos activas]
     ↓
 [Loop: Para cada combo]
 │
@@ -450,6 +458,8 @@ Revisor manual debe:
 │
 [End] → Listar subvenciones con needs_review
 ```
+
+**Nota:** Las combinaciones `low_volume`, `no_results` y `pending` se gestionan en Fase 1 y no consumen recursos de tagging en Fase 2.
 
 ## Revisión manual de subvenciones
 
