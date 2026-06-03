@@ -1,7 +1,7 @@
 # Fase 2 — Obtención y Tagging Automático de Subvenciones
 
 ## Objetivo
-Obtener subvenciones usando las combinaciones prioritarias de Fase 1 (Query History) y etiquetarlas automáticamente con reglas deterministas, minimizando el uso de IA.
+Obtener subvenciones usando las combinaciones prioritarias de Fase 1 (Query History) y etiquetarlas automáticamente con reglas deterministas, minimizando el uso de IA. En una primera pasada, el tagging se hace con TITULO (sin depender de descripcion), y la descripcion se enriquece después desde el detalle de la subvencion.
 
 ## Dependencias de Fase 1
 - ✓ Tabla Query History con combinaciones prioritarias
@@ -14,7 +14,7 @@ Obtener subvenciones usando las combinaciones prioritarias de Fase 1 (Query Hist
 Cada día, n8n:
 1. Lee Query History filtrando solo `status = active`
 2. Ordena las activas por `priority_score` DESC
-3. Selecciona las TOP 15-20 combos activas para procesar hoy
+3. Selecciona las TOP 100 combos activas para procesar hoy
 4. Para cada combo, ejecuta:
    ```
    GET /api/grants?beneficiario_id=X&región_id=Y&finalidad_id=Z
@@ -29,7 +29,7 @@ Cada día, n8n:
 Crear/actualizar registros en la tabla `Subvenciones` con:
 - `id` (ID único de la API)
 - `titulo`
-- `descripcion`
+- `descripcion` (nullable al inicio)
 - `beneficiario_id` (FK)
 - `región_id` (FK)
 - `finalidad_id` (FK)
@@ -38,6 +38,37 @@ Crear/actualizar registros en la tabla `Subvenciones` con:
 - `tag_seo` = null (se calcula en Paso 3)
 - `needs_review` = false (se marca según necesidad en Paso 3)
 - `last_tagged_at` = null (se actualiza en Paso 3)
+
+Campos recomendados adicionales para trazabilidad:
+- `has_descripcion` = false al crear (true cuando se enriquece)
+- `tag_source` = `title_only` | `title_description` | `manual` | `ia`
+- `tag_confidence` = 0-100 (opcional)
+
+### Paso 2.1: Modelo recomendado para almacenar tags en Notion
+
+Para escalar y filtrar bien, separar responsabilidades por campo:
+
+- `tags` (Multi-select): conjunto final para filtros generales y export web.
+- `tag_seo` (Select): tema principal unico por subvencion.
+- `tags_requisitos` (Multi-select): tags solo de requisitos.
+- `tag_source` (Select): de donde salio el tagging (`title_only`, `title_description`, `manual`, `ia`).
+- `needs_review` (Checkbox): falta tag SEO principal.
+
+Regla practica:
+- Mantener `tag_seo` como single source of truth del tema principal.
+- Mantener `tags` como union de estructurales + `tag_seo` + `tags_requisitos`.
+- No duplicar logica de negocio en formulas de Notion; calcular en n8n y persistir valores finales.
+
+### Paso 2.2: Enriquecimiento diferido de descripcion
+
+Como la API inicial no trae descripcion, el flujo recomendado es de dos etapas:
+
+1. Ingestion inicial: guardar subvencion con `titulo`, FKs y `descripcion = null`.
+2. Tagging inicial: calcular `tag_seo` usando solo TITULO (`tag_source = title_only`).
+3. Enriquecimiento: job posterior entra al detalle de la subvencion, extrae `descripcion` y actualiza `has_descripcion = true`.
+4. Re-tag opcional: si entra nueva descripcion, volver a evaluar `tag_seo` con TITULO+DESCRIPCION (`tag_source = title_description`).
+
+Esto evita bloquear Fase 2 por scraping/detalle y acelera publicacion.
 
 ### Paso 3: Tagging automático con reglas deterministas
 Para cada subvención nueva o sin tagear:
@@ -54,9 +85,10 @@ Para cada subvención nueva o sin tagear:
    Ej: finalidad_id=4 (Cultura) → tag: "cultura"
 ```
 
-#### Substep 3.2: Tags SEO concretos desde TITULO + DESCRIPCION
+#### Substep 3.2: Tags SEO concretos desde TITULO
 
 Esta es la búsqueda principal para identificar el tema central de la subvención.
+Regla: TITULO es obligatorio; DESCRIPCION solo se usa cuando ya fue enriquecida.
 
 **Palabras clave por tema (buscar en TITULO primero, luego DESCRIPCION):**
 ```javascript
@@ -100,11 +132,16 @@ if (!tagSeoEncontrado) {
   }
 }
 
-// 3. Si no encontró en TITULO ni DESCRIPCION → needs_review
+// 3. Si no encontró en TITULO (ni en DESCRIPCION cuando exista) → needs_review
 if (!tagSeoEncontrado) {
   necesitaRevision = true;
   // No añadir ningún tag SEO concreto, será revisado manualmente
 }
+
+// 4. Marcar fuente del tagging
+const tagSource = descripcion && descripcion.trim().length > 0
+  ? "title_description"
+  : "title_only";
 ```
 
 #### Substep 3.3: Tags específicos desde REQUISITOS (fase separada)
@@ -192,6 +229,8 @@ Una subvención puede tener:
 Actualizar cada subvención con:
 - `tags` = array final de tags (estructurales + SEO principales + requisitos)
 - `tag_seo` = el tag SEO principal del tema (o null si no hay)
+- `tags_requisitos` = array solo con tags de requisitos (puede ser vacío)
+- `tag_source` = `title_only` | `title_description` | `manual` | `ia`
 - `needs_review` = true/false (falta tag SEO del título/descripción)
 - `needs_review_requisitos` = true/false (falta info específica en requisitos)
 - `last_tagged_at` = hoy
@@ -260,8 +299,6 @@ Responde solo con los tags encontrados, separados por comas."
 - **Finalidad:** `investigacion`, `formacion`, `innovacion`, `cultura`, `turismo`, `agricultura`, etc.
 
 ### Tags SEO concretos (del catálogo cerrado)
-
-### Tags SEO concretos (del catálogo cerrado)
 ```
 musica
 teatro
@@ -298,7 +335,8 @@ general (fallback)
 {
   "id": "SUB001",
   "titulo": "Ayudas para producciones cinematográficas en Galicia",
-  "descripcion": "Apoyo a la industria audiovisual con énfasis en producción de cine",
+  "descripcion": null,
+  "has_descripcion": false,
   "requisitos": "Se requiere experiencia de 3 años en producción, certificado de audiovisual, equipo técnico propio",
   "beneficiario_id": 3,
   "región_id": 15,
@@ -376,7 +414,6 @@ Tags finales: ["galicia", "pyme", "cultura", "cine", "certificacion", "experienc
 {
   "id": "SUB002",
   "titulo": "Subvenciones para emprendedores",
-  "descripcion": "Apoyo general a emprendimiento",
   "requisitos": "Persona física con DNI",
   "beneficiario_id": 1,
   "región_id": 15,
@@ -440,7 +477,7 @@ Revisor manual debe:
   ↓
 [Ordenar activas por priority_score DESC]
     ↓
-[Seleccionar TOP 15-20 combos activas]
+[Seleccionar TOP 100 combos activas]
     ↓
 [Loop: Para cada combo]
 │
@@ -486,6 +523,8 @@ Revisor completa tanto el tema principal como los detalles de requisitos.
 ## Métricas de Fase 2
 
 - Subvenciones procesadas por día
+- Porcentaje de registros con `tag_source = title_only`
+- Porcentaje enriquecido con descripcion (`has_descripcion = true`)
 - Porcentaje etiquetadas automáticamente sin needs_review
 - Número de registros con needs_review pendiente
 - Tiempo promedio de revisión manual

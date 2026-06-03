@@ -15,41 +15,24 @@ const notionCombination = JSON.parse(
 
 try {
   //#region Node Logic
-  const pages = Array.isArray(getGrants) ? getGrants : [getGrants];
-  const grantsItems = pages.flatMap((page) =>
-    Array.isArray(page.content) ? page.content : [],
-  );
+  const grantsItems = getGrants.flatMap((page) => page.content);
 
-  const beneficiarioId = notionCombination?.property_id_beneficiario ?? null;
-  const regionId = notionCombination?.property_id_regi_n ?? null;
-  const finalidadId = notionCombination?.property_id_finalidad ?? null;
-
-  const result = grantsItems.map((item) => {
-    const grantId = String(item.numeroConvocatoria ?? item.id ?? "");
-
-    const match = notionGrants.find((notionItem) => {
-      const notionGrantId = String(
-        notionItem.property_id ??
-          notionItem.property_grantId ??
-          notionItem.grantId ??
-          notionItem.numeroConvocatoria ??
-          "",
-      );
-      return notionGrantId === grantId;
-    });
+  const result = grantsItems.map((grant) => {
+    const grantCode = grant.numeroConvocatoria;
+    const match = notionGrants.find(
+      (notionItem) => notionItem.property_c_digo === grantCode,
+    );
 
     return {
-      id: grantId,
-      titulo: item.descripcion ?? "",
-      descripcion: item.descripcionLeng ?? item.descripcion ?? "",
-      beneficiario_id: beneficiarioId,
-      region_id: regionId,
-      finalidad_id: finalidadId,
-      status: "active",
-      tags: [],
-      tag_seo: null,
-      needs_review: false,
-      last_tagged_at: null,
+      code: grantCode,
+      title: grant.descripcion,
+      benefactor_id: notionCombination.property_id_beneficiario,
+      region_id: notionCombination.property_id_regi_n,
+      purpose_id: notionCombination.property_id_finalidad,
+      receivedDate: grant.fechaRecepcion,
+      organization: grant.nivel3 ?? grant.nivel2,
+      urlHtml: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grantCode}`,
+      urlApi: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grantCode}&vpd=GE`,
       existsInNotion: !!match,
       notionPageId: match ? match.id : null,
     };

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "37383f94-7b2c-8102-8b7a-f68b81247f7e",
+    "name": "SUBVENCIONES AL TRANSPORTE",
+    "url": "https://app.notion.com/p/SUBVENCIONES-AL-TRANSPORTE-37383f947b2c81028b7af68b81247f7e",
+    "property_subvenciones_v3": ["37383f94-7b2c-8120-acec-cb5dcb776c2b"],
+    "property_c_digo": "15",
+    "property_slug": "transporte",
+    "property_descripci_n": "SUBVENCIONES AL TRANSPORTE"
+  },
+  {
+    "id": "37383f94-7b2c-8120-a69d-ff6f46d89b6f",
+    "name": "SIN INFORMACION ESPECIFICA",
+    "url": "https://app.notion.com/p/SIN-INFORMACION-ESPECIFICA-37383f947b2c8120a69dff6f46d89b6f",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "19",
+    "property_slug": "19",
+    "property_descripci_n": "SIN INFORMACION ESPECIFICA"
+  },
+  {
+    "id": "37383f94-7b2c-81f6-8b4d-f644dae577bb",
+    "name": "SERVICIOS SOCIALES Y PROMOCIÓN SOCIAL",
+    "url": "https://app.notion.com/p/SERVICIOS-SOCIALES-Y-PROMOCI-N-SOCIAL-37383f947b2c81f68b4df644dae577bb",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "5",
+    "property_slug": "servicios-sociales-y-promocion-social",
+    "property_descripci_n": "SERVICIOS SOCIALES Y PROMOCIÓN SOCIAL"
+  },
+  {
+    "id": "37383f94-7b2c-8159-b59b-ee0fc5bfceeb",
+    "name": "SEGURIDAD CIUDADANA E INSTITUCIONES PENITENCIARIAS",
+    "url": "https://app.notion.com/p/SEGURIDAD-CIUDADANA-E-INSTITUCIONES-PENITENCIARIAS-37383f947b2c8159b59bee0fc5bfceeb",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "3",
+    "property_slug": "seguridad-ciudadana-e-instituciones-penitenciarias",
+    "property_descripci_n": "SEGURIDAD CIUDADANA E INSTITUCIONES PENITENCIARIAS"
+  },
+  {
+    "id": "37383f94-7b2c-815e-be25-d2c41f656031",
+    "name": "SANIDAD",
+    "url": "https://app.notion.com/p/SANIDAD-37383f947b2c815ebe25d2c41f656031",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "9",
+    "property_slug": "sanidad",
+    "property_descripci_n": "SANIDAD"
+  },
+  {
+    "id": "37383f94-7b2c-81a6-afb0-e98486101d9e",
+    "name": "OTRAS PRESTACIONES ECONÓMICAS",
+    "url": "https://app.notion.com/p/OTRAS-PRESTACIONES-ECON-MICAS-37383f947b2c81a6afb0e98486101d9e",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "4",
+    "property_slug": "otras-prestaciones-economicas",
+    "property_descripci_n": "OTRAS PRESTACIONES ECONÓMICAS"
+  },
+  {
+    "id": "37383f94-7b2c-811f-9bbc-dba2e4435d4e",
+    "name": "OTRAS ACTUACIONES DE CARÁCTER ECONÓMICO",
+    "url": "https://app.notion.com/p/OTRAS-ACTUACIONES-DE-CAR-CTER-ECON-MICO-37383f947b2c811f9bbcdba2e4435d4e",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "18",
+    "property_slug": "otras-actuaciones-de-caracter-economico",
+    "property_descripci_n": "OTRAS ACTUACIONES DE CARÁCTER ECONÓMICO"
+  },
+  {
+    "id": "37383f94-7b2c-810f-8fe9-d21e65974c4f",
+    "name": "JUSTICIA",
+    "url": "https://app.notion.com/p/JUSTICIA-37383f947b2c810f8fe9d21e65974c4f",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "1",
+    "property_slug": "justicia",
+    "property_descripci_n": "JUSTICIA"
+  },
+  {
+    "id": "37383f94-7b2c-81ef-92ba-f9aa9730447c",
+    "name": "INVESTIGACIÓN, DESARROLLO E INNOVACIÓN",
+    "url": "https://app.notion.com/p/INVESTIGACI-N-DESARROLLO-E-INNOVACI-N-37383f947b2c81ef92baf9aa9730447c",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "17",
+    "property_slug": "investigacion-desarrollo-e-innovacion",
+    "property_descripci_n": "INVESTIGACIÓN, DESARROLLO E INNOVACIÓN"
+  },
+  {
+    "id": "37383f94-7b2c-81fc-a089-d5b47a5f7724",
+    "name": "INFRAESTRUCTURAS",
+    "url": "https://app.notion.com/p/INFRAESTRUCTURAS-37383f947b2c81fca089d5b47a5f7724",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "16",
+    "property_slug": "infraestructuras",
+    "property_descripci_n": "INFRAESTRUCTURAS"
+  },
+  {
+    "id": "37383f94-7b2c-8118-b867-d9d53c681899",
+    "name": "INFORMACIÓN NO DISPONIBLE",
+    "url": "https://app.notion.com/p/INFORMACI-N-NO-DISPONIBLE-37383f947b2c8118b867d9d53c681899",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "21",
+    "property_slug": "21",
+    "property_descripci_n": "INFORMACIÓN NO DISPONIBLE"
+  },
+  {
+    "id": "37383f94-7b2c-81f3-b78a-eb75e3c21945",
+    "name": "INDUSTRIA Y ENERGÍA",
+    "url": "https://app.notion.com/p/INDUSTRIA-Y-ENERG-A-37383f947b2c81f3b78aeb75e3c21945",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "13",
+    "property_slug": "industria-y-energia",
+    "property_descripci_n": "INDUSTRIA Y ENERGÍA"
+  },
+  {
+    "id": "37383f94-7b2c-8117-9eb7-e11e47fe4dd3",
+    "name": "FOMENTO DEL EMPLEO",
+    "url": "https://app.notion.com/p/FOMENTO-DEL-EMPLEO-37383f947b2c81179eb7e11e47fe4dd3",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "6",
+    "property_slug": "fomento-del-empleo",
+    "property_descripci_n": "FOMENTO DEL EMPLEO"
+  },
+  {
+    "id": "37383f94-7b2c-8167-94a4-ef96f43cee07",
+    "name": "EDUCACIÓN",
+    "url": "https://app.notion.com/p/EDUCACI-N-37383f947b2c816794a4ef96f43cee07",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "10",
+    "property_slug": "educacion",
+    "property_descripci_n": "EDUCACIÓN"
+  },
+  {
+    "id": "37383f94-7b2c-8128-b488-c2772c7a93e8",
+    "name": "DESEMPLEO",
+    "url": "https://app.notion.com/p/DESEMPLEO-37383f947b2c8128b488c2772c7a93e8",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "7",
+    "property_slug": "desempleo",
+    "property_descripci_n": "DESEMPLEO"
+  },
+  {
+    "id": "37383f94-7b2c-81a8-abf7-e2f1e64b1c2c",
+    "name": "DEFENSA",
+    "url": "https://app.notion.com/p/DEFENSA-37383f947b2c81a8abf7e2f1e64b1c2c",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "2",
+    "property_slug": "defensa",
+    "property_descripci_n": "DEFENSA"
+  },
+  {
+    "id": "37383f94-7b2c-81a3-bd71-c0485be41c10",
+    "name": "CULTURA",
+    "url": "https://app.notion.com/p/CULTURA-37383f947b2c81a3bd71c0485be41c10",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "11",
+    "property_slug": "cultura",
+    "property_descripci_n": "CULTURA"
+  },
+  {
+    "id": "37383f94-7b2c-8139-b3a0-fdde4343892d",
+    "name": "COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO Y CULTURAL",
+    "url": "https://app.notion.com/p/COOPERACI-N-INTERNACIONAL-PARA-EL-DESARROLLO-Y-CULTURAL-37383f947b2c8139b3a0fdde4343892d",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "20",
+    "property_slug": "cooperacion-internacional-para-el-desarrollo-y-cultural",
+    "property_descripci_n": "COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO Y CULTURAL"
+  },
+  {
+    "id": "37383f94-7b2c-81d6-af5b-fc69a953774a",
+    "name": "COMERCIO, TURISMO Y PYMES",
+    "url": "https://app.notion.com/p/COMERCIO-TURISMO-Y-PYMES-37383f947b2c81d6af5bfc69a953774a",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "14",
+    "property_slug": "comercio-turismo-y-pymes",
+    "property_descripci_n": "COMERCIO, TURISMO Y PYMES"
+  },
+  {
+    "id": "37383f94-7b2c-8163-88aa-f18ff6cd1e7a",
+    "name": "AGRICULTURA, PESCA Y ALIMENTACIÓN",
+    "url": "https://app.notion.com/p/AGRICULTURA-PESCA-Y-ALIMENTACI-N-37383f947b2c816388aaf18ff6cd1e7a",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "12",
+    "property_slug": "agricultura-pesca-y-alimentacion",
+    "property_descripci_n": "AGRICULTURA, PESCA Y ALIMENTACIÓN"
+  },
+  {
+    "id": "37383f94-7b2c-810f-ae66-cfb3560ea7f2",
+    "name": "ACCESO A LA VIVIENDA Y FOMENTO DE LA EDIFICACIÓN",
+    "url": "https://app.notion.com/p/ACCESO-A-LA-VIVIENDA-Y-FOMENTO-DE-LA-EDIFICACI-N-37383f947b2c810fae66cfb3560ea7f2",
+    "property_subvenciones_v3": [],
+    "property_c_digo": "8",
+    "property_slug": "acceso-a-la-vivienda-y-fomento-de-la-edificacion",
+    "property_descripci_n": "ACCESO A LA VIVIENDA Y FOMENTO DE LA EDIFICACIÓN"
+  }
+]

@@ -3,13 +3,13 @@ const fs = require("fs");
 let benefactorsRaw, regionsRaw, purposesRaw;
 try {
   benefactorsRaw = JSON.parse(
-    fs.readFileSync("./results/getters/get_benefactors.json", "utf8"),
+    fs.readFileSync("./results/getters/get_notion_benefactors.json", "utf8"),
   );
   regionsRaw = JSON.parse(
-    fs.readFileSync("./results/getters/get_regions.json", "utf8"),
+    fs.readFileSync("./results/getters/get_notion_regions.json", "utf8"),
   );
   purposesRaw = JSON.parse(
-    fs.readFileSync("./results/getters/get_purposes.json", "utf8"),
+    fs.readFileSync("./results/getters/get_notion_purposes.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -22,7 +22,6 @@ const regions = regionsRaw;
 const purposes = purposesRaw;
 
 //#region Node Logic
-
 const topLevelRegions = regions.filter(
   (r) =>
     !regions.some(
@@ -35,8 +34,12 @@ const combinations = [];
 for (const benefactor of benefactors) {
   for (const region of topLevelRegions) {
     for (const purpose of purposes) {
+      const benefactorCode = benefactor.property_c_digo;
+      const regionCode = region.property_c_digo;
+      const purposeCode = purpose.property_c_digo;
+
       combinations.push({
-        id: `${benefactor.id}_${region.id}_${purpose.id}`,
+        code: `${benefactorCode}_${regionCode}_${purposeCode}`,
         benefactor_id: benefactor.id,
         region_id: region.id,
         purpose_id: purpose.id,
@@ -44,7 +47,6 @@ for (const benefactor of benefactors) {
     }
   }
 }
-
 //#endregion
 
 // Sustituye esto por el return de datos correspondiente

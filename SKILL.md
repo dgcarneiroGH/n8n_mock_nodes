@@ -29,6 +29,8 @@
 - Note how inputs are read (lines 5-7)
 - Understand output format and destination
 - Check `run_all.js` to understand execution order
+- Reuse variable/property names exactly as they appear in reference files (no extra aliases/fallback names)
+- If any expected variable/property name is missing or unclear, ask before implementing
 
 ### 4. **Create the File Structure**
 
@@ -95,6 +97,13 @@ try {
 - No file I/O, API calls, or external dependencies inside this region
 - Extract utility functions before the main map/reduce operation
 - Use clear variable names and minimal comments
+- Use only the variable/property names defined in the agreed input schema
+- Avoid defensive alias chains (e.g. `a || b || c`) unless explicitly requested
+- If a field name does not exist in source files, stop and ask for the exact name
+- Optimize for performance and low resource usage without losing readability:
+  - Prefer `Map`/`Set` for lookups (O(1)) instead of nested `.find()`/`.includes()` inside loops
+  - Build lookup indexes once, then reuse them in `map`/`filter` passes
+  - Avoid repeated heavy string operations inside hot loops when keys can be precomputed
 
 ### 6. **Test Locally**
 
@@ -130,6 +139,8 @@ Before running a node:
 - [ ] Lines 13-14: Standard comments (unchanged)
 - [ ] Node Logic section clearly marked with `//#region` and `//#endregion`
 - [ ] Code inside Node Logic is as simple as possible
+- [ ] Variable/property names match reference files exactly (no implicit aliases)
+- [ ] No `||` alias fallbacks were added unless explicitly requested
 - [ ] Test run succeeds: `node <number>_<name>.js` exits with code 0
 - [ ] Output JSON created in correct `results/` subfolder
 - [ ] Output format matches next node's expected input
@@ -171,6 +182,8 @@ Before running a node:
 4. **Clear Boundaries**: Everything between `//#region Node Logic` and `//#endregion` is portable
 5. **Minimal Setup**: Try/catch and file I/O patterns never change (lines 8-11, 40+)
 6. **Folder Organization**: Output folder determined by filename pattern (filter → filters/, builder → builders/, etc.)
+7. **Performance by Default**: Node logic should be fast and resource-efficient (prefer indexed lookups with `Map`/`Set`) while staying easy to read.
+8. **Schema Fidelity First**: Use the exact variable/property names from source reference files; if any name is missing, ask before coding.
 
 ---
 

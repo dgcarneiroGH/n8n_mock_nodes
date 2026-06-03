@@ -1,7 +1,7 @@
 # Fase 1 — Sistema de Query History
 
 ## Objetivo
-Implementar un registro de combinaciones de parámetros ya consultadas a la API de subvenciones, para evitar redundancias, priorizar consultas y mantener control sobre el consumo de tokens.
+Implementar un registro de combinaciones de parámetros ya consultadas a la API de subvenciones, para evitar redundancias, priorizar consultas y mantener control sobre el consumo de tokens. Antes de pasar a Fase 2, contar solo subvenciones realmente activas (filtradas por fecha y anuncios).
 
 ## Problema a resolver
 Sin un historial de consultas, el workflow de n8n podría:
@@ -15,17 +15,21 @@ Sin un historial de consultas, el workflow de n8n podría:
 ### Estructura
 Una tabla `Query History` en Notion que almacena:
 
-| Campo             | Tipo          | Propósito                                                            |
-| ----------------- | ------------- | -------------------------------------------------------------------- |
-| `id`              | Text (Unique) | Clave única: `{beneficiario_id}_{región_id}_{finalidad_id}`          |
-| `beneficiario_id` | Number        | FK a tabla Beneficiarios                                             |
-| `región_id`       | Number        | FK a tabla Regiones                                                  |
-| `finalidad_id`    | Number        | FK a tabla Finalidades                                               |
-| `last_checked_at` | Date          | Cuándo se consultó por última vez esta combo a la API                |
-| `count_results`   | Number        | Cuántas subvenciones encontró la última consulta                     |
-| `status`          | Select        | `active` (≥5) \| `low_volume` (1-4) \| `no_results` (0) \| `pending` |
-| `api_url_called`  | Text          | URL exacta consultada (para auditoria)                               |
-| `priority_score`  | Formula       | Score automático para ordenar prioritarias                           |
+| Campo                | Tipo          | Propósito                                                                        |
+| -------------------- | ------------- | -------------------------------------------------------------------------------- |
+| `id`                 | Text (Unique) | Clave única: `{beneficiario_id}_{región_id}_{finalidad_id}`                      |
+| `beneficiario_id`    | Number        | FK a tabla Beneficiarios                                                         |
+| `región_id`          | Number        | FK a tabla Regiones                                                              |
+| `finalidad_id`       | Number        | FK a tabla Finalidades                                                           |
+| `last_checked_at`    | Date          | Cuándo se consultó por última vez esta combo a la API                            |
+| `count_results_raw`  | Number        | Cuántas subvenciones devolvió la API sin filtrar                                 |
+| `count_results`      | Number        | Cuántas subvenciones activas quedaron tras filtrar (fecha + anuncios)            |
+| `grant_codes_active` | Text/JSON     | Array con códigos BDNS activos tras el filtrado                                  |
+| `status`             | Select        | `active` (>=MIN_RESULTS_FOR_ACTIVE) \| `low_volume` \| `no_results` \| `pending` |
+| `api_url_called`     | Text          | URL exacta consultada (para auditoria)                                           |
+| `priority_score`     | Formula       | Score automático para ordenar prioritarias                                       |
+
+`MIN_RESULTS_FOR_ACTIVE` es configurable (valor inicial recomendado: 10).
 
 ### Fórmula de Priority Score
 ```
@@ -116,8 +120,8 @@ for (let b of beneficiarios) {
 ```
 
 **Estimación:**
-- 5 beneficiarios × 6 regiones × 10 finalidades = **300 combinaciones posibles**
-- Cantidad manejable y determinista
+- Volumen real actual: **~16.000 combinaciones posibles**
+- Cantidad alta pero manejable con priorización diaria por `priority_score`
 
 ### Paso 4: Identificar combos nuevas y nunca consultadas
 Comparar listado de combos posibles contra Query History:
@@ -127,20 +131,52 @@ Comparar listado de combos posibles contra Query History:
 
 ### Paso 5: Seleccionar las siguientes a consultar (diariamente)
 1. Leer Query History ordenado por `priority_score` DESC
-2. Seleccionar TOP 15-20 combos para consultar hoy
+2. Seleccionar TOP 100 combos para consultar hoy
 3. Para cada combo, ejecutar:
    ```
    GET /api/grants?beneficiario_id=X&región_id=Y&finalidad_id=Z
    ```
-4. Contar resultados y actualizar Query History:
+4. Filtrar subvenciones por actividad real antes de contar:
+  - Debe tener anuncios: `anuncios.length > 0`.
+  - Si no tiene anuncios (vacío o ausente), se asume convocatoria no abierta.
+  - Si tiene anuncios, se considera activa por defecto.
+  - Excepción: si `fechaFinSolicitud` existe y ya pasó, NO pasa el filtro.
+
+  Ejemplo de filtro:
+  ```javascript
+  const hoy = new Date().toISOString().slice(0, 10);
+
+  const activas = grants.filter((g) => {
+    const fin = g.fechaFinSolicitud;
+    const tieneAnuncios = Array.isArray(g.anuncios) && g.anuncios.length > 0;
+     const noCaducada = !fin || hoy <= fin;
+
+     return tieneAnuncios && noCaducada;
+  });
+
+  const countResultsRaw = grants.length;
+  const countResults = activas.length;
+  const grantCodesActive = activas.map((g) => String(g.codigoBDNS));
+  ```
+
+5. Guardar y actualizar Query History:
    - `last_checked_at` = hoy
-   - `count_results` = cantidad encontrada
-   - `status` = determinar según volumen
+  - `count_results_raw` = total sin filtrar
+  - `count_results` = total activo tras filtro
+  - `grant_codes_active` = array de códigos activos BDNS
+  - `status` = determinar según `count_results` (filtrado)
    - `api_url_called` = URL exacta
+
+6. Enlace con Fase 2 (optimización):
+  - Fase 2 usa `grant_codes_active` y hace 1 llamada de detalle por código:
+  ```
+  GET /bdnstrans/api/convocatorias?numConv={codigo}&vpd=GE
+  ```
+  - Esto evita relistar datos completos de la combinación y reduce procesamiento innecesario.
 
 ### Paso 6: Completar la tabla Query History
 Después de una semana de ejecuciones diarias:
-- ~100 combinaciones tendrán registro en Query History
+- hasta ~700 combinaciones tendrán registro en Query History (según ejecuciones reales)
 - Se conoce su volumen y estado
 - Se puede proceder a siguientes fases sabiendo qué datos están actualizados
 
@@ -162,9 +198,11 @@ Después de una semana de ejecuciones diarias:
 
 - ✓ Las 4 tablas existen en Notion con estructura correcta.
 - ✓ Catálogos sincronizados (beneficiarios, regiones, finalidades) sin errores.
-- ✓ Query History tiene 100-150 registros después de 1 semana de ejecuciones.
+- ✓ Query History tiene 500+ registros después de 1 semana de ejecuciones (objetivo con TOP 100/día).
 - ✓ Priority Score se calcula automáticamente.
 - ✓ Ninguna combo se consulta dos veces en el mismo día.
+- ✓ `count_results` refleja solo subvenciones activas (fecha + anuncios).
+- ✓ `grant_codes_active` se almacena para el consumo eficiente de Fase 2.
 - ✓ Próxima semana: conocemos volumen y estado de >100 combos.
 
 ## Resultado esperado al final de Fase 1
@@ -173,8 +211,9 @@ Después de una semana de ejecuciones diarias:
 - 5 beneficiarios activos sincronizados
 - 6 regiones activas sincronizadas
 - 10 finalidades activas sincronizadas
-- 300 combinaciones posibles generadas
-- 100-150 combinaciones ya consultadas con volumen y estado registrado
+- ~16.000 combinaciones posibles generadas
+- 500+ combinaciones ya consultadas con volumen bruto, volumen activo real y estado registrado
+- Códigos BDNS activos listos para llamar detalle por `numConv` en Fase 2
 - Sistema listo para Fase 2: etiquetado automático de subvenciones
 
 ## Dependencias
