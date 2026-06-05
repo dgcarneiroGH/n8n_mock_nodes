@@ -1,7 +1,12 @@
 {
-  "last_checked_at": "2026-05-29T06:47:08.981Z",
-  "count_results": 3634,
-  "status": "active",
-  "api_url_called": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda?pageSize=50&order=fechaRecepcion&direccion=desc&descripcionTipoBusqueda=0&&regiones=11&tiposBeneficiario=3&finalidad=10",
+  "last_checked_at": "2026-06-03T13:43:03.432Z",
+  "count_results_raw": 92,
+  "count_results": 2,
+  "grant_codes_active": [
+    "355243",
+    "309793"
+  ],
+  "status": "low_volume",
+  "api_url_called": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda?pageSize=50&order=fechaRecepcion&direccion=desc&descripcionTipoBusqueda=0&&regiones=undefined&tiposBeneficiario=undefined&finalidad=undefined",
   "query_history_id": "36e83f94-7b2c-8193-ac1e-e23ca132f7f3"
 }

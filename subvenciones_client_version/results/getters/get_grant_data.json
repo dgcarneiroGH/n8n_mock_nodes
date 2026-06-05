@@ -1,24 +1,24 @@
 [
   {
-    "id": 1107464,
+    "id": 1111522,
     "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
+      "nivel1": "LOCAL",
+      "nivel2": "VILLAJOYOSA/VILA JOIOSA, LA",
+      "nivel3": "AYUNTAMIENTO DE VILLAJOYOSA/VILA JOIOSA, LA"
     },
-    "sedeElectronica": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/registre/concessions/",
-    "codigoBDNS": "905903",
-    "fechaRecepcion": "2026-05-15",
+    "sedeElectronica": null,
+    "codigoBDNS": "909961",
+    "fechaRecepcion": "2026-06-02",
     "instrumentos": [
       {
         "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
       }
     ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 13350,
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1000,
     "mrr": false,
-    "descripcion": "Resolución de una solicitud de subvención presentada por la Uniwersytet Im. Adama Mickiewicza W Poznaniu (Polonia)",
-    "descripcionLeng": "Resolució d'una sol·licitud de subvenció per Uniwersytet Im. Adama Mickiewicza contra Poznan (Polònia)",
+    "descripcion": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE HÍPICA. ANUALIDAD 2026 (LINEA 16).",
+    "descripcionLeng": null,
     "tiposBeneficiarios": [
       {
         "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
@@ -26,24 +26,24 @@
     ],
     "sectores": [
       {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
+        "descripcion": "Actividades deportivas, recreativas y de entretenimiento",
+        "codigo": "93"
       }
     ],
     "regiones": [
       {
-        "descripcion": "PL - POLSKA"
+        "descripcion": "ES521 - Alicante / Alacant"
       }
     ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE HÍPICA. ANUALIDAD 2026 (LINEA 16).",
+    "urlBasesReguladoras": "www.villajoyosa.com",
+    "sePublicaDiarioOficial": true,
     "abierto": false,
-    "fechaInicioSolicitud": "2026-01-01",
-    "fechaFinSolicitud": "2026-04-21",
-    "textInicio": null,
-    "textFin": null,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el siguiente a la publicación del extracto en el BOP",
+    "textFin": "10 días naturales desde el siguiente a la publicación del extracto de la convocatoria en el BOP",
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
@@ -52,585 +52,49 @@
     "sectoresProductos": [],
     "documentos": [
       {
-        "id": 1455354,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RESOL_Univ_Poznan_CEC_2026_CAT_signat_CA.pdf",
-        "long": 1879097,
-        "datMod": "2026-05-15",
-        "datPublicacion": "2026-05-15"
-      },
-      {
-        "id": 1455353,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-RESOL_Univ_Poznan_CEC_2026_ESP.pdf",
-        "long": 245861,
-        "datMod": "2026-05-15",
-        "datPublicacion": "2026-05-15"
+        "id": 1467682,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260528_Certificado acuerdo L16.pdf",
+        "long": 2391653,
+        "datMod": "2026-06-02",
+        "datPublicacion": "2026-06-02"
       }
     ],
-    "anuncios": [],
+    "anuncios": [
+      {
+        "numAnuncio": 213434,
+        "titulo": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE HÍPICA. ANUALIDAD 2026 (LINEA 16).",
+        "tituloLeng": null,
+        "texto": "<p>Beneficiarios:Podrán solicitar la subvención las entidades deportivas sin ánimo de lucro, que tengan su domicilio social establecido en Villajoyosa en el momento de la publicación de la presente convocatoria y que cumplan los requisitos establecidos en la misma.</p><p>Objeto:La presente Convocatoria tiene por objeto la regulación del procedimiento de concesión, en régimen de concurrencia competitiva, de subvenciones a favor de Clubes y Entidades Deportivas inscritas como entidad deportiva en el Registro Municipal de Entidades Ciudadanas del municipio de Villajoyosa para la participación en competiciones deportivas federadas de HÍPICA  y/o la organización de eventos o competiciones deportivas federadas en dicha modalidad en la anualidad 2026, teniendo en cuenta los datos arrojados en la temporada 2025/2026, que comprende a estos efectos desde el 16/09/2025 hasta fecha 15/09/2026.</p><p>Bases reguladoras:Ordenanza general de Subvenciones del Ayuntamiento de Villajoyosa.Convocatoria de la concesión de subvenciones a entidades deportivas para el fomento y la promoción del deporte de hípica. Anualidad 2026. (Línea 16).</p><p>Cuantía:La dotación presupuestaria destinada a esta convocatoria será de 1.000,00€.  </p><p>Plazo de presentación de solicitudes:Las solicitudes se presentarán en la Sede Electrónica de este ayuntamiento a la que se  accede a través de http://villajoyosa.sedelectronica.com/ durante 10 días naturales a partir del día  siguiente al de la publicación de la presente convocatoria.</p>",
+        "textoLeng": null,
+        "url": null,
+        "cve": null,
+        "desDiarioOficial": "B.O.P. DE ALICANTE",
+        "datPublicacion": "2026-06-04"
+      }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
   },
   {
-    "id": 1062873,
+    "id": 1111469,
     "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
+      "nivel1": "LOCAL",
+      "nivel2": "VILLAJOYOSA/VILA JOIOSA, LA",
+      "nivel3": "AYUNTAMIENTO DE VILLAJOYOSA/VILA JOIOSA, LA"
     },
-    "sedeElectronica": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/registre/concessions/",
-    "codigoBDNS": "861312",
-    "fechaRecepcion": "2025-10-08",
+    "sedeElectronica": null,
+    "codigoBDNS": "909908",
+    "fechaRecepcion": "2026-06-02",
     "instrumentos": [
       {
         "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
       }
     ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 251722,
-    "mrr": false,
-    "descripcion": "Resolución del director del Consorcio Institut Ramon Llull por la que se otorgan subvenciones a universidades del exterior para contribuir al mantenimiento de la docencia de estudios catalanes durante el curso 2025-2026 (251.722,00 €)",
-    "descripcionLeng": "Resolució del director del Consorci Institut Ramon Llull per la qual s’atorguen subvencions a universitats de l’exterior per contribuir al manteniment de la docència d’estudis catalans durant el curs 2025-2026 (251.722,00 €)",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "DE - DEUTSCHLAND "
-      },
-      {
-        "descripcion": "IT - ITALIA "
-      },
-      {
-        "descripcion": "PL - POLSKA"
-      },
-      {
-        "descripcion": "UK - UNITED KINGDOM"
-      },
-      {
-        "descripcion": "XXX - Regiones o países no europeos, no contemplados en NUTS"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2025-01-01",
-    "fechaFinSolicitud": "2025-10-08",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 1334498,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-Res_atorg_ajuts Curs 25-26---251.722,00 ¿-CAT_signat_CA.pdf",
-        "long": 793186,
-        "datMod": "2025-10-08",
-        "datPublicacion": "2025-10-08"
-      },
-      {
-        "id": 1334497,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-Res_atorg_ajuts Curs 25-26---251.722,00 ¿-ESP_signat_CA.pdf",
-        "long": 804551,
-        "datMod": "2025-10-08",
-        "datPublicacion": "2025-10-08"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 1044233,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "842672",
-    "fechaRecepcion": "2025-06-26",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 12600,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓ DE UNA SOLICITUD DE SUBVENCIÓN PRESENTADA POR LA UNIVERSIDAD ADAM MICKIEWICZ DE POZNAN (POLONIA)",
-    "descripcionLeng": "RESOLUCIÓ D’UNA SOL·LICITUD DE SUBVENCIÓ PRESENTADA PER LA UNIVERSITAT ADAM MICKIEWICZ DE POZNAN (POLÒNIA)",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "PL - POLSKA"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2025-01-01",
-    "fechaFinSolicitud": "2025-05-20",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 1286373,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RESOL_Univ_Poznan_CEC_2025_CAT_signat_CA.pdf",
-        "long": 1703710,
-        "datMod": "2025-06-26",
-        "datPublicacion": "2025-06-26"
-      },
-      {
-        "id": 1286372,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-RESOL_Univ_Poznan_CEC_2025_ESP.pdf",
-        "long": 220036,
-        "datMod": "2025-06-26",
-        "datPublicacion": "2025-06-26"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 979137,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "777577",
-    "fechaRecepcion": "2024-07-26",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 1658642.21,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓN del director del Institut Ramon Llull por la que se otorgan subvenciones a universidades del exterior para contribuir al mantenimiento de la docencia de estudios catalanes durante el curso 2024-2025",
-    "descripcionLeng": "RESOLUCIÓ del director de l’Institut Ramon Llull per la qual s’atorguen subvencions a universitats de l’exterior per contribuir al manteniment de la docència d’estudis catalans durant el curs 2024-2025",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "AT - ÖSTERREICH"
-      },
-      {
-        "descripcion": "CZ - CESKÁ REPUBLIKA"
-      },
-      {
-        "descripcion": "DE - DEUTSCHLAND "
-      },
-      {
-        "descripcion": "ESZ - EXTRA-REGIO NUTS 1"
-      },
-      {
-        "descripcion": "ES11 - GALICIA"
-      },
-      {
-        "descripcion": "ES30 - COMUNIDAD DE MADRID"
-      },
-      {
-        "descripcion": "ES41 - CASTILLA Y LEON"
-      },
-      {
-        "descripcion": "ES61 - ANDALUCIA"
-      },
-      {
-        "descripcion": "FI - SUOMI / FINLAND"
-      },
-      {
-        "descripcion": "FR - FRANCE"
-      },
-      {
-        "descripcion": "HR - HRVATSKA"
-      },
-      {
-        "descripcion": "IE - IRELAND"
-      },
-      {
-        "descripcion": "IT - ITALIA "
-      },
-      {
-        "descripcion": "NL - NEDERLAND "
-      },
-      {
-        "descripcion": "PL - POLSKA"
-      },
-      {
-        "descripcion": "PT - PORTUGAL"
-      },
-      {
-        "descripcion": "SI - SLOVENIJA"
-      },
-      {
-        "descripcion": "UK - UNITED KINGDOM"
-      },
-      {
-        "descripcion": "XXX - Regiones o países no europeos, no contemplados en NUTS"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "https://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2024-01-01",
-    "fechaFinSolicitud": "2024-07-26",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 1262284,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "06-AjAdLille + AjAdNew + AjAd Oxford+ ajuts_CURS_24-25 1.630.649,21 x RAIS-CAT.pdf",
-        "long": 2295299,
-        "datMod": "2025-05-20",
-        "datPublicacion": "2025-05-20"
-      },
-      {
-        "id": 1262283,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "06-AjAdLille + AjAdNew + AjAd Oxford+ ajuts_CURS_24-25 1.630.649,21 x RAIS-ESP.pdf",
-        "long": 2293864,
-        "datMod": "2025-05-20",
-        "datPublicacion": "2025-05-20"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 975625,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "774065",
-    "fechaRecepcion": "2024-07-10",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 12700,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓN DE UNA SOLICITUD DE SUBVENCIÓN PRESENTADA POR LA UNIVERSIDAD ADAM MICKIEWICZ DE POZNAN (POLONIA)",
-    "descripcionLeng": "RESOLUCIÓ D’UNA SOL·LICITUD DE SUBVENCIÓ PRESENTADA PER LA UNIVERSITAT ADAM MICKIEWICZ DE POZNAN (POLÒNIA)",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "PL - POLSKA"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2024-01-01",
-    "fechaFinSolicitud": "2024-06-14",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 1099931,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_2024_CAT_signat_CA.pdf",
-        "long": 1682860,
-        "datMod": "2024-07-10",
-        "datPublicacion": "2024-07-10"
-      },
-      {
-        "id": 1099930,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_2024_ESP.pdf",
-        "long": 233160,
-        "datMod": "2024-07-10",
-        "datPublicacion": "2024-07-10"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 911835,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "710275",
-    "fechaRecepcion": "2023-07-27",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 1344027.51,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓN del director del Institut Ramon Llull por la que se otorgan ayudas a universidades del exterior para contribuir al mantenimiento de la docencia de estudios catalanes durante el curso 2023-2024",
-    "descripcionLeng": "RESOLUCIÓ del director de l’Institut Ramon Llull per la qual s’atorguen ajuts a universitats de l’exterior per contribuir al manteniment de la docència d’estudis catalans durant el curs 2023-2024",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "AT - ÖSTERREICH"
-      },
-      {
-        "descripcion": "CZ - CESKÁ REPUBLIKA"
-      },
-      {
-        "descripcion": "DE - DEUTSCHLAND "
-      },
-      {
-        "descripcion": "ES11 - GALICIA"
-      },
-      {
-        "descripcion": "ES30 - COMUNIDAD DE MADRID"
-      },
-      {
-        "descripcion": "ES41 - CASTILLA Y LEON"
-      },
-      {
-        "descripcion": "FR - FRANCE"
-      },
-      {
-        "descripcion": "IE - IRELAND"
-      },
-      {
-        "descripcion": "IT - ITALIA "
-      },
-      {
-        "descripcion": "NL - NEDERLAND "
-      },
-      {
-        "descripcion": "PL - POLSKA"
-      },
-      {
-        "descripcion": "PT - PORTUGAL"
-      },
-      {
-        "descripcion": "SI - SLOVENIJA"
-      },
-      {
-        "descripcion": "UK - UNITED KINGDOM"
-      },
-      {
-        "descripcion": "XXX - Regiones o países no europeos, no contemplados en NUTS"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2023-01-01",
-    "fechaFinSolicitud": "2023-07-20",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 990016,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-Addic Marburg_RAIS-CAT.pdf",
-        "long": 1001313,
-        "datMod": "2023-12-13",
-        "datPublicacion": "2023-12-13"
-      },
-      {
-        "id": 990015,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-Addic Marburg_RAIS-ESP.pdf",
-        "long": 996304,
-        "datMod": "2023-12-13",
-        "datPublicacion": "2023-12-13"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 901343,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "699783",
-    "fechaRecepcion": "2023-05-31",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 12250,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓN DE UNA SOLICITUD DE SUBVENCIÓN PRESENTADA POR LA UNIVERSIDAD ADAM MICKIEWICZ DE POZNAN (POLONIA)",
-    "descripcionLeng": "RESOLUCIÓ D’UNA SOL·LICITUD DE SUBVENCIÓ PRESENTADA PER LA UNIVERSITAT ADAM MICKIEWICZ DE POZNAN (POLÒNIA)",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "PL - POLSKA"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2023-01-01",
-    "fechaFinSolicitud": "2023-05-30",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 1073312,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_2023_ESP.pdf",
-        "long": 176827,
-        "datMod": "2024-05-22",
-        "datPublicacion": "2024-05-22"
-      },
-      {
-        "id": 1073313,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_2023_CAT_signat_CA.pdf",
-        "long": 1693641,
-        "datMod": "2024-05-22",
-        "datPublicacion": "2024-05-22"
-      }
-    ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 859167,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "657607",
-    "fechaRecepcion": "2022-11-08",
-    "instrumentos": [
-      {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
-      }
-    ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
     "presupuestoTotal": 6000,
     "mrr": false,
-    "descripcion": "RESOLUCIÓN DE LA SOLICITUD DE SUBVENCIÓN PRESENTADA PARA LA IMPARTICIÓN DE DOCENCIA DE ESTUDIOS CATALANES EN LA UNIVERSIDAD DE VARSOVIA (POLONIA)",
-    "descripcionLeng": "RESOLUCIÓ DE LA SOL·LICITUD DE SUBVENCIÓ PER A LA IMPARTICIÓ DE DOCÈNCIA D'ESTUDIS CATALANS A LA UNIVERSITAT DE VARSÒVIA (POLÒNIA)",
+    "descripcion": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE TENIS DE MESA. ANUALIDAD 2026 (LINEA 7).",
+    "descripcionLeng": null,
     "tiposBeneficiarios": [
       {
         "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
@@ -638,24 +102,24 @@
     ],
     "sectores": [
       {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
+        "descripcion": "Actividades deportivas, recreativas y de entretenimiento",
+        "codigo": "93"
       }
     ],
     "regiones": [
       {
-        "descripcion": "PL - POLSKA"
+        "descripcion": "ES521 - Alicante / Alacant"
       }
     ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE TENIS DE MESA. ANUALIDAD 2026 (LINEA 7).",
+    "urlBasesReguladoras": "www.villajoyosa.com",
+    "sePublicaDiarioOficial": true,
     "abierto": false,
-    "fechaInicioSolicitud": "2022-01-01",
-    "fechaFinSolicitud": "2022-11-07",
-    "textInicio": null,
-    "textFin": null,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el siguiente a la publicación del extracto en el BOP",
+    "textFin": "10 días naturales desde el siguiente a la publicación del extracto de la convocatoria en el BOP",
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
@@ -664,45 +128,49 @@
     "sectoresProductos": [],
     "documentos": [
       {
-        "id": 806874,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RES_IRENE_TETTEH_VARSOVIA_CAT-signat_CA.pdf",
-        "long": 944793,
-        "datMod": "2022-11-08",
-        "datPublicacion": "2022-11-08"
-      },
-      {
-        "id": 806873,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "06-RES_IRENE_TETTEH_VARSOVIA _ESP.pdf",
-        "long": 147087,
-        "datMod": "2022-11-08",
-        "datPublicacion": "2022-11-08"
+        "id": 1467573,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260528_Certificado de acuerdo L7.pdf",
+        "long": 2732922,
+        "datMod": "2026-06-02",
+        "datPublicacion": "2026-06-02"
       }
     ],
-    "anuncios": [],
+    "anuncios": [
+      {
+        "numAnuncio": 213427,
+        "titulo": "CONVOCATORIA DE SUBVENCIONES A ENTIDADES DEPORTIVAS PARA EL FOMENTO Y LA PROMOCIÓN DEL DEPORTE DE TENIS DE MESA. ANUALIDAD 2026 (LINEA 7).",
+        "tituloLeng": null,
+        "texto": "<p>Beneficiarios:Podrán solicitar la subvención las entidades deportivas sin ánimo de lucro, que tengan su domicilio social establecido en Villajoyosa en el momento de la publicación de la presente convocatoria y que cumplan los requisitos establecidos en la misma.</p><p>Objeto:La presente Convocatoria tiene por objeto la regulación del procedimiento de concesión, en régimen de concurrencia competitiva, de subvenciones a favor de Clubes y Entidades Deportivas inscritas como entidad deportiva en el Registro Municipal de Entidades Ciudadanas del municipio de Villajoyosa para la participación en competiciones deportivas federadas de TENIS DE MESA y/o la organización de eventos o competiciones deportivas federadas en dicha modalidad en la anualidad 2026, teniendo en cuenta los datos arrojados en la temporada 2025/2026, que comprende a estos efectos desde el 16/09/2025 hasta fecha 15/09/2026.</p><p>Bases reguladoras:Ordenanza general de Subvenciones del Ayuntamiento de Villajoyosa.Convocatoria de la concesión de subvenciones a entidades deportivas para el fomento y la promoción del deporte de tenis de mesa. Anualidad 2026. (Línea 7).</p><p>Cuantía:La dotación presupuestaria destinada a esta convocatoria será de 6.000,00€. </p><p>Plazo de presentación de solicitudes:Las solicitudes se presentarán en la Sede Electrónica de este ayuntamiento a la que se  accede a través de http://villajoyosa.sedelectronica.com durante 10 días naturales a partir del día  siguiente al de la publicación de la presente convocatoria. </p>",
+        "textoLeng": null,
+        "url": null,
+        "cve": null,
+        "desDiarioOficial": "B.O.P. DE ALICANTE",
+        "datPublicacion": "2026-06-04"
+      }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
   },
   {
-    "id": 837943,
+    "id": 1111447,
     "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
+      "nivel1": "LOCAL",
+      "nivel2": "VILLAJOYOSA/VILA JOIOSA, LA",
+      "nivel3": "AYUNTAMIENTO DE VILLAJOYOSA/VILA JOIOSA, LA"
     },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "636383",
-    "fechaRecepcion": "2022-06-29",
+    "sedeElectronica": "http://villajoyosa.sedelectronica.com",
+    "codigoBDNS": "909886",
+    "fechaRecepcion": "2026-06-02",
     "instrumentos": [
       {
         "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
       }
     ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 1311970.96,
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15000,
     "mrr": false,
-    "descripcion": "RESOLUCIÓN del director del Institut Ramon Llull, por la que se otorgan ayudas a universidades del exterior para contribuir al mantenimiento de la docencia de estudios catalanes durante el curso 2022-2023",
-    "descripcionLeng": "RESOLUCIÓ del director de l'Institut Ramon Llull, per la qual s'atorguen ajuts a universitats de l’exterior per contribuir al manteniment de la docència d'estudis catalans durant el curs 2022-2023",
+    "descripcion": "CONVOCATORIA DE AYUDAS PARA PROMOCIÓN Y FOMENTO DEL DEPORTE DE CICLISMO PARA ENTIDADADES DEPORTIVAS. ANUALIDAD 2026 (LINEA 8).",
+    "descripcionLeng": null,
     "tiposBeneficiarios": [
       {
         "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
@@ -710,63 +178,24 @@
     ],
     "sectores": [
       {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
+        "descripcion": "Actividades deportivas, recreativas y de entretenimiento",
+        "codigo": "93"
       }
     ],
     "regiones": [
       {
-        "descripcion": "AT - ÖSTERREICH"
-      },
-      {
-        "descripcion": "CZ - CESKÁ REPUBLIKA"
-      },
-      {
-        "descripcion": "DE - DEUTSCHLAND "
-      },
-      {
-        "descripcion": "ES - ESPAÑA "
-      },
-      {
-        "descripcion": "FI - SUOMI / FINLAND"
-      },
-      {
-        "descripcion": "FR - FRANCE"
-      },
-      {
-        "descripcion": "HR - HRVATSKA"
-      },
-      {
-        "descripcion": "IE - IRELAND"
-      },
-      {
-        "descripcion": "IT - ITALIA "
-      },
-      {
-        "descripcion": "NL - NEDERLAND "
-      },
-      {
-        "descripcion": "PL - POLSKA"
-      },
-      {
-        "descripcion": "SI - SLOVENIJA"
-      },
-      {
-        "descripcion": "UK - UNITED KINGDOM"
-      },
-      {
-        "descripcion": "XXX - Regiones o países no europeos, no contemplados en NUTS"
+        "descripcion": "ES521 - Alicante / Alacant"
       }
     ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "CONVOCATORIA DE AYUDAS PARA PROMOCIÓN Y FOMENTO DEL DEPORTE DE CICLISMO PARA ENTIDADADES DEPORTIVAS. ANUALIDAD 2026 (LINEA 8).",
+    "urlBasesReguladoras": "www.villajoyosa.com",
+    "sePublicaDiarioOficial": true,
     "abierto": false,
-    "fechaInicioSolicitud": "2022-01-01",
-    "fechaFinSolicitud": "2022-06-21",
-    "textInicio": null,
-    "textFin": null,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el día siguiente a la publicación del extracto en el BOP",
+    "textFin": "10 días naturales desde el siguiente a la publicación del extracto de la convocatoria en el BOP",
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
@@ -775,95 +204,27 @@
     "sectoresProductos": [],
     "documentos": [
       {
-        "id": 754546,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "06-RES_AT_AJUTS_CURS 22-23-1.311.970,96_ANUNCI DOGC_CAT.pdf",
-        "long": 728283,
-        "datMod": "2022-06-29",
-        "datPublicacion": "2022-06-29"
-      },
-      {
-        "id": 754545,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "06-RES_AT_AJUTS_CURS 22-23-1.311.970,96_ANUNCI DOGC_ESP.pdf",
-        "long": 728479,
-        "datMod": "2022-06-29",
-        "datPublicacion": "2022-06-29"
+        "id": 1467520,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260528 Certificado de acuerdo.pdf",
+        "long": 2305264,
+        "datMod": "2026-06-02",
+        "datPublicacion": "2026-06-02"
       }
     ],
-    "anuncios": [],
-    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
-  },
-  {
-    "id": 826397,
-    "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "CATALUÑA",
-      "nivel3": "INSTITUT RAMON LLULL"
-    },
-    "sedeElectronica": "https://www.llull.cat/catala/quisom/subvencions_directes.cfm",
-    "codigoBDNS": "624837",
-    "fechaRecepcion": "2022-05-05",
-    "instrumentos": [
+    "anuncios": [
       {
-        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        "numAnuncio": 213408,
+        "titulo": "CONVOCATORIA DE AYUDAS PARA PROMOCIÓN Y FOMENTO DEL DEPORTE DE CICLISMO PARA ENTIDADADES DEPORTIVAS. ANUALIDAD 2026 (LINEA 8).",
+        "tituloLeng": null,
+        "texto": "<p>Beneficiarios:</p><p>Podrán solicitar la subvención las entidades deportivas sin ánimo de lucro, que tengan su domicilio social establecido en Villajoyosa en el momento de la publicación de la presente convocatoria y que cumplan los requisitos establecidos en la misma.</p><p>Objeto:</p><p>La presente Convocatoria tiene por objeto la regulación del procedimiento de concesión, en régimen de concurrencia competitiva, de subvenciones a favor de Clubes y Entidades Deportivas inscritas como entidad deportiva en el Registro Municipal de Entidades Ciudadanas del municipio de Villajoyosa para la participación en competiciones deportivas federadas de CICLISMO y/o la organización de eventos o competiciones deportivas federadas en dicha modalidad en la anualidad 2026, teniendo en cuenta los datos arrojados en la temporada 2025/2026, que comprende a estos efectos desde el 16/09/2025 hasta fecha 15/09/2026.</p><p>Bases reguladoras:</p><p>Ordenanza general de Subvenciones del Ayuntamiento de Villajoyosa.</p><p>Convocatoria de la concesión de subvenciones a entidades deportivas para el fomento y la promoción del deporte de ciclismo. Anualidad 2026. (Línea 8).</p><p>Cuantía:</p><p>La dotación presupuestaria destinada a esta convocatoria será de 15.000,00€.  </p><p>Plazo de presentación de solicitudes:</p><p>Las solicitudes se presentarán en la Sede Electrónica de este ayuntamiento a la que se  accede a través de http://villajoyosa.sedelectronica.com durante 10 días naturales a partir del día  siguiente al de la publicación de la presente convocatoria.</p>",
+        "textoLeng": null,
+        "url": null,
+        "cve": null,
+        "desDiarioOficial": "B.O.P. DE ALICANTE",
+        "datPublicacion": "2026-06-04"
       }
     ],
-    "tipoConvocatoria": "Concesión directa - instrumental",
-    "presupuestoTotal": 12150,
-    "mrr": false,
-    "descripcion": "RESOLUCIÓN DE UNA SOLICITUD DE SUBVENCIÓN PRESENTADA POR LA UNIVERSIDAD ADAM MICKIEWICZ DE POZNAN (POLONIA)",
-    "descripcionLeng": "RESOLUCIÓ D’UNA SOL·LICITUD DE SUBVENCIÓ PRESENTADA PER LA UNIVERSITAT ADAM MICKIEWICZ DE POZNAN (POLÒNIA)",
-    "tiposBeneficiarios": [
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      }
-    ],
-    "sectores": [
-      {
-        "descripcion": "Investigación y desarrollo experimental en ciencias sociales y humanidades",
-        "codigo": "72.2"
-      }
-    ],
-    "regiones": [
-      {
-        "descripcion": "PL - POLSKA"
-      }
-    ],
-    "descripcionFinalidad": "Cooperación internacional para el desarrollo y cultural",
-    "descripcionBasesReguladoras": "Plan estratégico de subvenciones",
-    "urlBasesReguladoras": "http://economia.gencat.cat/ca/ambits-actuacio/ajuts-subvencions/planificacio/plans-estrategics/",
-    "sePublicaDiarioOficial": false,
-    "abierto": false,
-    "fechaInicioSolicitud": "2022-01-01",
-    "fechaFinSolicitud": "2022-05-04",
-    "textInicio": null,
-    "textFin": null,
-    "ayudaEstado": null,
-    "urlAyudaEstado": null,
-    "fondos": [],
-    "reglamento": null,
-    "objetivos": [],
-    "sectoresProductos": [],
-    "documentos": [
-      {
-        "id": 727461,
-        "descripcion": "Texto en otra lengua de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_2022_CAT_signat-CSV.pdf",
-        "long": 1722700,
-        "datMod": "2022-05-05",
-        "datPublicacion": "2022-05-05"
-      },
-      {
-        "id": 727460,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "05-RESOL_UNIV_POZNAN_CAT_2022_ESP.pdf",
-        "long": 198051,
-        "datMod": "2022-05-05",
-        "datPublicacion": "2022-05-05"
-      }
-    ],
-    "anuncios": [],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
   }
 ]

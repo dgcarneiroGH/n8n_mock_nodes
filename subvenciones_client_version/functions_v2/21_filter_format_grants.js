@@ -2,8 +2,8 @@ const fs = require("fs");
 
 // Replace this with real n8n data injection, for example: $input.all().map(item => item.json)
 //#region Inputs
-const getGrants = JSON.parse(
-  fs.readFileSync("../results/getters/get_subvenciones.json"),
+const getGrantsData = JSON.parse(
+  fs.readFileSync("../results/getters/get_grant_data.json"),
 );
 const notionGrants = JSON.parse(
   fs.readFileSync("../results/getters/get_notion_grants.json"),
@@ -15,10 +15,14 @@ const notionCombination = JSON.parse(
 
 try {
   //#region Node Logic
-  const grantsItems = getGrants.flatMap((page) => page.content);
+  const result = getGrantsData.map((grant) => {
+    const grantCode = grant.codigoBDNS;
+    const description = (grant.anuncios ?? [])
+      .map((anuncio) => anuncio.texto ?? "")
+      .join("\n")
+      .replace(/<p>/g, "")
+      .replace(/<\/p>/g, "\n");
 
-  const result = grantsItems.map((grant) => {
-    const grantCode = grant.numeroConvocatoria;
     const match = notionGrants.find(
       (notionItem) => notionItem.property_c_digo === grantCode,
     );
@@ -26,6 +30,7 @@ try {
     return {
       code: grantCode,
       title: grant.descripcion,
+      description,
       benefactor_id: notionCombination.property_id_beneficiario,
       region_id: notionCombination.property_id_regi_n,
       purpose_id: notionCombination.property_id_finalidad,

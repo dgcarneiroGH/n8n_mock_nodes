@@ -60,8 +60,8 @@ function extractAllRegions(regionList, collected = []) {
   return collected;
 }
 
-const result = extractAllRegions(regions);
-
+const spainRegion = regions.find((region) => Number(region.id) === 1);
+const result = extractAllRegions([spainRegion]);
 //#endregion
 
 // Sustituye esto por el return de datos correspondiente
