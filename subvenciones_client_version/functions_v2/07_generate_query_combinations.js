@@ -43,6 +43,9 @@ for (const benefactor of benefactors) {
         benefactor_id: benefactor.id,
         region_id: region.id,
         purpose_id: purpose.id,
+        benefactor_code: benefactor.property_c_digo,
+        region_code: region.property_c_digo,
+        purpose_code: purpose.property_c_digo,
       });
     }
   }
