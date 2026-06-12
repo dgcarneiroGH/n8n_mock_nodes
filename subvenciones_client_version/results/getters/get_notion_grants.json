@@ -1,1 +1,443 @@
-[{}]
+[
+  {
+    "id": "37d83f94-7b2c-8194-9458-fc6681e04666",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81949458fc6681e04666",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T10:00:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-8149-ae82-c39ebd870e30",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c8149ae82c39ebd870e30",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T10:00:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-81e9-ae7d-dede4f8a7597",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c81e9ae7ddede4f8a7597",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T10:00:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-8166-9eb7-f610b0d3862b",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81669eb7f610b0d3862b",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:57:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-8156-9a55-d1faf700c190",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c81569a55d1faf700c190",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:57:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-8149-af87-e882a6f7aca5",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c8149af87e882a6f7aca5",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:57:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-81d3-9f45-f4cbbeb02ec1",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81d39f45f4cbbeb02ec1",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:57:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-81a0-8f79-d791c7186c42",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c81a08f79d791c7186c42",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-812c-a0ef-f171d3e5fe09",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c812ca0eff171d3e5fe09",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-81f3-932e-de0a0f970c8e",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81f3932ede0a0f970c8e",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-8132-8ea0-e21c829bd858",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c81328ea0e21c829bd858",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-81eb-ab93-d1ede0135eae",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c81ebab93d1ede0135eae",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-81d2-b557-f2254cb38218",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81d2b557f2254cb38218",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-817a-b515-f4ab0fc67d39",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c817ab515f4ab0fc67d39",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-812a-a77b-c89fcbd39ce4",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c812aa77bc89fcbd39ce4",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-81e3-a656-ca5c0d8a4d31",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c81e3a656ca5c0d8a4d31",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-8163-870d-d9bcf4662be9",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c8163870dd9bcf4662be9",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-81d3-9d63-e29fc9135d99",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c81d39d63e29fc9135d99",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  },
+  {
+    "id": "37d83f94-7b2c-814a-8b59-c363352fa333",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-37d83f947b2c814a8b59c363352fa333",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847034"
+  },
+  {
+    "id": "37d83f94-7b2c-810f-85b5-fb424a0ea6dd",
+    "name": "847036",
+    "url": "https://app.notion.com/p/847036-37d83f947b2c810f85b5fb424a0ea6dd",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "847036"
+  },
+  {
+    "id": "37d83f94-7b2c-81ac-9a5f-c847f9300ad3",
+    "name": "897576",
+    "url": "https://app.notion.com/p/897576-37d83f947b2c81ac9a5fc847f9300ad3",
+    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
+    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
+    "property_tags_requisitos": [],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-12T08:56:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+    "property_tags": ["particulares", "zamora"],
+    "property_tag_seo": "economia_digital",
+    "property_status": "active",
+    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_c_digo": "897576"
+  }
+]

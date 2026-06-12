@@ -1,0 +1,29 @@
+[
+  {
+    "tags": [
+      "particulares",
+      "zamora"
+    ],
+    "tag_seo": "economia_digital",
+    "grant_codes": [
+      "847034",
+      "897576"
+    ],
+    "max_received_date": "2026-06-12",
+    "slug": "subvenciones-particulares-zamora-economia_digital",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "particulares",
+      "zamora"
+    ],
+    "tag_seo": "formacion",
+    "grant_codes": [
+      "847036"
+    ],
+    "max_received_date": "2026-06-12",
+    "slug": "subvenciones-particulares-zamora-formacion",
+    "count_grants": 1
+  }
+]
