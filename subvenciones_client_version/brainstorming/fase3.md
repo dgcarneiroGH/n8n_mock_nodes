@@ -1,298 +1,173 @@
-# Fase 3 — Generación y despliegue automático de webs (Hugo + GitHub + Netlify)
+# Fase 3 — Generación y despliegue automático (Hugo + GitHub + Netlify)
 
 ## Objetivo
-Generar automáticamente 3-5 webs temáticas cada día basadas en combinaciones de `región + tag_seo`, con despliegue automático sin intervención manual.
+Publicar automáticamente 1 página temática diaria basada en `region + beneficiario + tag_seo`, con despliegue automático y SEO técnico correcto.
 
-## Stack elegido: Hugo + GitHub + Netlify
+## Decisiones cerradas
 
-**Por qué esta opción:**
-- ✅ Costo: ~€10/año (solo dominio)
-- ✅ Deploy automático en cada push
-- ✅ Velocidad: compila 100 páginas en <30 segundos
-- ✅ SEO: HTML puro
-- ✅ Escalable: miles de páginas sin problema
-- ✅ Curva de aprendizaje corta
+- Stack: Hugo + GitHub + Netlify.
+- Fuente de datos: tabla `Subvenciones` ya tageada (Fase 2).
+- Volumen diario: 1 página/día (`DAILY_PAGES = 1`).
+- Mínimo para crear página nueva: 3 subvenciones (`MIN_GRANTS_TO_CREATE_PAGE = 3`).
+- Sitemap: incluir `home` + índices + páginas de subvenciones.
 
 ## Requisitos previos
 
-- ✓ Cuenta GitHub (gratuita)
-- ✓ Cuenta Netlify (gratuita)
-- ✓ Git instalado localmente
-- ✓ Hugo instalado localmente (opcional, Netlify lo instala)
-- ✓ Notion con tablas Query History + Subvenciones pobladas (Fase 1 + 2)
-- ✓ n8n funcionando con acceso a Notion API
+- Cuenta GitHub y Netlify.
+- Repositorio web base con Hugo.
+- n8n con acceso a Notion.
+- Fase 1 y Fase 2 operativas.
+- En `Subvenciones`: `tag_seo`, `tags`, `status`, `needs_review` y tags estructurales (`region`, `beneficiario`) completos.
 
-## Base de datos: Estrategia Notion → PostgreSQL
-
-### Fase 1-2 (Ahora): Mantén Notion
-
-**Por qué:**
-- ✅ Ya está configurado
-- ✅ Interfaz visual para revisar datos manualmente
-- ✅ Zero mantenimiento
-- ✅ API integrada con n8n (connector nativo)
-- ✅ Cero fricción = Máxima velocidad de desarrollo
-
-**Limitaciones (aún no relevantes):**
-- ⚠️ API REST más lenta (~500ms por query)
-- ⚠️ Rate limiting si escalas masivamente
-- ⚠️ Costo: gratuito ahora, €12-15/mes si necesitas plan Team
+## Flujo diario (simplificado)
 
 ```
-Volumen esperado: <100K registros total → Notion funciona perfectamente
+06:00  Fase 1 actualiza Query History
+06:30  Fase 2 actualiza Subvenciones y tags
+07:00  Fase 3 genera 1 página y hace push
+07:02  Netlify build + deploy
+07:05  Página y sitemap publicados
 ```
 
-### Fase 3 (Después): Migra a PostgreSQL en Oracle VPS
+## Selección de la página del día
 
-**Por qué esperar:**
-- Sabes exactamente qué datos necesitas (cero sorpresas)
-- El sistema ya funciona → migración es trivial (10 minutos)
-- Velocidad importa más: queries <50ms vs. 500ms
-- Costo: €0 (tu servidor Oracle ya existe)
-- Sin downtime
+1. Consultar combinaciones candidatas desde `Subvenciones`:
+   - `status = active`
+   - `tag_seo` no vacío
+   - `needs_review = false`
+2. Agrupar por `region + beneficiario + tag_seo`.
+3. Contar subvenciones por grupo.
+4. Para creación de nuevas páginas, filtrar grupos con `count >= MIN_GRANTS_TO_CREATE_PAGE`.
+5. Ordenar por prioridad (recencia y volumen).
+6. Seleccionar 1 grupo (`DAILY_PAGES`).
 
-**Ventajas de PostgreSQL:**
-- ✅ Queries muy rápidas (<50ms)
-- ✅ Escritura masiva eficiente (batch inserts)
-- ✅ Sin límites de rate limiting
-- ✅ Acceso desde n8n igual de fácil (connector nativo)
-- ✅ Exportación de datos trivial
+Regla de desempate (determinista):
+1. Mayor recencia (`max(receivedDate)` más reciente).
+2. Si empata, mayor volumen (`count` más alto).
+3. Si sigue empatado, orden alfabético por `region + beneficiario + tag_seo`.
 
-### Plan de migración (fácil)
+## Control de páginas ya publicadas (create/update)
 
-```
-Semana 1-2: Sistema funcionando en Notion
-    ↓
-Semana 3: Migración a PostgreSQL (10 minutos)
-    1. Exportar datos de Notion (1 click)
-    2. Crear schema PostgreSQL en Oracle (5 min)
-    3. Importar datos (2 min)
-    4. Cambiar connection string en n8n (1 min)
-    5. Listo, sin downtime
+Clave: la URL/slug se calcula de forma determinista desde los tags.
+
+```text
+slug = "subvenciones-" + {region_slug} + "-" + {beneficiario_slug} + "-" + {tag_seo}
+url  = "/" + slug + "/"
+archivo = content/subvenciones/{slug}.md
 ```
 
-### Setup PostgreSQL en Oracle VPS (cuando llegue el momento)
+Con este criterio, no necesitas adivinar si un tag "ya fue subido":
 
-```bash
-# 1. Conectar al servidor
-ssh user@your-oracle-instance
+1. Si `archivo` no existe en el repo -> **CREATE**.
+2. Si `archivo` existe -> **UPDATE** (regenerar contenido diario).
 
-# 2. Instalar PostgreSQL
-sudo apt update
-sudo apt install postgresql postgresql-contrib
+Recomendación adicional para trazabilidad:
 
-# 3. Crear base de datos
-sudo -u postgres createdb subvenciones
+- Guardar en Notion (tabla de páginas o en la propia `Subvenciones` agregada por grupo):
+  - `slug`
+  - `last_published_at`
+  - `last_grant_count`
+  - `last_content_hash` (opcional)
 
-# 4. Crear usuario
-sudo -u postgres createuser n8n_user -P
+## Sincronización diaria recomendada (lo que pediste)
 
-# 5. Configurar permisos
-sudo -u postgres psql -c "ALTER ROLE n8n_user WITH CREATEDB;"
+Cada día, Fase 3 hace sincronización completa de páginas objetivo:
 
-# 6. Configurar acceso remoto desde n8n
-# Editar /etc/postgresql/14/main/postgresql.conf
-# Cambiar: listen_addresses = 'localhost' → listen_addresses = '*'
-```
+1. Construir dos listas desde `Subvenciones`:
+  - `desired_create_pages`: grupos `region + beneficiario + tag_seo` con `count >= MIN_GRANTS_TO_CREATE_PAGE`.
+  - `desired_update_pages`: grupos `region + beneficiario + tag_seo` sin aplicar mínimo de creación.
+2. Cargar `existing_pages` del repo (slugs en `content/subvenciones/*.md`).
+3. Calcular:
+  - `pages_to_create = desired_create_pages - existing_pages`
+  - `pages_to_update = existing_pages`
+4. Generar Markdown para `pages_to_create` y `pages_to_update`.
+5. Commit + push (Netlify despliega).
 
-**Conexión desde n8n (cuando migres):**
-```
-Host: tu-ip-oracle
-Port: 5432
-Database: subvenciones
-User: n8n_user
-Password: [tu contraseña]
-```
+Resultado:
 
+- Las no existentes se crean automáticamente.
+- Las existentes se actualizan todos los días aunque bajen de 3 subvenciones.
+- El mínimo de 3 se usa solo para crear páginas nuevas.
+
+## Implementación en n8n
+
+### Paso 1: Obtener y filtrar datos
+
+- Leer `Subvenciones` desde Notion.
+- Aplicar filtros operativos (`active`, `tag_seo`, `needs_review = false`).
+- Agrupar por `region + beneficiario + tag_seo`.
+- Generar `desired_create_pages` con grupos que cumplan `count >= 3`.
+- Generar `desired_update_pages` sin umbral mínimo (para actualizar existentes).
+
+### Paso 1.1: Detectar create/update por slug
+
+- Listar archivos existentes en `content/subvenciones/`.
+- Convertir nombre de archivo a `slug`.
+- Comparar contra `desired_create_pages` y `existing_pages` para obtener:
+  - `pages_to_create`
+  - `pages_to_update` (todas las existentes)
+
+### Paso 2: Generar Markdown
+
+Crear o actualizar archivo en `content/subvenciones/{slug}.md` con front matter:
+
+```yaml
 ---
-
-## Arquitectura Web: Hugo + GitHub + Netlify
-
-**Por qué esta opción:**
-
-1. **Costo:** ~€10/año (solo dominio)
-2. **Automatización:** Deploy automático al hacer push a GitHub
-3. **Velocidad:** Hugo compila 1000 páginas en <30 segundos
-4. **Simpleza:** Solo markdown, sin lógica compleja
-5. **Escalabilidad:** Maneja 1000+ páginas sin problema
-6. **SEO:** Static HTML puro = SEO perfecto
-
-**Flujo diario:**
-
-```
-6:00 AM: Fase 1 - Query History (Notion)
-    ↓ (30 min después)
-6:30 AM: Fase 2 - Tagging de subvenciones (Notion)
-    ↓ (30 min después)
-7:00 AM: Fase 3 - Generar webs (n8n)
-    ├─ Lee 3 combos prioritarias de Notion
-    ├─ Genera 3 archivos .md
-    ├─ Commit + push a GitHub
-    └─ Auto-triggers Netlify build
-    ↓
-7:05 AM: Webs vivas en URLs públicas
+title: Subvenciones para {tag} en {region} para {beneficiario}
+region: {region_slug}
+beneficiario: {beneficiario_slug}
+tag_seo: {tag}
+count: {total}
+date: {YYYY-MM-DD}
+slug: subvenciones-{region_slug}-{beneficiario_slug}-{tag}
+---
 ```
 
-## Implementación: Hugo + GitHub + Netlify
+### Paso 3: Actualizar índices
 
-### Paso 1: Estructura Hugo
+- Regenerar índice general de subvenciones.
+- Regenerar índice por región y/o por temática (si aplica en el sitio).
+
+### Paso 4: Generar sitemap
+
+El sitemap debe incluir:
+
+- `/` (home)
+- páginas índice (`/subvenciones/`, y las que apliquen)
+- páginas temáticas (`/subvenciones-{region}-{beneficiario}-{tag}/`)
+
+Opción recomendada:
+- usar sitemap automático de Hugo y verificar que todos los tipos de páginas estén incluidos.
+
+### Paso 5: Push y deploy
+
+1. Commit de cambios en `content/` (y archivos de índices si cambian).
+2. Push a `main`.
+3. Netlify despliega automáticamente.
+
+### Paso 6: Registrar publicación (opcional pero recomendado)
+
+- Actualizar metadatos de publicación:
+  - `last_published_at`
+  - `last_grant_count`
+  - `last_content_hash` (si lo usas)
+
+## Configuración mínima de Hugo/Netlify
+
+### Estructura
 
 ```
 subvenciones-site/
 ├── config.toml
-├── themes/
-│   └── minimal/
-│       ├── layouts/
-│       │   ├── _default/
-│       │   │   ├── baseof.html
-│       │   │   ├── single.html
-│       │   │   └── list.html
-│       │   └── partials/
-│       └── static/
-│           └── css/style.css
 ├── content/
 │   └── subvenciones/
-├── netlify.toml
-└── public/ (generado)
+├── layouts/
+├── static/
+└── netlify.toml
 ```
 
-### Paso 2: Template Hugo básico
+### netlify.toml
 
-**File: `themes/minimal/layouts/_default/single.html`**
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} - Subvenciones</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <header>
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Count }} subvenciones activas en {{ .Region }}</p>
-    </header>
-    
-    <main>
-        {{ .Content }}
-    </main>
-    
-    <footer>
-        <p>Última actualización: {{ .Date.Format "02/01/2006" }}</p>
-    </footer>
-</body>
-</html>
-```
-
-### Paso 3: Markdown generado (ejemplo)
-
-**Resultado: `content/subvenciones/musica-galicia.md`**
-```markdown
----
-title: Subvenciones para Música en Galicia
-region: galicia
-tag_seo: musica
-count: 12
-date: 2026-05-26
----
-
-## Subvenciones activas
-
-### 1. Ayudas para orquestas sinfónicas
-- **Beneficiario:** PYME
-- **Fechas:** 01/06/2026 - 30/06/2026
-- **Enlace:** [Ver en InfoSubvenciones](https://infosubvenciones.es/...)
-
-### 2. Festival de Música Clásica
-- **Beneficiario:** Asociación
-- **Fechas:** 15/06/2026 - 15/08/2026
-- **Enlace:** [Ver detalles](https://infosubvenciones.es/...)
-```
-
-### Paso 4: Nodo n8n - Generar Markdown desde Notion
-
-```javascript
-// Workflow n8n - Nodo: "Generar Markdown"
-// Input: combos prioritarias de hoy (3 combos de Notion)
-
-const combosHoy = $input.first().json.combos;
-
-for (let combo of combosHoy) {
-  const { región_id, tag_seo } = combo;
-  const región = await notionRead('Regiones', región_id);
-  
-  // Query Notion: Subvenciones con este tag_seo y región
-  const subs = await notionQuery('Subvenciones', {
-    filter: `región = "${región_id}" AND tag_seo = "${tag_seo}" AND status = "active"`
-  });
-  
-  // Generar markdown
-  let md = `---
-title: Subvenciones para ${tag_seo.toUpperCase()} en ${región.nombre}
-region: ${región.slug}
-tag_seo: ${tag_seo}
-count: ${subs.length}
-date: ${new Date().toISOString().split('T')[0]}
----
-
-## Subvenciones activas (${subs.length})\n\n`;
-  
-  for (let sub of subs) {
-    md += `### ${sub.titulo}
-- **Beneficiario:** ${sub.beneficiario}
-- **Fechas:** ${sub.fecha_inicio} - ${sub.fecha_fin}
-- **Enlace:** [Ver en InfoSubvenciones](${sub.url})
-
-`;
-  }
-  
-  return {
-    filename: `content/subvenciones/${tag_seo}-${región.slug}.md`,
-    content: md
-  };
-}
-```
-
-### Paso 5: Nodo n8n - Push a GitHub
-
-```javascript
-// Workflow n8n - Nodo: "Push a GitHub"
-
-const simpleGit = require('simple-git');
-const fs = require('fs');
-const path = require('path');
-
-const git = simpleGit('/tmp/subvenciones-site');
-
-// Clonar repo
-await git.clone('https://github.com/tuuser/subvenciones-site.git', '/tmp/subvenciones-site');
-
-// Recibir archivos del nodo anterior
-const files = $input.all();
-
-// Escribir archivos
-for (let file of files) {
-  const fullPath = path.join('/tmp/subvenciones-site', file.filename);
-  fs.mkdirSync(path.dirname(fullPath), { recursive: true });
-  fs.writeFileSync(fullPath, file.content);
-}
-
-// Git commit y push
-await git.add('content/');
-await git.commit(`Auto-update: ${files.length} subvenciones (${new Date().toLocaleString()})`);
-await git.push('origin', 'main');
-
-return {
-  status: 'success',
-  filesUpdated: files.length,
-  timestamp: new Date().toISOString()
-};
-```
-
-### Paso 6: Configuración Netlify
-
-**File: `netlify.toml`** (en raíz del repo)
 ```toml
 [build]
   command = "hugo"
@@ -300,73 +175,27 @@ return {
 
 [build.environment]
   HUGO_VERSION = "0.111.0"
-
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
 ```
 
-**Setup en Netlify:**
-1. Conectar GitHub repo
-2. Build command: `hugo`
-3. Publish directory: `public`
-4. Deploy branch: `main`
-5. Auto-deploy ✓
+## Variables recomendadas (n8n)
 
----
+- `DAILY_PAGES = 1`
+- `MIN_GRANTS_TO_CREATE_PAGE = 3`
+- `MAX_GRANTS_PER_PAGE` opcional para limitar longitud de página
 
-## Checklist de implementación
+## Checklist de salida
 
-**Semana 1: Setup base**
-- [ ] Crear repo Hugo con estructura básica
-- [ ] Template HTML minimalista
-- [ ] Conectar GitHub a Netlify
-- [ ] Testear con 1 página de prueba
+- [ ] Se selecciona exactamente 1 combinación válida al día.
+- [ ] Las páginas nuevas se crean solo si tienen al menos 3 subvenciones.
+- [ ] Las páginas existentes se actualizan diariamente aunque tengan menos de 3.
+- [ ] Se genera el Markdown de la página.
+- [ ] Se actualizan índices.
+- [ ] Se actualiza sitemap.
+- [ ] Se hace push y Netlify despliega sin errores.
 
-**Semana 2: Integración n8n**
-- [ ] Nodo para generar markdown desde Notion
-- [ ] Nodo para push a GitHub
-- [ ] Pipeline completo funcionando
-- [ ] Testear con 3 páginas
+## Coste
 
-**Semana 3: Optimización**
-- [ ] Sitemap.xml automático
-- [ ] Meta tags SEO
-- [ ] CSS minimalista pero profesional
-- [ ] Scheduling diario
-
-**Semana 4: Productivización**
-- [ ] Monitoreo de builds
-- [ ] Alertas si falla deploy
-- [ ] Documentación mantenimiento
-- [ ] Go-live
-
----
-
----
-
-## Alternativa más simple (sin Git)
-
-Si prefieres no tocar GitHub:
-1. **n8n genera HTML completo**
-2. **Sube directamente a Netlify via API**
-3. **URLs actualizadas al instante**
-
-Costo: igual (€10/año) | Complejidad: menor | Versionado: no existe
-
----
-
-## Costos finales
-
-| Concepto               | Costo              |
-| ---------------------- | ------------------ |
-| Netlify (hosting)      | €0                 |
-| GitHub (repositorio)   | €0                 |
-| Notion (base de datos) | €0 (plan gratuito) |
-| Dominio                | ~€10/año           |
-| **TOTAL**              | **€10/año**        |
-
-*Nota: Migrará a PostgreSQL en Oracle VPS después (costo €0)*
-
----
+- Netlify: €0
+- GitHub: €0
+- Dominio: ~€10/año
+- Total: ~€10/año

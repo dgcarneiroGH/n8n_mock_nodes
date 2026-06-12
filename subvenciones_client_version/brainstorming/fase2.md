@@ -23,7 +23,7 @@ Cada día, n8n:
 **Regla de eficiencia (filtro duro):**
 - `low_volume` y `no_results` NO pasan a Fase 2.
 - `pending` NO pasa a Fase 2 (se resuelve en Fase 1 al recalcular estado).
-- El umbral de `active` es configurable en el nodo de Query History (`MIN_RESULTS_FOR_ACTIVE`, por defecto 10).
+- El umbral de `active` es configurable en el nodo de Query History (`MIN_RESULTS_FOR_ACTIVE`, por defecto 3).
 
 ### Paso 2: Almacenar subvenciones en Notion
 Crear/actualizar registros en la tabla `Subvenciones` con:

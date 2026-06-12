@@ -29,7 +29,7 @@ Una tabla `Query History` en Notion que almacena:
 | `api_url_called`     | Text          | URL exacta consultada (para auditoria)                                           |
 | `priority_score`     | Formula       | Score automático para ordenar prioritarias                                       |
 
-`MIN_RESULTS_FOR_ACTIVE` es configurable (valor inicial recomendado: 10).
+`MIN_RESULTS_FOR_ACTIVE` es configurable (valor inicial recomendado: 3).
 
 ### Fórmula de Priority Score
 ```

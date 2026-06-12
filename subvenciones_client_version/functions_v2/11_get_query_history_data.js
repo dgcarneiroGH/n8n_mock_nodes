@@ -7,7 +7,7 @@ try {
 
 // Minimum grants required to mark a combo as active.
 // Change this constant to tune Phase 2 entry criteria.
-const MIN_RESULTS_FOR_ACTIVE = 5;
+const MIN_RESULTS_FOR_ACTIVE = 3;
 
 // Replace this with real n8n data injection, for example: $input.all().map(item => item.json)
 //#region Inputs
