@@ -122,7 +122,8 @@ function getHtmlTemplate(grantsHTML) {
 // BLOCK 2: N8N INTEGRATION (COPY ONLY THIS PART INTO N8N)
 // ============================================================================
 if (typeof $input !== "undefined") {
-  const items = $input.all().map((item) => item.json);
+  // This code runs only in the n8n environment
+  const items = $input.all();
   return buildCompleteHtml(items);
 }
 // ============================================================================

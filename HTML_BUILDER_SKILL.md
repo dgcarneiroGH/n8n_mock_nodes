@@ -87,8 +87,10 @@ function getHtmlTemplate(client, grantsHTML) {
 // BLOCK 2: N8N INTEGRATION (COPY ONLY THIS PART INTO N8N)
 // ============================================================================
 if (typeof $input !== "undefined") {
-  // This code runs only in the n8n environment
-  const items = $input.all().map((item) => item.json);
+  // This code runs only in the n8n environment.
+  // It passes the raw n8n input structure directly to the logic block.
+  // The logic block is responsible for accessing the `.json` property.
+  const items = $input.all();
   return buildCompleteHtml(items);
 }
 // ============================================================================
