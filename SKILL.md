@@ -22,6 +22,7 @@
   - If filename contains "builder" → `results/builders/`
   - If filename contains other pattern → create corresponding section folder (e.g., "export" → `results/export/`)
 - **Assign a sequential number**: Use the next available number (e.g., if latest is 14, use 15), or insert between existing numbers if it's a dependency fix
+- **Output file name**: The output file should be named after the script, but without the numeric prefix. For example, `23_filter_tagged_grants.js` should produce `filter_tagged_grants.json`.
 
 ### 3. **Examine Related Nodes**
 
@@ -238,7 +239,6 @@ const result = data1.map((item, idx) => ({
   ...item,
   related: data2[idx],
 }));
-
 //#endregion
 ```
 
