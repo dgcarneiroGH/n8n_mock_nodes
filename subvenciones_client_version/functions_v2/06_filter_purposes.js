@@ -10,18 +10,20 @@ const notionPurposes = JSON.parse(
 //#endregion
 
 try {
-  //#region Node Logic
-  const result = purposesFormatted.map((originalItem) => {
-    const match = notionPurposes.find(
-      (notionItem) => notionItem.property_id === originalItem.id,
-    );
+//#region Node Logic
+  const notionById = new Map(
+    notionPurposes.map((item) => [item.property_id, item]),
+  );
+
+  const result = purposesFormatted.map((item) => {
+    const match = notionById.get(item.id);
     return {
-      ...originalItem,
-      existsInNotion: !!match,
+      ...item,
+      existsInNotion: Boolean(match),
       notionPageId: match ? match.id : null,
     };
   });
-  //#endregion
+//#endregion
 
   // In n8N context:
   // - Replace fs.readFileSync with $node["<previous-node-name>"].json.body.output

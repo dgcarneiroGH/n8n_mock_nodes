@@ -10,7 +10,6 @@ try {
   process.exit(1);
 }
 
-// Sustituye esto por la injección de datos real en N8N Ej: $input.all().map(item => item.json)
 const regions = regionsRaw;
 
 //#region Node Logic
@@ -64,7 +63,6 @@ const spainRegion = regions.find((region) => Number(region.id) === 1);
 const result = extractAllRegions([spainRegion]);
 //#endregion
 
-// Sustituye esto por el return de datos correspondiente
 try {
   fs.mkdirSync("./results/builders", { recursive: true });
   fs.writeFileSync(
@@ -72,7 +70,7 @@ try {
     JSON.stringify(result, null, 2),
     "utf8",
   );
-  console.log(`✅ ¡Éxito! Se formatearon ${result.length} regiones.`);
+  console.log(`✅ ${result.length} regions formatted`);
 } catch (err) {
-  console.error("❌ Error al guardar el archivo:", err.message);
+  console.error(`❌ Error saving file: ${err.message}`);
 }

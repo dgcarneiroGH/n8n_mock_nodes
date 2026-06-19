@@ -1,3 +1,8 @@
+---
+name: html-builder
+description: Use when creating a new n8n node that generates rich HTML content (emails, reports) in the subvenciones_client_version project. Applies to functions_v2/ scripts that need a local-testable HTML builder.
+---
+
 # N8N HTML Builder Pattern
 
 **Purpose**: Create n8n nodes that generate complex HTML outputs (like emails or reports) from input data, while being locally testable. Each node is self-contained and provides clear instructions for n8n integration.

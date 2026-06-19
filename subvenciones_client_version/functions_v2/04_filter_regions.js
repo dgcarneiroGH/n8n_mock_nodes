@@ -13,7 +13,6 @@ try {
   process.exit(1);
 }
 
-// Sustituye esto por la injección de datos real en N8N Ej: $input.all().map(item => item.json)
 const regions = regionsRaw;
 const notionResults = notionRegionsRaw;
 
@@ -33,7 +32,6 @@ const result = regions.map((originalItem) => {
 
 //#endregion
 
-// Sustituye esto por el return de datos correspondiente
 try {
   fs.mkdirSync("./results/filters", { recursive: true });
   fs.writeFileSync(
@@ -41,7 +39,7 @@ try {
     JSON.stringify(result, null, 2),
     "utf8",
   );
-  console.log(`✅ ¡Éxito! Se filtraron ${result.length} regiones.`);
+  console.log(`✅ ${result.length} regions filtered`);
 } catch (err) {
-  console.error("❌ Error al guardar el archivo:", err.message);
+  console.error(`❌ Error saving file: ${err.message}`);
 }

@@ -2,46 +2,46 @@
   {
     "id": "37383f94-7b2c-81a0-8761-e2ba6c863249",
     "name": "SIN INFORMACION ESPECIFICA",
-    "url": "https://www.notion.so/SIN-INFORMACION-ESPECIFICA-37383f947b2c81a08761e2ba6c863249",
+    "url": "https://app.notion.com/p/SIN-INFORMACION-ESPECIFICA-37383f947b2c81a08761e2ba6c863249",
     "property_c_digo": "5",
     "property_subvenciones_v3": [],
-    "property_slug": "sin-informacion-especifica",
+    "property_slug": "5",
     "property_descripci_n": "SIN INFORMACION ESPECIFICA"
   },
   {
     "id": "37383f94-7b2c-8160-9692-d872fe86bfd1",
     "name": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
-    "url": "https://www.notion.so/PERSONAS-F-SICAS-QUE-NO-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81609692d872fe86bfd1",
+    "url": "https://app.notion.com/p/PERSONAS-F-SICAS-QUE-NO-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81609692d872fe86bfd1",
     "property_c_digo": "1",
     "property_subvenciones_v3": [],
-    "property_slug": "personas-fisicas-que-no-desarrollan-actividad-economica",
+    "property_slug": "particulares",
     "property_descripci_n": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
   },
   {
     "id": "37383f94-7b2c-81d3-8d20-e7a59724a80d",
     "name": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA",
-    "url": "https://www.notion.so/PERSONAS-JUR-DICAS-QUE-NO-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81d38d20e7a59724a80d",
+    "url": "https://app.notion.com/p/PERSONAS-JUR-DICAS-QUE-NO-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81d38d20e7a59724a80d",
     "property_c_digo": "2",
     "property_subvenciones_v3": [],
-    "property_slug": "personas-juridicas-que-no-desarrollan-actividad-economica",
+    "property_slug": "asociaciones-y-ong",
     "property_descripci_n": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
   },
   {
     "id": "37383f94-7b2c-8133-808c-c5ac1fbca38b",
     "name": "GRAN EMPRESA",
-    "url": "https://www.notion.so/GRAN-EMPRESA-37383f947b2c8133808cc5ac1fbca38b",
+    "url": "https://app.notion.com/p/GRAN-EMPRESA-37383f947b2c8133808cc5ac1fbca38b",
     "property_c_digo": "4",
     "property_subvenciones_v3": [],
-    "property_slug": "gran-empresa",
+    "property_slug": "empresa",
     "property_descripci_n": "GRAN EMPRESA"
   },
   {
     "id": "37383f94-7b2c-8190-9905-c321d7031599",
     "name": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA",
-    "url": "https://www.notion.so/PYME-Y-PERSONAS-F-SICAS-QUE-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81909905c321d7031599",
+    "url": "https://app.notion.com/p/PYME-Y-PERSONAS-F-SICAS-QUE-DESARROLLAN-ACTIVIDAD-ECON-MICA-37383f947b2c81909905c321d7031599",
     "property_c_digo": "3",
     "property_subvenciones_v3": [],
-    "property_slug": "pyme-y-personas-fisicas-que-desarrollan-actividad-economica",
+    "property_slug": "pyme-y-autonomos",
     "property_descripci_n": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
   }
 ]

@@ -1,0 +1,193 @@
+{
+    "seo_tags": {
+        "accesibilidad": [
+            "accesibilidad",
+            "accesible",
+            "barreras",
+            "discapacidad",
+            "ostomia",
+            "adaptacion",
+            "senalizacion"
+        ],
+        "agroalimentario": [
+            "agro",
+            "agricola",
+            "agricultura",
+            "alimentacion",
+            "alimentos",
+            "agroalimentarias",
+            "ganaderia",
+            "ganadero"
+        ],
+        "cine": [
+            "cine",
+            "cinematografia",
+            "cortometrajes",
+            "film",
+            "pelicula",
+            "produccion audiovisual",
+            "rodaje"
+        ],
+        "comercio": [
+            "comercio",
+            "comercial",
+            "comerciante",
+            "distribucion",
+            "retail",
+            "venta"
+        ],
+        "danza": [
+            "ballet",
+            "coreografia",
+            "danza",
+            "danzarin"
+        ],
+        "deportes": [
+            "campeonatos",
+            "competiciones",
+            "csd",
+            "deporte",
+            "deportes",
+            "deportistas",
+            "deportiva",
+            "deportivas",
+            "deportista",
+            "entrenador",
+            "entrenadores",
+            "federada",
+            "olimpica",
+            "paralimpica"
+        ],
+        "economia_circular": [
+            "economia circular",
+            "reciclaje",
+            "residuos"
+        ],
+        "economia_digital": [
+            "digitalizacion",
+            "software",
+            "tic",
+            "transformacion digital"
+        ],
+        "empleo": [
+            "autoempleo",
+            "contratacion",
+            "empleate",
+            "empleo",
+            "insercion laboral",
+            "itinerarios",
+            "trabajadores"
+        ],
+        "energia": [
+            "electrico",
+            "energia",
+            "renovable",
+            "sostenible"
+        ],
+        "familia": [
+            "acogida",
+            "acogimiento",
+            "adopcion",
+            "bebe",
+            "conciliacion",
+            "familia",
+            "familias",
+            "menor",
+            "menores",
+            "nacimiento",
+            "natalidad",
+            "progenitor",
+            "progenitora",
+            "progenitoras",
+            "progenitores"
+        ],
+        "formacion": [
+            "aprendizaje",
+            "beca",
+            "becas",
+            "capacitacion",
+            "cursos",
+            "educacion",
+            "formacion"
+        ],
+        "gastronomia": [
+            "cocina",
+            "gastronomia",
+            "hosteleria",
+            "restauracion",
+            "vinos"
+        ],
+        "innovacion": [
+            "desarrollo",
+            "i+d",
+            "innovacion",
+            "investigacion"
+        ],
+        "internacionalizacion": [
+            "comercio exterior",
+            "exportacion",
+            "internacionalizacion"
+        ],
+        "literatura": [
+            "cuento",
+            "cuentos",
+            "guion",
+            "guiones",
+            "ilustracion",
+            "ilustraciones",
+            "libro"
+        ],
+        "movilidad": [
+            "logistica",
+            "movilidad",
+            "transporte"
+        ],
+        "musica": [
+            "compositor",
+            "concierto",
+            "festival musical",
+            "musica",
+            "orquesta"
+        ],
+        "patrimonio": [
+            "historico",
+            "museo",
+            "patrimonio",
+            "restauracion"
+        ],
+        "salud": [
+            "adicciones",
+            "bienestar",
+            "drogodependencia",
+            "drogas",
+            "medico",
+            "salud",
+            "sanitario",
+            "socio sanitarias"
+        ],
+        "teatro": [
+            "actores",
+            "dramatico",
+            "escenico",
+            "representacion",
+            "teatro"
+        ],
+        "turismo": [
+            "carnaval",
+            "desfile",
+            "experiencia turistica",
+            "hospedaje",
+            "turismo",
+            "turistico"
+        ],
+        "vivienda": [
+            "alquiler",
+            "habitabilidad",
+            "habitacional",
+            "inmueble",
+            "inmuebles",
+            "vivienda",
+            "viviendas"
+        ]
+    }
+}

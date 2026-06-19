@@ -11,14 +11,7 @@ const fs = require("fs");
  * @returns {Array<Object>} An array containing the final HTML content object.
  */
 function buildCompleteHtml(items) {
-  // Filter for items that have a code and a URL
-  const validItems = items.filter(item => item.json && item.json.code && item.json.urlHtml);
-  
-  if (validItems.length === 0) {
-    return [];
-  }
-
-  const grantsHTML = validItems.map(item => renderGrantRow(item.json)).join("");
+  const grantsHTML = items.map(item => renderGrantRow(item)).join("");
   const htmlContent = getHtmlTemplate(grantsHTML);
 
   return [{

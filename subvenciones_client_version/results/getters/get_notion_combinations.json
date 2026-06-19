@@ -1,27 +1,178 @@
 [
   {
-    "id": "36e83f94-7b2c-8193-ac1e-e23ca132f7f3",
-
-    "name": "3_11_10",
-
-    "url": "https://www.notion.so/3_11_10-36e83f947b2c8193ac1ee23ca132f7f3",
-
-    "property_api_url_called": null,
-
-    "property_last_checked_at": null,
-
-    "property_priority_score": 9999,
-
-    "property_id_regi_n": "11",
-
-    "property_status": "pending",
-
-    "property_id_finalidad": "10",
-
-    "property_count_results": null,
-
-    "property_id_beneficiario": "3",
-
-    "property_id": "3_11_10"
+    "id": "37683f94-7b2c-8157-9e4c-dbab0a8a7912",
+    "name": "1_38_4",
+    "url": "https://app.notion.com/p/1_38_4-37683f947b2c81579e4cdbab0a8a7912",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-05T22:57:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "38",
+    "property_priority_score": 12,
+    "property_active_results": 3,
+    "property_id_regi_n": "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3",
+    "property_c_digo_finalidad": "4",
+    "property_c_digos_activos": "897576-847036-847034",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-81a6-afb0-e98486101d9e",
+    "property_total_results": 3,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_38_4"
+  },
+  {
+    "id": "37683f94-7b2c-8190-a7d6-d68ae036135f",
+    "name": "1_33_8",
+    "url": "https://app.notion.com/p/1_33_8-37683f947b2c8190a7d6d68ae036135f",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-05T18:08:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "33",
+    "property_priority_score": 12,
+    "property_active_results": 4,
+    "property_id_regi_n": "37683f94-7b2c-81d6-9f56-c72661b847f9",
+    "property_c_digo_finalidad": "8",
+    "property_c_digos_activos": "883251-874941-874675-815471",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-810f-ae66-cfb3560ea7f2",
+    "property_total_results": 17,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_33_8"
+  },
+  {
+    "id": "37683f94-7b2c-8182-a8d3-d163eb8dc4ad",
+    "name": "1_20_4",
+    "url": "https://app.notion.com/p/1_20_4-37683f947b2c8182a8d3d163eb8dc4ad",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-05T17:26:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "20",
+    "property_priority_score": 12,
+    "property_active_results": 4,
+    "property_id_regi_n": "37683f94-7b2c-81f5-b6c5-db57e355eaf1",
+    "property_c_digo_finalidad": "4",
+    "property_c_digos_activos": "887078-863307-835243-812675",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-81a6-afb0-e98486101d9e",
+    "property_total_results": 6,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_20_4"
+  },
+  {
+    "id": "37683f94-7b2c-8135-a034-eb94d3759fac",
+    "name": "1_5_18",
+    "url": "https://app.notion.com/p/1_5_18-37683f947b2c8135a034eb94d3759fac",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-05T17:01:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "5",
+    "property_priority_score": 12,
+    "property_active_results": 5,
+    "property_id_regi_n": "37683f94-7b2c-8146-9e7b-c935e6017e98",
+    "property_c_digo_finalidad": "18",
+    "property_c_digos_activos": "899047-894431-883380-826494-820711",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-811f-9bbc-dba2e4435d4e",
+    "property_total_results": 7,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_5_18"
+  },
+  {
+    "id": "37683f94-7b2c-81b3-9373-ed689ccdf934",
+    "name": "1_63_4",
+    "url": "https://app.notion.com/p/1_63_4-37683f947b2c81b39373ed689ccdf934",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-07T17:14:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "63",
+    "property_priority_score": 10,
+    "property_active_results": 3,
+    "property_id_regi_n": "37683f94-7b2c-81bc-9a56-dfeb45a949ae",
+    "property_c_digo_finalidad": "4",
+    "property_c_digos_activos": "905605-899029-833199",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-81a6-afb0-e98486101d9e",
+    "property_total_results": 12,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_63_4"
+  },
+  {
+    "id": "37683f94-7b2c-81fa-aad7-ee8b0c04ae8d",
+    "name": "1_57_4",
+    "url": "https://app.notion.com/p/1_57_4-37683f947b2c81faaad7ee8b0c04ae8d",
+    "property_c_digo_beneficiario": "1",
+    "property_last_checked_at": {
+      "start": "2026-06-07T17:07:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "57",
+    "property_priority_score": 10,
+    "property_active_results": 13,
+    "property_id_regi_n": "37683f94-7b2c-8138-8b26-cb9bf6b882ab",
+    "property_c_digo_finalidad": "4",
+    "property_c_digos_activos": "905850-905550-905548-905480-905157-900908-897530-897418-897292-890578-889940-886361-886281",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-81a6-afb0-e98486101d9e",
+    "property_total_results": 140,
+    "property_id_beneficiario": "37383f94-7b2c-8160-9692-d872fe86bfd1",
+    "property_id": "1_57_4"
+  },
+  {
+    "id": "37683f94-7b2c-81a0-9954-f7daacb1dbb6",
+    "name": "2_3_6",
+    "url": "https://app.notion.com/p/2_3_6-37683f947b2c81a09954f7daacb1dbb6",
+    "property_c_digo_beneficiario": "2",
+    "property_last_checked_at": {
+      "start": "2026-06-12T08:00:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "3",
+    "property_priority_score": 6,
+    "property_active_results": 8,
+    "property_id_regi_n": "37683f94-7b2c-8148-b42d-e7985873051b",
+    "property_c_digo_finalidad": "6",
+    "property_c_digos_activos": "896067-885616-885614-885613-884391-884376-884372-882496",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-8117-9eb7-e11e47fe4dd3",
+    "property_total_results": 96,
+    "property_id_beneficiario": "37383f94-7b2c-81d3-8d20-e7a59724a80d",
+    "property_id": "2_3_6"
+  },
+  {
+    "id": "37683f94-7b2c-81b0-85bf-e3bbdb765530",
+    "name": "2_40_9",
+    "url": "https://app.notion.com/p/2_40_9-37683f947b2c81b085bfe3bbdb765530",
+    "property_c_digo_beneficiario": "2",
+    "property_last_checked_at": {
+      "start": "2026-06-18T08:00:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_c_digo_regi_n": "40",
+    "property_priority_score": 0,
+    "property_active_results": 5,
+    "property_id_regi_n": "37683f94-7b2c-81a3-8cdf-e939fe5fd58a",
+    "property_c_digo_finalidad": "9",
+    "property_c_digos_activos": "898740-898546-833086-833036-820756",
+    "property_status": "active",
+    "property_id_finalidad": "37383f94-7b2c-815e-be25-d2c41f656031",
+    "property_total_results": 33,
+    "property_id_beneficiario": "37383f94-7b2c-81d3-8d20-e7a59724a80d",
+    "property_id": "2_40_9"
   }
 ]

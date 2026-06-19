@@ -1,3 +1,8 @@
+---
+name: create-mock-node
+description: Use when creating a new n8n mock node in the subvenciones_client_version project. Applies to functions_v1/ and functions_v2/ scripts that follow the Input/Node Logic/I/O pattern with `//#region Node Logic` blocks.
+---
+
 # N8N Mock Node Implementation Pattern
 
 **Purpose**: Create new processing nodes in n8n workflows following the established pattern in `subvenciones_client_version/`. Each node is self-contained, testable locally with JSON files, and easily integrated into the orchestrated workflow.
