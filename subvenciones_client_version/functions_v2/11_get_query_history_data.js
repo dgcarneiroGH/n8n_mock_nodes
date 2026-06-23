@@ -58,14 +58,6 @@ const notionCombination =
 try {
   //#region Node Logic
   const today = new Date().toISOString().slice(0, 10);
-  const grantsPayload =
-    getGrantsResponse && typeof getGrantsResponse === "object"
-      ? getGrantsResponse
-      : { content: [], totalElements: 0 };
-  const getGrants = Array.isArray(grantsPayload.content)
-    ? grantsPayload.content
-    : [];
-  const safeLoopGrants = Array.isArray(loopGrantsData) ? loopGrantsData : [];
 
   const normalizeCode = (value) =>
     value === undefined || value === null || value === ""
@@ -73,7 +65,7 @@ try {
       : String(value).trim();
 
   const loopGrantsByCode = new Map();
-  for (const grant of safeLoopGrants) {
+  for (const grant of loopGrantsData) {
     const code = normalizeCode(grant.codigoBDNS);
     if (code !== null) {
       loopGrantsByCode.set(code, grant);
@@ -82,7 +74,7 @@ try {
 
   let countResultsConsistent = 0;
   const grantCodesActive = [];
-  for (const grant of getGrants) {
+  for (const grant of getGrantsResponse.content) {
     const code = normalizeCode(grant.numeroConvocatoria);
     if (code === null) {
       continue;
@@ -95,21 +87,18 @@ try {
 
     countResultsConsistent += 1;
 
-    const hasAnnouncements =
-      Array.isArray(loopGrant.anuncios) && loopGrant.anuncios.length > 0;
     const endDate = loopGrant.fechaFinSolicitud;
     const notExpired = endDate === null || endDate === "" || today <= endDate;
 
-    if (hasAnnouncements && notExpired) {
+    if (notExpired) {
       grantCodesActive.push(code);
     }
   }
 
-  const countResultsRaw = Number.isFinite(grantsPayload.totalElements)
-    ? grantsPayload.totalElements
-    : getGrants.length;
+  const countResultsRaw = Number.isFinite(getGrantsResponse.totalElements)
+    ? getGrantsResponse.totalElements
+    : getGrantsResponse.content.length;
   const countResults = grantCodesActive.length;
-  const grantCodesActiveText = grantCodesActive.join("-");
 
   const status =
     countResults === 0
@@ -122,7 +111,7 @@ try {
     last_checked_at: new Date().toISOString(),
     count_results_raw: countResultsRaw,
     count_results: countResults,
-    grant_codes_active: grantCodesActiveText,
+    grant_codes_active: grantCodesActive.join("-"),
     count_results_consistent: countResultsConsistent,
     status,
     query_history_id: notionCombination.id || null,

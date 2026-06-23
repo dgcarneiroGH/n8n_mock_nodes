@@ -3,7 +3,10 @@ const fs = require("fs");
 // Replace this with real n8n data injection, for example: $input.all().map(item => item.json)
 //#region Inputs
 const getGrantsData = JSON.parse(
-  fs.readFileSync("../results/getters/get_grant_data.json"),
+  fs.readFileSync("../results/builders/format_grant_data.json"),
+);
+const calculatedDates = JSON.parse(
+  fs.readFileSync("../results/merge_dates_data.json"),
 );
 const notionGrants = JSON.parse(
   fs.readFileSync("../results/getters/get_notion_grants.json"),
@@ -15,29 +18,40 @@ const notionCombination = JSON.parse(
 
 try {
   //#region Node Logic
-  const result = getGrantsData.map((grant) => {
-    const grantCode = grant.codigoBDNS;
-    const description = (grant.anuncios ?? [])
-      .map((anuncio) => anuncio.texto ?? "")
-      .join("\n")
-      .replace(/<p>/g, "")
-      .replace(/<\/p>/g, "\n");
+  const today = new Date().toISOString().split("T")[0];
 
-    const match = notionGrants.find(
-      (notionItem) => notionItem.property_c_digo === grantCode,
-    );
+  const calculatedDatesByCode = new Map(
+    calculatedDates.map((item) => [item.code, item]),
+  );
+  const notionGrantsByCode = new Map(
+    notionGrants.map((item) => [item.property_c_digo, item]),
+  );
+
+  const result = getGrantsData.map((grant) => {
+    const grantCode = grant.code;
+    const calculated = calculatedDatesByCode.get(grantCode);
+    if (!calculated) {
+      throw new Error(`No calculated dates found for grant code: ${grantCode}`);
+    }
+    const match = notionGrantsByCode.get(grantCode);
+
+    const endDate = calculated.calculated_end_date;
+    const status = endDate && endDate < today ? "deprecated" : "active";
 
     return {
       code: grantCode,
-      title: grant.descripcion,
-      description,
+      title: grant.title,
+      description: grant.description,
+      publication_date: calculated.publication_date,
+      calculated_start_date: calculated.calculated_start_date,
+      calculated_end_date: calculated.calculated_end_date,
+      _route: calculated._route,
+      receivedDate: grant.receptionDate,
+      status,
       benefactor_id: notionCombination.property_id_beneficiario,
       region_id: notionCombination.property_id_regi_n,
-      purpose_id: notionCombination.property_id_finalidad,
-      receivedDate: grant.fechaRecepcion,
-      organization: grant.nivel3 ?? grant.nivel2,
+      budget: grant.budget,
       urlHtml: `https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/${grantCode}`,
-      urlApi: `https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=${grantCode}&vpd=GE`,
       existsInNotion: !!match,
       notionPageId: match ? match.id : null,
     };

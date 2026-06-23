@@ -1,443 +1,1924 @@
 [
   {
-    "id": "37d83f94-7b2c-8194-9458-fc6681e04666",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81949458fc6681e04666",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "id": "38883f94-7b2c-8149-8785-c86b9d45a278",
+    "name": "844933",
+    "url": "https://app.notion.com/p/844933-38883f947b2c81498785c86b9d45a278",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d4-91ae-c52f58f2c23e"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/844933",
+    "property_fecha_de_inicio_de_convocatoria": null,
     "property_revisi_n_manual_requerida": false,
     "property_ltima_vez_tageado": {
-      "start": "2026-06-12T10:00:00.000+02:00",
+      "start": "2026-06-23T09:41:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "FORMACIÓN Y TECNIFICACION DEL ECOSISTEMA CULTURAL Y CREATIVO",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "canarias"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "844933"
+  },
+  {
+    "id": "38883f94-7b2c-81fc-aa6c-e09be8506486",
+    "name": "857198",
+    "url": "https://app.notion.com/p/857198-38883f947b2c81fcaa6ce09be8506486",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d4-91ae-c52f58f2c23e"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/857198",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:41:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subvención Directa al Club Deportivo de Patinaje Fayna, para la Promoción Deportiva",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "canarias"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "857198"
+  },
+  {
+    "id": "38883f94-7b2c-81a0-bec0-d5ad714d7be4",
+    "name": "859160",
+    "url": "https://app.notion.com/p/859160-38883f947b2c81a0bec0d5ad714d7be4",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d4-91ae-c52f58f2c23e"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859160",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:41:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "SUBVENCIÓN NOMINTIVA AL COLEGIO OFICIAL DE AQUITECTOS DE TENERIFE, LA GOMERA Y EL HIERRO. EJERCICIO 2025. PROYECTO: MEJORA DE ACCESIBILIDAD EN LA SEDE DE LA ENTIDAD",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "canarias"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "859160"
+  },
+  {
+    "id": "38883f94-7b2c-8177-868e-e3d34ed0a775",
+    "name": "878443",
+    "url": "https://app.notion.com/p/878443-38883f947b2c8177868ee3d34ed0a775",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d4-91ae-c52f58f2c23e"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878443",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "FINANCIACIÓN OBRAS DE LA ESCUELA DE MÚSICA",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "canarias"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "musica",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "878443"
+  },
+  {
+    "id": "38883f94-7b2c-8113-8b9a-dd89813b862d",
+    "name": "820695",
+    "url": "https://app.notion.com/p/820695-38883f947b2c81138b9add89813b862d",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8170-852f-fb9f8b28226a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/820695",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "ANULADA Decreto de la Presidencia del Cabildo Insular de La Gomera  n.º: 2025-0476 de fecha 14/03/2025 por el que se aprueba la convocatoria del Área de Educación, Cultura y Deportes para el otorgamiento de subvenciones a asociaciones deportivas, ejercicio 2025",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "la-gomera"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "820695"
+  },
+  {
+    "id": "38883f94-7b2c-81ad-a332-df76b78d8970",
+    "name": "849602",
+    "url": "https://app.notion.com/p/849602-38883f947b2c81ada332df76b78d8970",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d4-91ae-c52f58f2c23e"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/849602",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": true,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Aportación dineraria Unidad de Artes Escénicas",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "canarias"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": null,
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "849602"
+  },
+  {
+    "id": "38883f94-7b2c-81fd-a57d-ce22fc21f041",
+    "name": "896790",
+    "url": "https://app.notion.com/p/896790-38883f947b2c81fda57dce22fc21f041",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8170-852f-fb9f8b28226a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896790",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "ORDEN APORTACIÓN DINERARIA TRIMESTRAL UNED EXT GOMERA-HIERRO 2026",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "la-gomera"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "896790"
+  },
+  {
+    "id": "38883f94-7b2c-81e4-8152-c0886cb87b24",
+    "name": "897890",
+    "url": "https://app.notion.com/p/897890-38883f947b2c81e48152c0886cb87b24",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8170-852f-fb9f8b28226a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897890",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Decreto 595/2026 de 09-04-2026, que aprueba la convocatoria de AYUDAS ECONÓMICAS ESTUDIANTES RESIDENTES EN SAN SEBASTIÁN DE LA GOMERA QUE REALICEN ESTUDIOS SUPERIORES Y MEDIOS, UNIVERSITARIOS Y CICLOS FORMATIVOS REGLADOS FUERA DE LA ISLA, CURSO 2025-2026.",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "la-gomera"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "897890"
+  },
+  {
+    "id": "38583f94-7b2c-8174-b6e4-f128bd025c75",
+    "name": "838165",
+    "url": "https://app.notion.com/p/838165-38583f947b2c8174b6e4f128bd025c75",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-815c-8477-fbf9a6b14462"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/838165",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subvenciones internacionalización entidades catalanas en el ámbito de la acción exterior de Cataluña 2025",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "cataluna"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "internacionalizacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "838165"
+  },
+  {
+    "id": "38583f94-7b2c-8109-9129-d7563b047fda",
+    "name": "842721",
+    "url": "https://app.notion.com/p/842721-38583f947b2c81099129d7563b047fda",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-815c-8477-fbf9a6b14462"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/842721",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de subvenciones a a proyectos de desarrollo y educación global para los ejercicios 2025-2027",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "cataluna"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "842721"
+  },
+  {
+    "id": "38583f94-7b2c-81eb-a5e9-cae4a3886f98",
+    "name": "893981",
+    "url": "https://app.notion.com/p/893981-38583f947b2c81eba5e9cae4a3886f98",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-815c-8477-fbf9a6b14462"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/893981",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria del año 2026 para la concesión de subvenciones destinadas a financiar proyectos que impulsen la internacionalización de entitades sin ánimo de lucro",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "cataluna"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "internacionalizacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "893981"
+  },
+  {
+    "id": "38583f94-7b2c-8161-a6e1-defd270db9e4",
+    "name": "912778",
+    "url": "https://app.notion.com/p/912778-38583f947b2c8161a6e1defd270db9e4",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-815c-8477-fbf9a6b14462"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912778",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de subvenciones a proyectos de desarrollo y educación global para los ejercicios 2026-2027. Tipología 1",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "cataluna"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "912778"
+  },
+  {
+    "id": "38583f94-7b2c-8142-a03b-d1ece728f37d",
+    "name": "912795",
+    "url": "https://app.notion.com/p/912795-38583f947b2c8142a03bd1ece728f37d",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-815c-8477-fbf9a6b14462"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912795",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de subvenciones a proyectos de desarrollo y educación global para los ejercicios 2026-2029. Tipología 2",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "cataluna"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "912795"
+  },
+  {
+    "id": "38483f94-7b2c-810d-8f31-db57849fe9c2",
+    "name": "859967",
+    "url": "https://app.notion.com/p/859967-38483f947b2c810d8f31db57849fe9c2",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-812c-977b-df27b97f8520"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859967",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subv. 2025 del Programa 1 de ayudas a las actuaciones de accesibilidad en espacios públicos urbanizados de titularidad pública de Extremadura, según Decreto 106/2025, de 26 de agosto",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "extremadura"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "859967"
+  },
+  {
+    "id": "38483f94-7b2c-813b-bebd-ecd5c8fe3f93",
+    "name": "859968",
+    "url": "https://app.notion.com/p/859968-38483f947b2c813bbebdecd5c8fe3f93",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-812c-977b-df27b97f8520"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859968",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subv. 2025 del Programa 2 de ayudas a las actuaciones accesibilidad en edificios existentes y establecimientos de titularidad pública o privada de la Extremadura, según Decreto 106/2025 que convoca",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "extremadura"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "859968"
+  },
+  {
+    "id": "38483f94-7b2c-8163-93b0-ddba168d4d3b",
+    "name": "859969",
+    "url": "https://app.notion.com/p/859969-38483f947b2c816393b0ddba168d4d3b",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-812c-977b-df27b97f8520"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859969",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subv 2025 del Programa 3 de ayuda a actuaciones señalización y comunicación accesible en espacios públicos urbanizados de titularidad pública de Extremadura, según Decreto 106/2025, de 26 de agosto",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "extremadura"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "859969"
+  },
+  {
+    "id": "38483f94-7b2c-8125-8729-eda09c14a821",
+    "name": "859970",
+    "url": "https://app.notion.com/p/859970-38483f947b2c81258729eda09c14a821",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-812c-977b-df27b97f8520"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859970",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:39:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subv. 2025 del Programa 4 de ayudas a actuaciones señalización y comunicación accesible en edificios y establecimientos  de titularidad pública o privada de Extremadura, según Decreto 106/2025 que convoca",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "extremadura"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "859970"
+  },
+  {
+    "id": "38383f94-7b2c-8184-983d-e3d0b1802457",
+    "name": "820756",
+    "url": "https://app.notion.com/p/820756-38383f947b2c8184983de3d0b1802457",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81a3-8cdf-e939fe5fd58a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/820756",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES DIRIGIDAS A ASOCIACIONES Y ENTIDADES EN EL ÁMBITO DE LAS ADICCIONES, PARA EL EJERCICIO 2025",
+    "property_tags": [
+      "albacete",
+      "asociaciones-y-ong"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "salud",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "820756"
+  },
+  {
+    "id": "38383f94-7b2c-8120-b083-eccabe3c97cf",
+    "name": "833036",
+    "url": "https://app.notion.com/p/833036-38383f947b2c8120b083eccabe3c97cf",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81a3-8cdf-e939fe5fd58a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/833036",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES POR EL AYUNTAMIENTO DE ALBACETE PARA EL DESARROLLO DE PROGRAMAS Y ACTIVIDADES DE INTERÉS GENERAL DE LAS ASOCIACIONES SOCIO SANITARIAS Y DE PERSONAS CON DISCAPACIDAD SIN ÁNIMO DE LUCRO DURANTE EL EJERC 2025",
+    "property_tags": [
+      "albacete",
+      "asociaciones-y-ong"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "accesibilidad",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "833036"
+  },
+  {
+    "id": "38383f94-7b2c-8158-acd2-e7ad317fc332",
+    "name": "833086",
+    "url": "https://app.notion.com/p/833086-38383f947b2c8158acd2e7ad317fc332",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81a3-8cdf-e939fe5fd58a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/833086",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA ABIERTA DE AYUDAS A AYUNTAMIENTOS PARA LA GESTIÓN Y CONTROL DE LAS COLONIAS FELINAS DE LA PROVINCIA DE ALBACETE DURANTE EL AÑO 2025",
+    "property_tags": [
+      "albacete",
+      "asociaciones-y-ong"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "agroalimentario",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "833086"
+  },
+  {
+    "id": "38383f94-7b2c-81a4-bdeb-d03b3ddd01bb",
+    "name": "898546",
+    "url": "https://app.notion.com/p/898546-38383f947b2c81a4bdebd03b3ddd01bb",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81a3-8cdf-e939fe5fd58a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898546",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA ABIERTA DE AYUDAS A AYUNTAMIENTOS PARA LA RECOGIDA Y ATENCIÓN DE PERROS EXTRAVIADOS Y ABANDONADOS EN SU MUNICIPIO DURANTE EL AÑO 2026",
+    "property_tags": [
+      "albacete",
+      "asociaciones-y-ong"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "898546"
+  },
+  {
+    "id": "38383f94-7b2c-81a6-99da-fd38da222707",
+    "name": "898740",
+    "url": "https://app.notion.com/p/898740-38383f947b2c81a699dafd38da222707",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81a3-8cdf-e939fe5fd58a"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/898740",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA ABIERTA DE AYUDAS A AYUNTAMIENTOS PARA LA GESTIÓN Y CONTROL DE LAS COLONIAS FELINAS DE LA PROVINCIA DE ALBACETE DURANTE EL AÑO 2026",
+    "property_tags": [
+      "albacete",
+      "asociaciones-y-ong"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "agroalimentario",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "898740"
+  },
+  {
+    "id": "38383f94-7b2c-81ac-83d9-f2134c2b93fb",
+    "name": "882496",
+    "url": "https://app.notion.com/p/882496-38383f947b2c81ac83d9f2134c2b93fb",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882496",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orde de bases y 1ª convocatoria de subvenciones formación para ocupados",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "882496"
+  },
+  {
+    "id": "38383f94-7b2c-81b9-afcd-f0da8c950570",
+    "name": "884372",
+    "url": "https://app.notion.com/p/884372-38383f947b2c81b9afcdf0da8c950570",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/884372",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orden de 23 de diciembre de 2025 de la Consellería de Empleo, Comercio y Emigración por la que se convocan ayudas a entidades colaboradoras de la Red Eusumo 2026-2027",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "comercio",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "884372"
+  },
+  {
+    "id": "38383f94-7b2c-8177-9baa-fc2ae4c3bd7e",
+    "name": "884376",
+    "url": "https://app.notion.com/p/884376-38383f947b2c81779baafc2ae4c3bd7e",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/884376",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orden de 23 de diciembre de 2025, de la Consellería de Empleo, Comercio e Emigración, por la que se convocan subvenciones para sufragar los gastos de funcionamiento de entidades asociativas para el año 2026",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "comercio",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "884376"
+  },
+  {
+    "id": "38383f94-7b2c-8109-88b3-e23a9ffb6144",
+    "name": "884391",
+    "url": "https://app.notion.com/p/884391-38383f947b2c810988b3e23a9ffb6144",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/884391",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "ORDEN del 30 de diciembre de 2025 por la que se establecen las bases reguladoras de los programas de subvenciones para sufragar los gastos de funcionamiento de las entidades asociativas gallegas de personas trabajadoras autónomas y la contratación de pers",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "884391"
+  },
+  {
+    "id": "38383f94-7b2c-813e-8819-f1b6e361459b",
+    "name": "885613",
+    "url": "https://app.notion.com/p/885613-38383f947b2c813e8819f1b6e361459b",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885613",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "885613"
+  },
+  {
+    "id": "38383f94-7b2c-81b6-8d5b-f38a98d30f5d",
+    "name": "885614",
+    "url": "https://app.notion.com/p/885614-38383f947b2c81b68d5bf38a98d30f5d",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885614",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "885614"
+  },
+  {
+    "id": "38383f94-7b2c-81e5-8bd5-ce5a03705fd1",
+    "name": "885616",
+    "url": "https://app.notion.com/p/885616-38383f947b2c81e58bd5ce5a03705fd1",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885616",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "885616"
+  },
+  {
+    "id": "38383f94-7b2c-812d-804b-f8169420dbe8",
+    "name": "896067",
+    "url": "https://app.notion.com/p/896067-38383f947b2c812d804bf8169420dbe8",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-81d3-8d20-e7a59724a80d"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8148-b42d-e7985873051b"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896067",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución de 27 de marzo de 2026 Dirección General Cooperación Autonómica y Local que aprueba la 2ª convocatoria para selección proyectos de formación para empleo promovidos por entidades locales para su financiación por programa EFESO (FSE+) 2021-2027",
+    "property_tags": [
+      "asociaciones-y-ong",
+      "galicia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "896067"
+  },
+  {
+    "id": "38383f94-7b2c-8170-b90b-fb3a41a3a295",
+    "name": "886281",
+    "url": "https://app.notion.com/p/886281-38383f947b2c8170b90bfb3a41a3a295",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886281",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Concurso de dibujo \"Mi papá es...\" 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "886281"
+  },
+  {
+    "id": "38383f94-7b2c-81aa-bd89-ef22687fc934",
+    "name": "886361",
+    "url": "https://app.notion.com/p/886361-38383f947b2c81aabd89ef22687fc934",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886361",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES AYUDAS PARA NACIMIENTOS Y ADOPCIONES - \"CHEQUE BEBÉ 2026\" Exp. 48/2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "886361"
+  },
+  {
+    "id": "38383f94-7b2c-811f-b939-cf79b1c62ae4",
+    "name": "889940",
+    "url": "https://app.notion.com/p/889940-38383f947b2c811fb939cf79b1c62ae4",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889940",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES DEPORTIVAS A FAMILIAS EN SITUACIÓN ECONÓMICA PRECARIA - 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "889940"
+  },
+  {
+    "id": "38383f94-7b2c-8101-a9e1-f148827db713",
+    "name": "890578",
+    "url": "https://app.notion.com/p/890578-38383f947b2c8101a9e1f148827db713",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890578",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de subvenciones para las ayudas económicas por nacimiento, adopción o acogida de menores \"Cheque bebé\", año 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "890578"
+  },
+  {
+    "id": "38383f94-7b2c-81fb-8fce-c6f0e24ea783",
+    "name": "897292",
+    "url": "https://app.notion.com/p/897292-38383f947b2c81fb8fcec6f0e24ea783",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897292",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE BECAS INDIVIDUALES PARA DEPORTISTAS DE ALFAFAR - EJERCICIO 2026.",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "897292"
+  },
+  {
+    "id": "38383f94-7b2c-815b-be3d-de6f08775cef",
+    "name": "897418",
+    "url": "https://app.notion.com/p/897418-38383f947b2c815bbe3dde6f08775cef",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897418",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subvenciones al Deporte Local año 2026.",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "897418"
+  },
+  {
+    "id": "38383f94-7b2c-8183-b2f4-eace3554588e",
+    "name": "897530",
+    "url": "https://app.notion.com/p/897530-38383f947b2c8183b2f4eace3554588e",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897530",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria del Festival Q-ART 2026 de Quart de Poblet",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "897530"
+  },
+  {
+    "id": "38383f94-7b2c-81f1-845e-f66f5b5c5420",
+    "name": "900908",
+    "url": "https://app.notion.com/p/900908-38383f947b2c81f1845ef66f5b5c5420",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900908",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Concesión de ayudas a la natalidad, primera vivienda y familia numerosa año 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "familia",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "900908"
+  },
+  {
+    "id": "38383f94-7b2c-81b6-b641-e810af314b64",
+    "name": "905157",
+    "url": "https://app.notion.com/p/905157-38383f947b2c81b6b641e810af314b64",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905157",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA ENGUERA TE BECA 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "formacion",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905157"
+  },
+  {
+    "id": "38383f94-7b2c-81be-b9a9-e0c3c09b58da",
+    "name": "905480",
+    "url": "https://app.notion.com/p/905480-38383f947b2c81beb9a9e0c3c09b58da",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905480",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Aprobación convocatoria y bases ayudas deportistas de élite, de alta competición y promoción y deportistas de alto nivel de Aldaia, 2025",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905480"
+  },
+  {
+    "id": "38383f94-7b2c-8138-9976-f60df3c6ec85",
+    "name": "905548",
+    "url": "https://app.notion.com/p/905548-38383f947b2c81389976f60df3c6ec85",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905548",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de la 38ª edición del concurso de guiones para cortometrajes incluido en el Festival Quartmetratges 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "literatura",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905548"
+  },
+  {
+    "id": "38383f94-7b2c-8123-ba94-e90a0e2015d0",
+    "name": "905550",
+    "url": "https://app.notion.com/p/905550-38383f947b2c8123ba94e90a0e2015d0",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905550",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Convocatoria de la 43 edición del concurso de cortometrajes incluido en el Festival Quartmetratges 2026",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "cine",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905550"
+  },
+  {
+    "id": "38383f94-7b2c-81f9-bbac-c9cddae4996b",
+    "name": "905850",
+    "url": "https://app.notion.com/p/905850-38383f947b2c81f9bbacc9cddae4996b",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8138-8b26-cb9bf6b882ab"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905850",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Resolución Alcaldia nºº 814/2026 aprobación  de les bases de la convocatoria dels I Premis a l'Ús del Valencià en el comerCIO",
+    "property_tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "comercio",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905850"
+  },
+  {
+    "id": "38383f94-7b2c-811c-adb4-c8034d26b7f3",
+    "name": "833199",
+    "url": "https://app.notion.com/p/833199-38383f947b2c811cadb4c8034d26b7f3",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81bc-9a56-dfeb45a949ae"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/833199",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA SUBVENCIÓN A CASETAS DE FERIA QUE PROMOCIONEN Y VENDAN VINOS, PRODUCIDOS EN CHICLANA DE LA FRONTERA, DURANTE LA FERIA Y FIESTAS DE SAN ANTONIO 2025.",
+    "property_tags": [
+      "andalucia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "gastronomia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "833199"
+  },
+  {
+    "id": "38383f94-7b2c-8104-8cee-f03cc689aab7",
+    "name": "899029",
+    "url": "https://app.notion.com/p/899029-38383f947b2c81048ceef03cc689aab7",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81bc-9a56-dfeb45a949ae"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899029",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES REGULADORAS DEL XVII CONCURSO DE CUENTOS ILUSTRADOS \"CUENTOS PARA LA IGUALDAD\" 2026",
+    "property_tags": [
+      "andalucia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "literatura",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "899029"
+  },
+  {
+    "id": "38383f94-7b2c-8156-bb92-fe1785688686",
+    "name": "905605",
+    "url": "https://app.notion.com/p/905605-38383f947b2c8156bb92fe1785688686",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81bc-9a56-dfeb45a949ae"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905605",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA SUBVENCIÓN A CASETAS DE FERIA QUE PROMOCIONEN Y VENDAN VINOS PRODUCIDOS EN CHICLANA DE LA FRONTERA DURANTE LA FERIA Y FIESTAS DE SAN ANTONIO 2026.",
+    "property_tags": [
+      "andalucia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "gastronomia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "905605"
+  },
+  {
+    "id": "38383f94-7b2c-81ad-bab8-d10d1b97a57c",
+    "name": "820711",
+    "url": "https://app.notion.com/p/820711-38383f947b2c81adbab8d10d1b97a57c",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8146-9e7b-c935e6017e98"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/820711",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES CONCURRENCIA COMPETITIVA PREMIOS DEPORTISTAS INDIVIDUALES ANUALIDAD 2025",
+    "property_tags": [
+      "lugo",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "820711"
+  },
+  {
+    "id": "38383f94-7b2c-815d-898e-c7201d60a784",
+    "name": "826494",
+    "url": "https://app.notion.com/p/826494-38383f947b2c815d898ec7201d60a784",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8146-9e7b-c935e6017e98"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/826494",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES DA CONVOCATORIA DE PREMIOS PARA DEPORTISTAS INDIVIDUAIS (PILOTOS) DA PROV. LUGO, DISCIPLINA AUTOMOBILISMO, ESPECIALIDADE RALLY DE ASFALTO, TERRA OU MONTAÑA, VEHICULOS HISTORICOS E ENERXIAS ALTERNATIVAS NA ANUALIDADE 2025",
+    "property_tags": [
+      "lugo",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "826494"
+  },
+  {
+    "id": "38383f94-7b2c-81d3-a22a-ebc669d42791",
+    "name": "883380",
+    "url": "https://app.notion.com/p/883380-38383f947b2c81d3a22aebc669d42791",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8146-9e7b-c935e6017e98"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/883380",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE PREMIOS CORRESPONDIENTES AL DESFILE DE CARNAVAL DEL AYUNTAMIENTO DE BURELA 2026.",
+    "property_tags": [
+      "lugo",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "turismo",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "883380"
+  },
+  {
+    "id": "38383f94-7b2c-813c-bc9b-f8f8d8256b2a",
+    "name": "894431",
+    "url": "https://app.notion.com/p/894431-38383f947b2c813cbc9bf8f8d8256b2a",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8146-9e7b-c935e6017e98"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/894431",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES PREMIOS EN REGIMEN DE CONCURRENCIA COMPETITIVA A DEPORTISTAS INDIVIDUAIS DA PROVINCIA DE LUGO, ANUALIDADE 2026",
+    "property_tags": [
+      "lugo",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "894431"
+  },
+  {
+    "id": "38383f94-7b2c-813e-b182-f2cc4f2f0198",
+    "name": "899047",
+    "url": "https://app.notion.com/p/899047-38383f947b2c813eb182f2cc4f2f0198",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-8146-9e7b-c935e6017e98"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899047",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "BASES PARA A CONCESIÓN DE PREMIOS PARA DEPORTISTAS INDIVIDUALES (PILOTOS) DE  LA PROV. DE LUGO DISCIPLINA AUTOMOVILISMO, ESPECIALIDAD RALLY DE ASFALTO, TIERRA O MONTAÑA, VEHÍCULOS HISTORICOS Y ENERGÍAS ALTERNATIVAS ANUALIDAD 2026",
+    "property_tags": [
+      "lugo",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "899047"
+  },
+  {
+    "id": "38383f94-7b2c-81b7-a891-d7c43b6c3303",
+    "name": "812675",
+    "url": "https://app.notion.com/p/812675-38383f947b2c81b7a891d7c43b6c3303",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f5-b6c5-db57e355eaf1"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/812675",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Subv. actuaciones mejora del medio y de infraestructuras en terrenos cinegéticos",
+    "property_tags": [
+      "la-rioja",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "agroalimentario",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "812675"
+  },
+  {
+    "id": "38383f94-7b2c-814e-9007-dc55dfb4f1bd",
+    "name": "835243",
+    "url": "https://app.notion.com/p/835243-38383f947b2c814e9007dc55dfb4f1bd",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f5-b6c5-db57e355eaf1"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/835243",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CS PLAN RENOVE ELECTRODOMÉSTICOS BAJO CONSUMO ENERGETICO 2025",
+    "property_tags": [
+      "la-rioja",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "energia",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "835243"
+  },
+  {
+    "id": "38383f94-7b2c-81c5-8a27-f55d9499a8c2",
+    "name": "863307",
+    "url": "https://app.notion.com/p/863307-38383f947b2c81c58a27f55d9499a8c2",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f5-b6c5-db57e355eaf1"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/863307",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "SUBV.VIGILANC.OBLIG.EN COTOS 2025",
+    "property_tags": [
+      "la-rioja",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "agroalimentario",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "863307"
+  },
+  {
+    "id": "38383f94-7b2c-81b1-9c1b-facbfc3e4e07",
+    "name": "887078",
+    "url": "https://app.notion.com/p/887078-38383f947b2c81b19c1bfacbfc3e4e07",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f5-b6c5-db57e355eaf1"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887078",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "Ayudas Contratación de Servicio Asesoramiento Técnico Obligatorio Cotos 2026",
+    "property_tags": [
+      "la-rioja",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "empleo",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "887078"
+  },
+  {
+    "id": "38383f94-7b2c-81d5-968f-d341feffeba9",
+    "name": "815471",
+    "url": "https://app.notion.com/p/815471-38383f947b2c81d5968fd341feffeba9",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d6-9f56-c72661b847f9"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/815471",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "DECRETO de 17 de febrero de 2025, de la Presidenta de  la Diputación de Palencia, por el que se aprueba la convocatoria de subvenciones destinadas a la mejora de la seguridad y salubridad de inmuebles en los municipios de Palencia",
+    "property_tags": [
+      "palencia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "vivienda",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "815471"
+  },
+  {
+    "id": "38383f94-7b2c-81f8-a47d-fe6f75bf3fde",
+    "name": "874675",
+    "url": "https://app.notion.com/p/874675-38383f947b2c81f8a47dfe6f75bf3fde",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d6-9f56-c72661b847f9"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874675",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES MEDIANTE CONCURRENCIA COMPETITIVA A PARTICULARES PARA LA FINANCIACIÓN DE GASTOS DE SEGURO DE ALQUILER E INMOBILIARIA DE VIVIENDAS DE TITULARIDAD PRIVADA DESTINADAS AL ALQUILER RESIDENCIAL.",
+    "property_tags": [
+      "palencia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "vivienda",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "874675"
+  },
+  {
+    "id": "38383f94-7b2c-81db-b77a-ea3bd2f2bebb",
+    "name": "874941",
+    "url": "https://app.notion.com/p/874941-38383f947b2c81dbb77aea3bd2f2bebb",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d6-9f56-c72661b847f9"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874941",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "CONVOCATORIA ABIERTA DE CONCESIÓN DE SUBVENCIONES MEDIANTE CONCURRENCIA COMPETITIVA A PARTICULARES E INSTITUCIONES SIN ÁNIMO DE LUCRO DE ESTA PROVINCIA DESTINADAS A LA REHABILITACIÓN Y MEJORA DE LA HABITABILIDAD DE VIVIENDAS CUYO DESTINO SEA EL ALQUILER",
+    "property_tags": [
+      "palencia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "vivienda",
+    "property_status": "active",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "874941"
+  },
+  {
+    "id": "38383f94-7b2c-8110-b282-c79ba9b8c3d0",
+    "name": "883251",
+    "url": "https://app.notion.com/p/883251-38383f947b2c8110b282c79ba9b8c3d0",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81d6-9f56-c72661b847f9"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/883251",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "property_t_tulo": "DECRETO de 24 de enero de 2026, de la Presidenta de la Diputación de Palencia, por el que se aprueba la convocatoria de subvenciones destinadas a la mejora de la seguridad y salubridad de inmuebles en los municipios de la provincia de Palencia",
+    "property_tags": [
+      "palencia",
+      "particulares"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "vivienda",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
+    "property_c_digo": "883251"
+  },
+  {
+    "id": "38183f94-7b2c-812a-90dd-db545dd0075a",
+    "name": "847034",
+    "url": "https://app.notion.com/p/847034-38183f947b2c812a90dddb545dd0075a",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"
+    ],
+    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
+    "property_fecha_de_inicio_de_convocatoria": null,
+    "property_revisi_n_manual_requerida": false,
+    "property_ltima_vez_tageado": {
+      "start": "2026-06-23T09:40:00.000+02:00",
       "end": null,
       "time_zone": null
     },
     "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_tags": [
+      "particulares",
+      "zamora"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
     "property_c_digo": "847034"
   },
   {
-    "id": "37d83f94-7b2c-8149-ae82-c39ebd870e30",
+    "id": "38183f94-7b2c-81ba-baef-c29e52e3cb2c",
     "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c8149ae82c39ebd870e30",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
+    "url": "https://app.notion.com/p/847036-38183f947b2c81babaefc29e52e3cb2c",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"
+    ],
     "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
+    "property_fecha_de_inicio_de_convocatoria": null,
     "property_revisi_n_manual_requerida": false,
     "property_ltima_vez_tageado": {
-      "start": "2026-06-12T10:00:00.000+02:00",
+      "start": "2026-06-23T09:40:00.000+02:00",
       "end": null,
       "time_zone": null
     },
     "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_tags": [
+      "particulares",
+      "zamora"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "deportes",
+    "property_status": "deprecated",
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
     "property_c_digo": "847036"
   },
   {
-    "id": "37d83f94-7b2c-81e9-ae7d-dede4f8a7597",
+    "id": "38183f94-7b2c-8116-a059-d535c568bb44",
     "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c81e9ae7ddede4f8a7597",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
+    "url": "https://app.notion.com/p/897576-38183f947b2c8116a059d535c568bb44",
+    "property_id_beneficiario": [
+      "37383f94-7b2c-8160-9692-d872fe86bfd1"
+    ],
+    "property_id_regi_n": [
+      "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"
+    ],
     "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+    "property_fecha_de_inicio_de_convocatoria": null,
     "property_revisi_n_manual_requerida": false,
     "property_ltima_vez_tageado": {
-      "start": "2026-06-12T10:00:00.000+02:00",
+      "start": "2026-06-23T09:40:00.000+02:00",
       "end": null,
       "time_zone": null
     },
     "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
+    "property_tags": [
+      "particulares",
+      "zamora"
+    ],
+    "property_presupuesto": null,
+    "property_tag_seo": "agroalimentario",
     "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-8166-9eb7-f610b0d3862b",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81669eb7f610b0d3862b",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:57:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-8156-9a55-d1faf700c190",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c81569a55d1faf700c190",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:57:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-8149-af87-e882a6f7aca5",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c8149af87e882a6f7aca5",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:57:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-81d3-9f45-f4cbbeb02ec1",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81d39f45f4cbbeb02ec1",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:57:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-81a0-8f79-d791c7186c42",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c81a08f79d791c7186c42",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-812c-a0ef-f171d3e5fe09",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c812ca0eff171d3e5fe09",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-81f3-932e-de0a0f970c8e",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81f3932ede0a0f970c8e",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-8132-8ea0-e21c829bd858",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c81328ea0e21c829bd858",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-81eb-ab93-d1ede0135eae",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c81ebab93d1ede0135eae",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-81d2-b557-f2254cb38218",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81d2b557f2254cb38218",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-817a-b515-f4ab0fc67d39",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c817ab515f4ab0fc67d39",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-812a-a77b-c89fcbd39ce4",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c812aa77bc89fcbd39ce4",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-81e3-a656-ca5c0d8a4d31",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c81e3a656ca5c0d8a4d31",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-8163-870d-d9bcf4662be9",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c8163870dd9bcf4662be9",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-81d3-9d63-e29fc9135d99",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c81d39d63e29fc9135d99",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "897576"
-  },
-  {
-    "id": "37d83f94-7b2c-814a-8b59-c363352fa333",
-    "name": "847034",
-    "url": "https://app.notion.com/p/847034-37d83f947b2c814a8b59c363352fa333",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847034",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025, del Sr. Concejal Delegado de Hacienda, Servicios Generales, Informática, Contratación y Gabinete de Prensa, por el que se aprueba la convocatoria de concesión de Becas a entrenadores de la ciudad de Zamora",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847034"
-  },
-  {
-    "id": "37d83f94-7b2c-810f-85b5-fb424a0ea6dd",
-    "name": "847036",
-    "url": "https://app.notion.com/p/847036-37d83f947b2c810f85b5fb424a0ea6dd",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/847036",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "Resolución de 18 de julio de 2025 por el que se aprueba la convocatoria de concesión de Becas a deportistas de élite de la ciudad de Zamora 2025",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "formacion",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
-    "property_c_digo": "847036"
-  },
-  {
-    "id": "37d83f94-7b2c-81ac-9a5f-c847f9300ad3",
-    "name": "897576",
-    "url": "https://app.notion.com/p/897576-37d83f947b2c81ac9a5fc847f9300ad3",
-    "property_id_beneficiario": ["37383f94-7b2c-8160-9692-d872fe86bfd1"],
-    "property_id_regi_n": ["37683f94-7b2c-81f3-8deb-f6e7c12e8ea3"],
-    "property_tags_requisitos": [],
-    "property_url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
-    "property_revisi_n_manual_requerida": false,
-    "property_ltima_vez_tageado": {
-      "start": "2026-06-12T08:56:00.000+02:00",
-      "end": null,
-      "time_zone": null
-    },
-    "property_t_tulo": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
-    "property_tags": ["particulares", "zamora"],
-    "property_tag_seo": "economia_digital",
-    "property_status": "active",
-    "property_id_finalidad": ["37383f94-7b2c-81a6-afb0-e98486101d9e"],
+    "property_id_finalidad": [],
+    "property_fecha_de_recepci_n": null,
+    "property_fecha_de_fin_de_convocatoria": null,
     "property_c_digo": "897576"
   }
 ]
