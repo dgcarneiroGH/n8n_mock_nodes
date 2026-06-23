@@ -61,13 +61,33 @@ Con este criterio, no necesitas adivinar si un tag "ya fue subido":
 1. Si `archivo` no existe en el repo -> **CREATE**.
 2. Si `archivo` existe -> **UPDATE** (regenerar contenido diario).
 
-Recomendación adicional para trazabilidad:
+### Fuente de `existing_pages` (decisión cerrada 2026-06-23)
 
-- Guardar en Notion (tabla de páginas o en la propia `Subvenciones` agregada por grupo):
-  - `slug`
-  - `last_published_at`
-  - `last_grant_count`
-  - `last_content_hash` (opcional)
+**GitHub API como fuente autoritativa.** El nodo GitHub en n8n lista `content/subvenciones/`, extrae los slugs (nombre de archivo sin `.md`) y alimenta el split. La tabla `PageRegistry` en Notion queda como recomendación opcional para **metadatos de trazabilidad** (`last_published_at`, `last_grant_count`, `last_content_hash`), pero **no** como fuente del split — GitHub nunca miente sobre qué está en el repo.
+
+Trade-off evaluado:
+
+| Fuente | Verdict |
+|---|---|
+| GitHub API | ✅ Autoritativo, rate limit aceptable (1 call/día), credenciales ya necesarias para el push |
+| Notion `PageRegistry` | ⚠️ Útil solo para metadatos; usar como fuente del split introduce drift |
+| Sitemap post-deploy | ❌ Chicken-and-egg: solo existe tras el primer deploy |
+
+En el mock, `results/getters/get_existing_pages.json` simula la respuesta del nodo GitHub con el formato `{ existing_slugs: [...] }` pre-procesado.
+
+### Enfoque de split (decisión cerrada 2026-06-23)
+
+**Enfoque A — Híbrido:**
+
+- `pages_to_create = desired_create_pages − existing_pages` (slugs del desired_create que NO están en el repo)
+- `pages_to_update = existing_pages` (TODOS los slugs del repo, sin filtrar por desired_update)
+
+Implicación: una página huérfana (en existing pero no en ningún desired) se sigue regenerando. Esto preserva URLs ya desplegadas y evita 404s — alineado con la frase del doc *"Las existentes se actualizan todos los días aunque bajen de 3 subvenciones"*.
+
+Alternativas evaluadas y descartadas:
+
+- **B — Desired-driven:** `pages_to_update = desired_update ∩ existing`. Descarta orphans; riesgo de 404 si la URL ya tiene SEO.
+- **C — Conservador (B + delete):** añade `pages_to_delete` para orphans. Complejidad extra; requiere decisión de política de borrado.
 
 ## Sincronización diaria recomendada (lo que pediste)
 
@@ -101,11 +121,27 @@ Resultado:
 
 ### Paso 1.1: Detectar create/update por slug
 
-- Listar archivos existentes en `content/subvenciones/`.
-- Convertir nombre de archivo a `slug`.
-- Comparar contra `desired_create_pages` y `existing_pages` para obtener:
-  - `pages_to_create`
-  - `pages_to_update` (todas las existentes)
+**Origen de datos:**
+
+- `existing_pages` viene de **GitHub API** (operación `Get Repository Content` sobre `content/subvenciones/`). En el mock: `results/getters/get_existing_pages.json`.
+- `desired_create_pages` y `desired_update_pages` vienen del **Paso 1** (nodo 32 en el mock: `32_filter_page_candidates.js`).
+
+**Lógica (enfoque A — híbrido):**
+
+```
+existing_set = Set(existing_pages.existing_slugs)
+
+pages_to_create = [
+  group for group in desired_create_pages
+  if group.slug not in existing_set
+]
+
+pages_to_update = existing_pages.existing_slugs  # todos los slugs del repo
+```
+
+**Output:** `page_actions.json` con `{ pages_to_create: [...], pages_to_update: [...] }`.
+
+En el mock: nodo `functions_v2/33_split_page_actions.js`.
 
 ### Paso 2: Generar Markdown
 

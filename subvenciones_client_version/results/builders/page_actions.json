@@ -1,0 +1,23 @@
+{
+  "pages_to_create": [
+    {
+      "tags": [
+        "asociaciones-y-ong",
+        "galicia"
+      ],
+      "tag_seo": "empleo",
+      "grant_codes": [
+        "885613",
+        "885614",
+        "885616"
+      ],
+      "max_received_date": "2026-06-23",
+      "slug": "subvenciones-asociaciones-y-ong-galicia-empleo",
+      "count_grants": 3
+    }
+  ],
+  "pages_to_update": [
+    "subvenciones-espana-particulares-formacion",
+    "subvenciones-galicia-asociaciones-y-ong-empleo"
+  ]
+}

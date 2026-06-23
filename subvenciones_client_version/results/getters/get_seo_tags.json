@@ -19,6 +19,17 @@
             "ganaderia",
             "ganadero"
         ],
+        "artes_plasticas": [
+            "artes plasticas",
+            "artistica",
+            "cartel",
+            "diseno grafico",
+            "escultura",
+            "exposicion",
+            "fotografia",
+            "grabado",
+            "pintura"
+        ],
         "cine": [
             "cine",
             "cinematografia",
