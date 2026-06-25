@@ -1,0 +1,21 @@
+{
+  "markdowns": [
+    {
+      "action": "create",
+      "slug": "subvenciones-asociaciones-y-ong-galicia-empleo",
+      "content": "---\ntitle: Subvenciones para empleo en asociaciones-y-ong para galicia\nregion: asociaciones-y-ong\nbeneficiario: galicia\ntag_seo: empleo\ncount: 3\ndate: 2026-06-23\nslug: subvenciones-asociaciones-y-ong-galicia-empleo\n---\n\n# Subvenciones para empleo en asociaciones-y-ong para galicia\n\nSubvenciones activas (3):\n\n- 885613\n- 885614\n- 885616\n"
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-espana-particulares-formacion",
+      "orphan": true,
+      "content": "---\ntitle: Subvenciones (subvenciones-espana-particulares-formacion)\nslug: subvenciones-espana-particulares-formacion\ndate: 2026-06-23\ncount: 0\n_orphan: true\n---\n\n# Subvenciones (subvenciones-espana-particulares-formacion)\n\n_Esta página está pendiente de regenerar. Sin datos activos._\n"
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-galicia-asociaciones-y-ong-empleo",
+      "orphan": true,
+      "content": "---\ntitle: Subvenciones (subvenciones-galicia-asociaciones-y-ong-empleo)\nslug: subvenciones-galicia-asociaciones-y-ong-empleo\ndate: 2026-06-23\ncount: 0\n_orphan: true\n---\n\n# Subvenciones (subvenciones-galicia-asociaciones-y-ong-empleo)\n\n_Esta página está pendiente de regenerar. Sin datos activos._\n"
+    }
+  ]
+}

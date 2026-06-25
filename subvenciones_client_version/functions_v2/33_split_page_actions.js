@@ -8,15 +8,16 @@ const filterResult = JSON.parse(
 const existingPages = JSON.parse(
   fs.readFileSync("../results/getters/get_existing_pages.json"),
 );
+const maxPagesToCreate = 1;
 //#endregion
 
 try {
   //#region Node Logic
   const existingSet = new Set(existingPages.existing_slugs);
 
-  const pagesToCreate = filterResult.desired_create_pages.filter(
-    (group) => !existingSet.has(group.slug),
-  );
+  const pagesToCreate = filterResult.desired_create_pages
+    .filter((group) => !existingSet.has(group.slug))
+    .slice(0, maxPagesToCreate);
 
   const result = {
     pages_to_create: pagesToCreate,

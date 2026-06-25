@@ -55,6 +55,8 @@
             "artes escenicas"
         ],
         "deportes": [
+            "baloncesto",
+            "balonmano",
             "campeonatos",
             "competiciones",
             "csd",
@@ -140,6 +142,10 @@
             "exportacion",
             "internacionalizacion"
         ],
+        "juventud": [
+            "jovenes",
+            "juventud"
+        ],
         "literatura": [
             "cuento",
             "cuentos",
@@ -147,7 +153,10 @@
             "guiones",
             "ilustracion",
             "ilustraciones",
-            "libro"
+            "libro",
+            "literatura",
+            "relato",
+            "relatos"
         ],
         "movilidad": [
             "logistica",
@@ -159,13 +168,23 @@
             "concierto",
             "festival musical",
             "musica",
-            "orquesta"
+            "orquesta",
+            "trompeta",
+            "violin"
+        ],
+        "nominativas": [
+            "nominativa",
+            "nominativas",
+            "convenios",
+            "convenio"
         ],
         "patrimonio": [
             "historico",
             "museo",
             "patrimonio",
-            "restauracion"
+            "restauracion",
+            "euskera",
+            "euskaraldia"
         ],
         "salud": [
             "adicciones",
@@ -183,6 +202,19 @@
             "escenico",
             "representacion",
             "teatro"
+        ],
+        "tercera_edad": [
+            "mayores",
+            "tercera edad",
+            "personas mayores",
+            "envejecimiento",
+            "jubilados",
+            "juviladas",
+            "pensionistas",
+            "centros de dia",
+            "residencia",
+            "residencias",
+            "teleasistencia"
         ],
         "turismo": [
             "carnaval",

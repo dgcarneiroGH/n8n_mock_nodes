@@ -1,0 +1,25 @@
+{
+  "commits": [
+    {
+      "action": "create",
+      "slug": "subvenciones-asociaciones-y-ong-galicia-empleo",
+      "path": "content/subvenciones/subvenciones-asociaciones-y-ong-galicia-empleo.md",
+      "committed_at": "2026-06-23T14:28:41.127Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-espana-particulares-formacion",
+      "path": "content/subvenciones/subvenciones-espana-particulares-formacion.md",
+      "committed_at": "2026-06-23T14:28:41.127Z",
+      "orphan": true
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-galicia-asociaciones-y-ong-empleo",
+      "path": "content/subvenciones/subvenciones-galicia-asociaciones-y-ong-empleo.md",
+      "committed_at": "2026-06-23T14:28:41.127Z",
+      "orphan": true
+    }
+  ]
+}

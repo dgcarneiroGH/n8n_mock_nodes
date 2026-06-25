@@ -109,6 +109,62 @@ Resultado:
 - Las existentes se actualizan todos los días aunque bajen de 3 subvenciones.
 - El mínimo de 3 se usa solo para crear páginas nuevas.
 
+## Arquitectura — quién hace qué
+
+Es **crítico** entender la separación de responsabilidades. El mock solo cubre la parte de n8n; el resto lo hacen sistemas externos.
+
+| Actor | Responsabilidad | Input | Output |
+|---|---|---|---|
+| **n8n (mock 31-34)** | Generar archivos `.md` y orquestar el push | Datos de Notion + GitHub API | `content/subvenciones/{slug}.md` + commit |
+| **GitHub** | Almacenar el repo (Hugo source) | Commits de n8n | Repo con `content/`, `layouts/`, `config.toml` |
+| **Hugo** | Compilador: convierte `.md` → `.html` | `.md` + `layouts/*.html` + `config.toml` | `public/{slug}/index.html`, `public/sitemap.xml` |
+| **Netlify** | Build + deploy | Push a GitHub (webhook) | Sitio público en CDN |
+
+**Implicaciones:**
+
+- El **Markdown NO es el sitemap**. Es la fuente del contenido que Hugo convierte a HTML.
+- El **HTML NO lo creamos nosotros**. Lo genera Hugo desde el Markdown + los templates.
+- El **sitemap.xml lo genera Hugo automáticamente** (no lo escribimos a mano).
+- El **slug sí lo decidimos nosotros** (determinista desde los tags): se convierte en `content/subvenciones/{slug}.md` → `/subvenciones-{slug}/` en el sitio.
+
+### Flujo end-to-end (orden correcto)
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 1. n8n genera .md     →  archivo en disco local             │
+│    (Pasos 1-2 del doc → nodos 31-34 del mock)               │
+└────────────────────────┬────────────────────────────────────┘
+                         │ git commit + push
+                         ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. GitHub recibe los .md                                    │
+└────────────────────────┬────────────────────────────────────┘
+                         │ webhook a Netlify
+                         ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 3. Netlify ejecuta `hugo` (build command)                   │
+│    • Hugo lee todos los .md de content/                     │
+│    • Hugo aplica layouts/*.html                             │
+│    • Hugo genera public/{slug}/index.html                   │
+│    • Hugo genera public/sitemap.xml (automático)            │
+└────────────────────────┬────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. Netlify publica public/ en CDN                           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Qué cubre el mock vs qué NO
+
+| Lo hace el mock (nodos 31-34) | Lo hace el sistema externo |
+|---|---|
+| Generar `.md` con front matter + body | Build de Hugo (Markdown → HTML) |
+| Determinar qué slugs crear/actualizar | Push a GitHub (en el futuro, nodo 35+) |
+| Validar datos antes del commit | Generar HTML desde Markdown |
+| Componer el sitemap index (futuro) | Generar `sitemap.xml` (Hugo lo hace) |
+| | Deploy vía Netlify (automático) |
+
 ## Implementación en n8n
 
 ### Paso 1: Obtener y filtrar datos
@@ -143,30 +199,59 @@ pages_to_update = existing_pages.existing_slugs  # todos los slugs del repo
 
 En el mock: nodo `functions_v2/33_split_page_actions.js`.
 
-### Paso 2: Generar Markdown
+### Paso 2: Generar Markdown (nodo 34 del mock)
 
-Crear o actualizar archivo en `content/subvenciones/{slug}.md` con front matter:
+**Qué hace el mock:** por cada entry en `pages_to_create` y `pages_to_update`, genera un string con front matter + body mínimo (listado de códigos de subvención). **No escribe el archivo** — eso lo hará el nodo de push (Paso 5).
+
+**Por qué string y no archivo:** desacopla generación de contenido del commit. Permite reusar el mismo output para preview, dry-run, o múltiples destinos (GitHub + backup local).
+
+**Front matter generado:**
 
 ```yaml
 ---
-title: Subvenciones para {tag} en {region} para {beneficiario}
+title: Subvenciones para {tag_seo} en {region} para {beneficiario}
 region: {region_slug}
 beneficiario: {beneficiario_slug}
-tag_seo: {tag}
+tag_seo: {tag_seo}
 count: {total}
 date: {YYYY-MM-DD}
-slug: subvenciones-{region_slug}-{beneficiario_slug}-{tag}
+slug: {slug}
 ---
 ```
 
+**Body mínimo (decisión cerrada 2026-06-23):** listado de `grant_codes` en Markdown plano. Hugo lo renderiza con el layout por defecto; el contenido rico (tabla formateada, etc.) lo añade el template del sitio, no el mock.
+
+```markdown
+# Subvenciones para {tag_seo} en {region} para {beneficiario}
+
+Subvenciones activas ({count}):
+
+- {code_1}
+- {code_2}
+- {code_3}
+```
+
+**Output:** `results/builders/page_markdowns.json`:
+
+```json
+[
+  { "action": "create", "slug": "...", "content": "---\n...\n---\n\n# ..." },
+  { "action": "update", "slug": "...", "content": "---\n...\n---\n\n# ..." }
+]
+```
+
+**En n8n real:** nodo Code con template literal; el array alimenta un nodo GitHub posterior.
+
 ### Paso 3: Actualizar índices
+
+> **Estado:** pendiente de mock. En n8n real se regeneran páginas índice (`/subvenciones/`, `/region/`, `/tag/`); Hugo las construye desde `layouts/_default/list.html` o similar.
 
 - Regenerar índice general de subvenciones.
 - Regenerar índice por región y/o por temática (si aplica en el sitio).
 
 ### Paso 4: Generar sitemap
 
-El sitemap debe incluir:
+> **Estado:** responsabilidad de Hugo, no del mock. El mock no genera `sitemap.xml`.
 
 - `/` (home)
 - páginas índice (`/subvenciones/`, y las que apliquen)
@@ -177,11 +262,15 @@ Opción recomendada:
 
 ### Paso 5: Push y deploy
 
+> **Estado:** pendiente de mock. En n8n real: nodo GitHub `Create or Update File` por cada item de `page_markdowns.json`, luego commit + push. Netlify hace el resto.
+
 1. Commit de cambios en `content/` (y archivos de índices si cambian).
 2. Push a `main`.
 3. Netlify despliega automáticamente.
 
 ### Paso 6: Registrar publicación (opcional pero recomendado)
+
+> **Estado:** pendiente. En n8n real: nodo Notion `Update Page` por cada slug desplegado, actualizando `last_published_at` y metadatos.
 
 - Actualizar metadatos de publicación:
   - `last_published_at`
@@ -221,13 +310,20 @@ subvenciones-site/
 
 ## Checklist de salida
 
-- [ ] Se selecciona exactamente 1 combinación válida al día.
-- [ ] Las páginas nuevas se crean solo si tienen al menos 3 subvenciones.
-- [ ] Las páginas existentes se actualizan diariamente aunque tengan menos de 3.
-- [ ] Se genera el Markdown de la página.
-- [ ] Se actualizan índices.
-- [ ] Se actualiza sitemap.
-- [ ] Se hace push y Netlify despliega sin errores.
+### Mock (responsabilidad n8n)
+
+- [x] Se selecciona exactamente 1 combinación válida al día (nodo 31 → sort por prioridad).
+- [x] Se filtran desired_create / desired_update por `count >= MIN_GRANTS_TO_CREATE_PAGE` (nodo 32).
+- [x] Se detectan create/update comparando contra slugs existentes en GitHub (nodo 33).
+- [x] Se genera el Markdown de cada página (nodo 34).
+- [ ] Se hace commit + push a GitHub (nodo 35, **próximo**).
+- [ ] (Opcional) Se actualiza `last_published_at` en Notion (nodo 36, pendiente).
+
+### Sistema externo (responsabilidad Hugo + Netlify)
+
+- [ ] Hugo renderiza HTML desde `.md` + `layouts/`.
+- [ ] Hugo genera `sitemap.xml` automáticamente.
+- [ ] Netlify hace build + deploy tras el push.
 
 ## Coste
 
