@@ -8,20 +8,20 @@ const filterResult = JSON.parse(
 const existingPages = JSON.parse(
   fs.readFileSync("../results/getters/get_existing_pages.json"),
 );
-const maxPagesToCreate = 1;
+const DAILY_PAGES = 1;
 //#endregion
 
 try {
   //#region Node Logic
-  const existingSet = new Set(existingPages.existing_slugs);
+  const existingSet = new Set(existingPages.map((slug) => slug.slug));
 
-  const pagesToCreate = filterResult.desired_create_pages
-    .filter((group) => !existingSet.has(group.slug))
-    .slice(0, maxPagesToCreate);
+  const pagesToCreate = filterResult.desired_create_pages.filter(
+    (group) => !existingSet.has(group.slug),
+  ).slice(0, DAILY_PAGES);
 
   const result = {
     pages_to_create: pagesToCreate,
-    pages_to_update: [...existingPages.existing_slugs],
+    pages_to_update: [...existingPages],
   };
   //#endregion
 

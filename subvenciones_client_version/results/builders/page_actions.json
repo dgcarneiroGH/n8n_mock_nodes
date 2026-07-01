@@ -1,23 +1,269 @@
-{
-  "pages_to_create": [
-    {
-      "tags": [
-        "asociaciones-y-ong",
-        "galicia"
-      ],
-      "tag_seo": "empleo",
-      "grant_codes": [
-        "885613",
-        "885614",
-        "885616"
-      ],
-      "max_received_date": "2026-06-23",
-      "slug": "subvenciones-asociaciones-y-ong-galicia-empleo",
-      "count_grants": 3
-    }
-  ],
-  "pages_to_update": [
-    "subvenciones-espana-particulares-formacion",
-    "subvenciones-galicia-asociaciones-y-ong-empleo"
-  ]
-}
+[
+  {
+    "pages_to_create": [
+      {
+        "tags": [
+          "alava",
+          "asociaciones"
+        ],
+        "tag_seo": "nominativas",
+        "grants": [
+          {
+            "code": "906751",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906751",
+            "title": "SUBVENCIONES NOMINATIVAS ÁREA DE IGUALDAD Y BIENESTAR SOCIAL 2026",
+            "budget": 14354.14,
+            "receptionDate": "2026-05-20",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "908766",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908766",
+            "title": "CONVENIO De SUBVENCIÓN NOMINATIVA ENTRE EL AYUNTAMIENTO DE VITORIA-GASTEIZ Y LA ASOCIACIÓN VITORIA-GASTEIZ WINE CITY PARA LA PUESTA EN MARCHA Y DESARROLLO DE SU PLAN DE ACTIVIDADES DEL AÑO 2026.",
+            "budget": 15000,
+            "receptionDate": "2026-05-28",
+            "startDate": "",
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "911555",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911555",
+            "title": "Convenio de subvención nominativa con Lazarraga Kultur Elkartea para desarrollo del Proyecto Gasteiz Antzokia Euskararen Etxea",
+            "budget": 264585.6,
+            "receptionDate": "2026-06-09",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "914190",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914190",
+            "title": "Convenio de subvención nominativa con Asociacion Eres Lagunak - Amigos del conservatorio Jesus Guridi para ciclo música de cámara 2026",
+            "budget": 15000,
+            "receptionDate": "2026-06-19",
+            "startDate": {
+              "start": "2026-05-25",
+              "end": null,
+              "time_zone": null
+            },
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "914253",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914253",
+            "title": "Convenio colaboración con Asociacion Ayalesa pro salud Mental-ASASAM para actividades sociales 2026",
+            "budget": 10000,
+            "receptionDate": "2026-06-19",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "905683",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905683",
+            "title": "Convenio de subvención nominativa entre el Ayuntamiento de Vitoria-Gasteiz y la Asociación de Mujeres Profesionales y Empresarias de Álava, AMPEA, para la organización de su Programa de Actividades de Fomento y Refuerzo del Emprendimiento Femenino ( Pr...",
+            "budget": 3000,
+            "receptionDate": "2026-05-14",
+            "startDate": "",
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "906208",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906208",
+            "title": "CONVENIO DE SUBVENCIÓN NOMINATIVA ENTRE EL AYUNTAMIENTO DE VITORIA-GASTEIZ Y LA ASOCIACIÓN SENIORS ESPAÑOLES PARA LA COOPERACIÓN TÉCNICA ( SECOT ) DURANTE EL AÑO 2026.",
+            "budget": 3600,
+            "receptionDate": "2026-05-18",
+            "startDate": "",
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "909173",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909173",
+            "title": "RENOVACION CONVENIO DE COLABORACION ENTRE AYTO VITORIA- GASTEIZ  COLEGIO OFICIAL DE TRABAJO SOCIAL DE ARABA PARA FORMACIONES DURANTE EL AÑO 2026",
+            "budget": 10000,
+            "receptionDate": "2026-05-29",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "911551",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911551",
+            "title": "Convenio con la Asociación GEU GASTEIZ EUSKALDUNA ELKARTEA para fomento del euskera",
+            "budget": 87000,
+            "receptionDate": "2026-06-09",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "912261",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912261",
+            "title": "Convenio de subvención nominativa con el Ayuntamiento de Vitoria-Gsteiz y la asociación Algara Bat Dantza Taldea",
+            "budget": 15500,
+            "receptionDate": "2026-06-11",
+            "startDate": {
+              "start": "2026-05-20",
+              "end": null,
+              "time_zone": null
+            },
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "913722",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913722",
+            "title": "Convenio colaboración con Aresketa Ikastola 2026",
+            "budget": 40270.5,
+            "receptionDate": "2026-06-17",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "913731",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913731",
+            "title": "SUBVENCIONES NOMINATIVAS A LAS AMPAS PARA ACTIVIDADES EXTRAESCOLARES 2026",
+            "budget": 39213.44,
+            "receptionDate": "2026-06-17",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "913746",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913746",
+            "title": "Subvenciones nominativas área de Euskera 2026",
+            "budget": 16794,
+            "receptionDate": "2026-06-17",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "913785",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913785",
+            "title": "Subvención nominativa a APDEMA 2026 para el hogar del grupo y otras actividades sociales.",
+            "budget": 14951,
+            "receptionDate": "2026-06-17",
+            "startDate": "",
+            "endDate": ""
+          },
+          {
+            "code": "914176",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914176",
+            "title": "El objeto del presente convenio es la concesión de una subvención nominativa prevista en el presupuesto para  ERAKUSMETA KULTUR ELKARTEA",
+            "budget": 14000,
+            "receptionDate": "2026-06-19",
+            "startDate": {
+              "start": "2026-05-27",
+              "end": null,
+              "time_zone": null
+            },
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "914180",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914180",
+            "title": "CONVENIO DE SUBVENCIÓN NOMINATIVA CON LA ASOCIACIÓN CELEDONES DE ORO PARA QUE LLEVE A CABO EL XVI CICLO DE CONFERENCIAS, ASÍ COMO LAS DEMÁS ACTIVIDADES QUE COMPLETAN SU PROGRAMA 2026",
+            "budget": 13000,
+            "receptionDate": "2026-06-19",
+            "startDate": {
+              "start": "2026-05-05",
+              "end": null,
+              "time_zone": null
+            },
+            "endDate": "2026-12-31"
+          },
+          {
+            "code": "914244",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914244",
+            "title": "Convenio con Amukatu Elkartea para control y mejora de las colonias de gatos 2026",
+            "budget": 25000,
+            "receptionDate": "2026-06-19",
+            "startDate": "",
+            "endDate": ""
+          }
+        ],
+        "max_received_date": "2026-06-24",
+        "slug": "subvenciones-alava-asociaciones-nominativas",
+        "count_grants": 17
+      }
+    ],
+    "pages_to_update": [
+      {
+        "name": "subvenciones-alava-asociaciones-deportes.md",
+        "path": "content/grants/subvenciones-alava-asociaciones-deportes.md",
+        "sha": "a4351f0d1e9fbbb2d38d2fbd5faeb776ea575ba0",
+        "size": 367,
+        "url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-deportes.md?ref=main",
+        "html_url": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-deportes.md",
+        "git_url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/a4351f0d1e9fbbb2d38d2fbd5faeb776ea575ba0",
+        "download_url": "https://raw.githubusercontent.com/dgcarneiroGH/portalconvocatorias/main/content/grants/subvenciones-alava-asociaciones-deportes.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-deportes.md?ref=main",
+          "git": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/a4351f0d1e9fbbb2d38d2fbd5faeb776ea575ba0",
+          "html": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-deportes.md"
+        }
+      },
+      {
+        "name": "subvenciones-alava-asociaciones-formacion.md",
+        "path": "content/grants/subvenciones-alava-asociaciones-formacion.md",
+        "sha": "ab68ed3e18a275396234c106b58646388e501075",
+        "size": 326,
+        "url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-formacion.md?ref=main",
+        "html_url": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-formacion.md",
+        "git_url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/ab68ed3e18a275396234c106b58646388e501075",
+        "download_url": "https://raw.githubusercontent.com/dgcarneiroGH/portalconvocatorias/main/content/grants/subvenciones-alava-asociaciones-formacion.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-formacion.md?ref=main",
+          "git": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/ab68ed3e18a275396234c106b58646388e501075",
+          "html": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-formacion.md"
+        }
+      },
+      {
+        "name": "subvenciones-alava-asociaciones-nominativas.md",
+        "path": "content/grants/subvenciones-alava-asociaciones-nominativas.md",
+        "sha": "029e43aaba912e9986a15cc635247952ed830c29",
+        "size": 453,
+        "url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-nominativas.md?ref=main",
+        "html_url": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-nominativas.md",
+        "git_url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/029e43aaba912e9986a15cc635247952ed830c29",
+        "download_url": "https://raw.githubusercontent.com/dgcarneiroGH/portalconvocatorias/main/content/grants/subvenciones-alava-asociaciones-nominativas.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-alava-asociaciones-nominativas.md?ref=main",
+          "git": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/029e43aaba912e9986a15cc635247952ed830c29",
+          "html": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-alava-asociaciones-nominativas.md"
+        }
+      },
+      {
+        "name": "subvenciones-asociaciones-galicia-empleo.md",
+        "path": "content/grants/subvenciones-asociaciones-galicia-empleo.md",
+        "sha": "ace96a281805978e3d13776632f743b10152dd6a",
+        "size": 313,
+        "url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-asociaciones-galicia-empleo.md?ref=main",
+        "html_url": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-asociaciones-galicia-empleo.md",
+        "git_url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/ace96a281805978e3d13776632f743b10152dd6a",
+        "download_url": "https://raw.githubusercontent.com/dgcarneiroGH/portalconvocatorias/main/content/grants/subvenciones-asociaciones-galicia-empleo.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-asociaciones-galicia-empleo.md?ref=main",
+          "git": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/ace96a281805978e3d13776632f743b10152dd6a",
+          "html": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-asociaciones-galicia-empleo.md"
+        }
+      },
+      {
+        "name": "subvenciones-espana-particulares-formacion.md",
+        "path": "content/grants/subvenciones-espana-particulares-formacion.md",
+        "sha": "e4759e9086783f46833409ec0422ffff7e318924",
+        "size": 339,
+        "url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-espana-particulares-formacion.md?ref=main",
+        "html_url": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-espana-particulares-formacion.md",
+        "git_url": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/e4759e9086783f46833409ec0422ffff7e318924",
+        "download_url": "https://raw.githubusercontent.com/dgcarneiroGH/portalconvocatorias/main/content/grants/subvenciones-espana-particulares-formacion.md",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/contents/content/grants/subvenciones-espana-particulares-formacion.md?ref=main",
+          "git": "https://api.github.com/repos/dgcarneiroGH/portalconvocatorias/git/blobs/e4759e9086783f46833409ec0422ffff7e318924",
+          "html": "https://github.com/dgcarneiroGH/portalconvocatorias/blob/main/content/grants/subvenciones-espana-particulares-formacion.md"
+        }
+      }
+    ]
+  }
+]

@@ -1,346 +1,1094 @@
 [
   {
-    "desired_create_pages": [
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "nominativas",
+    "grants": [
       {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "formacion",
-        "grant_codes": [
-          "913080",
-          "913093",
-          "913586",
-          "913635",
-          "913765"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-formacion",
-        "count_grants": 5
+        "code": "906751",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906751",
+        "title": "SUBVENCIONES NOMINATIVAS ÁREA DE IGUALDAD Y BIENESTAR SOCIAL 2026",
+        "budget": 14354.14,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "asociaciones-y-ong",
-          "galicia"
-        ],
-        "tag_seo": "empleo",
-        "grant_codes": [
-          "885613",
-          "885614",
-          "885616"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-galicia-empleo",
-        "count_grants": 3
+        "code": "908766",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908766",
+        "title": "CONVENIO De SUBVENCIÓN NOMINATIVA ENTRE EL AYUNTAMIENTO DE VITORIA-GASTEIZ Y LA ASOCIACIÓN VITORIA-GASTEIZ WINE CITY PARA LA PUESTA EN MARCHA Y DESARROLLO DE SU PLAN DE ACTIVIDADES DEL AÑO 2026.",
+        "budget": 15000,
+        "receptionDate": "2026-05-28",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "911555",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911555",
+        "title": "Convenio de subvención nominativa con Lazarraga Kultur Elkartea para desarrollo del Proyecto Gasteiz Antzokia Euskararen Etxea",
+        "budget": 264585.6,
+        "receptionDate": "2026-06-09",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "914190",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914190",
+        "title": "Convenio de subvención nominativa con Asociacion Eres Lagunak - Amigos del conservatorio Jesus Guridi para ciclo música de cámara 2026",
+        "budget": 15000,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-05-25",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "914253",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914253",
+        "title": "Convenio colaboración con Asociacion Ayalesa pro salud Mental-ASASAM para actividades sociales 2026",
+        "budget": 10000,
+        "receptionDate": "2026-06-19",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "905683",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905683",
+        "title": "Convenio de subvención nominativa entre el Ayuntamiento de Vitoria-Gasteiz y la Asociación de Mujeres Profesionales y Empresarias de Álava, AMPEA, para la organización de su Programa de Actividades de Fomento y Refuerzo del Emprendimiento Femenino ( Pr...",
+        "budget": 3000,
+        "receptionDate": "2026-05-14",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "906208",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906208",
+        "title": "CONVENIO DE SUBVENCIÓN NOMINATIVA ENTRE EL AYUNTAMIENTO DE VITORIA-GASTEIZ Y LA ASOCIACIÓN SENIORS ESPAÑOLES PARA LA COOPERACIÓN TÉCNICA ( SECOT ) DURANTE EL AÑO 2026.",
+        "budget": 3600,
+        "receptionDate": "2026-05-18",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "909173",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909173",
+        "title": "RENOVACION CONVENIO DE COLABORACION ENTRE AYTO VITORIA- GASTEIZ  COLEGIO OFICIAL DE TRABAJO SOCIAL DE ARABA PARA FORMACIONES DURANTE EL AÑO 2026",
+        "budget": 10000,
+        "receptionDate": "2026-05-29",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "911551",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911551",
+        "title": "Convenio con la Asociación GEU GASTEIZ EUSKALDUNA ELKARTEA para fomento del euskera",
+        "budget": 87000,
+        "receptionDate": "2026-06-09",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "912261",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912261",
+        "title": "Convenio de subvención nominativa con el Ayuntamiento de Vitoria-Gsteiz y la asociación Algara Bat Dantza Taldea",
+        "budget": 15500,
+        "receptionDate": "2026-06-11",
+        "startDate": "2026-05-20",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "913722",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913722",
+        "title": "Convenio colaboración con Aresketa Ikastola 2026",
+        "budget": 40270.5,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "913731",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913731",
+        "title": "SUBVENCIONES NOMINATIVAS A LAS AMPAS PARA ACTIVIDADES EXTRAESCOLARES 2026",
+        "budget": 39213.44,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "913746",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913746",
+        "title": "Subvenciones nominativas área de Euskera 2026",
+        "budget": 16794,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "913785",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913785",
+        "title": "Subvención nominativa a APDEMA 2026 para el hogar del grupo y otras actividades sociales.",
+        "budget": 14951,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "914176",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914176",
+        "title": "El objeto del presente convenio es la concesión de una subvención nominativa prevista en el presupuesto para  ERAKUSMETA KULTUR ELKARTEA",
+        "budget": 14000,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-05-27",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "914180",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914180",
+        "title": "CONVENIO DE SUBVENCIÓN NOMINATIVA CON LA ASOCIACIÓN CELEDONES DE ORO PARA QUE LLEVE A CABO EL XVI CICLO DE CONFERENCIAS, ASÍ COMO LAS DEMÁS ACTIVIDADES QUE COMPLETAN SU PROGRAMA 2026",
+        "budget": 13000,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-05-05",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "914244",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914244",
+        "title": "Convenio con Amukatu Elkartea para control y mejora de las colonias de gatos 2026",
+        "budget": 25000,
+        "receptionDate": "2026-06-19",
+        "startDate": "",
+        "endDate": ""
       }
     ],
-    "desired_update_pages": [
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-nominativas",
+    "count_grants": 17
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
       {
-        "tags": [
-          "asociaciones-y-ong",
-          "cataluna"
-        ],
-        "tag_seo": "formacion",
-        "grant_codes": [
-          "912778",
-          "912795"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-cataluna-formacion",
-        "count_grants": 2
+        "code": "906696",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906696",
+        "title": "Convenio colaboración para actividades deportivas con Amurrio Club de Fútbol 2026",
+        "budget": 36404,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "deportes",
-        "grant_codes": [
-          "913598",
-          "913891"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-deportes",
-        "count_grants": 2
+        "code": "906707",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906707",
+        "title": "Convenio colaboración para actividades deportivas con Amurrioko Txirrindulari Elkartea 2026",
+        "budget": 16000,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "familia",
-        "grant_codes": [
-          "913274",
-          "913958"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-familia",
-        "count_grants": 2
+        "code": "906737",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906737",
+        "title": "Subvenciones nominativas área de Deportes 2026",
+        "budget": 33787.16,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "innovacion",
-        "grant_codes": [
-          "913624",
-          "914753"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-innovacion",
-        "count_grants": 2
+        "code": "906759",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906759",
+        "title": "Convenio colaboración para actividades deportivas con Pelotazale Elkartea 2026",
+        "budget": 13500,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "vivienda",
-        "grant_codes": [
-          "913078",
-          "913818"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-vivienda",
-        "count_grants": 2
+        "code": "906763",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906763",
+        "title": "Convenio colaboración para actividades deportivas con Club de baloncesto Zaraobe 2026",
+        "budget": 17500,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "palencia",
-          "particulares"
-        ],
-        "tag_seo": "vivienda",
-        "grant_codes": [
-          "874675",
-          "874941"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-palencia-particulares-vivienda",
-        "count_grants": 2
+        "code": "906767",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906767",
+        "title": "Convenio colaboración para actividades deportivas con Etorkizuna 2026",
+        "budget": 7000,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "particulares",
-          "valencia-valencia"
-        ],
-        "tag_seo": "familia",
-        "grant_codes": [
-          "886361",
-          "900908"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-valencia-valencia-familia",
-        "count_grants": 2
+        "code": "907789",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907789",
+        "title": "Convocatoria de subvenciones de libre concurrencia para la realización de programas deportivos para el año 2026",
+        "budget": 80500,
+        "receptionDate": "2026-05-25",
+        "startDate": "",
+        "endDate": "2026-12-31"
       },
       {
-        "tags": [
-          "asociaciones-y-ong",
-          "canarias"
-        ],
-        "tag_seo": "accesibilidad",
-        "grant_codes": [
-          "859160"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-canarias-accesibilidad",
-        "count_grants": 1
+        "code": "913761",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913761",
+        "title": "Convenio para Subvención actividades deportivas con Kuskumendi MTB 2026",
+        "budget": 16000,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "tags": [
-          "asociaciones-y-ong",
-          "canarias"
-        ],
-        "tag_seo": "deportes",
-        "grant_codes": [
-          "857198"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-canarias-deportes",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "asociaciones-y-ong",
-          "canarias"
-        ],
-        "tag_seo": "musica",
-        "grant_codes": [
-          "878443"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-canarias-musica",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "asociaciones-y-ong",
-          "galicia"
-        ],
-        "tag_seo": "formacion",
-        "grant_codes": [
-          "882496"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-galicia-formacion",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "asociaciones-y-ong",
-          "la-gomera"
-        ],
-        "tag_seo": "deportes",
-        "grant_codes": [
-          "820695"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-la-gomera-deportes",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "asociaciones-y-ong",
-          "la-gomera"
-        ],
-        "tag_seo": "formacion",
-        "grant_codes": [
-          "896790"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-asociaciones-y-ong-la-gomera-formacion",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "accesibilidad",
-        "grant_codes": [
-          "914147"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-accesibilidad",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "artes_plasticas",
-        "grant_codes": [
-          "913912"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-artes_plasticas",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "literatura",
-        "grant_codes": [
-          "913867"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-literatura",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "espana",
-          "particulares"
-        ],
-        "tag_seo": "musica",
-        "grant_codes": [
-          "914156"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-espana-particulares-musica",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "la-rioja",
-          "particulares"
-        ],
-        "tag_seo": "empleo",
-        "grant_codes": [
-          "887078"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-la-rioja-particulares-empleo",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "particulares",
-          "valencia-valencia"
-        ],
-        "tag_seo": "cine",
-        "grant_codes": [
-          "905550"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-valencia-valencia-cine",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "particulares",
-          "valencia-valencia"
-        ],
-        "tag_seo": "comercio",
-        "grant_codes": [
-          "905850"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-valencia-valencia-comercio",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "particulares",
-          "valencia-valencia"
-        ],
-        "tag_seo": "deportes",
-        "grant_codes": [
-          "897418"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-valencia-valencia-deportes",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "particulares",
-          "valencia-valencia"
-        ],
-        "tag_seo": "literatura",
-        "grant_codes": [
-          "905548"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-valencia-valencia-literatura",
-        "count_grants": 1
-      },
-      {
-        "tags": [
-          "particulares",
-          "zamora"
-        ],
-        "tag_seo": "agroalimentario",
-        "grant_codes": [
-          "897576"
-        ],
-        "max_received_date": "2026-06-23",
-        "slug": "subvenciones-particulares-zamora-agroalimentario",
-        "count_grants": 1
+        "code": "913764",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913764",
+        "title": "Convenio colaboración para actividades deportivas con Kaskagorri Amurrio Futbol Taldea 2026",
+        "budget": 15500,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
       }
-    ]
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-deportes",
+    "count_grants": 9
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "913080",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913080",
+        "title": "BECAS DE INVESTIGACION AL ALUMNADO DEL PROGRAMA DE DOCTORADO EN CIENCIA DE MATERIALES DE LA UNIVERSIDAD DE ALICANTE",
+        "budget": 1200,
+        "receptionDate": "2026-06-15",
+        "startDate": "",
+        "endDate": "2026-06-30"
+      },
+      {
+        "code": "913093",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913093",
+        "title": "BECAS SANTANDER AYUDA ECONÓMICA PARA PRÁCTICAS DE ESTUDIANTES DE LA UNIVERSIDAD DE ALICANTE 2026 - SEGUNDA EDICIÓN",
+        "budget": 22500,
+        "receptionDate": "2026-06-15",
+        "startDate": "",
+        "endDate": "2026-10-02"
+      },
+      {
+        "code": "913586",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913586",
+        "title": "BECAS PARA SUFRAGAR GASTOS DE MATRÍCULA EN LOS ESTUDIOS DEL PROGRAMA DE DOCTORADO EN CIENCIA DE MATERIALES DE LA UNIVERSIDAD DE ALICANTE",
+        "budget": 1800,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": "2026-06-30"
+      },
+      {
+        "code": "913635",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913635",
+        "title": "Acuerdo de el 17 de junio de 2026 de la Vicerrectora de Formación Permanente, Empleabilidad y Emprendimiento, por la que se convoca la XIV Edición de los Premios Emprendimiento Universitario 2026 de la Universidad Complutense de Madrid",
+        "budget": 22750,
+        "receptionDate": "2026-06-17",
+        "startDate": "2026-06-18",
+        "endDate": "2026-07-15"
+      },
+      {
+        "code": "913765",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913765",
+        "title": "PREMIO LIBERTAD DE PRENSA MIGUEL HERNÁNDEZ PARA LOS MEJORES TFM DEL MÁSTER EN PERIODISMO Y DEMOCRACIA (Código de subvención: 05-326-4-2026-0177-S)",
+        "budget": 1500,
+        "receptionDate": "2026-06-17",
+        "startDate": "2026-06-18",
+        "endDate": "2026-07-03"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-formacion",
+    "count_grants": 5
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "909613",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909613",
+        "title": "Convocatoria de subvenciones de concurrencia competitiva dirigida a entidades y/o asociaciones sin ánimo de lucro que actúen en el ámbito de la igualdad de mujeres y hombres en el año 2026",
+        "budget": 28500,
+        "receptionDate": "2026-06-01",
+        "startDate": "2026-06-02",
+        "endDate": "2026-06-29"
+      },
+      {
+        "code": "911653",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911653",
+        "title": "Resolución de 05 de junio de 2026, de la Junta de Gobierno Local, por la que se convocan subvenciones dirigidas a entidades y asociaciones sin ánimo de lucro del ámbito de cohesión social para la realización de actividades durante el año 2026.",
+        "budget": 72000,
+        "receptionDate": "2026-06-09",
+        "startDate": "2026-06-10",
+        "endDate": "2026-07-07"
+      },
+      {
+        "code": "911829",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911829",
+        "title": "Ayudas para el transporte a los centros educativos que participan en los programas educativos del Servicio de Educación y/o del Centro de Estudios Ambientales del Ayuntamiento de Vitoria-Gasteiz, en el curso 2026-2027",
+        "budget": 25000,
+        "receptionDate": "2026-06-10",
+        "startDate": "2026-06-11",
+        "endDate": "2027-06-25"
+      },
+      {
+        "code": "914329",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914329",
+        "title": "Ayudas para el apoyo a niñas y niños con dificultades en el aprendizaje, curso 2026-2027",
+        "budget": 170000,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-06-22",
+        "endDate": "2026-09-18"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-formacion",
+    "count_grants": 4
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "familia",
+    "grants": [
+      {
+        "code": "907820",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907820",
+        "title": "Convocatoria de subvenciones de libre concurrencia para la realización de programas festivos para el año 2026.",
+        "budget": 42000,
+        "receptionDate": "2026-05-25",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "908438",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908438",
+        "title": "PROGRAMA DE AYUDAS A FAMILIAS CON HIJOS E HIJAS MENORES DE EDAD CON CÁNCER",
+        "budget": 6000,
+        "receptionDate": "2026-05-27",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-familia",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "innovacion",
+    "grants": [
+      {
+        "code": "913552",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913552",
+        "title": "Desarrollo de un programa de activación ciudadana en el marco de los programas de conservación de rapaces nocturnas, aves palustres, biodiversidad urbana y odonatos, todos ellos integrados dentro de la red de ciencia ciudadana de Vitoria-Gasteiz",
+        "budget": 15000,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "913556",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913556",
+        "title": "Colaborar en la financiación de los gastos derivados del desarrollo de un programa de activación ciudadana en el marco de los programas de conservación de rapaces nocturnas, aves palustres, biodiversidad urbana y odonatos, todos ellos integrados dentro...",
+        "budget": 15000,
+        "receptionDate": "2026-06-17",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-innovacion",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "patrimonio",
+    "grants": [
+      {
+        "code": "911557",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911557",
+        "title": "promoción del uso del euskera en el ámbito sociolabora",
+        "budget": 25000,
+        "receptionDate": "2026-06-09",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "911561",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911561",
+        "title": "Euskaraldia, actividades a desarrollar en 2026 para activar Euskaraldia 2027",
+        "budget": 50000,
+        "receptionDate": "2026-06-09",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-patrimonio",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "artes_plasticas",
+    "grants": [
+      {
+        "code": "913274",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913274",
+        "title": "XXVI CONCURSO NACIONAL DE PINTURA RAPIDA CIUDAD DE ALCAUDETE 2026",
+        "budget": 13500,
+        "receptionDate": "2026-06-16",
+        "startDate": "2026-06-17",
+        "endDate": "2026-08-01"
+      },
+      {
+        "code": "913912",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913912",
+        "title": "CONVOCATORIA PARA LA CONCESIÓN DE PREMIOS PARA EL CONCURSO DEL CARTEL ANUNCIADOR DE LAS FIESTAS EN HONOR A LA VIRGEN Y SAN ROQUE 2026",
+        "budget": 150,
+        "receptionDate": "2026-06-18",
+        "startDate": "2026-06-19",
+        "endDate": "2026-07-08"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-artes_plasticas",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
+      {
+        "code": "913598",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913598",
+        "title": "VII edición de los premios Cátedra Baloncesto de l’Alqueria del Basket de la Universitat de València a los mejores trabajos de final de máster (TFM) relacionados con el baloncesto",
+        "budget": 2000,
+        "receptionDate": "2026-06-17",
+        "startDate": "2026-06-18",
+        "endDate": "2026-09-30"
+      },
+      {
+        "code": "913891",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913891",
+        "title": "VII edición de los premios Cátedra del Baloncesto de l’Alqueria del Bàsquet de la Universitat de València a los mejores trabajos de final de grado (TFG) relacionados con el básquet",
+        "budget": 1600,
+        "receptionDate": "2026-06-18",
+        "startDate": "2026-06-19",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-deportes",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "tercera_edad",
+    "grants": [
+      {
+        "code": "913078",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913078",
+        "title": "Entregas Dinerarias sin contraprestación destinadas a la rehabilitación residencia-ejercicios 2026-2027",
+        "budget": 8000000,
+        "receptionDate": "2026-06-15",
+        "startDate": "",
+        "endDate": "2027-12-31"
+      },
+      {
+        "code": "913818",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913818",
+        "title": "202603801142 Dir_22.2.c_AYUDAS ALOJAMIENTOS COMPARTIDOS PERSONAS MAYORES",
+        "budget": 2000,
+        "receptionDate": "2026-06-18",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-tercera_edad",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "cine",
+    "grants": [
+      {
+        "code": "907785",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907785",
+        "title": "Convocatoria de subvenciones de libre concurrencia para la realización de programas culturales para el año 2026.",
+        "budget": 48000,
+        "receptionDate": "2026-05-25",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-cine",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "comercio",
+    "grants": [
+      {
+        "code": "911865",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911865",
+        "title": "Convocatoria de ayudas municipales 2026 para financiar gastos corrientes, obras y actividades desarrolladas por los concejos del municipio de San Millán en el año 2025",
+        "budget": 177485.74,
+        "receptionDate": "2026-06-10",
+        "startDate": "2026-06-11",
+        "endDate": "2026-09-12"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-comercio",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "alava",
+      "asociaciones"
+    ],
+    "tag_seo": "juventud",
+    "grants": [
+      {
+        "code": "913841",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913841",
+        "title": "Apoyo a jóvenes informadores/as en Centros de EEMM",
+        "budget": 11000,
+        "receptionDate": "2026-06-18",
+        "startDate": "2026-06-19",
+        "endDate": "2026-10-02"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-alava-asociaciones-juventud",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "accesibilidad",
+    "grants": [
+      {
+        "code": "914147",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914147",
+        "title": "V edición del \"Programa Reina Letizia para la Inclusión\" para promover la mejora de las condiciones formativas y profesionales de las personas con discapacidad.",
+        "budget": 5225550,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-06-22",
+        "endDate": "2026-07-19"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-accesibilidad",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "familia",
+    "grants": [
+      {
+        "code": "913958",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913958",
+        "title": "Ayudas para el fomento de la natalidad del municipio de Pancorbo (Burgos)",
+        "budget": 800,
+        "receptionDate": "2026-06-18",
+        "startDate": "",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-familia",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "innovacion",
+    "grants": [
+      {
+        "code": "914753",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914753",
+        "title": "AYUDAS A LA INVESTIGACIÓN 2026 DE LA CÁTEDRA MISTERI D'ELX (Código de subvención: 05-322-4-2026-0040-S)",
+        "budget": 3000,
+        "receptionDate": "2026-06-22",
+        "startDate": "2026-06-23",
+        "endDate": "2026-07-06"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-innovacion",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "literatura",
+    "grants": [
+      {
+        "code": "913867",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913867",
+        "title": "CONVOCATORIA XII EDICION CERTAMEN RELATO BREVE 2026 AYUNTAMIENTO DE ILLESCAS",
+        "budget": 2700,
+        "receptionDate": "2026-06-18",
+        "startDate": "",
+        "endDate": "2026-09-20"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-literatura",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "espana",
+      "particulares"
+    ],
+    "tag_seo": "musica",
+    "grants": [
+      {
+        "code": "914156",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914156",
+        "title": "Convocatoria XXV Concurso Nacional Trompeta Alberic 2026",
+        "budget": 1300,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-06-22",
+        "endDate": "2026-07-02"
+      }
+    ],
+    "max_received_date": "2026-06-24",
+    "slug": "subvenciones-espana-particulares-musica",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "galicia"
+    ],
+    "tag_seo": "empleo",
+    "grants": [
+      {
+        "code": "885613",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885613",
+        "title": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+        "budget": 500000,
+        "receptionDate": "2026-02-06",
+        "startDate": "2026-06-23",
+        "endDate": "2026-09-30"
+      },
+      {
+        "code": "885614",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885614",
+        "title": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+        "budget": 100000,
+        "receptionDate": "2026-02-06",
+        "startDate": "2026-06-23",
+        "endDate": "2026-09-30"
+      },
+      {
+        "code": "885616",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885616",
+        "title": "Orden de 29 de diciembre de 2025 por la que se establecen las bases reguladoras del Programa Galicia Suma Talento: Empléate de incentivos a la contratación en la empresa ordinaria, y se procede a su convocatoria para el año 2026",
+        "budget": 19100000,
+        "receptionDate": "2026-02-06",
+        "startDate": "2026-06-23",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-galicia-empleo",
+    "count_grants": 3
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "cataluna"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "912778",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912778",
+        "title": "Convocatoria de subvenciones a proyectos de desarrollo y educación global para los ejercicios 2026-2027. Tipología 1",
+        "budget": 5263157.9,
+        "receptionDate": "2026-06-12",
+        "startDate": "2026-06-15",
+        "endDate": "2026-07-10"
+      },
+      {
+        "code": "912795",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912795",
+        "title": "Convocatoria de subvenciones a proyectos de desarrollo y educación global para los ejercicios 2026-2029. Tipología 2",
+        "budget": 8730558.16,
+        "receptionDate": "2026-06-12",
+        "startDate": "2026-06-15",
+        "endDate": "2026-07-10"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-cataluna-formacion",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "palencia",
+      "particulares"
+    ],
+    "tag_seo": "vivienda",
+    "grants": [
+      {
+        "code": "874675",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874675",
+        "title": "CONVOCATORIA DE SUBVENCIONES MEDIANTE CONCURRENCIA COMPETITIVA A PARTICULARES PARA LA FINANCIACIÓN DE GASTOS DE SEGURO DE ALQUILER E INMOBILIARIA DE VIVIENDAS DE TITULARIDAD PRIVADA DESTINADAS AL ALQUILER RESIDENCIAL.",
+        "budget": 5000,
+        "receptionDate": "2025-12-12",
+        "startDate": "2025-12-15",
+        "endDate": "2026-12-01"
+      },
+      {
+        "code": "874941",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874941",
+        "title": "CONVOCATORIA ABIERTA DE CONCESIÓN DE SUBVENCIONES MEDIANTE CONCURRENCIA COMPETITIVA A PARTICULARES E INSTITUCIONES SIN ÁNIMO DE LUCRO DE ESTA PROVINCIA DESTINADAS A LA REHABILITACIÓN Y MEJORA DE LA HABITABILIDAD DE VIVIENDAS CUYO DESTINO SEA EL ALQUILER",
+        "budget": 100000,
+        "receptionDate": "2025-12-15",
+        "startDate": "2025-12-16",
+        "endDate": "2026-06-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-palencia-particulares-vivienda",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "tag_seo": "familia",
+    "grants": [
+      {
+        "code": "886361",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886361",
+        "title": "BASES AYUDAS PARA NACIMIENTOS Y ADOPCIONES - \"CHEQUE BEBÉ 2026\" Exp. 48/2026",
+        "budget": 4200,
+        "receptionDate": "2026-02-10",
+        "startDate": "2026-06-23",
+        "endDate": "2026-12-15"
+      },
+      {
+        "code": "900908",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900908",
+        "title": "Concesión de ayudas a la natalidad, primera vivienda y familia numerosa año 2026",
+        "budget": 24000,
+        "receptionDate": "2026-04-23",
+        "startDate": "2026-04-24",
+        "endDate": "2026-11-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-valencia-valencia-familia",
+    "count_grants": 2
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "canarias"
+    ],
+    "tag_seo": "accesibilidad",
+    "grants": [
+      {
+        "code": "859160",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859160",
+        "title": "SUBVENCIÓN NOMINTIVA AL COLEGIO OFICIAL DE AQUITECTOS DE TENERIFE, LA GOMERA Y EL HIERRO. EJERCICIO 2025. PROYECTO: MEJORA DE ACCESIBILIDAD EN LA SEDE DE LA ENTIDAD",
+        "budget": 100000,
+        "receptionDate": "2025-09-26",
+        "startDate": "2026-06-23",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-canarias-accesibilidad",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "canarias"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
+      {
+        "code": "857198",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/857198",
+        "title": "Subvención Directa al Club Deportivo de Patinaje Fayna, para la Promoción Deportiva",
+        "budget": 1500,
+        "receptionDate": "2025-09-17",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-23"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-canarias-deportes",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "canarias"
+    ],
+    "tag_seo": "musica",
+    "grants": [
+      {
+        "code": "878443",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878443",
+        "title": "FINANCIACIÓN OBRAS DE LA ESCUELA DE MÚSICA",
+        "budget": 1000000,
+        "receptionDate": "2025-12-29",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-canarias-musica",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "galicia"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "882496",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882496",
+        "title": "Orde de bases y 1ª convocatoria de subvenciones formación para ocupados",
+        "budget": 10622078,
+        "receptionDate": "2026-01-20",
+        "startDate": "2026-06-23",
+        "endDate": "2026-12-01"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-galicia-formacion",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "la-gomera"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
+      {
+        "code": "820695",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/820695",
+        "title": "ANULADA Decreto de la Presidencia del Cabildo Insular de La Gomera  n.º: 2025-0476 de fecha 14/03/2025 por el que se aprueba la convocatoria del Área de Educación, Cultura y Deportes para el otorgamiento de subvenciones a asociaciones deportivas, ejercicio 2025",
+        "budget": 200000,
+        "receptionDate": "2025-03-17",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-23"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-la-gomera-deportes",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "la-gomera"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "896790",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896790",
+        "title": "ORDEN APORTACIÓN DINERARIA TRIMESTRAL UNED EXT GOMERA-HIERRO 2026",
+        "budget": 34889,
+        "receptionDate": "2026-04-01",
+        "startDate": "2026-06-23",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-asociaciones-la-gomera-formacion",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "la-rioja",
+      "particulares"
+    ],
+    "tag_seo": "empleo",
+    "grants": [
+      {
+        "code": "887078",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887078",
+        "title": "Ayudas Contratación de Servicio Asesoramiento Técnico Obligatorio Cotos 2026",
+        "budget": 50000,
+        "receptionDate": "2026-02-13",
+        "startDate": "2026-02-16",
+        "endDate": "2026-06-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-la-rioja-particulares-empleo",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "tag_seo": "cine",
+    "grants": [
+      {
+        "code": "905550",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905550",
+        "title": "Convocatoria de la 43 edición del concurso de cortometrajes incluido en el Festival Quartmetratges 2026",
+        "budget": 8500,
+        "receptionDate": "2026-05-13",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-valencia-valencia-cine",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "tag_seo": "comercio",
+    "grants": [
+      {
+        "code": "905850",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905850",
+        "title": "Resolución Alcaldia nºº 814/2026 aprobación  de les bases de la convocatoria dels I Premis a l'Ús del Valencià en el comerCIO",
+        "budget": 2250,
+        "receptionDate": "2026-05-15",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-26"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-valencia-valencia-comercio",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
+      {
+        "code": "897418",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897418",
+        "title": "Subvenciones al Deporte Local año 2026.",
+        "budget": 95000,
+        "receptionDate": "2026-04-08",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-valencia-valencia-deportes",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "particulares",
+      "valencia-valencia"
+    ],
+    "tag_seo": "literatura",
+    "grants": [
+      {
+        "code": "905548",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905548",
+        "title": "Convocatoria de la 38ª edición del concurso de guiones para cortometrajes incluido en el Festival Quartmetratges 2026",
+        "budget": 2200,
+        "receptionDate": "2026-05-13",
+        "startDate": "2026-06-23",
+        "endDate": "2026-06-30"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-valencia-valencia-literatura",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "particulares",
+      "zamora"
+    ],
+    "tag_seo": "agroalimentario",
+    "grants": [
+      {
+        "code": "897576",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
+        "title": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS DE CARÁCTER NO PRODUCTIVO, EN EL MARCO DE INTERVENCIÓN 7119 DEL PLAN ESTRATEGICO NACIONAL DE LA PEPAC 2023-2027, GESTIONADAS POR EL GRUPO DE ACCIÓN LOCAL ADATA",
+        "budget": 394000,
+        "receptionDate": "2026-04-08",
+        "startDate": "2026-04-09",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-06-23",
+    "slug": "subvenciones-particulares-zamora-agroalimentario",
+    "count_grants": 1
   }
 ]

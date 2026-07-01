@@ -40,6 +40,26 @@ try {
     ].join("\n");
   };
 
+  const formatDate = (value) => {
+    if (!value) return "";
+    if (typeof value === "string") return value;
+    if (value.start) return value.start;
+    return "";
+  };
+
+  const formatGrant = (grant) => {
+    const startDate = formatDate(grant.startDate);
+    const endDate = formatDate(grant.endDate);
+    const fields = [
+      grant.budget != null ? `Budget: ${grant.budget}` : null,
+      grant.receptionDate ? `Reception: ${grant.receptionDate}` : null,
+      startDate ? `Start: ${startDate}` : null,
+      endDate ? `End: ${endDate}` : null,
+    ].filter(Boolean);
+    const details = fields.length > 0 ? `\n  - ${fields.join(" | ")}` : "";
+    return `- [${grant.title}](${grant.url}) (${grant.code})${details}`;
+  };
+
   const buildBody = (slug, group) => {
     if (!group) {
       return [
@@ -51,14 +71,14 @@ try {
       ].join("\n");
     }
     const [region, beneficiario] = group.tags;
-    const codeLines = group.grant_codes.map((code) => `- ${code}`).join("\n");
+    const grantLines = group.grants.map(formatGrant).join("\n");
     return [
       "",
       `# Subvenciones para ${group.tag_seo} en ${region} para ${beneficiario}`,
       "",
       `Subvenciones activas (${group.count_grants}):`,
       "",
-      codeLines,
+      grantLines,
       "",
     ].join("\n");
   };
@@ -68,22 +88,25 @@ try {
 
   const markdowns = [];
 
-  for (const group of pageActions.pages_to_create) {
-    markdowns.push({
-      action: "create",
-      slug: group.slug,
-      content: buildMarkdown(group.slug, group),
-    });
-  }
+  for (const batch of pageActions) {
+    for (const group of batch.pages_to_create) {
+      markdowns.push({
+        action: "create",
+        slug: group.slug,
+        content: buildMarkdown(group.slug, group),
+      });
+    }
 
-  for (const slug of pageActions.pages_to_update) {
-    const group = groupsList.find((g) => g.slug === slug);
-    markdowns.push({
-      action: "update",
-      slug,
-      orphan: !group,
-      content: buildMarkdown(slug, group),
-    });
+    for (const file of batch.pages_to_update) {
+      const slug = file.name.replace(/\.md$/, "");
+      const group = groupsList.find((g) => g.slug === slug);
+      markdowns.push({
+        action: "update",
+        slug,
+        orphan: !group,
+        content: buildMarkdown(slug, group),
+      });
+    }
   }
 
   const result = { markdowns };

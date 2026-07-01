@@ -28,10 +28,7 @@ try {
 
   const getReceivedDate = (grant) => {
     const directDate = normalizeText(
-      grant.receivedDate ||
-        grant.fechaRecepcion ||
-        grant.property_received_date ||
-        grant.property_fecha_recepcion,
+      grant.property_fecha_recepci_n,
     );
     if (directDate) {
       return directDate;
@@ -63,15 +60,23 @@ try {
       groupsByKey.set(key, {
         tags,
         tag_seo: tagSeo,
-        grant_codes: new Set(),
+        grants: new Map(),
         max_received_date: null,
         slug: `subvenciones-${tags.join("-")}-${tagSeo}`,
       });
     }
 
     const group = groupsByKey.get(key);
-    if (grantCode) {
-      group.grant_codes.add(grantCode);
+    if (grantCode && !group.grants.has(grantCode)) {
+      group.grants.set(grantCode, {
+        code: grantCode,
+        url: grant.property_url,
+        title: grant.property_t_tulo,
+        budget: grant.property_presupuesto,
+        receptionDate: grant.property_fecha_de_recepci_n?.start ?? '',
+        startDate: grant.property_fecha_de_inicio_de_convocatoria?.start ?? '',
+        endDate: grant.property_fecha_de_fin_de_convocatoria?.start ?? '',
+      });
     }
 
     if (
@@ -81,12 +86,11 @@ try {
       group.max_received_date = receivedDate;
     }
   }
-
   const result = [...groupsByKey.values()]
     .map((group) => ({
       ...group,
-      count_grants: group.grant_codes.size,
-      grant_codes: [...group.grant_codes].sort(),
+      count_grants: group.grants.size,
+      grants: [...group.grants.values()],
     }))
     .sort((a, b) => {
       const dateA = a.max_received_date || "";
