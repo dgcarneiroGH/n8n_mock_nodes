@@ -40,10 +40,20 @@ try {
     ].join("\n");
   };
 
+  const toDDMMYYYY = (value) => {
+    if (!value) return "";
+    const dateStr =
+      typeof value === "object" && value.start ? value.start : value;
+    if (typeof dateStr !== "string") return "";
+    const [y, m, d] = dateStr.split("T")[0].split("-");
+    if (!y || !m || !d) return dateStr;
+    return `${d}/${m}/${y}`;
+  };
+
   const formatDate = (value) => {
     if (!value) return "";
-    if (typeof value === "string") return value;
-    if (value.start) return value.start;
+    if (typeof value === "string") return toDDMMYYYY(value);
+    if (value.start) return toDDMMYYYY(value.start);
     return "";
   };
 
@@ -52,7 +62,9 @@ try {
     const endDate = formatDate(grant.endDate);
     const fields = [
       grant.budget != null ? `Budget: ${grant.budget}` : null,
-      grant.receptionDate ? `Reception: ${grant.receptionDate}` : null,
+      grant.receptionDate
+        ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
+        : null,
       startDate ? `Start: ${startDate}` : null,
       endDate ? `End: ${endDate}` : null,
     ].filter(Boolean);
@@ -97,8 +109,7 @@ try {
       });
     }
 
-    for (const file of batch.pages_to_update) {
-      const slug = file.name.replace(/\.md$/, "");
+    for (const { slug } of batch.pages_to_update) {
       const group = groupsList.find((g) => g.slug === slug);
       markdowns.push({
         action: "update",
