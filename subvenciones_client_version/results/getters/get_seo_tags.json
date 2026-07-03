@@ -23,6 +23,7 @@
             "artes plasticas",
             "artistica",
             "cartel",
+            "cartells",
             "diseno grafico",
             "escultura",
             "exposicion",
@@ -156,7 +157,9 @@
             "libro",
             "literatura",
             "relato",
-            "relatos"
+            "relatos",
+            "relats",
+            "poesia"
         ],
         "movilidad": [
             "logistica",
@@ -170,13 +173,15 @@
             "musica",
             "orquesta",
             "trompeta",
-            "violin"
+            "violin",
+            "cancion"
         ],
         "nominativas": [
             "nominativa",
             "nominativas",
             "convenios",
-            "convenio"
+            "convenio",
+            "concesion directa"
         ],
         "patrimonio": [
             "historico",
