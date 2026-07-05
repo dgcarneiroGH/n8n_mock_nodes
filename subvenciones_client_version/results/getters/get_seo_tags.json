@@ -181,7 +181,12 @@
             "nominativas",
             "convenios",
             "convenio",
-            "concesion directa"
+            "concesion directa",
+            "subvencion directa",
+            "subvenciones directas",
+            "subvencion nominada",
+            "subvenciones nominadas",
+            "de forma directa"
         ],
         "patrimonio": [
             "historico",
@@ -199,7 +204,13 @@
             "medico",
             "salud",
             "sanitario",
-            "socio sanitarias"
+            "socio sanitarias",
+            "diabetes",
+            "covid",
+            "cancer",
+            "fibrosis quistica",
+            "patologia",
+            "patologias"
         ],
         "teatro": [
             "actores",

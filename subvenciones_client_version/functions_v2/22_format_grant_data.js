@@ -9,18 +9,33 @@ const getGrantsData = JSON.parse(
 
 try {
   //#region Node Logic
-  const descriptionFromAnuncios = (anuncios) =>
-    (Array.isArray(anuncios) ? anuncios : [])
-      .map((anuncio) => anuncio.texto ?? "")
-      .join("\n")
-      .replace(/<p>/g, "")
-      .replace(/<\/p>/g, "\n");
+  const getDescription = (anuncios, documentos) => {
+    if (Array.isArray(anuncios) && anuncios.length > 0) {
+      return anuncios
+        .map((anuncio) => anuncio.texto ?? "")
+        .join("\n")
+        .replace(/<p>/g, "")
+        .replace(/<\/p>/g, "\n");
+    }
+
+    if (!Array.isArray(documentos) || documentos.length === 0) {
+      return "";
+    }
+
+    const mostRecent = [...documentos].sort((a, b) => {
+      const dateA = new Date(a.datPublicacion ?? a.datMod ?? 0).getTime();
+      const dateB = new Date(b.datPublicacion ?? b.datMod ?? 0).getTime();
+      return dateB - dateA;
+    })[0];
+
+    return mostRecent?.descripcion ?? "";
+  };
 
   const result = getGrantsData.map((grant) => ({
     code: grant.codigoBDNS,
     receptionDate: grant.fechaRecepcion,
     title: grant.descripcion,
-    description: descriptionFromAnuncios(grant.anuncios),
+    description: getDescription(grant.anuncios, grant.documentos),
     budget: grant.presupuestoTotal,
     startDate: grant.fechaInicioSolicitud,
     endDate: grant.fechaFinSolicitud,
