@@ -16,12 +16,12 @@ try {
 
   const buildFrontMatter = (slug, group) => {
     if (group) {
-      const [region, beneficiario] = group.tags;
+      const [region, beneficiary] = group.tags;
       return [
         "---",
-        `title: Subvenciones para ${group.tag_seo} en ${region} para ${beneficiario}`,
+        `title: Subvenciones para ${group.tag_seo} en ${region} para ${beneficiary}`,
         `region: ${region}`,
-        `beneficiario: ${beneficiario}`,
+        `beneficiario: ${beneficiary}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
         `date: ${today}`,
@@ -50,17 +50,10 @@ try {
     return `${d}/${m}/${y}`;
   };
 
-  const formatDate = (value) => {
-    if (!value) return "";
-    if (typeof value === "string") return toDDMMYYYY(value);
-    if (value.start) return toDDMMYYYY(value.start);
-    return "";
-  };
-
   const formatGrant = (grant) => {
-    const startDate = formatDate(grant.startDate);
-    const endDate = formatDate(grant.endDate);
-    const fields = [
+    const startDate = toDDMMYYYY(grant.startDate);
+    const endDate = toDDMMYYYY(grant.endDate);
+    const metaFields = [
       grant.budget != null ? `Budget: ${grant.budget}` : null,
       grant.receptionDate
         ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
@@ -68,7 +61,19 @@ try {
       startDate ? `Start: ${startDate}` : null,
       endDate ? `End: ${endDate}` : null,
     ].filter(Boolean);
-    const details = fields.length > 0 ? `\n  - ${fields.join(" | ")}` : "";
+    const requirements = Array.isArray(grant.requirements)
+      ? grant.requirements.filter((r) => r && r.trim() !== "")
+      : [];
+    const detailFields = [
+      grant.agency ? `Agency: ${grant.agency}` : null,
+      grant.description ? `Description: ${grant.description}` : null,
+      requirements.length > 0
+        ? `Requirements: ${requirements.join("; ")}`
+        : null,
+      metaFields.length > 0 ? metaFields.join(" | ") : null,
+    ].filter(Boolean);
+    const details =
+      detailFields.length > 0 ? `\n  - ${detailFields.join("\n  - ")}` : "";
     return `- [${grant.title}](${grant.url}) (${grant.code})${details}`;
   };
 
@@ -82,11 +87,11 @@ try {
         "",
       ].join("\n");
     }
-    const [region, beneficiario] = group.tags;
+    const [region, beneficiary] = group.tags;
     const grantLines = group.grants.map(formatGrant).join("\n");
     return [
       "",
-      `# Subvenciones para ${group.tag_seo} en ${region} para ${beneficiario}`,
+      `# Subvenciones para ${group.tag_seo} en ${region} para ${beneficiary}`,
       "",
       `Subvenciones activas (${group.count_grants}):`,
       "",
