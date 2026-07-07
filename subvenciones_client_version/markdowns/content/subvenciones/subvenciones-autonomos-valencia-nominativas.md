@@ -1,14 +1,14 @@
 ---
-title: Subvenciones para nominativas en autonomos para valencia-valencia
+title: Subvenciones para nominativas en autonomos para valencia
 region: autonomos
-beneficiario: valencia-valencia
+beneficiario: valencia
 tag_seo: nominativas
 count: 3
 date: 2026-07-07
-slug: subvenciones-autonomos-valencia-valencia-nominativas
+slug: subvenciones-autonomos-valencia-nominativas
 ---
 
-# Subvenciones para nominativas en autonomos para valencia-valencia
+# Subvenciones para nominativas en autonomos para valencia
 
 Subvenciones activas (3):
 

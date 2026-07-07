@@ -1,14 +1,14 @@
 ---
-title: Subvenciones para comercio en autonomos para valencia-valencia
+title: Subvenciones para comercio en autonomos para valencia
 region: autonomos
-beneficiario: valencia-valencia
+beneficiario: valencia
 tag_seo: comercio
 count: 8
 date: 2026-07-07
-slug: subvenciones-autonomos-valencia-valencia-comercio
+slug: subvenciones-autonomos-valencia-comercio
 ---
 
-# Subvenciones para comercio en autonomos para valencia-valencia
+# Subvenciones para comercio en autonomos para valencia
 
 Subvenciones activas (8):
 
