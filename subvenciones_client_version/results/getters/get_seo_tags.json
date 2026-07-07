@@ -29,7 +29,8 @@
             "exposicion",
             "fotografia",
             "grabado",
-            "pintura"
+            "pintura",
+            "carteles"
         ],
         "cine": [
             "cine",
@@ -91,7 +92,9 @@
             "empleo",
             "insercion laboral",
             "itinerarios",
-            "trabajadores"
+            "trabajadores",
+            "emprendimiento",
+            "emprendedora"
         ],
         "energia": [
             "electrico",
@@ -123,7 +126,16 @@
             "capacitacion",
             "cursos",
             "educacion",
-            "formacion"
+            "formacion",
+            "tfg",
+            "tfm",
+            "universidad",
+            "curso escolar",
+            "material escolar",
+            "doctorando",
+            "doctorandos",
+            "centro educativo",
+            "centros educativos"
         ],
         "gastronomia": [
             "cocina",
@@ -136,7 +148,9 @@
             "desarrollo",
             "i+d",
             "innovacion",
-            "investigacion"
+            "investigacion",
+            "innovador",
+            "innovadores"
         ],
         "internacionalizacion": [
             "comercio exterior",
@@ -194,7 +208,8 @@
             "patrimonio",
             "restauracion",
             "euskera",
-            "euskaraldia"
+            "euskaraldia",
+            "del valenciano"
         ],
         "salud": [
             "adicciones",
