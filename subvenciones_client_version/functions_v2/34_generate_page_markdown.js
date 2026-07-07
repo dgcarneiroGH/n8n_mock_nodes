@@ -74,7 +74,7 @@ try {
     ].filter(Boolean);
     const details =
       detailFields.length > 0 ? `\n  - ${detailFields.join("\n  - ")}` : "";
-    return `- [${grant.title}](${grant.url}) (${grant.code})${details}`;
+    return `- [${grant.title}](${grant.url}) (${grant.agency})${details}`;
   };
 
   const buildBody = (slug, group) => {

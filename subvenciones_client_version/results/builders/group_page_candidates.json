@@ -1,11 +1,303 @@
 [
   {
     "tags": [
+      "castilla-y-leon",
+      "particulares"
+    ],
+    "tag_seo": "familia",
+    "grants": [
+      {
+        "code": "886817",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886817",
+        "title": "Acuerdo de 11 de Diciembre de 2025, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "La subvención tiene por objetivo apoyar a las familias desalojadas de viviendas en localidades afectadas por los incendios forestales de verano de 2025 en Castilla y León, proporcionándoles una ayuda económica directa para su recuperación.",
+        "requirements": [
+          ""
+        ],
+        "budget": 395500,
+        "receptionDate": "2026-02-12",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "887005",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887005",
+        "title": "Acuerdo de 4 de diciembre de 2025, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Este acuerdo busca proporcionar subvenciones directas a las familias que fueron desalojadas de sus viviendas en localidades afectadas por los incendios forestales en Castilla y León durante el verano de 2025, apoyando su recuperación tras los daños sufridos.",
+        "requirements": [
+          "Ser familia desalojada;Residir en localidades afectadas por incendios;Estar en Castilla y León"
+        ],
+        "budget": 350500,
+        "receptionDate": "2026-02-13",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "887059",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887059",
+        "title": "Acuerdo de 18 diciembre  de 2025, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Esta subvención tiene como objetivo brindar apoyo a las familias desalojadas de sus viviendas en localidades afectadas por los incendios forestales en el verano de 2025 en Castilla y León, facilitando ayudas directas de 500 euros para su recuperación.",
+        "requirements": [
+          "Familias desalojadas por los incendios forestales;Residencia en las localidades afectadas"
+        ],
+        "budget": 402500,
+        "receptionDate": "2026-02-13",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "887083",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887083",
+        "title": "Acuerdo de 23 de Diciembre de 2025, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "La subvención tiene como objetivo la concesión directa de ayudas a las familias desalojadas de sus viviendas en localidades afectadas por incendios forestales en Castilla y León durante el verano de 2025, con el fin de apoyar la recuperación de estas zonas y brindar asistencia a los afectados.",
+        "requirements": [
+          ""
+        ],
+        "budget": 94000,
+        "receptionDate": "2026-02-13",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "887333",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887333",
+        "title": "Acuerdo de 15 de Enero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "La subvención tiene como objetivo apoyar a las familias desalojadas de sus viviendas en Castilla y León debido a los incendios forestales ocurridos en el verano de 2025, proporcionando asistencia económica para su recuperación.",
+        "requirements": [
+          "Ser residentes en localidades afectadas por los incendios forestales;Haber sido desalojados de sus viviendas"
+        ],
+        "budget": 139000,
+        "receptionDate": "2026-02-16",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "887372",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887372",
+        "title": "Acuerdo de 29 de enero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "El objetivo de esta subvención es otorgar ayudas económicas directas a las familias desalojadas de sus viviendas debido a los incendios forestales que afectaron las localidades de Castilla y León en el verano de 2025, como parte de un esfuerzo de recuperación de las zonas siniestradas.",
+        "requirements": [
+          ""
+        ],
+        "budget": 30000,
+        "receptionDate": "2026-02-16",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "889807",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889807",
+        "title": "Resolución de 20 de febrero de 2026, de la Gerencia de Servicios Sociales de Castilla y León, por la que se convoca el Bono Nacimiento dirigido a las familias de Castilla y León para el cuidado de hijos por nacimiento o adopción.",
+        "description": "Esta convocatoria tiene como objetivo subvencionar los gastos relacionados con el nacimiento o la adopción de menores para las familias de Castilla y León, a través del Bono Nacimiento, que puede utilizarse para adquirir productos básicos como alimentación infantil y productos de higiene.",
+        "requirements": [
+          "Residencia legal en España;Progenitores o responsable familiar deben estar empadronados en Castilla y León;Niños nacidos o adoptados entre el 1 de enero y el 31 de diciembre de 2026;Documento acreditativo en vigor de la situación de residencia"
+        ],
+        "budget": 19600000,
+        "receptionDate": "2026-02-26",
+        "startDate": "2026-03-03",
+        "endDate": "2027-03-31"
+      },
+      {
+        "code": "890683",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890683",
+        "title": "Acuerdo de 5 de Febrero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Este acuerdo tiene como objetivo proporcionar subvenciones directas a las familias desalojadas de sus viviendas debido a los incendios forestales que afectaron a diversas localidades de Castilla y León en el verano de 2025.",
+        "requirements": [
+          "Familias desalojadas de viviendas;Localidades afectadas por incendios en Castilla y León;No se aceptan solicitudes presentadas después del 15 de diciembre de 2025"
+        ],
+        "budget": 64000,
+        "receptionDate": "2026-03-03",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "890729",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890729",
+        "title": "Acuerdo de 12 de febrero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Esta subvención tiene como objetivo ayudar a las familias desalojadas de las viviendas en localidades afectadas por los incendios forestales en Castilla y León durante el verano de 2025, proporcionando un apoyo financiero para su recuperación.",
+        "requirements": [
+          ""
+        ],
+        "budget": 100000,
+        "receptionDate": "2026-03-03",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "890860",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890860",
+        "title": "Acuerdo de 19 de Febrero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Esta subvención tiene como objetivo apoyar a las familias que fueron desalojadas de sus viviendas debido a los incendios forestales ocurridos en verano de 2025 en Castilla y León, proporcionando asistencia económica directa para facilitar su recuperación.",
+        "requirements": [
+          ""
+        ],
+        "budget": 70000,
+        "receptionDate": "2026-03-04",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "890877",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890877",
+        "title": "Acuerdo de 19 de febrero de 2026, de la Junta de Castilla y León, por el que se autoriza la concesión directa de subvenciones a los seminarios menores diocesanos y de religiosos de la Iglesia Católica de Castilla y León",
+        "description": "La subvención tiene como objetivo financiar los gastos generados por la escolarización del alumnado en seminarios menores diocesanos y de religiosos de la Iglesia Católica en Castilla y León durante el curso escolar 2025/2026.",
+        "requirements": [
+          ""
+        ],
+        "budget": 948504.68,
+        "receptionDate": "2026-03-04",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "897877",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897877",
+        "title": "Acuerdo de 26 de Febrero de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "La subvención tiene como objetivo apoyar a las familias desalojadas de sus viviendas en las localidades de Castilla y León afectadas por los incendios forestales del verano de 2025, proporcionando ayuda económica directa para su recuperación.",
+        "requirements": [
+          "Familias desalojadas;Localidades afectadas por incendios en Castilla y León;Situación extraordinaria y excepcional"
+        ],
+        "budget": 37500,
+        "receptionDate": "2026-04-09",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "899628",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899628",
+        "title": "Acuerdo de 12 de Marzo de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Esta subvención tiene como objetivo proporcionar asistencia financiera a las familias desalojadas de sus viviendas en las localidades de Castilla y León que fueron afectadas por los incendios forestales en el verano de 2025.",
+        "requirements": [
+          "Familias desalojadas de localidades afectadas;Residentes en Castilla y León;No se especifican exclusiones en el texto"
+        ],
+        "budget": 37500,
+        "receptionDate": "2026-04-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "899685",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899685",
+        "title": "Acuerdo de 5 de marzo 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Este acuerdo autoriza la concesión directa de subvenciones a las familias que fueron desalojadas de sus viviendas en localidades de Castilla y León afectadas por los incendios forestales del verano de 2025, con el objetivo de ofrecer apoyo financiero y facilitar su recuperación en una situación extraordinaria y excepcional.",
+        "requirements": [
+          "Familias desalojadas de viviendas;Residencia en localidades afectadas por incendios;Situación excepcional;Interés social y humanitario"
+        ],
+        "budget": 12000,
+        "receptionDate": "2026-04-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "899764",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899764",
+        "title": "Acuerdo de 1 de Abril de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Se otorgan ayudas directas a las familias que han sido desalojadas de sus viviendas en localidades afectadas por incendios forestales en Castilla y León durante el verano de 2025, como parte de un plan de recuperación debido a daños extraordinarios y excepcionales.",
+        "requirements": [
+          "Unidad familiar empadronada en alguna localidad desalojada por incendios;Propietario de una vivienda en las localidades afectadas;Unidad familiar emparentada hasta el segundo grado con un empadronado en la localidad afectada"
+        ],
+        "budget": 185000,
+        "receptionDate": "2026-04-17",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "899833",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899833",
+        "title": "Acuerdo de 19 de marzo de 2026 , de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "El objetivo de esta subvención es proporcionar apoyo económico a las familias desalojadas de sus viviendas en localidades de Castilla y León afectadas por los incendios forestales del verano de 2025.",
+        "requirements": [
+          ""
+        ],
+        "budget": 16500,
+        "receptionDate": "2026-04-20",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "899878",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899878",
+        "title": "Acuerdo de 26 de marzo de 2026 , de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Este acuerdo tiene como objetivo la concesión directa de subvenciones a las familias desalojadas de sus viviendas en localidades de Castilla y León afectadas por los incendios forestales en el verano de 2025, buscando apoyar la recuperación de estas familias que sufrieron daños debido a los incendios.",
+        "requirements": [
+          ""
+        ],
+        "budget": 8500,
+        "receptionDate": "2026-04-20",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "906776",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906776",
+        "title": "Acuerdo de 14 de Mayo de 2026, de la junta de castilla y león, por el que se autoriza la concesión directa de subvenciones a las familias desalojadas de las viviendas en las localidades afectadas por los incendios forestales en el verano de 2025.",
+        "description": "Este acuerdo autoriza la concesión directa de subvenciones a las familias que han sido desalojadas de sus viviendas debido a los incendios forestales en el verano de 2025 en Castilla y León, con el fin de proporcionar apoyo y facilitar la recuperación de las localidades afectadas.",
+        "requirements": [
+          "Unidad familiar empadronada en una localidad desalojada;Propietario de una vivienda en una localidad desalojada;Unidad familiar emparentada hasta el segundo grado con un empadronado en la localidad"
+        ],
+        "budget": 170500,
+        "receptionDate": "2026-05-20",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "915688",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915688",
+        "title": "BASES REGULADORAS PARA LA CONCESIÓN DE PRESTACIONES ECONÓMICAS DESTINADAS A LA ATENCIÓN DE NECESIDADES BÁSICAS DE SUBSISTENCIA- AYUDA LUZ Y GAS 2026",
+        "description": "El objetivo de estas ayudas es proporcionar prestaciones económicas para cubrir las necesidades básicas de subsistencia, específicamente para el pago de luz y gas, dirigidas a familias desfavorecidas que enfrentan dificultades económicas en el municipio de Benavente.",
+        "requirements": [
+          ""
+        ],
+        "budget": 15000,
+        "receptionDate": "2026-06-26",
+        "startDate": "2026-06-29",
+        "endDate": "2026-07-24"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-castilla-y-leon-particulares-familia",
+    "count_grants": 19
+  },
+  {
+    "tags": [
       "asociaciones",
       "toledo"
     ],
     "tag_seo": "innovacion",
     "grants": [
+      {
+        "code": "914336",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914336",
+        "title": "SUBVENCIÓN NOMINATIVA ASOCIACIÓN APANAS PARA EL DESARROLLO DEL \"PROYECTOPOR LA INCLUSIÓN SOCIO-LABORAL DE LAS PERSONAS CON DISCAPACIDAD INTELECTUAL Y DEL DESARROLLO EN LA CIUDAD DE TOLEDO\"",
+        "description": "Este programa de subvenciones tiene como objetivo financiar proyectos de investigación y desarrollo en diversas áreas científicas y tecnológicas.",
+        "requirements": [
+          ""
+        ],
+        "budget": 30000,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-01-30",
+        "endDate": "2027-11-27"
+      },
       {
         "code": "914342",
         "agency": "",
@@ -93,6 +385,20 @@
         "endDate": "2026-09-30"
       },
       {
+        "code": "912324",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912324",
+        "title": "Subvención 2026 A.VV. Río Chico",
+        "description": "El objetivo de la concesión es financiar proyectos innovadores en el ámbito de la sostenibilidad ambiental.",
+        "requirements": [
+          ""
+        ],
+        "budget": 7764.75,
+        "receptionDate": "2026-06-11",
+        "startDate": "2026-01-30",
+        "endDate": "2026-09-30"
+      },
+      {
         "code": "913077",
         "agency": "",
         "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913077",
@@ -147,12 +453,12 @@
     ],
     "max_received_date": "2026-07-07",
     "slug": "subvenciones-asociaciones-toledo-innovacion",
-    "count_grants": 9
+    "count_grants": 11
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "comercio",
     "grants": [
@@ -293,8 +599,172 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-comercio",
+    "slug": "subvenciones-autonomos-valencia-comercio",
     "count_grants": 8
+  },
+  {
+    "tags": [
+      "castilla-y-leon",
+      "particulares"
+    ],
+    "tag_seo": "formacion",
+    "grants": [
+      {
+        "code": "902873",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/902873",
+        "title": "II Edición Convocatoria de Ayudas para la Defensa de Tesis Doctorales, cofinanciadas por Banco Santander S.A., año 2026",
+        "description": "El objetivo de esta convocatoria es mejorar la calidad de las tesis doctorales defendidas en la Universidad de Burgos, apoyando su desarrollo y aumentando la producción científica de calidad mediante la cobertura de gastos asociados.",
+        "requirements": [
+          "Doctorandos que defiendan la tesis doctoral en la Universidad de Burgos durante 2026"
+        ],
+        "budget": 20800,
+        "receptionDate": "2026-04-30",
+        "startDate": "2026-05-01",
+        "endDate": "2026-08-31"
+      },
+      {
+        "code": "911465",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911465",
+        "title": "CONVOCATORIA DE LA SUBVENCIÓN PARA LA ADQUISICIÓN DE LIBROS DE TEXTO DE EDUCACIÓN INFANTIL “MANUEL PAINO” PARA EL CURSO ESCOLAR 2026-2027",
+        "description": "La subvención tiene como objetivo ayudar a las familias en la adquisición de libros de texto para el 2º ciclo de educación infantil, dirigido a niños de 3 a 6 años, para el curso escolar 2026/2027.",
+        "requirements": [
+          "Familias con niños de 3 a 6 años;Residencia en el municipio de Benavente;No se especifican exclusiones particulares"
+        ],
+        "budget": 17000,
+        "receptionDate": "2026-06-09",
+        "startDate": "2026-06-10",
+        "endDate": "2026-07-07"
+      },
+      {
+        "code": "914129",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914129",
+        "title": "BASES DEL CONCURSO DE IDEAS “III BECA RODRIGO DE DUEÑAS: EL FUTURO DE MEDINA, MI FUTURO.",
+        "description": "El concurso busca fomentar la participación activa de jóvenes entre 16 y 30 años en el desarrollo de ideas innovadoras que contribuyan al futuro de Medina del Campo, abordando problemas locales y promoviendo el emprendimiento juvenil.",
+        "requirements": [
+          "Jóvenes de 16 a 30 años;Residir en Medina del Campo o en la comarca de Tierras de Medina;Acreditar la residencia mediante declaración responsable;Participación individual o en grupos de hasta cinco personas"
+        ],
+        "budget": 5000,
+        "receptionDate": "2026-06-18",
+        "startDate": "2026-06-19",
+        "endDate": "2026-09-15"
+      },
+      {
+        "code": "915582",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915582",
+        "title": "Resolución del Rector de la Universidad de Burgos por la que se convoca selección de estudiantado para la escuela de prácticas en la Universidad de Burgos",
+        "description": "Seleccionar a estudiantes de la Universidad de Burgos para participar en la Escuela de Prácticas, promoviendo la formación y experiencia práctica en su campo de estudio.",
+        "requirements": [
+          "Estudiantes matriculados en el curso 2025/2026 en segundo curso o superior de un grado oficial;Estudiantes matriculados en primero de Máster en la Universidad de Burgos;Estar matriculado en el curso académico 2026/2027;Superar el 50% de los créditos necesarios para la obtención del título"
+        ],
+        "budget": 19500,
+        "receptionDate": "2026-06-25",
+        "startDate": "2026-06-26",
+        "endDate": "2026-07-15"
+      },
+      {
+        "code": "908638",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908638",
+        "title": "Convocatoria I Edición de los Premios a los mejores Trabajos Fin de Grado (TFG), Fin de Máster (TFM) en materia de Parlamentarismo 2025-2026",
+        "description": "Premios para los mejores Trabajos Fin de Grado (TFG) y Trabajos Fin de Máster (TFM) en materias relacionadas con el parlamentarismo, realizados por estudiantes de universidades de Castilla y León durante el curso 2025-26.",
+        "requirements": [
+          "Estudiantes de la comunidad universitaria de Castilla y León;Realización de TFG o TFM en 2025-26;Disciplina académica en parlamentarismo"
+        ],
+        "budget": 2000,
+        "receptionDate": "2026-05-27",
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-09"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-castilla-y-leon-particulares-formacion",
+    "count_grants": 5
+  },
+  {
+    "tags": [
+      "autonomos",
+      "valencia"
+    ],
+    "tag_seo": "empleo",
+    "grants": [
+      {
+        "code": "904441",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904441",
+        "title": "CONVOCATORIA PREMIOS AL EMPRENDIMIENTO SOCIAL 2026",
+        "description": "Apoyar y dar reconocimiento a autónomos, empresas y entidades que realicen proyectos empresariales con impacto social y comunitario en València.",
+        "requirements": [
+          "Domicilio fiscal en el término municipal de València",
+          "Actividad de autónomos",
+          " empresas o entidades con menos de 250 trabajadores",
+          "No haber sido premiado en otras convocatorias por el Servicio de Emprendimiento en 2026"
+        ],
+        "budget": 52000,
+        "receptionDate": "2026-05-08",
+        "startDate": "2026-05-21",
+        "endDate": "2026-09-10"
+      },
+      {
+        "code": "907860",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907860",
+        "title": "RESOLUCIÓN DE ALCALDÍA PARA CONVOCAR AYUDA FOMENTO AUTOEMPLEO 2026",
+        "description": "Fomentar y mantener la creación de empleo y estimular la actividad económica en el municipio de Rocafort mediante apoyo a emprendedores que se constituyan como trabajadores autónomos.",
+        "requirements": [
+          "Emprendedores que se constituyan en trabajadores autónomos",
+          "Actividad ubicada en el municipio de Rocafort"
+        ],
+        "budget": 30000,
+        "receptionDate": "2026-05-25",
+        "startDate": "2026-05-26",
+        "endDate": "2026-09-15"
+      },
+      {
+        "code": "911902",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911902",
+        "title": "Convocatoria de las ayudas económicas destinadas a apoyar a los nuevos  autónomos, año 2026",
+        "description": "El objetivo de esta subvención es apoyar a las personas emprendedoras que han iniciado una actividad económica por cuenta propia en el municipio, contribuyendo a cubrir los gastos de la cuota del Régimen Especial de Trabajadores Autónomos (RETA) durante el ejercicio 2025.",
+        "requirements": [
+          "Personas físicas que cumplan los requisitos establecidos en la convocatoria",
+          "Residir en el municipio de la Pobla de Vallbona"
+        ],
+        "budget": 15000,
+        "receptionDate": "2026-06-10",
+        "startDate": "2026-06-11",
+        "endDate": "2026-07-11"
+      },
+      {
+        "code": "916570",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916570",
+        "title": "CONVOCATORIA AYUDAS DESTINADAS AL FOMENTO DE LA ACTIVIDAD EMPRENDEDORA - ENGUERA AVANZA 2026",
+        "description": "La convocatoria 'ENGUERA AVANZA 2026' tiene como objetivo fomentar la actividad emprendedora en el municipio de Enguera mediante la concesión de ayudas a nuevas empresas que se constituyan entre el 01 de octubre de 2025 y el 30 de septiembre de 2026.",
+        "requirements": [
+          "Desarrollar la actividad en un local abierto al público en Enguera.",
+          "Estar constituido como empresa entre el 01 de octubre de 2025 y el 30 de septiembre de 2026.",
+          "Permanecer de alta durante un período mínimo de 12 meses.",
+          "Estar al corriente de obligaciones tributarias y con la Seguridad Social.",
+          "No tener deudas con el Ayuntamiento de Enguera.",
+          "Contar con todas las licencias municipales pertinentes.",
+          "Someterse a comprobaciones por el Ayuntamiento.",
+          "No haber estado de alta entre enero y octubre de 2025.",
+          "No superar el importe total de ayudas a los gastos realizados.",
+          "Cumplir con las condiciones de elegibilidad establecidas."
+        ],
+        "budget": 12000,
+        "receptionDate": "2026-07-01",
+        "startDate": "2026-07-02",
+        "endDate": "2026-10-15"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-autonomos-valencia-empleo",
+    "count_grants": 4
   },
   {
     "tags": [
@@ -315,7 +785,7 @@
         ],
         "budget": 100000,
         "receptionDate": "2025-12-10",
-        "startDate": "",
+        "startDate": "2025-12-11",
         "endDate": ""
       },
       {
@@ -359,9 +829,15 @@
         "agency": "",
         "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916155",
         "title": "Convocatoria para la concesión de ayudas al fomento de la natalidad en el municipio de Sahagún para el segundo semestre del año 2025 y primer semestre del año 2026.",
-        "description": "",
+        "description": "Esta convocatoria tiene como objetivo establecer ayudas para fomentar la natalidad en Sahagún, apoyando a las unidades familiares mediante la concesión de subvenciones por nacimiento, adopción o guarda legal de niños durante un periodo específico.",
         "requirements": [
-          ""
+          "Progenitores o adoptantes deben tener el Libro de Familia.",
+          "Empadronamiento en el municipio de Sahagún.",
+          "El neonato debe haber nacido entre el 01 de julio de 2025 y el 30 de junio de 2026.",
+          "No estar incursos en causas de exclusión de ayudas.",
+          "Estar al corriente de obligaciones fiscales con el Ayuntamiento de Sahagún.",
+          "Estar al corriente de obligaciones tributarias con la AEAT y la Seguridad Social.",
+          "Compromiso de continuar empadronados en el municipio por un mínimo de 24 meses después de la concesión."
         ],
         "budget": 6000,
         "receptionDate": "2026-06-30",
@@ -430,7 +906,65 @@
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
+    ],
+    "tag_seo": "innovacion",
+    "grants": [
+      {
+        "code": "900745",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900745",
+        "title": "Subvención, en régimen de concesión directa, a Fundación ASTI Talent and Technology Foundation para el desarrollo del programa \"STEAM Talent Girl Valencia 2026\"",
+        "description": "El programa 'STEAM Talent Girl València 2026' busca fomentar las vocaciones científicas y tecnológicas en niñas y jóvenes, reduciendo la brecha de género en el ámbito STEAM y fortaleciendo el ecosistema innovador local a través de diversas actividades educativas y de mentorización.",
+        "requirements": [
+          ""
+        ],
+        "budget": 15000,
+        "receptionDate": "2026-04-22",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "900786",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900786",
+        "title": "Subvención, en régimen de concesión directa, a la Asociación Valenciana de Jóvenes Empresarios para el desarrollo de actividades divulgativas y de dinamización del ecosistema emprendedor durante 2026",
+        "description": "La subvención tiene como objetivo financiar el programa 'Actividades Divulgativas AJEV 2026' que busca dinamizar el ecosistema emprendedor valenciano, fomentar la innovación empresarial, impulsar el emprendimiento tecnológico y promover el liderazgo femenino a través de diversas actividades divulgativas, formativas y de conexión empresarial.",
+        "requirements": [
+          ""
+        ],
+        "budget": 15000,
+        "receptionDate": "2026-04-22",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "914549",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914549",
+        "title": "Convocatoria de subvenciones en especie, en régimen de concurrencia competitiva, para la selección de hasta un máximo de 24 startups del ecosistema innovador valenciano, para su participación en el stand institucional de VIC en VDS+26",
+        "description": "La convocatoria tiene como objetivo conceder subvenciones en especie a startups del ecosistema innovador valenciano que desarrollen proyectos con impacto en la ciudad y que hayan participado en programas de aceleración, permitiéndoles participar en el stand institucional de València Innovation Capital en el evento Valencia Digital Summit 2026.",
+        "requirements": [
+          "Startups del ecosistema innovador valenciano",
+          "Sede social en València o área metropolitana",
+          "Desarrollar proyectos con impacto en la ciudad",
+          "Haber participado en programas de aceleración",
+          "No estar en ninguna circunstancia prevista en el artículo 13 de la Ley 38/2003"
+        ],
+        "budget": 24000,
+        "receptionDate": "2026-06-22",
+        "startDate": "2026-06-27",
+        "endDate": "2026-07-16"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-autonomos-valencia-innovacion",
+    "count_grants": 3
+  },
+  {
+    "tags": [
+      "autonomos",
+      "valencia"
     ],
     "tag_seo": "nominativas",
     "grants": [
@@ -478,7 +1012,61 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-nominativas",
+    "slug": "subvenciones-autonomos-valencia-nominativas",
+    "count_grants": 3
+  },
+  {
+    "tags": [
+      "castilla-y-leon",
+      "particulares"
+    ],
+    "tag_seo": "nominativas",
+    "grants": [
+      {
+        "code": "890737",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890737",
+        "title": "Acuerdo de 26 de febrero de 2026 de la Junta de CyL por el que se autoriza la concesión directa de subvenciones a apicultores profesionales y no profesionales y a agricultores profesionales y no profesionales afectados por los incendios.",
+        "description": "Esta subvención tiene como objetivo compensar las pérdidas sufridas por apicultores y agricultores en los municipios afectados por los grandes incendios forestales en Castilla y León durante el verano de 2025, promoviendo la recuperación económica y la viabilidad de las explotaciones agrarias.",
+        "requirements": [
+          "Titulares de explotaciones agrarias ubicadas en municipios afectados por incendios;Permanecer al corriente de obligaciones tributarias;Ser apicultores profesionales o no profesionales;Haber presentado la solicitud única de la PAC de 2025 en Castilla y León"
+        ],
+        "budget": 74406.2,
+        "receptionDate": "2026-03-03",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "code": "904108",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904108",
+        "title": "CONVENIO DE COLABORACIÓN ENTRE LA DIPUTACIÓN DE LEON Y EL COLEGIO OFICIAL DE FARMACEUTICOS DE LEON 2026",
+        "description": "Este convenio tiene como objetivo continuar con la prestación del servicio de adherencia terapéutica a través del Sistema Personalizado de Dosificación (SPD) para mejorar la atención farmacológica a pacientes en municipios de menos de 20.000 habitantes en la provincia de León.",
+        "requirements": [
+          "Municipios con población inferior a 20.000 habitantes;Pacientes con tratamiento farmacológico complejo;Pacientes en situación asimilada a la dependencia;Pacientes no institucionalizados"
+        ],
+        "budget": 176640,
+        "receptionDate": "2026-05-07",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31"
+      },
+      {
+        "code": "907514",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907514",
+        "title": "Acuerdo de 7 de mayo de 2026 la Junta de Castilla y León, por el que se autoriza la concesión directa de una subvención al Club de Tenis Río Moros 1975",
+        "description": "La subvención tiene como objetivo financiar la organización y desarrollo de los XL Campeonatos de Tenis Internacionales de España y el X Torneo Femenino ITF 10000, promoviendo la actividad deportiva en la Comunidad de Castilla y León.",
+        "requirements": [
+          ""
+        ],
+        "budget": 130000,
+        "receptionDate": "2026-05-22",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-castilla-y-leon-particulares-nominativas",
     "count_grants": 3
   },
   {
@@ -550,124 +1138,42 @@
   },
   {
     "tags": [
-      "asociaciones",
-      "toledo"
+      "castilla-y-leon",
+      "particulares"
     ],
-    "tag_seo": "accesibilidad",
+    "tag_seo": "comercio",
     "grants": [
       {
-        "code": "914336",
+        "code": "912327",
         "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914336",
-        "title": "SUBVENCIÓN NOMINATIVA ASOCIACIÓN APANAS PARA EL DESARROLLO DEL \"PROYECTOPOR LA INCLUSIÓN SOCIO-LABORAL DE LAS PERSONAS CON DISCAPACIDAD INTELECTUAL Y DEL DESARROLLO EN LA CIUDAD DE TOLEDO\"",
-        "description": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912327",
+        "title": "CONVOCATORIA DE AYUDAS A PYMES DE CASTILLA Y LEON PARA LA PARTICIPACION EN MISION COMERCIAL DIRECTA TASTYWINES ASIA 2026 (Daejeon-Corea del Sur, 2-7 de noviembre de 2026), EN EL MARCO DEL PROGRAMA PYME GLOBAL 2026, COFINANCIADO POR EL FONDO EUROPEO DE DES",
+        "description": "Esta convocatoria tiene como objetivo promover la participación de pequeñas y medianas empresas de Castilla y León en la misión comercial TastyWines America, que se llevará a cabo en Nueva Orleans los días 25 y 26 de julio de 2026, facilitando su internacionalización y mejora en la competitividad en el sector vinícola.",
         "requirements": [
-          ""
+          "Ser una pequeña o mediana empresa conforme a la definición de la UE;Estar constituidas válidamente y ejercer una actividad económica;Estar dadas de alta en el Censo del Impuesto de Actividades Económicas;Tener el domicilio social o centro productivo en Castilla y León;Estar al corriente en las obligaciones tributarias y de Seguridad Social;No estar en crisis ni bajo las prohibiciones de la Ley 38/2003;Cumplir con la norma de minimis;Tener una facturación mínima de 100.000 € en la última anualidad;Tener al menos 2 empleados en la última anualidad"
         ],
-        "budget": 30000,
-        "receptionDate": "2026-06-19",
-        "startDate": "2026-01-30",
-        "endDate": "2027-11-27"
+        "budget": 40404.9,
+        "receptionDate": "2026-06-11",
+        "startDate": "2026-06-17",
+        "endDate": "2026-09-30"
       },
       {
-        "code": "914341",
+        "code": "915155",
         "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914341",
-        "title": "SUBVENCIÓN NOMINATIVA APANDAPT PARA EL DESARROLLO DEL PROYECTO PARA LA ATENCIÓN EDUCATIVA ACCESIBLE A PERSONAS SORDAS ADULTAS",
-        "description": "El proyecto busca desarrollar una atención educativa accesible para personas adultas con sordera a través de la consolidación de conocimientos, adquisición de competencias digitales, enseñanza de la Lengua de Signos Española y apoyo para la obtención del permiso de conducción.",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915155",
+        "title": "Acuerdo de 28 de mayo de 2026, de la Junta de Castilla y León, por el que se autoriza la concesión directa de una subvención al Consejo de Cámaras Oficiales de Comercio, Industria y Servicios de Castilla y León",
+        "description": "Esta subvención tiene como objetivo financiar la organización y celebración de Ferias de Empleo, Innovación y Emprendimiento en varias ciudades de Castilla y León, así como un Encuentro de Empresas, para fomentar el empleo y el emprendimiento en la comunidad.",
         "requirements": [
           ""
         ],
-        "budget": 3500,
-        "receptionDate": "2026-06-19",
-        "startDate": "2026-01-30",
-        "endDate": "2026-11-27"
+        "budget": 350000,
+        "receptionDate": "2026-06-24",
+        "startDate": "",
+        "endDate": ""
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-asociaciones-toledo-accesibilidad",
-    "count_grants": 2
-  },
-  {
-    "tags": [
-      "autonomos",
-      "valencia-valencia"
-    ],
-    "tag_seo": "empleo",
-    "grants": [
-      {
-        "code": "907860",
-        "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907860",
-        "title": "RESOLUCIÓN DE ALCALDÍA PARA CONVOCAR AYUDA FOMENTO AUTOEMPLEO 2026",
-        "description": "Fomentar y mantener la creación de empleo y estimular la actividad económica en el municipio de Rocafort mediante apoyo a emprendedores que se constituyan como trabajadores autónomos.",
-        "requirements": [
-          "Emprendedores que se constituyan en trabajadores autónomos",
-          "Actividad ubicada en el municipio de Rocafort"
-        ],
-        "budget": 30000,
-        "receptionDate": "2026-05-25",
-        "startDate": "2026-05-26",
-        "endDate": "2026-09-15"
-      },
-      {
-        "code": "911902",
-        "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911902",
-        "title": "Convocatoria de las ayudas económicas destinadas a apoyar a los nuevos  autónomos, año 2026",
-        "description": "El objetivo de esta subvención es apoyar a las personas emprendedoras que han iniciado una actividad económica por cuenta propia en el municipio, contribuyendo a cubrir los gastos de la cuota del Régimen Especial de Trabajadores Autónomos (RETA) durante el ejercicio 2025.",
-        "requirements": [
-          "Personas físicas que cumplan los requisitos establecidos en la convocatoria",
-          "Residir en el municipio de la Pobla de Vallbona"
-        ],
-        "budget": 15000,
-        "receptionDate": "2026-06-10",
-        "startDate": "2026-06-11",
-        "endDate": "2026-07-11"
-      }
-    ],
-    "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-empleo",
-    "count_grants": 2
-  },
-  {
-    "tags": [
-      "autonomos",
-      "valencia-valencia"
-    ],
-    "tag_seo": "innovacion",
-    "grants": [
-      {
-        "code": "900745",
-        "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900745",
-        "title": "Subvención, en régimen de concesión directa, a Fundación ASTI Talent and Technology Foundation para el desarrollo del programa \"STEAM Talent Girl Valencia 2026\"",
-        "description": "El programa 'STEAM Talent Girl València 2026' busca fomentar las vocaciones científicas y tecnológicas en niñas y jóvenes, reduciendo la brecha de género en el ámbito STEAM y fortaleciendo el ecosistema innovador local a través de diversas actividades educativas y de mentorización.",
-        "requirements": [
-          ""
-        ],
-        "budget": 15000,
-        "receptionDate": "2026-04-22",
-        "startDate": "2026-01-01",
-        "endDate": "2026-12-31"
-      },
-      {
-        "code": "900786",
-        "agency": "",
-        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900786",
-        "title": "Subvención, en régimen de concesión directa, a la Asociación Valenciana de Jóvenes Empresarios para el desarrollo de actividades divulgativas y de dinamización del ecosistema emprendedor durante 2026",
-        "description": "La subvención tiene como objetivo financiar el programa 'Actividades Divulgativas AJEV 2026' que busca dinamizar el ecosistema emprendedor valenciano, fomentar la innovación empresarial, impulsar el emprendimiento tecnológico y promover el liderazgo femenino a través de diversas actividades divulgativas, formativas y de conexión empresarial.",
-        "requirements": [
-          ""
-        ],
-        "budget": 15000,
-        "receptionDate": "2026-04-22",
-        "startDate": "2026-01-01",
-        "endDate": "2026-12-31"
-      }
-    ],
-    "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-innovacion",
+    "slug": "subvenciones-castilla-y-leon-particulares-comercio",
     "count_grants": 2
   },
   {
@@ -714,6 +1220,32 @@
     "max_received_date": "2026-07-07",
     "slug": "subvenciones-leon-particulares-tercera_edad",
     "count_grants": 2
+  },
+  {
+    "tags": [
+      "asociaciones",
+      "toledo"
+    ],
+    "tag_seo": "accesibilidad",
+    "grants": [
+      {
+        "code": "914341",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914341",
+        "title": "SUBVENCIÓN NOMINATIVA APANDAPT PARA EL DESARROLLO DEL PROYECTO PARA LA ATENCIÓN EDUCATIVA ACCESIBLE A PERSONAS SORDAS ADULTAS",
+        "description": "El proyecto busca desarrollar una atención educativa accesible para personas adultas con sordera a través de la consolidación de conocimientos, adquisición de competencias digitales, enseñanza de la Lengua de Signos Española y apoyo para la obtención del permiso de conducción.",
+        "requirements": [
+          ""
+        ],
+        "budget": 3500,
+        "receptionDate": "2026-06-19",
+        "startDate": "2026-01-30",
+        "endDate": "2026-11-27"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-asociaciones-toledo-accesibilidad",
+    "count_grants": 1
   },
   {
     "tags": [
@@ -776,7 +1308,7 @@
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "artes_plasticas",
     "grants": [
@@ -800,13 +1332,13 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-artes_plasticas",
+    "slug": "subvenciones-autonomos-valencia-artes_plasticas",
     "count_grants": 1
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "economia_digital",
     "grants": [
@@ -827,13 +1359,13 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-economia_digital",
+    "slug": "subvenciones-autonomos-valencia-economia_digital",
     "count_grants": 1
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "gastronomia",
     "grants": [
@@ -853,13 +1385,13 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-gastronomia",
+    "slug": "subvenciones-autonomos-valencia-gastronomia",
     "count_grants": 1
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "juventud",
     "grants": [
@@ -882,13 +1414,44 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-juventud",
+    "slug": "subvenciones-autonomos-valencia-juventud",
     "count_grants": 1
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
+    ],
+    "tag_seo": "patrimonio",
+    "grants": [
+      {
+        "code": "900526",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900526",
+        "title": "XXVIII PREMIO POR USO Y DIGNIFICACIÓN DEL VALENCIANO EN EL ÁMBITO MUNICIPAL",
+        "description": "La finalidad de estas bases es regular la concesión del premio que convoca la Agencia de Promoción del Valenciano del Ayuntamiento de Algemesí, destinado a comercios y empresas de la ciudad que promueven el uso del valenciano.",
+        "requirements": [
+          "Comercios",
+          " empresas y servicios de la ciudad de Algemesí",
+          "Empresas con al menos dos años de antigüedad para una modalidad",
+          "Empresas de nueva creación (creadas en 2025 o 2026) para otra modalidad",
+          "Uso del valenciano en la rotulación y material impreso",
+          "Presentar un dossier explicativo de la actividad"
+        ],
+        "budget": 3000,
+        "receptionDate": "2026-04-21",
+        "startDate": "2026-01-02",
+        "endDate": "2026-12-31"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-autonomos-valencia-patrimonio",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "autonomos",
+      "valencia"
     ],
     "tag_seo": "tercera_edad",
     "grants": [
@@ -919,13 +1482,13 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-tercera_edad",
+    "slug": "subvenciones-autonomos-valencia-tercera_edad",
     "count_grants": 1
   },
   {
     "tags": [
       "autonomos",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "vivienda",
     "grants": [
@@ -949,7 +1512,89 @@
       }
     ],
     "max_received_date": "2026-07-07",
-    "slug": "subvenciones-autonomos-valencia-valencia-vivienda",
+    "slug": "subvenciones-autonomos-valencia-vivienda",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "castilla-y-leon",
+      "particulares"
+    ],
+    "tag_seo": "deportes",
+    "grants": [
+      {
+        "code": "909365",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909365",
+        "title": "PROGRAMA MERCURIALIS DE DEPORTE UNIVERSITARIO",
+        "description": "Convocar ayudas a deportistas para estudiantes de la Universidad de Salamanca que han alcanzado méritos deportivos, promoviendo la práctica de deportes en competiciones federadas y universitarias mientras se compatibilizan con la formación académica.",
+        "requirements": [
+          "Estudiantes matriculados en estudios oficiales de grado",
+          " máster o doctorado en la Universidad de Salamanca;Méritos deportivos alcanzados;Curso académico 2025-2026"
+        ],
+        "budget": 25000,
+        "receptionDate": "2026-05-31",
+        "startDate": "2026-06-01",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-castilla-y-leon-particulares-deportes",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "castilla-y-leon",
+      "particulares"
+    ],
+    "tag_seo": "energia",
+    "grants": [
+      {
+        "code": "895512",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/895512",
+        "title": "Bono Social Térmico 2025",
+        "description": "Este real decreto-ley establece medidas urgentes para la transición energética y la protección de los consumidores, con el objetivo de asegurar que los consumidores, especialmente los vulnerables, puedan gestionar su demanda y optimizar su consumo de energía en un contexto de precios elevados.",
+        "requirements": [
+          "Consumidores vulnerables;Familias monoparentales con un progenitor mujer;Consumidores con discapacidad reconocida igual o superior al 33%;Consumidores en situación de dependencia de grado II o III"
+        ],
+        "budget": 34067513.28,
+        "receptionDate": "2026-03-26",
+        "startDate": "",
+        "endDate": ""
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-castilla-y-leon-particulares-energia",
+    "count_grants": 1
+  },
+  {
+    "tags": [
+      "leon",
+      "particulares"
+    ],
+    "tag_seo": "artes_plasticas",
+    "grants": [
+      {
+        "code": "908485",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908485",
+        "title": "CONCURSO DE CARTELES CIMA 2026",
+        "description": "Concurso de carteles para el anuncio de la 'Ciudad Mágica 2026'.",
+        "requirements": [
+          "Personas físicas",
+          "Cualquier edad",
+          "Cualquier nacionalidad",
+          "Cualquier lugar de residencia"
+        ],
+        "budget": 500,
+        "receptionDate": "2026-05-27",
+        "startDate": "2026-07-01",
+        "endDate": "2026-07-22"
+      }
+    ],
+    "max_received_date": "2026-07-07",
+    "slug": "subvenciones-leon-particulares-artes_plasticas",
     "count_grants": 1
   },
   {
@@ -1248,6 +1893,20 @@
         "endDate": "2026-10-19"
       },
       {
+        "code": "915924",
+        "agency": "",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915924",
+        "title": "Ayudas Mercedes Fernández para actividades formativas de doctorandos del Institut Cavanilles de Biodiversitat i Biologia Evolutiva",
+        "description": "",
+        "requirements": [
+          ""
+        ],
+        "budget": 4200,
+        "receptionDate": "2026-06-29",
+        "startDate": "2026-06-30",
+        "endDate": "2026-07-20"
+      },
+      {
         "code": "913080",
         "agency": "",
         "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913080",
@@ -1292,7 +1951,7 @@
     ],
     "max_received_date": "2026-07-05",
     "slug": "subvenciones-espana-particulares-formacion",
-    "count_grants": 11
+    "count_grants": 12
   },
   {
     "tags": [
@@ -2943,7 +3602,7 @@
   {
     "tags": [
       "particulares",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "familia",
     "grants": [
@@ -2977,7 +3636,7 @@
       }
     ],
     "max_received_date": "2026-06-23",
-    "slug": "subvenciones-particulares-valencia-valencia-familia",
+    "slug": "subvenciones-particulares-valencia-familia",
     "count_grants": 2
   },
   {
@@ -3139,7 +3798,7 @@
   {
     "tags": [
       "particulares",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "cine",
     "grants": [
@@ -3159,13 +3818,13 @@
       }
     ],
     "max_received_date": "2026-06-23",
-    "slug": "subvenciones-particulares-valencia-valencia-cine",
+    "slug": "subvenciones-particulares-valencia-cine",
     "count_grants": 1
   },
   {
     "tags": [
       "particulares",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "comercio",
     "grants": [
@@ -3185,13 +3844,13 @@
       }
     ],
     "max_received_date": "2026-06-23",
-    "slug": "subvenciones-particulares-valencia-valencia-comercio",
+    "slug": "subvenciones-particulares-valencia-comercio",
     "count_grants": 1
   },
   {
     "tags": [
       "particulares",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "deportes",
     "grants": [
@@ -3211,13 +3870,13 @@
       }
     ],
     "max_received_date": "2026-06-23",
-    "slug": "subvenciones-particulares-valencia-valencia-deportes",
+    "slug": "subvenciones-particulares-valencia-deportes",
     "count_grants": 1
   },
   {
     "tags": [
       "particulares",
-      "valencia-valencia"
+      "valencia"
     ],
     "tag_seo": "literatura",
     "grants": [
@@ -3237,7 +3896,7 @@
       }
     ],
     "max_received_date": "2026-06-23",
-    "slug": "subvenciones-particulares-valencia-valencia-literatura",
+    "slug": "subvenciones-particulares-valencia-literatura",
     "count_grants": 1
   },
   {
