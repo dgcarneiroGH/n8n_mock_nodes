@@ -1,87 +1,69 @@
 [
   {
-    "id": 1088639,
+    "id": 1118763,
     "organo": {
-      "nivel1": "AUTONOMICA",
-      "nivel2": "LA RIOJA",
-      "nivel3": "CONSEJERÍA DE AGRICULTURA, GANADERÍA, MUNDO RURAL Y MEDIO AMBIENTE"
+      "nivel1": "LOCAL",
+      "nivel2": "VALENCIA",
+      "nivel3": "AYUNTAMIENTO DE VALENCIA"
     },
-    "sedeElectronica": null,
-    "codigoBDNS": "887078",
-    "fechaRecepcion": "2026-02-13",
+    "sedeElectronica": "https://sede.valencia.es",
+    "codigoBDNS": "917202",
+    "fechaRecepcion": "2026-07-03",
     "instrumentos": [
       {
         "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
       }
     ],
     "tipoConvocatoria": "Concurrencia competitiva - canónica",
-    "presupuestoTotal": 50000,
+    "presupuestoTotal": 300793,
     "mrr": false,
-    "descripcion": "Ayudas Contratación de Servicio Asesoramiento Técnico Obligatorio Cotos 2026",
+    "descripcion": "CONVOCATORIA SUBVENCIONES INDUMENTARISTAS Y ORFEBRES",
     "descripcionLeng": null,
     "tiposBeneficiarios": [
-      {
-        "descripcion": "GRAN EMPRESA"
-      },
-      {
-        "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      },
-      {
-        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
-      },
       {
         "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
       }
     ],
     "sectores": [
       {
-        "descripcion": "Agricultura, ganadería, caza y servicios relacionados con las mismas",
-        "codigo": "01"
+        "descripcion": "Fabricación de artículos de joyería, bisutería y similares",
+        "codigo": "32.1"
       }
     ],
     "regiones": [
       {
-        "descripcion": "ES230 - La Rioja"
+        "descripcion": "ES523 - Valencia / València"
       }
     ],
-    "descripcionFinalidad": "Otras Prestaciones económicas",
-    "descripcionBasesReguladoras": "Bases reguladoras de las ayudas para la contratación del servicio de asesoramiento técnico obligatorio de los cotos de caza de La Rioja",
-    "urlBasesReguladoras": "https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=37758024-1-PDF-573377-X",
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES DEL AYUNTAMIENTO DE VALENCIA Y SUS ORGANISMOS PÚBLICOS",
+    "urlBasesReguladoras": "https://sede.valencia.es/sede/ordenanzas/index.xhtml",
     "sePublicaDiarioOficial": true,
     "abierto": false,
     "fechaInicioSolicitud": null,
-    "fechaFinSolicitud": "2026-06-30",
-    "textInicio": "A partir del día siguiente a la publicación del extracto de la convocatoria en el BOR",
-    "textFin": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir del día siguiente al de la publicación del extracto de la convocatoria en el BOP.",
+    "textFin": "A los  20 días naturales a contar desde el día siguiente al de la publicación del extracto en el BOP",
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
-    "reglamento": null,
+    "reglamento": {
+      "descripcion": "REG (UE) 2023/2831 de minimis, General",
+      "orden": null
+    },
     "objetivos": [],
     "sectoresProductos": [],
     "documentos": [
       {
-        "id": 1401611,
+        "id": 1488145,
         "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "Resoluci_n_asesoramiento_t_cnico_cotos_caza_2026.pdf",
-        "long": 391835,
-        "datMod": "2026-02-13",
-        "datPublicacion": "2026-02-17"
+        "nombreFic": "2.2-Convocatoria_Indumentaristas_y_Orfebres_2026.pdf",
+        "long": 366120,
+        "datMod": "2026-07-03",
+        "datPublicacion": "2026-07-03"
       }
     ],
-    "anuncios": [
-      {
-        "numAnuncio": 203641,
-        "titulo": "Resolución 286/2026, de 12 de febrero, de la Consejería de Agricultura, Ganadería, Mundo Rural y Medio Ambiente, por la que se aprueba la convocatoria para el año 2026 las ayudas para la contratación del servicio de asesoramiento técnico obligatorio de los cotos de caza de La Rioja (extracto)",
-        "tituloLeng": null,
-        "texto": "<p>Primero.  Bases reguladoras.</p><p>La Orden AGM/78/2025, de 29 de noviembre, por la que se establecen las bases reguladoras de las ayudas para la contratación del servicio de asesoramiento técnico obligatorio de los cotos de caza de La Rioja.</p><p>Segundo. Objeto.                                                               </p><p> </p><p>Convocar para el año 2026 las ayudas reguladas por la Orden AGM/78/2025, de 29 de noviembre, por la que se establecen las bases reguladoras de las ayudas para la contratación del servicio de asesoramiento técnico obligatorio de los cotos de caza de La Rioja. (BOR Núm. 234, 2 de diciembre de 2025).</p><p>Tercero.  Beneficiarios.</p><p>De acuerdo al artículo 2 de la orden de bases podrán solicitar estas subvenciones los titulares de los cotos de caza y adjudicatarios de los mismos, cuyas cláusulas de adjudicación conlleven la obligación de contratación de servicio de asesoramiento técnico.</p><p>De acuerdo al artículo 1.2 de la orden reguladora, podrán ser objeto de subvención, los trabajos de asesoramiento técnico para la redacción de planes técnicos cuya caducidad se haya producido en el año 2025, así como los que vayan a caducar en el año 2026, y que sean redactados antes el plazo de finalización de presentación de solicitudes.</p><p>Del mismo modo se financiará las informaciones complementarias a los planes técnicos de caza de las temporadas de caza 2025-2026 y 2026-2027, redactadas antes de la finalización del plazo de presentación de solicitudes.</p><p>Cuarto.  Cuantía.</p><p>Convocar las ayudas correspondientes a esta línea de ayudas, por un importe total de 50.000 euros del proyecto 80702.3 del presupuesto de gastos de Consejería de Agricultura, Ganadería, Mundo Rural y Medio Ambiente correspondiente al ejercicio de 2026, distribuidos de la siguiente manera:</p><p>1. Ayuntamientos                                                               05.06.4712.461.00                          10.000 €</p><p>2. Mancomunidades                                                          05.06.4712.462.00                                500 €</p><p>3. Empresas Privadas                                                       05.06.4712.477.00                            2.000 €</p><p>4. Familias e Instituciones sin fines de lucro                     05.06.4712.480.00                        37.500 €</p><p>La distribución de la totalidad de los fondos disponibles para estas ayudas entre las mencionadas partidas presupuestarias, deberá entenderse estimativa puesto que han de considerarse en conjunto y el reparto definitivo subordinado a las solicitudes efectivamente recibidas, de modo que si el crédito de alguna de las partidas presupuestarias no fuera comprometido por falta de solicitudes, podrá incrementar, previo el procedimiento oportuno, otra partida en la que el superior número de peticiones exigiera un importe mayor para hacer frente al abono de las mismas.</p><p>Quinto.  Plazo de presentación de solicitudes.</p><p>El plazo para presentación de solicitudes comenzará el día siguiente a la publicación del presente extracto de la convocatoria y permanecerá abierto hasta el 30 de junio de 2026 incluido.</p><p>Sexto.  Otros datos de interés.</p><p>1. Convocatoria.  El texto íntegro de la Resolución de convocatoria estará disponible en la siguiente dirección de la Oficina Electrónica del Gobierno de La RiojaAyudas para la contratación del servicio de asesoramiento técnico obligatorio de los cotos de caza de La Rioja </p><p>2. Solicitudes.  Las solicitudes de subvención y documentación señaladas en los apartados anteriores se dirigirán al Director General de Medio Natural y Paisaje en los modelos disponibles en la oficina electrónica del Gobierno de La Rioja web www.larioja.org.</p><p>3. Documentación.   Con las solicitudes se incluirá toda la documentación relacionada en el artículo 8 de la orden reguladora, en particular la justificación del pago.</p><p>4. Procedimiento de concesión. El procedimiento de concesión se tramitará en régimen de concurrencia competitiva, de acuerdo con las prioridades de valoración previstas en el artículo 5 de la Orden de bases.</p><p>El órgano competente para la ordenación e instrucción del procedimiento es la Dirección General de Medio Natural y Paisaje, a través del Servicio de Naturaleza, Caza y Pesca.</p><p>El órgano competente para resolver es la Consejera de Agricultura, Ganadería, Mundo Rural y Medio Ambiente u órgano en quien delegue.</p><p>5. Publicación de la ayuda.  Las ayudas concedidas se publicarán a través de la Base de Datos Nacional de Subvenciones de conformidad con lo establecido en los artículos 18 y 20 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.</p><p>6. Abono de la ayuda.   El abono de la subvención se hará de una sola vez, previa verificación de las actuaciones realizadas, de acuerdo con los criterios para la cuantificación de las ayudas establecidas en el artículo 6 de la Orden reguladora. Se abonará la cantidad correspondiente a la inversión finalmente realizada de acuerdo con la resolución de concesión.</p><p>Una vez que el expediente tenga la documentación completa, el órgano instructor emitirá informe propuesta de resolución de pago. El reconocimiento de la obligación para el pago de las ayudas se efectuará mediante resolución de la Consejera de Agricultura, Ganadería, Mundo Rural y Medio Ambiente, salvo que resulte aplicable una delegación de competencias en la materia.</p><p> </p>",
-        "textoLeng": null,
-        "url": "https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=39005084-1-PDF-575468",
-        "cve": null,
-        "desDiarioOficial": "BOR. B.O. DE LA RIOJA",
-        "datPublicacion": "2026-02-19"
-      }
-    ],
+    "anuncios": [],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
   }
 ]

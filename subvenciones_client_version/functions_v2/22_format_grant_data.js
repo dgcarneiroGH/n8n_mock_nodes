@@ -9,39 +9,42 @@ const getGrantsData = JSON.parse(
 
 try {
   //#region Node Logic
-  const getDescription = (anuncios, documentos) => {
-    if (Array.isArray(anuncios) && anuncios.length > 0) {
-      return anuncios
+  const result = getGrantsData.map((grant) => {
+    let description = "";
+    let needsPdf = false;
+    let pdfId = null;
+
+    if (Array.isArray(grant.anuncios) && grant.anuncios.length > 0) {
+      description = grant.anuncios
         .map((anuncio) => anuncio.texto ?? "")
         .join("\n")
         .replace(/<p>/g, "")
         .replace(/<\/p>/g, "\n");
+    } else if (Array.isArray(grant.documentos) && grant.documentos.length > 0) {
+      const mostRecent = [...grant.documentos].sort((a, b) => {
+        const dateA = new Date(a.datPublicacion ?? a.datMod ?? 0).getTime();
+        const dateB = new Date(b.datPublicacion ?? b.datMod ?? 0).getTime();
+        return dateB - dateA;
+      })[0];
+
+      needsPdf = true;
+      pdfId = mostRecent?.id;
     }
 
-    if (!Array.isArray(documentos) || documentos.length === 0) {
-      return "";
-    }
-
-    const mostRecent = [...documentos].sort((a, b) => {
-      const dateA = new Date(a.datPublicacion ?? a.datMod ?? 0).getTime();
-      const dateB = new Date(b.datPublicacion ?? b.datMod ?? 0).getTime();
-      return dateB - dateA;
-    })[0];
-
-    return mostRecent?.descripcion ?? "";
-  };
-
-  const result = getGrantsData.map((grant) => ({
-    code: grant.codigoBDNS,
-    receptionDate: grant.fechaRecepcion,
-    title: grant.descripcion,
-    description: getDescription(grant.anuncios, grant.documentos),
-    budget: grant.presupuestoTotal,
-    startDate: grant.fechaInicioSolicitud,
-    endDate: grant.fechaFinSolicitud,
-    startDateText: grant.textInicio,
-    endDateText: grant.textFin,
-  }));
+    return {
+      code: grant.codigoBDNS,
+      receptionDate: grant.fechaRecepcion,
+      title: grant.descripcion,
+      description,
+      budget: grant.presupuestoTotal,
+      startDate: grant.fechaInicioSolicitud,
+      endDate: grant.fechaFinSolicitud,
+      startDateText: grant.textInicio,
+      endDateText: grant.textFin,
+      needs_pdf: needsPdf,
+      pdf_id: pdfId
+    };
+  });
   //#endregion
 
   // In n8N context:
