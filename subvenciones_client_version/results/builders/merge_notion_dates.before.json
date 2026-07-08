@@ -10,6 +10,7 @@
     "startDateText": "A partir del día siguiente al de la publicación del extracto de la convocatoria en el BOP.",
     "endDateText": "A los  20 días naturales a contar desde el día siguiente al de la publicación del extracto en el BOP",
     "needs_pdf": true,
-    "pdf_id": 1488145
+    "pdf_id": 1488145,
+    "description_already_in_notion": false
   }
 ]
