@@ -47,7 +47,7 @@ function extractAllRegions(regionList, collected = []) {
   for (const region of regionList) {
     collected.push({
       id: region.id.toString(),
-      description: region.descripcion,
+      description: region.descripcion.split("-").pop().trim(),
       slug: generateSlug(region.descripcion),
       type: determineType(region.descripcion),
     });

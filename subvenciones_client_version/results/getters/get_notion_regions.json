@@ -46,7 +46,11 @@
     "property_c_digo": "83",
     "property_slug": "la-gomera",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38883f94-7b2c-81e4-8152-c0886cb87b24",
+      "38883f94-7b2c-81fd-a57d-ce22fc21f041",
+      "38883f94-7b2c-8113-8b9a-dd89813b862d"
+    ],
     "property_descripci_n": "ES706 - La Gomera"
   },
   {
@@ -96,7 +100,13 @@
     "property_c_digo": "78",
     "property_slug": "canarias",
     "property_tipo": "region",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38883f94-7b2c-81ad-a332-df76b78d8970",
+      "38883f94-7b2c-8177-868e-e3d34ed0a775",
+      "38883f94-7b2c-81a0-bec0-d5ad714d7be4",
+      "38883f94-7b2c-81fc-aa6c-e09be8506486",
+      "38883f94-7b2c-8149-8785-c86b9d45a278"
+    ],
     "property_descripci_n": "ES7 - CANARIAS"
   },
   {
@@ -176,7 +186,13 @@
     "property_c_digo": "70",
     "property_slug": "malaga",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "39583f94-7b2c-8151-9cf5-f724e201e33d",
+      "39583f94-7b2c-8128-bb49-fd3755e47dba",
+      "39583f94-7b2c-8187-ab5f-ed42fd6b9b82",
+      "39583f94-7b2c-8138-9f97-f33f4302bf2d",
+      "39583f94-7b2c-8102-b83f-d3c0437c65ba"
+    ],
     "property_descripci_n": "ES617 - Málaga"
   },
   {
@@ -246,7 +262,11 @@
     "property_c_digo": "63",
     "property_slug": "andalucia",
     "property_tipo": "ccaa",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-8104-8cee-f03cc689aab7",
+      "38383f94-7b2c-8156-bb92-fe1785688686",
+      "38383f94-7b2c-811c-adb4-c8034d26b7f3"
+    ],
     "property_descripci_n": "ES61 - ANDALUCIA"
   },
   {
@@ -304,9 +324,35 @@
     "name": "ES523 - Valencia / València",
     "url": "https://app.notion.com/p/ES523-Valencia-Val-ncia-37683f947b2c81388b26cb9bf6b882ab",
     "property_c_digo": "57",
-    "property_slug": "valencia-valencia",
+    "property_slug": "valencia",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-8138-9976-f60df3c6ec85",
+      "38383f94-7b2c-81be-b9a9-e0c3c09b58da",
+      "38383f94-7b2c-81f1-845e-f66f5b5c5420",
+      "38383f94-7b2c-8183-b2f4-eace3554588e",
+      "38383f94-7b2c-81b6-b641-e810af314b64",
+      "38383f94-7b2c-81f9-bbac-c9cddae4996b",
+      "38383f94-7b2c-815b-be3d-de6f08775cef",
+      "38383f94-7b2c-8123-ba94-e90a0e2015d0",
+      "38383f94-7b2c-81fb-8fce-c6f0e24ea783",
+      "38383f94-7b2c-8101-a9e1-f148827db713",
+      "38383f94-7b2c-81aa-bd89-ef22687fc934",
+      "38383f94-7b2c-8170-b90b-fb3a41a3a295",
+      "38383f94-7b2c-811f-b939-cf79b1c62ae4",
+      "39483f94-7b2c-81ce-9d07-f5383dcdc936",
+      "39483f94-7b2c-8187-aaee-fd6fe7524267",
+      "39483f94-7b2c-8184-bc65-d0b9daf2f082",
+      "39483f94-7b2c-8159-a087-e08f3cb9b0b3",
+      "39483f94-7b2c-814b-8ac6-cbf0f3bd8759",
+      "39483f94-7b2c-819f-b920-e58e94432575",
+      "39483f94-7b2c-8138-a425-cc1d0ff79c2b",
+      "39483f94-7b2c-81b7-b0ae-fa541829c275",
+      "39483f94-7b2c-81e3-ab86-c0710d707ff3",
+      "39483f94-7b2c-814b-adad-df3ff26fb40f",
+      "39483f94-7b2c-8132-8e2d-c8983cda884d",
+      "39483f94-7b2c-819f-9143-d0bfb957d57f"
+    ],
     "property_descripci_n": "ES523 - Valencia / València"
   },
   {
@@ -386,7 +432,13 @@
     "property_c_digo": "49",
     "property_slug": "cataluna",
     "property_tipo": "ccaa",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38583f94-7b2c-8142-a03b-d1ece728f37d",
+      "38583f94-7b2c-8161-a6e1-defd270db9e4",
+      "38583f94-7b2c-81eb-a5e9-cae4a3886f98",
+      "38583f94-7b2c-8109-9129-d7563b047fda",
+      "38583f94-7b2c-8174-b6e4-f128bd025c75"
+    ],
     "property_descripci_n": "ES51 - CATALUÑA"
   },
   {
@@ -426,7 +478,12 @@
     "property_c_digo": "45",
     "property_slug": "extremadura",
     "property_tipo": "ccaa",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38483f94-7b2c-813b-bebd-ecd5c8fe3f93",
+      "38483f94-7b2c-8125-8729-eda09c14a821",
+      "38483f94-7b2c-8163-93b0-ddba168d4d3b",
+      "38483f94-7b2c-810d-8f31-db57849fe9c2"
+    ],
     "property_descripci_n": "ES43 - EXTREMADURA"
   },
   {
@@ -436,7 +493,28 @@
     "property_c_digo": "44",
     "property_slug": "toledo",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "39483f94-7b2c-81a2-84c2-f2c11f24d14a",
+      "39483f94-7b2c-8179-817a-c5924febeab4",
+      "39483f94-7b2c-81c1-b4dc-d166a70e76e5",
+      "39483f94-7b2c-81fb-8eab-f4e01285aa4a",
+      "39483f94-7b2c-8129-ba46-e0503ff318a9",
+      "39483f94-7b2c-8165-bb5b-ecc7d5e937df",
+      "39483f94-7b2c-81e2-9e15-ddb7dc5d8aac",
+      "39483f94-7b2c-81f7-b1d6-c01d3d2cc8af",
+      "39483f94-7b2c-81b1-8c65-d9155f0af330",
+      "39483f94-7b2c-81bd-831c-da6d2356b46a",
+      "39483f94-7b2c-8130-90b8-c345ccad6d87",
+      "39483f94-7b2c-8109-8133-cb0279ca4926",
+      "39483f94-7b2c-81d9-93cd-f5c4afd46d24",
+      "39483f94-7b2c-819e-b7fa-f063d87f331b",
+      "39483f94-7b2c-8197-bc91-db299f47ebbf",
+      "39483f94-7b2c-81aa-b282-d3686eac0ffb",
+      "39483f94-7b2c-81e5-bf01-f981b7ef558c",
+      "39483f94-7b2c-81de-86bf-c9c005b00fd5",
+      "39483f94-7b2c-8125-ade4-d14ef0ea6ed6",
+      "39483f94-7b2c-815a-a658-e54fbc43f11e"
+    ],
     "property_descripci_n": "ES425 - Toledo"
   },
   {
@@ -476,7 +554,13 @@
     "property_c_digo": "40",
     "property_slug": "albacete",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-81a6-99da-fd38da222707",
+      "38383f94-7b2c-81a4-bdeb-d03b3ddd01bb",
+      "38383f94-7b2c-8120-b083-eccabe3c97cf",
+      "38383f94-7b2c-8184-983d-e3d0b1802457",
+      "38383f94-7b2c-8158-acd2-e7ad317fc332"
+    ],
     "property_descripci_n": "ES421 - Albacete"
   },
   {
@@ -546,7 +630,12 @@
     "property_c_digo": "33",
     "property_slug": "palencia",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-81db-b77a-ea3bd2f2bebb",
+      "38383f94-7b2c-81f8-a47d-fe6f75bf3fde",
+      "38383f94-7b2c-8110-b282-c79ba9b8c3d0",
+      "38383f94-7b2c-81d5-968f-d341feffeba9"
+    ],
     "property_descripci_n": "ES414 - Palencia"
   },
   {
@@ -556,7 +645,11 @@
     "property_c_digo": "32",
     "property_slug": "leon",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "39283f94-7b2c-8149-8a3d-f1911c010b8b",
+      "39283f94-7b2c-81d2-90d7-e9d4dff4831c",
+      "39283f94-7b2c-811f-b140-f6e2f15387ca"
+    ],
     "property_descripci_n": "ES413 - León"
   },
   {
@@ -586,7 +679,33 @@
     "property_c_digo": "29",
     "property_slug": "castilla-y-leon",
     "property_tipo": "ccaa",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "39683f94-7b2c-81d4-a543-eec047b19a09",
+      "39683f94-7b2c-81ba-bf31-d76b7753391b",
+      "39683f94-7b2c-8197-b349-db51a614eae1",
+      "39683f94-7b2c-81ef-a656-c8044dae3631",
+      "39683f94-7b2c-8130-ae5b-cc92ecae4fa7",
+      "39683f94-7b2c-8139-9c64-fd4ccc8813e7",
+      "39683f94-7b2c-8166-9461-fa696c91fac6",
+      "39683f94-7b2c-81c4-b429-cabe345e8118",
+      "39683f94-7b2c-8126-bf1c-ff9b9bf803a5",
+      "39683f94-7b2c-818c-96e1-d6d89f726d7d",
+      "39683f94-7b2c-8172-89ce-d90a709ebfe9",
+      "39683f94-7b2c-81c6-982d-c654726f5b06",
+      "39683f94-7b2c-81fc-9ff2-c5c7dcd421cf",
+      "39683f94-7b2c-81c0-9535-d500960f62b2",
+      "39683f94-7b2c-814f-8b12-c5ce47d8a6fc",
+      "39683f94-7b2c-818c-b4c1-e6210b1ee18a",
+      "39683f94-7b2c-81eb-91e7-f56b878f4ee5",
+      "39683f94-7b2c-81d4-bd1d-e921dc985b0a",
+      "39683f94-7b2c-817a-8ab0-f98c1197bc82",
+      "39683f94-7b2c-8137-b03e-c8416f633b8b",
+      "39683f94-7b2c-816a-9b5a-d61f81fdcf6a",
+      "39683f94-7b2c-8130-8bba-c24d7643571a",
+      "39683f94-7b2c-8106-bf5d-dc10e2d6525e",
+      "39683f94-7b2c-81b7-b9a3-dffa806d60a2",
+      "39683f94-7b2c-8103-8e00-e1abfcc19ac0"
+    ],
     "property_descripci_n": "ES41 - CASTILLA Y LEON"
   },
   {
@@ -676,7 +795,12 @@
     "property_c_digo": "20",
     "property_slug": "la-rioja",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-81b1-9c1b-facbfc3e4e07",
+      "38383f94-7b2c-81b7-a891-d7c43b6c3303",
+      "38383f94-7b2c-81c5-8a27-f55d9499a8c2",
+      "38383f94-7b2c-814e-9007-dc55dfb4f1bd"
+    ],
     "property_descripci_n": "ES230 - La Rioja"
   },
   {
@@ -734,9 +858,35 @@
     "name": "ES211 - Araba/Álava",
     "url": "https://app.notion.com/p/ES211-Araba-lava-37683f947b2c8117a461d8afd8d95d64",
     "property_c_digo": "14",
-    "property_slug": "araba-alava",
+    "property_slug": "alava",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38983f94-7b2c-81f2-bcd9-e79da21091ea",
+      "38983f94-7b2c-81f3-bae4-ea30729b8771",
+      "38983f94-7b2c-816c-91b0-db5cdaab21d3",
+      "38983f94-7b2c-81c9-8577-f8f40769e1a2",
+      "38983f94-7b2c-8163-b485-e35df67a2812",
+      "38983f94-7b2c-81dc-81ca-c1bf6eb59de8",
+      "38983f94-7b2c-81be-ab9e-ef38f7953b5b",
+      "38983f94-7b2c-816e-8d63-e45fb86936aa",
+      "38983f94-7b2c-8103-a282-d41968259829",
+      "38983f94-7b2c-81e8-912b-ead43dd2767c",
+      "38983f94-7b2c-819e-8e93-d75c28c8d151",
+      "38983f94-7b2c-813a-94ee-d41876551dba",
+      "38983f94-7b2c-810c-a192-d9e845e1015e",
+      "38983f94-7b2c-812d-85a8-e9b1e53d37b4",
+      "38983f94-7b2c-818e-9d77-ecdc359b91e9",
+      "38983f94-7b2c-8185-8810-f11708f330e9",
+      "38983f94-7b2c-81eb-ae86-c74d8940e43f",
+      "38983f94-7b2c-810d-a213-c06fdd6c6386",
+      "38983f94-7b2c-81ff-90da-e1d645a546f4",
+      "38983f94-7b2c-8102-bcc9-c88495ac1acb",
+      "38983f94-7b2c-81c1-9d1f-ed6c1f84c937",
+      "38983f94-7b2c-81a0-81bd-d93f37fc912c",
+      "38983f94-7b2c-81ab-98a7-dbe63ec60f21",
+      "38983f94-7b2c-81cc-9041-d1c40d8f8268",
+      "38983f94-7b2c-81de-b1b4-c8f0e612606a"
+    ],
     "property_descripci_n": "ES211 - Araba/Álava"
   },
   {
@@ -826,7 +976,13 @@
     "property_c_digo": "5",
     "property_slug": "lugo",
     "property_tipo": "provincia",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-813e-b182-f2cc4f2f0198",
+      "38383f94-7b2c-813c-bc9b-f8f8d8256b2a",
+      "38383f94-7b2c-81ad-bab8-d10d1b97a57c",
+      "38383f94-7b2c-81d3-a22a-ebc669d42791",
+      "38383f94-7b2c-815d-898e-c7201d60a784"
+    ],
     "property_descripci_n": "ES112 - Lugo"
   },
   {
@@ -846,7 +1002,16 @@
     "property_c_digo": "3",
     "property_slug": "galicia",
     "property_tipo": "ccaa",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38383f94-7b2c-812d-804b-f8169420dbe8",
+      "38383f94-7b2c-813e-8819-f1b6e361459b",
+      "38383f94-7b2c-81e5-8bd5-ce5a03705fd1",
+      "38383f94-7b2c-81b6-8d5b-f38a98d30f5d",
+      "38383f94-7b2c-8109-88b3-e23a9ffb6144",
+      "38383f94-7b2c-81b9-afcd-f0da8c950570",
+      "38383f94-7b2c-81ac-83d9-f2134c2b93fb",
+      "38383f94-7b2c-8177-9baa-fc2ae4c3bd7e"
+    ],
     "property_descripci_n": "ES11 - GALICIA"
   },
   {
@@ -866,7 +1031,13 @@
     "property_c_digo": "1",
     "property_slug": "espana",
     "property_tipo": "pais",
-    "property_subvenciones_v3": [],
+    "property_subvenciones_v3": [
+      "38883f94-7b2c-815e-a748-e5bf2194906a",
+      "38883f94-7b2c-811f-8386-e8b7aef9f5d5",
+      "38883f94-7b2c-816c-8c51-e4a63e7b7699",
+      "38883f94-7b2c-818a-81ad-e6b5e0164aa6",
+      "38883f94-7b2c-814b-8f17-d3712f7f5361"
+    ],
     "property_descripci_n": "ES - ESPAÑA "
   }
 ]
