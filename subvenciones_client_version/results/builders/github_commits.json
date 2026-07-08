@@ -2,79 +2,86 @@
   "commits": [
     {
       "action": "create",
-      "slug": "subvenciones-castilla-y-leon-particulares-formacion",
-      "path": "content/subvenciones/subvenciones-castilla-y-leon-particulares-formacion.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "slug": "subvenciones-autonomos-valencia-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-valencia-empleo.md",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-alava-asociaciones-deportes",
       "path": "content/subvenciones/subvenciones-alava-asociaciones-deportes.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-alava-asociaciones-formacion",
       "path": "content/subvenciones/subvenciones-alava-asociaciones-formacion.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-alava-asociaciones-nominativas",
       "path": "content/subvenciones/subvenciones-alava-asociaciones-nominativas.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-asociaciones-galicia-empleo",
       "path": "content/subvenciones/subvenciones-asociaciones-galicia-empleo.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-asociaciones-toledo-innovacion",
       "path": "content/subvenciones/subvenciones-asociaciones-toledo-innovacion.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-autonomos-valencia-comercio",
       "path": "content/subvenciones/subvenciones-autonomos-valencia-comercio.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-autonomos-valencia-nominativas",
       "path": "content/subvenciones/subvenciones-autonomos-valencia-nominativas.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-castilla-y-leon-particulares-familia",
       "path": "content/subvenciones/subvenciones-castilla-y-leon-particulares-familia.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castilla-y-leon-particulares-formacion",
+      "path": "content/subvenciones/subvenciones-castilla-y-leon-particulares-formacion.md",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-espana-particulares-artes_plasticas",
       "path": "content/subvenciones/subvenciones-espana-particulares-artes_plasticas.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-espana-particulares-formacion",
       "path": "content/subvenciones/subvenciones-espana-particulares-formacion.md",
-      "committed_at": "2026-07-07T11:34:25.079Z",
+      "committed_at": "2026-07-08T08:16:34.198Z",
       "orphan": false
     }
   ]

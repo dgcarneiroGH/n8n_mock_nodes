@@ -16,12 +16,12 @@ try {
 
   const buildFrontMatter = (slug, group) => {
     if (group) {
-      const [region, beneficiary] = group.tags;
+      const { region, benefactor } = group.grants[0];
       return [
         "---",
-        `title: Subvenciones para ${group.tag_seo} en ${region} para ${beneficiary}`,
+        `title: Subvenciones para ${group.tag_seo} en ${region} para ${benefactor}`,
         `region: ${region}`,
-        `beneficiario: ${beneficiary}`,
+        `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
         `date: ${today}`,
@@ -54,7 +54,7 @@ try {
     const startDate = toDDMMYYYY(grant.startDate);
     const endDate = toDDMMYYYY(grant.endDate);
     const metaFields = [
-      grant.budget != null ? `Budget: ${grant.budget}` : null,
+      grant.budget != null ? `Budget: ${grant.budget}€` : null,
       grant.receptionDate
         ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
         : null,
