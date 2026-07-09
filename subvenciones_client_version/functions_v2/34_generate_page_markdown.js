@@ -20,6 +20,7 @@ try {
       return [
         "---",
         `title: Subvenciones para ${group.tag_seo} en ${region} para ${benefactor}`,
+        `description: "Recopilatorio de las ${group.count_grants} ayudas activas en ${region} para ${benefactor} dentro del sector ${group.tag_seo}, con presupuesto y plazos de solicitud."`,
         `region: ${region}`,
         `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
@@ -32,6 +33,7 @@ try {
     return [
       "---",
       `title: Subvenciones (${slug})`,
+      `description: Listado completo de todas las categorías de subvenciones y ayudas activas, organizado por territorio, tipo de beneficiario y sector.`,
       `slug: ${slug}`,
       `date: ${today}`,
       `count: 0`,
