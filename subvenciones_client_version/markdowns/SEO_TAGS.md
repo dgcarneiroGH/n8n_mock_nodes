@@ -1,0 +1,1 @@
+accesibilidad, agroalimentario, artes_plasticas, cine, comercio, danza, deportes, economia_circular, economia_digital, emergencias, empleo, emprendimiento, transicion_energetica, familia, formacion, gastronomia, innovacion, internacionalizacion, juventud, literatura, movilidad, musica, nominativas, patrimonio, salud, teatro, tercera_edad, turismo, vivienda

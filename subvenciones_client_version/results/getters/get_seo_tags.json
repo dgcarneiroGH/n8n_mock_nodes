@@ -12,12 +12,17 @@
         "agroalimentario": [
             "agro",
             "agricola",
+            "agricolas",
             "agricultura",
             "alimentacion",
             "alimentos",
             "agroalimentarias",
+            "agroalimentario",
             "ganaderia",
-            "ganadero"
+            "ganadero",
+            "ganaderos",
+            "agropecuarias",
+            "agropecuaria"
         ],
         "artes_plasticas": [
             "artes plasticas",
@@ -44,6 +49,7 @@
         "comercio": [
             "comercio",
             "comercial",
+            "comercialmente",
             "comerciante",
             "distribucion",
             "retail",
@@ -85,22 +91,44 @@
             "tic",
             "transformacion digital"
         ],
+        "emergencias": [
+            "dana",
+            "zonas afectadas",
+            "damnificados",
+            "afectados",
+            "victimas",
+            "catastrofe",
+            "desastre natural",
+            "incendios",
+            "inundaciones",
+            "sequias",
+            "tormentas",
+            "terremotos"
+        ],
         "empleo": [
-            "autoempleo",
             "contratacion",
             "empleate",
             "empleo",
             "insercion laboral",
             "itinerarios",
-            "trabajadores",
-            "emprendimiento",
-            "emprendedora"
+            "trabajadores"
         ],
-        "energia": [
+        "emprendimiento": [
+            "autoempleo",
+            "emprendimiento",
+            "emprendedora",
+            "crecimiento de empresas",
+            "expansion de empresas",
+            "consolidacion de empresas"
+        ],
+        "transicion_energetica": [
             "electrico",
+            "electricas",
             "energia",
             "renovable",
-            "sostenible"
+            "sostenible",
+            "bioclimatico",
+            "bioclimaticos"
         ],
         "familia": [
             "acogida",
@@ -142,7 +170,11 @@
             "gastronomia",
             "hosteleria",
             "restauracion",
-            "vinos"
+            "vinos",
+            "gastronomica",
+            "bares",
+            "restaurantes",
+            "lotes de productos"
         ],
         "innovacion": [
             "desarrollo",
@@ -193,6 +225,7 @@
         "nominativas": [
             "nominativa",
             "nominativas",
+            "nominada",
             "convenios",
             "convenio",
             "concesion directa",
@@ -200,7 +233,8 @@
             "subvenciones directas",
             "subvencion nominada",
             "subvenciones nominadas",
-            "de forma directa"
+            "de forma directa",
+            "aportacion dineraria"
         ],
         "patrimonio": [
             "historico",
@@ -209,7 +243,9 @@
             "restauracion",
             "euskera",
             "euskaraldia",
-            "del valenciano"
+            "del valenciano",
+            "falleras",
+            "fallas"
         ],
         "salud": [
             "adicciones",
