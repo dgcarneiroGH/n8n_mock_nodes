@@ -107,13 +107,13 @@ try {
     if (grantCode && !group.grants.has(grantCode)) {
       group.grants.set(grantCode, {
         code: grantCode,
-        agency: sentenceCase(normalizeText(grant.property_rgano)),
+        agency: normalizeText(grant.property_rgano).toUpperCase(),
         url: grant.property_url,
-        title: sentenceCase(normalizeText(grant.property_t_tulo)),
-        description: sentenceCase(normalizeText(grant.property_descripci_n)),
+        title: normalizeText(grant.property_t_tulo).toUpperCase(),
+        description: normalizeText(grant.property_descripci_n),
         requirements: grant.property_requisitos
           .split(";")
-          .map((r) => sentenceCase(normalizeText(r))),
+          .map((r) => normalizeText(r)),
         budget: grant.property_presupuesto,
         receptionDate: grant.property_fecha_de_recepci_n?.start ?? '',
         startDate: grant.property_fecha_de_inicio_de_convocatoria?.start ?? '',

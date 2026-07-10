@@ -19,7 +19,7 @@ try {
       const { region, benefactor } = group.grants[0];
       return [
         "---",
-        `title: Subvenciones para ${group.tag_seo} en ${region} para ${benefactor}`,
+        `title: Subvenciones ${group.tag_seo === "nominativas" ? "" : "para "}${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
         `description: "Recopilatorio de las ${group.count_grants} ayudas activas en ${region} para ${benefactor} dentro del sector ${group.tag_seo}, con presupuesto y plazos de solicitud."`,
         `region: ${region}`,
         `beneficiario: ${benefactor}`,
