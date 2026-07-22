@@ -52,11 +52,18 @@ try {
     return `${d}/${m}/${y}`;
   };
 
+  const eurFormatter = new Intl.NumberFormat("es-ES", {
+    style: "currency",
+    currency: "EUR",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
+  });
+
   const formatGrant = (grant) => {
     const startDate = toDDMMYYYY(grant.startDate);
     const endDate = toDDMMYYYY(grant.endDate);
     const metaFields = [
-      grant.budget != null ? `Budget: ${grant.budget}€` : null,
+      grant.budget != null ? `Budget: ${eurFormatter.format(grant.budget)}` : null,
       grant.receptionDate
         ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
         : null,
