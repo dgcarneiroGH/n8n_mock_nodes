@@ -111,7 +111,8 @@
             "empleo",
             "insercion laboral",
             "itinerarios",
-            "trabajadores"
+            "trabajadores",
+            "empleabilidad"
         ],
         "emprendimiento": [
             "autoempleo",
@@ -149,21 +150,24 @@
         ],
         "formacion": [
             "aprendizaje",
+            "acciones formativas",
             "beca",
             "becas",
             "capacitacion",
-            "cursos",
-            "educacion",
-            "formacion",
-            "tfg",
-            "tfm",
-            "universidad",
+            "centro educativo",
+            "centros educativos",
             "curso escolar",
-            "material escolar",
+            "cursos",
             "doctorando",
             "doctorandos",
-            "centro educativo",
-            "centros educativos"
+            "educacion",
+            "estudiante",
+            "estudiantes",
+            "formacion",
+            "material escolar",
+            "tfg",
+            "tfm",
+            "universidad"
         ],
         "gastronomia": [
             "cocina",
@@ -245,7 +249,9 @@
             "euskaraldia",
             "del valenciano",
             "falleras",
-            "fallas"
+            "fallas",
+            "verbenas populares",
+            "delegación de fiestas y tradiciones"
         ],
         "salud": [
             "adicciones",
@@ -271,17 +277,17 @@
             "teatro"
         ],
         "tercera_edad": [
-            "mayores",
-            "tercera edad",
-            "personas mayores",
+            "centros de dia",
             "envejecimiento",
             "jubilados",
             "juviladas",
+            "juvilaciones",
             "pensionistas",
-            "centros de dia",
+            "personas mayores",
             "residencia",
             "residencias",
-            "teleasistencia"
+            "teleasistencia",
+            "tercera edad"
         ],
         "turismo": [
             "carnaval",
@@ -293,6 +299,8 @@
         ],
         "vivienda": [
             "alquiler",
+            "aljibes",
+            "construccion",
             "habitabilidad",
             "habitacional",
             "inmueble",
