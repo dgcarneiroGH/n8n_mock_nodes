@@ -19,10 +19,10 @@ try {
       const { region, benefactor } = group.grants[0];
       return [
         "---",
-        `title: Subvenciones ${group.tag_seo === "nominativas" ? "" : "para "}${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
+        `title: Ayudas ${group.tag_seo === "nominativas" ? "" : "para "}${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
         `description: "Recopilatorio de las ${group.count_grants} ayudas activas en ${region} para ${benefactor} dentro del sector ${group.tag_seo}, con presupuesto y plazos de solicitud."`,
-        `regiones: ${region}`,
-        `para: ${benefactor}`,
+        `region: ${region}`,
+        `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
         `date: ${today}`,
@@ -32,8 +32,8 @@ try {
     }
     return [
       "---",
-      `title: Subvenciones (${slug})`,
-      `description: Listado completo de todas las categorías de subvenciones y ayudas activas, organizado por territorio, tipo de beneficiario y sector.`,
+      `title: Ayudas (${slug})`,
+      `description: Listado completo de todas las categorías de ayudas y ayudas activas, organizado por territorio, tipo de beneficiario y sector.`,
       `slug: ${slug}`,
       `date: ${today}`,
       `count: 0`,
@@ -90,7 +90,7 @@ try {
     if (!group) {
       return [
         "",
-        `# Subvenciones (${slug})`,
+        `# Ayudas (${slug})`,
         "",
         "_Esta página está pendiente de regenerar. Sin datos activos._",
         "",
@@ -100,9 +100,9 @@ try {
     const grantLines = group.grants.map(formatGrant).join("\n");
     return [
       "",
-      `# Subvenciones para ${group.tag_seo} en ${region} para ${beneficiary}`,
+      `# Ayudas para ${group.tag_seo} en ${region} para ${beneficiary}`,
       "",
-      `Subvenciones activas (${group.count_grants}):`,
+      `Ayudas activas (${group.count_grants}):`,
       "",
       grantLines,
       "",
