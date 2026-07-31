@@ -4,6 +4,7 @@
             "asociacion",
             "asociaciones",
             "asociacionismo",
+            "associacio veinal",
             "entidad sin animo de lucro",
             "entidades sin animo de lucro",
             "ong",
@@ -33,9 +34,13 @@
         ],
         "asuntos_sociales": [
             "accesibilidad",
+            "solidaridad",
+            "interes publico",
+            "interes social",
             "accesible",
             "barreras",
             "discapacidad",
+            "drets socials",
             "ostomia",
             "adaptacion",
             "senalizacion",
@@ -57,8 +62,9 @@
             "centros de dia",
             "envejecimiento",
             "jubilados",
-            "juviladas",
-            "juvilaciones",
+            "jubiladas",
+            "necesidades sociales",
+            "jubilaciones",
             "pensionistas",
             "personas mayores",
             "residencia",
@@ -78,6 +84,8 @@
             "comercial",
             "comercialmente",
             "comerciante",
+            "empresas comerciales",
+            "locals comercials",
             "distribucion",
             "retail",
             "venta"
@@ -87,6 +95,7 @@
             "artistica",
             "cartel",
             "cartells",
+            "cortometraje",
             "diseno grafico",
             "escultura",
             "exposicion",
@@ -146,6 +155,8 @@
             "deportes",
             "deportistas",
             "deportiva",
+            "deportivo",
+            "deportivos",
             "deportivas",
             "deportista",
             "entrenador",
@@ -209,7 +220,8 @@
             "inundaciones",
             "sequias",
             "tormentas",
-            "terremotos"
+            "terremotos",
+            "emergencia"
         ],
         "empleo": [
             "contratacion",
@@ -221,12 +233,19 @@
             "empleabilidad"
         ],
         "emprendimiento": [
+            "apoyar a empresas",
             "autoempleo",
-            "emprendimiento",
-            "emprendedora",
+            "consolidacion de empresas",
             "crecimiento de empresas",
+            "emprendedora",
+            "emprendedores",
+            "emprendimiento",
             "expansion de empresas",
-            "consolidacion de empresas"
+            "projectes empresarials",
+            "noves empreses",
+            "iniciativas empresariales",
+            "incubadora de empresas",
+            "startups"
         ],
         "igualdad": [
             "igualdad",
@@ -251,6 +270,8 @@
         ],
         "formacion": [
             "aprendizaje",
+            "aula",
+            "aulas",
             "acciones formativas",
             "aulas de referencia",
             "beca",
@@ -313,11 +334,13 @@
         "internacionalizacion": [
             "comercio exterior",
             "exportacion",
-            "internacionalizacion"
+            "internacionalizacion",
+            "mercado sudeste asiatico"
         ],
         "juventud": [
             "jovenes",
-            "juventud"
+            "juventud",
+            "joven"
         ],
         "movilidad": [
             "logistica",
@@ -343,6 +366,7 @@
             "historico",
             "museo",
             "patrimonio",
+            "pessebre institucional",
             "restauracion",
             "euskera",
             "euskaraldia",
@@ -445,7 +469,8 @@
             "inmueble",
             "inmuebles",
             "vivienda",
-            "viviendas"
+            "viviendas",
+            "lloguer social"
         ]
     }
 }
