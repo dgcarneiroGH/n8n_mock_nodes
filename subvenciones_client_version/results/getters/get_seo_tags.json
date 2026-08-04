@@ -241,12 +241,13 @@
         ],
         "empleo": [
             "contratacion",
+            "empleabilidad",
             "empleate",
             "empleo",
             "insercion laboral",
             "itinerarios",
-            "trabajadores",
-            "empleabilidad"
+            "procedimientos arbitrales laborales",
+            "trabajadores"
         ],
         "emprendimiento": [
             "apoyar a empresas",
