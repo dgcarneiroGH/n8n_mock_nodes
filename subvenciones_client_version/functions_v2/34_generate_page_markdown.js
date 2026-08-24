@@ -25,7 +25,7 @@ try {
         `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
-        `creation_date: ${today}`,
+        `creation_date: ${group.creation_date || today}`,
         `last_update_date: ${today}`,
         `slug: ${slug}`,
         "---",

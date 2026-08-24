@@ -115,6 +115,7 @@ try {
           .split(";")
           .map((r) => normalizeText(r)),
         budget: grant.property_presupuesto,
+        creationDate: grant.property_fecha_de_creaci_n_en_notion ?? '',
         receptionDate: grant.property_fecha_de_recepci_n?.start ?? '',
         startDate: grant.property_fecha_de_inicio_de_convocatoria?.start ?? '',
         endDate: grant.property_fecha_de_fin_de_convocatoria?.start ?? '',
