@@ -1,1 +1,25 @@
-asociacionismo, asuntos_sociales, comercio, cultura, defensa, deportes, desarrollo_rural, digitalizacion, emergencias, empleo, emprendimiento, igualdad, formacion, gastronomia, investigacion_y_ciencia, internacionalizacion, juventud, movilidad, nominativas, patrimonio, salud, sector_primario, sostenibilidad, turismo, vivienda
+- asociacionismo
+- asuntos_sociales
+- comercio
+- cultura
+- defensa
+- deportes
+- desarrollo_rural
+- digitalizacion
+- emergencias
+- empleo
+- emprendimiento
+- igualdad
+- formacion
+- gastronomia
+- investigacion_y_ciencia
+- internacionalizacion
+- juventud
+- movilidad
+- nominativas
+- patrimonio
+- salud
+- sector_primario
+- sostenibilidad
+- turismo
+- vivienda

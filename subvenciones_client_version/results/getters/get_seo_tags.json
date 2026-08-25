@@ -9,6 +9,7 @@
             "associacio veinal",
             "ayudas locales",
             "ayudas municipales",
+            "ampas",
             "colectivo",
             "colectivos",
             "confederacion",
@@ -62,6 +63,7 @@
             "natalidad",
             "necesidades sociales",
             "ostomia",
+            "pef general",
             "pensionistas",
             "personas mayores",
             "progenitor",
@@ -113,6 +115,7 @@
             "cortometrajes",
             "cuento",
             "cuentos",
+            "kultur elkartea",
             "cultura",
             "cultural",
             "culturales",
@@ -294,6 +297,7 @@
             "aulas",
             "beca",
             "becas",
+            "bonos comedor",
             "capacitacion",
             "centro educativo",
             "centros educativos",
@@ -306,6 +310,7 @@
             "estudiante",
             "estudiantes",
             "formacion",
+            "ikastola",
             "material escolar",
             "tfg",
             "tfm",
@@ -366,21 +371,6 @@
             "logistica",
             "movilidad",
             "transporte"
-        ],
-        "nominativas": [
-            "nominativa",
-            "nominativas",
-            "nominada",
-            "convenios",
-            "convenio",
-            "concesion directa",
-            "subvencion directa",
-            "subvencio directa",
-            "subvenciones directas",
-            "subvencion nominada",
-            "subvenciones nominadas",
-            "de forma directa",
-            "aportacion dineraria"
         ],
         "patrimonio": [
             "historico",
@@ -471,6 +461,7 @@
             "reciclaje",
             "renovable",
             "residuos",
+            "colonias de gatos",
             "sostenibilidad",
             "sostenible",
             "sustentabilidad"
@@ -496,5 +487,20 @@
             "viviendas",
             "lloguer social"
         ]
-    }
+    },
+    "nominativas": [
+        "nominativa",
+        "nominativas",
+        "nominada",
+        "convenios",
+        "convenio",
+        "concesion directa",
+        "subvencion directa",
+        "subvencio directa",
+        "subvenciones directas",
+        "subvencion nominada",
+        "subvenciones nominadas",
+        "de forma directa",
+        "aportacion dineraria"
+    ]
 }

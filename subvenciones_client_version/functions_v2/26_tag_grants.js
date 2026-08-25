@@ -20,6 +20,7 @@ try {
   //#region Node Logic
   const grants = filterFormatGrants;
   const seoTags = seoTagsRaw.seo_tags;
+  const getNominativas = seoTagsRaw.nominativas;
 
   function normalizeText(text) {
     return text
@@ -31,6 +32,16 @@ try {
   function matchesKeyword(text, keyword) {
     const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     return new RegExp(`\\b${escaped}\\b`).test(text);
+  }
+
+  function isNominative(title, description) {
+    const normalizedTitle = normalizeText(title);
+    const normalizedDesc = normalizeText(description);
+    return getNominativas.some(
+      (kw) =>
+        matchesKeyword(normalizedTitle, kw) ||
+        matchesKeyword(normalizedDesc, kw),
+    );
   }
 
   function findSeoTag(title, description) {
@@ -63,7 +74,9 @@ try {
   );
 
   const result = grants.map((grant) => {
-    const seoTag = findSeoTag(grant.title, grant.description);
+    const title = grant.title || "";
+    const description = grant.description || "";
+    const seoTag = findSeoTag(title, description);
     const tags = [
       ...new Set(
         [
@@ -78,6 +91,7 @@ try {
       tags,
       tag_seo: seoTag,
       manual_check: seoTag === null,
+      is_nominative: isNominative(title, description),
     };
   });
   //#endregion
