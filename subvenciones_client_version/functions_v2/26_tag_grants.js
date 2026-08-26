@@ -31,7 +31,7 @@ try {
 
   function matchesKeyword(text, keyword) {
     const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    return new RegExp(`\\b${escaped}\\b`).test(text);
+    return new RegExp(`(^|\\W)${escaped}($|\\W)`).test(text);
   }
 
   function isNominative(title, description) {
