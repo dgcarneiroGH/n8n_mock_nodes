@@ -1,0 +1,99 @@
+[
+    {
+        "coins_data": [
+            {
+                "coin_name": "Libra",
+                "rate_eur": 1.168,
+                "coin_news": [
+                    {
+                        "titular": "El Euro sube ligeramente frente a la Libra Esterlina tras un sentimiento económico alemán optimista - FXStreet",
+                        "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUzhwbzlnNVh1eC1lNFJCb1lrZDUxTEViVFdBUDBpSTdVSzUzSVlfMzZmdGpDOGVob3MzRGRwZ0JzYzRlN1Q1TzJ2eHpiZEV1Y3V6YTJjSDgzU3prLVlobGxYRTB1a3loa3p2SUc2WkNpSWVDQ25QMjBKOFhkN0ZGdlNvd09sOXJOdGpramNVbkNOajhQYXRSQXozcGFCQ3A4em9XZ2xMZ0JWSnViRlY0SGtiNEwyaXhVel9XVFFtTHJwYW54WG14ZGhUbk1OMl81MWw3TEl2YTPSAd4BQVVfeXFMTk5CNEdYTU80SjVoVzhsQTNHVUZjaEVadFBXS2ctNFh5Y29FQUcwb3FLMXNBd3lLb1B3eTZPVU9FbDRUMWFfSkxVSVIzSHZ6XzdPUmZ5N2ZXdGdoMHlMa0tndWVxMm1KWEotZFRTR3NGY3RZdUJUd202enhfMDBrOFdKZE9yZ0ZCeTZjbWJJVU1jZnFFak40VUtZUVdPU1RmeXNoelQ0NzNkUVFPdUgzRmRXeWJsWm1LVmlsX0F0VEoyVE1Zb2F2bFBlR0ttR01TRG9IaU5qVGtCbk1QTXRB?oc=5",
+                        "fecha": "Tue, 18 Aug 2026 09:52:31 GMT"
+                    },
+                    {
+                        "titular": "Así abre la cotización de la Libra esterlina este lunes, 24 de agosto de 2026 - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEZCMjJkX0FzSnRiMnphUnVCVUVpRFBxbUhnbGZBUUp0Yl9MalMtejQycmV0eU1nOGRUN19nRFFWZ1dSVnc4R1RNdXpfZ2djM2p4bjVKTUVpeUZKMWpHUF9TbDJvODdTalE2bzBjUmhyVldRcFh5T2J5RTR4ZVhJRzg5UHRzWl96RzBDOWI4QWllSWxDbno0THIxX1lTWUhwNWpXY3lISkxuQUtUdFBjVFNyZTU4ZFZUdE5N0gHWAUFVX3lxTE5uMXdsRlVObndobzRWZlBKc2dtOHlsLWpLaXZnNXNGNV9rRS13T2I5bHNmU0J6RVprTjdXdjZEaTYwNXpScEc5dVF4MDNEMl9idWJvZnBJNWp3aE1FT2l0bWlzb0Rael90d1ZKNDdUbFJWclZoZzhaZVNmZkdhT0JIc183LTNGYXBCYTRrSmJlVllvMWsycnJyQndiUVZkNDhUU3k2eFBMU3BVQWNQc1VwYWEtdjdTLWNvdGhFR1pYR0pRcXRRU3hKMElfRC1IMHh0d1laSEE?oc=5",
+                        "fecha": "Mon, 24 Aug 2026 08:00:31 GMT"
+                    },
+                    {
+                        "titular": "Así abre la cotización de la Libra esterlina este miércoles, 26 de agosto de 2026 - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2QteUgwLUpmSnRUWmQ5YVNRNmszZDU3bUtXSjE4Z1owZ0dydG1PaWk3OElYZndZcWsybGhIZ1BhSVJiWmhreGNXalpZQkVWeDA4VTlQcW1odWl0MElVUjBUMGhTc1JCVTB6UVVMM3pKN3lYS01ncXZKUElJeHUzMVdVNl9xbTNFVUI3TVdKb3owTU5MYVZSUmltN01QTVZlaFZsVGdRaG5nbURXekZnNzRpcXJqUWpmaGFDZlJ1SjHSAdsBQVVfeXFMTkRwOFllT0dleTBmcWM5RF9yN2lpM3RuQXE1dXZrdXlmUDJDRkMxMFJmSUlNdDkzTnF1UExTSzN2bzUwdmZ6MWVtOWpqMFU2UVNENllsd1hnNV92UDJzMnlsQm50RWwxUHFHODI3SzdqdWN6Vm82QXFXOU1XdE9pa1FyNVpmYzkzdk9wYllEeW9KLWFxdWI4M0hVaXU4MmF5M1k4bEc1c3hRM0ZJRFFwVzk0R1R4YnlFZTI1YVFGemdWV0lhVTZNRHhSUlhydEM1dzEwYWo4cXNNMGJF?oc=5",
+                        "fecha": "Wed, 26 Aug 2026 08:00:32 GMT"
+                    },
+                    {
+                        "titular": "Ni el franco suizo ni la libra esterlina: la moneda consolidada como la más fuerte del mundo - Diario AS",
+                        "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQnQwTURsaEwtNkwxdjFZRkdSZGhFd2YzbGwtOWpSSVdfc0h4R25OVmpzZmVmWDNpaU1aeFdxRFRWaUhicFlCdVZtbHZHRlBsUTM2cXkzZUhiQjRmSUFVY1RLNUl1NnR3SjRNbkwzcURfWDZDX0twUFU1T2pISXdTWjVmMFNhOUFsTlM5R0dQdDdUb19KSF9FTmVjMW5nMjBmNFZfWERocHVZclR3M1VRS1d0WXRpTTBnNVZsOTctNi1jeDZtTVVFME93LThwNjFMU3NN0gHnAUFVX3lxTFB3Q1VmZ3VHSjdaRXdyUVN4NjdVRy1vSTFkb3RkMXRUR25vSzFEdkRrcG5kU3VDRVp4Zy1iclRhMmRzT2tFWXpxUGxSeVNwYzRRZHNNZWVqeUk1V01IbHJMRWhkU25NYnpoME5Uc09MNWllVWxjY2tjdWNXR2RMemtNT3RrdlFzWk8ybERTb2FxaldrM3ZuRkVjVnd3bTNSMnQyNFhEU3hMQkVPOE40SHhKeGNRVlI1a2c4aEtRYUVueGZWeVlwWU1TT3h6ZE5pUE5IdGdxdFQxXzRHNU9FczVKOGRUMHdQNA?oc=5",
+                        "fecha": "Sat, 03 Jan 2026 08:00:00 GMT"
+                    },
+                    {
+                        "titular": "Libra esterlina: así abre la cotización de este martes, 25 de agosto de 2026 - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMTJndXV6alM4OWV1TEN2Q0kxajhGTzRNMXlDeHlhZHFXdGRwRi1kc3o4OGd1VkFCUTVDLVg1X2JLWFZyd0E0Nlp3dmlweDhncmdPdWdldUNqRVpEQTdNT081dGwwbmh4Ui14WG1CZHptSnBsY1RrN2pTMFZ4d0JZU09BWERyY0VnWWNIOXZiblNnWHgzNGdhZlM4OUk3LVVEc2JwQjRRQk51N2ZKMEFPNl84dmpMM0tX0gHTAUFVX3lxTFBvRTRFS0VYMERpc2xxOFE3aUdWUkRKdkhzOXd3VEZhbkJqVmtYMmVWVmU2VU5vWklRTThPOFViTEowa2Z6d3k3YXFXcDc4ZFRSekFvYU40YVFVa0szTUdWTlBwWURRMXRLTmNrd1g1bTk1MnNLbzN3N0xqQU1jQkV5OXg0N1BEVjZIemh3NG9tN01Hcm9zanBoai1GdDJrNkpoQ3pwMTU3Zzg0dXVLSnFZc093T09RQkZFNHJlMmdFdFAxUExCTFlMQVVfV2c2b1NUMWM?oc=5",
+                        "fecha": "Tue, 25 Aug 2026 08:00:31 GMT"
+                    }
+                ]
+            },
+            {
+                "coin_name": "Dólar",
+                "rate_eur": 0.85697,
+                "coin_news": [
+                    {
+                        "titular": "¿Continuará la subida del dólar estadounidense? - Morningstar",
+                        "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQVUtNTlnM3ZzWDRyLTR3ZmlfYzFJVk1BSEU0ZXY3eWVHMmhTVlJFUE4xcVZGYVFyMThIMGJfTHNTNGpNdnlScDh5eWV4VDlZWTZ4M3JyT1o1TlhUMkpONUVwd25ocy1Ka3RZTkxGS1Vlamh2UG9MSG05WTJ4cGliMktfZUZhaEZseHBFdGVsOA?oc=5",
+                        "fecha": "Fri, 03 Jul 2026 07:00:00 GMT"
+                    },
+                    {
+                        "titular": "El Dólar australiano tiene el peor desempeño tras los comentarios de Michelle Bullock sobre la economía - FXStreet",
+                        "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT0w1UWM4UjBkQk5iTDRjYTlxcWtYTjRpc09HdXFVTEVGRzhndE1wTkd6dGVGNnBKQnI3NkpkaUx2UURack9tSGw4dUVTaThyMWRqWDN1QmRTQ1dxY1Z2WmpmRVJBd0JLNlV3dDZjN1lCMUtXWGZibHJWcXdiQjFra1JiamdsQXRQS1NVOW1pcGd5aWV1NDBvVzhmRE4xbURUZ3dLM0ktT3FzSW9RT3ZmMUszeFJEZUVfUV90R0dhRUh2U2lCOUdraGF3YXhLYnhja2FIUzhQWkZOTEJ00gHiAUFVX3lxTE1zNDR1WDRYcXZfcldvLW1PdjZXNjBTVGpqM3RrWkI5MWFqZUJ0WDIyMC1pb0hxSlIwNmdaRE1pbHZYaFhFMThwcUI5T2JPVm1uQjdmZ0h5cFMwUXpfM09LUEhidy1zNVRmMUpzUnhtR1V0Mlh4aFppRXVzZDhacFRrRzVHcEthYjQ5V0VPYnMtRnJGZ0tyZ2x1eEgxd2ZGQ3NiTnN6VWdTbk1iM2xDaFdvbTVWbk95dElNSXNLbHkwUEZHajVSek5RUVdwakFZdWVPUGxzUWFNeWpsWWg2anMxRkE?oc=5",
+                        "fecha": "Tue, 28 Jul 2026 07:00:00 GMT"
+                    },
+                    {
+                        "titular": "El dólar gana atractivo mientras los bonos de EE.UU. enfrentan la presión de los altos rendimientos - Bloomberg Línea",
+                        "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOUFqX09wQTJpdzJVbW5OZGJSVWJSbUFMUVNoeWszcDNGcjkxTGhLUFBCTWc0WUx4UTJoZExRbHJFZmpWOUVFeFM1NlZtTW5YZlc2ZEV5QUNyVFBldTlrVkpNeFBUNklaTlFzWGpYYzdiLThuMXAwWlNTLVpPXy16LUdYc0FrOVREVXRObHdaZmNWN054eG83VHpxa0k3NFNtLTY3RUlmbnhIY09SdEtfVVYxMDR0bkgteC1tQ0pEMFFXNjBhUTB6RVZzOFQ3SGpmOFEwb01n0gHqAUFVX3lxTFBLYkxSeWRTNV9TLW5YZjhoYUhZMF8ydl9jSkt4YUpnQ3o1cDhSUDJGWWE1ZjJYOVFseXhWTXlMMV8tdFJLbE9uMDhTY2tvZEw3RkhCM1lOUGotcm10QVhhY3lRbzdZR0ZPOEVWd3pTM05YcFU4NkNraENWVnVfNUlSRDR4MHVGbHVUVHdBbzNJajR6VGJtUjQ0bXJlYm55MGdCVnRCa0hkWnhsYkRJVWhJTmRZZjRMQ05NeW52NlR1TkdIZEEzaENacW5ubl9qZng0VTc5ZGNQZTNPTE5oMExYQ1NQRy1rNEFwZw?oc=5",
+                        "fecha": "Sun, 12 Jul 2026 07:00:00 GMT"
+                    },
+                    {
+                        "titular": "El mercado acelera la cobertura contra una devaluación, que ya alcanza USD 12 mil millones - La Política Online",
+                        "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNblFDVXlBSFljWXpYN2xUR0d3SllCV3ZtM1BQaXREa3ZEUFVYeXBWLTNWTFFYNmVNaVJfYlVhYldURW9HSFRaU0dfYVo2aDJjMWo4QnZ1YmhLX01PdFFqeEpYWmdIaHlGQldqQ1BvZno5UEk4emg1NzlGeURBTXVNRi1vSWN6UEJITEpCdGJmTjZHQnNEUXpzLXd2VWt4dC15VzZoZFFhQmRfVl9naHlqejAwbkhrMVBjM3h1RENSTVNwcjIwMmQtWGdUT1jSAc8BQVVfeXFMTVBXQy1QWHRRYmR4ajZkRDE3Z2xoOENCdUFTakptNmRqaklvQUNZRWZUdFlGcXBBTDNpWmlZa29sZnN6Wi1TOTV4TFdaNllmUVVUMm5xenh4b3ZvQi1Hak1pS2M5Z2dtaF9nV0tpbDFESVNYcm1lWFJqXzhBRV80SG8xUUE4OEZOaG5uTzFIQmstSi1TM2FIUWRtN3NoWldlN1JNTTAtQTJjWHJRVjZncG9iaVRiRDdyMDFfbE1aNnpXbDJtMjZRRm1hRGhPQTln?oc=5",
+                        "fecha": "Fri, 21 Aug 2026 15:29:50 GMT"
+                    },
+                    {
+                        "titular": "El precio de bitcoin frente al dólar, termómetro de la economía global - CriptoNoticias",
+                        "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUUJIZ2d4bDZQUkpKOTQzRUU3RDNNdlV1Y1FUYjB3LTN4bUhGWVc5MFR5Ulg0TUxNYjd6d3RCWmdFNVZuYkU2MkFUYy1NTmxXaHA3WGZXZUgtenNlYWxVRUxUUHdfRE1LY2l4aHFzbTdhZlEyZGJFbTNwV1hsbkNrN1dER3VjTTdpQU0zZVdEWkJadw?oc=5",
+                        "fecha": "Wed, 01 Jul 2026 07:00:00 GMT"
+                    }
+                ]
+            },
+            {
+                "coin_name": "Yuan",
+                "rate_eur": 0.12752,
+                "coin_news": [
+                    {
+                        "titular": "Precio del Yuan: a así abre la cotización HOY martes 25 de agosto - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazZjRDdBWE5QZW8yZWM1dW10VTgxMFFGZHJrLXh3UXFIY3FUWmtjbDhCbkd5SXQtSDVvOG5QVGlCRVJ6SWlrV2FuQ3dCSXFpbTRDNEFoVWpOZFVjcjZvbkhJRkVyeGY5ckk5dEZESG1WUzI4WUtsbzBEcEJqeXZmdGZfQmtEUWh3cmQtbUZydHFsejhpU216THRKTlpSd2Q2RVA1a3hNS3kydVnSAcYBQVVfeXFMUGRjUVNDUzhNRDFsTEJnZm5EVW1JUXp0cTF6NVNYT0FsQ1RCdW1yRG12ZlJnV2tKODZtRGE4QldJQm9UZ29WUWNjUGJwZXlWZVZiWmMwaF9VNnVXcmFUb2NELU1fd3p6RmNqLXBBY1NBZHBMcnB6UGdMRm13OFRnNUxBX1JJQVVYcjdfeVNoOWZ1QWZVZW45UGZGZGhNVlA0RGl0c1hGcXpYZDlLRlpSS0dLenY2b2tjSGJySHpvc0FwMW1EZnhn?oc=5",
+                        "fecha": "Tue, 25 Aug 2026 08:00:28 GMT"
+                    },
+                    {
+                        "titular": "Precio del Yuan: a así abre la cotización HOY martes 18 de agosto - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSS1rZTJTMm5jYV82aFI3cWcxTTQzdGExc2s4VnZfZXdTUUpEMThEQ2pjZWZ0cVdNZkEwblB2dkJTVGFJWFdjNlVZRjFzdm1HZUM2X21LVzRMNnhNLXZvTVcxbjFqNnVSemlnZXFCNDVHSDR5Uk5XelVkY0lfOGpBRS1BcWNSNFgyM01lWWstQXpWZnJoOHlHYzlfVlF4blkwblZvSTBZWDJpMFnSAcYBQVVfeXFMUDRTRU9CNkh5SHhSSHNkcHFuU3k4TDJfdWk5a0tGNmVER0NDYTJOVjRrYmttOWR3QlhsSm5DeHRVcENnc3NueE5SWFZRa1BEUHhwNTViUWlKZHZtVnR5R3lsZnhBT21xQlZEOV9SRWVyYVViUWpOUWNFekJ0SndvX1poOHNkYUFWQnZRaV9LRmJ5MEtXVjBPa0V6ZjdEVUduSzlrbnRyYk85LXo1ZTU3akFtNXoyLWlMRG1SNkxONk9jczZacTNB?oc=5",
+                        "fecha": "Tue, 18 Aug 2026 08:00:31 GMT"
+                    },
+                    {
+                        "titular": "Chau dólar: China promueve el yuan digital y desafía la hegemonía de EEUU - Ambito",
+                        "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVNrNzRMRFFoYTlaS3BqT3ZZeWwwMmNjZlRpV1puQzNKNjQ5bHgtUHpFbU1MV1Z5dkVLbjVHTFZVWk1ob0h1NWNqaDQwQWIzbExSci01NGF5QjN0cXUtbjl0cnpSSE1ndFR4ZU5ONkRja0hsY195Y25FWXdPU2xfdVhHc2xPaVdfeXVfTGQ0cnhRY0V4aGpBNnhTMmhueWhZX3JlajJteTdMLUx2QVM40gG0AUFVX3lxTE9MR21tS3gyYkVhS2gwWG9oRkFKNUp2eThwSXJjaVNKdlZRLXdybDJCMXF1bE0yY1owS2dlZGh5T0tpTVpjQ3hSLVg4VzVCb1hXRmFKQlFWbGRIeFhfSS1nQU9CN2V6QjVkdUEtMHp3alBGVkc1cTZfV2p6c1o5Wk0wSTVDRmtVQVBILVJHaW9GazlvWVJNV2Y0ZHFET0hYVnlQSmJUa2hOeHJBWThzZi1oMEc4SA?oc=5",
+                        "fecha": "Thu, 18 Jun 2026 07:00:00 GMT"
+                    },
+                    {
+                        "titular": "Precio del Yuan: a así abre la cotización HOY jueves 20 de agosto - El Cronista",
+                        "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeFBqSThwSWh4c2s0eW50QTZVM3hYNlRZMHV2YXNKQy1wdVBJYXJfLWhpeXl5dEVuM25wMnZZT0c1dUd0M2hJSXF0RVJ3ZjJwSFhlVTZSMTFOMlIxZVBBQlhIN2llZU8tNmRudkltOGtuMVk3OFZDRGIwbDdUdTJ6bnVsWktfVEFmWjdQTlhOZXRTY0VqNEN0WkxmMUlzVzJHZFN0RWJpTU90UmvSAcYBQVVfeXFMT0x2ZkxsRS1OZnNQeDRRSWlMSWJ4ajFyTjJfbS1aT0xTS1JiZWZvOC1rTlYtVms1ZmMxWDRNNXJCTmE0VG5DN2Y4WTBoQzRHaGNoR1VEY0FzaDRCamNtWEpaNzhLbGRUMzdIOGJvVEthd2tBUzRkaFRXOHdGX2gyMnREaHVmSmtsTDZKbk1aNTNvTU9udC1FbFo1OU1BTlpkTVRKQ3NJLS10ZlQybWR5bzdMeEFYRW9ldS0tclo5LUxIRDRQZjJB?oc=5",
+                        "fecha": "Thu, 20 Aug 2026 08:00:36 GMT"
+                    },
+                    {
+                        "titular": "China trata de internacionalizar el yuan digital para competir con el dólar y las criptomonedas - OkDiario",
+                        "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPenVjbGdSdGFoX0pBSTdSb01MdWgyV3NoZTVrdElaTTNtc2lmOExaRGxBMU5YSGVZUmthd28xaXAzWlVINktFWjQ4WEN6YkNzb0RoVWNWdEVzRTZ4T05SSU54MEt6WUh0MnppSk0zSVFibDA1bkFOX3kzVU1xUVhBdUxvRzBBRHF3XzRWYXFvT3E3dTYyMkNScTVMdEtuMWdOU1B6OWtjM1cyWDBCTkgw0gG0AUFVX3lxTE5wUnJJOEozTF9yRTdSVHRfaHhKbTVsZ1NzTEZsWThoeF9kSFdoYkJnY1Q4TFpmR290NDhTcnF6QThRQk1kdTR3Nlg2RXRWc0tXTVUyMUthc3lrMGZDTGhvYndvd012a2lLYncxbmxtOXRja0twYnZEQUJWakNRQnY0OW9yZDFRdmlaRTJqU1Q2UXFaaE5aZ082cy1iNnVaQ0JmTkdaYWlFcmFaeHotZnY4Qk9DeA?oc=5",
+                        "fecha": "Fri, 18 Apr 2025 07:00:00 GMT"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "id": "39183f94-7b2c-8045-a902-ed4f8d4f4736",
+        "name": "Venice Token",
+        "url": "https://app.notion.com/p/Venice-Token-39183f947b2c8045a902ed4f8d4f4736",
+        "property_saldo_total": 1,
+        "property_ticker": "VVV",
+        "property_historico": [
+            "39183f94-7b2c-8013-a14c-ed445f2c45a3"
+        ],
+        "property_nombre": "Venice Token"
+    },
+    {
+        "id": "2f583f94-7b2c-805a-9007-fb76de4f4ca0",
+        "name": "Ripple",
+        "url": "https://app.notion.com/p/Ripple-2f583f947b2c805a9007fb76de4f4ca0",
+        "property_saldo_total": 41.93,
+        "property_ticker": "XRP",
+        "property_historico": [
+            "2f683f94-7b2c-80f4-ac53-c44885f516b5"
+        ],
+        "property_nombre": "Ripple"
+    },
+    {
+        "id": "2f583f94-7b2c-8066-bf15-f9e5654d1961",
+        "name": "Ethereum",
+        "url": "https://app.notion.com/p/Ethereum-2f583f947b2c8066bf15f9e5654d1961",
+        "property_saldo_total": 0.035,
+        "property_ticker": "ETH",
+        "property_historico": [
+            "2f683f94-7b2c-8008-8f3b-dcccdb3a7480"
+        ],
+        "property_nombre": "Ethereum"
+    },
+    {
+        "id": "2f583f94-7b2c-8011-85cc-d2e18803892e",
+        "name": "Bitcoin",
+        "url": "https://app.notion.com/p/Bitcoin-2f583f947b2c801185ccd2e18803892e",
+        "property_saldo_total": 0.01292,
+        "property_ticker": "BTC",
+        "property_historico": [
+            "2f683f94-7b2c-802f-a3f2-fd118e0dcb45",
+            "2f683f94-7b2c-8074-ac66-f7735bd8aabd",
+            "2f683f94-7b2c-8092-af71-d89677ab0c6e",
+            "2f683f94-7b2c-8093-837a-e899c5a16548",
+            "2f683f94-7b2c-80ec-a871-f595dff9b135",
+            "2fa83f94-7b2c-80d5-be30-ee30b759fa91"
+        ],
+        "property_nombre": "Bitcoin"
+    }
+]

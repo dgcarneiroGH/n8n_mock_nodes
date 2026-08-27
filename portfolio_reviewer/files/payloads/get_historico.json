@@ -1,0 +1,155 @@
+[
+    {
+        "id": "39183f94-7b2c-8013-a14c-ed445f2c45a3",
+        "name": "2602",
+        "url": "https://app.notion.com/p/2602-39183f947b2c8013a14ced445f2c45a3",
+        "property_es_venta": false,
+        "property_activo": [
+            "39183f94-7b2c-8045-a902-ed4f8d4f4736"
+        ],
+        "property_precio_eur": 11.42,
+        "property_cantidad": 1,
+        "property_fecha": {
+            "start": "2026-07-02",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2602"
+    },
+    {
+        "id": "2fa83f94-7b2c-80d5-be30-ee30b759fa91",
+        "name": "2601",
+        "url": "https://app.notion.com/p/2601-2fa83f947b2c80d5be30ee30b759fa91",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 67034.35,
+        "property_cantidad": 0.0073,
+        "property_fecha": {
+            "start": "2026-02-01",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2601"
+    },
+    {
+        "id": "2f683f94-7b2c-80ec-a871-f595dff9b135",
+        "name": "2507",
+        "url": "https://app.notion.com/p/2507-2f683f947b2c80eca871f595dff9b135",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 88050.06,
+        "property_cantidad": 0.00055,
+        "property_fecha": {
+            "start": "2025-11-20",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2507"
+    },
+    {
+        "id": "2f683f94-7b2c-8092-af71-d89677ab0c6e",
+        "name": "2506",
+        "url": "https://app.notion.com/p/2506-2f683f947b2c8092af71d89677ab0c6e",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 98825.8,
+        "property_cantidad": 0.00049,
+        "property_fecha": {
+            "start": "2025-11-14",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2506"
+    },
+    {
+        "id": "2f683f94-7b2c-8093-837a-e899c5a16548",
+        "name": "2505",
+        "url": "https://app.notion.com/p/2505-2f683f947b2c8093837ae899c5a16548",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 101205.63,
+        "property_cantidad": 0.00048,
+        "property_fecha": {
+            "start": "2025-11-07",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2505"
+    },
+    {
+        "id": "2f683f94-7b2c-8008-8f3b-dcccdb3a7480",
+        "name": "2504",
+        "url": "https://app.notion.com/p/2504-2f683f947b2c80088f3bdcccdb3a7480",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8066-bf15-f9e5654d1961"
+        ],
+        "property_precio_eur": 2742.41,
+        "property_cantidad": 0.035,
+        "property_fecha": {
+            "start": "2025-02-21",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2504"
+    },
+    {
+        "id": "2f683f94-7b2c-8074-ac66-f7735bd8aabd",
+        "name": "2503",
+        "url": "https://app.notion.com/p/2503-2f683f947b2c8074ac66f7735bd8aabd",
+        "property_es_venta": true,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 93746.48,
+        "property_cantidad": 0.001,
+        "property_fecha": {
+            "start": "2025-02-21",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2503"
+    },
+    {
+        "id": "2f683f94-7b2c-80f4-ac53-c44885f516b5",
+        "name": "2502",
+        "url": "https://app.notion.com/p/2502-2f683f947b2c80f4ac53c44885f516b5",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-805a-9007-fb76de4f4ca0"
+        ],
+        "property_precio_eur": 2.35,
+        "property_cantidad": 41.93,
+        "property_fecha": {
+            "start": "2025-02-06",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2502"
+    },
+    {
+        "id": "2f683f94-7b2c-802f-a3f2-fd118e0dcb45",
+        "name": "2501",
+        "url": "https://app.notion.com/p/2501-2f683f947b2c802fa3f2fd118e0dcb45",
+        "property_es_venta": false,
+        "property_activo": [
+            "2f583f94-7b2c-8011-85cc-d2e18803892e"
+        ],
+        "property_precio_eur": 95338.97,
+        "property_cantidad": 0.0051,
+        "property_fecha": {
+            "start": "2025-02-02",
+            "end": null,
+            "time_zone": null
+        },
+        "property_nombre": "2501"
+    }
+]
