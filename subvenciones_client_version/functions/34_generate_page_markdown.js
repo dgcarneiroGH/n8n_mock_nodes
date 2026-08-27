@@ -19,7 +19,7 @@ try {
       const { region, benefactor } = group.grants[0];
       return [
         "---",
-        `title: Ayudas ${group.tag_seo === "nominativas" ? "" : "para "}${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
+        `title: Ayudas para ${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
         `description: "Recopilatorio de las ${group.count_grants} ayudas activas en ${region} para ${benefactor} dentro del sector ${group.tag_seo}, con presupuesto y plazos de solicitud."`,
         `region: ${region}`,
         `beneficiario: ${benefactor}`,
@@ -81,6 +81,7 @@ try {
       requirements.length > 0
         ? `Requirements: ${requirements.join("; ")}`
         : null,
+      grant.isNominative ? `Nominative Grant` : null,
       metaFields.length > 0 ? metaFields.join(" | ") : null,
     ].filter(Boolean);
     const details =

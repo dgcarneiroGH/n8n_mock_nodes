@@ -121,6 +121,7 @@ try {
         endDate: grant.property_fecha_de_fin_de_convocatoria?.start ?? '',
         benefactor: getBenefactorName(grant),
         region: getRegionName(grant),
+        isNominative: grant.property_nominativa
       });
     }
 
