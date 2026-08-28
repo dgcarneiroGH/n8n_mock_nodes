@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const RESULT_FILE_PATH = "../files/responses";
-const RESULT_FILE_NAME = "format_info.json";
+const RESULT_FILE_NAME = "financial_engine.json";
 
 // Lectura de payloads locales
 const payloads = [
@@ -22,24 +22,24 @@ const payloads = [
     return acc;
 }, {});
 
-const activos = payloads.get_carteras;
-const limites = payloads.get_limites_de_venta;
-const movimientos = payloads.get_historico;
+const assets = payloads.get_carteras;
+const limits = payloads.get_limites_de_venta;
+const movements = payloads.get_historico;
 const configNode = payloads.get_config[0];
-const fondosDisponibles = configNode ? (configNode.property_cantidad_eur || 0) : 0;
+const availableFunds = configNode ? (configNode.property_cantidad_eur || 0) : 0;
 
 const jsonCrypto = payloads.aggregate_crypto[0];
-const listaCrypto = jsonCrypto.cryptosData || jsonCrypto.data || jsonCrypto.aggregated || Object.values(jsonCrypto)[0] || [];
+const cryptoList = jsonCrypto.cryptosData || jsonCrypto.data || jsonCrypto.aggregated || Object.values(jsonCrypto)[0] || [];
 
 const jsonFiat = payloads.aggregate_fiat[0];
-const listaFiat = jsonFiat.coins_data || jsonFiat.data || jsonFiat.aggregated || Object.values(jsonFiat)[0] || [];
+const fiatList = jsonFiat.coins_data || jsonFiat.data || jsonFiat.aggregated || Object.values(jsonFiat)[0] || [];
 
 const fearAndGreed = payloads.get_fear_and_greed_index[0].data[0];
 // const historicoNotion = $input.all();
 
 //#region Node Logic
 
-let counterGlobal = 0;
+let counter = 0;
 
 // Normalize coin names across payloads so "Venice Token" matches "venice-token"
 function normalizeName(name) {
@@ -52,8 +52,8 @@ function normalizeName(name) {
 
 // Crypto price + news lookup, keyed by normalized coin name
 const cryptoInfo = {};
-if (Array.isArray(listaCrypto)) {
-    listaCrypto.forEach(coin => {
+if (Array.isArray(cryptoList)) {
+    cryptoList.forEach(coin => {
         const key = normalizeName(coin.coin_name);
         if (!key) return;
         cryptoInfo[key] = {
@@ -65,8 +65,8 @@ if (Array.isArray(listaCrypto)) {
 
 // Group limits by wallet id, keeping only non-executed ones
 const limitsByWallet = {};
-if (Array.isArray(limites)) {
-    limites.forEach(l => {
+if (Array.isArray(limits)) {
+    limits.forEach(l => {
         if (!Array.isArray(l.property_cartera)) return;
         l.property_cartera.forEach(walletId => {
             if (l.property_ejecutado === false) {
@@ -82,8 +82,8 @@ if (Array.isArray(limites)) {
 
 // Group movements by asset id
 const movementsByAsset = {};
-if (Array.isArray(movimientos)) {
-    movimientos.forEach(m => {
+if (Array.isArray(movements)) {
+    movements.forEach(m => {
         if (!Array.isArray(m.property_activo)) return;
         m.property_activo.forEach(assetId => {
             (movementsByAsset[assetId] ??= []).push({
@@ -98,9 +98,9 @@ if (Array.isArray(movimientos)) {
 
 // Build crypto[]: one entry per wallet from get_carteras
 const notionUpdates = [];
-const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
-    const walletId = cartera.id;
-    const name = cartera.property_nombre || cartera.name || "";
+const crypto = (Array.isArray(assets) ? assets : []).map(wallet => {
+    const walletId = wallet.id;
+    const name = wallet.property_nombre || wallet.name || "";
     const info = cryptoInfo[normalizeName(name)] || {};
 
     const walletMovements = movementsByAsset[walletId] || [];
@@ -108,7 +108,7 @@ const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
         const tradeValue = (m.amount || 0) * (m.price_eur || 0);
         return m.is_sale ? sum - tradeValue : sum + tradeValue;
     }, 0);
-    const totalAmount = cartera.property_saldo_total || 0;
+    const totalAmount = wallet.property_saldo_total || 0;
     const actualPrice = info.rate_eur || 0;
     const currentValue = totalAmount * actualPrice;
     const roi = totalCost > 0 ? Number((((currentValue - totalCost) / totalCost) * 100).toFixed(2)) : null;
@@ -117,8 +117,8 @@ const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
         .filter(limit => actualPrice >= limit.target_price_eur)
         .map(limit => {
             const saleDate = new Date().toISOString().split("T")[0];
-            counterGlobal += 1;
-            const historicoName = saleDate.slice(2, 4) + counterGlobal.toString().padStart(2, "0");
+            counter += 1;
+            const historicName = saleDate.slice(2, 4) + counter.toString().padStart(2, "0");
 
             notionUpdates.push({
                 id: limit.id,
@@ -128,7 +128,7 @@ const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
             notionUpdates.push({
                 type: "HISTORICAL",
                 properties: {
-                    name: historicoName,
+                    name: historicName,
                     quantity: totalAmount,
                     isSale: true,
                     walletId: walletId,
@@ -166,7 +166,7 @@ const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
 });
 
 // fiat[]: pass through aggregate_fiat payload
-const fiat = (Array.isArray(listaFiat) ? listaFiat : []).map(coin => ({
+const fiat = (Array.isArray(fiatList) ? fiatList : []).map(coin => ({
     name: coin.coin_name || coin.name,
     rate_eur: coin.rate_eur,
     coin_news: (Array.isArray(coin.coin_news) ? coin.coin_news : []).map(n => ({
@@ -177,7 +177,7 @@ const fiat = (Array.isArray(listaFiat) ? listaFiat : []).map(coin => ({
 }));
 
 const result = {
-    available_funds: fondosDisponibles,
+    available_funds: availableFunds,
     crypto,
     fiat,
     fear_and_greed: { value: fearAndGreed.value, classification: fearAndGreed.value_classification },
