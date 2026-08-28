@@ -1,56 +1,8 @@
-[
-  {
-    "estado_global": "El portafolio cripto presenta pérdidas generalizadas con retornos negativos severos, indicando un estado de contracción significativa.",
-    "liquidez_texto": "Available funds: 5.75 €. Liquidez extremadamente baja, limitando la capacidad operativa inmediata.",
-    "activos": [
-      {
-        "nombre": "Ripple",
-        "precio_actual": "1.19 €",
-        "roi": "-49.36%",
-        "tendencia": "BAJISTA",
-        "media_texto": "(Average: 1.22 €)",
-        "distancia_objetivo": "No target defined"
-      },
-      {
-        "nombre": "Ethereum",
-        "precio_actual": "1837.36 €",
-        "roi": "-33.00%",
-        "tendencia": "ALCISTA",
-        "media_texto": "(Average: 1901.68 €)",
-        "distancia_objetivo": "Faltan 2302.64 € para objetivo (Auto-retiro en 148.71 €)"
-      },
-      {
-        "nombre": "Bitcoin",
-        "precio_actual": "66950.00 €",
-        "roi": "-15.80%",
-        "tendencia": "BAJISTA",
-        "media_texto": "(Average: 67768.33 €)",
-        "distancia_objetivo": "Faltan 19800.00 € para objetivo (Auto-retiro en 150.00 €)"
-      }
-    ],
-    "analisis_correlacion": "Correlation Analysis: El mercado cripto presenta una fuerte presión bajista generalizada, correlacionada con los titulares que anticipan una semana negativa y dificultades en los niveles de soporte clave. A pesar de los intentos de recuperación de Ethereum y Ripple y las noticias de licencias bancarias de la OCC, los activos permanecen bajo la media histórica, reflejando el pesimismo dominante.",
-    "fiat": [
-      {
-        "moneda": "Libra",
-        "tasa_actual": "Current: 1.1553 €",
-        "media_texto": "Average (history): 1.1534 €",
-        "tendencia": "ESTABLE",
-        "veredicto": "No significant changes"
-      },
-      {
-        "moneda": "Dólar",
-        "tasa_actual": "Current: 0.8621 €",
-        "media_texto": "Average (history): 0.8557 €",
-        "tendencia": "BAJISTA",
-        "veredicto": "No significant changes"
-      },
-      {
-        "moneda": "Yuan",
-        "tasa_actual": "Current: 0.1267 €",
-        "media_texto": "Average (history): 0.1259 €",
-        "tendencia": "ESTABLE",
-        "veredicto": "No significant changes"
-      }
-    ]
-  }
-]
+{
+  "error": "JSON parse failed",
+  "original": [
+    {
+      "output": "{\"estado_global\": \"El portafolio cripto presenta pérdidas generalizadas con retornos negativos severos, indicando un estado de contracción significativa.\",\"liquidez_texto\": \"Available funds: 5.75 €. Liquidez extremadamente baja, limitando la capacidad operativa inmediata.\",\"activos\": [{\"nombre\": \"Ripple\",\"precio_actual\": \"1.19 €\",\"roi\": \"-49.36%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 1.22 €)\",\"distancia_objetivo\": \"No target defined\"},{\"nombre\": \"Ethereum\",\"precio_actual\": \"1837.36 €\",\"roi\": \"-33.00%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 1901.68 €)\",\"distancia_objetivo\": \"Faltan 2302.64 € para objetivo (Auto-retiro en 148.71 €)\"},{\"nombre\": \"Bitcoin\",\"precio_actual\": \"66950.00 €\",\"roi\": \"-15.80%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 67768.33 €)\",\"distancia_objetivo\": \"Faltan 19800.00 € para objetivo (Auto-retiro en 150.00 €)\"}],\"analisis_correlacion\": \"Correlation Analysis: El mercado cripto presenta una fuerte presión bajista generalizada, correlacionada con los titulares que anticipan una semana negativa y dificultades en los niveles de soporte clave. A pesar de los intentos de recuperación de Ethereum y Ripple y las noticias de licencias bancarias de la OCC, los activos permanecen bajo la media histórica, reflejando el pesimismo dominante.\",\"fiat\": [{\"moneda\": \"Libra\",\"tasa_actual\": \"Current: 1.1553 €\",\"media_texto\": \"Average (history): 1.1534 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"},{\"moneda\": \"Dólar\",\"tasa_actual\": \"Current: 0.8621 €\",\"media_texto\": \"Average (history): 0.8557 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"},{\"moneda\": \"Yuan\",\"tasa_actual\": \"Current: 0.1267 €\",\"media_texto\": \"Average (history): 0.1259 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"}]}"
+    }
+  ]
+}

@@ -5,6 +5,7 @@
       "name": "Venice Token",
       "total_amount": 1,
       "actual_price": 15.49,
+      "roi": 35.64,
       "limits": [],
       "movements": [
         {
@@ -46,6 +47,7 @@
       "name": "Ripple",
       "total_amount": 41.93,
       "actual_price": 1.2,
+      "roi": -48.94,
       "limits": [],
       "movements": [
         {
@@ -87,10 +89,12 @@
       "name": "Ethereum",
       "total_amount": 0.035,
       "actual_price": 2133.01,
+      "roi": -22.22,
       "limits": [
         {
-          "target_price_eur": 4140,
-          "withdraw_eur": 148.71
+          "target_price_eur": 1940,
+          "withdraw_eur": 148.71,
+          "executed": true
         }
       ],
       "movements": [
@@ -133,6 +137,7 @@
       "name": "Bitcoin",
       "total_amount": 0.01292,
       "actual_price": 67496,
+      "roi": -15.11,
       "limits": [
         {
           "target_price_eur": 86750,
@@ -299,6 +304,30 @@
           "fecha": "Fri, 18 Apr 2025 07:00:00 GMT"
         }
       ]
+    }
+  ],
+  "fear_and_greed": {
+    "value": "73",
+    "classification": "Greed"
+  },
+  "notion_updates": [
+    {
+      "id": "34283f94-7b2c-80e4-8837-f318336f2e55",
+      "type": "LIMIT",
+      "properties": {
+        "executed": true
+      }
+    },
+    {
+      "type": "HISTORICAL",
+      "properties": {
+        "name": "2601",
+        "quantity": 0.035,
+        "isSale": true,
+        "walletId": "2f583f94-7b2c-8066-bf15-f9e5654d1961",
+        "date": "2026-08-28",
+        "priceEur": 2133.01
+      }
     }
   ]
 }

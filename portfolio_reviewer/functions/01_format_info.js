@@ -1,19 +1,9 @@
 const fs = require("fs");
 
-const RESULT_FILE_PATH = "./files/responses";
-const RESULT_FILE_NAME = "format_info_updated.json";
+const RESULT_FILE_PATH = "../files/responses";
+const RESULT_FILE_NAME = "format_info.json";
 
-let createPortfolioDataRaw;
-try {
-    createPortfolioDataRaw = JSON.parse(
-        fs.readFileSync("./files/responses/create_portfolio_data.json", "utf8"),
-    );
-} catch (error) {
-    console.error("Error leyendo los archivos JSON.", error.message);
-    process.exit(1);
-}
-
-// Lectura de payloads locales (sustituyen los nodos N8N $())
+// Lectura de payloads locales
 const payloads = [
     "get_carteras",
     "get_limites_de_venta",
@@ -21,9 +11,10 @@ const payloads = [
     "get_config",
     "aggregate_crypto",
     "aggregate_fiat",
+    "get_fear_and_greed_index"
 ].reduce((acc, name) => {
     try {
-        acc[name] = JSON.parse(fs.readFileSync(`./files/payloads/${name}.json`, "utf8"));
+        acc[name] = JSON.parse(fs.readFileSync(`../files/payloads/${name}.json`, "utf8"));
     } catch (error) {
         console.error(`Error leyendo ${name}.json:`, error.message);
         process.exit(1);
@@ -42,9 +33,13 @@ const listaCrypto = jsonCrypto.cryptosData || jsonCrypto.data || jsonCrypto.aggr
 
 const jsonFiat = payloads.aggregate_fiat[0];
 const listaFiat = jsonFiat.coins_data || jsonFiat.data || jsonFiat.aggregated || Object.values(jsonFiat)[0] || [];
+
+const fearAndGreed = payloads.get_fear_and_greed_index[0].data[0];
 // const historicoNotion = $input.all();
 
 //#region Node Logic
+
+let counterGlobal = 0;
 
 // Normalize coin names across payloads so "Venice Token" matches "venice-token"
 function normalizeName(name) {
@@ -76,6 +71,7 @@ if (Array.isArray(limites)) {
         l.property_cartera.forEach(walletId => {
             if (l.property_ejecutado === false) {
                 (limitsByWallet[walletId] ??= []).push({
+                    id: l.id,
                     target_price_eur: l.property_precio_objetivo,
                     withdraw_eur: l.property_euros_a_sacar
                 });
@@ -94,24 +90,73 @@ if (Array.isArray(movimientos)) {
                 is_sale: m.property_es_venta,
                 price_eur: m.property_precio_eur,
                 amount: m.property_cantidad,
-                date: m.propertyfecha?.start ?? null
+                date: m.property_fecha?.start ?? null
             });
         });
     });
 }
 
 // Build crypto[]: one entry per wallet from get_carteras
+const notionUpdates = [];
 const crypto = (Array.isArray(activos) ? activos : []).map(cartera => {
     const walletId = cartera.id;
     const name = cartera.property_nombre || cartera.name || "";
     const info = cryptoInfo[normalizeName(name)] || {};
 
+    const walletMovements = movementsByAsset[walletId] || [];
+    const totalCost = walletMovements.reduce((sum, m) => {
+        const tradeValue = (m.amount || 0) * (m.price_eur || 0);
+        return m.is_sale ? sum - tradeValue : sum + tradeValue;
+    }, 0);
+    const totalAmount = cartera.property_saldo_total || 0;
+    const actualPrice = info.rate_eur || 0;
+    const currentValue = totalAmount * actualPrice;
+    const roi = totalCost > 0 ? Number((((currentValue - totalCost) / totalCost) * 100).toFixed(2)) : null;
+
+    const executedLimits = (limitsByWallet[walletId] || [])
+        .filter(limit => actualPrice >= limit.target_price_eur)
+        .map(limit => {
+            const saleDate = new Date().toISOString().split("T")[0];
+            counterGlobal += 1;
+            const historicoName = saleDate.slice(2, 4) + counterGlobal.toString().padStart(2, "0");
+
+            notionUpdates.push({
+                id: limit.id,
+                type: "LIMIT",
+                properties: { executed: true }
+            });
+            notionUpdates.push({
+                type: "HISTORICAL",
+                properties: {
+                    name: historicoName,
+                    quantity: totalAmount,
+                    isSale: true,
+                    walletId: walletId,
+                    date: saleDate,
+                    priceEur: actualPrice
+                }
+            });
+            return {
+                target_price_eur: limit.target_price_eur,
+                withdraw_eur: limit.withdraw_eur,
+                executed: true
+            };
+        });
+
     return {
         name,
-        total_amount: cartera.property_saldo_total || 0,
-        actual_price: info.rate_eur || 0,
-        limits: limitsByWallet[walletId] || [],
-        movements: movementsByAsset[walletId] || [],
+        total_amount: totalAmount,
+        actual_price: actualPrice,
+        roi,
+        limits: executedLimits.concat(
+            (limitsByWallet[walletId] || [])
+                .filter(limit => actualPrice < limit.target_price_eur)
+                .map(limit => ({
+                    target_price_eur: limit.target_price_eur,
+                    withdraw_eur: limit.withdraw_eur
+                }))
+        ),
+        movements: walletMovements,
         news: (info.news || []).map(n => ({
             title: n.titular || n.title,
             link: n.enlace || n.link,
@@ -134,7 +179,9 @@ const fiat = (Array.isArray(listaFiat) ? listaFiat : []).map(coin => ({
 const result = {
     available_funds: fondosDisponibles,
     crypto,
-    fiat
+    fiat,
+    fear_and_greed: { value: fearAndGreed.value, classification: fearAndGreed.value_classification },
+    notion_updates: notionUpdates
 };
 //#endregion
 

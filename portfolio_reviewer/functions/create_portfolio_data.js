@@ -6,7 +6,7 @@ const RESULT_FILE_NAME = "create_portfolio_data.json";
 let financialEngineRaw, notionHistoricRaw;
 try {
   financialEngineRaw = JSON.parse(
-    fs.readFileSync("../files/payloads/financial_engine.json", "utf8"),
+    fs.readFileSync("../files/responses/financial_engine.json", "utf8"),
   );
   notionHistoricRaw = JSON.parse(
     fs.readFileSync("../files/payloads/notion_historic.json", "utf8"),
@@ -17,7 +17,9 @@ try {
 }
 
 // Sustituye esto por la injección de datos real en N8N
-const financialEngine = financialEngineRaw[0]; //$("Financial Engine").first().json
+const financialEngine = Array.isArray(financialEngineRaw)
+    ? financialEngineRaw[0]
+    : financialEngineRaw; // $("Financial Engine").first().json
 const notionHistoric = notionHistoricRaw; // $input.all().map(item=>item.json);
 
 //#region Node Logic

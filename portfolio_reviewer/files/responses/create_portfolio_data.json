@@ -3,10 +3,10 @@
     {
       "asset": "Ripple",
       "price": 1.18,
-      "totalInvested": 98.5355,
+      "totalInvested": 98.54,
       "totalWithdrawn": 0,
-      "netProfit": -49.0581,
-      "totalRoi": -49.787234042553195,
+      "netProfit": -49.06,
+      "totalRoi": -49.79,
       "finalBalance": 41.93,
       "newsContext": [
         {
@@ -71,11 +71,11 @@
     {
       "asset": "Ethereum",
       "price": 1838.35,
-      "totalInvested": 95.98435,
+      "totalInvested": 95.98,
       "totalWithdrawn": 0,
-      "netProfit": -31.6421,
-      "totalRoi": -32.96589496100145,
-      "finalBalance": 0.035,
+      "netProfit": -31.64,
+      "totalRoi": -32.97,
+      "finalBalance": 0.04,
       "newsContext": [
         {
           "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
@@ -129,11 +129,11 @@
     {
       "asset": "Bitcoin",
       "price": 67023,
-      "totalInvested": 1027.2638994000001,
-      "totalWithdrawn": 93.74647999999999,
-      "netProfit": -161.32673940000018,
-      "totalRoi": -15.704507818704347,
-      "finalBalance": 0.01292,
+      "totalInvested": 1027.26,
+      "totalWithdrawn": 93.75,
+      "netProfit": -161.33,
+      "totalRoi": -15.7,
+      "finalBalance": 0.01,
       "newsContext": [
         {
           "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
@@ -194,17 +194,17 @@
   "economy": [
     {
       "currency": "Libra",
-      "currentPriceEur": 1.1553,
+      "currentPriceEur": 1.16,
       "recentNews": []
     },
     {
       "currency": "Dólar",
-      "currentPriceEur": 0.86207,
+      "currentPriceEur": 0.86,
       "recentNews": []
     },
     {
       "currency": "Yuan",
-      "currentPriceEur": 0.12672,
+      "currentPriceEur": 0.13,
       "recentNews": []
     }
   ],
