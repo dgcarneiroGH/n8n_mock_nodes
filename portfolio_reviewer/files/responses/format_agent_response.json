@@ -1,8 +1,81 @@
-{
-  "error": "JSON parse failed",
-  "original": [
-    {
-      "output": "{\"estado_global\": \"El portafolio cripto presenta pérdidas generalizadas con retornos negativos severos, indicando un estado de contracción significativa.\",\"liquidez_texto\": \"Available funds: 5.75 €. Liquidez extremadamente baja, limitando la capacidad operativa inmediata.\",\"activos\": [{\"nombre\": \"Ripple\",\"precio_actual\": \"1.19 €\",\"roi\": \"-49.36%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 1.22 €)\",\"distancia_objetivo\": \"No target defined\"},{\"nombre\": \"Ethereum\",\"precio_actual\": \"1837.36 €\",\"roi\": \"-33.00%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 1901.68 €)\",\"distancia_objetivo\": \"Faltan 2302.64 € para objetivo (Auto-retiro en 148.71 €)\"},{\"nombre\": \"Bitcoin\",\"precio_actual\": \"66950.00 €\",\"roi\": \"-15.80%\",\"tendencia\": \"BAJISTA\",\"media_texto\": \"(Average: 67768.33 €)\",\"distancia_objetivo\": \"Faltan 19800.00 € para objetivo (Auto-retiro en 150.00 €)\"}],\"analisis_correlacion\": \"Correlation Analysis: El mercado cripto presenta una fuerte presión bajista generalizada, correlacionada con los titulares que anticipan una semana negativa y dificultades en los niveles de soporte clave. A pesar de los intentos de recuperación de Ethereum y Ripple y las noticias de licencias bancarias de la OCC, los activos permanecen bajo la media histórica, reflejando el pesimismo dominante.\",\"fiat\": [{\"moneda\": \"Libra\",\"tasa_actual\": \"Current: 1.1553 €\",\"media_texto\": \"Average (history): 1.1534 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"},{\"moneda\": \"Dólar\",\"tasa_actual\": \"Current: 0.8621 €\",\"media_texto\": \"Average (history): 0.8557 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"},{\"moneda\": \"Yuan\",\"tasa_actual\": \"Current: 0.1267 €\",\"media_texto\": \"Average (history): 0.1259 €\",\"tendencia\": \"ESTABLE\",\"veredicto\": \"No significant changes\"}]}"
-    }
-  ]
-}
+[
+  {
+    "liquidityStatus": "7500.00 €",
+    "globalSentiment": "Neutral",
+    "cryptoPortfolio": [
+      {
+        "symbol": "VE",
+        "name": "Venice Token",
+        "currentPrice": "14.76 €",
+        "roi": "29.25%",
+        "roiStatus": "positive",
+        "averagePrice": "12.90 €",
+        "trend": "ALCISTA",
+        "targetDistance": "No target defined",
+        "newsSummary": "Sin noticias recientes disponibles en el feed de datos."
+      },
+      {
+        "symbol": "RI",
+        "name": "Ripple",
+        "currentPrice": "1.22 €",
+        "roi": "-48.09%",
+        "roiStatus": "negative",
+        "averagePrice": "1.04 €",
+        "trend": "ALCISTA",
+        "targetDistance": "No target defined",
+        "newsSummary": "XRP rebota por grandes compras y pronósticos optimistas - FXStreet."
+      },
+      {
+        "symbol": "ET",
+        "name": "Ethereum",
+        "currentPrice": "2140.45 €",
+        "roi": "-21.95%",
+        "roiStatus": "negative",
+        "averagePrice": "1995.66 €",
+        "trend": "ALCISTA",
+        "targetDistance": "No target defined",
+        "newsSummary": "Impulso alcista en Ethereum apoyado por stablecoins y ETF - FXStreet."
+      },
+      {
+        "symbol": "BI",
+        "name": "Bitcoin",
+        "currentPrice": "68215 €",
+        "roi": "-14.21%",
+        "roiStatus": "negative",
+        "averagePrice": "60255.25 €",
+        "trend": "ALCISTA",
+        "targetDistance": "No target defined",
+        "newsSummary": "Bitcoin impulsa rally y especulación en mercados cripto - iProUP."
+      }
+    ],
+    "fiatMarket": [
+      {
+        "symbol": "£",
+        "name": "Libra",
+        "ticker": "GBP/EUR",
+        "currentPrice": "1.1663 €",
+        "status": "ESTABLE",
+        "statusDetails": "No significant changes",
+        "newsSummary": "Libra esterlina en recuperación con mejora en datos alemanes - FXStreet."
+      },
+      {
+        "symbol": "$",
+        "name": "Dólar",
+        "ticker": "USD/EUR",
+        "currentPrice": "0.85874 €",
+        "status": "ESTABLE",
+        "statusDetails": "No significant changes",
+        "newsSummary": "Banco Central acumula USD 14.000 millones en reservas - Infobae."
+      },
+      {
+        "symbol": "¥",
+        "name": "Yuan",
+        "ticker": "CNY/EUR",
+        "currentPrice": "0.12778 €",
+        "status": "ESTABLE",
+        "statusDetails": "No significant changes",
+        "newsSummary": "Cotización del Yuan estable en el mercado actual - El Cronista."
+      }
+    ]
+  }
+]

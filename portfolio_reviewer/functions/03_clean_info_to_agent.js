@@ -52,7 +52,12 @@ const fiat = economy
   .map((item) => {
     const currency = item.currency || item.moneda;
     const eurPrice = item.currentPriceEur ?? item.precio_actual_eur;
-    return `${currency}: ${eurPrice}€`;
+    const news = item.recentNews || [];
+    const headlines = news
+      .map((n) => n.headline)
+      .filter(Boolean)
+      .join(" || ");
+    return `${currency}: ${eurPrice}€ | News: ${headlines}`;
   })
   .join(" | ");
 

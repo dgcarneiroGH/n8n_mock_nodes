@@ -18,49 +18,51 @@ try {
 
 // Sustituye esto por la injección de datos real en N8N
 const financialEngine = Array.isArray(financialEngineRaw)
-    ? financialEngineRaw[0]
-    : financialEngineRaw; // $("Financial Engine").first().json
+  ? financialEngineRaw[0]
+  : financialEngineRaw; // $("Financial Engine").first().json
 const notionHistoric = notionHistoricRaw; // $input.all().map(item=>item.json);
 
 //#region Node Logic
-const financialResults = financialEngine.resultadosFinancieros;
-const sourceData = financialEngine.rawParaIA;
-const cryptoNews = sourceData.noticiasCrypto;
+const sumEurValue = (movements) =>
+  movements.reduce((sum, m) => sum + m.price_eur * m.amount, 0);
 
-const operationsLog = financialResults.map((asset) => {
-  const relatedNews = cryptoNews
-    .filter(
-      (news) =>
-        news.title && news.title.toLowerCase().includes(asset.nombre_busqueda),
-    )
-    .map((news) => ({
+const operationsLog = financialEngine.crypto.map((asset) => {
+  const movements = asset.movements || [];
+  const buyMovements = movements.filter((m) => !m.is_sale);
+  const sellMovements = movements.filter((m) => m.is_sale);
+  const totalInvested = sumEurValue(buyMovements);
+  const totalWithdrawn = sumEurValue(sellMovements);
+
+  return {
+    asset: asset.name,
+    price: asset.actual_price,
+    totalInvested,
+    totalWithdrawn,
+    netProfit: totalWithdrawn - totalInvested,
+    totalRoi: asset.roi,
+    finalBalance: asset.total_amount,
+    newsContext: (asset.news || []).map((news) => ({
       headline: news.title,
       link: news.link,
       date: news.isoDate,
-    }));
-
-  return {
-    asset: asset.activo,
-    price: asset.precioActual,
-    totalInvested: asset.totalInvertido,
-    totalWithdrawn: asset.totalExtraido,
-    netProfit: asset.beneficioNeto,
-    totalRoi: asset.roiTotal,
-    finalBalance: asset.saldoActual,
-    newsContext: relatedNews,
-    assetLimits: asset.limitesConfigurados,
-    executedSales: asset.ventasEjecutadas,
+    })),
+    assetLimits: asset.limits,
+    executedSales: sellMovements.map((m) => ({
+      price: m.price_eur,
+      amount: m.amount,
+      date: m.date,
+    })),
   };
 });
 
-const fiatEconomy = sourceData.monedasFiat.map((currency) => ({
-  currency: currency.coin_name,
+const economy = financialEngine.fiat.map((currency) => ({
+  currency: currency.name,
   currentPriceEur: currency.rate_eur,
-  recentNews: currency.coin_news
-    .filter((news) => news.title)
+  recentNews: (currency.coin_news || [])
+    .filter((news) => news.titular)
     .map((news) => ({
-      headline: news.title,
-      date: news.pubDate || news.isoDate,
+      headline: news.titular,
+      date: news.fecha,
     })),
 }));
 
@@ -73,9 +75,10 @@ const previousHistory = notionHistoric.slice(0, 9).map((report) => ({
 
 const result = {
   operationsLog,
-  availableFunds: sourceData.fondosDisponibles,
-  economy: fiatEconomy,
+  availableFunds: financialEngine.available_funds,
+  economy,
   previousHistory,
+  fearAndGreed: financialEngine.fear_and_greed,
 };
 //#endregion
 
@@ -87,7 +90,7 @@ try {
     "utf8",
   );
   console.log(
-    "✅ ¡Éxito! El archivo resultado.json se ha creado o actualizado correctamente en tu carpeta.",
+    `✅ ¡Éxito! El archivo ${RESULT_FILE_NAME}.json se ha creado o actualizado correctamente en tu carpeta.`,
   );
 } catch (err) {
   console.error("❌ Error al guardar el archivo:", err.message);

@@ -1,68 +1,76 @@
 {
   "operationsLog": [
     {
-      "asset": "Ripple",
-      "price": 1.18,
-      "totalInvested": 98.54,
+      "asset": "Venice Token",
+      "price": 15.49,
+      "totalInvested": 11.42,
       "totalWithdrawn": 0,
-      "netProfit": -49.06,
-      "totalRoi": -49.79,
+      "netProfit": -11.42,
+      "totalRoi": 35.64,
+      "finalBalance": 1,
+      "newsContext": [
+        {
+          "headline": "Venice Token (VVV) repunta casi 4% en 24 horas y se acerca a zona de resistencia clave - DiarioBitcoin",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQW9wSXgzdmp6ck1GWmdHUFhWa2szWUhJaF9TZXpyQ2hac0N4VE0yNEtKLWoxWjV5X1hLSVdIcnJJcUNhSUt4dW1KUDFpVE9zNjNRc1ctV0NVLTVYbzVLU203a2NlSmVCcmpvQV9IaklNcldZZEdleDhETU1mOXRZYTh4WWVPWVk1V0d3MTdWRklSS0p3N0cwbTBpYkxxRG85a3BTNzZzb01aNHpEQkhZZE4wQmhhQmg4S0VzajQ1N0Y?oc=5",
+          "date": "Mon, 24 Aug 2026 22:08:43 GMT"
+        },
+        {
+          "headline": "Rally cripto: por qué Humanity, Worldcoin, FET y Venice Token se disparan - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83UXkwalB5dm0xUGNha0loV0tVTVVOaS1tRElJajN4MFZfdjdPVmVfMnIzQW5jOWFLWmtzNi1pU1Zuc3JuY181am4wNjZDZHZCelJodE1lOGFtWEZuTlotZFdNSS1qZw?oc=5",
+          "date": "Sat, 30 May 2026 07:00:00 GMT"
+        },
+        {
+          "headline": "Venice Token (VVV) se dispara 18% y desafía la gravedad del mercado cripto - Cryptonews.net",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91WTVqQTdlb3ZqMmx0WkxoVlB4bHVPMWQtTDJRSFlDS1J5RGhVRml5QWtTNXBDb1lDZE9ZUU9iVW9nNE1xaGllZ3puY1NXX2FZQmtuSWpJejVhM2xDb1Fz?oc=5",
+          "date": "Mon, 24 Aug 2026 10:13:06 GMT"
+        },
+        {
+          "headline": "Precio de Venice Token (VVV) hoy | Gráficos de precios en tiempo real de VVV - Revolut",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oWnJGdVpQZmpSOVZsR3NzclpEbXVoSWlxMWVHODlJMTJUdWs2RVB3ZGlkZ3ZFVk9leTNGMjJ4bmpXVFdjbjFIS28tZlA3cTZxbWxURFBhbmwyZWRZYnh0bnp2RG9KalAwZklV?oc=5",
+          "date": "Sat, 22 Nov 2025 22:57:07 GMT"
+        },
+        {
+          "headline": "¿Qué hay detrás de la subida de Venice Token? El proyecto de IA acumula un rally del 55% - CriptoTendencia",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQampUQW9WUjBLaHE5Sk84aWN1TEx3VHc5UUEyZ0hjVEJSOV9zSjlrNzNGX2lHbGM4NTlIR2hYR1QtZUM4b2QzcW5YMFFxaERjWnpCZFFzek9QcC1MNFlySVVGZjlzRTZ4TWE3T1VFTVRtaTF4YzdsQmpNbHFIaWxuWld5dHNuZ09kVW55eC1CeHBkd1pobGZnalZ2T2FqYzUwZV85TFJzZjRUVmdkajB6Wnl3c1pRcTlnX2JxMkFYdGgzWlZxT3c?oc=5",
+          "date": "Tue, 12 May 2026 07:00:00 GMT"
+        }
+      ],
+      "assetLimits": [],
+      "executedSales": []
+    },
+    {
+      "asset": "Ripple",
+      "price": 1.2,
+      "totalInvested": 98.5355,
+      "totalWithdrawn": 0,
+      "netProfit": -98.5355,
+      "totalRoi": -48.94,
       "finalBalance": 41.93,
       "newsContext": [
         {
-          "headline": "Perspectivas de Ripple y Stellar: El sentimiento del mercado en mejora alimenta las esperanzas de recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSTFMMGxSRUgyNnEtMFlSdnhjMkNJd19Oek5Eb3RTNDdRdUhMd3F6LXlhNkFHTGViUHNxTDRiakhrSUdIa2lFbDVUS0hVYXlXNzhibUd1elIybU12RVRMZWVCeFMxWXlkTU44TXA4TE5uallHUU5VdGdGaFhJYkdYU1ZfNTZnTmxSRnV0S1lqeW43T21hR1NtRVdrTTh3WnhGdVkzRUo2aVRaWGVLYlNIdGVjWHJwR2pDS1NvbXZ6ZmJ5N1pQbk1ZS3FpWmw2SndBQlRQUDZWamlPMXVjb1pBbDlOdEtuVUNsRkN5OdIB8gFBVV95cUxPSzZWV1BOLWtNbG90bF9lSTl2eHR2ZkZpeVdTTzVjTEx0VU5QTFRrR0tRT2FhUl9VOEpWNlFRamFkTjNYQkVCbmo5YzdPRURLTzJDa05KeExWTF91V28zTW1FWjZIeUFpcHllZjRBZXU5Q1RnTGl5Vm5tMl9tVkpuWXdhbDZEVE0yOVJXME9TTW5mRzhKUXdSbllFOTAwUWpGN2RCUEpRMXItNEFscjRMUEQ4ay1ia3NzN0I2YzNYVGVvcXVyd2VWdllfSHdLRnpMWFBvWnRoUkZ6eU0wZWY3Sm1oRUJpelV6X25pRTU4YUdTUQ?oc=5",
-          "date": "Thu, 21 May 2026 04:20:13 GMT"
+          "headline": "XRP lidera retroceso del mercado cripto con caída del 7%: ¿Se acabó el rally? - Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONFV3QVAtRnV5RTItTmRacXotbk9od1phRHk2UlpFLXRXeUY0MmYzNlhUajhPaEVJSDBMYUhwaGdqS1lZckd5NExDQUVPMHJ0SFF3OVZiMzJqVVdkOTlKamlGSGRweTRzTHg5eTdQeXdnQXRSVkJwS3ZIMWtQRDR2UndobEt1RmpuQWYxcU04MHI2dw?oc=5",
+          "date": "Wed, 26 Aug 2026 20:39:00 GMT"
         },
         {
-          "headline": "Tratar una memecoin como inversión resulta desagradable, confiesa el ex CTO de Ripple - Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDBIN2p1V05qMGszT3dMSEFPcGxXdGtkTzZuSlZ0Q3JWemJZZWpqV2dHa3RacmFJVnowWDlwejlVT1VBSDJ2X052U29XT3NuWW5kSVlkcDg0NklzU1FpaW4zR1RzQ1dYb1dwSGdfbHpkNnRHT0pGdGZrOXdnVzVFZlcyNUNIWWJoOU9XVEdaVlZXeEt4RXlaZXhzMFlULWsxaTNGTjVONA?oc=5",
-          "date": "Mon, 18 May 2026 23:19:00 GMT"
+          "headline": "¿Qué sigue mientras XRP se mantiene en 1.40$ en medio de una creciente actividad en cadena? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYVd5UFdlMEVaa2lWS216RTAtSDNab0JqUU9vZ1czZC1CVld0Vnh4ZjhtSEFJSU4xVGpXbHo0QU8zOG5HWDVGWGVqMWgtNzY3R215VFlzTlR1dEdNSUJoNGlFNDQ1QnNRdmxUdjJXelZqcmxNSlpyUTRxR0YtWE4yV2hBZnZlZ2NtMktobkRwRzFnSTZPd0kwb1R6UXNQeUVvMTlqVV80eHpQMVdIdjBxenE5ajkzcWZ2bXBkWGRaMWhOX193TGVBeG5QeWdDRVY3RF9GYlVmcjh2WWk2V0c1VWptWlBqT2JDUjMtLXIxQ0sxcnZBcFNpb0V3b0Q3YTDSAYQCQVVfeXFMTjRoSTBiQXJmdUFXN2RDWlNFdS1Udmxqc2FTZk81VkFZdTRnbzJ5Y19RRnFNcHlXcGNsQ1JFdElpYWtJOHh4UWZBMnNmOXYtOGMwTnlwOTZZYUw3XzJvRllIQ2dlVE1PYUg0dmtCWTdLRnNKWm9ndE1pMzJ3LXZZV3VyMzBqcElINXg3ZkJYaU1IXzFiQXRVQy1SVFNUeW9aQWg4ZGEzcjRJeWRCR3J3aVRaVmhDWk83VTkyQXdBTm01aDRmSUE3VWZwTUdJZWJ5dDJfOVZjTEhsWU5TNXNndG5qSDdjSVQ5M2hrX0VKdzJrR2RsTzZoSUNSVzFTM0ZIdzRaUTA?oc=5",
+          "date": "Wed, 26 Aug 2026 14:30:21 GMT"
         },
         {
-          "headline": "Predicción del Precio de Criptomonedas: Ripple, DASH y Cripto – Resumen Europeo 20 de Mayo - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTEU3bjN4YWhYamllbTBPWm9XdEhlYXFGX01NNWlkekpqRGxrNjJ0cmRKQ3JGZ0kwQ1ExZTFyTUFzVUlaakJtaVN0U1pnTklHekhMNG9pcEI2NVoyLU1ndHpwbUFXNTVydDBGUDQ5ZFIwRTVobmIydHBMeDJBTzlLXzlybDF3SVpjRG1mcHROTzZ0eXhyU1hocVVJdGktNFlQbk1kUWt3WlZGbXlHMDQ4Tk0yYUJzXy1LdDdncXBzb29sZnVVQTNaR1lLZ2EyNVlCNFd0V1FsS1JzYXhBNnfSAeMBQVVfeXFMTXV0S3BxQkNZejA2c0lta09GYWFxMUxuV0ZYbTNfY01yQmlENkdScWlLVk9GcFU5NXFsRDJ0T045ZXFHOG1xOER6TDRZVE1PZWRPSXZuMWYtTlFXR1F5akpwdXpkdUc3QmN1cElmS2hMMjVkOGl3cWxKdHFuYXppQ3hRUjltaHItX05rbU40OWp3YjFhbGhxZjhFZGNrcUJHYUpURXcxbGhneEk4eG10ZV84T2hBQVpfdXloMUxyY182NWhHcHJ1SGhFSXVuMDl1ZU5YMGs0eV9VdUlhbnctZFlZVjg?oc=5",
-          "date": "Wed, 20 May 2026 13:55:31 GMT"
+          "headline": "El apalancamiento de XRP en Binance se dispara a máximos de siete meses - CriptoNoticias",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMFdaUUFNVzNmc3Z6LVpWYWJ1V2xEQTRuN2U2SjR2ZFdzWGpKVnJDUEpGZ2dDdjN4b1lhSXJ3TXY3aFVrMmVXTnBiQVRkVHhhcHJUTVlzWTZLYU82NDlkRFZ1QmNUTlhFRVZwalNhbkVscTFjdTZNNHNIM3RuYWduckx3WGlOTUJrcGNSZ2RWelBrdlJwRmlTNzRvWQ?oc=5",
+          "date": "Wed, 26 Aug 2026 19:21:00 GMT"
         },
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
+          "headline": "Cuánto vale XRP hoy, 24 de agosto de 2026 - iProUP",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNVhTOWFWeWFlZnlfME9NMUJCcExvNkJ0UkhlTDZ6NEtWdnVLcl8taXBvSllsWU1NdGNpYTd5S0p5VTgyVFR3bk4tQzNWWWUyR2JrRXFKTk80VTZDc05qaWY0THVtUWpLWUVyVTFwT2l1cGVmakhHTjg0cEIwZW9LcFo2NndXZ1VsZ2N0cFhTanFOY0VEMmdLUGItUnJpU09raTdSdnVxV3dzbVRmZEUxcjRaNTFNUTdfdlFYVNIBwgFBVV95cUxQM3lkUUcwbnM1TE9rZ1FqR3haZ2k1SVUtbUs4QjBGc3RLMjJFQld2dlllSlZ2ZGU2eklFb1piVlFDZXZGcUFub0U4NkM1WTAyVEtmS0hWbmFKbnQ3cGoyNmkzNXVCM2J1blU0dlZGQ2RUc2tLTHdGclF4OGFreXhtNnJmbGowLXNXcXcyRkxIWnY5VnhGa0pCSXFSeXdBREVYRVlvSVVRd05EQkxXZjkxVDRENWZ1cTNOOXV0RF9LV1h3Zw?oc=5",
+          "date": "Mon, 24 Aug 2026 18:15:00 GMT"
         },
         {
-          "headline": "Criptomonedas Predicción del Precio: Chiliz, Ondo y Ripple – Resumen Asiático 19 de mayo - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWEp3endpSU1RZGEtR0lLSGhYQ3Z3OXdPRjJ6TTlGYk83LW12aGtFakdycmtNOGNnUjJWcEcwcTRLckttVFVod3VCRlE3VVBocy12Qkp5WGNfQkd1eDU4XzVsdGNHSndZVThrVk5iaTNNY2NjT1ZYcU1rVEUzX3RBWld1RzdYVkJLZXZtb3lPX0FQbUVaYmJTenRaTElDOEdiaGpENlNIRU1jWlIzczJiX3l2ZW4xcU5PM3NCN2dSc3lDX2hzVHF5eU91aGtxNTVReXF1N1dLY2ZRcnPSAeABQVVfeXFMT1MzVWZRZUl4ZG1MSEdRRG5NXzZ2WFBjc0ZEcTUxRlVxbkNTaFF5RHdYeWtHRHlEck1HbE92alFmRmZTYVVLdUhENUtlS052aU52S1paYUlUNkhkM3R6U0RIWnVmTjhndGlvWUkyU3B4MUI2OGtXTjlUVlNBRkJsaGVXMktObUxTODhySkVwWVlFSzVNcklHYVdBR0RBUmZrcnNWTkxCdVI1UDd3ZXBPSTluWEJMUUtSN3ZuWHBwUjRCU3ZaMXpDeXRZUE1WblFzUzZYSHA5blJKajFjNHRyako?oc=5",
-          "date": "Tue, 19 May 2026 05:49:07 GMT"
-        },
-        {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
-        },
-        {
-          "headline": "Pronóstico de Bitcoin, Ethereum y Ripple: El BTC cae hasta un soporte clave, ETH y XRP permanecen bajo presión - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNblctSHdFZzgwakFWVmVZWkR2V1YxNHNHRmJjaG9HdXZwZzlwaExFeWlJdDl4VU1qZTZWMHdWU2k0ZGtfb2Fibm16TnJwY1dDUWlHVE1OaHI4cUxhdlFWYW5DNm85dDdOWGkySklrZ2tLLV81Q2xxYjh5NjlFUGQyNFdDNERSQ3ZJNUg5V1d0U0otUUhIWkNsRUw5MEk3el9Udm1jWkRDYXpFYUlFY2FfNXItOE9EQWZTQjFLOENfSHB1R3lLY3ZLSjBBVmZpRWoxd1ZncWJvQ2JmVkNuRmlTY2lVSVZPd3hsdi1aUjl4V2dhcC1XMktJRnNPamp4c1dVeDZPT2Y2R3h2MWhyZnfSAZMCQVVfeXFMT2hPV1ZXQ2JLd2RqYk95RDVuMDF2OVZySjhRbTZtOWxoU0x1MFB5VWtEN2FJczJXSVRnNHdfc3dJeFVOTmw0N2tDWldtd2NKckJjTThzdW9DQnA2ZEFxcy1xTTQ2UU9qcXdXTE1xVUdtZ2N2V21yMExMY2RCUG1LUjJuWnBldVRvT3M3SG5EbTQ3cE92cndlRmdJU3BNZTliVm5lLVphemRMNjVsZm5Gc0U0Rm95X3ctSTI1cHFWVW5seXJGYTJ1NmtROHd3UExaU1JfeXNnZ284dnczLXpXR2pBQTZkdWpsZ1pTSW5xdkFsUF9OWFQ2OG5NXzNrQlFEckZkUFRDVzNkMkNHYjZ4MUkyYXc?oc=5",
-          "date": "Mon, 18 May 2026 03:33:43 GMT"
-        },
-        {
-          "headline": "Ethereum, Ripple, Solana y Dogecoin se preparan para una semana bajista - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOOUVyUHFRWGt0YXpPR2oyZTFUdDdFWUlKc2V6MDQwTDFuSnFHUXRYY0hBMWZHVlltNnAtRnpESUtGY2tfeldsdkNFSzRibjFkVnhYZjdMdmVNSzVyeWVYSnVNSmFld0d2UFlEOFdDMjNpbXFqb2VILUQ1bTZTQURCQVJCN19QWkhad3lma19ZVS1ERHRZMUpneV9Mb0J4blUxYnhwLVJuaGpRbzBHUllWNnFFNUtVX0xRM0t3SkxQRVFybE1hb2w0TGp3QnZTak40YmNGelBJS2VKX1VkaUxNcmdwTFdOd09VU3dmX2w2cDhnakpybjJtcWFjZ2p6SDZlY1IxbEFXMHpkTkhoVnhWQVlIbTZvam5RcllwV2RR0gGjAkFVX3lxTE1zdjIwX21BemxPZXZoSzZnYlhOYVFDaUlRTTBXRzA4VEFhQnhXc250LTQ5aFFtcDRlMDdMa3E0WXlRVWkybWI4cWhLUEY1SFpxdmtrdEF6MmVSRnY2WUV2TjNxLUMxdW1XQm40cVV1bmRhUmxwRjhVWVFsNWZ2dmIyRFRTWkVLOHQ5QXZvRFVhdklBcFVieTlSbklwd1ROU2NDQnM4WG5MYldITGhvN0lQVzJOZWcyTVVGTEF4R0tUV3hDR215X2pNbWo0YndIM3JCcWdlR0ZFcUdRcXc2eWtGSmVHNExWWkNfZVl2SGZ5b0k0M3ViWER6b1RDU2JsVlZvckVlUTBFX2xYTlMzbFpESzRndGJsMjhSUEx5QlFNQVhJbw?oc=5",
-          "date": "Mon, 18 May 2026 12:48:45 GMT"
-        },
-        {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
-        },
-        {
-          "headline": "Criptomonedas Predicción del Precio: Ripple, Hyperliquid y Bitcoin – Resumen Asiático 21 de mayo - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSjJuMGdaSGRKMVJSVkpiejluTGQ1ZlRuU0VaR25VcWJyVzVyM1MydkUycC1WN25kYmZDV1lTZ2tiaTNWWGQ1SHJaeXJxVFphSTBmNW5aQTdDeGZXLWVYZ0RybmFxTGoxTHZUQjRFeG5ENGwwcDhKQTJPUGV4cGxxTG1OUG1OcUtNajE4bjJVUkpfbHNzRk1ZOTloeXBJTUx5eVY5cWN1Z2gxa0RmV3ViWVJZX2E2c0NsQ1RkcHJiTllHZzNraUpheVNIQmFUM19yWk50aEgtY3pNNTFLdTNmR1hKbjRpZ9IB6wFBVV95cUxOdE8xUi1Ic1E0d041U21nc21KNFB1amt5aW9rWG1pbE1TNTJ3RU9ZWVVsdk5KTC0tQjdvSGpXSFlNQm9qbDlRangzQ2NfNTVHRFI3X1lOcGdrT1pGaHM1OTlvbFZxX1hFWFdXWDZlTEhvanF5VWxqX1RDM2pvMnlFWkhpVGZjTWpoRmVxR21rb1UxSlItR3hhZ2NJZ1VJRFhHQ3V6czZNQVRTYWhqRlZfd0dqeXphbmtzSmMxQU5vdFhiQkdGdDNTWmN6MWNkUm5mSEhQTXpaZlllX3d4cnBHX2VaV0t1eGtqSlZV?oc=5",
-          "date": "Thu, 21 May 2026 05:28:55 GMT"
-        },
-        {
-          "headline": "Se recrudece la batalla por las licencias bancarias para cripto tras la aprobación de Coinbase, Ripple, Bitgo y otras empresas por parte de la OCC - Bitcoin News",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcDJ3T3NZa3RfR2ZCMmFRQ0lfNjBVXzFkb0pzOUlXY1Ixc2NhWG1xQUxpZ2l0d2g0MmNnYWlTNUZhbHhTa3ZGcnFZWXN6ZFdTcEdTVGZqV285amVMang1MnFZdkpCclVBYWNHbXh1eTBReFRIVlMyWXRCZjhGRDZBS3M3NlRVSFNrQmszcWU2dTVmZnl4YUhJenoxY0xHeVZOanNxdDZETzFyS2dkQ1RUSElMYWpha2hNN25DWVhHLUhmV1BqWjJsNGdlVVcwMW5tMDNqekJmcGhUUWhlbjIxaF80aWgyTzU5bEwtYmlHdDduMjVvNHp6NV9ZUEZkZTk3d2Nj?oc=5",
-          "date": "Thu, 21 May 2026 03:45:54 GMT"
+          "headline": "¿Hacia dónde se dirigen ahora los precios de Bitcoin, Ethereum y Ripple? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQ0NKX251SWNQQVY5SlBZZW9kU1NDNFdNdjhLYTBXY3Z1bWZObmw2dkhLRWFTdmp6bDNrZkhnQUlLb2hoNk1vSlFvOXRpQ19qU1JQenlXQ0FLV21NTkpaVU9yV2NfOXEyTTJtclVZZ2pGX0c2eTFwSjJaWGRNZkpEU2p4ZzRmWmp2NHQ3NnZTbG12dm9LeTlaQ3A5R1kyakpiM2lKREZCZ1h3YVFna2l4a0h5MFFlMGNJZkxQTV9OTTh1dVZsbWlaZ1prRnRfSkRodXB6RUNnc0ZiRU9qcHgzMW1IT3JsNHFNT3U1dFNkS2tjMWo0b0Zqa1RPQnRvVThHcVZJb0c2ZC1RLTQyYXpxcFBod0xwOFdzSWxqMEhtcTPSAaYCQVVfeXFMTmFEeTRlazQzRC1oMEl2bk1kbDJjYzVQbV9Xa1JTYWh1Q1A1bm53NDVXQXB6LUd4RjNSZVhyY0U3NzktYldfU3d1c29uRWxUZk9ROTYtd3dNNEVzaktWZ3lwdlBZWmFqVnBCcmhQM2pJSUotVEFGT294aHN6Nkt3NDFVcVg4ZHBpZFNzNk5POVR0eVJsMmQwTGJuRW9KTkVxQnM0eTFWUUhtMDFlSjM1Nkw5R2w0b1RjWUJFajZsWjk1MjRBUTZubkxFMzczUXV1b1VIeFV3ZVdTOTNVaXhmNktHeVBmTUltS0NDbllxMjI5UUFqWmZuek1KdWRYVW16a3hPcURkM205aW01Z3g1OW5uUEEyNThYdU9zMm00MUVDMFEtTmhR?oc=5",
+          "date": "Wed, 26 Aug 2026 03:22:00 GMT"
         }
       ],
       "assetLimits": [],
@@ -70,142 +78,177 @@
     },
     {
       "asset": "Ethereum",
-      "price": 1838.35,
-      "totalInvested": 95.98,
+      "price": 2133.01,
+      "totalInvested": 95.98435,
       "totalWithdrawn": 0,
-      "netProfit": -31.64,
-      "totalRoi": -32.97,
-      "finalBalance": 0.04,
+      "netProfit": -95.98435,
+      "totalRoi": -22.22,
+      "finalBalance": 0.035,
       "newsContext": [
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
+          "headline": "¿Comienza la altseason? Gráficos dan respuestas opuestas - Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdUNYMVV1b0h6WVR5VU9veXJpd294cjZ2eEJWVlFrb2kzT2VaTERUNjJycHlidE9vRE1sUjJtV2dqcjZ1RV9WSFJraXRMNTN5WGp0TXNxRl9oamFvQ3V2VlN1S2VtTzNDLTZMaVlzZ2NrZ1VHMm11Rm5sS1g3enE2LW5qdXNNdmJYVTFtaDNCczlZaDUxd0FXMFY5RmhxLWdXSTVReG1uUFg?oc=5",
+          "date": "Wed, 26 Aug 2026 07:59:00 GMT"
         },
         {
-          "headline": "Goldman Sachs se deshace de XRP, Solana y Ethereum por este motivo - iProUP",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOTdKeEVsUWRmT1YzVkRFRWlSZnBQWWo3ZnkyZ0haZzZKQ1U5TGFKZmt1WmpqcHhyX3EzTnVPcDVLbXEwbkFraTVGZ2RSTnVBalVWM1dxOGp0TC1CQUJZV3lMYThuMEFOWFFsdnZCQTc4NVd2REE3SGwtSFhGcTlMQURVTDFLZ21ENnh4U2s4bGhfUVhDMVBIRnlPaUxBYlBiUmpoanAtQ00tZWJrWnhmX9IBtgFBVV95cUxOLXBVNFJyaF90dzB3VWVOM0tLZHZsa0VVcVlhNWdWd2pLdEVpa1VtTkR0Y2dnOHM2OTNXSEQ0WmFtUVlDYjNnc0Z5dTlYY1lnM1FCMHB2TFp0bXFZWWl2TVBxY0lMM2xxOGQwem9aT2lsTS1TYUhZQmszRlc2R0hFUVo0bDNYZkgzU3JTNEVJTDROeXdDdnJYXy1EcGhOdTMxemV2NERWQWpNa05IZzViUUVMTkktUQ?oc=5",
-          "date": "Sun, 17 May 2026 07:00:00 GMT"
+          "headline": "¿Hacia dónde se dirigen ahora los precios de Bitcoin, Ethereum y Ripple? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQ0NKX251SWNQQVY5SlBZZW9kU1NDNFdNdjhLYTBXY3Z1bWZObmw2dkhLRWFTdmp6bDNrZkhnQUlLb2hoNk1vSlFvOXRpQ19qU1JQenlXQ0FLV21NTkpaVU9yV2NfOXEyTTJtclVZZ2pGX0c2eTFwSjJaWGRNZkpEU2p4ZzRmWmp2NHQ3NnZTbG12dm9LeTlaQ3A5R1kyakpiM2lKREZCZ1h3YVFna2l4a0h5MFFlMGNJZkxQTV9OTTh1dVZsbWlaZ1prRnRfSkRodXB6RUNnc0ZiRU9qcHgzMW1IT3JsNHFNT3U1dFNkS2tjMWo0b0Zqa1RPQnRvVThHcVZJb0c2ZC1RLTQyYXpxcFBod0xwOFdzSWxqMEhtcTPSAaYCQVVfeXFMTmFEeTRlazQzRC1oMEl2bk1kbDJjYzVQbV9Xa1JTYWh1Q1A1bm53NDVXQXB6LUd4RjNSZVhyY0U3NzktYldfU3d1c29uRWxUZk9ROTYtd3dNNEVzaktWZ3lwdlBZWmFqVnBCcmhQM2pJSUotVEFGT294aHN6Nkt3NDFVcVg4ZHBpZFNzNk5POVR0eVJsMmQwTGJuRW9KTkVxQnM0eTFWUUhtMDFlSjM1Nkw5R2w0b1RjWUJFajZsWjk1MjRBUTZubkxFMzczUXV1b1VIeFV3ZVdTOTNVaXhmNktHeVBmTUltS0NDbllxMjI5UUFqWmZuek1KdWRYVW16a3hPcURkM205aW01Z3g1OW5uUEEyNThYdU9zMm00MUVDMFEtTmhR?oc=5",
+          "date": "Wed, 26 Aug 2026 03:22:00 GMT"
         },
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
+          "headline": "3 criptomonedas que ganan con las nuevas reglas en EEUU, según Grayscale - iProUP",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaGhGc3Vic1paU3B5ZWt2eG5VZ2dPanZ3UnQ5Rkh5SWVrQ19fdVlXZmU5bDQ4RkswQnlyMkl3czFtU1lPNW1PaS1VcVhoTjl0VjVvYXdfVHpaOW0wampVcXBJSDYxd1AtWlBHWnFxVU5wMEdWSVo5VktpNzhfZEd5cVdsbi1vc21lVFR2Q2R4dm1adkxadEp5bk1ZdDdFSUg1RWhtcVZtcVE0czVzelJVT3FDd1FPQld1VDVwdnRWZFNiWWRZWTlHdFpfcG54QWMtRFBVNHh6b9IB3AFBVV95cUxQQXhSQzZvWnhTUllRMHB3RlR2RzRpdndzdGtPbWpHSlNiZVRwYUNsSVNOelMzcGF3a0JCTy04UE1NYWdsdmZZM00xSG9wbjEyMm5ieUQzTmZxMDU4dkt1RlBtRkkyZVVHekJFQXo4QnNrWVRFNHhvSTlLY2pDMnZKd0xLNE5ReFlMSm5DRTA5RDRnMWo3cUpSM1plUEl4QXpKZmRNUHJtTkkydFJGaWZTOFNCZVgwYmJUX3VNdldPakFlbDFCLUZHQ0tXVS02YUJZUXNlTFZ6clUtdm9H?oc=5",
+          "date": "Wed, 26 Aug 2026 09:59:58 GMT"
         },
         {
-          "headline": "Crypto Hoy: Bitcoin, Ethereum y XRP rebotan antes de las Minutas de la Fed - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdldmZENqS0ZXeWJiek1zSWduNk1TT1BLR3BxRFgtOGVaVElnc194X1drM1d1cFhjZHpOcmZDS01GQnNwQ05vNU1yczNiX09FaU9VUm92bGExa2JIdFBnUl9yTXBraEJmRXg0NGVocmZJOVVFaHF3TU8wSjN2ODVRRWN2X2NPUU9OcGI1Y2VJVEJtRGRDNjhwQ2dDOENKYW1IZk5MU3FxUm9YWDRRSEsyMWphd0t0OWEweEFNVUZzRHBQUXhVVmgzX1g5MTJ0cnhMcC1JYmhBNjczcU5XaWxhT2g1cVpjQUpaWEoxNkMzRTlGS1IzSGxsckdnSTBJSmhjaTRjSk9ZMUdIWG0zbEg40gGUAkFVX3lxTE1GRFNCYVRuSndUV2ZDWUNfb1hWM3FuNHhnenRUcDZVRVZOUUpHbGk2SGNsTmROclJyR1RlWmxYVG94bHRhREdkQ1R6SDJoNV9hMGpuRnRVV1pNUTFzNHJYSU1nTlM1ekc4Tm50NkFUWVZ0LW9qQVdsUHJxN1NEdlpsZ085ZGE1c3ZicjlsWGkwdzVCLV9fMHlIdzZVdlBqaks0VTFabTFVaVp6MHRSZGdVNFBXTnNKc1Z1eVNxLTBtUXg4c0UzRXUtY0paRkJJam5XS1Z0UW1Vd3ZjcFJPckllaDl5Vm9wV1hpMThRTEVQaktGbXRpUDh5d3ZKNTY2anNGaUUxRzBkUno1SkFFWVFLN283OQ?oc=5",
-          "date": "Wed, 20 May 2026 12:00:57 GMT"
+          "headline": "Datos clave: CRYPTO:ETHUSD; BitMine 5.85 millones de ETH; en staking >42 millones; minoristas +300% - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yZWN4Zl9wdEV3NFZEa2lnakdJaENlaHMxa0lMcjFuUFVPU21XM1JialhISEQ4elBzUXA3aWVDU1BnM2tCdXhuaEVVTU1oRE1CT2dwcjd2RC04RE1BTl9ZeHVaZm5wSW0xVmo3QQ?oc=5",
+          "date": "Tue, 25 Aug 2026 12:14:17 GMT"
         },
         {
-          "headline": "Pronóstico de Bitcoin, Ethereum y Ripple: El BTC cae hasta un soporte clave, ETH y XRP permanecen bajo presión - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNblctSHdFZzgwakFWVmVZWkR2V1YxNHNHRmJjaG9HdXZwZzlwaExFeWlJdDl4VU1qZTZWMHdWU2k0ZGtfb2Fibm16TnJwY1dDUWlHVE1OaHI4cUxhdlFWYW5DNm85dDdOWGkySklrZ2tLLV81Q2xxYjh5NjlFUGQyNFdDNERSQ3ZJNUg5V1d0U0otUUhIWkNsRUw5MEk3el9Udm1jWkRDYXpFYUlFY2FfNXItOE9EQWZTQjFLOENfSHB1R3lLY3ZLSjBBVmZpRWoxd1ZncWJvQ2JmVkNuRmlTY2lVSVZPd3hsdi1aUjl4V2dhcC1XMktJRnNPamp4c1dVeDZPT2Y2R3h2MWhyZnfSAZMCQVVfeXFMT2hPV1ZXQ2JLd2RqYk95RDVuMDF2OVZySjhRbTZtOWxoU0x1MFB5VWtEN2FJczJXSVRnNHdfc3dJeFVOTmw0N2tDWldtd2NKckJjTThzdW9DQnA2ZEFxcy1xTTQ2UU9qcXdXTE1xVUdtZ2N2V21yMExMY2RCUG1LUjJuWnBldVRvT3M3SG5EbTQ3cE92cndlRmdJU3BNZTliVm5lLVphemRMNjVsZm5Gc0U0Rm95X3ctSTI1cHFWVW5seXJGYTJ1NmtROHd3UExaU1JfeXNnZ284dnczLXpXR2pBQTZkdWpsZ1pTSW5xdkFsUF9OWFQ2OG5NXzNrQlFEckZkUFRDVzNkMkNHYjZ4MUkyYXc?oc=5",
-          "date": "Mon, 18 May 2026 03:33:43 GMT"
-        },
-        {
-          "headline": "Ethereum, Ripple, Solana y Dogecoin se preparan para una semana bajista - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOOUVyUHFRWGt0YXpPR2oyZTFUdDdFWUlKc2V6MDQwTDFuSnFHUXRYY0hBMWZHVlltNnAtRnpESUtGY2tfeldsdkNFSzRibjFkVnhYZjdMdmVNSzVyeWVYSnVNSmFld0d2UFlEOFdDMjNpbXFqb2VILUQ1bTZTQURCQVJCN19QWkhad3lma19ZVS1ERHRZMUpneV9Mb0J4blUxYnhwLVJuaGpRbzBHUllWNnFFNUtVX0xRM0t3SkxQRVFybE1hb2w0TGp3QnZTak40YmNGelBJS2VKX1VkaUxNcmdwTFdOd09VU3dmX2w2cDhnakpybjJtcWFjZ2p6SDZlY1IxbEFXMHpkTkhoVnhWQVlIbTZvam5RcllwV2RR0gGjAkFVX3lxTE1zdjIwX21BemxPZXZoSzZnYlhOYVFDaUlRTTBXRzA4VEFhQnhXc250LTQ5aFFtcDRlMDdMa3E0WXlRVWkybWI4cWhLUEY1SFpxdmtrdEF6MmVSRnY2WUV2TjNxLUMxdW1XQm40cVV1bmRhUmxwRjhVWVFsNWZ2dmIyRFRTWkVLOHQ5QXZvRFVhdklBcFVieTlSbklwd1ROU2NDQnM4WG5MYldITGhvN0lQVzJOZWcyTVVGTEF4R0tUV3hDR215X2pNbWo0YndIM3JCcWdlR0ZFcUdRcXc2eWtGSmVHNExWWkNfZVl2SGZ5b0k0M3ViWER6b1RDU2JsVlZvckVlUTBFX2xYTlMzbFpESzRndGJsMjhSUEx5QlFNQVhJbw?oc=5",
-          "date": "Mon, 18 May 2026 12:48:45 GMT"
-        },
-        {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
-        },
-        {
-          "headline": "Crypto Hoy: Bitcoin, Ethereum y XRP rebotan antes de las Minutas de la Fed - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdldmZENqS0ZXeWJiek1zSWduNk1TT1BLR3BxRFgtOGVaVElnc194X1drM1d1cFhjZHpOcmZDS01GQnNwQ05vNU1yczNiX09FaU9VUm92bGExa2JIdFBnUl9yTXBraEJmRXg0NGVocmZJOVVFaHF3TU8wSjN2ODVRRWN2X2NPUU9OcGI1Y2VJVEJtRGRDNjhwQ2dDOENKYW1IZk5MU3FxUm9YWDRRSEsyMWphd0t0OWEweEFNVUZzRHBQUXhVVmgzX1g5MTJ0cnhMcC1JYmhBNjczcU5XaWxhT2g1cVpjQUpaWEoxNkMzRTlGS1IzSGxsckdnSTBJSmhjaTRjSk9ZMUdIWG0zbEg40gGUAkFVX3lxTE1GRFNCYVRuSndUV2ZDWUNfb1hWM3FuNHhnenRUcDZVRVZOUUpHbGk2SGNsTmROclJyR1RlWmxYVG94bHRhREdkQ1R6SDJoNV9hMGpuRnRVV1pNUTFzNHJYSU1nTlM1ekc4Tm50NkFUWVZ0LW9qQVdsUHJxN1NEdlpsZ085ZGE1c3ZicjlsWGkwdzVCLV9fMHlIdzZVdlBqaks0VTFabTFVaVp6MHRSZGdVNFBXTnNKc1Z1eVNxLTBtUXg4c0UzRXUtY0paRkJJam5XS1Z0UW1Vd3ZjcFJPckllaDl5Vm9wV1hpMThRTEVQaktGbXRpUDh5d3ZKNTY2anNGaUUxRzBkUno1SkFFWVFLN283OQ?oc=5",
-          "date": "Wed, 20 May 2026 12:00:57 GMT"
+          "headline": "Ethereum se prepara para “robarse el show”: ¿qué está viendo el mercado? - CriptoNoticias",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRlllaDZ4eWE0RG1BQ2RSaWZHOGI2NExDYXpwZmxaSndtUVZfdWpULXgzM1YwQnBCc1dOUkNhaWJmWUZudEliXzZpNXFrV3JaYldzNG9jeEFiWWl6cVVGcFpEREtCMllFWnBWZjJnbExaYklLSlRnczRMbnM2Rlp0TzB3X3A4dXM?oc=5",
+          "date": "Wed, 26 Aug 2026 19:36:00 GMT"
         }
       ],
       "assetLimits": [
         {
-          "objetivo": 4140,
-          "extraccion": 148.71
+          "target_price_eur": 1940,
+          "withdraw_eur": 148.71,
+          "executed": true
         }
       ],
       "executedSales": []
     },
     {
       "asset": "Bitcoin",
-      "price": 67023,
-      "totalInvested": 1027.26,
-      "totalWithdrawn": 93.75,
-      "netProfit": -161.33,
-      "totalRoi": -15.7,
-      "finalBalance": 0.01,
+      "price": 67496,
+      "totalInvested": 1121.0103794000001,
+      "totalWithdrawn": 93.74647999999999,
+      "netProfit": -1027.2638994000001,
+      "totalRoi": -15.11,
+      "finalBalance": 0.01292,
       "newsContext": [
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
+          "headline": "¿Comienza la altseason? Gráficos dan respuestas opuestas - Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdUNYMVV1b0h6WVR5VU9veXJpd294cjZ2eEJWVlFrb2kzT2VaTERUNjJycHlidE9vRE1sUjJtV2dqcjZ1RV9WSFJraXRMNTN5WGp0TXNxRl9oamFvQ3V2VlN1S2VtTzNDLTZMaVlzZ2NrZ1VHMm11Rm5sS1g3enE2LW5qdXNNdmJYVTFtaDNCczlZaDUxd0FXMFY5RmhxLWdXSTVReG1uUFg?oc=5",
+          "date": "Wed, 26 Aug 2026 07:59:00 GMT"
         },
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
+          "headline": "Noticias cripto: ¿Volverá el mercado alcista de Bitcoin de forma duradera? - XTB.com",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNekc5UTcyVHVIQ3U1WlFPTHdMYkZ2ZEl1aWVCY3MzczdOSGgtTmJZWWVEUnlReXdPT3RJdVBFcHdUTWdyTE1VVkNFNEdJY0VQMExiX3EwSFRlUGhhOUlEZHNnUGYtY3FvVVR4QXVkSFhaRWpZV0FZN2VpaXFENWs1emxGVExyQjk4NFp5MTJVVDhMa0tSX3VUSUFmMXVEUzhuLUFWUld4UVNzZHdLbXdDcURFVXNOUXBuVVgwMGVhMzM0R1hPQV9uSVJHNENjZXlH?oc=5",
+          "date": "Wed, 26 Aug 2026 13:57:44 GMT"
         },
         {
-          "headline": "Crypto Hoy: Bitcoin, Ethereum y XRP rebotan antes de las Minutas de la Fed - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdldmZENqS0ZXeWJiek1zSWduNk1TT1BLR3BxRFgtOGVaVElnc194X1drM1d1cFhjZHpOcmZDS01GQnNwQ05vNU1yczNiX09FaU9VUm92bGExa2JIdFBnUl9yTXBraEJmRXg0NGVocmZJOVVFaHF3TU8wSjN2ODVRRWN2X2NPUU9OcGI1Y2VJVEJtRGRDNjhwQ2dDOENKYW1IZk5MU3FxUm9YWDRRSEsyMWphd0t0OWEweEFNVUZzRHBQUXhVVmgzX1g5MTJ0cnhMcC1JYmhBNjczcU5XaWxhT2g1cVpjQUpaWEoxNkMzRTlGS1IzSGxsckdnSTBJSmhjaTRjSk9ZMUdIWG0zbEg40gGUAkFVX3lxTE1GRFNCYVRuSndUV2ZDWUNfb1hWM3FuNHhnenRUcDZVRVZOUUpHbGk2SGNsTmROclJyR1RlWmxYVG94bHRhREdkQ1R6SDJoNV9hMGpuRnRVV1pNUTFzNHJYSU1nTlM1ekc4Tm50NkFUWVZ0LW9qQVdsUHJxN1NEdlpsZ085ZGE1c3ZicjlsWGkwdzVCLV9fMHlIdzZVdlBqaks0VTFabTFVaVp6MHRSZGdVNFBXTnNKc1Z1eVNxLTBtUXg4c0UzRXUtY0paRkJJam5XS1Z0UW1Vd3ZjcFJPckllaDl5Vm9wV1hpMThRTEVQaktGbXRpUDh5d3ZKNTY2anNGaUUxRzBkUno1SkFFWVFLN283OQ?oc=5",
-          "date": "Wed, 20 May 2026 12:00:57 GMT"
+          "headline": "Gabriel Abed, el hombre que perdió 800 bitcoins tras un formateo de su PC y no se rindió: ahora es un ‘capo’ d - Diario AS",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTXczaGVaWUNrWTFJdzRnQklST0xBODZmNFYwejN1bjJob0tLRThrQlIwV1ItYzhiS0VEaGdyS1d5dEk2Y1pDaUxZT21WMW1MaUNfYjFWNXlOSEJPOFFfeHNGVEthSDlvNjFKc3JLRjdfeG0zb1k3azNKemRza2hNMVYybG90a2Q4dFFvaVRqOHQ2c0prWUNyLXdVdDFGaWR6WklFcTVxZG94dEk5M01Xb2ZSMFJyeTMxRlNsczRoaTZGSzFxWjZ5dnB2eFc4MjllR0loVmFDVXlxZE9ZMGNrMl95MDNLd1FULW9EeG1KSGFNV3ltOXdTQVFXbWtOTXJWd2ZDdk1rRXnSAZwCQVVfeXFMTktsNDdjWUhnZ256bmwwbDVzUFVBMXV0MXpURTZVakVQRmZLV19ydUNKejMtbFI4VjdSVm9IejV1bkxITi1INGE5RmZYMEwwUjNoZThVWTBRRlRXaXdVVmw2OWVwU0lmNnlCV3NVRWJJaDEtTThVOHpaYnZlUnRsaXpEVW9VelE4QWRadWpFVzFvbWt3YjBHdE92ZTRvQk5Zd2MtWkpPQmpwUWhYSEx2S2s3Wl9NTzJjeDVnVXd2UXdKdkhvYjlGN3VVVHNuc0s1M1dTNHNLUXlGMGpQZWpHQk5GT2gza3d1Wk9KMDdsOF9mbWcyQnVFRUZRVDdhY3ByU1diVEY4NDFVLXJtVXF5RzJIY2JQQ25hOWY5VDE?oc=5",
+          "date": "Tue, 25 Aug 2026 06:47:25 GMT"
         },
         {
-          "headline": "Pronóstico de Bitcoin, Ethereum y Ripple: El BTC cae hasta un soporte clave, ETH y XRP permanecen bajo presión - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNblctSHdFZzgwakFWVmVZWkR2V1YxNHNHRmJjaG9HdXZwZzlwaExFeWlJdDl4VU1qZTZWMHdWU2k0ZGtfb2Fibm16TnJwY1dDUWlHVE1OaHI4cUxhdlFWYW5DNm85dDdOWGkySklrZ2tLLV81Q2xxYjh5NjlFUGQyNFdDNERSQ3ZJNUg5V1d0U0otUUhIWkNsRUw5MEk3el9Udm1jWkRDYXpFYUlFY2FfNXItOE9EQWZTQjFLOENfSHB1R3lLY3ZLSjBBVmZpRWoxd1ZncWJvQ2JmVkNuRmlTY2lVSVZPd3hsdi1aUjl4V2dhcC1XMktJRnNPamp4c1dVeDZPT2Y2R3h2MWhyZnfSAZMCQVVfeXFMT2hPV1ZXQ2JLd2RqYk95RDVuMDF2OVZySjhRbTZtOWxoU0x1MFB5VWtEN2FJczJXSVRnNHdfc3dJeFVOTmw0N2tDWldtd2NKckJjTThzdW9DQnA2ZEFxcy1xTTQ2UU9qcXdXTE1xVUdtZ2N2V21yMExMY2RCUG1LUjJuWnBldVRvT3M3SG5EbTQ3cE92cndlRmdJU3BNZTliVm5lLVphemRMNjVsZm5Gc0U0Rm95X3ctSTI1cHFWVW5seXJGYTJ1NmtROHd3UExaU1JfeXNnZ284dnczLXpXR2pBQTZkdWpsZ1pTSW5xdkFsUF9OWFQ2OG5NXzNrQlFEckZkUFRDVzNkMkNHYjZ4MUkyYXc?oc=5",
-          "date": "Mon, 18 May 2026 03:33:43 GMT"
+          "headline": "Bitcoin a 80.000 dólares por primera vez desde mayo: los bajistas se retiran y los ETFs entran con fuerza - Finect",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd19aLVFEUFhYNUp6OU5tWG1yanF6azlScDNSWnRYZENUU1VpN0FYdVhBQWNkaHpMY0tYYVBTQXZ4ZHV6cGxXTFdOdmN5Zjg4YllDTUVFSGN6ZTRtSVJjUHJTcC1tbFZGdVZESUExUGRmQlBHYjh1aGlURWhKWG5qWFhpQ01Mb0xZV0lVeEhrMEJOdHdlcnV4ZWthR0toX2F1U3pFZU5sZnlfUHBRQVVIYkVJWE53d2kzWWVPSGZ4d2VMZUFaLWxqclo3TF84RDljanpYbUFlTkZoUnI1c0FTOG9hU3lJa0Q3U2dhb1R3?oc=5",
+          "date": "Tue, 25 Aug 2026 07:40:51 GMT"
         },
         {
-          "headline": "Pronóstico de precios Top 3: Bitcoin, Ethereum, Ripple – BTC se mantiene fuerte en soporte mayor, ETH y XRP intentan recuperación - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbm10eEhrU2dLblRjTk9vQjMzbmxiYUh4dVFhdXZVVEVtTXJVWFY2ZGg1THJOMFI3RlRQZVFhcUJ0SWNQVWZ4dEhNSUZCdmNYS0o3NzVSdVFRTktsVnUxTWY0TGtVcC1fSjhnS195SUdiemE4djJCUDJYSllmb1hlTGdxczMxdHVlMWJXeWhuWUgxckpNRDJvcW5CbTJtMXJGOGFQQkVBQndjV2h5cG1LOUg3OFI4VkdHZm9HNUI0UEd0d2FOOEdpMkR3SElaX25vMFc1c3RtY3JBLTJKUVkyUWhhYUxzSElsdF9ISTdBbmV5dDhFTHNPc3RFSTFFWjdwanc4SzFYUkJQR2l5MUNF0gGUAkFVX3lxTE1ISmIzWEdpelo4R3RlZG9KNDBjR0NlZ2I5TW5FUmMzdHdTUlBiaDJvTUI5V1FERmxzN0N1YUEyQ1p4azBSLXlEWGNiZUd2Mnd2anFXb1k4RzdiUElzV2JQcUQ5SDNZUUJMMTFodm5faG1BYklneVU4Tmo0SFU2MWVYTnAxajNKclhmWXAtNjZqUlNIYVMwVkJTWFBzLVlfb0lxT015MmJZTTI0V1FRSUVUQ2NwRXJ0ZHNwellhYlJjdUktV2NIcWR2TW5GTUcxV19xbmdZMFAwZnNKRWtrWXdFVDFlaXA3N05Jb0dyQWo3ZHNzczF2N052Q3JvMmlLV0w5QTdaU0p6TnZ5OTFLZC1JNVpobw?oc=5",
-          "date": "Wed, 20 May 2026 04:03:22 GMT"
-        },
-        {
-          "headline": "Crypto Hoy: Bitcoin, Ethereum y XRP rebotan antes de las Minutas de la Fed - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdldmZENqS0ZXeWJiek1zSWduNk1TT1BLR3BxRFgtOGVaVElnc194X1drM1d1cFhjZHpOcmZDS01GQnNwQ05vNU1yczNiX09FaU9VUm92bGExa2JIdFBnUl9yTXBraEJmRXg0NGVocmZJOVVFaHF3TU8wSjN2ODVRRWN2X2NPUU9OcGI1Y2VJVEJtRGRDNjhwQ2dDOENKYW1IZk5MU3FxUm9YWDRRSEsyMWphd0t0OWEweEFNVUZzRHBQUXhVVmgzX1g5MTJ0cnhMcC1JYmhBNjczcU5XaWxhT2g1cVpjQUpaWEoxNkMzRTlGS1IzSGxsckdnSTBJSmhjaTRjSk9ZMUdIWG0zbEg40gGUAkFVX3lxTE1GRFNCYVRuSndUV2ZDWUNfb1hWM3FuNHhnenRUcDZVRVZOUUpHbGk2SGNsTmROclJyR1RlWmxYVG94bHRhREdkQ1R6SDJoNV9hMGpuRnRVV1pNUTFzNHJYSU1nTlM1ekc4Tm50NkFUWVZ0LW9qQVdsUHJxN1NEdlpsZ085ZGE1c3ZicjlsWGkwdzVCLV9fMHlIdzZVdlBqaks0VTFabTFVaVp6MHRSZGdVNFBXTnNKc1Z1eVNxLTBtUXg4c0UzRXUtY0paRkJJam5XS1Z0UW1Vd3ZjcFJPckllaDl5Vm9wV1hpMThRTEVQaktGbXRpUDh5d3ZKNTY2anNGaUUxRzBkUno1SkFFWVFLN283OQ?oc=5",
-          "date": "Wed, 20 May 2026 12:00:57 GMT"
-        },
-        {
-          "headline": "Criptomonedas Predicción del Precio: Ripple, Hyperliquid y Bitcoin – Resumen Asiático 21 de mayo - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSjJuMGdaSGRKMVJSVkpiejluTGQ1ZlRuU0VaR25VcWJyVzVyM1MydkUycC1WN25kYmZDV1lTZ2tiaTNWWGQ1SHJaeXJxVFphSTBmNW5aQTdDeGZXLWVYZ0RybmFxTGoxTHZUQjRFeG5ENGwwcDhKQTJPUGV4cGxxTG1OUG1OcUtNajE4bjJVUkpfbHNzRk1ZOTloeXBJTUx5eVY5cWN1Z2gxa0RmV3ViWVJZX2E2c0NsQ1RkcHJiTllHZzNraUpheVNIQmFUM19yWk50aEgtY3pNNTFLdTNmR1hKbjRpZ9IB6wFBVV95cUxOdE8xUi1Ic1E0d041U21nc21KNFB1amt5aW9rWG1pbE1TNTJ3RU9ZWVVsdk5KTC0tQjdvSGpXSFlNQm9qbDlRangzQ2NfNTVHRFI3X1lOcGdrT1pGaHM1OTlvbFZxX1hFWFdXWDZlTEhvanF5VWxqX1RDM2pvMnlFWkhpVGZjTWpoRmVxR21rb1UxSlItR3hhZ2NJZ1VJRFhHQ3V6czZNQVRTYWhqRlZfd0dqeXphbmtzSmMxQU5vdFhiQkdGdDNTWmN6MWNkUm5mSEhQTXpaZlllX3d4cnBHX2VaV0t1eGtqSlZV?oc=5",
-          "date": "Thu, 21 May 2026 05:28:55 GMT"
-        },
-        {
-          "headline": "Se recrudece la batalla por las licencias bancarias para cripto tras la aprobación de Coinbase, Ripple, Bitgo y otras empresas por parte de la OCC - Bitcoin News",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcDJ3T3NZa3RfR2ZCMmFRQ0lfNjBVXzFkb0pzOUlXY1Ixc2NhWG1xQUxpZ2l0d2g0MmNnYWlTNUZhbHhTa3ZGcnFZWXN6ZFdTcEdTVGZqV285amVMang1MnFZdkpCclVBYWNHbXh1eTBReFRIVlMyWXRCZjhGRDZBS3M3NlRVSFNrQmszcWU2dTVmZnl4YUhJenoxY0xHeVZOanNxdDZETzFyS2dkQ1RUSElMYWpha2hNN25DWVhHLUhmV1BqWjJsNGdlVVcwMW5tMDNqekJmcGhUUWhlbjIxaF80aWgyTzU5bEwtYmlHdDduMjVvNHp6NV9ZUEZkZTk3d2Nj?oc=5",
-          "date": "Thu, 21 May 2026 03:45:54 GMT"
-        },
-        {
-          "headline": "El XRP inactivo encuentra un nuevo caso de uso a través de Flare Yield Vault tras el lanzamiento de XRP Alliance - Bitcoin News",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQU01ZWR4SjBXVEZHOEhJN1ZtN0lieHlVSkhFdnYxZDRlbkRBWTBmQS1LbkMycE5Sc2ZSUzdKUzhYVEtqZlRFbUlydWx6UGFCTnE3elhSd2I1bTFKVDdEMVZxTkxLSTRnczYwVm5lclB6VWp4U1JvU0xTQ0dyVUxJYVRvUE1ocmZoRy1RMjNkQjJHNEg5bVFSNG9HbkdjWmJpZDJUaFZzY1NfbEVISXZWZlBkV2E5SVo0ZTMzTkh1a3k0ZWRDa1hORjBpN2UwTnI2a1VIeWEzVXI?oc=5",
-          "date": "Thu, 21 May 2026 00:53:20 GMT"
+          "headline": "¿Extenderá el Bitcoin su repunte por encima de 80.000$? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxON1NzT1hXcm8tWWxpdzB1X1dLV1ozX2tlWHpzQXF1WTM0dmVWUGE4dnBQcXl2LWZlQ1RrT2ZRUjRfdFRvSk1qajFFNWxaTVFmMU0za25JZWg5dkJ1dW8xSmJIWkV5b3JqYU9qMlFSWmFlVzFoTEtPT0NiV2E2RkxmMmJEU2I2M3d1R29XSFliSjBtNzV4SGt2em15M2liMnctQlFuYlJiODljQ2Q2MFZPZHR1eFRxQzhFblByV25tV0ZWMklCV0xoMFp4alRkbEdrcXRUTDZEbnRVakR2VFZLY2FRZGpfM3NfeFpJRXpyRWJDWHNCQk4yS3VhZDFpYVREM1FSSnd4MFVlSjFDekhjUFR6TzVsRUt1UG9kWTFaNFNMMFZVaHh3Y3dWcDBHUVgyYXBCYVhLaVRaRlhxNGw0c0JJbTbSAcoCQVVfeXFMTkJoM0N5UW1HNTczSGFjV19EN2daNTVqYXV2TzVzUVJwcm1KbXB3Um1KMnQxdF8yZW53b1VZVUN1djViOVFITUFtTXQzWmpDSGY2bVJxVk5SempsblNUcnlXMlZwdGo4c3JjZVFlRDNkQ0Zma200RW9qUmJSYTlfOUp5MWZBRXRZeTR0R2Qza1VjLVIyaEtwXy1Hc0lSWWhxMm90YnR6a2FfY3FhWEg5UWN3MmYwLW5scENVRGp0elA3aHZfcGU2NFpPTklOWDRhUUVscjNweEdYWW52WkRPZmtUU3ZyY2lxXzBTdVQ4R01FNDE0cVRXM1pINGJlOEJSR1hRTGdTQjhuX1dKZDQ4N0hPUWIwcWIwWFVTTVJIRjRUVktfRnpsNUlDd21vS1BBWjdJMXVQaUlIUll3bEpRRGpuTWx0U0hYUzhB?oc=5",
+          "date": "Wed, 26 Aug 2026 11:41:52 GMT"
         }
       ],
       "assetLimits": [
         {
-          "objetivo": 86750,
-          "extraccion": 150
+          "target_price_eur": 86750,
+          "withdraw_eur": 150
         }
       ],
-      "executedSales": []
+      "executedSales": [
+        {
+          "price": 93746.48,
+          "amount": 0.001,
+          "date": "2025-02-21"
+        }
+      ]
     }
   ],
   "availableFunds": 5.75,
   "economy": [
     {
       "currency": "Libra",
-      "currentPriceEur": 1.16,
-      "recentNews": []
+      "currentPriceEur": 1.168,
+      "recentNews": [
+        {
+          "headline": "El Euro sube ligeramente frente a la Libra Esterlina tras un sentimiento económico alemán optimista - FXStreet",
+          "date": "Tue, 18 Aug 2026 09:52:31 GMT"
+        },
+        {
+          "headline": "Así abre la cotización de la Libra esterlina este lunes, 24 de agosto de 2026 - El Cronista",
+          "date": "Mon, 24 Aug 2026 08:00:31 GMT"
+        },
+        {
+          "headline": "Así abre la cotización de la Libra esterlina este miércoles, 26 de agosto de 2026 - El Cronista",
+          "date": "Wed, 26 Aug 2026 08:00:32 GMT"
+        },
+        {
+          "headline": "Ni el franco suizo ni la libra esterlina: la moneda consolidada como la más fuerte del mundo - Diario AS",
+          "date": "Sat, 03 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "headline": "Libra esterlina: así abre la cotización de este martes, 25 de agosto de 2026 - El Cronista",
+          "date": "Tue, 25 Aug 2026 08:00:31 GMT"
+        }
+      ]
     },
     {
       "currency": "Dólar",
-      "currentPriceEur": 0.86,
-      "recentNews": []
+      "currentPriceEur": 0.85697,
+      "recentNews": [
+        {
+          "headline": "¿Continuará la subida del dólar estadounidense? - Morningstar",
+          "date": "Fri, 03 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "headline": "El Dólar australiano tiene el peor desempeño tras los comentarios de Michelle Bullock sobre la economía - FXStreet",
+          "date": "Tue, 28 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "headline": "El dólar gana atractivo mientras los bonos de EE.UU. enfrentan la presión de los altos rendimientos - Bloomberg Línea",
+          "date": "Sun, 12 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "headline": "El mercado acelera la cobertura contra una devaluación, que ya alcanza USD 12 mil millones - La Política Online",
+          "date": "Fri, 21 Aug 2026 15:29:50 GMT"
+        },
+        {
+          "headline": "El precio de bitcoin frente al dólar, termómetro de la economía global - CriptoNoticias",
+          "date": "Wed, 01 Jul 2026 07:00:00 GMT"
+        }
+      ]
     },
     {
       "currency": "Yuan",
-      "currentPriceEur": 0.13,
-      "recentNews": []
+      "currentPriceEur": 0.12752,
+      "recentNews": [
+        {
+          "headline": "Precio del Yuan: a así abre la cotización HOY martes 25 de agosto - El Cronista",
+          "date": "Tue, 25 Aug 2026 08:00:28 GMT"
+        },
+        {
+          "headline": "Precio del Yuan: a así abre la cotización HOY martes 18 de agosto - El Cronista",
+          "date": "Tue, 18 Aug 2026 08:00:31 GMT"
+        },
+        {
+          "headline": "Chau dólar: China promueve el yuan digital y desafía la hegemonía de EEUU - Ambito",
+          "date": "Thu, 18 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "headline": "Precio del Yuan: a así abre la cotización HOY jueves 20 de agosto - El Cronista",
+          "date": "Thu, 20 Aug 2026 08:00:36 GMT"
+        },
+        {
+          "headline": "China trata de internacionalizar el yuan digital para competir con el dólar y las criptomonedas - OkDiario",
+          "date": "Fri, 18 Apr 2025 07:00:00 GMT"
+        }
+      ]
     }
   ],
   "previousHistory": [
@@ -263,5 +306,9 @@
       "crypto": "Bitcoin: 68857.00 € (ROI: -13.40%) | Ripple: 1.24 € (ROI: -47.23%) | Ethereum: 1988.64 € (ROI: -27.49%)",
       "fiat": "Libra: 1.1573€ | Dólar: 0.85027€ | Yuan: 0.12502€"
     }
-  ]
+  ],
+  "fearAndGreed": {
+    "value": "73",
+    "classification": "Greed"
+  }
 }

@@ -1,322 +1,316 @@
 <!DOCTYPE html>
-<html class="light" lang="en" style=""><head>
+<html lang="en">
+<head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Financial Intelligence Analysis</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "surface-shadow-light": "#FFFFFF",
-                        "on-secondary": "#ffffff",
-                        "on-tertiary": "#ffffff",
-                        "surface-dim": "#dcd9d9",
-                        "text-primary": "#2D3748",
-                        "on-secondary-fixed": "#2b1700",
-                        "on-primary-fixed": "#171c1f",
-                        "on-primary-container": "#6b6f73",
-                        "secondary-fixed": "#ffddb9",
-                        "outline": "#74777a",
-                        "primary-container": "#f0f4f8",
-                        "inverse-on-surface": "#f3f0f0",
-                        "inverse-primary": "#c3c7cb",
-                        "tertiary-container": "#fff1e6",
-                        "secondary-container": "#fda625",
-                        "on-secondary-container": "#694000",
-                        "inverse-surface": "#313030",
-                        "secondary": "#865300",
-                        "surface-container-highest": "#e5e2e1",
-                        "tertiary-fixed-dim": "#d1c4ba",
-                        "tertiary-fixed": "#eee0d5",
-                        "surface-container-low": "#f6f3f2",
-                        "status-danger": "#d9534f",
-                        "on-primary": "#ffffff",
-                        "surface-container": "#f0eded",
-                        "on-tertiary-fixed": "#211a14",
-                        "on-surface-variant": "#44474a",
-                        "error": "#ba1a1a",
-                        "on-background": "#1c1b1c",
-                        "on-tertiary-container": "#776d64",
-                        "surface-container-lowest": "#ffffff",
-                        "surface": "#fcf8f8",
-                        "on-primary-fixed-variant": "#43474b",
-                        "status-success": "#2ecc71",
-                        "outline-variant": "#c4c7c9",
-                        "on-secondary-fixed-variant": "#663e00",
-                        "on-error-container": "#93000a",
-                        "on-error": "#ffffff",
-                        "surface-container-high": "#ebe7e7",
-                        "primary": "#5a5f62",
-                        "background": "#fcf8f8",
-                        "secondary-fixed-dim": "#ffb961",
-                        "surface-bright": "#fcf8f8",
-                        "surface-variant": "#e5e2e1",
-                        "text-secondary": "#718096",
-                        "error-container": "#ffdad6",
-                        "primary-fixed-dim": "#c3c7cb",
-                        "tertiary": "#665d54",
-                        "surface-shadow-dark": "#D1D9E6",
-                        "on-surface": "#1c1b1c",
-                        "primary-fixed": "#dfe3e7",
-                        "surface-tint": "#5a5f62",
-                        "on-tertiary-fixed-variant": "#4e453e"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "1rem",
-                        "lg": "2rem",
-                        "xl": "3rem",
-                        "full": "9999px"
-                    },
-                    "spacing": {
-                        "lg": "24px",
-                        "gutter": "16px",
-                        "container-padding": "30px",
-                        "xl": "32px",
-                        "xs": "4px",
-                        "md": "16px",
-                        "sm": "8px",
-                        "unit": "4px"
-                    },
-                    "fontFamily": {
-                        "headline-md": ["Manrope"],
-                        "body-sm": ["Inter"],
-                        "body-lg": ["Inter"],
-                        "headline-lg": ["Manrope"],
-                        "body-md": ["Inter"],
-                        "headline-sm": ["Manrope"],
-                        "label-caps": ["Inter"],
-                        "table-header": ["Inter"]
-                    },
-                    "fontSize": {
-                        "headline-md": ["18px", { "lineHeight": "24px", "letterSpacing": "0.04em", "fontWeight": "600" }],
-                        "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
-                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
-                        "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
-                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
-                        "headline-sm": ["14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" }],
-                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
-                        "table-header": ["12px", { "lineHeight": "16px", "fontWeight": "500" }]
-                    }
-                }
-            }
-        }
-    </script>
-<style>
-        .neumorphic-outer {
-            box-shadow: 12px 12px 24px var(--tw-colors-surface-shadow-dark), -12px -12px 24px var(--tw-colors-surface-shadow-light);
-        }
-        .neumorphic-inner {
-            box-shadow: inset 8px 8px 16px var(--tw-colors-surface-shadow-dark), inset -8px -8px 16px var(--tw-colors-surface-shadow-light);
-        }
-        .neumorphic-pressed:active {
-            box-shadow: inset 8px 8px 16px var(--tw-colors-surface-shadow-dark), inset -8px -8px 16px var(--tw-colors-surface-shadow-light);
-        }
-        .glow-positive {
-            box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
-        }
-        .glow-negative {
-            box-shadow: 0 4px 12px rgba(217, 83, 79, 0.2);
-        }
-    </style>
-
 </head>
-<body class="bg-background text-on-surface font-body-md min-h-screen flex flex-col md:flex-row">
-<!-- SideNavBar (Desktop) -->
-<!-- Main Content Area -->
-<div class="flex-grow flex flex-col min-h-screen">
-<!-- TopAppBar -->
-<header class="flex justify-between items-center h-20 px-container-padding w-full top-0 sticky bg-background shadow-[4px_4px_16px_0px_rgba(209,217,230,0.4),-4px_-4px_16px_0px_rgba(255,255,255,0.8)] z-10 shrink-0">
-<div class="flex items-center gap-md">
-<h1 class="font-headline-lg text-headline-lg font-bold tracking-tight text-primary">FINANCIAL INTELLIGENCE ANALYSIS</h1>
-</div>
-<div class="flex items-center gap-lg">
-<div class="relative hidden sm:block">
-</div>
-<button class="p-sm rounded-full text-primary hover:bg-surface-container transition-all active:shadow-[inset_4px_4px_8px_#d1d9e6,inset_-4px_-4px_8px_#ffffff] duration-200">
-</button>
-<button class="p-sm rounded-full text-primary hover:bg-surface-container transition-all active:shadow-[inset_4px_4px_8px_#d1d9e6,inset_-4px_-4px_8px_#ffffff] duration-200">
-</button>
-</div>
-</header>
-<!-- Canvas -->
-<main class="flex-grow p-container-padding grid grid-cols-1 md:grid-cols-12 gap-lg max-w-[1400px] mx-auto w-full">
-<!-- Bento Grid Layout -->
-<div class="md:col-span-12 lg:col-span-8 flex flex-col gap-lg">
-<!-- Liquidity & Key Metric -->
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-lg">
-<div class="neumorphic-outer rounded-lg p-lg bg-surface flex flex-col justify-between">
-<div class="flex justify-between items-start mb-md">
-<h3 class="font-headline-sm text-headline-sm text-on-surface-variant">Liquidity Status</h3>
-<span class="material-symbols-outlined text-secondary">water_drop</span>
-</div>
-<div>
-<p class="font-headline-lg text-headline-lg text-primary mb-xs font-mono">5.75 €</p>
-</div>
-</div>
-<div class="neumorphic-outer rounded-lg p-lg bg-surface flex flex-col justify-between">
-<div class="flex justify-between items-start mb-md relative z-10">
-<h3 class="font-headline-sm text-headline-sm text-on-surface-variant">Global Sentiment</h3>
-<span class="material-symbols-outlined text-secondary">public</span>
-</div>
-<div class="relative z-10">
-<p class="font-headline-lg text-headline-lg text-primary mb-xs">Neutral-Bullish</p>
-<div class="w-full bg-surface-dim h-[4px] rounded-full mt-sm overflow-hidden">
-<div class="bg-secondary h-full w-[65%]"></div>
-</div>
-</div>
-</div>
-</div>
-<!-- Crypto Portfolio Table -->
-<div class="neumorphic-outer rounded-lg bg-surface p-md">
-<div class="px-sm py-sm mb-md flex justify-between items-center">
-<h3 class="font-headline-md text-headline-md text-secondary">Crypto Portfolio</h3>
-</div>
-<div class="overflow-x-auto">
-<table class="w-full text-left border-collapse">
-<thead>
-<tr class="border-b border-outline-variant"><th class="py-sm px-md font-table-header text-table-header text-on-surface-variant">Asset</th><th class="py-sm px-md font-table-header text-table-header text-on-surface-variant">Value</th><th class="py-sm px-md font-table-header text-table-header text-on-surface-variant">ROI</th><th class="py-sm px-md font-table-header text-table-header text-on-surface-variant">Trend vs Mean</th><th class="py-sm px-md font-table-header text-table-header text-on-surface-variant">Target Distance</th></tr>
-</thead>
-<tbody>
-        <tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
-          <td class="py-md px-md font-body-md text-body-md text-primary flex items-center gap-sm">
-            <div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-              <span class="font-label-caps text-label-caps">RI</span>
-            </div>
-            Ripple
-            <div class="text-[11px] text-on-surface-variant mt-xs block w-full">(Average: 1.22 €)</div>
-          </td>
-          <td class="py-md px-md font-body-md text-body-md text-on-surface font-mono">1.19 €</td>
-          <td class="py-md px-md">
-            <span class="px-sm py-xs rounded-full font-label-caps text-label-caps text-status-danger bg-surface glow-negative inline-flex items-center gap-xs">
-              <span class="material-symbols-outlined text-[14px]">arrow_downward</span>
-              -49.36%
-            </span>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm">
-            <div class="flex flex-col items-start">
-              <span class="font-bold ">BAJISTA</span>
-              <span class="text-secondary text-[11px]">(Average: 1.22 €)</span>
-            </div>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm text-on-surface-variant">No target defined</td>
-        </tr>
-        <tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
-          <td class="py-md px-md font-body-md text-body-md text-primary flex items-center gap-sm">
-            <div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-              <span class="font-label-caps text-label-caps">ET</span>
-            </div>
-            Ethereum
-            <div class="text-[11px] text-on-surface-variant mt-xs block w-full">(Average: 1901.68 €)</div>
-          </td>
-          <td class="py-md px-md font-body-md text-body-md text-on-surface font-mono">1837.36 €</td>
-          <td class="py-md px-md">
-            <span class="px-sm py-xs rounded-full font-label-caps text-label-caps text-status-danger bg-surface glow-negative inline-flex items-center gap-xs">
-              <span class="material-symbols-outlined text-[14px]">arrow_downward</span>
-              -33.00%
-            </span>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm">
-            <div class="flex flex-col items-start">
-              <span class="font-bold ">BAJISTA</span>
-              <span class="text-secondary text-[11px]">(Average: 1901.68 €)</span>
-            </div>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm text-on-surface-variant">Faltan 2302.64 € para objetivo (Auto-retiro en 148.71 €)</td>
-        </tr>
-        <tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
-          <td class="py-md px-md font-body-md text-body-md text-primary flex items-center gap-sm">
-            <div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-              <span class="font-label-caps text-label-caps">BI</span>
-            </div>
-            Bitcoin
-            <div class="text-[11px] text-on-surface-variant mt-xs block w-full">(Average: 67768.33 €)</div>
-          </td>
-          <td class="py-md px-md font-body-md text-body-md text-on-surface font-mono">66950.00 €</td>
-          <td class="py-md px-md">
-            <span class="px-sm py-xs rounded-full font-label-caps text-label-caps text-status-danger bg-surface glow-negative inline-flex items-center gap-xs">
-              <span class="material-symbols-outlined text-[14px]">arrow_downward</span>
-              -15.80%
-            </span>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm">
-            <div class="flex flex-col items-start">
-              <span class="font-bold ">BAJISTA</span>
-              <span class="text-secondary text-[11px]">(Average: 67768.33 €)</span>
-            </div>
-          </td>
-          <td class="py-md px-md font-body-sm text-body-sm text-on-surface-variant">Faltan 19800.00 € para objetivo (Auto-retiro en 150.00 €)</td>
-        </tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<!-- Side Cards (Fiat Market) -->
-<div class="md:col-span-12 lg:col-span-4 flex flex-col gap-lg lg:sticky lg:top-[5.75rem] lg:self-start">
-<h3 class="font-headline-md text-headline-md text-secondary px-sm">Fiat Market</h3>
+<body style="margin: 0; padding: 0; background-color: #f4f7f6; font-family: Arial, Helvetica, sans-serif; color: #1c1b1c;">
 
-        <div class="neumorphic-outer rounded-lg p-lg bg-surface flex items-center justify-between">
-            <div class="flex items-center gap-md">
-                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-                    <span class="material-symbols-outlined text-on-surface-variant">currency_pound</span>
-                </div>
-                <div>
-                    <h4 class="font-headline-sm text-headline-sm text-primary">Libra</h4>
-                    <p class="font-body-sm text-body-sm text-on-surface-variant">GBP/USD</p>
-                    <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-                </div>
-            </div>
-            <div class="text-right">
-                <p class="font-body-md text-body-md text-on-surface font-mono">Current: 1.1553 €</p>
-                <p class="font-label-caps text-label-caps text-on-surface-variant">ESTABLE</p>
-                <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-            </div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f4f7f6" style="min-width: 320px;">
+    <tr>
+        <td align="center" style="padding: 20px 10px;">
+            
+            <!-- CONTENEDOR PRINCIPAL -->
+            <table width="100%" max-width="1200" border="0" cellpadding="0" cellspacing="0" style="max-width: 1200px; width: 100%;">
+                
+                <!-- HEADER -->
+                <tr>
+                    <td style="padding-bottom: 20px;">
+                        <h1 style="font-size: 24px; font-weight: bold; color: #2D3748; margin: 0; text-transform: uppercase;">FINANCIAL INTELLIGENCE ANALYSIS</h1>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!-- GRID CON TABLAS -->
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <!-- COLUMNA IZQUIERDA -->
+                                <td width="65%" valign="top" style="padding-right: 20px;">
+                                    
+                                    <!-- TOP WIDGETS -->
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-bottom: 20px;">
+                                        <tr>
+                                            <td width="48%" valign="top">
+                                                <div style="background-color: #ffffff; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td><h3 style="font-size: 14px; font-weight: normal; color: #44474a; margin: 0 0 16px 0;">Liquidity Status</h3></td>
+                                                            <td align="right" style="color: #718096; font-size: 16px;">💧</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2"><p style="font-size: 24px; font-weight: bold; color: #2D3748; margin: 0;">5,75 €</p></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td width="4%"></td>
+                                            <td width="48%" valign="top">
+                                                <div style="background-color: #ffffff; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td><h3 style="font-size: 14px; font-weight: normal; color: #44474a; margin: 0 0 16px 0;">Global Sentiment</h3></td>
+                                                            <td align="right" style="color: #718096; font-size: 16px;">🌍</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2">
+                                                                <p style="font-size: 24px; font-weight: bold; color: #2D3748; margin: 0 0 8px 0;">Greed</p>
+                                                                <div style="background-color: #e2e8f0; height: 4px; width: 100%; font-size:0; line-height:0;">
+                                                                    <div style="background-color: #865300; height: 4px; width: 73%; font-size:0; line-height:0;"></div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- CRYPTO TABLE -->
+                                    <div style="background-color: #ffffff; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+                                        <h3 style="font-size: 18px; font-weight: bold; color: #865300; margin: 0 0 20px 0;">Crypto Portfolio</h3>
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <thead>
+                                                <tr>
+                                                    <!-- Se configuran anchos proporcionales para evitar el salto de texto -->
+                                                    <th width="32%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal;">Asset</th>
+                                                    <th width="18%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">Value</th>
+                                                    <th width="15%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">ROI</th>
+                                                    <th width="15%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">Trend vs Mean</th>
+                                                    <th width="20%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal;">Target Distance</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+        <tr>
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #2D3748; vertical-align: top;">
+            <table cellpadding="0" cellspacing="0" style="border:0;">
+                <tr>
+                    <td style="padding-right: 12px; vertical-align: middle;">
+                        <div style="width: 32px; height: 32px; border-radius: 50%; background-color: #f0eded; text-align: center; line-height: 32px; font-size: 12px; font-weight: bold; color:#44474a; border: 1px solid #dcd9d9;">
+                          VE
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <div style="font-weight: 600;">Venice Token</div>
+                        <div style="font-size: 11px; color: #718096; margin-top: 4px; line-height: 1.2;">Sin noticias recientes disponibles en el feed de datos.</div>
+                    </td>
+                </tr>
+            </table>
+          </td>
+          <!-- Force no-wrap and assign specific width for Value -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #1c1b1c; vertical-align: top; white-space: nowrap;">14,76 €</td>
+          
+          <!-- ROI Badge with bulletproof nested table -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; vertical-align: top;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 4px 8px; border-radius: 12px; border: 1px solid #2ecc71; background-color: #fcf8f8; color: #2ecc71; font-family: sans-serif; font-size: 12px; font-weight: 600; white-space: nowrap;">
+                  ↑ 29.25%
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; vertical-align: top; white-space: nowrap;">
+            <div style="font-weight: 700; ">ALCISTA</div>
+            <div style="color: #718096; font-size: 11px; margin-top: 4px;">12,90 €</div>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">No target defined</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #2D3748; vertical-align: top;">
+            <table cellpadding="0" cellspacing="0" style="border:0;">
+                <tr>
+                    <td style="padding-right: 12px; vertical-align: middle;">
+                        <div style="width: 32px; height: 32px; border-radius: 50%; background-color: #f0eded; text-align: center; line-height: 32px; font-size: 12px; font-weight: bold; color:#44474a; border: 1px solid #dcd9d9;">
+                          RI
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <div style="font-weight: 600;">Ripple</div>
+                        <div style="font-size: 11px; color: #718096; margin-top: 4px; line-height: 1.2;">XRP rebota por grandes compras y pronósticos optimistas - FXStreet.</div>
+                    </td>
+                </tr>
+            </table>
+          </td>
+          <!-- Force no-wrap and assign specific width for Value -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #1c1b1c; vertical-align: top; white-space: nowrap;">1,22 €</td>
+          
+          <!-- ROI Badge with bulletproof nested table -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; vertical-align: top;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 4px 8px; border-radius: 12px; border: 1px solid #d9534f; background-color: #fcf8f8; color: #d9534f; font-family: sans-serif; font-size: 12px; font-weight: 600; white-space: nowrap;">
+                  ↓ -48.09%
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; vertical-align: top; white-space: nowrap;">
+            <div style="font-weight: 700; ">ALCISTA</div>
+            <div style="color: #718096; font-size: 11px; margin-top: 4px;">1,04 €</div>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">No target defined</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #2D3748; vertical-align: top;">
+            <table cellpadding="0" cellspacing="0" style="border:0;">
+                <tr>
+                    <td style="padding-right: 12px; vertical-align: middle;">
+                        <div style="width: 32px; height: 32px; border-radius: 50%; background-color: #f0eded; text-align: center; line-height: 32px; font-size: 12px; font-weight: bold; color:#44474a; border: 1px solid #dcd9d9;">
+                          ET
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <div style="font-weight: 600;">Ethereum</div>
+                        <div style="font-size: 11px; color: #718096; margin-top: 4px; line-height: 1.2;">Impulso <span style="color: #2ecc71; font-weight: 700;">alcista</span> en Ethereum apoyado por stablecoins y ETF - FXStreet.</div>
+                    </td>
+                </tr>
+            </table>
+          </td>
+          <!-- Force no-wrap and assign specific width for Value -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #1c1b1c; vertical-align: top; white-space: nowrap;">2140,45 €</td>
+          
+          <!-- ROI Badge with bulletproof nested table -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; vertical-align: top;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 4px 8px; border-radius: 12px; border: 1px solid #d9534f; background-color: #fcf8f8; color: #d9534f; font-family: sans-serif; font-size: 12px; font-weight: 600; white-space: nowrap;">
+                  ↓ -21.95%
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; vertical-align: top; white-space: nowrap;">
+            <div style="font-weight: 700; ">ALCISTA</div>
+            <div style="color: #718096; font-size: 11px; margin-top: 4px;">1995,66 €</div>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">No target defined</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #2D3748; vertical-align: top;">
+            <table cellpadding="0" cellspacing="0" style="border:0;">
+                <tr>
+                    <td style="padding-right: 12px; vertical-align: middle;">
+                        <div style="width: 32px; height: 32px; border-radius: 50%; background-color: #f0eded; text-align: center; line-height: 32px; font-size: 12px; font-weight: bold; color:#44474a; border: 1px solid #dcd9d9;">
+                          BI
+                        </div>
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <div style="font-weight: 600;">Bitcoin</div>
+                        <div style="font-size: 11px; color: #718096; margin-top: 4px; line-height: 1.2;">Bitcoin impulsa rally y especulación en mercados cripto - iProUP.</div>
+                    </td>
+                </tr>
+            </table>
+          </td>
+          <!-- Force no-wrap and assign specific width for Value -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 14px; color: #1c1b1c; vertical-align: top; white-space: nowrap;">68.215,00 €</td>
+          
+          <!-- ROI Badge with bulletproof nested table -->
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; vertical-align: top;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 4px 8px; border-radius: 12px; border: 1px solid #d9534f; background-color: #fcf8f8; color: #d9534f; font-family: sans-serif; font-size: 12px; font-weight: 600; white-space: nowrap;">
+                  ↓ -14.21%
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; vertical-align: top; white-space: nowrap;">
+            <div style="font-weight: 700; ">ALCISTA</div>
+            <div style="color: #718096; font-size: 11px; margin-top: 4px;">60.255,25 €</div>
+          </td>
+          
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">No target defined</td>
+        </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                                
+                                <!-- COLUMNA DERECHA -->
+                                <td width="35%" valign="top">
+                                    <h3 style="font-size: 16px; font-weight: bold; color: #865300; margin: 0 0 16px 0;">Fiat Market</h3>
+                                    
+        <div style="background-color: #ffffff; border-radius: 12px; padding: 16px; margin-bottom: 16px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="50" valign="top">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #f0f4f8; text-align: center; line-height: 40px; font-size: 16px; font-weight: bold; color: #4a5568; border: 1px solid #e2e8f0;">
+                            £
+                        </div>
+                    </td>
+                    <td valign="top" style="padding-right: 10px;">
+                        <h4 style="font-size: 14px; font-weight: bold; color: #2D3748; margin: 0 0 4px 0;">Libra</h4>
+                        <p style="font-size: 12px; color: #718096; margin: 0 0 6px 0;">GBP/EUR</p>
+                        <p style="font-size: 11px; color: #4a5568; margin: 0; line-height: 1.3;">Libra esterlina en recuperación con mejora en datos alemanes - FXStreet.</p>
+                    </td>
+                    <td valign="top" align="right" style="width: 100px; white-space: nowrap;">
+                        <p style="font-size: 14px; font-weight: bold; color: #1a202c; margin: 0 0 4px 0;">1,1663 €</p>
+                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">ESTABLE</p>
+                        <p style="font-size: 10px; color: #718096; margin: 0;">No significant changes</p>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div class="neumorphic-outer rounded-lg p-lg bg-surface flex items-center justify-between">
-            <div class="flex items-center gap-md">
-                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-                    <span class="material-symbols-outlined text-on-surface-variant">attach_money</span>
-                </div>
-                <div>
-                    <h4 class="font-headline-sm text-headline-sm text-primary">Dólar</h4>
-                    <p class="font-body-sm text-body-sm text-on-surface-variant">USD Index</p>
-                    <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-                </div>
-            </div>
-            <div class="text-right">
-                <p class="font-body-md text-body-md text-on-surface font-mono">Current: 0.8621 €</p>
-                <p class="font-label-caps text-label-caps text-on-surface-variant">ESTABLE</p>
-                <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-            </div>
+        <div style="background-color: #ffffff; border-radius: 12px; padding: 16px; margin-bottom: 16px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="50" valign="top">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #f0f4f8; text-align: center; line-height: 40px; font-size: 16px; font-weight: bold; color: #4a5568; border: 1px solid #e2e8f0;">
+                            $
+                        </div>
+                    </td>
+                    <td valign="top" style="padding-right: 10px;">
+                        <h4 style="font-size: 14px; font-weight: bold; color: #2D3748; margin: 0 0 4px 0;">Dólar</h4>
+                        <p style="font-size: 12px; color: #718096; margin: 0 0 6px 0;">USD/EUR</p>
+                        <p style="font-size: 11px; color: #4a5568; margin: 0; line-height: 1.3;">Banco Central acumula USD 14.000 millones en reservas - Infobae.</p>
+                    </td>
+                    <td valign="top" align="right" style="width: 100px; white-space: nowrap;">
+                        <p style="font-size: 14px; font-weight: bold; color: #1a202c; margin: 0 0 4px 0;">0,8587 €</p>
+                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">ESTABLE</p>
+                        <p style="font-size: 10px; color: #718096; margin: 0;">No significant changes</p>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div class="neumorphic-outer rounded-lg p-lg bg-surface flex items-center justify-between">
-            <div class="flex items-center gap-md">
-                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center neumorphic-inner">
-                    <span class="material-symbols-outlined text-on-surface-variant">currency_yuan</span>
-                </div>
-                <div>
-                    <h4 class="font-headline-sm text-headline-sm text-primary">Yuan</h4>
-                    <p class="font-body-sm text-body-sm text-on-surface-variant">USD/CNY</p>
-                    <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-                </div>
-            </div>
-            <div class="text-right">
-                <p class="font-body-md text-body-md text-on-surface font-mono">Current: 0.1267 €</p>
-                <p class="font-label-caps text-label-caps text-on-surface-variant">ESTABLE</p>
-                <p class="text-[11px] text-on-surface-variant mt-xs">No significant changes</p>
-            </div>
+        <div style="background-color: #ffffff; border-radius: 12px; padding: 16px; margin-bottom: 16px; border: 1px solid #e2e8f0; border-bottom: 3px solid #e2e8f0;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="50" valign="top">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #f0f4f8; text-align: center; line-height: 40px; font-size: 16px; font-weight: bold; color: #4a5568; border: 1px solid #e2e8f0;">
+                            ¥
+                        </div>
+                    </td>
+                    <td valign="top" style="padding-right: 10px;">
+                        <h4 style="font-size: 14px; font-weight: bold; color: #2D3748; margin: 0 0 4px 0;">Yuan</h4>
+                        <p style="font-size: 12px; color: #718096; margin: 0 0 6px 0;">CNY/EUR</p>
+                        <p style="font-size: 11px; color: #4a5568; margin: 0; line-height: 1.3;">Cotización del Yuan <span style="color: #1c1b1c; font-weight: 700;">estable</span> en el mercado actual - El Cronista.</p>
+                    </td>
+                    <td valign="top" align="right" style="width: 100px; white-space: nowrap;">
+                        <p style="font-size: 14px; font-weight: bold; color: #1a202c; margin: 0 0 4px 0;">0,1278 €</p>
+                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">ESTABLE</p>
+                        <p style="font-size: 10px; color: #718096; margin: 0;">No significant changes</p>
+                    </td>
+                </tr>
+            </table>
         </div>
-<div class="mt-auto pt-lg">
-</div>
-</div>
-</main>
-<!-- Footer -->
-</div>
-</body></html>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
