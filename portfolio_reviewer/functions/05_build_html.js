@@ -301,8 +301,8 @@ function renderFiatCards(fiatItems) {
                     </td>
                     <td valign="top" align="right" style="width: 100px; white-space: nowrap;">
                         <p style="font-size: 14px; font-weight: bold; color: #1a202c; margin: 0 0 4px 0;">${formatMoney(fiat.currentPrice)}</p>
-                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">${fiat.status || "-"}</p>
-                        <p style="font-size: 10px; color: #718096; margin: 0;">${fiat.statusDetails || "-"}</p>
+                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">${fiat.trend || "-"}</p>
+                        <p style="font-size: 10px; color: #718096; margin: 0;">${fiat.averagePrice || "-"}</p>
                     </td>
                 </tr>
             </table>
