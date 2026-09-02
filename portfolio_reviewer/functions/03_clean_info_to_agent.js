@@ -25,10 +25,11 @@ const availableFunds = data.availableFunds;
 
 const crypto = operations
   .map((operation) => {
-    const limits = operation.assetLimits;
+
+    const limits = operation.assetLimits.filter(({ executed }) => !executed);
     const firstLimit = limits[0];
-    const objective = firstLimit?.objetivo ?? firstLimit?.target;
-    const withdrawal = firstLimit?.extraccion ?? firstLimit?.autoWithdrawal;
+    const objective = firstLimit?.target_price_eur;
+    const withdrawal = firstLimit?.withdraw_eur;
 
     const limitsText = firstLimit
       ? `Target: ${objective} | Auto-Withdrawal: ${withdrawal}`

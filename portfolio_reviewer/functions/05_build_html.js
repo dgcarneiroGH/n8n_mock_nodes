@@ -34,8 +34,9 @@ const $input = {
 const getTrendColorInline = (trend) => {
   if (!trend) return "";
   const normalized = String(trend).toUpperCase();
-  const knownTrends = ["BULL", "BEAR", "ALCISTA", "BAJISTA", "ESTABLE"];
-  return knownTrends.some((term) => normalized.includes(term)) ? "" : "color: #44474a;";
+  if (normalized.includes("BULL") || normalized.includes("ALCISTA")) return "color: #2ecc71;";
+  if (normalized.includes("BEAR") || normalized.includes("BAJISTA")) return "color: #d9534f;";
+  return "";
 };
 
 const colorizeMarketBiasTermsInline = (text) =>
@@ -114,7 +115,7 @@ const renderCryptoRows = (assets) => {
             <div style="color: #718096; font-size: 11px; margin-top: 4px;">${asset.averagePrice ? formatMoney(asset.averagePrice) : ""}</div>
           </td>
           
-          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">${asset.targetDistance || "No target defined"}</td>
+          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">${formatMoney(asset.targetDistance) || "No target defined"}</td>
         </tr>`
       }
     )
