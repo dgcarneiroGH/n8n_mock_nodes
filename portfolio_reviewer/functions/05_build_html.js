@@ -36,7 +36,7 @@ const getTrendColorInline = (trend) => {
   const normalized = String(trend).toUpperCase();
   if (normalized.includes("BULL") || normalized.includes("ALCISTA")) return "color: #2ecc71;";
   if (normalized.includes("BEAR") || normalized.includes("BAJISTA")) return "color: #d9534f;";
-  return "";
+  return "color: #4a5568;";
 };
 
 const colorizeMarketBiasTermsInline = (text) =>
@@ -302,7 +302,7 @@ function renderFiatCards(fiatItems) {
                     </td>
                     <td valign="top" align="right" style="width: 100px; white-space: nowrap;">
                         <p style="font-size: 14px; font-weight: bold; color: #1a202c; margin: 0 0 4px 0;">${formatMoney(fiat.currentPrice)}</p>
-                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; color: #4a5568; margin: 0 0 4px 0;">${fiat.trend || "-"}</p>
+                        <p style="font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 0 0 4px 0; ${getTrendColorInline(fiat.trend)}">${fiat.trend || "-"}</p>
                         <p style="font-size: 10px; color: #718096; margin: 0;">${fiat.averagePrice || "-"}</p>
                     </td>
                 </tr>

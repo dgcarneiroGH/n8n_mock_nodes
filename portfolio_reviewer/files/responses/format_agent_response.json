@@ -1,15 +1,13 @@
 [
   {
-    "liquidityStatus": "7500.00 €",
-    "globalSentiment": "Neutral",
     "cryptoPortfolio": [
       {
         "symbol": "VE",
         "name": "Venice Token",
-        "currentPrice": "14.76 €",
-        "roi": "29.25%",
+        "currentPrice": "14.63 €",
+        "roi": "28.11%",
         "roiStatus": "positive",
-        "averagePrice": "12.90 €",
+        "averagePrice": "14.14 €",
         "trend": "ALCISTA",
         "targetDistance": "No target defined",
         "newsSummary": "Sin noticias recientes disponibles en el feed de datos."
@@ -17,35 +15,35 @@
       {
         "symbol": "RI",
         "name": "Ripple",
-        "currentPrice": "1.22 €",
-        "roi": "-48.09%",
+        "currentPrice": "1.24 €",
+        "roi": "-47.23%",
         "roiStatus": "negative",
-        "averagePrice": "1.04 €",
+        "averagePrice": "1.17 €",
         "trend": "ALCISTA",
         "targetDistance": "No target defined",
-        "newsSummary": "XRP rebota por grandes compras y pronósticos optimistas - FXStreet."
+        "newsSummary": "XRP Ledger supera test del Banco de Pagos Internacionales."
       },
       {
         "symbol": "ET",
         "name": "Ethereum",
-        "currentPrice": "2140.45 €",
-        "roi": "-21.95%",
+        "currentPrice": "2157.99 €",
+        "roi": "-21.31%",
         "roiStatus": "negative",
-        "averagePrice": "1995.66 €",
+        "averagePrice": "2092.40 €",
         "trend": "ALCISTA",
-        "targetDistance": "No target defined",
-        "newsSummary": "Impulso alcista en Ethereum apoyado por stablecoins y ETF - FXStreet."
+        "targetDistance": "4140",
+        "newsSummary": "Bitmine Immersion Technologies anuncia tenencias de 5,90 millones de ETH."
       },
       {
         "symbol": "BI",
         "name": "Bitcoin",
-        "currentPrice": "68215 €",
-        "roi": "-14.21%",
+        "currentPrice": "69615 €",
+        "roi": "-12.44%",
         "roiStatus": "negative",
-        "averagePrice": "60255.25 €",
+        "averagePrice": "67120.11 €",
         "trend": "ALCISTA",
-        "targetDistance": "No target defined",
-        "newsSummary": "Bitcoin impulsa rally y especulación en mercados cripto - iProUP."
+        "targetDistance": "86750",
+        "newsSummary": "Especialistas recuperan billetera cripto de $1.000 millones."
       }
     ],
     "fiatMarket": [
@@ -53,28 +51,28 @@
         "symbol": "£",
         "name": "Libra",
         "ticker": "GBP/EUR",
-        "currentPrice": "1.1663 €",
-        "status": "ESTABLE",
-        "statusDetails": "No significant changes",
-        "newsSummary": "Libra esterlina en recuperación con mejora en datos alemanes - FXStreet."
+        "currentPrice": "1.162 €",
+        "averagePrice": "1.1650 €",
+        "trend": "BAJISTA",
+        "newsSummary": "El Euro lucha frente a la GBP mientras mejoran los datos alemanes."
       },
       {
         "symbol": "$",
         "name": "Dólar",
         "ticker": "USD/EUR",
-        "currentPrice": "0.85874 €",
-        "status": "ESTABLE",
-        "statusDetails": "No significant changes",
-        "newsSummary": "Banco Central acumula USD 14.000 millones en reservas - Infobae."
+        "currentPrice": "0.86096 €",
+        "averagePrice": "0.86143 €",
+        "trend": "BAJISTA",
+        "newsSummary": "El dólar arrancó septiembre con alza y alto volumen operado."
       },
       {
         "symbol": "¥",
         "name": "Yuan",
         "ticker": "CNY/EUR",
-        "currentPrice": "0.12778 €",
-        "status": "ESTABLE",
-        "statusDetails": "No significant changes",
-        "newsSummary": "Cotización del Yuan estable en el mercado actual - El Cronista."
+        "currentPrice": "0.12814 €",
+        "averagePrice": "0.12822 €",
+        "trend": "BAJISTA",
+        "newsSummary": "China prohíbe tokenización RWA 2026: yuan digital paga intereses."
       }
     ]
   }
