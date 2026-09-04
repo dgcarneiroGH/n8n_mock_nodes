@@ -1,9 +1,16 @@
 [
   {
-    "code": "878443",
-    "publication_date": "2025-12-29",
-    "calculated_start_date": "",
-    "calculated_end_date": "",
-    "_route": "success"
+    "code": "808991",
+    "agency": "AYUNTAMIENTO DE VALLE DE VALDELUCIO",
+    "receptionDate": "2025-01-14",
+    "title": "CONVOCATORIA PARA LA CONCESIÓN DE AYUDAS DESTINADAS A FACILITAR EL ACCESO A INTERNET, TELEFONÍA Y MÓVIL, EN VALLE DE VALDELUCIO (BURGOS), AÑO 2025.",
+    "description": "",
+    "budget": 30000,
+    "startDate": null,
+    "endDate": null,
+    "startDateText": null,
+    "endDateText": null,
+    "needs_pdf": true,
+    "pdf_id": 1190934
   }
 ]

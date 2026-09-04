@@ -1,17 +1,16 @@
 [
   {
-    "code": "878443",
-    "title": "FINANCIACIÓN OBRAS DE LA ESCUELA DE MÚSICA",
-    "publication_date": "2025-12-29",
-    "calculated_start_date": "",
-    "calculated_end_date": "",
-    "receivedDate": "2025-12-29",
-    "organization": "CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
-    "benefactor_id": "37383f94-7b2c-8160-9692-d872fe86bfd1",
-    "region_id": "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3",
-    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878443",
+    "code": "808991",
+    "agency": "AYUNTAMIENTO DE VALLE DE VALDELUCIO",
+    "title": "CONVOCATORIA PARA LA CONCESIÓN DE AYUDAS DESTINADAS A FACILITAR EL ACCESO A INTERNET, TELEFONÍA Y MÓVIL, EN VALLE DE VALDELUCIO (BURGOS), AÑO 2025.",
+    "description": "",
+    "receivedDate": "2025-01-14",
+    "status": "active",
+    "benefactor_id": "37383f94-7b2c-8190-9905-c321d7031599",
+    "region_id": "37683f94-7b2c-8121-9816-d771e077431e",
+    "budget": 30000,
+    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/808991",
     "existsInNotion": false,
-    "notionPageId": null,
-    "_route": "success"
+    "notionPageId": null
   }
 ]

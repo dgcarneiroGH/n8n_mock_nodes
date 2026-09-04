@@ -40,6 +40,7 @@ try {
 
     return {
       code: grantCode,
+      agency: grant.agency,
       title: grant.title,
       description: grant.description,
       publication_date: calculated.publication_date,
