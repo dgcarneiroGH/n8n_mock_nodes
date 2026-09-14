@@ -1,0 +1,26 @@
+{
+  "ig_image_url": "https://res.cloudinary.com/daxjkflsi/image/upload/l_text:Roboto_30_bold:Particulares/fl_layer_apply,g_north,y_555,x_-30/l_text:Roboto_30_bold:Valencia/fl_layer_apply,g_north,y_635,x_-60/l_text:Roboto_50_bold:150000%20%E2%82%AC,co_rgb:F43F5E/fl_layer_apply,g_north,y_728,x_100/plantilla_story_portalconvocatorias.jpg",
+  "original_grant": {
+    "code": "925151",
+    "agency": "AYUNTAMIENTO DE CARLET",
+    "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/925151",
+    "title": "CONVOCATORIA DE BONOS COMERCIO 2026 PARA LA ACTIVACIÓN DEL CONSUMO EN EL COMERCIO LOCAL.",
+    "description": "Esta convocatoria tiene como objetivo reactivar la economía local de Carlet, apoyando a las personas autónomas, microempresas y pequeñas empresas mediante la distribución de bonos de comercio que incentivarán el consumo en comercios locales, buscando mitigar el impacto económico de la crisis sanitaria y ayudar a las familias en una situación económica difícil.",
+    "requirements": [
+      "Personas autónomas, microempresas y pequeñas empresas",
+      "Comercios deben estar situados en el término municipal de Carlet"
+    ],
+    "budget": 150000,
+    "creationDate": {
+      "start": "2026-09-02T10:14:00.000+02:00",
+      "end": null,
+      "time_zone": null
+    },
+    "receptionDate": "2026-08-14",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-18",
+    "benefactor": "Particulares",
+    "region": "Valencia",
+    "isNominative": false
+  }
+}

@@ -3,82 +3,134 @@
     "pages_to_create": [
       {
         "tags": [
-          "autonomos",
+          "particulares",
           "valencia"
         ],
-        "tag_seo": "empleo",
+        "tag_seo": "comercio",
         "grants": [
           {
-            "code": "904441",
-            "agency": "",
-            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904441",
-            "title": "Convocatoria premios al emprendimiento social 2026",
-            "description": "Apoyar y dar reconocimiento a autónomos, empresas y entidades que realicen proyectos empresariales con impacto social y comunitario en valència.",
+            "code": "921872",
+            "agency": "AYUNTAMIENTO DE ALFAFAR",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/921872",
+            "title": "CONVOCATORIO DE LA CAMPAÑA DE PROMOCIÓN DE BONOS COMERCIO EN EL MUNICIPIO DE ALFAFAR - EJERCICIO 2026.",
+            "description": "El programa Bono Comercio tiene como objetivo fomentar el consumo y el apoyo al comercio local dentro del municipio de Alfafar, incentivando la compra en los establecimientos comerciales y beneficiando tanto a los comercios como a la ciudadanía.",
             "requirements": [
-              "Domicilio fiscal en el término municipal de valència,actividad de autónomos, empresas o entidades con menos de 250 trabajadores,no haber sido premiado en otras convocatorias por el servicio de emprendimiento en 2026"
+              "Personas mayores de 18 años empadronadas en Alfafar",
+              "Limitación a 1 bono por persona",
+              "Justificación con documento de identificación en vigor",
+              "No pueden participar administraciones públicas, empresas públicas, asociaciones sin ánimo de lucro y autónomos"
             ],
-            "budget": 52000,
-            "receptionDate": "2026-05-08",
-            "startDate": "2026-05-21",
-            "endDate": "2026-09-10",
-            "benefactor": "Pyme y autónomos",
-            "region": "Valencia"
+            "budget": 95000,
+            "creationDate": {
+              "start": "2026-09-02T10:15:00.000+02:00",
+              "end": null,
+              "time_zone": null
+            },
+            "receptionDate": "2026-07-28",
+            "startDate": "2026-09-07",
+            "endDate": "2026-09-14",
+            "benefactor": "Particulares",
+            "region": "Valencia",
+            "isNominative": false
           },
           {
-            "code": "907860",
-            "agency": "",
-            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907860",
-            "title": "Resolución de alcaldía para convocar ayuda fomento autoempleo 2026",
-            "description": "Fomentar y mantener la creación de empleo y estimular la actividad económica en el municipio de rocafort mediante apoyo a emprendedores que se constituyan como trabajadores autónomos.",
+            "code": "924503",
+            "agency": "AYUNTAMIENTO DE ALMUSSAFES",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/924503",
+            "title": "BASES REGULADORAS Y CONVOCATORIA DEL PROGRAMA “BO COMERÇ D’ALMUSSAFES 2026” PARA LA RECUPERACIÓN DEL SECTOR COMERCIAL Y SERVICIOS DE ALMUSSAFES",
+            "description": "El objetivo de esta subvención es dinamizar la actividad económica de Almussafes y apoyar la competitividad de pequeños comercios mediante la campaña promocional 'BO COMERÇ D’ALMUSSAFES 2026'.",
             "requirements": [
-              "Emprendedores que se constituyan en trabajadores autónomos,actividad ubicada en el municipio de rocafort"
+              "Personas físicas empadronadas en el municipio de Almussafes",
+              "Mayores de 18 años"
             ],
-            "budget": 30000,
-            "receptionDate": "2026-05-25",
-            "startDate": "2026-05-26",
-            "endDate": "2026-09-15",
-            "benefactor": "Pyme y autónomos",
-            "region": "Valencia"
+            "budget": 35000,
+            "creationDate": {
+              "start": "2026-09-02T10:15:00.000+02:00",
+              "end": null,
+              "time_zone": null
+            },
+            "receptionDate": "2026-08-11",
+            "startDate": "2026-08-12",
+            "endDate": "2026-09-07",
+            "benefactor": "Particulares",
+            "region": "Valencia",
+            "isNominative": false
           },
           {
-            "code": "911902",
-            "agency": "",
-            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911902",
-            "title": "Convocatoria de las ayudas económicas destinadas a apoyar a los nuevos  autónomos, año 2026",
-            "description": "El objetivo de esta subvención es apoyar a las personas emprendedoras que han iniciado una actividad económica por cuenta propia en el municipio, contribuyendo a cubrir los gastos de la cuota del régimen especial de trabajadores autónomos (reta) durante el ejercicio 2025.",
+            "code": "925151",
+            "agency": "AYUNTAMIENTO DE CARLET",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/925151",
+            "title": "CONVOCATORIA DE BONOS COMERCIO 2026 PARA LA ACTIVACIÓN DEL CONSUMO EN EL COMERCIO LOCAL.",
+            "description": "Esta convocatoria tiene como objetivo reactivar la economía local de Carlet, apoyando a las personas autónomas, microempresas y pequeñas empresas mediante la distribución de bonos de comercio que incentivarán el consumo en comercios locales, buscando mitigar el impacto económico de la crisis sanitaria y ayudar a las familias en una situación económica difícil.",
             "requirements": [
-              "Personas físicas que cumplan los requisitos establecidos en la convocatoria,residir en el municipio de la pobla de vallbona"
+              "Personas autónomas, microempresas y pequeñas empresas",
+              "Comercios deben estar situados en el término municipal de Carlet"
             ],
-            "budget": 15000,
-            "receptionDate": "2026-06-10",
-            "startDate": "2026-06-11",
-            "endDate": "2026-07-11",
-            "benefactor": "Pyme y autónomos",
-            "region": "Valencia"
+            "budget": 150000,
+            "creationDate": {
+              "start": "2026-09-02T10:14:00.000+02:00",
+              "end": null,
+              "time_zone": null
+            },
+            "receptionDate": "2026-08-14",
+            "startDate": "2026-09-07",
+            "endDate": "2026-10-18",
+            "benefactor": "Particulares",
+            "region": "Valencia",
+            "isNominative": false
           },
           {
-            "code": "916570",
-            "agency": "",
-            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916570",
-            "title": "Convocatoria ayudas destinadas al fomento de la actividad emprendedora - enguera avanza 2026",
-            "description": "La convocatoria 'enguera avanza 2026' tiene como objetivo fomentar la actividad emprendedora en el municipio de enguera mediante la concesión de ayudas a nuevas empresas que se constituyan entre el 01 de octubre de 2025 y el 30 de septiembre de 2026.",
+            "code": "927296",
+            "agency": "AYUNTAMIENTO DE TURÍS",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/927296",
+            "title": "CONVOCATORIA BONS DE COMERÇ TURÍS 2026 - CMPROM PARA LA ACTIVACIÓN DEL CONSUMO EN EL COMERCIO LOCAL",
+            "description": "La convocatoria 'Bons Comerç Turís 2026' tiene como objetivo dinamizar el sector comercial local y fomentar el consumo en los comercios del municipio a través de subvenciones en forma de bonos de compra, donde el Ayuntamiento cubre el 50% del total de la compra.",
             "requirements": [
-              "Desarrollar la actividad en un local abierto al público en enguera.,estar constituido como empresa entre el 01 de octubre de 2025 y el 30 de septiembre de 2026.,permanecer de alta durante un período mínimo de 12 meses.,estar al corriente de obligaciones tributarias y con la seguridad social.,no tener deudas con el ayuntamiento de enguera.,contar con todas las licencias municipales pertinentes.,someterse a comprobaciones por el ayuntamiento.,no haber estado de alta entre enero y octubre de 2025.,no superar el importe total de ayudas a los gastos realizados.,cumplir con las condiciones de elegibilidad establecidas."
+              "Ser mayor de 18 años.",
+              "Estar empadronado en el municipio de Turís.",
+              "Efectuar compras en comercios locales adheridos."
             ],
-            "budget": 12000,
-            "receptionDate": "2026-07-01",
-            "startDate": "2026-07-02",
-            "endDate": "2026-10-15",
-            "benefactor": "Pyme y autónomos",
-            "region": "Valencia"
+            "budget": 50000,
+            "creationDate": {
+              "start": "2026-09-02T10:14:00.000+02:00",
+              "end": null,
+              "time_zone": null
+            },
+            "receptionDate": "2026-09-01",
+            "startDate": "2026-09-15",
+            "endDate": "2026-09-25",
+            "benefactor": "Particulares",
+            "region": "Valencia",
+            "isNominative": false
+          },
+          {
+            "code": "905850",
+            "agency": "",
+            "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905850",
+            "title": "RESOLUCIÓN ALCALDIA Nºº 814/2026 APROBACIÓN  DE LES BASES DE LA CONVOCATORIA DELS I PREMIS A L'ÚS DEL VALENCIÀ EN EL COMERCIO",
+            "description": "",
+            "requirements": [
+              ""
+            ],
+            "budget": 2250,
+            "creationDate": "",
+            "receptionDate": "2026-05-15",
+            "startDate": "2026-06-23",
+            "endDate": "2026-06-26",
+            "benefactor": "Particulares",
+            "region": "Valencia",
+            "isNominative": false
           }
         ],
-        "max_received_date": "2026-07-07",
-        "slug": "subvenciones-autonomos-valencia-empleo",
-        "count_grants": 4
+        "max_received_date": "2026-09-04",
+        "slug": "subvenciones-particulares-valencia-comercio",
+        "count_grants": 5
       }
     ],
     "pages_to_update": [
+      {
+        "slug": "_index"
+      },
       {
         "slug": "subvenciones-alava-asociaciones-deportes"
       },
@@ -86,31 +138,181 @@
         "slug": "subvenciones-alava-asociaciones-formacion"
       },
       {
-        "slug": "subvenciones-alava-asociaciones-nominativas"
+        "slug": "subvenciones-andalucia-asociaciones-asociacionismo"
       },
       {
-        "slug": "subvenciones-asociaciones-galicia-empleo"
+        "slug": "subvenciones-andalucia-asociaciones-formacion"
       },
       {
-        "slug": "subvenciones-asociaciones-toledo-innovacion"
+        "slug": "subvenciones-andalucia-autonomos-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-andalucia-autonomos-cambio-climatico"
+      },
+      {
+        "slug": "subvenciones-andalucia-autonomos-emergencias"
+      },
+      {
+        "slug": "subvenciones-andalucia-particulares-cultura"
+      },
+      {
+        "slug": "subvenciones-andalucia-particulares-formacion"
+      },
+      {
+        "slug": "subvenciones-asociaciones-canarias-deportes"
+      },
+      {
+        "slug": "subvenciones-asociaciones-canarias-salud"
+      },
+      {
+        "slug": "subvenciones-asociaciones-cordoba-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-asociaciones-cordoba-deportes"
+      },
+      {
+        "slug": "subvenciones-asociaciones-espana-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-asociaciones-espana-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-asociaciones-espana-cultura"
+      },
+      {
+        "slug": "subvenciones-asociaciones-espana-formacion"
+      },
+      {
+        "slug": "subvenciones-asociaciones-girona-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-asociaciones-pontevedra-deportes"
+      },
+      {
+        "slug": "subvenciones-asociaciones-tarragona-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-asociaciones-tarragona-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-asociaciones-tarragona-cultura"
+      },
+      {
+        "slug": "subvenciones-asociaciones-tarragona-deportes"
+      },
+      {
+        "slug": "subvenciones-asociaciones-valencia-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-autonomos-canarias-agricultura"
+      },
+      {
+        "slug": "subvenciones-autonomos-canarias-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-autonomos-canarias-empleo"
+      },
+      {
+        "slug": "subvenciones-autonomos-canarias-sector_primario"
+      },
+      {
+        "slug": "subvenciones-autonomos-ciudad-autonoma-de-ceuta-empleo"
+      },
+      {
+        "slug": "subvenciones-autonomos-ciudad-real-comercio"
+      },
+      {
+        "slug": "subvenciones-autonomos-ciudad-real-empleo"
+      },
+      {
+        "slug": "subvenciones-autonomos-gran-canaria-cultura"
+      },
+      {
+        "slug": "subvenciones-autonomos-gran-canaria-internacionalizacion"
+      },
+      {
+        "slug": "subvenciones-autonomos-malaga-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-autonomos-malaga-investigacion_y_ciencia"
+      },
+      {
+        "slug": "subvenciones-autonomos-salamanca-asociacionismo"
+      },
+      {
+        "slug": "subvenciones-autonomos-tarragona-empleo"
       },
       {
         "slug": "subvenciones-autonomos-valencia-comercio"
       },
       {
-        "slug": "subvenciones-autonomos-valencia-nominativas"
+        "slug": "subvenciones-autonomos-valencia-empleo"
       },
       {
-        "slug": "subvenciones-castilla-y-leon-particulares-familia"
+        "slug": "subvenciones-autonomos-zamora-emergencias"
+      },
+      {
+        "slug": "subvenciones-autonomos-zamora-emprendimiento"
+      },
+      {
+        "slug": "subvenciones-castilla-la-mancha-empresa-comercio"
+      },
+      {
+        "slug": "subvenciones-castilla-la-mancha-empresa-empleo"
       },
       {
         "slug": "subvenciones-castilla-y-leon-particulares-formacion"
       },
       {
-        "slug": "subvenciones-espana-particulares-artes_plasticas"
+        "slug": "subvenciones-empresa-espana-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-empresa-espana-investigacion_y_ciencia"
+      },
+      {
+        "slug": "subvenciones-empresa-galicia-empleo"
+      },
+      {
+        "slug": "subvenciones-empresa-galicia-formacion"
+      },
+      {
+        "slug": "subvenciones-empresa-galicia-investigacion_y_ciencia"
+      },
+      {
+        "slug": "subvenciones-empresa-region-de-murcia-empleo"
+      },
+      {
+        "slug": "subvenciones-empresa-region-de-murcia-juventud"
+      },
+      {
+        "slug": "subvenciones-espana-particulares-deportes"
       },
       {
         "slug": "subvenciones-espana-particulares-formacion"
+      },
+      {
+        "slug": "subvenciones-illes-balears-particulares-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-illes-balears-particulares-formacion"
+      },
+      {
+        "slug": "subvenciones-illes-balears-particulares-investigacion_y_ciencia"
+      },
+      {
+        "slug": "subvenciones-la-palma-particulares-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-la-palma-particulares-desarrollo_rural"
+      },
+      {
+        "slug": "subvenciones-lanzarote-particulares-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-particulares-valencia-asuntos_sociales"
+      },
+      {
+        "slug": "subvenciones-particulares-valencia-formacion"
       }
     ]
   }
