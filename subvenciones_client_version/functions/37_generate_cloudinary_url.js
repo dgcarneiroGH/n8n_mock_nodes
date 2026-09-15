@@ -12,45 +12,39 @@ const PUBLIC_ID = "plantilla_story_portalconvocatorias.jpg";
 
 try {
   //#region Node Logic
-  const BUDGET_FONT = "Roboto_50_bold";
+  const BUDGET_FONT = "Roboto_70_bold";
   const BUDGET_COLOR = "F43F5E";
-  const AUDIENCE_FONT = "Roboto_30_bold";
-  const ORIGIN_FONT = "Roboto_30_bold";
-  const AUDIENCE_Y = 555;
-  const AUDIENCE_X = -23;
-  const ORIGIN_Y = 635;
-  const ORIGIN_X = -65;
+  const BUDGET_Y = 1225;
+  const BUDGET_X = 220;
+  const BENEFACTOR_FONT = "Roboto_40_bold";
+  const BENEFACTOR_Y = 924;
+  const BENEFACTOR_X = -82;
+  const REGION_FONT = "Roboto_40_bold";
+  const REGION_Y = 1062;
+  const REGION_X = -140;
 
   function buildTextLayer(font, text, y, x, color) {
     const colorParam = color ? `,co_rgb:${color}` : "";
     return `l_text:${font}:${encodeURIComponent(text)}${colorParam}/fl_layer_apply,g_north,y_${y},x_${x}`;
   }
 
-  function buildCloudinaryUrl(grant) {
-    const budget = grant.budget;
+  const formatEuros = (amount) =>
+    `${new Intl.NumberFormat("es-ES", {
+      useGrouping: "always",
+      minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+      maximumFractionDigits: 2,
+    }).format(amount)} €`;
 
-    // Budget: placed below the title stack to avoid overlapping it.
-    const budgetY = 728;
-    const budgetX = 100;
-    const budgetLayer = buildTextLayer(
-      BUDGET_FONT,
-      `${budget} €`,
-      budgetY,
-      budgetX,
-      BUDGET_COLOR,
-    );
+  // Benefactor and region, stacked above the title.
+  const benefactorLayer = buildTextLayer(BENEFACTOR_FONT, grant.benefactor, BENEFACTOR_Y, BENEFACTOR_X);
+  const regionLayer = buildTextLayer(REGION_FONT, grant.region, REGION_Y, REGION_X);
+  // Budget: placed below the title stack to avoid overlapping it.
+  const budgetLayer = buildTextLayer(BUDGET_FONT, formatEuros(grant.budget), BUDGET_Y, BUDGET_X, BUDGET_COLOR);
 
-    // Benefactor and region, stacked above the title.
-    const layerAudience = buildTextLayer(AUDIENCE_FONT, grant.benefactor, AUDIENCE_Y, AUDIENCE_X);
-    const layerOrigin = buildTextLayer(ORIGIN_FONT, grant.region, ORIGIN_Y, ORIGIN_X);
-
-    return {
-      ig_image_url: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${layerAudience}/${layerOrigin}/${budgetLayer}/${PUBLIC_ID}`,
-      original_grant: grant,
-    };
-  }
-
-  const result = buildCloudinaryUrl(grant);
+  const result = {
+    ig_image_url: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${benefactorLayer}/${regionLayer}/${budgetLayer}/${PUBLIC_ID}`,
+    original_grant: grant,
+  };
   //#endregion
 
   // In n8N context:
