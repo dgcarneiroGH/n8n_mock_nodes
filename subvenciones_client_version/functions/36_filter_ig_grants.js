@@ -9,14 +9,14 @@ const pageActions = JSON.parse(
 
 try {
   //#region Node Logic
-  const MIN_BUDGET = 50000;
+  const MIN_BUDGET = 100000;
 
   const candidateGrants = pageActions
     .flatMap((pageAction) => pageAction.pages_to_create)
     .flatMap((page) => page.grants)
     .filter(
       (grant) =>
-        grant.benefactor === "Particulares" &&
+        (grant.benefactor === "Particulares" || grant.benefactor === "Pyme y autónomos") &&
         grant.isNominative === false &&
         grant.budget > MIN_BUDGET,
     );
