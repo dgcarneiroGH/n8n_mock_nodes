@@ -15,7 +15,7 @@ try {
   const today = new Date().toISOString().split("T")[0];
   const batches = Array.isArray(pageActions) ? pageActions : [pageActions];
 
-  const buildFrontMatter = (slug, group, creationDate) => {
+  const buildFrontMatter = (slug, group, publicationDate) => {
     if (group) {
       const { region, benefactor } = group.grants[0];
       return [
@@ -26,7 +26,7 @@ try {
         `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
-        `creation_date: ${creationDate}`,
+        `publication_date: ${publicationDate}`,
         `last_update_date: ${today}`,
         `slug: ${slug}`,
         "---",
@@ -37,7 +37,7 @@ try {
       `title: Ayudas (${slug})`,
       `description: Listado completo de todas las categorías de ayudas y ayudas activas, organizado por territorio, tipo de beneficiario y sector.`,
       `slug: ${slug}`,
-      `creation_date: ${today}`,
+      `publication_date: ${publicationDate}`,
       `last_update_date: ${today}`,
       `count: 0`,
       "_orphan: true",
@@ -115,18 +115,18 @@ try {
     ].join("\n");
   };
 
-  const buildMarkdown = (slug, group, creationDate) =>
-    `${buildFrontMatter(slug, group, creationDate)}\n${buildBody(slug, group)}`;
+  const buildMarkdown = (slug, group, publicationDate) =>
+    `${buildFrontMatter(slug, group, publicationDate)}\n${buildBody(slug, group)}`;
 
   const markdowns = [];
 
   for (const batch of batches) {
-    const { creation_date: creationDate, pages } = batch.pages_to_create;
+    const { publication_date: publicationDate, pages } = batch.pages_to_create;
     for (const group of pages) {
       markdowns.push({
         action: "create",
         slug: group.slug,
-        content: buildMarkdown(group.slug, group, creationDate),
+        content: buildMarkdown(group.slug, group, publicationDate),
       });
     }
 

@@ -12,7 +12,7 @@ try {
   const MIN_BUDGET = 100000;
 
   const candidateGrants = pageActions
-    .flatMap((pageAction) => pageAction.pages_to_create)
+    .flatMap((pageAction) => pageAction.pages_to_create.pages)
     .flatMap((page) => page.grants)
     .filter(
       (grant) =>
