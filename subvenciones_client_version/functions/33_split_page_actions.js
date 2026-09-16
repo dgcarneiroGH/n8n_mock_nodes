@@ -20,7 +20,7 @@ try {
   ).slice(0, DAILY_PAGES);
 
   const result = {
-    pages_to_create: pagesToCreate,
+    pages_to_create: { publication_date: new Date(), pages: pagesToCreate },
     pages_to_update: [...existingPages],
   };
   //#endregion

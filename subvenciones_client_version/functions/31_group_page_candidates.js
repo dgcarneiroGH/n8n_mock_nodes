@@ -106,6 +106,7 @@ try {
     const group = groupsByKey.get(key);
     if (grantCode && !group.grants.has(grantCode)) {
       group.grants.set(grantCode, {
+        id: grant.id,
         code: grantCode,
         agency: normalizeText(grant.property_rgano).toUpperCase(),
         url: grant.property_url,
@@ -115,7 +116,7 @@ try {
           .split(";")
           .map((r) => normalizeText(r)),
         budget: grant.property_presupuesto,
-        creationDate: grant.property_fecha_de_creaci_n_en_notion ?? '',
+        publicationDate: grant.property_fecha_de_publicaci_n?.start ?? '',
         receptionDate: grant.property_fecha_de_recepci_n?.start ?? '',
         startDate: grant.property_fecha_de_inicio_de_convocatoria?.start ?? '',
         endDate: grant.property_fecha_de_fin_de_convocatoria?.start ?? '',

@@ -13,8 +13,9 @@ const groupsList = JSON.parse(
 try {
   //#region Node Logic
   const today = new Date().toISOString().split("T")[0];
+  const batches = Array.isArray(pageActions) ? pageActions : [pageActions];
 
-  const buildFrontMatter = (slug, group) => {
+  const buildFrontMatter = (slug, group, creationDate) => {
     if (group) {
       const { region, benefactor } = group.grants[0];
       return [
@@ -25,7 +26,7 @@ try {
         `beneficiario: ${benefactor}`,
         `tag_seo: ${group.tag_seo}`,
         `count: ${group.count_grants}`,
-        `creation_date: ${group.creation_date || today}`,
+        `creation_date: ${creationDate}`,
         `last_update_date: ${today}`,
         `slug: ${slug}`,
         "---",
@@ -45,12 +46,9 @@ try {
   };
 
   const toDDMMYYYY = (value) => {
-    if (!value) return "";
-    const dateStr =
-      typeof value === "object" && value.start ? value.start : value;
-    if (typeof dateStr !== "string") return "";
-    const [y, m, d] = dateStr.split("T")[0].split("-");
-    if (!y || !m || !d) return dateStr;
+    if (typeof value !== "string" || !value) return "";
+    const [y, m, d] = value.split("T")[0].split("-");
+    if (!y || !m || !d) return value;
     return `${d}/${m}/${y}`;
   };
 
@@ -62,21 +60,18 @@ try {
   });
 
   const formatGrant = (grant) => {
-    const startDate = toDDMMYYYY(grant.startDate);
-    const endDate = toDDMMYYYY(grant.endDate);
     const metaFields = [
       grant.budget != null ? `Budget: ${eurFormatter.format(grant.budget)}` : null,
       grant.receptionDate
         ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
         : null,
-      startDate ? `Start: ${startDate}` : null,
-      endDate ? `End: ${endDate}` : null,
+      grant.startDate ? `Start: ${toDDMMYYYY(grant.startDate)}` : null,
+      grant.endDate ? `End: ${toDDMMYYYY(grant.endDate)}` : null,
     ].filter(Boolean);
     const requirements = Array.isArray(grant.requirements)
       ? grant.requirements.filter((r) => r && r.trim() !== "")
       : [];
     const detailFields = [
-      grant.agency ? `Agency: ${grant.agency}` : null,
       grant.description ? `Description: ${grant.description}` : null,
       requirements.length > 0
         ? `Requirements: ${requirements.join("; ")}`
@@ -86,7 +81,15 @@ try {
     ].filter(Boolean);
     const details =
       detailFields.length > 0 ? `\n  - ${detailFields.join("\n  - ")}` : "";
-    return `- [${grant.title}](${grant.url}) (${grant.agency})${details}`;
+    const agency = grant.agency ? ` (${grant.agency})` : "";
+    return `- [${grant.title}](${grant.url})${agency}${details}`;
+  };
+
+  const firstPublicationDate = (grants) => {
+    const grant = grants.find(
+      (g) => typeof g.publicationDate === "string" && g.publicationDate.trim() !== "",
+    );
+    return grant ? grant.publicationDate.split("T")[0] : today;
   };
 
   const buildBody = (slug, group) => {
@@ -99,11 +102,11 @@ try {
         "",
       ].join("\n");
     }
-    const [region, beneficiary] = group.tags;
+    const { region, benefactor } = group.grants[0];
     const grantLines = group.grants.map(formatGrant).join("\n");
     return [
       "",
-      `# Ayudas para ${group.tag_seo} en ${region} para ${beneficiary}`,
+      `# Ayudas para ${group.tag_seo} en ${region} para ${benefactor}`,
       "",
       `Ayudas activas (${group.count_grants}):`,
       "",
@@ -112,17 +115,18 @@ try {
     ].join("\n");
   };
 
-  const buildMarkdown = (slug, group) =>
-    `${buildFrontMatter(slug, group)}\n${buildBody(slug, group)}`;
+  const buildMarkdown = (slug, group, creationDate) =>
+    `${buildFrontMatter(slug, group, creationDate)}\n${buildBody(slug, group)}`;
 
   const markdowns = [];
 
-  for (const batch of pageActions) {
-    for (const group of batch.pages_to_create) {
+  for (const batch of batches) {
+    const { creation_date: creationDate, pages } = batch.pages_to_create;
+    for (const group of pages) {
       markdowns.push({
         action: "create",
         slug: group.slug,
-        content: buildMarkdown(group.slug, group),
+        content: buildMarkdown(group.slug, group, creationDate),
       });
     }
 
@@ -132,7 +136,11 @@ try {
         action: "update",
         slug,
         orphan: !group,
-        content: buildMarkdown(slug, group),
+        content: buildMarkdown(
+          slug,
+          group,
+          group ? firstPublicationDate(group.grants) : today,
+        ),
       });
     }
   }

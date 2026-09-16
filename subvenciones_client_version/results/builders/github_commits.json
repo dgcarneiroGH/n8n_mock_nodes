@@ -2,86 +2,541 @@
   "commits": [
     {
       "action": "create",
-      "slug": "subvenciones-autonomos-valencia-empleo",
-      "path": "content/subvenciones/subvenciones-autonomos-valencia-empleo.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-autonomos-malaga-deportes",
+      "path": "content/subvenciones/subvenciones-autonomos-malaga-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "_index",
+      "path": "content/subvenciones/_index.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": true
     },
     {
       "action": "update",
       "slug": "subvenciones-alava-asociaciones-deportes",
       "path": "content/subvenciones/subvenciones-alava-asociaciones-deportes.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-alava-asociaciones-formacion",
       "path": "content/subvenciones/subvenciones-alava-asociaciones-formacion.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-alava-asociaciones-nominativas",
-      "path": "content/subvenciones/subvenciones-alava-asociaciones-nominativas.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-alicante-particulares-comercio",
+      "path": "content/subvenciones/subvenciones-alicante-particulares-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-asociaciones-galicia-empleo",
-      "path": "content/subvenciones/subvenciones-asociaciones-galicia-empleo.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-alicante-particulares-formacion",
+      "path": "content/subvenciones/subvenciones-alicante-particulares-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-asociaciones-toledo-innovacion",
-      "path": "content/subvenciones/subvenciones-asociaciones-toledo-innovacion.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-andalucia-asociaciones-asociacionismo",
+      "path": "content/subvenciones/subvenciones-andalucia-asociaciones-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-andalucia-asociaciones-formacion",
+      "path": "content/subvenciones/subvenciones-andalucia-asociaciones-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-andalucia-autonomos-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-andalucia-autonomos-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-andalucia-autonomos-emergencias",
+      "path": "content/subvenciones/subvenciones-andalucia-autonomos-emergencias.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-andalucia-particulares-cultura",
+      "path": "content/subvenciones/subvenciones-andalucia-particulares-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-andalucia-particulares-formacion",
+      "path": "content/subvenciones/subvenciones-andalucia-particulares-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-canarias-deportes",
+      "path": "content/subvenciones/subvenciones-asociaciones-canarias-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-canarias-salud",
+      "path": "content/subvenciones/subvenciones-asociaciones-canarias-salud.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-cordoba-asociacionismo",
+      "path": "content/subvenciones/subvenciones-asociaciones-cordoba-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-cordoba-deportes",
+      "path": "content/subvenciones/subvenciones-asociaciones-cordoba-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-espana-asociacionismo",
+      "path": "content/subvenciones/subvenciones-asociaciones-espana-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-espana-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-asociaciones-espana-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-espana-cultura",
+      "path": "content/subvenciones/subvenciones-asociaciones-espana-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-espana-formacion",
+      "path": "content/subvenciones/subvenciones-asociaciones-espana-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-girona-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-asociaciones-girona-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-pontevedra-deportes",
+      "path": "content/subvenciones/subvenciones-asociaciones-pontevedra-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-tarragona-asociacionismo",
+      "path": "content/subvenciones/subvenciones-asociaciones-tarragona-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-tarragona-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-asociaciones-tarragona-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-tarragona-cultura",
+      "path": "content/subvenciones/subvenciones-asociaciones-tarragona-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-tarragona-deportes",
+      "path": "content/subvenciones/subvenciones-asociaciones-tarragona-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-asociaciones-valencia-asociacionismo",
+      "path": "content/subvenciones/subvenciones-asociaciones-valencia-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-canarias-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-autonomos-canarias-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-canarias-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-canarias-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-canarias-sector_primario",
+      "path": "content/subvenciones/subvenciones-autonomos-canarias-sector_primario.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-castilla-y-leon-sector_primario",
+      "path": "content/subvenciones/subvenciones-autonomos-castilla-y-leon-sector_primario.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-ciudad-autonoma-de-ceuta-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-ciudad-autonoma-de-ceuta-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-ciudad-real-comercio",
+      "path": "content/subvenciones/subvenciones-autonomos-ciudad-real-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-ciudad-real-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-ciudad-real-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-comunidad-de-madrid-comercio",
+      "path": "content/subvenciones/subvenciones-autonomos-comunidad-de-madrid-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-comunidad-de-madrid-emergencias",
+      "path": "content/subvenciones/subvenciones-autonomos-comunidad-de-madrid-emergencias.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-comunidad-de-madrid-investigacion_y_ciencia",
+      "path": "content/subvenciones/subvenciones-autonomos-comunidad-de-madrid-investigacion_y_ciencia.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-el-hierro-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-el-hierro-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-el-hierro-sector_primario",
+      "path": "content/subvenciones/subvenciones-autonomos-el-hierro-sector_primario.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-fuerteventura-sector_primario",
+      "path": "content/subvenciones/subvenciones-autonomos-fuerteventura-sector_primario.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-gran-canaria-cultura",
+      "path": "content/subvenciones/subvenciones-autonomos-gran-canaria-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-gran-canaria-internacionalizacion",
+      "path": "content/subvenciones/subvenciones-autonomos-gran-canaria-internacionalizacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-malaga-asociacionismo",
+      "path": "content/subvenciones/subvenciones-autonomos-malaga-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-malaga-comercio",
+      "path": "content/subvenciones/subvenciones-autonomos-malaga-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-malaga-cultura",
+      "path": "content/subvenciones/subvenciones-autonomos-malaga-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-malaga-investigacion_y_ciencia",
+      "path": "content/subvenciones/subvenciones-autonomos-malaga-investigacion_y_ciencia.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-region-de-murcia-sector_primario",
+      "path": "content/subvenciones/subvenciones-autonomos-region-de-murcia-sector_primario.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-salamanca-asociacionismo",
+      "path": "content/subvenciones/subvenciones-autonomos-salamanca-asociacionismo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-tarragona-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-tarragona-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-autonomos-valencia-comercio",
       "path": "content/subvenciones/subvenciones-autonomos-valencia-comercio.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-autonomos-valencia-nominativas",
-      "path": "content/subvenciones/subvenciones-autonomos-valencia-nominativas.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-autonomos-valencia-empleo",
+      "path": "content/subvenciones/subvenciones-autonomos-valencia-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-castilla-y-leon-particulares-familia",
-      "path": "content/subvenciones/subvenciones-castilla-y-leon-particulares-familia.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-autonomos-zamora-emergencias",
+      "path": "content/subvenciones/subvenciones-autonomos-zamora-emergencias.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-autonomos-zamora-emprendimiento",
+      "path": "content/subvenciones/subvenciones-autonomos-zamora-emprendimiento.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castellon-particulares-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-castellon-particulares-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castellon-particulares-cultura",
+      "path": "content/subvenciones/subvenciones-castellon-particulares-cultura.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castellon-particulares-deportes",
+      "path": "content/subvenciones/subvenciones-castellon-particulares-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castilla-la-mancha-empresa-comercio",
+      "path": "content/subvenciones/subvenciones-castilla-la-mancha-empresa-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-castilla-la-mancha-empresa-empleo",
+      "path": "content/subvenciones/subvenciones-castilla-la-mancha-empresa-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-castilla-y-leon-particulares-formacion",
       "path": "content/subvenciones/subvenciones-castilla-y-leon-particulares-formacion.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
-      "slug": "subvenciones-espana-particulares-artes_plasticas",
-      "path": "content/subvenciones/subvenciones-espana-particulares-artes_plasticas.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "slug": "subvenciones-empresa-espana-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-empresa-espana-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-espana-investigacion_y_ciencia",
+      "path": "content/subvenciones/subvenciones-empresa-espana-investigacion_y_ciencia.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-galicia-empleo",
+      "path": "content/subvenciones/subvenciones-empresa-galicia-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-galicia-formacion",
+      "path": "content/subvenciones/subvenciones-empresa-galicia-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-galicia-investigacion_y_ciencia",
+      "path": "content/subvenciones/subvenciones-empresa-galicia-investigacion_y_ciencia.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-region-de-murcia-empleo",
+      "path": "content/subvenciones/subvenciones-empresa-region-de-murcia-empleo.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-empresa-region-de-murcia-juventud",
+      "path": "content/subvenciones/subvenciones-empresa-region-de-murcia-juventud.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-espana-particulares-deportes",
+      "path": "content/subvenciones/subvenciones-espana-particulares-deportes.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     },
     {
       "action": "update",
       "slug": "subvenciones-espana-particulares-formacion",
       "path": "content/subvenciones/subvenciones-espana-particulares-formacion.md",
-      "committed_at": "2026-08-27T08:05:36.642Z",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-illes-balears-particulares-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-illes-balears-particulares-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-illes-balears-particulares-formacion",
+      "path": "content/subvenciones/subvenciones-illes-balears-particulares-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-illes-balears-particulares-investigacion_y_ciencia",
+      "path": "content/subvenciones/subvenciones-illes-balears-particulares-investigacion_y_ciencia.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-la-palma-particulares-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-la-palma-particulares-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-la-palma-particulares-desarrollo_rural",
+      "path": "content/subvenciones/subvenciones-la-palma-particulares-desarrollo_rural.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-lanzarote-particulares-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-lanzarote-particulares-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-particulares-valencia-asuntos_sociales",
+      "path": "content/subvenciones/subvenciones-particulares-valencia-asuntos_sociales.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-particulares-valencia-comercio",
+      "path": "content/subvenciones/subvenciones-particulares-valencia-comercio.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
+      "orphan": false
+    },
+    {
+      "action": "update",
+      "slug": "subvenciones-particulares-valencia-formacion",
+      "path": "content/subvenciones/subvenciones-particulares-valencia-formacion.md",
+      "committed_at": "2026-09-16T07:09:20.317Z",
       "orphan": false
     }
   ]

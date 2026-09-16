@@ -1,36 +1,36 @@
 ---
-title: Ayudas para formacion en Es41 - castilla y leon para Personas físicas que no desarrollan actividad económica
-description: "Recopilatorio de las 5 ayudas activas en Es41 - castilla y leon para Personas físicas que no desarrollan actividad económica dentro del sector formacion, con presupuesto y plazos de solicitud."
-region: Es41 - castilla y leon
-beneficiario: Personas físicas que no desarrollan actividad económica
+title: Ayudas para formacion en Castilla y león para Particulares
+description: "Recopilatorio de las 5 ayudas activas en Castilla y león para Particulares dentro del sector formacion, con presupuesto y plazos de solicitud."
+region: Castilla y león
+beneficiario: Particulares
 tag_seo: formacion
 count: 5
-creation_date: 2026-08-27
-last_update_date: 2026-08-27
+creation_date: 2026-09-16
+last_update_date: 2026-09-16
 slug: subvenciones-castilla-y-leon-particulares-formacion
 ---
 
-# Ayudas para formacion en castilla-y-leon para particulares
+# Ayudas para formacion en Castilla y león para Particulares
 
 Ayudas activas (5):
 
-- [II EDICIÓN CONVOCATORIA DE AYUDAS PARA LA DEFENSA DE TESIS DOCTORALES, COFINANCIADAS POR BANCO SANTANDER S.A., AÑO 2026](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/902873) ()
+- [II EDICIÓN CONVOCATORIA DE AYUDAS PARA LA DEFENSA DE TESIS DOCTORALES, COFINANCIADAS POR BANCO SANTANDER S.A., AÑO 2026](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/902873)
   - Description: El objetivo de esta convocatoria es mejorar la calidad de las tesis doctorales defendidas en la Universidad de Burgos, apoyando su desarrollo y aumentando la producción científica de calidad mediante la cobertura de gastos asociados.
   - Requirements: Doctorandos que defiendan la tesis doctoral en la Universidad de Burgos durante 2026
   - Budget: 20.800 € | Reception: 30/04/2026 | Start: 01/05/2026 | End: 31/08/2026
-- [CONVOCATORIA DE LA SUBVENCIÓN PARA LA ADQUISICIÓN DE LIBROS DE TEXTO DE EDUCACIÓN INFANTIL “MANUEL PAINO” PARA EL CURSO ESCOLAR 2026-2027](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911465) ()
+- [CONVOCATORIA DE LA SUBVENCIÓN PARA LA ADQUISICIÓN DE LIBROS DE TEXTO DE EDUCACIÓN INFANTIL “MANUEL PAINO” PARA EL CURSO ESCOLAR 2026-2027](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911465)
   - Description: La subvención tiene como objetivo ayudar a las familias en la adquisición de libros de texto para el 2º ciclo de educación infantil, dirigido a niños de 3 a 6 años, para el curso escolar 2026/2027.
   - Requirements: Familias con niños de 3 a 6 años; Residencia en el municipio de Benavente; No se especifican exclusiones particulares
   - Budget: 17.000 € | Reception: 09/06/2026 | Start: 10/06/2026 | End: 07/07/2026
-- [BASES DEL CONCURSO DE IDEAS “III BECA RODRIGO DE DUEÑAS: EL FUTURO DE MEDINA, MI FUTURO.](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914129) ()
+- [BASES DEL CONCURSO DE IDEAS “III BECA RODRIGO DE DUEÑAS: EL FUTURO DE MEDINA, MI FUTURO.](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914129)
   - Description: El concurso busca fomentar la participación activa de jóvenes entre 16 y 30 años en el desarrollo de ideas innovadoras que contribuyan al futuro de Medina del Campo, abordando problemas locales y promoviendo el emprendimiento juvenil.
   - Requirements: Jóvenes de 16 a 30 años; Residir en Medina del Campo o en la comarca de Tierras de Medina; Acreditar la residencia mediante declaración responsable; Participación individual o en grupos de hasta cinco personas
   - Budget: 5000 € | Reception: 18/06/2026 | Start: 19/06/2026 | End: 15/09/2026
-- [RESOLUCIÓN DEL RECTOR DE LA UNIVERSIDAD DE BURGOS POR LA QUE SE CONVOCA SELECCIÓN DE ESTUDIANTADO PARA LA ESCUELA DE PRÁCTICAS EN LA UNIVERSIDAD DE BURGOS](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915582) ()
+- [RESOLUCIÓN DEL RECTOR DE LA UNIVERSIDAD DE BURGOS POR LA QUE SE CONVOCA SELECCIÓN DE ESTUDIANTADO PARA LA ESCUELA DE PRÁCTICAS EN LA UNIVERSIDAD DE BURGOS](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915582)
   - Description: Seleccionar a estudiantes de la Universidad de Burgos para participar en la Escuela de Prácticas, promoviendo la formación y experiencia práctica en su campo de estudio.
   - Requirements: Estudiantes matriculados en el curso 2025/2026 en segundo curso o superior de un grado oficial; Estudiantes matriculados en primero de Máster en la Universidad de Burgos; Estar matriculado en el curso académico 2026/2027; Superar el 50% de los créditos necesarios para la obtención del título
   - Budget: 19.500 € | Reception: 25/06/2026 | Start: 26/06/2026 | End: 15/07/2026
-- [CONVOCATORIA I EDICIÓN DE LOS PREMIOS A LOS MEJORES TRABAJOS FIN DE GRADO (TFG), FIN DE MÁSTER (TFM) EN MATERIA DE PARLAMENTARISMO 2025-2026](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908638) ()
+- [CONVOCATORIA I EDICIÓN DE LOS PREMIOS A LOS MEJORES TRABAJOS FIN DE GRADO (TFG), FIN DE MÁSTER (TFM) EN MATERIA DE PARLAMENTARISMO 2025-2026](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908638)
   - Description: Premios para los mejores Trabajos Fin de Grado (TFG) y Trabajos Fin de Máster (TFM) en materias relacionadas con el parlamentarismo, realizados por estudiantes de universidades de Castilla y León durante el curso 2025-26.
   - Requirements: Estudiantes de la comunidad universitaria de Castilla y León; Realización de TFG o TFM en 2025-26; Disciplina académica en parlamentarismo
   - Budget: 2000 € | Reception: 27/05/2026 | Start: 28/09/2026 | End: 09/10/2026

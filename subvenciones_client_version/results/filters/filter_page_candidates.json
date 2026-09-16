@@ -8,6 +8,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "39683f94-7b2c-817c-8f58-ef07df982f45",
           "code": "886817",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886817",
@@ -17,6 +18,7 @@
             ""
           ],
           "budget": 395500,
+          "publicationDate": "",
           "receptionDate": "2026-02-12",
           "startDate": "",
           "endDate": "",
@@ -24,6 +26,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8137-933d-fa688604b8d8",
           "code": "887005",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887005",
@@ -35,6 +38,7 @@
             "Estar en Castilla y León"
           ],
           "budget": 350500,
+          "publicationDate": "",
           "receptionDate": "2026-02-13",
           "startDate": "",
           "endDate": "",
@@ -42,6 +46,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81e6-b40f-cd68ff5e3c22",
           "code": "887059",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887059",
@@ -52,6 +57,7 @@
             "Residencia en las localidades afectadas"
           ],
           "budget": 402500,
+          "publicationDate": "",
           "receptionDate": "2026-02-13",
           "startDate": "",
           "endDate": "",
@@ -59,6 +65,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8179-8c75-df762599dd1c",
           "code": "887083",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887083",
@@ -68,6 +75,7 @@
             ""
           ],
           "budget": 94000,
+          "publicationDate": "",
           "receptionDate": "2026-02-13",
           "startDate": "",
           "endDate": "",
@@ -75,6 +83,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8188-add1-f2ab73851e51",
           "code": "887333",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887333",
@@ -85,6 +94,7 @@
             "Haber sido desalojados de sus viviendas"
           ],
           "budget": 139000,
+          "publicationDate": "",
           "receptionDate": "2026-02-16",
           "startDate": "",
           "endDate": "",
@@ -92,6 +102,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81dd-878b-c8161c8284f6",
           "code": "887372",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887372",
@@ -101,6 +112,7 @@
             ""
           ],
           "budget": 30000,
+          "publicationDate": "",
           "receptionDate": "2026-02-16",
           "startDate": "",
           "endDate": "",
@@ -108,6 +120,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81f9-b486-d188203dc369",
           "code": "889807",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/889807",
@@ -120,6 +133,7 @@
             "Documento acreditativo en vigor de la situación de residencia"
           ],
           "budget": 19600000,
+          "publicationDate": "",
           "receptionDate": "2026-02-26",
           "startDate": "2026-03-03",
           "endDate": "2027-03-31",
@@ -127,6 +141,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81ba-917c-ec464c6bb6ae",
           "code": "890683",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890683",
@@ -138,6 +153,7 @@
             "No se aceptan solicitudes presentadas después del 15 de diciembre de 2025"
           ],
           "budget": 64000,
+          "publicationDate": "",
           "receptionDate": "2026-03-03",
           "startDate": "",
           "endDate": "",
@@ -145,6 +161,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8103-8e00-e1abfcc19ac0",
           "code": "890729",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890729",
@@ -154,6 +171,7 @@
             ""
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2026-03-03",
           "startDate": "",
           "endDate": "",
@@ -161,6 +179,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81e9-8c5f-fd00beac75a9",
           "code": "890860",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890860",
@@ -170,6 +189,7 @@
             ""
           ],
           "budget": 70000,
+          "publicationDate": "",
           "receptionDate": "2026-03-04",
           "startDate": "",
           "endDate": "",
@@ -177,6 +197,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8106-bf5d-dc10e2d6525e",
           "code": "890877",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890877",
@@ -186,6 +207,7 @@
             ""
           ],
           "budget": 948504.68,
+          "publicationDate": "",
           "receptionDate": "2026-03-04",
           "startDate": "",
           "endDate": "",
@@ -193,6 +215,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-816a-9b5a-d61f81fdcf6a",
           "code": "897877",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897877",
@@ -204,6 +227,7 @@
             "Situación extraordinaria y excepcional"
           ],
           "budget": 37500,
+          "publicationDate": "",
           "receptionDate": "2026-04-09",
           "startDate": "",
           "endDate": "",
@@ -211,6 +235,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8137-b03e-c8416f633b8b",
           "code": "899628",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899628",
@@ -222,6 +247,7 @@
             "No se especifican exclusiones en el texto"
           ],
           "budget": 37500,
+          "publicationDate": "",
           "receptionDate": "2026-04-17",
           "startDate": "",
           "endDate": "",
@@ -229,6 +255,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-817a-8ab0-f98c1197bc82",
           "code": "899685",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899685",
@@ -241,6 +268,7 @@
             "Interés social y humanitario"
           ],
           "budget": 12000,
+          "publicationDate": "",
           "receptionDate": "2026-04-17",
           "startDate": "",
           "endDate": "",
@@ -248,6 +276,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81eb-91e7-f56b878f4ee5",
           "code": "899764",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899764",
@@ -259,6 +288,7 @@
             "Unidad familiar emparentada hasta el segundo grado con un empadronado en la localidad afectada"
           ],
           "budget": 185000,
+          "publicationDate": "",
           "receptionDate": "2026-04-17",
           "startDate": "",
           "endDate": "",
@@ -266,6 +296,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-818c-b4c1-e6210b1ee18a",
           "code": "899833",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899833",
@@ -275,6 +306,7 @@
             ""
           ],
           "budget": 16500,
+          "publicationDate": "",
           "receptionDate": "2026-04-20",
           "startDate": "",
           "endDate": "",
@@ -282,6 +314,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-814f-8b12-c5ce47d8a6fc",
           "code": "899878",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/899878",
@@ -291,6 +324,7 @@
             ""
           ],
           "budget": 8500,
+          "publicationDate": "",
           "receptionDate": "2026-04-20",
           "startDate": "",
           "endDate": "",
@@ -298,6 +332,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81c6-982d-c654726f5b06",
           "code": "906776",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906776",
@@ -309,6 +344,7 @@
             "Unidad familiar emparentada hasta el segundo grado con un empadronado en la localidad"
           ],
           "budget": 170500,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -316,6 +352,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81ba-bf31-d76b7753391b",
           "code": "915688",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915688",
@@ -325,6 +362,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-06-29",
           "endDate": "2026-07-24",
@@ -344,6 +382,7 @@
       "tag_seo": "innovacion",
       "grants": [
         {
+          "id": "39483f94-7b2c-815a-a658-e54fbc43f11e",
           "code": "914336",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914336",
@@ -353,6 +392,7 @@
             ""
           ],
           "budget": 30000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-01-30",
           "endDate": "2027-11-27",
@@ -360,6 +400,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81e5-bf01-f981b7ef558c",
           "code": "914342",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914342",
@@ -369,6 +410,7 @@
             ""
           ],
           "budget": 5500,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-01-30",
           "endDate": "2026-11-27",
@@ -376,6 +418,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-8197-bc91-db299f47ebbf",
           "code": "916098",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916098",
@@ -385,6 +428,7 @@
             ""
           ],
           "budget": 20000,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -392,6 +436,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-819e-b7fa-f063d87f331b",
           "code": "916293",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916293",
@@ -401,6 +446,7 @@
             ""
           ],
           "budget": 7000,
+          "publicationDate": "",
           "receptionDate": "2026-06-30",
           "startDate": "2026-01-30",
           "endDate": "2026-11-27",
@@ -408,6 +454,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81d9-93cd-f5c4afd46d24",
           "code": "916298",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916298",
@@ -417,6 +464,7 @@
             "La entidad solicitante debe ser la Asociación de Mujeres María de Padilla.,El proyecto debe realizarse en Toledo.,La subvención se destina a proyectos que atienden a mujeres víctimas de violencia de género."
           ],
           "budget": 6200,
+          "publicationDate": "",
           "receptionDate": "2026-06-30",
           "startDate": "2026-01-30",
           "endDate": "2026-11-27",
@@ -424,6 +472,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81b1-8c65-d9155f0af330",
           "code": "912307",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912307",
@@ -433,6 +482,7 @@
             ""
           ],
           "budget": 9448.95,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -440,6 +490,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81f7-b1d6-c01d3d2cc8af",
           "code": "912320",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912320",
@@ -449,6 +500,7 @@
             ""
           ],
           "budget": 9450,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -456,6 +508,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81e2-9e15-ddb7dc5d8aac",
           "code": "912324",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912324",
@@ -465,6 +518,7 @@
             ""
           ],
           "budget": 7764.75,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -472,6 +526,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-8109-8133-cb0279ca4926",
           "code": "913077",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913077",
@@ -481,6 +536,7 @@
             ""
           ],
           "budget": 6500.55,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -488,6 +544,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-8179-817a-c5924febeab4",
           "code": "915236",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915236",
@@ -497,6 +554,7 @@
             "Organizaciones No Gubernamentales para el Desarrollo legalmente constituidas.,Inscripción en el Registro de Asociaciones o Fundaciones con al menos dos años de antigüedad.,Reflejo en los estatutos de actividades orientadas a la cooperación al desarrollo.,Sede en Toledo y experiencia acreditada en cooperación.,Cumplimiento de obligaciones tributarias y de Seguridad Social.,No tener deudas pendientes con el Ayuntamiento de Toledo.,No haber justificado ayudas anteriores si las hubiere recibido.,Cumplir con las prohibiciones de la Ley General de Subvenciones."
           ],
           "budget": 58000,
+          "publicationDate": "",
           "receptionDate": "2026-06-24",
           "startDate": "2026-06-25",
           "endDate": "2026-07-15",
@@ -504,6 +562,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81a2-84c2-f2c11f24d14a",
           "code": "917190",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/917190",
@@ -513,6 +572,7 @@
             "Personas mayores de edad para representar las carrozas,Asociaciones o peñas que soliciten participar,Inscripción previa en el Ayuntamiento de Mocejón,Cumplir con la normativa de seguridad y documentación del vehículo"
           ],
           "budget": 600,
+          "publicationDate": "",
           "receptionDate": "2026-07-03",
           "startDate": "2026-07-06",
           "endDate": "2026-07-14",
@@ -532,6 +592,7 @@
       "tag_seo": "comercio",
       "grants": [
         {
+          "id": "39483f94-7b2c-81fa-ae98-feb8456f1a1f",
           "code": "903852",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903852",
@@ -541,6 +602,7 @@
             "Ser persona física o jurídica vinculada con un IAE relacionado con comercios, servicios u hostelería en Picassent,No estar incursos en circunstancias que impidan la obtención de subvenciones según la Ley 38/2003,Estar al corriente en obligaciones tributarias y con la Seguridad Social,Tener un establecimiento comercial abierto en Picassent"
           ],
           "budget": 3200,
+          "publicationDate": "",
           "receptionDate": "2026-05-06",
           "startDate": "2026-04-07",
           "endDate": "2026-12-31",
@@ -548,6 +610,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8184-819b-d44bb15b2f60",
           "code": "906188",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906188",
@@ -557,6 +620,7 @@
             "Comercio o empresa ubicada en Quart de Poblet,Solo se puede presentar una solicitud por persona física o jurídica,No estar en situación de prohibición de ostentar tal condición según el artículo 13 de la Ley 38/2003"
           ],
           "budget": 3000,
+          "publicationDate": "",
           "receptionDate": "2026-05-18",
           "startDate": "2026-05-19",
           "endDate": "2026-09-20",
@@ -564,6 +628,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-81cb-8ab8-c551fd953d1b",
           "code": "906500",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906500",
@@ -573,6 +638,7 @@
             "Comercios, empresas, industrias y profesionales de Sueca,Estar al corriente de obligaciones tributarias y fiscales,Uso del valenciano en la actividad comercial"
           ],
           "budget": 4100,
+          "publicationDate": "",
           "receptionDate": "2026-05-19",
           "startDate": "2026-06-01",
           "endDate": "2026-09-30",
@@ -580,6 +646,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-81b6-a090-d0990e1f94e6",
           "code": "907587",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907587",
@@ -589,6 +656,7 @@
             "Personas físicas o jurídicas legalmente constituidas,Comunidades de bienes, sociedades civiles u otras entidades económicas sin personalidad jurídica,Microempresas y pequeñas empresas de hasta 49 trabajadores,Estar situados en bajos comerciales o polígonos industriales (Virgen de la Salud, Oficios y Zamarra),Comercio debe estar abierto al menos 15 años para algunas categorías"
           ],
           "budget": 3200,
+          "publicationDate": "",
           "receptionDate": "2026-05-22",
           "startDate": "2026-05-25",
           "endDate": "2026-07-20",
@@ -596,6 +664,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-813b-936e-e276bd47ff76",
           "code": "912442",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912442",
@@ -605,6 +674,7 @@
             ""
           ],
           "budget": 0,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "",
           "endDate": "",
@@ -612,6 +682,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-819a-9637-c4a27f9ab2a3",
           "code": "913737",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913737",
@@ -621,6 +692,7 @@
             ""
           ],
           "budget": 39000,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "2026-06-18",
           "endDate": "2026-08-12",
@@ -628,6 +700,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-815a-9cc8-dc57f1357ed1",
           "code": "914675",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914675",
@@ -637,6 +710,7 @@
             "Establecimientos ubicados en el término municipal de l'Eliana,No pueden participar los que desarrollan actividades en centros comerciales,Excluidos grandes supermercados e hipermercados,Excluidas tiendas de conveniencia con menos de 500 m,Excluidas estaciones de servicio"
           ],
           "budget": 3000,
+          "publicationDate": "",
           "receptionDate": "2026-06-22",
           "startDate": "2026-06-23",
           "endDate": "2026-09-15",
@@ -644,6 +718,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-814b-adad-df3ff26fb40f",
           "code": "916894",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916894",
@@ -653,6 +728,7 @@
             "Personas físicas o jurídicas que desarrollen una actividad comercial o de servicios en Aldaia,No pueden participar las grandes superficies,Sólo se puede presentar una solicitud por entidad,Debes cumplir con obligaciones fiscales y de Seguridad Social"
           ],
           "budget": 3200,
+          "publicationDate": "",
           "receptionDate": "2026-07-02",
           "startDate": "2026-07-03",
           "endDate": "2026-07-31",
@@ -672,6 +748,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "39683f94-7b2c-81d4-bd1d-e921dc985b0a",
           "code": "902873",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/902873",
@@ -681,6 +758,7 @@
             "Doctorandos que defiendan la tesis doctoral en la Universidad de Burgos durante 2026"
           ],
           "budget": 20800,
+          "publicationDate": "",
           "receptionDate": "2026-04-30",
           "startDate": "2026-05-01",
           "endDate": "2026-08-31",
@@ -688,6 +766,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81c4-b429-cabe345e8118",
           "code": "911465",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911465",
@@ -699,6 +778,7 @@
             "No se especifican exclusiones particulares"
           ],
           "budget": 17000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "2026-06-10",
           "endDate": "2026-07-07",
@@ -706,6 +786,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8139-9c64-fd4ccc8813e7",
           "code": "914129",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914129",
@@ -718,6 +799,7 @@
             "Participación individual o en grupos de hasta cinco personas"
           ],
           "budget": 5000,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-06-19",
           "endDate": "2026-09-15",
@@ -725,6 +807,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81ef-a656-c8044dae3631",
           "code": "915582",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915582",
@@ -737,6 +820,7 @@
             "Superar el 50% de los créditos necesarios para la obtención del título"
           ],
           "budget": 19500,
+          "publicationDate": "",
           "receptionDate": "2026-06-25",
           "startDate": "2026-06-26",
           "endDate": "2026-07-15",
@@ -744,6 +828,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81d4-a543-eec047b19a09",
           "code": "908638",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908638",
@@ -755,6 +840,7 @@
             "Disciplina académica en parlamentarismo"
           ],
           "budget": 2000,
+          "publicationDate": "",
           "receptionDate": "2026-05-27",
           "startDate": "2026-09-28",
           "endDate": "2026-10-09",
@@ -774,6 +860,7 @@
       "tag_seo": "empleo",
       "grants": [
         {
+          "id": "39483f94-7b2c-8126-a051-e86d8d3c4fd9",
           "code": "904441",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904441",
@@ -783,6 +870,7 @@
             "Domicilio fiscal en el término municipal de València,Actividad de autónomos, empresas o entidades con menos de 250 trabajadores,No haber sido premiado en otras convocatorias por el Servicio de Emprendimiento en 2026"
           ],
           "budget": 52000,
+          "publicationDate": "",
           "receptionDate": "2026-05-08",
           "startDate": "2026-05-21",
           "endDate": "2026-09-10",
@@ -790,6 +878,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8119-baff-e4d7ba854af7",
           "code": "907860",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907860",
@@ -799,6 +888,7 @@
             "Emprendedores que se constituyan en trabajadores autónomos,Actividad ubicada en el municipio de Rocafort"
           ],
           "budget": 30000,
+          "publicationDate": "",
           "receptionDate": "2026-05-25",
           "startDate": "2026-05-26",
           "endDate": "2026-09-15",
@@ -806,6 +896,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8105-a55d-f2426e0819c2",
           "code": "911902",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911902",
@@ -815,6 +906,7 @@
             "Personas físicas que cumplan los requisitos establecidos en la convocatoria,Residir en el municipio de la Pobla de Vallbona"
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-10",
           "startDate": "2026-06-11",
           "endDate": "2026-07-11",
@@ -822,6 +914,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8184-bc65-d0b9daf2f082",
           "code": "916570",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916570",
@@ -831,6 +924,7 @@
             "Desarrollar la actividad en un local abierto al público en Enguera.,Estar constituido como empresa entre el 01 de octubre de 2025 y el 30 de septiembre de 2026.,Permanecer de alta durante un período mínimo de 12 meses.,Estar al corriente de obligaciones tributarias y con la Seguridad Social.,No tener deudas con el Ayuntamiento de Enguera.,Contar con todas las licencias municipales pertinentes.,Someterse a comprobaciones por el Ayuntamiento.,No haber estado de alta entre enero y octubre de 2025.,No superar el importe total de ayudas a los gastos realizados.,Cumplir con las condiciones de elegibilidad establecidas."
           ],
           "budget": 12000,
+          "publicationDate": "",
           "receptionDate": "2026-07-01",
           "startDate": "2026-07-02",
           "endDate": "2026-10-15",
@@ -850,6 +944,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "39283f94-7b2c-81d1-8cb3-df46b3c75690",
           "code": "874121",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874121",
@@ -859,6 +954,7 @@
             "Entidades y/o Asociaciones sin ánimo de lucro,Domicilio social en el municipio de León"
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2025-12-10",
           "startDate": "2025-12-11",
           "endDate": "",
@@ -866,6 +962,7 @@
           "region": "Es413 - león"
         },
         {
+          "id": "39283f94-7b2c-8181-b344-e19dbba3de92",
           "code": "884864",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/884864",
@@ -875,6 +972,7 @@
             "Progenitores casados, parejas de hecho o familias monoparentales con hijos,Adoptantes de niños de hasta 6 años,Residencia efectiva en el municipio durante al menos 12 meses antes del nacimiento o adopción,Cumplimiento de obligaciones fiscales municipales durante el año anterior al nacimiento o adopción"
           ],
           "budget": 14000,
+          "publicationDate": "",
           "receptionDate": "2026-02-03",
           "startDate": "2026-02-05",
           "endDate": "2026-12-31",
@@ -882,6 +980,7 @@
           "region": "Es413 - león"
         },
         {
+          "id": "39283f94-7b2c-815a-832a-fb5bb066c7cd",
           "code": "884922",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/884922",
@@ -891,6 +990,7 @@
             "Progenitores o adoptantes deben ser titulares del libro de familia.,Empadronados en el Municipio de Toral de los Vados.,Al menos uno de los progenitores debe tener una antigüedad mínima de un año empadronado.,El niño/a debe estar inscrito en el padrón municipal de Toral de los Vados.,Compromiso de seguir empadronados junto con los niños/as por dos años desde el nacimiento o adopción."
           ],
           "budget": 4000,
+          "publicationDate": "",
           "receptionDate": "2026-02-03",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -898,6 +998,7 @@
           "region": "Es413 - león"
         },
         {
+          "id": "39283f94-7b2c-81e6-b4ff-fa94f81933b2",
           "code": "916155",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916155",
@@ -907,6 +1008,7 @@
             "Progenitores o adoptantes deben tener el Libro de Familia.,Empadronamiento en el municipio de Sahagún.,El neonato debe haber nacido entre el 01 de julio de 2025 y el 30 de junio de 2026.,No estar incursos en causas de exclusión de ayudas.,Estar al corriente de obligaciones fiscales con el Ayuntamiento de Sahagún.,Estar al corriente de obligaciones tributarias con la AEAT y la Seguridad Social.,Compromiso de continuar empadronados en el municipio por un mínimo de 24 meses después de la concesión."
           ],
           "budget": 6000,
+          "publicationDate": "",
           "receptionDate": "2026-06-30",
           "startDate": "2026-07-01",
           "endDate": "2026-07-31",
@@ -926,6 +1028,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39483f94-7b2c-81bd-831c-da6d2356b46a",
           "code": "912296",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912296",
@@ -935,6 +1038,7 @@
             ""
           ],
           "budget": 12309.15,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -942,6 +1046,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-8165-bb5b-ecc7d5e937df",
           "code": "912334",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912334",
@@ -951,6 +1056,7 @@
             ""
           ],
           "budget": 13036.8,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-01-30",
           "endDate": "2026-09-30",
@@ -958,6 +1064,7 @@
           "region": "Es425 - toledo"
         },
         {
+          "id": "39483f94-7b2c-81fb-8eab-f4e01285aa4a",
           "code": "913109",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913109",
@@ -967,6 +1074,7 @@
             ""
           ],
           "budget": 6500.55,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "2026-01-30",
           "endDate": "2026-09-15",
@@ -986,6 +1094,7 @@
       "tag_seo": "innovacion",
       "grants": [
         {
+          "id": "39483f94-7b2c-816b-87f6-dce37b7c1ec6",
           "code": "900745",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900745",
@@ -995,6 +1104,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-04-22",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1002,6 +1112,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8181-803b-ce7c121ef4ee",
           "code": "900786",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900786",
@@ -1011,6 +1122,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-04-22",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1018,6 +1130,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8159-a087-e08f3cb9b0b3",
           "code": "914549",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914549",
@@ -1027,6 +1140,7 @@
             "Startups del ecosistema innovador valenciano,Sede social en València o área metropolitana,Desarrollar proyectos con impacto en la ciudad,Haber participado en programas de aceleración,No estar en ninguna circunstancia prevista en el artículo 13 de la Ley 38/2003"
           ],
           "budget": 24000,
+          "publicationDate": "",
           "receptionDate": "2026-06-22",
           "startDate": "2026-06-27",
           "endDate": "2026-07-16",
@@ -1046,6 +1160,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39483f94-7b2c-8157-882c-e562a7acd980",
           "code": "901049",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/901049",
@@ -1055,6 +1170,7 @@
             ""
           ],
           "budget": 2000,
+          "publicationDate": "",
           "receptionDate": "2026-04-23",
           "startDate": "2026-04-23",
           "endDate": "2026-12-31",
@@ -1062,6 +1178,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-8132-8e2d-c8983cda884d",
           "code": "916797",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916797",
@@ -1071,6 +1188,7 @@
             ""
           ],
           "budget": 20000,
+          "publicationDate": "",
           "receptionDate": "2026-07-02",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1078,6 +1196,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "39483f94-7b2c-819f-9143-d0bfb957d57f",
           "code": "916850",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916850",
@@ -1087,6 +1206,7 @@
             ""
           ],
           "budget": 2500,
+          "publicationDate": "",
           "receptionDate": "2026-07-02",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1106,6 +1226,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39683f94-7b2c-81b7-b9a3-dffa806d60a2",
           "code": "890737",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/890737",
@@ -1118,6 +1239,7 @@
             "Haber presentado la solicitud única de la PAC de 2025 en Castilla y León"
           ],
           "budget": 74406.2,
+          "publicationDate": "",
           "receptionDate": "2026-03-03",
           "startDate": "",
           "endDate": "",
@@ -1125,6 +1247,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-81c0-9535-d500960f62b2",
           "code": "904108",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904108",
@@ -1137,6 +1260,7 @@
             "Pacientes no institucionalizados"
           ],
           "budget": 176640,
+          "publicationDate": "",
           "receptionDate": "2026-05-07",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1144,6 +1268,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8172-89ce-d90a709ebfe9",
           "code": "907514",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907514",
@@ -1153,6 +1278,7 @@
             ""
           ],
           "budget": 130000,
+          "publicationDate": "",
           "receptionDate": "2026-05-22",
           "startDate": "",
           "endDate": "",
@@ -1172,6 +1298,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39283f94-7b2c-815c-b79b-dfae0ba42f28",
           "code": "871232",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/871232",
@@ -1181,6 +1308,7 @@
             "Ser propietario o usufructuario de las viviendas afectadas por los incendios.,Las viviendas deben ser la residencia habitual u ocasional de los afectados.,Las edificaciones complementarias deben estar vinculadas a las viviendas.,No deben estar en estado de ruina, abandono o deshabitadas al momento del incendio."
           ],
           "budget": 1063700,
+          "publicationDate": "",
           "receptionDate": "2025-11-26",
           "startDate": "",
           "endDate": "",
@@ -1188,6 +1316,7 @@
           "region": "Es419 - zamora"
         },
         {
+          "id": "39283f94-7b2c-8168-958b-ed558ff9ad85",
           "code": "871441",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/871441",
@@ -1197,6 +1326,7 @@
             "Personas damnificadas por incendios forestales en los municipios mencionados.,Propietarios o usufructuarios de las viviendas afectadas.,Deben ser residencias habituales u ocasionales."
           ],
           "budget": 909500,
+          "publicationDate": "",
           "receptionDate": "2025-11-27",
           "startDate": "",
           "endDate": "",
@@ -1204,6 +1334,7 @@
           "region": "Es419 - zamora"
         },
         {
+          "id": "39283f94-7b2c-81ce-8a21-ffadb8e771fe",
           "code": "877533",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/877533",
@@ -1213,6 +1344,7 @@
             "Ser damnificado por incendios forestales en los términos municipales de Burgohondo, Carucedo, Castrocalbón, Oencia y Quintana y Congosto, Guardo, Villaseco de los Reyes y Riofrío de Aliste.,Los bienes deben ser la residencia habitual u ocasional de los solicitantes.,No haber solicitado ni recibido otras ayudas para el mismo fin."
           ],
           "budget": 1053350,
+          "publicationDate": "",
           "receptionDate": "2025-12-23",
           "startDate": "",
           "endDate": "",
@@ -1232,6 +1364,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "39283f94-7b2c-81f8-bdf8-fd91e49c7282",
           "code": "913635",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913635",
@@ -1241,6 +1374,7 @@
             ""
           ],
           "budget": 22750,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "2026-06-18",
           "endDate": "2026-07-15",
@@ -1248,6 +1382,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8128-83ce-e5e7ecda19d8",
           "code": "915709",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915709",
@@ -1257,6 +1392,7 @@
             ""
           ],
           "budget": 21000,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-06-29",
           "endDate": "2026-07-10",
@@ -1264,6 +1400,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-81d4-97bf-f0b2da473d5f",
           "code": "915926",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915926",
@@ -1273,6 +1410,7 @@
             ""
           ],
           "budget": 127509.27,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-06-30",
           "endDate": "2026-07-19",
@@ -1280,6 +1418,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-814b-b052-fdb8df92704d",
           "code": "915939",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915939",
@@ -1289,6 +1428,7 @@
             ""
           ],
           "budget": 600000,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "",
           "endDate": "",
@@ -1296,6 +1436,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8184-a175-e9bc55945d40",
           "code": "916042",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916042",
@@ -1305,6 +1446,7 @@
             ""
           ],
           "budget": 39300,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-06-30",
           "endDate": "2026-07-13",
@@ -1312,6 +1454,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-81d3-b959-d0f681b62b01",
           "code": "916132",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916132",
@@ -1321,6 +1464,7 @@
             ""
           ],
           "budget": 1100000,
+          "publicationDate": "",
           "receptionDate": "2026-06-30",
           "startDate": "2026-07-01",
           "endDate": "2026-07-21",
@@ -1328,6 +1472,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-81f6-9c48-c49a597c6c1d",
           "code": "916381",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916381",
@@ -1337,6 +1482,7 @@
             ""
           ],
           "budget": 724473.36,
+          "publicationDate": "",
           "receptionDate": "2026-07-01",
           "startDate": "2026-07-02",
           "endDate": "2026-07-29",
@@ -1344,6 +1490,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-819e-af19-d33a7006b140",
           "code": "916441",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916441",
@@ -1353,6 +1500,7 @@
             ""
           ],
           "budget": 800,
+          "publicationDate": "",
           "receptionDate": "2026-07-01",
           "startDate": "2026-09-01",
           "endDate": "2026-10-19",
@@ -1360,6 +1508,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-81ce-9c3a-e7492cd4c028",
           "code": "915924",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915924",
@@ -1369,6 +1518,7 @@
             ""
           ],
           "budget": 4200,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-06-30",
           "endDate": "2026-07-20",
@@ -1376,6 +1526,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "38883f94-7b2c-818a-81ad-e6b5e0164aa6",
           "code": "913080",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913080",
@@ -1385,6 +1536,7 @@
             ""
           ],
           "budget": 1200,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "",
           "endDate": "2026-06-30",
@@ -1392,6 +1544,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "38883f94-7b2c-816c-8c51-e4a63e7b7699",
           "code": "913093",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913093",
@@ -1401,6 +1554,7 @@
             ""
           ],
           "budget": 22500,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "",
           "endDate": "2026-10-02",
@@ -1408,6 +1562,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "38883f94-7b2c-811f-8386-e8b7aef9f5d5",
           "code": "913586",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913586",
@@ -1417,6 +1572,7 @@
             ""
           ],
           "budget": 1800,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "2026-06-30",
@@ -1436,6 +1592,7 @@
       "tag_seo": "artes_plasticas",
       "grants": [
         {
+          "id": "39283f94-7b2c-8113-888d-f638e1818a8e",
           "code": "913274",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913274",
@@ -1445,6 +1602,7 @@
             ""
           ],
           "budget": 13500,
+          "publicationDate": "",
           "receptionDate": "2026-06-16",
           "startDate": "2026-06-17",
           "endDate": "2026-08-01",
@@ -1452,6 +1610,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-813f-aa52-e28bb23115a2",
           "code": "913912",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913912",
@@ -1461,6 +1620,7 @@
             ""
           ],
           "budget": 150,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-06-19",
           "endDate": "2026-07-08",
@@ -1468,6 +1628,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-817d-a9e1-effa95b17b8f",
           "code": "915759",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915759",
@@ -1477,6 +1638,7 @@
             ""
           ],
           "budget": 1000,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-07-02",
           "endDate": "2026-07-15",
@@ -1484,6 +1646,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8154-9c08-f87703879c40",
           "code": "916465",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916465",
@@ -1493,6 +1656,7 @@
             ""
           ],
           "budget": 4500,
+          "publicationDate": "",
           "receptionDate": "2026-07-01",
           "startDate": "2026-07-02",
           "endDate": "2026-09-22",
@@ -1512,6 +1676,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "39283f94-7b2c-81c8-b462-e8dd02916800",
           "code": "913598",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913598",
@@ -1521,6 +1686,7 @@
             ""
           ],
           "budget": 2000,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "2026-06-18",
           "endDate": "2026-09-30",
@@ -1528,6 +1694,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8125-9ff6-d80f1c97c58d",
           "code": "913891",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913891",
@@ -1537,6 +1704,7 @@
             ""
           ],
           "budget": 1600,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-06-19",
           "endDate": "2026-09-30",
@@ -1544,6 +1712,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8158-9155-e1293c250916",
           "code": "915763",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915763",
@@ -1553,6 +1722,7 @@
             ""
           ],
           "budget": 900,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-06-29",
           "endDate": "2026-09-30",
@@ -1560,6 +1730,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-813d-bb5d-ed2804ec3fd7",
           "code": "916164",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916164",
@@ -1569,6 +1740,7 @@
             ""
           ],
           "budget": 60000,
+          "publicationDate": "",
           "receptionDate": "2026-06-30",
           "startDate": "2026-07-15",
           "endDate": "2026-07-31",
@@ -1588,6 +1760,7 @@
       "tag_seo": "literatura",
       "grants": [
         {
+          "id": "39283f94-7b2c-812e-868f-ead806f93c7e",
           "code": "913867",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913867",
@@ -1597,6 +1770,7 @@
             ""
           ],
           "budget": 2700,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-09-01",
           "endDate": "2026-09-20",
@@ -1604,6 +1778,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8100-a8da-f70e3a8da76e",
           "code": "913340",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913340",
@@ -1613,6 +1788,7 @@
             ""
           ],
           "budget": 6000,
+          "publicationDate": "",
           "receptionDate": "2026-06-16",
           "startDate": "2026-06-17",
           "endDate": "2026-09-30",
@@ -1620,6 +1796,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-8140-a354-d44f85e566e1",
           "code": "915900",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915900",
@@ -1629,6 +1806,7 @@
             ""
           ],
           "budget": 1100,
+          "publicationDate": "",
           "receptionDate": "2026-06-28",
           "startDate": "2026-06-29",
           "endDate": "2026-11-16",
@@ -1648,6 +1826,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "39283f94-7b2c-810e-a538-c17fcd4b9e6d",
           "code": "909754",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909754",
@@ -1657,6 +1836,7 @@
             ""
           ],
           "budget": 27011.16,
+          "publicationDate": "",
           "receptionDate": "2026-06-01",
           "startDate": "",
           "endDate": "",
@@ -1664,6 +1844,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-81cc-a6ee-fdd532aa3007",
           "code": "909755",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909755",
@@ -1673,6 +1854,7 @@
             ""
           ],
           "budget": 36000,
+          "publicationDate": "",
           "receptionDate": "2026-06-01",
           "startDate": "2026-01-01",
           "endDate": "2026-10-30",
@@ -1680,6 +1862,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8161-b7b5-cf05c5d250bb",
           "code": "910128",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/910128",
@@ -1689,6 +1872,7 @@
             ""
           ],
           "budget": 2362.74,
+          "publicationDate": "",
           "receptionDate": "2026-06-02",
           "startDate": "",
           "endDate": "",
@@ -1696,6 +1880,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8142-9bbc-d585dfa4705e",
           "code": "910480",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/910480",
@@ -1705,6 +1890,7 @@
             ""
           ],
           "budget": 6314.48,
+          "publicationDate": "",
           "receptionDate": "2026-06-03",
           "startDate": "",
           "endDate": "",
@@ -1712,6 +1898,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8189-aaf6-c5b15d7eaea6",
           "code": "911701",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911701",
@@ -1721,6 +1908,7 @@
             ""
           ],
           "budget": 20000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "2025-06-01",
           "endDate": "2026-12-31",
@@ -1728,6 +1916,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8186-a24d-e55b3920c450",
           "code": "911703",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911703",
@@ -1737,6 +1926,7 @@
             ""
           ],
           "budget": 6838.89,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -1744,6 +1934,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-811a-b4c6-d006e2383478",
           "code": "913487",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913487",
@@ -1753,6 +1944,7 @@
             ""
           ],
           "budget": 25000,
+          "publicationDate": "",
           "receptionDate": "2026-06-16",
           "startDate": "2026-06-03",
           "endDate": "2026-12-31",
@@ -1760,6 +1952,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "38883f94-7b2c-81fc-aa6c-e09be8506486",
           "code": "857198",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/857198",
@@ -1769,6 +1962,7 @@
             ""
           ],
           "budget": 1500,
+          "publicationDate": "",
           "receptionDate": "2025-09-17",
           "startDate": "2026-06-23",
           "endDate": "2026-06-23",
@@ -1788,6 +1982,7 @@
       "tag_seo": "salud",
       "grants": [
         {
+          "id": "39283f94-7b2c-812a-a82b-c8addc4c2291",
           "code": "914781",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914781",
@@ -1797,6 +1992,7 @@
             ""
           ],
           "budget": 535863,
+          "publicationDate": "",
           "receptionDate": "2026-06-23",
           "startDate": "2026-05-12",
           "endDate": "2026-12-31",
@@ -1804,6 +2000,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-81ac-b7c4-ce5b8e474c73",
           "code": "910127",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/910127",
@@ -1813,6 +2010,7 @@
             ""
           ],
           "budget": 140000,
+          "publicationDate": "",
           "receptionDate": "2026-06-02",
           "startDate": "2026-04-28",
           "endDate": "2026-12-31",
@@ -1820,6 +2018,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-81d9-ae7a-d8822aa7f6fa",
           "code": "911107",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911107",
@@ -1829,6 +2028,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-05",
           "startDate": "2026-05-29",
           "endDate": "2026-12-31",
@@ -1836,6 +2036,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8149-aff9-d45b3b4862e6",
           "code": "912073",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912073",
@@ -1845,6 +2046,7 @@
             ""
           ],
           "budget": 50000,
+          "publicationDate": "",
           "receptionDate": "2026-06-10",
           "startDate": "2026-06-03",
           "endDate": "2027-02-28",
@@ -1852,6 +2054,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8181-9b1b-f2334dfa89f6",
           "code": "912784",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912784",
@@ -1861,6 +2064,7 @@
             ""
           ],
           "budget": 26518.7,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1880,6 +2084,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "39283f94-7b2c-8118-be9e-e50f25690796",
           "code": "910787",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/910787",
@@ -1889,6 +2094,7 @@
             ""
           ],
           "budget": 150000,
+          "publicationDate": "",
           "receptionDate": "2026-06-04",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1896,6 +2102,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-81e7-a3e0-c5a9a6c68bf1",
           "code": "912783",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912783",
@@ -1905,6 +2112,7 @@
             ""
           ],
           "budget": 507947,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1912,6 +2120,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8165-a510-cf7885c6a685",
           "code": "912785",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912785",
@@ -1921,6 +2130,7 @@
             ""
           ],
           "budget": 180000,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -1940,6 +2150,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39283f94-7b2c-8192-a958-ce805d72a619",
           "code": "913152",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913152",
@@ -1949,6 +2160,7 @@
             ""
           ],
           "budget": 120000,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "2026-05-26",
           "endDate": "2026-11-30",
@@ -1956,6 +2168,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8170-9db7-e5965e2f8f29",
           "code": "915616",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915616",
@@ -1965,6 +2178,7 @@
             ""
           ],
           "budget": 1982000,
+          "publicationDate": "",
           "receptionDate": "2026-06-25",
           "startDate": "2026-02-05",
           "endDate": "2026-12-31",
@@ -1972,6 +2186,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-81d7-9c90-ea253a3e0957",
           "code": "916092",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916092",
@@ -1981,6 +2196,7 @@
             ""
           ],
           "budget": 51713,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-01-01",
           "endDate": "2026-11-15",
@@ -2000,6 +2216,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "38983f94-7b2c-8184-b536-cf09f070ea7a",
           "code": "906751",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906751",
@@ -2009,6 +2226,7 @@
             ""
           ],
           "budget": 14354.14,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2016,6 +2234,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81c6-b5e5-f7e6dd01927a",
           "code": "908766",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908766",
@@ -2025,6 +2244,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-05-28",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -2032,6 +2252,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81b9-915d-dbbb794cc448",
           "code": "911555",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911555",
@@ -2041,6 +2262,7 @@
             ""
           ],
           "budget": 264585.6,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -2048,6 +2270,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8102-bcc9-c88495ac1acb",
           "code": "914190",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914190",
@@ -2057,6 +2280,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-05-25",
           "endDate": "2026-12-31",
@@ -2064,6 +2288,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81ff-90da-e1d645a546f4",
           "code": "914253",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914253",
@@ -2073,6 +2298,7 @@
             ""
           ],
           "budget": 10000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "",
           "endDate": "",
@@ -2080,6 +2306,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-810d-a213-c06fdd6c6386",
           "code": "905683",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905683",
@@ -2089,6 +2316,7 @@
             ""
           ],
           "budget": 3000,
+          "publicationDate": "",
           "receptionDate": "2026-05-14",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -2096,6 +2324,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8185-8810-f11708f330e9",
           "code": "906208",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906208",
@@ -2105,6 +2334,7 @@
             ""
           ],
           "budget": 3600,
+          "publicationDate": "",
           "receptionDate": "2026-05-18",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -2112,6 +2342,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-812d-85a8-e9b1e53d37b4",
           "code": "909173",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909173",
@@ -2121,6 +2352,7 @@
             ""
           ],
           "budget": 10000,
+          "publicationDate": "",
           "receptionDate": "2026-05-29",
           "startDate": "",
           "endDate": "",
@@ -2128,6 +2360,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-810c-a192-d9e845e1015e",
           "code": "911551",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911551",
@@ -2137,6 +2370,7 @@
             ""
           ],
           "budget": 87000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -2144,6 +2378,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81e8-912b-ead43dd2767c",
           "code": "912261",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912261",
@@ -2153,6 +2388,7 @@
             ""
           ],
           "budget": 15500,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-05-20",
           "endDate": "2026-12-31",
@@ -2160,6 +2396,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8103-a282-d41968259829",
           "code": "913722",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913722",
@@ -2169,6 +2406,7 @@
             ""
           ],
           "budget": 40270.5,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2176,6 +2414,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-816e-8d63-e45fb86936aa",
           "code": "913731",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913731",
@@ -2185,6 +2424,7 @@
             ""
           ],
           "budget": 39213.44,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2192,6 +2432,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81be-ab9e-ef38f7953b5b",
           "code": "913746",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913746",
@@ -2201,6 +2442,7 @@
             ""
           ],
           "budget": 16794,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2208,6 +2450,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8163-b485-e35df67a2812",
           "code": "913785",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913785",
@@ -2217,6 +2460,7 @@
             ""
           ],
           "budget": 14951,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2224,6 +2468,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-816c-91b0-db5cdaab21d3",
           "code": "914176",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914176",
@@ -2233,6 +2478,7 @@
             ""
           ],
           "budget": 14000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-05-27",
           "endDate": "2026-12-31",
@@ -2240,6 +2486,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81f3-bae4-ea30729b8771",
           "code": "914180",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914180",
@@ -2249,6 +2496,7 @@
             ""
           ],
           "budget": 13000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-05-05",
           "endDate": "2026-12-31",
@@ -2256,6 +2504,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81f2-bcd9-e79da21091ea",
           "code": "914244",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914244",
@@ -2265,6 +2514,7 @@
             ""
           ],
           "budget": 25000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "",
           "endDate": "",
@@ -2284,6 +2534,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "38983f94-7b2c-8118-9e70-d6b98eed485a",
           "code": "906696",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906696",
@@ -2293,6 +2544,7 @@
             ""
           ],
           "budget": 36404,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2300,6 +2552,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81cd-996b-cc1fdfbe7de5",
           "code": "906707",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906707",
@@ -2309,6 +2562,7 @@
             ""
           ],
           "budget": 16000,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2316,6 +2570,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-819a-9c28-ce76496bba9a",
           "code": "906737",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906737",
@@ -2325,6 +2580,7 @@
             ""
           ],
           "budget": 33787.16,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2332,6 +2588,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8198-8141-c1bb302a83cc",
           "code": "906759",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906759",
@@ -2341,6 +2598,7 @@
             ""
           ],
           "budget": 13500,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2348,6 +2606,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8142-b47b-dd36f1e31838",
           "code": "906763",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906763",
@@ -2357,6 +2616,7 @@
             ""
           ],
           "budget": 17500,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2364,6 +2624,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-816d-8da7-eea6964d616f",
           "code": "906767",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906767",
@@ -2373,6 +2634,7 @@
             ""
           ],
           "budget": 7000,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "",
           "endDate": "",
@@ -2380,6 +2642,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81a0-80c2-eb3b8840e9bb",
           "code": "907789",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907789",
@@ -2389,6 +2652,7 @@
             ""
           ],
           "budget": 80500,
+          "publicationDate": "",
           "receptionDate": "2026-05-25",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -2396,6 +2660,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81ab-98a7-dbe63ec60f21",
           "code": "913761",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913761",
@@ -2405,6 +2670,7 @@
             ""
           ],
           "budget": 16000,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2412,6 +2678,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81a0-81bd-d93f37fc912c",
           "code": "913764",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913764",
@@ -2421,6 +2688,7 @@
             ""
           ],
           "budget": 15500,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -2440,6 +2708,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "38983f94-7b2c-81ea-9785-d22ab8ebe169",
           "code": "909613",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909613",
@@ -2449,6 +2718,7 @@
             ""
           ],
           "budget": 28500,
+          "publicationDate": "",
           "receptionDate": "2026-06-01",
           "startDate": "2026-06-02",
           "endDate": "2026-06-29",
@@ -2456,6 +2726,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8136-836d-f6840bd9db84",
           "code": "911653",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911653",
@@ -2465,6 +2736,7 @@
             ""
           ],
           "budget": 72000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "2026-06-10",
           "endDate": "2026-07-07",
@@ -2472,6 +2744,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8166-b087-f185c8dbe386",
           "code": "911829",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911829",
@@ -2481,6 +2754,7 @@
             ""
           ],
           "budget": 25000,
+          "publicationDate": "",
           "receptionDate": "2026-06-10",
           "startDate": "2026-06-11",
           "endDate": "2027-06-25",
@@ -2488,6 +2762,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81eb-ae86-c74d8940e43f",
           "code": "914329",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914329",
@@ -2497,6 +2772,7 @@
             ""
           ],
           "budget": 170000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-06-22",
           "endDate": "2026-09-18",
@@ -2516,6 +2792,7 @@
       "tag_seo": "empleo",
       "grants": [
         {
+          "id": "38383f94-7b2c-813e-8819-f1b6e361459b",
           "code": "885613",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885613",
@@ -2525,6 +2802,7 @@
             ""
           ],
           "budget": 500000,
+          "publicationDate": "",
           "receptionDate": "2026-02-06",
           "startDate": "2026-06-23",
           "endDate": "2026-09-30",
@@ -2532,6 +2810,7 @@
           "region": "Es11 - galicia"
         },
         {
+          "id": "38383f94-7b2c-81b6-8d5b-f38a98d30f5d",
           "code": "885614",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885614",
@@ -2541,6 +2820,7 @@
             ""
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2026-02-06",
           "startDate": "2026-06-23",
           "endDate": "2026-09-30",
@@ -2548,6 +2828,7 @@
           "region": "Es11 - galicia"
         },
         {
+          "id": "38383f94-7b2c-81e5-8bd5-ce5a03705fd1",
           "code": "885616",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/885616",
@@ -2557,6 +2838,7 @@
             ""
           ],
           "budget": 19100000,
+          "publicationDate": "",
           "receptionDate": "2026-02-06",
           "startDate": "2026-06-23",
           "endDate": "2026-09-30",
@@ -2578,6 +2860,7 @@
       "tag_seo": "comercio",
       "grants": [
         {
+          "id": "39683f94-7b2c-8166-9461-fa696c91fac6",
           "code": "912327",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912327",
@@ -2595,6 +2878,7 @@
             "Tener al menos 2 empleados en la última anualidad"
           ],
           "budget": 40404.9,
+          "publicationDate": "",
           "receptionDate": "2026-06-11",
           "startDate": "2026-06-17",
           "endDate": "2026-09-30",
@@ -2602,6 +2886,7 @@
           "region": "Es41 - castilla y leon"
         },
         {
+          "id": "39683f94-7b2c-8130-ae5b-cc92ecae4fa7",
           "code": "915155",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915155",
@@ -2611,6 +2896,7 @@
             ""
           ],
           "budget": 350000,
+          "publicationDate": "",
           "receptionDate": "2026-06-24",
           "startDate": "",
           "endDate": "",
@@ -2630,6 +2916,7 @@
       "tag_seo": "tercera_edad",
       "grants": [
         {
+          "id": "39283f94-7b2c-8165-9786-e7cce0b4d977",
           "code": "908738",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908738",
@@ -2639,6 +2926,7 @@
             "Ser estudiante de excelencia académica de la Universidad de León,Estar matriculado en el curso académico 2026/2027,Haber solicitado preinscripción en el Colegio Mayor Universitario San Isidoro o La Tebaida,Cumplir con los requisitos de matrícula y porcentaje de aprobados"
           ],
           "budget": 30000,
+          "publicationDate": "",
           "receptionDate": "2026-05-28",
           "startDate": "2026-05-28",
           "endDate": "2026-07-15",
@@ -2646,6 +2934,7 @@
           "region": "Es413 - león"
         },
         {
+          "id": "39283f94-7b2c-8141-94f0-ed942885a4f4",
           "code": "910969",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/910969",
@@ -2655,6 +2944,7 @@
             "Estudiantes de la Universidad de León,Matriculados en el curso 2026/2027,Cumplir con los requisitos de matrícula y méritos deportivos"
           ],
           "budget": 32200,
+          "publicationDate": "",
           "receptionDate": "2026-06-05",
           "startDate": "2026-06-05",
           "endDate": "2026-07-13",
@@ -2674,6 +2964,7 @@
       "tag_seo": "accesibilidad",
       "grants": [
         {
+          "id": "39483f94-7b2c-81de-86bf-c9c005b00fd5",
           "code": "914341",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914341",
@@ -2683,6 +2974,7 @@
             ""
           ],
           "budget": 3500,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-01-30",
           "endDate": "2026-11-27",
@@ -2702,6 +2994,7 @@
       "tag_seo": "salud",
       "grants": [
         {
+          "id": "39483f94-7b2c-81aa-b282-d3686eac0ffb",
           "code": "914354",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914354",
@@ -2711,6 +3004,7 @@
             "Entidades Locales de la provincia de Toledo,Tener un mínimo de 10 participantes y un máximo de 25 por grupo,Contratar un monitor para la actividad,Estar al corriente en el cumplimiento de las obligaciones con la Diputación Provincial de Toledo y otras administraciones"
           ],
           "budget": 305000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-06-24",
           "endDate": "2026-07-14",
@@ -2730,6 +3024,7 @@
       "tag_seo": "turismo",
       "grants": [
         {
+          "id": "39483f94-7b2c-81c1-b4dc-d166a70e76e5",
           "code": "914359",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914359",
@@ -2739,6 +3034,7 @@
             "Solo Ayuntamientos y EATIM de la provincia de Toledo pueden aplicar,No aplicar para el Ayuntamiento de Toledo,Estar al corriente de obligaciones con la Diputación Provincial y otras Administraciones Públicas,No estar incursos en prohibiciones de la Ley 38/2003"
           ],
           "budget": 80000,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-06-24",
           "endDate": "2026-07-13",
@@ -2758,6 +3054,7 @@
       "tag_seo": "artes_plasticas",
       "grants": [
         {
+          "id": "39483f94-7b2c-81d3-8c4f-c5774bab649c",
           "code": "900777",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900777",
@@ -2767,6 +3064,7 @@
             "Podrán participar todas las personas que lo deseen,Los trabajos deben ser inéditos,No se admiten imágenes o fotografías reproducidas de otros autores,No se permite la utilización de herramientas de inteligencia artificial,El cartel debe ser vertical con medidas específicas"
           ],
           "budget": 1500,
+          "publicationDate": "",
           "receptionDate": "2026-04-22",
           "startDate": "2026-01-02",
           "endDate": "2026-12-31",
@@ -2786,6 +3084,7 @@
       "tag_seo": "economia_digital",
       "grants": [
         {
+          "id": "39483f94-7b2c-8182-8bcd-f9e1b9707c74",
           "code": "906852",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/906852",
@@ -2795,6 +3094,7 @@
             "Pymes de la demarcación territorial de la Cámara de Comercio de Valencia,Estar dadas de alta en el Censo del IAE"
           ],
           "budget": 34240,
+          "publicationDate": "",
           "receptionDate": "2026-05-20",
           "startDate": "2026-05-28",
           "endDate": "2026-12-31",
@@ -2814,6 +3114,7 @@
       "tag_seo": "gastronomia",
       "grants": [
         {
+          "id": "39483f94-7b2c-8193-ba85-feccc6e0ff59",
           "code": "913417",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913417",
@@ -2823,6 +3124,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-16",
           "startDate": "2026-06-17",
           "endDate": "2026-12-31",
@@ -2842,6 +3144,7 @@
       "tag_seo": "juventud",
       "grants": [
         {
+          "id": "39483f94-7b2c-8100-b77f-ed21d498b160",
           "code": "905298",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905298",
@@ -2851,6 +3154,7 @@
             "Empresas y personas inscritas en el Régimen Especial de Trabajadores Autónomos en Valencia,Estar dadas de alta en el Censo del IAE,Contratar a jóvenes beneficiarios del Sistema Nacional de Garantía Juvenil,Haber finalizado la orientación vocacional dentro del Programa Talento Joven"
           ],
           "budget": 200000,
+          "publicationDate": "",
           "receptionDate": "2026-05-13",
           "startDate": "2026-05-14",
           "endDate": "2026-12-31",
@@ -2870,6 +3174,7 @@
       "tag_seo": "patrimonio",
       "grants": [
         {
+          "id": "39483f94-7b2c-8145-aeb2-c56959157349",
           "code": "900526",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900526",
@@ -2879,6 +3184,7 @@
             "Comercios, empresas y servicios de la ciudad de Algemesí,Empresas con al menos dos años de antigüedad para una modalidad,Empresas de nueva creación (creadas en 2025 o 2026) para otra modalidad,Uso del valenciano en la rotulación y material impreso,Presentar un dossier explicativo de la actividad"
           ],
           "budget": 3000,
+          "publicationDate": "",
           "receptionDate": "2026-04-21",
           "startDate": "2026-01-02",
           "endDate": "2026-12-31",
@@ -2898,6 +3204,7 @@
       "tag_seo": "tercera_edad",
       "grants": [
         {
+          "id": "39483f94-7b2c-8149-8ec4-c6912b0c0502",
           "code": "904066",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/904066",
@@ -2907,6 +3214,7 @@
             "Personas físicas, unidades familiares o de convivencia en situación de vulnerabilidad económica o social en Algemesí,Personas mayores con limitaciones funcionales que requieran apoyo para su autonomía personal,Empadronamiento en el municipio un mínimo de 12 meses antes de la solicitud,Para ayudas de emergencia, ingresos anuales inferiores al 100% del IPREM,Ingresos totales de la unidad familiar no superen 4 veces el IPREM,Para ayudas de autonomía, ser mayor de 60 años,Deficiencias de carácter motor,Solicitud relacionada con accesibilidad y comunicación,Ingresos totales de la unidad familiar no superen 5 veces el IPREM"
           ],
           "budget": 131150.54,
+          "publicationDate": "",
           "receptionDate": "2026-05-07",
           "startDate": "2026-05-07",
           "endDate": "2026-11-30",
@@ -2926,6 +3234,7 @@
       "tag_seo": "vivienda",
       "grants": [
         {
+          "id": "39483f94-7b2c-8123-a229-eccefc506e16",
           "code": "905890",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905890",
@@ -2935,6 +3244,7 @@
             "Personas físicas o jurídicas,Haber abonado la tasa de concesión de licencias urbanísticas,Obras efectuadas en viviendas del municipio de Picanya,Reparaciones por la inundación del 29 de octubre de 2024,Solicitud dentro del plazo establecido hasta el 30 de septiembre de 2026"
           ],
           "budget": 50000,
+          "publicationDate": "",
           "receptionDate": "2026-05-15",
           "startDate": "2026-05-18",
           "endDate": "2026-09-30",
@@ -2954,6 +3264,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "39683f94-7b2c-8126-bf1c-ff9b9bf803a5",
           "code": "909365",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/909365",
@@ -2965,6 +3276,7 @@
             "Curso académico 2025-2026"
           ],
           "budget": 25000,
+          "publicationDate": "",
           "receptionDate": "2026-05-31",
           "startDate": "2026-06-01",
           "endDate": "2026-09-30",
@@ -2984,6 +3296,7 @@
       "tag_seo": "energia",
       "grants": [
         {
+          "id": "39683f94-7b2c-8130-8bba-c24d7643571a",
           "code": "895512",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/895512",
@@ -2996,6 +3309,7 @@
             "Consumidores en situación de dependencia de grado II o III"
           ],
           "budget": 34067513.28,
+          "publicationDate": "",
           "receptionDate": "2026-03-26",
           "startDate": "",
           "endDate": "",
@@ -3015,6 +3329,7 @@
       "tag_seo": "artes_plasticas",
       "grants": [
         {
+          "id": "39283f94-7b2c-81eb-8687-d60480cb6ab7",
           "code": "908485",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908485",
@@ -3024,6 +3339,7 @@
             "Personas físicas,Cualquier edad,Cualquier nacionalidad,Cualquier lugar de residencia"
           ],
           "budget": 500,
+          "publicationDate": "",
           "receptionDate": "2026-05-27",
           "startDate": "2026-07-01",
           "endDate": "2026-07-22",
@@ -3043,6 +3359,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "39283f94-7b2c-81be-832f-f2c0f4e4f9ec",
           "code": "912923",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912923",
@@ -3052,6 +3369,7 @@
             "Ayuntamientos de menos de 20.000 habitantes pueden aplicar.,Clubes deportivos pueden aplicar.,Federaciones y delegaciones deportivas pueden aplicar.,Deportistas que participen en pruebas federadas de alto nivel."
           ],
           "budget": 180000,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "2026-06-16",
           "endDate": "2026-07-13",
@@ -3071,6 +3389,7 @@
       "tag_seo": "energia",
       "grants": [
         {
+          "id": "39283f94-7b2c-8139-bd2f-ead2b3d069dc",
           "code": "891284",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/891284",
@@ -3080,6 +3399,7 @@
             "Estar dada de alta en el registro de empresas y actividades turísticas o industrias agroalimentaria de Castilla y León.,Encontrarse de alta en el Censo del Impuesto de Actividades Económicas en los epígrafes adecuados según la actividad desarrollada.,Estar al corriente de las obligaciones tributarias con la Agencia Tributaria y con la Seguridad Social.,Tener un seguro de responsabilidad civil en vigor.,Tener un seguro de accidentes en vigor en el caso de empresas de actividades y agencias de viaje.,Ubicarse en el destino turístico Montaña de Riaño.,Ofrecer actividades y paquetes de ecoturismo dentro del destino turístico Montaña de Riaño.,No contar con ningún expediente sancionador abierto por la administración.,No desarrollar actividades en el medio natural que generen alto impacto ambiental."
           ],
           "budget": 16000,
+          "publicationDate": "",
           "receptionDate": "2026-03-05",
           "startDate": "2025-03-03",
           "endDate": "2026-12-31",
@@ -3099,6 +3419,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "39283f94-7b2c-8171-b477-d33fc4b9e072",
           "code": "903064",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903064",
@@ -3108,6 +3429,7 @@
             "Estudiantes de la Universidad de León,Matriculados en el curso académico 2026/2027,Estudios de Grado o Máster Oficial,Nota media igual o superior a 8.50 puntos"
           ],
           "budget": 52000,
+          "publicationDate": "",
           "receptionDate": "2026-05-04",
           "startDate": "2026-04-21",
           "endDate": "2026-10-07",
@@ -3127,6 +3449,7 @@
       "tag_seo": "musica",
       "grants": [
         {
+          "id": "39283f94-7b2c-81aa-a4a3-cf9cba917110",
           "code": "911975",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911975",
@@ -3136,6 +3459,7 @@
             "Grupos y agrupaciones corales,Preferencia para grupos del municipio de Ponferrada,Máximo de 12 grupos participantes,Mínimo de 8 componentes por grupo,No pertenecer a la misma agrupación"
           ],
           "budget": 4800,
+          "publicationDate": "",
           "receptionDate": "2026-06-10",
           "startDate": "2026-06-11",
           "endDate": "2026-07-08",
@@ -3155,6 +3479,7 @@
       "tag_seo": "nominativas",
       "grants": [
         {
+          "id": "39283f94-7b2c-8123-a1ac-f49da2321dd8",
           "code": "878049",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878049",
@@ -3164,6 +3489,7 @@
             "Damnificados por incendios forestales en Castrocalbón y Guardo,Personas físicas o jurídicas, propietarias o usufructuarias de bienes dañados"
           ],
           "budget": 1421535,
+          "publicationDate": "",
           "receptionDate": "2025-12-29",
           "startDate": "",
           "endDate": "",
@@ -3183,6 +3509,7 @@
       "tag_seo": "turismo",
       "grants": [
         {
+          "id": "39283f94-7b2c-8129-9f3e-df2dbd74512a",
           "code": "882698",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882698",
@@ -3192,6 +3519,7 @@
             ""
           ],
           "budget": 2499,
+          "publicationDate": "",
           "receptionDate": "2026-01-21",
           "startDate": "2026-02-16",
           "endDate": "2026-11-30",
@@ -3211,6 +3539,7 @@
       "tag_seo": "accesibilidad",
       "grants": [
         {
+          "id": "39283f94-7b2c-8134-9c20-d559273ffaf7",
           "code": "914147",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914147",
@@ -3220,6 +3549,7 @@
             ""
           ],
           "budget": 5225550,
+          "publicationDate": "",
           "receptionDate": "2026-06-19",
           "startDate": "2026-06-22",
           "endDate": "2026-07-22",
@@ -3227,6 +3557,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "39283f94-7b2c-81f1-95d4-fccc968a6b7c",
           "code": "914930",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914930",
@@ -3236,6 +3567,7 @@
             ""
           ],
           "budget": 44975,
+          "publicationDate": "",
           "receptionDate": "2026-06-23",
           "startDate": "2026-07-03",
           "endDate": "2026-07-16",
@@ -3255,6 +3587,7 @@
       "tag_seo": "tercera_edad",
       "grants": [
         {
+          "id": "39283f94-7b2c-81e4-bc5c-fa8c6ae725fa",
           "code": "913818",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913818",
@@ -3264,6 +3597,7 @@
             ""
           ],
           "budget": 2000,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -3271,6 +3605,7 @@
           "region": "Es - españa"
         },
         {
+          "id": "38883f94-7b2c-814b-8f17-d3712f7f5361",
           "code": "913078",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913078",
@@ -3280,6 +3615,7 @@
             ""
           ],
           "budget": 8000000,
+          "publicationDate": "",
           "receptionDate": "2026-06-15",
           "startDate": "",
           "endDate": "2027-12-31",
@@ -3299,6 +3635,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "39283f94-7b2c-812c-ba12-f265ce6a20d8",
           "code": "913958",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913958",
@@ -3308,6 +3645,7 @@
             ""
           ],
           "budget": 800,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -3327,6 +3665,7 @@
       "tag_seo": "innovacion",
       "grants": [
         {
+          "id": "39283f94-7b2c-81aa-9870-cd81a3525e19",
           "code": "914753",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914753",
@@ -3336,6 +3675,7 @@
             ""
           ],
           "budget": 3000,
+          "publicationDate": "",
           "receptionDate": "2026-06-22",
           "startDate": "2026-06-23",
           "endDate": "2026-07-06",
@@ -3355,6 +3695,7 @@
       "tag_seo": "movilidad",
       "grants": [
         {
+          "id": "39283f94-7b2c-8101-b82e-fa3cfff323c9",
           "code": "915710",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915710",
@@ -3364,6 +3705,7 @@
             ""
           ],
           "budget": 150000,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-06-30",
           "endDate": "2028-03-31",
@@ -3383,6 +3725,7 @@
       "tag_seo": "musica",
       "grants": [
         {
+          "id": "39283f94-7b2c-81c6-82dc-ed9b6c35509c",
           "code": "915872",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/915872",
@@ -3392,6 +3735,7 @@
             ""
           ],
           "budget": 3650,
+          "publicationDate": "",
           "receptionDate": "2026-06-26",
           "startDate": "2026-06-29",
           "endDate": "2026-10-16",
@@ -3411,6 +3755,7 @@
       "tag_seo": "comercio",
       "grants": [
         {
+          "id": "39283f94-7b2c-81c3-baff-f75b45c3a9ac",
           "code": "912780",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912780",
@@ -3420,6 +3765,7 @@
             ""
           ],
           "budget": 4452975,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-01-01",
           "endDate": "2027-12-31",
@@ -3427,6 +3773,7 @@
           "region": "Es70 - canarias"
         },
         {
+          "id": "39283f94-7b2c-8153-a7e5-c4658934aeb6",
           "code": "912781",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912781",
@@ -3436,6 +3783,7 @@
             ""
           ],
           "budget": 494775,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "",
           "endDate": "",
@@ -3455,6 +3803,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "39283f94-7b2c-8180-9ac1-cf665759009f",
           "code": "911100",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911100",
@@ -3464,6 +3813,7 @@
             ""
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2026-06-05",
           "startDate": "2026-05-05",
           "endDate": "2026-12-31",
@@ -3483,6 +3833,7 @@
       "tag_seo": "innovacion",
       "grants": [
         {
+          "id": "39283f94-7b2c-81f2-bb9b-fe355ce0fc3d",
           "code": "911710",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911710",
@@ -3492,6 +3843,7 @@
             ""
           ],
           "budget": 80000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -3511,6 +3863,7 @@
       "tag_seo": "movilidad",
       "grants": [
         {
+          "id": "39283f94-7b2c-8143-b86d-de6da0f26c4c",
           "code": "914114",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/914114",
@@ -3520,6 +3873,7 @@
             ""
           ],
           "budget": 15000000,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-06-26",
           "endDate": "2026-07-24",
@@ -3539,6 +3893,7 @@
       "tag_seo": "teatro",
       "grants": [
         {
+          "id": "39283f94-7b2c-8189-8cf3-dc171480d77e",
           "code": "916096",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/916096",
@@ -3548,6 +3903,7 @@
             ""
           ],
           "budget": 50000,
+          "publicationDate": "",
           "receptionDate": "2026-06-29",
           "startDate": "2026-01-01",
           "endDate": "2026-12-31",
@@ -3567,6 +3923,7 @@
       "tag_seo": "turismo",
       "grants": [
         {
+          "id": "39283f94-7b2c-81b6-a38d-de760954b23c",
           "code": "911091",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911091",
@@ -3576,6 +3933,7 @@
             ""
           ],
           "budget": 43256.25,
+          "publicationDate": "",
           "receptionDate": "2026-06-05",
           "startDate": "",
           "endDate": "",
@@ -3595,6 +3953,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "38983f94-7b2c-810c-bea8-dff523322483",
           "code": "907820",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907820",
@@ -3604,6 +3963,7 @@
             ""
           ],
           "budget": 42000,
+          "publicationDate": "",
           "receptionDate": "2026-05-25",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -3611,6 +3971,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-8178-a686-c4c4fa8ac09b",
           "code": "908438",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/908438",
@@ -3620,6 +3981,7 @@
             ""
           ],
           "budget": 6000,
+          "publicationDate": "",
           "receptionDate": "2026-05-27",
           "startDate": "",
           "endDate": "",
@@ -3639,6 +4001,7 @@
       "tag_seo": "innovacion",
       "grants": [
         {
+          "id": "38983f94-7b2c-81cc-9041-d1c40d8f8268",
           "code": "913552",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913552",
@@ -3648,6 +4011,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -3655,6 +4019,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-81de-b1b4-c8f0e612606a",
           "code": "913556",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913556",
@@ -3664,6 +4029,7 @@
             ""
           ],
           "budget": 15000,
+          "publicationDate": "",
           "receptionDate": "2026-06-17",
           "startDate": "",
           "endDate": "",
@@ -3683,6 +4049,7 @@
       "tag_seo": "patrimonio",
       "grants": [
         {
+          "id": "38983f94-7b2c-813a-94ee-d41876551dba",
           "code": "911557",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911557",
@@ -3692,6 +4059,7 @@
             ""
           ],
           "budget": 25000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -3699,6 +4067,7 @@
           "region": "Es211 - araba/álava"
         },
         {
+          "id": "38983f94-7b2c-819e-8e93-d75c28c8d151",
           "code": "911561",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911561",
@@ -3708,6 +4077,7 @@
             ""
           ],
           "budget": 50000,
+          "publicationDate": "",
           "receptionDate": "2026-06-09",
           "startDate": "",
           "endDate": "",
@@ -3727,6 +4097,7 @@
       "tag_seo": "cine",
       "grants": [
         {
+          "id": "38983f94-7b2c-81eb-9d2f-fc2afee8fc96",
           "code": "907785",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/907785",
@@ -3736,6 +4107,7 @@
             ""
           ],
           "budget": 48000,
+          "publicationDate": "",
           "receptionDate": "2026-05-25",
           "startDate": "",
           "endDate": "2026-12-31",
@@ -3755,6 +4127,7 @@
       "tag_seo": "comercio",
       "grants": [
         {
+          "id": "38983f94-7b2c-8177-99ac-e3784f5900f8",
           "code": "911865",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/911865",
@@ -3764,6 +4137,7 @@
             ""
           ],
           "budget": 177485.74,
+          "publicationDate": "",
           "receptionDate": "2026-06-10",
           "startDate": "2026-06-11",
           "endDate": "2026-09-12",
@@ -3783,6 +4157,7 @@
       "tag_seo": "juventud",
       "grants": [
         {
+          "id": "38983f94-7b2c-81c9-8577-f8f40769e1a2",
           "code": "913841",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/913841",
@@ -3792,6 +4167,7 @@
             ""
           ],
           "budget": 11000,
+          "publicationDate": "",
           "receptionDate": "2026-06-18",
           "startDate": "2026-06-19",
           "endDate": "2026-10-02",
@@ -3811,6 +4187,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "38583f94-7b2c-8161-a6e1-defd270db9e4",
           "code": "912778",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912778",
@@ -3820,6 +4197,7 @@
             ""
           ],
           "budget": 5263157.9,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-06-15",
           "endDate": "2026-07-10",
@@ -3827,6 +4205,7 @@
           "region": "Es51 - cataluña"
         },
         {
+          "id": "38583f94-7b2c-8142-a03b-d1ece728f37d",
           "code": "912795",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/912795",
@@ -3836,6 +4215,7 @@
             ""
           ],
           "budget": 8730558.16,
+          "publicationDate": "",
           "receptionDate": "2026-06-12",
           "startDate": "2026-06-15",
           "endDate": "2026-07-10",
@@ -3855,6 +4235,7 @@
       "tag_seo": "vivienda",
       "grants": [
         {
+          "id": "38383f94-7b2c-81f8-a47d-fe6f75bf3fde",
           "code": "874675",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874675",
@@ -3864,6 +4245,7 @@
             ""
           ],
           "budget": 5000,
+          "publicationDate": "",
           "receptionDate": "2025-12-12",
           "startDate": "2025-12-15",
           "endDate": "2026-12-01",
@@ -3871,6 +4253,7 @@
           "region": "Es414 - palencia"
         },
         {
+          "id": "38383f94-7b2c-81db-b77a-ea3bd2f2bebb",
           "code": "874941",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/874941",
@@ -3880,6 +4263,7 @@
             ""
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2025-12-15",
           "startDate": "2025-12-16",
           "endDate": "2026-06-30",
@@ -3899,6 +4283,7 @@
       "tag_seo": "familia",
       "grants": [
         {
+          "id": "38383f94-7b2c-81aa-bd89-ef22687fc934",
           "code": "886361",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/886361",
@@ -3908,6 +4293,7 @@
             ""
           ],
           "budget": 4200,
+          "publicationDate": "",
           "receptionDate": "2026-02-10",
           "startDate": "2026-06-23",
           "endDate": "2026-12-15",
@@ -3915,6 +4301,7 @@
           "region": "Es523 - valencia / valència"
         },
         {
+          "id": "38383f94-7b2c-81f1-845e-f66f5b5c5420",
           "code": "900908",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/900908",
@@ -3924,6 +4311,7 @@
             ""
           ],
           "budget": 24000,
+          "publicationDate": "",
           "receptionDate": "2026-04-23",
           "startDate": "2026-04-24",
           "endDate": "2026-11-30",
@@ -3943,6 +4331,7 @@
       "tag_seo": "accesibilidad",
       "grants": [
         {
+          "id": "38883f94-7b2c-81a0-bec0-d5ad714d7be4",
           "code": "859160",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/859160",
@@ -3952,6 +4341,7 @@
             ""
           ],
           "budget": 100000,
+          "publicationDate": "",
           "receptionDate": "2025-09-26",
           "startDate": "2026-06-23",
           "endDate": "2026-09-30",
@@ -3971,6 +4361,7 @@
       "tag_seo": "musica",
       "grants": [
         {
+          "id": "38883f94-7b2c-8177-868e-e3d34ed0a775",
           "code": "878443",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878443",
@@ -3980,6 +4371,7 @@
             ""
           ],
           "budget": 1000000,
+          "publicationDate": "",
           "receptionDate": "2025-12-29",
           "startDate": "",
           "endDate": "",
@@ -3999,6 +4391,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "38383f94-7b2c-81ac-83d9-f2134c2b93fb",
           "code": "882496",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/882496",
@@ -4008,6 +4401,7 @@
             ""
           ],
           "budget": 10622078,
+          "publicationDate": "",
           "receptionDate": "2026-01-20",
           "startDate": "2026-06-23",
           "endDate": "2026-12-01",
@@ -4027,6 +4421,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "38883f94-7b2c-8113-8b9a-dd89813b862d",
           "code": "820695",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/820695",
@@ -4036,6 +4431,7 @@
             ""
           ],
           "budget": 200000,
+          "publicationDate": "",
           "receptionDate": "2025-03-17",
           "startDate": "2026-06-23",
           "endDate": "2026-06-23",
@@ -4055,6 +4451,7 @@
       "tag_seo": "formacion",
       "grants": [
         {
+          "id": "38883f94-7b2c-81fd-a57d-ce22fc21f041",
           "code": "896790",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/896790",
@@ -4064,6 +4461,7 @@
             ""
           ],
           "budget": 34889,
+          "publicationDate": "",
           "receptionDate": "2026-04-01",
           "startDate": "2026-06-23",
           "endDate": "2026-12-31",
@@ -4083,6 +4481,7 @@
       "tag_seo": "empleo",
       "grants": [
         {
+          "id": "38383f94-7b2c-81b1-9c1b-facbfc3e4e07",
           "code": "887078",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/887078",
@@ -4092,6 +4491,7 @@
             ""
           ],
           "budget": 50000,
+          "publicationDate": "",
           "receptionDate": "2026-02-13",
           "startDate": "2026-02-16",
           "endDate": "2026-06-30",
@@ -4111,6 +4511,7 @@
       "tag_seo": "cine",
       "grants": [
         {
+          "id": "38383f94-7b2c-8123-ba94-e90a0e2015d0",
           "code": "905550",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905550",
@@ -4120,6 +4521,7 @@
             ""
           ],
           "budget": 8500,
+          "publicationDate": "",
           "receptionDate": "2026-05-13",
           "startDate": "2026-06-23",
           "endDate": "2026-06-30",
@@ -4139,6 +4541,7 @@
       "tag_seo": "comercio",
       "grants": [
         {
+          "id": "38383f94-7b2c-81f9-bbac-c9cddae4996b",
           "code": "905850",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905850",
@@ -4148,6 +4551,7 @@
             ""
           ],
           "budget": 2250,
+          "publicationDate": "",
           "receptionDate": "2026-05-15",
           "startDate": "2026-06-23",
           "endDate": "2026-06-26",
@@ -4167,6 +4571,7 @@
       "tag_seo": "deportes",
       "grants": [
         {
+          "id": "38383f94-7b2c-815b-be3d-de6f08775cef",
           "code": "897418",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897418",
@@ -4176,6 +4581,7 @@
             ""
           ],
           "budget": 95000,
+          "publicationDate": "",
           "receptionDate": "2026-04-08",
           "startDate": "2026-06-23",
           "endDate": "2026-06-30",
@@ -4195,6 +4601,7 @@
       "tag_seo": "literatura",
       "grants": [
         {
+          "id": "38383f94-7b2c-8138-9976-f60df3c6ec85",
           "code": "905548",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905548",
@@ -4204,6 +4611,7 @@
             ""
           ],
           "budget": 2200,
+          "publicationDate": "",
           "receptionDate": "2026-05-13",
           "startDate": "2026-06-23",
           "endDate": "2026-06-30",
@@ -4223,6 +4631,7 @@
       "tag_seo": "agroalimentario",
       "grants": [
         {
+          "id": "38183f94-7b2c-8116-a059-d535c568bb44",
           "code": "897576",
           "agency": "",
           "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/897576",
@@ -4232,6 +4641,7 @@
             ""
           ],
           "budget": 394000,
+          "publicationDate": "",
           "receptionDate": "2026-04-08",
           "startDate": "2026-04-09",
           "endDate": "2026-12-31",
