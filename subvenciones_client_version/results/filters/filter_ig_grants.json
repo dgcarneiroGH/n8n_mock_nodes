@@ -1,1 +1,29 @@
-null
+[
+    {
+        "id": "3d483f94-7b2c-818d-a986-de2ad5a54f9a",
+        "code": "903138",
+        "agency": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+        "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903138",
+        "title": "ORDEN DE LA CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL POR LA QUE SE CONVOCAN SUBVENCIONES DESTINADAS A PERSONAS TRABAJADORAS AUTÓNOMAS PARA LA INCAPACIDAD TEMPORAL DEL AUTÓNOMO EN LA REGIÓN DE MURCIA EN EL EJERCICIO 2026",
+        "description": "Ayudar a los trabajadores autónomos en la Región de Murcia a mantener su actividad tras una incapacidad temporal mediante el pago de su cuota de autónomo durante los primeros meses no cubiertos por la seguridad social.",
+        "requirements": [
+            "Trabajadores dados de alta en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos (RETA)",
+            "Situación de incapacidad temporal posterior al 1 de enero de 2026",
+            "Cuotas de autónomos abonadas durante la incapacidad temporal",
+            "Empadronado en un municipio de la Región de Murcia",
+            "Alta en el Impuesto sobre Actividades Económicas (IAE)",
+            "No tener deudas tributarias en periodo ejecutivo de pago",
+            "Domicilio fiscal en la Región de Murcia",
+            "Centro de trabajo ubicado en la Región de Murcia",
+            "Al corriente de pago de obligaciones por reintegro de subvenciones"
+        ],
+        "budget": 1000000,
+        "publicationDate": "2026-09-07T10:18:00.000+02:00",
+        "receptionDate": "2026-05-04",
+        "startDate": "2026-05-05",
+        "endDate": "2026-10-15",
+        "benefactor": "Pyme y autónomos",
+        "region": "Región de murcia",
+        "isNominative": false
+    }
+]

@@ -89,6 +89,7 @@ try {
     const grant = grants.find(
       (g) => typeof g.publicationDate === "string" && g.publicationDate.trim() !== "",
     );
+
     return grant ? grant.publicationDate.split("T")[0] : today;
   };
 
@@ -131,7 +132,9 @@ try {
     }
 
     for (const { slug } of batch.pages_to_update) {
+
       const group = groupsList.find((g) => g.slug === slug);
+
       markdowns.push({
         action: "update",
         slug,

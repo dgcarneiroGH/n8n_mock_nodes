@@ -1,80 +1,94 @@
 [
   {
     "pages_to_create": {
-      "publication_date": "2026-09-16T07:39:18.961Z",
+      "publication_date": "2026-09-16T13:14:29.550Z",
       "pages": [
         {
           "tags": [
-            "empresa",
+            "autonomos",
             "region-de-murcia"
           ],
-          "tag_seo": "formacion",
+          "tag_seo": "asuntos_sociales",
           "grants": [
             {
-              "id": "3d483f94-7b2c-81de-9d23-effc17addcbe",
-              "code": "922940",
-              "agency": "SERVICIO REGIONAL DE EMPLEO Y FORMACIÓN (SEF)",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/922940",
-              "title": "ACCIONES FORMATIVAS 2026 (MODALIDAD 2) - FORMACIÓN PROFESIONAL PARA EL EMPLEO - EDUCACIÓN",
-              "description": "Las subvenciones tienen como objetivo financiar acciones formativas para personas desempleadas con necesidades formativas especiales, fomentando su empleabilidad y la creación de empresas en la Región de Murcia.",
+              "id": "3d483f94-7b2c-818d-a986-de2ad5a54f9a",
+              "code": "903138",
+              "agency": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903138",
+              "title": "ORDEN DE LA CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL POR LA QUE SE CONVOCAN SUBVENCIONES DESTINADAS A PERSONAS TRABAJADORAS AUTÓNOMAS PARA LA INCAPACIDAD TEMPORAL DEL AUTÓNOMO EN LA REGIÓN DE MURCIA EN EL EJERCICIO 2026",
+              "description": "Ayudar a los trabajadores autónomos en la Región de Murcia a mantener su actividad tras una incapacidad temporal mediante el pago de su cuota de autónomo durante los primeros meses no cubiertos por la seguridad social.",
               "requirements": [
-                "Entidades de formación pública o privada acreditadas",
-                "Presencia en la Región de Murcia"
+                "Trabajadores dados de alta en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos (RETA)",
+                "Situación de incapacidad temporal posterior al 1 de enero de 2026",
+                "Cuotas de autónomos abonadas durante la incapacidad temporal",
+                "Empadronado en un municipio de la Región de Murcia",
+                "Alta en el Impuesto sobre Actividades Económicas (IAE)",
+                "No tener deudas tributarias en periodo ejecutivo de pago",
+                "Domicilio fiscal en la Región de Murcia",
+                "Centro de trabajo ubicado en la Región de Murcia",
+                "Al corriente de pago de obligaciones por reintegro de subvenciones"
               ],
-              "budget": 13868166,
+              "budget": 1000000,
               "publicationDate": "2026-09-07T10:18:00.000+02:00",
-              "receptionDate": "2026-07-31",
-              "startDate": "2026-08-03",
-              "endDate": "2026-09-20",
-              "benefactor": "Gran empresa",
+              "receptionDate": "2026-05-04",
+              "startDate": "2026-05-05",
+              "endDate": "2026-10-15",
+              "benefactor": "Pyme y autónomos",
               "region": "Región de murcia",
               "isNominative": false
             },
             {
-              "id": "3d483f94-7b2c-81c3-a29a-f685b23987ef",
-              "code": "923169",
-              "agency": "SERVICIO REGIONAL DE EMPLEO Y FORMACIÓN (SEF)",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/923169",
-              "title": "ACCIONES FORMATIVAS SECTOR INDUSTRIA 2026 (MODALIDAD 2)",
-              "description": "Las subvenciones se destinan a financiar acciones formativas para personas trabajadoras desempleadas en el sector de la industria, buscando mejorar sus capacidades y competencias ante las demandas del mercado laboral.",
+              "id": "3d483f94-7b2c-81ae-b059-c7f3d6b41e7a",
+              "code": "921183",
+              "agency": "CONSEJERÍA DE POLÍTICA SOCIAL, FAMILIAS E IGUALDAD",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/921183",
+              "title": "ORDEN DE 23 DE JULIO DE 2026 DE LA CONSEJERA DE POLÍTICA SOCIAL, FAMILIAS E IGUALDAD POR LA QUE SE APRUEBA LA CONVOCATORIA DE SUBVENCIONES A EMPRESAS DE LA REGIÓN DE MURCIA PARA LA IMPLANTACIÓN DE PLANES DE IGUALDAD",
+              "description": "La convocatoria de subvenciones tiene como objetivo fomentar la elaboración e implantación de planes de igualdad en empresas de la Región de Murcia con una plantilla de entre 10 y 49 personas, promoviendo condiciones de trabajo equitativas y evitando la discriminación laboral entre géneros.",
               "requirements": [
-                "Entidades de formación públicas o privadas",
-                "Inscritas en el Registro de Entidades de Formación del SEF",
-                "Inscritas en el Registro Estatal de Entidades de Formación",
-                "Impartir formación en modalidad presencial",
-                "Presencia en la Región de Murcia"
+                "Tener una plantilla de entre 10 y 49 personas trabajadoras",
+                "Haber firmado el compromiso para la implantación voluntaria del primer plan de igualdad",
+                "No tener establecido en el convenio colectivo el deber de elaborar un plan de igualdad",
+                "No haber sido sancionada por la autoridad laboral en relación con un plan de igualdad",
+                "Estar legalmente constituidas e inscritas en el Registro Público",
+                "Ejercer su actividad y tener domicilio social y fiscal en la Región de Murcia",
+                "Estar al corriente de obligaciones tributarias y con la Seguridad Social",
+                "No estar incursas en prohibiciones de la Ley 38/2003",
+                "No haber elaborado previamente un plan de igualdad"
               ],
-              "budget": 4079323,
+              "budget": 60000,
               "publicationDate": "2026-09-07T10:18:00.000+02:00",
-              "receptionDate": "2026-08-03",
-              "startDate": "2026-08-05",
-              "endDate": "2026-09-20",
-              "benefactor": "Gran empresa",
+              "receptionDate": "2026-07-23",
+              "startDate": "2026-07-24",
+              "endDate": "2026-09-16",
+              "benefactor": "Pyme y autónomos",
               "region": "Región de murcia",
               "isNominative": false
             },
             {
-              "id": "39e83f94-7b2c-8133-90ef-ec252b2df4cf",
-              "code": "868304",
-              "agency": "",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/868304",
-              "title": "SUBVENCIÓN NOMINATIVA A FAVOR DE LA FEDERACIÓN REGIONAL DE EMPRESARIOS DEL METAL PARA LA CONSTRUCCIÓN DEL CENTRO DE CAPACITACIÓN INDUSTRIAL, NAVAL Y NAÚTICO Y DE TRANSFORMACIÓN TÉCNOLOGICA DE CARTAGENA Y SU COMARCA",
-              "description": "No se proporcionó información sobre el objetivo o financiamiento de la subvención.",
+              "id": "3d483f94-7b2c-81b7-9a20-ea40bbf68b5c",
+              "code": "927597",
+              "agency": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/927597",
+              "title": "ORDEN DE 1 DE SEPTIEMBRE DE 2026, DE LA CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL, POR LA QUE SE CONVOCAN SUBVENCIONES A LOS ARTESANOS/AS INDIVIDUALES Y EMPRESAS ARTESANAS DE LA REGIÓN DE MURCIA PARA EL AÑO 2027",
+              "description": "El objetivo de esta subvención es ayudar a las microempresas y artesanos individuales de la Región de Murcia a incrementar la comercialización de sus productos artesanos.",
               "requirements": [
-                ""
+                "Empresas artesanas",
+                "Artesanos/as individuales",
+                "Microempresa",
+                "Taller ubicados en la Comunidad Autónoma de la Región de Murcia"
               ],
-              "budget": 5500000,
-              "publicationDate": "",
-              "receptionDate": "2025-11-12",
-              "startDate": "",
-              "endDate": "",
-              "benefactor": "Gran empresa",
+              "budget": 110000,
+              "publicationDate": "2026-09-07T10:18:00.000+02:00",
+              "receptionDate": "2026-09-02",
+              "startDate": "2026-09-04",
+              "endDate": "2026-11-30",
+              "benefactor": "Pyme y autónomos",
               "region": "Región de murcia",
               "isNominative": false
             }
           ],
-          "max_received_date": "2026-09-11",
-          "slug": "subvenciones-empresa-region-de-murcia-formacion",
+          "max_received_date": "2026-09-10",
+          "slug": "subvenciones-autonomos-region-de-murcia-asuntos_sociales",
           "count_grants": 3
         }
       ]
@@ -163,6 +177,9 @@
       },
       {
         "slug": "subvenciones-autonomos-canarias-empleo"
+      },
+      {
+        "slug": "subvenciones-autonomos-canarias-investigacion_y_ciencia"
       },
       {
         "slug": "subvenciones-autonomos-canarias-sector_primario"
@@ -280,6 +297,9 @@
       },
       {
         "slug": "subvenciones-empresa-region-de-murcia-empleo"
+      },
+      {
+        "slug": "subvenciones-empresa-region-de-murcia-formacion"
       },
       {
         "slug": "subvenciones-empresa-region-de-murcia-juventud"

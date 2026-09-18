@@ -4,7 +4,7 @@ const fs = require("fs");
 //#region Inputs
 const grant = JSON.parse(
   fs.readFileSync("../results/filters/filter_ig_grants.json"),
-);
+)[0];
 
 const CLOUD_NAME = "daxjkflsi";
 const PUBLIC_ID = "plantilla_story_portalconvocatorias.jpg";
@@ -15,17 +15,15 @@ try {
   const BUDGET_FONT = "Roboto_70_bold";
   const BUDGET_COLOR = "F43F5E";
   const BUDGET_Y = 1225;
-  const BUDGET_X = 220;
   const BENEFACTOR_FONT = "Roboto_40_bold";
   const BENEFACTOR_Y = 924;
-  const BENEFACTOR_X = -82;
   const REGION_FONT = "Roboto_40_bold";
   const REGION_Y = 1062;
-  const REGION_X = -140;
 
-  function buildTextLayer(font, text, y, x, color) {
+  function buildTextLayer(font, text, y, color) {
+
     const colorParam = color ? `,co_rgb:${color}` : "";
-    return `l_text:${font}:${encodeURIComponent(text)}${colorParam}/fl_layer_apply,g_north,y_${y},x_${x}`;
+    return `l_text:${font}:${encodeURIComponent(text)}${colorParam}/fl_layer_apply,g_north,y_${y}`;
   }
 
   const formatEuros = (amount) =>
@@ -34,12 +32,13 @@ try {
       minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
       maximumFractionDigits: 2,
     }).format(amount)} €`;
+  console.log({ grant });
 
   // Benefactor and region, stacked above the title.
-  const benefactorLayer = buildTextLayer(BENEFACTOR_FONT, grant.benefactor, BENEFACTOR_Y, BENEFACTOR_X);
-  const regionLayer = buildTextLayer(REGION_FONT, grant.region, REGION_Y, REGION_X);
+  const benefactorLayer = buildTextLayer(BENEFACTOR_FONT, grant.benefactor, BENEFACTOR_Y);
+  const regionLayer = buildTextLayer(REGION_FONT, grant.region, REGION_Y);
   // Budget: placed below the title stack to avoid overlapping it.
-  const budgetLayer = buildTextLayer(BUDGET_FONT, formatEuros(grant.budget), BUDGET_Y, BUDGET_X, BUDGET_COLOR);
+  const budgetLayer = buildTextLayer(BUDGET_FONT, formatEuros(grant.budget), BUDGET_Y, BUDGET_COLOR);
 
   const result = {
     ig_image_url: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${benefactorLayer}/${regionLayer}/${budgetLayer}/${PUBLIC_ID}`,
