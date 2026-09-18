@@ -1,24 +1,27 @@
 [
   {
-    "code": "878443",
-    "title": "FINANCIACIÓN OBRAS DE LA ESCUELA DE MÚSICA",
-    "publication_date": "2025-12-29",
+    "code": "905871",
+    "agency": "EXCMO. AYUNTAMIENTO DE ANTEQUERA",
+    "title": "CONCESION SUBVENCION DIRECTA NOMINATIVA ANTEQUERA, málaga CF SAD 2026",
+    "description": "Esta subvención se concede al Antequera CF SAD para financiar gastos relacionados con actividades deportivas durante la temporada 2026, promoviendo el bienestar comunitario y la integración de los ciudadanos a través de la práctica del deporte.",
+    "requirements": "Ser el ANTEQUERA CF SAD;Presentar justificación de subvenciones anteriores;No estar sancionado con pérdida de posibilidad de obtener subvenciones;No estar en concurso o haber sido declarado insolvente;Estar al corriente en obligaciones tributarias y de la Seguridad Social;No tener residencia fiscal en paraísos fiscales",
+    "publication_date": "",
     "calculated_start_date": "",
     "calculated_end_date": "",
-    "receivedDate": "2025-12-29",
-    "organization": "CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
-    "benefactor_id": "37383f94-7b2c-8160-9692-d872fe86bfd1",
-    "region_id": "37683f94-7b2c-81f3-8deb-f6e7c12e8ea3",
-    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/878443",
-    "existsInNotion": false,
-    "notionPageId": null,
-    "_route": "success",
+    "receivedDate": "2026-05-15",
+    "status": "active",
+    "benefactor_id": "37383f94-7b2c-8190-9905-c321d7031599",
+    "region_id": "37683f94-7b2c-8156-87bc-e69d9ef5714e",
+    "budget": 180000,
+    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905871",
+    "existsInNotion": true,
+    "notionPageId": "3b783f94-7b2c-819e-8e5b-f4355a8712d3",
     "tags": [
-      "particulares",
-      "zamora"
+      "autonomos",
+      "malaga"
     ],
-    "tag_seo": "cultura",
+    "tag_seo": "deportes",
     "manual_check": false,
-    "isNominative": false
+    "is_nominative": true
   }
 ]

@@ -1,16 +1,20 @@
 [
   {
-    "code": "808991",
-    "agency": "AYUNTAMIENTO DE VALLE DE VALDELUCIO",
-    "title": "CONVOCATORIA PARA LA CONCESIÓN DE AYUDAS DESTINADAS A FACILITAR EL ACCESO A INTERNET, TELEFONÍA Y MÓVIL, EN VALLE DE VALDELUCIO (BURGOS), AÑO 2025.",
-    "description": "",
-    "receivedDate": "2025-01-14",
+    "code": "905871",
+    "agency": "EXCMO. AYUNTAMIENTO DE ANTEQUERA",
+    "title": "CONCESION SUBVENCION DIRECTA NOMINATIVA ANTEQUERA, málaga CF SAD 2026",
+    "description": "Esta subvención se concede al Antequera CF SAD para financiar gastos relacionados con actividades deportivas durante la temporada 2026, promoviendo el bienestar comunitario y la integración de los ciudadanos a través de la práctica del deporte.",
+    "requirements": "Ser el ANTEQUERA CF SAD;Presentar justificación de subvenciones anteriores;No estar sancionado con pérdida de posibilidad de obtener subvenciones;No estar en concurso o haber sido declarado insolvente;Estar al corriente en obligaciones tributarias y de la Seguridad Social;No tener residencia fiscal en paraísos fiscales",
+    "publication_date": "",
+    "calculated_start_date": "",
+    "calculated_end_date": "",
+    "receivedDate": "2026-05-15",
     "status": "active",
     "benefactor_id": "37383f94-7b2c-8190-9905-c321d7031599",
-    "region_id": "37683f94-7b2c-8121-9816-d771e077431e",
-    "budget": 30000,
-    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/808991",
-    "existsInNotion": false,
-    "notionPageId": null
+    "region_id": "37683f94-7b2c-8156-87bc-e69d9ef5714e",
+    "budget": 180000,
+    "urlHtml": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/905871",
+    "existsInNotion": true,
+    "notionPageId": "3b783f94-7b2c-819e-8e5b-f4355a8712d3"
   }
 ]

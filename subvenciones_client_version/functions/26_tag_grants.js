@@ -66,22 +66,62 @@ try {
     return bestTag;
   }
 
+  function findRegionTag(title, description) {
+    const normalizedTitle = normalizeText(title);
+    const normalizedDesc = normalizeText(description);
+
+    let bestTag = null;
+    let maxScore = 0;
+
+    for (const { slug, name } of searchableRegions) {
+      let score = 0;
+      if (matchesKeyword(normalizedTitle, name)) score += 3;
+      if (matchesKeyword(normalizedDesc, name)) score += 1;
+      if (score > maxScore) {
+        maxScore = score;
+        bestTag = slug;
+      }
+    }
+
+    return bestTag;
+  }
+
   const benefactorTagsById = new Map(
     notionBenefactorsRaw.map((item) => [item.id, item.property_slug.trim()]),
   );
   const regionTagsById = new Map(
     notionRegionsRaw.map((item) => [item.id, item.property_slug.trim()]),
   );
+  const regionsById = new Map(notionRegionsRaw.map((item) => [item.id, item]));
+
+  const searchableRegions = notionRegionsRaw
+    .filter(
+      (item) =>
+        item.property_tipo === "provincia" || item.property_tipo === "ccaa",
+    )
+    .map((item) => ({
+      slug: item.property_slug.trim(),
+      name: normalizeText(item.property_descripci_n),
+    }));
 
   const result = grants.map((grant) => {
     const title = grant.title || "";
     const description = grant.description || "";
     const seoTag = findSeoTag(title, description);
+    const region = grant.region_id && regionsById.get(grant.region_id);
+    let regionTag = region && regionTagsById.get(grant.region_id);
+    if (
+      region &&
+      region.property_tipo !== "provincia" &&
+      region.property_tipo !== "ccaa"
+    ) {
+      regionTag = findRegionTag(title, description) || "espana";
+    }
     const tags = [
       ...new Set(
         [
           grant.benefactor_id && benefactorTagsById.get(grant.benefactor_id),
-          grant.region_id && regionTagsById.get(grant.region_id),
+          regionTag,
         ].filter(Boolean),
       ),
     ].sort();
