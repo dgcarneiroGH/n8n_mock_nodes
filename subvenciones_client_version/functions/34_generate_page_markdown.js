@@ -15,12 +15,15 @@ try {
   const today = new Date().toISOString().split("T")[0];
   const batches = Array.isArray(pageActions) ? pageActions : [pageActions];
 
+  const sectorWithPreposition = (tagSeo) =>
+    tagSeo === "sociales" ? tagSeo : `para ${tagSeo}`;
+
   const buildFrontMatter = (slug, group, publicationDate) => {
     if (group) {
       const { region, benefactor } = group.grants[0];
       return [
         "---",
-        `title: Ayudas para ${group.tag_seo.replace(/_/g, " ")} en ${region} para ${benefactor}`,
+        `title: Ayudas ${sectorWithPreposition(group.tag_seo).replace(/_/g, " ")} en ${region} para ${benefactor}`,
         `description: "Recopilatorio de las ${group.count_grants} ayudas activas en ${region} para ${benefactor} dentro del sector ${group.tag_seo}, con presupuesto y plazos de solicitud."`,
         `region: ${region}`,
         `beneficiario: ${benefactor}`,
@@ -107,7 +110,7 @@ try {
     const grantLines = group.grants.map(formatGrant).join("\n");
     return [
       "",
-      `# Ayudas para ${group.tag_seo} en ${region} para ${benefactor}`,
+      `# Ayudas ${sectorWithPreposition(group.tag_seo)} en ${region} para ${benefactor}`,
       "",
       `Ayudas activas (${group.count_grants}):`,
       "",

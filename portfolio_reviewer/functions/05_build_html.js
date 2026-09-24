@@ -113,9 +113,7 @@ const renderCryptoRows = (assets) => {
           <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; vertical-align: top; white-space: nowrap;">
             <div style="font-weight: 700; ${getTrendColorInline(asset.trend)}">${asset.trend || "-"}</div>
             <div style="color: #718096; font-size: 11px; margin-top: 4px;">${asset.averagePrice ? formatMoney(asset.averagePrice) : ""}</div>
-          </td>
-          
-          <td style="padding: 16px 8px; border-bottom: 1px solid #e5e2e1; font-family: sans-serif; font-size: 13px; color: #44474a; vertical-align: top;">${formatMoney(asset.targetDistance) || "No target defined"}</td>
+          </td>          
         </tr>`
       }
     )
@@ -230,8 +228,7 @@ function buildReportHtml() {
                                                     <th width="32%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal;">Asset</th>
                                                     <th width="18%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">Value</th>
                                                     <th width="15%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">ROI</th>
-                                                    <th width="15%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">Trend vs Mean</th>
-                                                    <th width="20%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal;">Target Distance</th>
+                                                    <th width="15%" align="left" style="padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; font-size: 12px; color: #718096; font-weight: normal; white-space: nowrap;">Trend vs Mean</th>                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>

@@ -25,16 +25,6 @@ const availableFunds = data.availableFunds;
 
 const crypto = operations
   .map((operation) => {
-
-    const limits = operation.assetLimits.filter(({ executed }) => !executed);
-    const firstLimit = limits[0];
-    const objective = firstLimit?.target_price_eur;
-    const withdrawal = firstLimit?.withdraw_eur;
-
-    const limitsText = firstLimit
-      ? `Target: ${objective} | Auto-Withdrawal: ${withdrawal}`
-      : "No target defined";
-
     const news = operation.newsContext || operation.contexto_noticias || [];
     const headlines = news
       .map((item) => item.headline || item.titular)
@@ -45,7 +35,7 @@ const crypto = operations
     const price = operation.price ?? operation.precio;
     const roi = operation.totalRoi ?? operation.roi_total;
 
-    return `Asset: ${asset} | Price: ${price}€ | ROI: ${roi}% | Limits: ${limitsText} | News: ${headlines}`;
+    return `Asset: ${asset} | Price: ${price}€ | ROI: ${roi}% | News: ${headlines}`;
   })
   .join("\n");
 

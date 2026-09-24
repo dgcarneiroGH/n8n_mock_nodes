@@ -6,7 +6,6 @@ const RESULT_FILE_NAME = "financial_engine.json";
 // Lectura de payloads locales
 const payloads = [
     "get_carteras",
-    "get_limites_de_venta",
     "get_historico",
     "get_config",
     "aggregate_crypto",
@@ -23,7 +22,6 @@ const payloads = [
 }, {});
 
 const assets = payloads.get_carteras;
-const limits = payloads.get_limites_de_venta;
 const movements = payloads.get_historico;
 const configNode = payloads.get_config[0];
 const availableFunds = configNode ? (configNode.property_cantidad_eur || 0) : 0;
@@ -38,9 +36,6 @@ const fearAndGreed = payloads.get_fear_and_greed_index[0].data[0];
 // const historicoNotion = $input.all();
 
 //#region Node Logic
-
-let counter = 0;
-
 // Normalize coin names across payloads so "Venice Token" matches "venice-token"
 function normalizeName(name) {
     return (name || "")
@@ -60,23 +55,6 @@ if (Array.isArray(cryptoList)) {
             rate_eur: coin.rate_eur,
             news: Array.isArray(coin.coin_news) ? coin.coin_news : []
         };
-    });
-}
-
-// Group limits by wallet id, keeping only non-executed ones
-const limitsByWallet = {};
-if (Array.isArray(limits)) {
-    limits.forEach(l => {
-        if (!Array.isArray(l.property_cartera)) return;
-        l.property_cartera.forEach(walletId => {
-            if (l.property_ejecutado === false) {
-                (limitsByWallet[walletId] ??= []).push({
-                    id: l.id,
-                    target_price_eur: l.property_precio_objetivo,
-                    withdraw_eur: l.property_euros_a_sacar
-                });
-            }
-        });
     });
 }
 
@@ -113,49 +91,11 @@ const crypto = (Array.isArray(assets) ? assets : []).map(wallet => {
     const currentValue = totalAmount * actualPrice;
     const roi = totalCost > 0 ? Number((((currentValue - totalCost) / totalCost) * 100).toFixed(2)) : null;
 
-    const executedLimits = (limitsByWallet[walletId] || [])
-        .filter(limit => actualPrice >= limit.target_price_eur)
-        .map(limit => {
-            const saleDate = new Date().toISOString().split("T")[0];
-            counter += 1;
-            const historicName = saleDate.slice(2, 4) + counter.toString().padStart(2, "0");
-
-            notionUpdates.push({
-                id: limit.id,
-                type: "LIMIT",
-                properties: { executed: true }
-            });
-            notionUpdates.push({
-                type: "HISTORICAL",
-                properties: {
-                    name: historicName,
-                    quantity: totalAmount,
-                    isSale: true,
-                    walletId: walletId,
-                    date: saleDate,
-                    priceEur: actualPrice
-                }
-            });
-            return {
-                target_price_eur: limit.target_price_eur,
-                withdraw_eur: limit.withdraw_eur,
-                executed: true
-            };
-        });
-
     return {
         name,
         total_amount: totalAmount,
         actual_price: actualPrice,
         roi,
-        limits: executedLimits.concat(
-            (limitsByWallet[walletId] || [])
-                .filter(limit => actualPrice < limit.target_price_eur)
-                .map(limit => ({
-                    target_price_eur: limit.target_price_eur,
-                    withdraw_eur: limit.withdraw_eur
-                }))
-        ),
         movements: walletMovements,
         news: (info.news || []).map(n => ({
             title: n.titular || n.title,
