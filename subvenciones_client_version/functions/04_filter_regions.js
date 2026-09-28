@@ -3,10 +3,10 @@ const fs = require("fs");
 let regionsRaw, notionRegionsRaw;
 try {
   regionsRaw = JSON.parse(
-    fs.readFileSync("./results/builders/regions_formatted.json", "utf8"),
+    fs.readFileSync("../results/builders/regions_formatted.json", "utf8"),
   );
   notionRegionsRaw = JSON.parse(
-    fs.readFileSync("./results/getters/get_notion_regions.json", "utf8"),
+    fs.readFileSync("../results/getters/get_notion_regions.json", "utf8"),
   );
 } catch (error) {
   console.error("Error leyendo los archivos JSON.", error.message);
@@ -18,7 +18,15 @@ const notionResults = notionRegionsRaw;
 
 //#region Node Logic
 
-const result = regions.map((originalItem) => {
+const EXCLUDED_REGION_SLUGS = new Set(["noroeste", "noreste", "este", "sur", "centro-es"]);
+
+const filteredRegions = regions.filter((region) => {
+  if (region.type === "pais") return region.id === "1";
+  if (region.type === "region" && EXCLUDED_REGION_SLUGS.has(region.slug)) return false;
+  return true;
+});
+
+const result = filteredRegions.map((originalItem) => {
   const match = notionResults.find(
     (notionItem) => notionItem.property_id === originalItem.id,
   );
@@ -35,7 +43,7 @@ const result = regions.map((originalItem) => {
 try {
   fs.mkdirSync("./results/filters", { recursive: true });
   fs.writeFileSync(
-    "./results/filters/filter_regions.json",
+    "../results/filters/filter_regions.json",
     JSON.stringify(result, null, 2),
     "utf8",
   );

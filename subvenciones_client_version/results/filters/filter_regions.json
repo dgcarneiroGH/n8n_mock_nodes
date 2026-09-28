@@ -1,10 +1,650 @@
 [
   {
-    "status": "OK",
-    "clientId": "33d83f94-7b2c-80be-ad7d-c75118378e6b",
-    "regions_ids": "25,26,1,521"
+    "id": "1",
+    "description": "ESPAÑA",
+    "slug": "espana",
+    "type": "pais",
+    "existsInNotion": false,
+    "notionPageId": null
   },
   {
-    "status": "ERROR: Regions mistmatch"
+    "id": "3",
+    "description": "GALICIA",
+    "slug": "galicia",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "4",
+    "description": "A Coruña",
+    "slug": "a-coruna",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "5",
+    "description": "Lugo",
+    "slug": "lugo",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "6",
+    "description": "Ourense",
+    "slug": "ourense",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "7",
+    "description": "Pontevedra",
+    "slug": "pontevedra",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "8",
+    "description": "PRINCIPADO DE ASTURIAS",
+    "slug": "principado-de-asturias",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "9",
+    "description": "Asturias",
+    "slug": "asturias",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "10",
+    "description": "CANTABRIA",
+    "slug": "cantabria",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "11",
+    "description": "Cantabria",
+    "slug": "cantabria",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "13",
+    "description": "PAIS VASCO",
+    "slug": "pais-vasco",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "14",
+    "description": "Araba/Álava",
+    "slug": "araba-alava",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "15",
+    "description": "Gipuzkoa",
+    "slug": "gipuzkoa",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "16",
+    "description": "Bizkaia",
+    "slug": "bizkaia",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "17",
+    "description": "COMUNIDAD FORAL DE NAVARRA",
+    "slug": "comunidad-foral-de-navarra",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "18",
+    "description": "Navarra",
+    "slug": "navarra",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "19",
+    "description": "LA RIOJA",
+    "slug": "la-rioja",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "20",
+    "description": "La Rioja",
+    "slug": "la-rioja",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "21",
+    "description": "ARAGON",
+    "slug": "aragon",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "22",
+    "description": "Huesca",
+    "slug": "huesca",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "23",
+    "description": "Teruel",
+    "slug": "teruel",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "24",
+    "description": "Zaragoza",
+    "slug": "zaragoza",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "25",
+    "description": "COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "region",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "26",
+    "description": "COMUNIDAD DE MADRID",
+    "slug": "comunidad-de-madrid",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "27",
+    "description": "Madrid",
+    "slug": "madrid",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "29",
+    "description": "CASTILLA Y LEON",
+    "slug": "castilla-y-leon",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "30",
+    "description": "Ávila",
+    "slug": "avila",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "31",
+    "description": "Burgos",
+    "slug": "burgos",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "32",
+    "description": "León",
+    "slug": "leon",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "33",
+    "description": "Palencia",
+    "slug": "palencia",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "34",
+    "description": "Salamanca",
+    "slug": "salamanca",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "35",
+    "description": "Segovia",
+    "slug": "segovia",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "36",
+    "description": "Soria",
+    "slug": "soria",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "37",
+    "description": "Valladolid",
+    "slug": "valladolid",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "38",
+    "description": "Zamora",
+    "slug": "zamora",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "39",
+    "description": "CASTILLA LA MANCHA",
+    "slug": "castilla-la-mancha",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "40",
+    "description": "Albacete",
+    "slug": "albacete",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "41",
+    "description": "Ciudad Real",
+    "slug": "ciudad-real",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "42",
+    "description": "Cuenca",
+    "slug": "cuenca",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "43",
+    "description": "Guadalajara",
+    "slug": "guadalajara",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "44",
+    "description": "Toledo",
+    "slug": "toledo",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "45",
+    "description": "EXTREMADURA",
+    "slug": "extremadura",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "46",
+    "description": "Badajoz",
+    "slug": "badajoz",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "47",
+    "description": "Cáceres",
+    "slug": "caceres",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "49",
+    "description": "CATALUÑA",
+    "slug": "cataluna",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "50",
+    "description": "Barcelona",
+    "slug": "barcelona",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "51",
+    "description": "Girona",
+    "slug": "girona",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "52",
+    "description": "Lleida",
+    "slug": "lleida",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "53",
+    "description": "Tarragona",
+    "slug": "tarragona",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "54",
+    "description": "COMUNIDAD VALENCIANA",
+    "slug": "comunidad-valenciana",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "55",
+    "description": "Alicante / Alacant",
+    "slug": "alicante-alacant",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "56",
+    "description": "Castellón / Castelló",
+    "slug": "castellon-castello",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "57",
+    "description": "Valencia / València",
+    "slug": "valencia-valencia",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "58",
+    "description": "ILLES BALEARS",
+    "slug": "illes-balears",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "59",
+    "description": "Eivissa y Formentera",
+    "slug": "eivissa-y-formentera",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "60",
+    "description": "Mallorca",
+    "slug": "mallorca",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "61",
+    "description": "Menorca",
+    "slug": "menorca",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "63",
+    "description": "ANDALUCIA",
+    "slug": "andalucia",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "64",
+    "description": "Almería",
+    "slug": "almeria",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "65",
+    "description": "Cádiz",
+    "slug": "cadiz",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "66",
+    "description": "Córdoba",
+    "slug": "cordoba",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "67",
+    "description": "Granada",
+    "slug": "granada",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "68",
+    "description": "Huelva",
+    "slug": "huelva",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "69",
+    "description": "Jaén",
+    "slug": "jaen",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "70",
+    "description": "Málaga",
+    "slug": "malaga",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "71",
+    "description": "Sevilla",
+    "slug": "sevilla",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "72",
+    "description": "REGION DE MURCIA",
+    "slug": "region-de-murcia",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "73",
+    "description": "Murcia",
+    "slug": "murcia",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "74",
+    "description": "CIUDAD AUTONOMA DE CEUTA",
+    "slug": "ciudad-autonoma-de-ceuta",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "75",
+    "description": "Ceuta",
+    "slug": "ceuta",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "76",
+    "description": "CIUDAD AUTONOMA DE MELILLA",
+    "slug": "ciudad-autonoma-de-melilla",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "77",
+    "description": "Melilla",
+    "slug": "melilla",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "78",
+    "description": "CANARIAS",
+    "slug": "canarias",
+    "type": "region",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "79",
+    "description": "CANARIAS",
+    "slug": "canarias",
+    "type": "ccaa",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "80",
+    "description": "El Hierro",
+    "slug": "el-hierro",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "81",
+    "description": "Fuerteventura",
+    "slug": "fuerteventura",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "82",
+    "description": "Gran Canaria",
+    "slug": "gran-canaria",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "83",
+    "description": "La Gomera",
+    "slug": "la-gomera",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "84",
+    "description": "La Palma",
+    "slug": "la-palma",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "85",
+    "description": "Lanzarote",
+    "slug": "lanzarote",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
+  },
+  {
+    "id": "86",
+    "description": "Tenerife",
+    "slug": "tenerife",
+    "type": "provincia",
+    "existsInNotion": false,
+    "notionPageId": null
   }
 ]

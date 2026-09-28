@@ -137,9 +137,13 @@ try {
     for (const { slug } of batch.pages_to_update) {
 
       const group = groupsList.find((g) => g.slug === slug);
+      let action = "update";
+      if (group && group.count_grants === 0) {
+        action = "delete";
+      }
 
       markdowns.push({
-        action: "update",
+        action,
         slug,
         orphan: !group,
         content: buildMarkdown(
