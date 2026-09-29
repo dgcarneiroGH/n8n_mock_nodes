@@ -94,7 +94,7 @@ try {
   //#endregion
 
   // In n8N context:
-  // - Replace fs.readFileSync with $node["36_filter_ig_grants"].json
+  // - Replace fs.readFileSync with $node["37_filter_ig_grants"].json
   // - Replace fs.writeFileSync with return [{ json: result }]
 
   fs.mkdirSync("../results", { recursive: true });

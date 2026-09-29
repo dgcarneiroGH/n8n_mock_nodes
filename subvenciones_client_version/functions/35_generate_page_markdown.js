@@ -139,7 +139,8 @@ try {
 
       const group = groupsList.find((g) => g.slug === slug);
       let action = "update";
-      if (group && group.count_grants === 0) {
+
+      if (!group && slug !== "_index") {
         action = "delete";
       }
 

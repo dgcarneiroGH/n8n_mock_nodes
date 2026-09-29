@@ -1,94 +1,78 @@
 [
   {
     "pages_to_create": {
-      "publication_date": "2026-09-16T13:14:29.550Z",
+      "publication_date": "2026-09-29T16:00:29.706Z",
       "pages": [
         {
           "tags": [
             "autonomos",
-            "region-de-murcia"
+            "castilla-y-leon"
           ],
-          "tag_seo": "asuntos_sociales",
+          "tag_seo": "urgencias",
           "grants": [
             {
-              "id": "3d483f94-7b2c-818d-a986-de2ad5a54f9a",
-              "code": "903138",
-              "agency": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/903138",
-              "title": "ORDEN DE LA CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL POR LA QUE SE CONVOCAN SUBVENCIONES DESTINADAS A PERSONAS TRABAJADORAS AUTÓNOMAS PARA LA INCAPACIDAD TEMPORAL DEL AUTÓNOMO EN LA REGIÓN DE MURCIA EN EL EJERCICIO 2026",
-              "description": "Ayudar a los trabajadores autónomos en la Región de Murcia a mantener su actividad tras una incapacidad temporal mediante el pago de su cuota de autónomo durante los primeros meses no cubiertos por la seguridad social.",
+              "id": "3d283f94-7b2c-816c-912c-df9c151b8ab8",
+              "code": "925297",
+              "agency": "INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/925297",
+              "title": "ACUERDO DE LA JUNTA DE CASTILLA Y LEÓN POR EL QUE SE AUTORIZA LA CONCESIÓN DIRECTA DE AYUDAS A AUTÓNOMOS Y PYMES EN LAS LOCALIDADES AFECTADAS POR EVACUACIÓN POR LOS INCENDIOS FORESTALES EN EL VERANO DE 2026-REMESA I",
+              "description": "La subvención tiene como objetivo proporcionar ayudas directas a autónomos y PYMES ubicados en las localidades afectadas por evacuaciones debido a incendios forestales en Castilla y León en el verano de 2026, con el fin de mitigar los daños personales, materiales y económicos sufridos y facilitar la recuperación del tejido productivo local.",
               "requirements": [
-                "Trabajadores dados de alta en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos (RETA)",
-                "Situación de incapacidad temporal posterior al 1 de enero de 2026",
-                "Cuotas de autónomos abonadas durante la incapacidad temporal",
-                "Empadronado en un municipio de la Región de Murcia",
-                "Alta en el Impuesto sobre Actividades Económicas (IAE)",
-                "No tener deudas tributarias en periodo ejecutivo de pago",
-                "Domicilio fiscal en la Región de Murcia",
-                "Centro de trabajo ubicado en la Región de Murcia",
-                "Al corriente de pago de obligaciones por reintegro de subvenciones"
-              ],
-              "budget": 1000000,
-              "publicationDate": "2026-09-07T10:18:00.000+02:00",
-              "receptionDate": "2026-05-04",
-              "startDate": "2026-05-05",
-              "endDate": "2026-10-15",
-              "benefactor": "Pyme y autónomos",
-              "region": "Región de murcia",
-              "isNominative": false
-            },
-            {
-              "id": "3d483f94-7b2c-81ae-b059-c7f3d6b41e7a",
-              "code": "921183",
-              "agency": "CONSEJERÍA DE POLÍTICA SOCIAL, FAMILIAS E IGUALDAD",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/921183",
-              "title": "ORDEN DE 23 DE JULIO DE 2026 DE LA CONSEJERA DE POLÍTICA SOCIAL, FAMILIAS E IGUALDAD POR LA QUE SE APRUEBA LA CONVOCATORIA DE SUBVENCIONES A EMPRESAS DE LA REGIÓN DE MURCIA PARA LA IMPLANTACIÓN DE PLANES DE IGUALDAD",
-              "description": "La convocatoria de subvenciones tiene como objetivo fomentar la elaboración e implantación de planes de igualdad en empresas de la Región de Murcia con una plantilla de entre 10 y 49 personas, promoviendo condiciones de trabajo equitativas y evitando la discriminación laboral entre géneros.",
-              "requirements": [
-                "Tener una plantilla de entre 10 y 49 personas trabajadoras",
-                "Haber firmado el compromiso para la implantación voluntaria del primer plan de igualdad",
-                "No tener establecido en el convenio colectivo el deber de elaborar un plan de igualdad",
-                "No haber sido sancionada por la autoridad laboral en relación con un plan de igualdad",
-                "Estar legalmente constituidas e inscritas en el Registro Público",
-                "Ejercer su actividad y tener domicilio social y fiscal en la Región de Murcia",
-                "Estar al corriente de obligaciones tributarias y con la Seguridad Social",
-                "No estar incursas en prohibiciones de la Ley 38/2003",
-                "No haber elaborado previamente un plan de igualdad"
-              ],
-              "budget": 60000,
-              "publicationDate": "2026-09-07T10:18:00.000+02:00",
-              "receptionDate": "2026-07-23",
-              "startDate": "2026-07-24",
-              "endDate": "2026-09-16",
-              "benefactor": "Pyme y autónomos",
-              "region": "Región de murcia",
-              "isNominative": false
-            },
-            {
-              "id": "3d483f94-7b2c-81b7-9a20-ea40bbf68b5c",
-              "code": "927597",
-              "agency": "CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
-              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/927597",
-              "title": "ORDEN DE 1 DE SEPTIEMBRE DE 2026, DE LA CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL, POR LA QUE SE CONVOCAN SUBVENCIONES A LOS ARTESANOS/AS INDIVIDUALES Y EMPRESAS ARTESANAS DE LA REGIÓN DE MURCIA PARA EL AÑO 2027",
-              "description": "El objetivo de esta subvención es ayudar a las microempresas y artesanos individuales de la Región de Murcia a incrementar la comercialización de sus productos artesanos.",
-              "requirements": [
-                "Empresas artesanas",
-                "Artesanos/as individuales",
-                "Microempresa",
-                "Taller ubicados en la Comunidad Autónoma de la Región de Murcia"
+                ""
               ],
               "budget": 110000,
-              "publicationDate": "2026-09-07T10:18:00.000+02:00",
-              "receptionDate": "2026-09-02",
-              "startDate": "2026-09-04",
-              "endDate": "2026-11-30",
+              "publicationDate": "2026-09-05T10:10:00.000+02:00",
+              "receptionDate": "2026-08-17",
+              "startDate": "",
+              "endDate": "",
               "benefactor": "Pyme y autónomos",
-              "region": "Región de murcia",
-              "isNominative": false
+              "region": "Castilla y león",
+              "isNominative": true
+            },
+            {
+              "id": "3d283f94-7b2c-819f-86d2-f1400663f4ee",
+              "code": "925960",
+              "agency": "INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/925960",
+              "title": "ACUERDO DE LA JUNTA DE CASTILLA Y LEÓN POR EL QUE SE AUTORIZA LA CONCESIÓN DIRECTA DE AYUDAS A AUTÓNOMOS Y PYMES EN LAS LOCALIDADES AFECTADAS POR EVACUACIÓN POR LOS INCENDIOS FORESTALES EN EL VERANO DE 2026-REMESA II",
+              "description": "La ayuda tiene como objetivo proporcionar apoyo económico directo a autónomos y PYMES en Castilla y León que se han visto afectadas por los incendios forestales ocurridos durante el verano de 2026, especialmente en las localidades evacuadas, para mitigar daños personales, materiales y económicos.",
+              "requirements": [
+                "Autónomos y PYMES",
+                "Ubicados en localidades afectadas por evacuación",
+                "Sufrir daños en su actividad económica"
+              ],
+              "budget": 165000,
+              "publicationDate": "2026-09-05T10:10:00.000+02:00",
+              "receptionDate": "2026-08-21",
+              "startDate": "",
+              "endDate": "",
+              "benefactor": "Pyme y autónomos",
+              "region": "Castilla y león",
+              "isNominative": true
+            },
+            {
+              "id": "3d283f94-7b2c-8199-9886-ce4c6c1f98c6",
+              "code": "927221",
+              "agency": "INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+              "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/927221",
+              "title": "ACUERDO DE LA JUNTA DE CASTILLA Y LEÓN POR LA QUE SE AUTORIZA LA CONCESIÓN DIRECTA DE AYUDAS A AUTÓNOMOS Y PYMES EN LAS LOCALIDADES AFECTADAS POR EVACUACIÓN POR LOS INCENDIOS FORESTALES EN EL VERANO DE 2026. - REMESA III",
+              "description": "Este acuerdo autoriza la concesión directa de ayudas económicas a autónomos y PYMES afectadas por los incendios forestales en verano de 2026 en Castilla y León, con el fin de apoyar la recuperación económica y social de las localidades evacuadas a causa de estos desastres.",
+              "requirements": [
+                "Autónomos y PYMES ubicados en localidades afectadas por evacuación",
+                "Deben haber sufrido daños personales, materiales, económicos o sociales"
+              ],
+              "budget": 137500,
+              "publicationDate": "2026-09-05T10:10:00.000+02:00",
+              "receptionDate": "2026-09-01",
+              "startDate": "",
+              "endDate": "",
+              "benefactor": "Pyme y autónomos",
+              "region": "Castilla y león",
+              "isNominative": true
             }
           ],
-          "max_received_date": "2026-09-10",
-          "slug": "subvenciones-autonomos-region-de-murcia-asuntos_sociales",
+          "max_received_date": "2026-09-07",
+          "slug": "subvenciones-autonomos-castilla-y-leon-urgencias",
           "count_grants": 3
         }
       ]
@@ -107,19 +91,25 @@
         "slug": "subvenciones-alicante-particulares-comercio"
       },
       {
+        "slug": "subvenciones-alicante-particulares-cultura"
+      },
+      {
+        "slug": "subvenciones-alicante-particulares-deportes"
+      },
+      {
         "slug": "subvenciones-alicante-particulares-formacion"
       },
       {
-        "slug": "subvenciones-andalucia-asociaciones-asociacionismo"
+        "slug": "subvenciones-almeria-autonomos-cultura"
+      },
+      {
+        "slug": "subvenciones-almeria-autonomos-deportes"
+      },
+      {
+        "slug": "subvenciones-almeria-autonomos-patrimonio"
       },
       {
         "slug": "subvenciones-andalucia-asociaciones-formacion"
-      },
-      {
-        "slug": "subvenciones-andalucia-autonomos-asuntos_sociales"
-      },
-      {
-        "slug": "subvenciones-andalucia-autonomos-emergencias"
       },
       {
         "slug": "subvenciones-andalucia-particulares-cultura"
@@ -134,16 +124,7 @@
         "slug": "subvenciones-asociaciones-canarias-salud"
       },
       {
-        "slug": "subvenciones-asociaciones-cordoba-asociacionismo"
-      },
-      {
         "slug": "subvenciones-asociaciones-cordoba-deportes"
-      },
-      {
-        "slug": "subvenciones-asociaciones-espana-asociacionismo"
-      },
-      {
-        "slug": "subvenciones-asociaciones-espana-asuntos_sociales"
       },
       {
         "slug": "subvenciones-asociaciones-espana-cultura"
@@ -152,16 +133,7 @@
         "slug": "subvenciones-asociaciones-espana-formacion"
       },
       {
-        "slug": "subvenciones-asociaciones-girona-asuntos_sociales"
-      },
-      {
         "slug": "subvenciones-asociaciones-pontevedra-deportes"
-      },
-      {
-        "slug": "subvenciones-asociaciones-tarragona-asociacionismo"
-      },
-      {
-        "slug": "subvenciones-asociaciones-tarragona-asuntos_sociales"
       },
       {
         "slug": "subvenciones-asociaciones-tarragona-cultura"
@@ -170,10 +142,7 @@
         "slug": "subvenciones-asociaciones-tarragona-deportes"
       },
       {
-        "slug": "subvenciones-asociaciones-valencia-asociacionismo"
-      },
-      {
-        "slug": "subvenciones-autonomos-canarias-asuntos_sociales"
+        "slug": "subvenciones-autonomos-burgos-pueblo"
       },
       {
         "slug": "subvenciones-autonomos-canarias-empleo"
@@ -200,10 +169,10 @@
         "slug": "subvenciones-autonomos-comunidad-de-madrid-comercio"
       },
       {
-        "slug": "subvenciones-autonomos-comunidad-de-madrid-emergencias"
+        "slug": "subvenciones-autonomos-comunidad-de-madrid-investigacion_y_ciencia"
       },
       {
-        "slug": "subvenciones-autonomos-comunidad-de-madrid-investigacion_y_ciencia"
+        "slug": "subvenciones-autonomos-comunidad-de-madrid-urgencias"
       },
       {
         "slug": "subvenciones-autonomos-el-hierro-empleo"
@@ -212,16 +181,19 @@
         "slug": "subvenciones-autonomos-el-hierro-sector_primario"
       },
       {
+        "slug": "subvenciones-autonomos-espana-empleo"
+      },
+      {
         "slug": "subvenciones-autonomos-fuerteventura-sector_primario"
       },
       {
         "slug": "subvenciones-autonomos-gran-canaria-cultura"
       },
       {
-        "slug": "subvenciones-autonomos-gran-canaria-internacionalizacion"
+        "slug": "subvenciones-autonomos-la-palma-cultura"
       },
       {
-        "slug": "subvenciones-autonomos-malaga-asociacionismo"
+        "slug": "subvenciones-autonomos-la-palma-sector_primario"
       },
       {
         "slug": "subvenciones-autonomos-malaga-comercio"
@@ -239,10 +211,25 @@
         "slug": "subvenciones-autonomos-malaga-investigacion_y_ciencia"
       },
       {
+        "slug": "subvenciones-autonomos-menorca-investigacion_y_ciencia"
+      },
+      {
+        "slug": "subvenciones-autonomos-menorca-sector_primario"
+      },
+      {
+        "slug": "subvenciones-autonomos-murcia-empleo"
+      },
+      {
+        "slug": "subvenciones-autonomos-murcia-emprendimiento"
+      },
+      {
+        "slug": "subvenciones-autonomos-region-de-murcia-cultura"
+      },
+      {
         "slug": "subvenciones-autonomos-region-de-murcia-sector_primario"
       },
       {
-        "slug": "subvenciones-autonomos-salamanca-asociacionismo"
+        "slug": "subvenciones-autonomos-salamanca-comercio"
       },
       {
         "slug": "subvenciones-autonomos-tarragona-empleo"
@@ -254,13 +241,10 @@
         "slug": "subvenciones-autonomos-valencia-empleo"
       },
       {
-        "slug": "subvenciones-autonomos-zamora-emergencias"
-      },
-      {
         "slug": "subvenciones-autonomos-zamora-emprendimiento"
       },
       {
-        "slug": "subvenciones-castellon-particulares-asuntos_sociales"
+        "slug": "subvenciones-autonomos-zamora-urgencias"
       },
       {
         "slug": "subvenciones-castellon-particulares-cultura"
@@ -281,7 +265,10 @@
         "slug": "subvenciones-castilla-y-leon-particulares-formacion"
       },
       {
-        "slug": "subvenciones-empresa-espana-asuntos_sociales"
+        "slug": "subvenciones-comunidad-valenciana-particulares-educacion_y_becas"
+      },
+      {
+        "slug": "subvenciones-eivissa-y-formentera-particulares-sociales"
       },
       {
         "slug": "subvenciones-empresa-espana-investigacion_y_ciencia"
@@ -302,16 +289,10 @@
         "slug": "subvenciones-empresa-region-de-murcia-formacion"
       },
       {
-        "slug": "subvenciones-empresa-region-de-murcia-juventud"
-      },
-      {
         "slug": "subvenciones-espana-particulares-deportes"
       },
       {
         "slug": "subvenciones-espana-particulares-formacion"
-      },
-      {
-        "slug": "subvenciones-illes-balears-particulares-asuntos_sociales"
       },
       {
         "slug": "subvenciones-illes-balears-particulares-formacion"
@@ -320,16 +301,7 @@
         "slug": "subvenciones-illes-balears-particulares-investigacion_y_ciencia"
       },
       {
-        "slug": "subvenciones-la-palma-particulares-asuntos_sociales"
-      },
-      {
-        "slug": "subvenciones-la-palma-particulares-desarrollo_rural"
-      },
-      {
-        "slug": "subvenciones-lanzarote-particulares-asuntos_sociales"
-      },
-      {
-        "slug": "subvenciones-particulares-valencia-asuntos_sociales"
+        "slug": "subvenciones-mallorca-particulares-formacion"
       },
       {
         "slug": "subvenciones-particulares-valencia-comercio"
