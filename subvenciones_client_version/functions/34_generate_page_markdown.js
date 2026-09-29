@@ -64,6 +64,7 @@ try {
 
   const formatGrant = (grant) => {
     const metaFields = [
+      grant.id ? `notion_id: ${grant.id}` : null,
       grant.budget != null ? `Budget: ${eurFormatter.format(grant.budget)}` : null,
       grant.receptionDate
         ? `Reception: ${toDDMMYYYY(grant.receptionDate)}`
