@@ -10,17 +10,10 @@ const getGrantsData = JSON.parse(
 try {
   //#region Node Logic
   const result = getGrantsData.map((grant) => {
-    let description = "";
     let needsPdf = false;
     let pdfId = null;
 
-    if (Array.isArray(grant.anuncios) && grant.anuncios.length > 0) {
-      description = grant.anuncios
-        .map((anuncio) => anuncio.texto ?? "")
-        .join("\n")
-        .replace(/<p>/g, "")
-        .replace(/<\/p>/g, "\n");
-    } else if (Array.isArray(grant.documentos) && grant.documentos.length > 0) {
+    if (Array.isArray(grant.documentos) && grant.documentos.length > 0) {
       const mostRecent = [...grant.documentos].sort((a, b) => {
         const dateA = new Date(a.datPublicacion ?? a.datMod ?? 0).getTime();
         const dateB = new Date(b.datPublicacion ?? b.datMod ?? 0).getTime();
@@ -35,7 +28,6 @@ try {
       code: grant.codigoBDNS,
       receptionDate: grant.fechaRecepcion,
       title: grant.descripcion,
-      description,
       budget: grant.presupuestoTotal,
       startDate: grant.fechaInicioSolicitud,
       endDate: grant.fechaFinSolicitud,
