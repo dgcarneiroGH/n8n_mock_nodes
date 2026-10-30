@@ -45,9 +45,9 @@ const loopGrantsData =
 
 const getGrantsResponse = (fromNode("GET Grants") || [])[0] ||
   fromFile("../results/getters/get_grants.json", [])[0] || {
-    content: [],
-    totalElements: 0,
-  };
+  content: [],
+  totalElements: 0,
+};
 
 const notionCombination =
   (fromNode("GET Notion Combinations") || [])[0] ||
@@ -100,12 +100,39 @@ try {
     : getGrantsResponse.content.length;
   const countResults = grantCodesActive.length;
 
-  const status =
-    countResults === 0
-      ? "no_results"
-      : countResults < MIN_RESULTS_FOR_ACTIVE
-        ? "low_volume"
-        : "active";
+  // Códigos ya almacenados en la combinación de Notion (grant_codes_active previo)
+  const storedCodes = new Set(
+    String(notionCombination.property_c_digos_activos ?? "")
+      .split("-")
+      .map((code) => code.trim())
+      .filter((code) => code.length > 0),
+  );
+
+  // Códigos obtenidos en este check: unión de ambas formas de item del loop
+  const obtainedCodes = new Set();
+  for (const grant of loopGrantsData) {
+    for (const raw of [grant.codigoBDNS, grant.numeroConvocatoria]) {
+      const code = normalizeCode(raw);
+      if (code !== null) {
+        obtainedCodes.add(code);
+      }
+    }
+  }
+
+  const newCodes = [...obtainedCodes].filter(
+    (code) => !storedCodes.has(code),
+  );
+
+  let status;
+  if (countResults === 0) {
+    status = "no_results";
+  } else if (countResults < MIN_RESULTS_FOR_ACTIVE) {
+    status = "low_volume";
+  } else if (newCodes.length > 0) {
+    status = "active";
+  } else {
+    status = "tagged";
+  }
 
   const result = {
     last_checked_at: new Date().toISOString(),
@@ -114,6 +141,8 @@ try {
     grant_codes_active: grantCodesActive.join("-"),
     count_results_consistent: countResultsConsistent,
     status,
+    new_codes_count: newCodes.length,
+    new_codes: newCodes,
     query_history_id: notionCombination.id || null,
   };
   //#endregion
@@ -130,7 +159,7 @@ try {
     );
   }
   console.log(
-    `✅ ${countResults} grants activas filtradas (${countResultsRaw} raw)`,
+    `✅ ${countResults} grants activas filtradas (${countResultsRaw} raw) • ${newCodes.length} códigos nuevos • status: ${status}`,
   );
 } catch (error) {
   console.error(`❌ Error: ${error.message}`);

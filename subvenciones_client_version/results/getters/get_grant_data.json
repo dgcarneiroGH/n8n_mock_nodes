@@ -1,66 +1,339 @@
 [
   {
-    "id": 1118763,
+    "id": 1099134,
     "organo": {
       "nivel1": "LOCAL",
-      "nivel2": "VALENCIA",
-      "nivel3": "AYUNTAMIENTO DE VALENCIA"
+      "nivel2": "DIPUTACIÓN PROV. DE SEGOVIA",
+      "nivel3": "DIPUTACIÓN PROVINCIAL DE SEGOVIA"
     },
-    "sedeElectronica": "https://sede.valencia.es",
-    "codigoBDNS": "917202",
-    "fechaRecepcion": "2026-07-03",
+    "sedeElectronica": "https://sede.dipsegovia.es/info.0",
+    "codigoBDNS": "897573",
+    "fechaRecepcion": "2026-04-08",
     "instrumentos": [
       {
         "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
       }
     ],
-    "tipoConvocatoria": "Concurrencia competitiva - canónica",
-    "presupuestoTotal": 300793,
+    "tipoConvocatoria": "Concesión directa - instrumental",
+    "presupuestoTotal": 5000,
     "mrr": false,
-    "descripcion": "CONVOCATORIA SUBVENCIONES INDUMENTARISTAS Y ORFEBRES",
+    "descripcion": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN NOMINATIVA AL GREMIO ARTESANAL SEGOVIANO PARA EL AÑO 2026",
     "descripcionLeng": null,
     "tiposBeneficiarios": [
       {
-        "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
       }
     ],
     "sectores": [
       {
-        "descripcion": "Fabricación de artículos de joyería, bisutería y similares",
-        "codigo": "32.1"
+        "descripcion": "OTROS SERVICIOS",
+        "codigo": "T"
+      },
+      {
+        "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+        "codigo": "H"
       }
     ],
     "regiones": [
       {
-        "descripcion": "ES523 - Valencia / València"
+        "descripcion": "ES416 - Segovia"
       }
     ],
     "descripcionFinalidad": "Comercio, Turismo y Pymes",
-    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES DEL AYUNTAMIENTO DE VALENCIA Y SUS ORGANISMOS PÚBLICOS",
-    "urlBasesReguladoras": "https://sede.valencia.es/sede/ordenanzas/index.xhtml",
-    "sePublicaDiarioOficial": true,
+    "descripcionBasesReguladoras": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN NOMINATIVA AL GREMIO ARTESANAL SEGOVIANO PARA EL AÑO 2026",
+    "urlBasesReguladoras": "https://www.dipsegovia.es/es/la-institucion/servicios/intervencion/presupuestos",
+    "sePublicaDiarioOficial": false,
     "abierto": false,
-    "fechaInicioSolicitud": null,
-    "fechaFinSolicitud": null,
-    "textInicio": "A partir del día siguiente al de la publicación del extracto de la convocatoria en el BOP.",
-    "textFin": "A los  20 días naturales a contar desde el día siguiente al de la publicación del extracto en el BOP",
+    "fechaInicioSolicitud": "2026-01-02",
+    "fechaFinSolicitud": "2026-06-30",
+    "textInicio": null,
+    "textFin": null,
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
-    "reglamento": {
-      "descripcion": "REG (UE) 2023/2831 de minimis, General",
-      "orden": null
-    },
+    "reglamento": null,
     "objetivos": [],
     "sectoresProductos": [],
     "documentos": [
       {
-        "id": 1488145,
-        "descripcion": "Texto en castellano de la convocatoria",
-        "nombreFic": "2.2-Convocatoria_Indumentaristas_y_Orfebres_2026.pdf",
-        "long": 366120,
-        "datMod": "2026-07-03",
-        "datPublicacion": "2026-07-03"
+        "id": 1431502,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260302_Convenio_CONVENIO 2026-0015 [CONVENIO gremio artesanos 2026].pdf",
+        "long": 632379,
+        "datMod": "2026-04-08",
+        "datPublicacion": "2026-04-08"
+      }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+  },
+  {
+    "id": 1099130,
+    "organo": {
+      "nivel1": "LOCAL",
+      "nivel2": "DIPUTACIÓN PROV. DE SEGOVIA",
+      "nivel3": "DIPUTACIÓN PROVINCIAL DE SEGOVIA"
+    },
+    "sedeElectronica": "https://sede.dipsegovia.es/info.0",
+    "codigoBDNS": "897569",
+    "fechaRecepcion": "2026-04-08",
+    "instrumentos": [
+      {
+        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+      }
+    ],
+    "tipoConvocatoria": "Concesión directa - instrumental",
+    "presupuestoTotal": 4000,
+    "mrr": false,
+    "descripcion": "CONVENIO ESPECÍFICO DE COLABORACIÓN ENTRE LA EXCMA. DIPUTACIÓN DE SEGOVIA Y LA FUNDACIÓN DEL PATRIMONIO NATURAL DE CASTILLA Y LEÓN PARA EL DESARROLLO DEL PROGRAMA “V(E)²N EN LAS CASAS DEL PARQUE DE LA RED DE ESPACIOS NATURALES DE CASTILLA Y LEÓN EN SEGOVI",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+      {
+        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+      }
+    ],
+    "sectores": [
+      {
+        "descripcion": "OTROS SERVICIOS",
+        "codigo": "T"
+      },
+      {
+        "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+        "codigo": "H"
+      }
+    ],
+    "regiones": [
+      {
+        "descripcion": "ES416 - Segovia"
+      }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "CONVENIO ESPECÍFICO DE COLABORACIÓN ENTRE LA EXCMA. DIPUTACIÓN DE SEGOVIA Y LA FUNDACIÓN DEL PATRIMONIO NATURAL DE CASTILLA Y LEÓN PARA EL DESARROLLO DEL PROGRAMA “V(E)²N EN LAS CASAS DEL PARQUE DE LA RED DE ESPACIOS NATURALES DE CASTILLA Y LEÓN EN SEGOVI",
+    "urlBasesReguladoras": "https://www.dipsegovia.es/es/la-institucion/servicios/intervencion/presupuestos",
+    "sePublicaDiarioOficial": false,
+    "abierto": false,
+    "fechaInicioSolicitud": "2026-01-02",
+    "fechaFinSolicitud": "2026-08-31",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+      {
+        "id": 1431489,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260224_Convenio_CONVENIO 2026-0020 [CONVENIO VEEN SEGOVIA 2026].pdf",
+        "long": 651897,
+        "datMod": "2026-04-08",
+        "datPublicacion": "2026-04-08"
+      }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+  },
+  {
+    "id": 1099126,
+    "organo": {
+      "nivel1": "LOCAL",
+      "nivel2": "DIPUTACIÓN PROV. DE SEGOVIA",
+      "nivel3": "DIPUTACIÓN PROVINCIAL DE SEGOVIA"
+    },
+    "sedeElectronica": "https://sede.dipsegovia.es/info.0",
+    "codigoBDNS": "897565",
+    "fechaRecepcion": "2026-04-08",
+    "instrumentos": [
+      {
+        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+      }
+    ],
+    "tipoConvocatoria": "Concesión directa - instrumental",
+    "presupuestoTotal": 15000,
+    "mrr": false,
+    "descripcion": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN A LA ASOCIACIÓN DE EMPRESARIOS DE ALOJAMIENTO, HOSTELERÍA Y TURISMO DE SEGOVIA (HOTUSE) Proyecto “Plan Emprende en Hostelería y Turismo, 3.0 MÁS QUE BARES”, 2026",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+      {
+        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+      }
+    ],
+    "sectores": [
+      {
+        "descripcion": "OTROS SERVICIOS",
+        "codigo": "T"
+      },
+      {
+        "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+        "codigo": "H"
+      }
+    ],
+    "regiones": [
+      {
+        "descripcion": "ES416 - Segovia"
+      }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN A LA ASOCIACIÓN DE EMPRESARIOS DE ALOJAMIENTO, HOSTELERÍA Y TURISMO DE SEGOVIA (HOTUSE) Proyecto “Plan Emprende en Hostelería y Turismo, 3.0 MÁS QUE BARES”, 2026",
+    "urlBasesReguladoras": "https://www.dipsegovia.es/es/la-institucion/servicios/intervencion/presupuestos",
+    "sePublicaDiarioOficial": false,
+    "abierto": false,
+    "fechaInicioSolicitud": "2026-01-02",
+    "fechaFinSolicitud": "2026-06-30",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+      {
+        "id": 1431480,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20260218_Convenio_CONVENIO 2026-0009 [CONVENIO Diputación -HOTUSE 2026].pdf",
+        "long": 588231,
+        "datMod": "2026-04-08",
+        "datPublicacion": "2026-04-08"
+      }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+  },
+  {
+    "id": 1099109,
+    "organo": {
+      "nivel1": "LOCAL",
+      "nivel2": "DIPUTACIÓN PROV. DE SEGOVIA",
+      "nivel3": "DIPUTACIÓN PROVINCIAL DE SEGOVIA"
+    },
+    "sedeElectronica": "https://sede.dipsegovia.es/info.0",
+    "codigoBDNS": "897548",
+    "fechaRecepcion": "2026-04-08",
+    "instrumentos": [
+      {
+        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+      }
+    ],
+    "tipoConvocatoria": "Concesión directa - instrumental",
+    "presupuestoTotal": 10000,
+    "mrr": false,
+    "descripcion": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN AL AYUNTAMIENTO DE CANTALEJO PARA LAS ACTIVIDADES RELACIONADAS CON LA CONCENTRACIÓN MOTERA “La Leyenda Continúa” 2026",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+      {
+        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+      }
+    ],
+    "sectores": [
+      {
+        "descripcion": "OTROS SERVICIOS",
+        "codigo": "T"
+      },
+      {
+        "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+        "codigo": "H"
+      }
+    ],
+    "regiones": [
+      {
+        "descripcion": "ES416 - Segovia"
+      }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "CONVENIO PARA LA CONCESIÓN DIRECTA DE SUBVENCIÓN AL AYUNTAMIENTO DE CANTALEJO PARA LAS ACTIVIDADES RELACIONADAS CON LA CONCENTRACIÓN MOTERA “La Leyenda Continúa” 2026",
+    "urlBasesReguladoras": "https://www.dipsegovia.es/es/la-institucion/servicios/intervencion/presupuestos",
+    "sePublicaDiarioOficial": false,
+    "abierto": false,
+    "fechaInicioSolicitud": "2026-01-02",
+    "fechaFinSolicitud": "2026-04-08",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+      {
+        "id": 1431424,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "20251222_Convenio_CONVENIO 2025-0166 [CONVENIO AYTO CANTALEJO 2026].pdf",
+        "long": 616516,
+        "datMod": "2026-04-08",
+        "datPublicacion": "2026-04-08"
+      }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción. Accesos al API del sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. La Administración Presupuestaria, para salvaguardar la protección del acceso libre e irrestricto de los ciudadanos a este Portal y a su información podrá adoptar medidas restrictivas de acceso al API ante situaciones de manifiesto abuso del servicio, riesgos de seguridad, o uso fraudulento de la información descargada, de acuerdo con las buenas prácticas de gestión de datos abiertos (https://datos.gob.es/es/blog/limitaciones-la-consulta-de-una-api) establecidas por el Ministerio para la Transformación Digital y de la Función Pública."
+  },
+  {
+    "id": 1098263,
+    "organo": {
+      "nivel1": "AUTONOMICA",
+      "nivel2": "CASTILLA Y LEÓN",
+      "nivel3": "CONSEJERÍA DE INDUSTRIA, UNIVERSIDADES, EMPLEO Y COMERCIO"
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "896702",
+    "fechaRecepcion": "2026-04-01",
+    "instrumentos": [
+      {
+        "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+      }
+    ],
+    "tipoConvocatoria": "Concesión directa - instrumental",
+    "presupuestoTotal": 200000,
+    "mrr": false,
+    "descripcion": "Acuerdo de 12 de marzo de 2026, de la Junta de Castilla y León, por el que se autoriza la concesión directa de una subvención a la Fundación Centro Nacional del Vidrio.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+      {
+        "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+      }
+    ],
+    "sectores": [
+      {
+        "descripcion": "Fabricación de repuestos y accesorios de vehículos de motor",
+        "codigo": "29.3"
+      },
+      {
+        "descripcion": "Fabricación de vidrio y productos de vidrio",
+        "codigo": "23.1"
+      }
+    ],
+    "regiones": [
+      {
+        "descripcion": "ES416 - Segovia"
+      }
+    ],
+    "descripcionFinalidad": "Industria y Energía",
+    "descripcionBasesReguladoras": "Ley 5/2008, de 25 de septiembre, de Subvenciones de la Comunidad de Castilla y León. Artículo 31.",
+    "urlBasesReguladoras": "https://www.boe.es/buscar/pdf/2008/BOE-A-2008-16664-consolidado.pdf",
+    "sePublicaDiarioOficial": false,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Sin plazo de solicitud",
+    "textFin": "Sin plazo de solicitud",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+      {
+        "id": 1428845,
+        "descripcion": "Documento de la convocatoria en español",
+        "nombreFic": "Acuerdo Junta S.D. CNV_2026.pdf",
+        "long": 300520,
+        "datMod": "2026-04-01",
+        "datPublicacion": "2026-04-01"
       }
     ],
     "anuncios": [],

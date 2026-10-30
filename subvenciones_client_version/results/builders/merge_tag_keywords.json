@@ -1,0 +1,106 @@
+[
+  {
+    "tag_id": "3e383f94-7b2c-81c8-b119-e211eb04305f",
+    "updated_keywords": [
+      "afectados",
+      "damnificados",
+      "guerra",
+      "dana",
+      "emergencia",
+      "emergencias",
+      "incendios",
+      "inundaciones",
+      "urgentes",
+      "zonas afectadas",
+      "mur de contencion"
+    ],
+    "totalSubvenciones": 86,
+    "unusedKeywords": []
+  },
+  {
+    "tag_id": "3e383f94-7b2c-8133-a035-f02b05c3ae19",
+    "updated_keywords": [
+      "ciclismo",
+      "deporte",
+      "deportes",
+      "deportista",
+      "deportistas",
+      "deportiva",
+      "deportivas",
+      "deportivo",
+      "deportivos",
+      "karate",
+      "handbol",
+      "hockey"
+    ],
+    "totalSubvenciones": 107,
+    "unusedKeywords": []
+  },
+  {
+    "tag_id": "3e383f94-7b2c-811e-81e6-f2b11ff489e2",
+    "updated_keywords": [
+      "asociaciones de vecinas",
+      "asociaciones vecinales",
+      "colectivos vulnerables",
+      "drets socials",
+      "migrantes",
+      "penitenciarios",
+      "personas sin hogar",
+      "pobreza",
+      "seguridad alimentaria",
+      "social",
+      "sociales",
+      "vulnerabilidad",
+      "red de solidaridad",
+      "entidades vecinales"
+    ],
+    "totalSubvenciones": 75,
+    "unusedKeywords": [
+      "a.v.",
+      "a.vv."
+    ]
+  },
+  {
+    "tag_id": "3e383f94-7b2c-81b8-890d-d2e9c7da8140",
+    "updated_keywords": [
+      "artes",
+      "cavalcada de reis",
+      "cine",
+      "cultura",
+      "cultural",
+      "culturales",
+      "dantza",
+      "danza",
+      "documentales",
+      "instrumentos musicales",
+      "kultur",
+      "libreros",
+      "literaria",
+      "literatura",
+      "musica",
+      "pintura",
+      "teatre",
+      "teatro",
+      "musical"
+    ],
+    "totalSubvenciones": 138,
+    "unusedKeywords": []
+  },
+  {
+    "tag_id": "3e583f94-7b2c-811d-bd5c-e45d4bd15d8e",
+    "updated_keywords": [
+      "concesion directa",
+      "convenio",
+      "convenios",
+      "de forma directa",
+      "nominada",
+      "nominativa",
+      "nominativas",
+      "subvencion directa",
+      "subvenciones directas",
+      "subvenciones nominadas"
+    ],
+    "totalSubvenciones": 403,
+    "unusedKeywords": []
+  }
+]

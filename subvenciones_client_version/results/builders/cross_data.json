@@ -1,65 +1,60 @@
 [
   {
+    "tagId": "3f183f94-7b2c-81f9-b37b-eba89a2ae5b5",
+    "totalSubvenciones": 0,
+    "unusedKeywords": []
+  },
+  {
+    "tagId": "3e583f94-7b2c-811d-bd5c-e45d4bd15d8e",
+    "totalSubvenciones": 403,
+    "unusedKeywords": []
+  },
+  {
     "tagId": "3e383f94-7b2c-8116-86f5-d5509bd26c16",
-    "totalSubvenciones": 16,
+    "totalSubvenciones": 33,
     "unusedKeywords": [
       "aljibes",
+      "habitabilidad",
       "habitacional"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-81c8-b119-e211eb04305f",
-    "totalSubvenciones": 1,
-    "unusedKeywords": [
-      "afectados",
-      "catastrofe",
-      "damnificados",
-      "desastre natural",
-      "emergencia",
-      "emergencias",
-      "incendios",
-      "inundaciones",
-      "sequias",
-      "terremotos",
-      "tormentas",
-      "urgentes",
-      "victimas",
-      "zonas afectadas"
-    ]
+    "totalSubvenciones": 86,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-815f-b875-c8fc42d8f2f8",
-    "totalSubvenciones": 9,
+    "totalSubvenciones": 16,
     "unusedKeywords": [
       "experiencia turistica",
       "hospedaje",
-      "turistico"
+      "turistico",
+      "turistica"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-81d0-b60c-e403540b0d9a",
-    "totalSubvenciones": 0,
+    "totalSubvenciones": 18,
     "unusedKeywords": [
       "flotas de transporte",
       "logistica",
       "movilidad electrica",
-      "movilidad sostenible",
       "movilidad urbana",
       "plan moves",
       "puntos de recarga",
-      "transporte de mercancias",
-      "transporte de viajeros",
-      "transporte publico",
       "vehiculos electricos",
       "vehiculos hibridos"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-8190-acde-fdd128ba13f3",
-    "totalSubvenciones": 21,
+    "totalSubvenciones": 28,
     "unusedKeywords": [
+      "ambientales",
       "bioclimatico",
       "bioclimaticos",
+      "bicicletas electricas",
       "cambio climatico",
       "comunidades energeticas",
       "descarbonizacion",
@@ -68,54 +63,27 @@
       "economia circular",
       "eficiencia energetica",
       "huella de carbono",
+      "medio ambiente",
       "reciclaje",
       "sustentabilidad"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-811e-81e6-f2b11ff489e2",
-    "totalSubvenciones": 0,
+    "totalSubvenciones": 75,
     "unusedKeywords": [
-      "bono social",
-      "emergencia social",
-      "exclusion social",
-      "inclusion social",
-      "ingreso minimo",
-      "inmigracion",
-      "integracion social",
-      "migrantes",
-      "necesidades basicas",
-      "penitenciarios",
-      "personas sin hogar",
-      "pobreza",
-      "renta garantizada",
-      "renta minima",
-      "riesgo de exclusion",
-      "sin recursos",
-      "vulnerabilidad"
+      "a.v.",
+      "a.vv."
     ]
   },
   {
     "tagId": "3e383f94-7b2c-815a-afba-e79c5e88988f",
-    "totalSubvenciones": 58,
-    "unusedKeywords": [
-      "agricola",
-      "agricolas",
-      "alimentacion",
-      "apicultura",
-      "cosecha",
-      "cosechas",
-      "cultivos",
-      "elaboracion de vino",
-      "explotacion agraria",
-      "montes",
-      "regadio",
-      "silvicultura"
-    ]
+    "totalSubvenciones": 74,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-8190-b584-dd143e0f234d",
-    "totalSubvenciones": 24,
+    "totalSubvenciones": 29,
     "unusedKeywords": [
       "cancer",
       "drogas",
@@ -123,6 +91,7 @@
       "fibrosis quistica",
       "hematologico",
       "medico",
+      "medicos",
       "patologia",
       "patologias",
       "sanitario",
@@ -131,34 +100,23 @@
   },
   {
     "tagId": "3e383f94-7b2c-81a2-a559-c2583fa95cca",
-    "totalSubvenciones": 0,
+    "totalSubvenciones": 35,
     "unusedKeywords": [
-      "aldea",
       "aldeas",
-      "desarrollo rural",
       "despoblacion",
-      "entorno rural",
-      "medio rural",
       "mundo rural",
       "poblacion rural",
-      "reto demografico",
-      "rural",
-      "rurales"
+      "reto demografico"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-8182-8072-d4b765781441",
-    "totalSubvenciones": 1,
+    "totalSubvenciones": 21,
     "unusedKeywords": [
-      "adultos_mayores",
       "centro de dia",
       "centros de dia",
-      "envejecimiento",
       "jubilaciones",
       "jubiladas",
-      "jubilados",
-      "pensionistas",
-      "residencia",
       "residencias",
       "teleasistencia",
       "tercera edad"
@@ -166,28 +124,23 @@
   },
   {
     "tagId": "3e383f94-7b2c-81e7-bd83-c1b77a6a4dc9",
-    "totalSubvenciones": 25,
+    "totalSubvenciones": 35,
     "unusedKeywords": [
       "bienes de interes cultural",
-      "conservacion del patrimonio",
       "festejos populares",
-      "fiestas patronales",
       "folclore",
       "fomento del gallego",
       "fomento del valenciano",
       "lenguas cooficiales",
       "museos",
       "normalizacion linguistica",
-      "patrimonio cultural",
-      "patrimonio historico",
-      "patrimonio inmaterial",
-      "restauracion de patrimonio",
+      "memoria historica",
       "tradiciones populares"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-8154-ba58-e5df70e22ae9",
-    "totalSubvenciones": 1,
+    "totalSubvenciones": 10,
     "unusedKeywords": [
       "bono alquiler joven",
       "bono cultural",
@@ -195,7 +148,6 @@
       "emancipacion juvenil",
       "garantia juvenil",
       "jovenes",
-      "juventud",
       "poblacion juvenil",
       "xove",
       "xuventude"
@@ -203,28 +155,30 @@
   },
   {
     "tagId": "3e383f94-7b2c-8120-8b13-fc7a185f2dea",
-    "totalSubvenciones": 89,
+    "totalSubvenciones": 62,
     "unusedKeywords": [
       "biotecnologia",
       "ciencia e innovacion",
       "desarrollo experimental",
       "desarrollo tecnologico",
       "divulgacion cientifica",
-      "innovacion empresarial",
-      "innovacion tecnologica",
+      "i+d+i",
+      "innovacion",
       "investigacion cientifica",
       "investigacion industrial",
       "nanotecnologia",
       "proyecto de investigacion",
       "proyectos de investigacion",
+      "transferencia de conocimiento",
       "transferencia tecnologica"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-8181-b1f5-e14b0204ba8f",
-    "totalSubvenciones": 1,
+    "totalSubvenciones": 12,
     "unusedKeywords": [
       "ayuda humanitaria",
+      "internacionalizacion",
       "ayuda oficial al desarrollo",
       "cooperacion al desarrollo",
       "cooperacion internacional",
@@ -235,21 +189,12 @@
   },
   {
     "tagId": "3e383f94-7b2c-81d6-945a-d7bcd3d37bd7",
-    "totalSubvenciones": 0,
-    "unusedKeywords": [
-      "certificaciones industriales",
-      "industria manufacturera",
-      "modernizacion industrial",
-      "poligonos industriales",
-      "pymes industriales",
-      "sector industrial",
-      "suelo industrial",
-      "transicion industrial"
-    ]
+    "totalSubvenciones": 2,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-81ac-a261-f5e7eece8424",
-    "totalSubvenciones": 19,
+    "totalSubvenciones": 20,
     "unusedKeywords": [
       "brecha salarial",
       "corresponsabilidad",
@@ -267,80 +212,57 @@
   },
   {
     "tagId": "3e383f94-7b2c-81b2-aba7-d7b7c3a2907e",
-    "totalSubvenciones": 0,
+    "totalSubvenciones": 4,
     "unusedKeywords": [
       "bares",
       "cafeterias",
-      "eventos gastronomicos",
-      "feria gastronomica",
+      "gastronomicos",
       "gastronomia",
-      "gastronomica",
       "hosteleria",
       "restaurantes",
-      "sector hostelero",
-      "servicios de restauracion",
-      "turismo gastronomico"
+      "restauracion",
+      "gastronomico"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-8173-992c-e8b9dea21167",
-    "totalSubvenciones": 111,
+    "totalSubvenciones": 55,
     "unusedKeywords": [
+      "acciones formativas",
       "capacitacion",
-      "cursos de formacion",
-      "formacion continua",
-      "formacion ocupacional",
-      "formacion para el empleo",
-      "formacion profesional",
       "recualificacion"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-811d-ad34-da4cd839149f",
-    "totalSubvenciones": 1,
+    "totalSubvenciones": 47,
     "unusedKeywords": [
-      "acogida",
-      "acogimiento",
-      "adopcion",
-      "bebe",
       "conciliacion",
-      "menor",
-      "menores",
-      "nacimiento",
-      "natalidad",
-      "pef general",
-      "progenitor",
       "progenitora",
-      "progenitoras",
-      "progenitores"
+      "progenitoras"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-81b0-a7db-da6c598dc005",
-    "totalSubvenciones": 23,
+    "totalSubvenciones": 26,
     "unusedKeywords": [
       "cuota cero",
       "incubadora de empresas",
+      "noves empreses",
       "nuevas empresas",
       "nuevos autonomos",
+      "projectes empresarials",
       "tarifa plana"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-818f-abe3-c01d8f52378e",
-    "totalSubvenciones": 92,
-    "unusedKeywords": [
-      "contratacion",
-      "contratacion indefinida",
-      "contratacion temporal",
-      "fomento de la contratacion",
-      "insercion laboral",
-      "mantenimiento del empleo"
-    ]
+    "totalSubvenciones": 70,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-81f1-9d2b-ff9335cede04",
-    "totalSubvenciones": 19,
+    "totalSubvenciones": 29,
     "unusedKeywords": [
       "bono comedor",
       "centro educativo",
@@ -353,21 +275,19 @@
   },
   {
     "tagId": "3e383f94-7b2c-8174-9e9c-fb20569c62c8",
-    "totalSubvenciones": 0,
+    "totalSubvenciones": 14,
     "unusedKeywords": [
-      "accesibilidad",
-      "barreras",
-      "discapacidad",
       "ostomia"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-81c8-a8d0-e8837337881e",
-    "totalSubvenciones": 23,
+    "totalSubvenciones": 21,
     "unusedKeywords": [
       "automatizacion",
       "banda ancha",
       "big data",
+      "ciberseguridad",
       "cloud computing",
       "computacion en la nube",
       "conectividad",
@@ -384,68 +304,34 @@
   },
   {
     "tagId": "3e383f94-7b2c-8133-a035-f02b05c3ae19",
-    "totalSubvenciones": 119,
-    "unusedKeywords": [
-      "actividad fisica",
-      "consejo superior de deportes",
-      "entrenador",
-      "entrenadores",
-      "federaciones deportivas",
-      "instalaciones deportivas",
-      "olimpica",
-      "paralimpica",
-      "paralimpico"
-    ]
+    "totalSubvenciones": 107,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-81e8-864d-cfb485aba582",
     "totalSubvenciones": 2,
     "unusedKeywords": [
-      "cultura de defensa",
       "ejercito",
       "fuerzas armadas",
-      "industria de defensa",
       "militar",
-      "seguridad nacional",
-      "tecnologia dual"
+      "seguridad nacional"
     ]
   },
   {
     "tagId": "3e383f94-7b2c-81b8-890d-d2e9c7da8140",
-    "totalSubvenciones": 116,
-    "unusedKeywords": [
-      "artes escenicas",
-      "artes plasticas",
-      "artes visuales",
-      "bandas de musica",
-      "cinematografia",
-      "edicion literaria",
-      "escultura",
-      "produccion audiovisual"
-    ]
+    "totalSubvenciones": 138,
+    "unusedKeywords": []
   },
   {
     "tagId": "3e383f94-7b2c-8029-9d61-e57459602721",
-    "totalSubvenciones": 73,
+    "totalSubvenciones": 47,
     "unusedKeywords": [
       "comercio minorista",
       "locales comerciales",
-      "mercadillos",
+      "locals comercials",
       "mercados municipales",
       "plazas de abastos",
       "retail"
-    ]
-  },
-  {
-    "tagId": "3e383f94-7b2c-8199-9a1b-c2d3e4f5a6b7",
-    "totalSubvenciones": 376,
-    "unusedKeywords": [
-      "aportacion dineraria",
-      "concede una subvencion a",
-      "compensar econonicamente a",
-      "se condede a",
-      "subvencio directa",
-      "subvencion nominada"
     ]
   }
 ]

@@ -1,0 +1,152 @@
+[
+    {
+        "id": "3f283f94-7b2c-8132-ac4d-d76d3d977d0a",
+        "name": "experimentacion musical",
+        "url": "https://app.notion.com/p/experimentacion-musical-3f283f947b2c8132ac4dd76d3d977d0a",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:57:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81b8-890d-d2e9c7da8140"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "experimentacion musical"
+    },
+    {
+        "id": "3f283f94-7b2c-8141-a947-c4d162f6b44c",
+        "name": "hockey sobre patines",
+        "url": "https://app.notion.com/p/hockey-sobre-patines-3f283f947b2c8141a947c4d162f6b44c",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:57:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-8133-a035-f02b05c3ae19"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "hockey sobre patines"
+    },
+    {
+        "id": "3f283f94-7b2c-81cf-99bb-d2103796847c",
+        "name": "entidades vecinales",
+        "url": "https://app.notion.com/p/entidades-vecinales-3f283f947b2c81cf99bbd2103796847c",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:57:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-811e-81e6-f2b11ff489e2"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "entidades vecinales"
+    },
+    {
+        "id": "3f283f94-7b2c-8137-a57d-c3fa35c8b151",
+        "name": "red de solidaridad",
+        "url": "https://app.notion.com/p/red-de-solidaridad-3f283f947b2c8137a57dc3fa35c8b151",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:57:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-811e-81e6-f2b11ff489e2"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "red de solidaridad"
+    },
+    {
+        "id": "3f283f94-7b2c-8123-be15-ea8ec2853eaf",
+        "name": "lleida handbol club",
+        "url": "https://app.notion.com/p/lleida-handbol-club-3f283f947b2c8123be15ea8ec2853eaf",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:57:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-8133-a035-f02b05c3ae19"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "lleida handbol club"
+    },
+    {
+        "id": "3f283f94-7b2c-81b7-86fa-e061c57d4b89",
+        "name": "captacion de agua",
+        "url": "https://app.notion.com/p/captacion-de-agua-3f283f947b2c81b786fae061c57d4b89",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:58:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81c8-b119-e211eb04305f"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "captacion de agua"
+    },
+    {
+        "id": "3f283f94-7b2c-81dc-bd90-f6b13181c995",
+        "name": "mur de contencion",
+        "url": "https://app.notion.com/p/mur-de-contencion-3f283f947b2c81dcbd90f6b13181c995",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:58:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81c8-b119-e211eb04305f"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "mur de contencion"
+    },
+    {
+        "id": "3f283f94-7b2c-8101-9f39-f55f28ef6002",
+        "name": "forest",
+        "url": "https://app.notion.com/p/forest-3f283f947b2c81019f39f55f28ef6002",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:58:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-815a-afba-e79c5e88988f"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "forest"
+    },
+    {
+        "id": "3f283f94-7b2c-8110-87e0-c86ff8f49813",
+        "name": "ventadas",
+        "url": "https://app.notion.com/p/ventadas-3f283f947b2c811087e0c86ff8f49813",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:58:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81c8-b119-e211eb04305f"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "ventadas"
+    },
+    {
+        "id": "3f283f94-7b2c-8182-bd54-f4d9bbdb9359",
+        "name": "corredor mediterraneo",
+        "url": "https://app.notion.com/p/corredor-mediterraneo-3f283f947b2c8182bd54f4d9bbdb9359",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T09:58:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81d0-b60c-e403540b0d9a"
+        ],
+        "property_estado": "En Observación",
+        "property_palabra_clave": "corredor mediterraneo"
+    }
+]

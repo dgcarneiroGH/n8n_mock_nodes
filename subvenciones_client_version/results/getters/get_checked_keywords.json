@@ -1,0 +1,92 @@
+[
+    {
+        "id": "3f283f94-7b2c-81f1-911a-dff25a855380",
+        "name": "mur de contencion",
+        "url": "https://app.notion.com/p/mur-de-contencion-3f283f947b2c81f1911adff25a855380",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81c8-b119-e211eb04305f"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "mur de contencion"
+    },
+    {
+        "id": "3f283f94-7b2c-8164-ae1e-eab14a690d9f",
+        "name": "handbol",
+        "url": "https://app.notion.com/p/handbol-3f283f947b2c8164ae1eeab14a690d9f",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-8133-a035-f02b05c3ae19"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "handbol"
+    },
+    {
+        "id": "3f283f94-7b2c-812f-a3b0-e2ddd4a1a40c",
+        "name": "red de solidaridad",
+        "url": "https://app.notion.com/p/red-de-solidaridad-3f283f947b2c812fa3b0e2ddd4a1a40c",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-811e-81e6-f2b11ff489e2"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "red de solidaridad"
+    },
+    {
+        "id": "3f283f94-7b2c-8159-a31b-c56837d3ed2d",
+        "name": "entidades vecinales",
+        "url": "https://app.notion.com/p/entidades-vecinales-3f283f947b2c8159a31bc56837d3ed2d",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-811e-81e6-f2b11ff489e2"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "entidades vecinales"
+    },
+    {
+        "id": "3f283f94-7b2c-81d6-812f-d0d6011fd1c8",
+        "name": "hockey",
+        "url": "https://app.notion.com/p/hockey-3f283f947b2c81d6812fd0d6011fd1c8",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-8133-a035-f02b05c3ae19"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "hockey"
+    },
+    {
+        "id": "3f283f94-7b2c-810d-96a5-e2149d228882",
+        "name": "musical",
+        "url": "https://app.notion.com/p/musical-3f283f947b2c810d96a5e2149d228882",
+        "property_fecha_de_detección": {
+            "start": "2026-10-07T08:05:00.000+02:00",
+            "end": null,
+            "time_zone": null
+        },
+        "property_categoría": [
+            "3e383f94-7b2c-81b8-890d-d2e9c7da8140"
+        ],
+        "property_estado": "Pendiente de aceptación",
+        "property_palabra_clave": "musical"
+    }
+]
